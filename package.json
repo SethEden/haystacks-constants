@@ -1,0 +1,27 @@
+{
+  "name": "haystacks-constants",
+  "version": "0.0.1",
+  "description": "A repo to store reusable constants libraries for use with haystacks implemented applications & plugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/haystacks-constants.git"
+  },
+  "keywords": [
+    "constants",
+    "strings",
+    "values",
+    "dictionary",
+    "phonics",
+    "libraries"
+  ],
+  "author": "Seth Hollingsead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/haystacks-constants/issues"
+  },
+  "homepage": "https://github.com/SethEden/haystacks-constants#readme"
+}
