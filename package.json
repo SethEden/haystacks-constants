@@ -1,10 +1,10 @@
 {
-  "name": "haystacks-constants",
+  "name": "@haystacks/constants",
   "version": "0.0.1",
   "description": "A repo to store reusable constants libraries for use with haystacks implemented applications & plugins.",
   "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "vers": ""
   },
   "repository": {
     "type": "git",
