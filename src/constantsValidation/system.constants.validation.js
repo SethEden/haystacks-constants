@@ -10,7 +10,7 @@
  */
 
 // Internal imports
-import * as sys from '../../constants/system.constants.js';
+import * as sys from '../constants/system.constants.js';
 
 /**
  * @function systemConstantsValidation

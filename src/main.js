@@ -28,6 +28,8 @@
  * @requires module:system.constants.validation
  * @requires module:unit.constants.validation
  * @requires module:word.constants.validation
+ * @requires {@link https://www.npmjs.com/package/url|url}
+ * @requires {@link https://www.npmjs.com/package/path|path}
  * @author Seth Hollingsead
  * @date 2022/04/11
  * @copyright Copyright © 2022-… by Seth Hollingsead. All rights reserved
@@ -36,6 +38,7 @@
 // Internal imports
 import * as bas from './constants/basic.constants.js';
 import * as biz from './constants/business.constants.js';
+import * as clr from './constants/color.constants.js';
 import * as cmd from './constants/command.constants.js';
 import * as cfg from './constants/configuration.constants.js';
 import * as ctr from './constants/country.constants.js';
@@ -50,6 +53,7 @@ import * as unt from './constants/unit.constants.js';
 import * as wrd from './constants/word.constants.js';
 import * as bas_cv from './constantsValidation/basic.constants.validation.js';
 import * as biz_cv from './constantsValidation/business.constants.validation.js';
+import * as clr_cv from './constantsValidation/color.constants.validation.js';
 import * as cmd_cv from './constantsValidation/command.constants.validation.js';
 import * as cfg_cv from './constantsValidation/configuration.constants.validation.js';
 import * as ctr_cv from './constantsValidation/country.constants.validation.js';
@@ -63,12 +67,17 @@ import * as sys_cv from './constantsValidation/system.constants.validation.js';
 import * as unt_cv from './constantsValidation/unit.constants.validation.js';
 import * as wrd_cv from './constantsValidation/word.constants.validation.js';
 
-console.log('path.resolve(process.cwd()) resolves as: ' + path.resolve(process.cwd()));
-console.log('url.fileURLToPath(path.dirname(import.meta.url)) resovles as: ' + url.fileURLToPath(path.dirname(import.meta.url)));
+// External imports
+import url from 'url';
+import path from 'path';
+
+const constantsPath = url.fileURLToPath(path.dirname(import.meta.url)) + bas.cForwardSlash + wrd.cconstants + bas.cForwardSlash;
 
 export default {
+  constantsPath,
   [gen.cbas]: bas,
   [gen.cbiz]: biz,
+  [gen.cclr]: clr,
   [gen.ccmd]: cmd,
   [gen.ccfg]: cfg,
   [gen.cctr]: ctr,
@@ -81,18 +90,19 @@ export default {
   [gen.csys]: sys,
   [gen.cunt]: unt,
   [gen.cwrd]: wrd,
-  [gen.bas + bas.cUnderscore + bas.ccv]: bas_cv,
-  [gen.biz + bas.cUnderscore + bas.ccv]: biz_cv,
-  [gen.cmd + bas.cUnderscore + bas.ccv]: cmd_cv,
-  [gen.cfg + bas.cUnderscore + bas.ccv]: cfg_cv,
-  [gen.ctr + bas.cUnderscore + bas.ccv]: ctr_cv,
-  [gen.fnc + bas.cUnderscore + bas.ccv]: fnc_cv,
-  [gen.gen + bas.cUnderscore + bas.ccv]: gen_cv,
-  [gen.lng + bas.cUnderscore + bas.ccv]: lng_cv,
-  [gen.msg + bas.cUnderscore + bas.ccv]: msg_cv,
-  [gen.num + bas.cUnderscore + bas.ccv]: num_cv,
-  [gen.phn + bas.cUnderscore + bas.ccv]: phn_cv,
-  [gen.sys + bas.cUnderscore + bas.ccv]: sys_cv,
-  [gen.unt + bas.cUnderscore + bas.ccv]: unt_cv,
-  [gen.wrd + bas.cUnderscore + bas.ccv]: wrd_cv
+  [gen.cbas + bas.cUnderscore + bas.ccv]: bas_cv,
+  [gen.cbiz + bas.cUnderscore + bas.ccv]: biz_cv,
+  [gen.cclr + bas.cUnderscore + bas.ccv]: clr_cv,
+  [gen.ccmd + bas.cUnderscore + bas.ccv]: cmd_cv,
+  [gen.ccfg + bas.cUnderscore + bas.ccv]: cfg_cv,
+  [gen.cctr + bas.cUnderscore + bas.ccv]: ctr_cv,
+  [gen.cfnc + bas.cUnderscore + bas.ccv]: fnc_cv,
+  [gen.cgen + bas.cUnderscore + bas.ccv]: gen_cv,
+  [gen.clng + bas.cUnderscore + bas.ccv]: lng_cv,
+  [gen.cmsg + bas.cUnderscore + bas.ccv]: msg_cv,
+  [gen.cnum + bas.cUnderscore + bas.ccv]: num_cv,
+  [gen.cphn + bas.cUnderscore + bas.ccv]: phn_cv,
+  [gen.csys + bas.cUnderscore + bas.ccv]: sys_cv,
+  [gen.cunt + bas.cUnderscore + bas.ccv]: unt_cv,
+  [gen.cwrd + bas.cUnderscore + bas.ccv]: wrd_cv
 };

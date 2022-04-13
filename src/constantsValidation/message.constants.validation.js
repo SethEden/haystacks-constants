@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as msg from '../../constants/message.constants.js';
+import * as msg from '../constants/message.constants.js';
 
 /**
  * @function messageConstantsValidation

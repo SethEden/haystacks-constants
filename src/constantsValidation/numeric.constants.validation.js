@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as num from '../../constants/numeric.constants.js';
+import * as num from '../constants/numeric.constants.js';
 
 /**
  * @function numericConstantsValidation

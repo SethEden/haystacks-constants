@@ -242,7 +242,7 @@ export const cSys = bas.cSy + bas.cs; // Sys
 export const cunt = phn.cunt; // unt
 export const cwrd = bas.cwr + bas.cd; // wrd
 export const capc = bas.cap + bas.cc; // apc
-export const callSysCV = wrd.call + cSys + bas.cCV; // allSysCV
+export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8

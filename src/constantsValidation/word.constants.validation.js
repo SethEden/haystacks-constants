@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as wrd from '../../constants/word.constants.js';
+import * as wrd from '../constants/word.constants.js';
 
 /**
  * @function wordConstantsValidation

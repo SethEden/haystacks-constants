@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as gen from '../../constants/generic.constants.js';
+import * as gen from '../constants/generic.constants.js';
 
 /**
  * @function genericConstantsValidation

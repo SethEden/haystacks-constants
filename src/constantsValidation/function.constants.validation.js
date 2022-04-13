@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as fnc from '../../constants/function.constants.js';
+import * as fnc from '../constants/function.constants.js';
 
 /**
  * @function functionConstantsVaidation
