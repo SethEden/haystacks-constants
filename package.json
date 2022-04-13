@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "A repo to store reusable constants libraries for use with haystacks implemented applications & plugins.",
   "main": "./src/main.js",
+  "type": "module",
   "scripts": {
     "vers": "standard-version -m \"chore(release) version %s \""
   },
