@@ -1,10 +1,10 @@
 {
   "name": "@haystacks/constants",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A repo to store reusable constants libraries for use with haystacks implemented applications & plugins.",
   "main": "./src/main.js",
   "scripts": {
-    "vers": ""
+    "vers": "standard-version -m \"chore(release) version %s \""
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SethEden/haystacks-constants/issues"
   },
-  "homepage": "https://github.com/SethEden/haystacks-constants#readme"
+  "homepage": "https://github.com/SethEden/haystacks-constants#readme",
+  "dependencies": {
+    "standard-version": "9.3.2"
+  }
 }
