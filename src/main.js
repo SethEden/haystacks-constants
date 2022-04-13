@@ -63,6 +63,9 @@ import * as sys_cv from './constantsValidation/system.constants.validation.js';
 import * as unt_cv from './constantsValidation/unit.constants.validation.js';
 import * as wrd_cv from './constantsValidation/word.constants.validation.js';
 
+console.log('path.resolve(process.cwd()) resolves as: ' + path.resolve(process.cwd()));
+console.log('url.fileURLToPath(path.dirname(import.meta.url)) resovles as: ' + url.fileURLToPath(path.dirname(import.meta.url)));
+
 export default {
   [gen.cbas]: bas,
   [gen.cbiz]: biz,
