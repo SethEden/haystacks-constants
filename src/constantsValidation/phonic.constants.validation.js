@@ -10,7 +10,7 @@
  */
 
 // Internal imports
-import * as phn from '../../constants/phonic.constants.js';
+import * as phn from '../constants/phonic.constants.js';
 
 /**
  * @function phonicConstantsValidation

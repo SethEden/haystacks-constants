@@ -10,7 +10,7 @@
  */
 
 // Internal imports
-import * as unt from '../../constants/unit.constants.js';
+import * as unt from '../constants/unit.constants.js';
 
 /**
  * @function unitConstantsValidation

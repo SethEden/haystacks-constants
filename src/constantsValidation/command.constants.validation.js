@@ -8,7 +8,7 @@
  */
 
 // Internal imports
-import * as cmd from '../../constants/command.constants.js';
+import * as cmd from '../constants/command.constants.js';
 
 /**
  * @function commandConstantsValidation

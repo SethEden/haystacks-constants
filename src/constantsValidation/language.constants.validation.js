@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as lng from '../../constants/language.constants.js';
+import * as lng from '../constants/language.constants.js';
 
 /**
  * @function languageConstantsValidation

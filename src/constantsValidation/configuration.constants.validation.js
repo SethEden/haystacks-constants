@@ -8,7 +8,7 @@
  */
 
 // Internal imports
-import * as cfg from '../../constants/configuration.constants.js';
+import * as cfg from '../constants/configuration.constants.js';
 
 /**
  * @function configurationConstantsValidation

@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as ctr from '../../constants/country.constants.js';
+import * as ctr from '../constants/country.constants.js';
 
 /**
  * @function countryConstantsValidation

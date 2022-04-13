@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as bas from '../../constants/basic.constants.js';
+import * as bas from '../constants/basic.constants.js';
 
 /**
  * @function basicConstantsValidation

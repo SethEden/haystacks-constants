@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import * as clr from '../../constants/color.constants.js';
+import * as clr from '../constants/color.constants.js';
 
 /**
  * @function colorConstantsValidation
