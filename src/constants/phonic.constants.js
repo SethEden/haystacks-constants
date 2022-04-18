@@ -926,6 +926,7 @@ export const cnny = bas.cnn + bas.cy; // nny
 export const corn = bas.cor + bas.cn; // orn
 export const cilk = bas.cil + bas.ck; // ilk
 export const calt = bas.cal + bas.ct; // alt
+export const cAlt = bas.cAl + bas.ct; // Alt
 export const cbalt = bas.cb + calt; // balt
 export const cobalt = bas.co + cbalt; // obalt
 export const ctte = bas.ctt + bas.ce; // tte
@@ -1162,6 +1163,7 @@ export const cplice = bas.cp + clice; // plice
 export const cnet = bas.cne + bas.ct; // net
 export const cnnet = bas.cn + cnet; // nnet
 export const cinnet = bas.ci + cnnet; // innet
+export const cict = bas.cic + bas.ct; // ict
 export const cictor = bas.cic + ctor; // ictor
 export const crictor = bas.cr + cictor; // rictor
 export const clide = bas.cl + cide; // lide
@@ -1187,6 +1189,13 @@ export const ccher = bas.cch + bas.cer; // cher
 export const cove = bas.cov + bas.ce; // ove
 export const cipe = bas.cip + bas.ce; // ipe
 export const coll = bas.col + bas.cl; // oll
+export const cank = bas.can + bas.ck; // ank
+export const cuty = bas.cut + bas.cy; // uty
+export const coft = bas.cof + bas.ct; // oft
+export const cstr = bas.cst + bas.cr; // str
+export const cStr = bas.cSt + bas.cr; // Str
+export const csur = bas.csu + bas.cr; // sur
+export const cSur = bas.cSu + bas.cr; // Sur
 
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////

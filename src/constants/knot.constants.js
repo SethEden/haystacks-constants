@@ -2,6 +2,13 @@
  * @file knot.constants.js
  * @module knot.constants
  * @description Contains names of knots as defined constants.
+ * @requires module:basic.constants
+ * @requires module:country.constants
+ * @requires module:generic.constants
+ * @requires module:language.constants
+ * @requires module:numeric.constants
+ * @requires module:phonic.constants
+ * @requires module:word.constants
  * @author Seth Hollingsead
  * @date 2022/04/14
  * @copyright Copyright © 2022-… by Seth Hollingsead. All rights reserved
@@ -9,6 +16,10 @@
 
 // Internal imports
 import * as bas from './basic.constants.js';
+import * as ctr from './country.constants.js';
+import * as gen from './generic.constants.js';
+import * as lng from './language.constants.js';
+import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
 import * as wrd from './word.constants.js';
 
@@ -48,7 +59,7 @@ export const cCleatHitch = bas.cCl + phn.ceat + wrd.cHitch; // CleatHitch
 export const cDockLine = wrd.cDock + wrd.cLine; // DockLine
 export const cHalyard = bas.cHa + bas.cl + wrd.cyard; // Halyard
 export const cCloveHitch = wrd.cClove + wrd.cHitch; // CloveHitch
-export const cHitches = wrd.cHitch + bas.cs; // Hitches
+export const cHitches = wrd.cHitch + bas.ces; // Hitches
 export const cLoops = wrd.cLoops; // Loops
 export const cRopeEnd = wrd.cRope + wrd.cEnd; // RopeEnd
 export const cCobraKnot = wrd.cCobra + wrd.cKnot; // CobraKnot
@@ -211,11 +222,11 @@ export const cTurksHead = bas.cTu + bas.crk + bas.csH + phn.cead; // TurksHead
 export const cTwoHalfHitches = num.cTwo + wrd.cHalf + wrd.cHitches; // TwoHalfHitches
 export const cUnderwritersKnot = wrd.cUnder + wrd.cwrite + bas.crs + wrd.cKnot; // UnderwritersKnot
 export const cUniKNot = phn.cUni + bas.cKN + bas.cot; // UniKNot
-export const cWallCrownKnot = bas.cWa + bas.cll + wrd.cCrown + wrd.cKnot; // WallCrownKnot
+export const cWallCrownKnot = wrd.cWall + wrd.cCrown + wrd.cKnot; // WallCrownKnot
 export const cWallKnot = wrd.cWall + wrd.cKnot; // WallKnot
 export const cWaterBowline = wrd.cWater + wrd.cBowline; // WaterBowline
 export const cWaterKnot = wrd.cWater + wrd.cKnot; // WaterKnot
-export const cWestCountryWipping = bas.cWe + bas.cst + wrd.cCountry + bas.cWi + bas.cpp + phn.cing; // WestCountryWipping
-export const cWhoopieSling = bas.cWh + phn.coop + bas.cie + wrd.cSling; // WhoopieSling
+export const cWestCountryWipping = wrd.cWest + wrd.cCountry + wrd.cWipping; // WestCountryWipping
+export const cWhoopieSling = wrd.cWhoopie + wrd.cSling; // WhoopieSling
 export const cWindsorNecktie = wrd.cWindsor + wrd.cNecktie; // WindsorNecktie
 export const cZeppelinBend = bas.cZe + bas.cpp + bas.cel + bas.cin + wrd.cBend; // ZeppelinBend

@@ -11,7 +11,7 @@
 
 // Internal imports
 import * as num from './numeric.constants.js';
-import * as elm from './numeric.constants.js';
+import * as elm from './element.constants.js';
 
 // Hydrogen - H
 export const c1H = num.c1 + elm.cH; // 1H

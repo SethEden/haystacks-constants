@@ -933,6 +933,7 @@ export const phonicConstantsValidation = [
   {Name: 'corn', Actual: phn.corn, Expected: 'orn'},
   {Name: 'cilk', Actual: phn.cilk, Expected: 'ilk'},
   {Name: 'calt', Actual: phn.calt, Expected: 'alt'},
+  {Name: 'cAlt', Actual: phn.cAlt, Expected: 'Alt'},
   {Name: 'cbalt', Actual: phn.cbalt, Expected: 'balt'},
   {Name: 'cobalt', Actual: phn.cobalt, Expected: 'obalt'},
   {Name: 'ctte', Actual: phn.ctte, Expected: 'tte'},
@@ -1168,6 +1169,7 @@ export const phonicConstantsValidation = [
   {Name: 'cnet', Actual: phn.cnet, Expected: 'net'},
   {Name: 'cnnet', Actual: phn.cnnet, Expected: 'nnet'},
   {Name: 'cinnet', Actual: phn.cinnet, Expected: 'innet'},
+  {Name: 'cict', Actual: phn.cict, Expected: 'ict'},
   {Name: 'cictor', Actual: phn.cictor, Expected: 'ictor'},
   {Name: 'crictor', Actual: phn.crictor, Expected: 'rictor'},
   {Name: 'clide', Actual: phn.clide, Expected: 'lide'},
@@ -1192,5 +1194,12 @@ export const phonicConstantsValidation = [
   {Name: 'ccher', Actual: phn.ccher, Expected: 'cher'},
   {Name: 'cove', Actual: phn.cove, Expected: 'ove'},
   {Name: 'cipe', Actual: phn.cipe, Expected: 'ipe'},
-  {Name: 'coll', Actual: phn.coll, Expected: 'oll'}
+  {Name: 'coll', Actual: phn.coll, Expected: 'oll'},
+  {Name: 'cank', Actual: phn.cank, Expected: 'ank'},
+  {Name: 'cuty', Actual: phn.cuty, Expected: 'uty'},
+  {Name: 'coft', Actual: phn.coft, Expected: 'oft'},
+  {Name: 'cstr', Actual: phn.cstr, Expected: 'str'},
+  {Name: 'cStr', Actual: phn.cStr, Expected: 'Str'},
+  {Name: 'csur', Actual: phn.csur, Expected: 'sur'},
+  {Name: 'cSur', Actual: phn.cSur, Expected: 'Sur'}
 ];

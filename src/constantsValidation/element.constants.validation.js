@@ -8,11 +8,14 @@
  */
 
 // Internal imports
-import * as elm from '../constants.element.constants.js';
+import * as elm from '../constants/element.constants.js';
 
 /**
  * @function elementConstantsValidation
- * @description
+ * @description Initializes the element constants validation data objects array.
+ * @return {void}
+ * @author Seth Hollingsead
+ * @date 2022/04/14
  */
 export const elementConstantsValidation = [
   {Name: 'cH', Actual: elm.cH, Expected: 'H'},

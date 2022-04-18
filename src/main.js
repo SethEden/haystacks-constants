@@ -42,8 +42,11 @@ import * as clr from './constants/color.constants.js';
 import * as cmd from './constants/command.constants.js';
 import * as cfg from './constants/configuration.constants.js';
 import * as ctr from './constants/country.constants.js';
+import * as elm from './constants/element.constants.js';
 import * as fnc from './constants/function.constants.js';
 import * as gen from './constants/generic.constants.js';
+import * as iso from './constants/isotope.constants.js';
+import * as knt from './constants/knot.constants.js';
 import * as lng from './constants/language.constants.js';
 import * as msg from './constants/message.constants.js';
 import * as num from './constants/numeric.constants.js';
@@ -57,8 +60,11 @@ import * as clr_cv from './constantsValidation/color.constants.validation.js';
 import * as cmd_cv from './constantsValidation/command.constants.validation.js';
 import * as cfg_cv from './constantsValidation/configuration.constants.validation.js';
 import * as ctr_cv from './constantsValidation/country.constants.validation.js';
+import * as elm_cv from './constantsValidation/element.constants.validation.js';
 import * as fnc_cv from './constantsValidation/function.constants.validation.js';
 import * as gen_cv from './constantsValidation/generic.constants.validation.js';
+import * as iso_cv from './constantsValidation/isotope.constants.validation.js';
+import * as knt_cv from './constantsValidation/knot.constants.validation.js';
 import * as lng_cv from './constantsValidation/language.constants.validation.js';
 import * as msg_cv from './constantsValidation/message.constants.validation.js';
 import * as num_cv from './constantsValidation/numeric.constants.validation.js';
@@ -81,8 +87,11 @@ export default {
   [gen.ccmd]: cmd,
   [gen.ccfg]: cfg,
   [gen.cctr]: ctr,
+  [gen.celm]: elm,
   [gen.cfnc]: fnc,
   [gen.cgen]: gen,
+  [gen.ciso]: iso,
+  [gen.cknt]: knt,
   [gen.clng]: lng,
   [gen.cmsg]: msg,
   [gen.cnum]: num,
@@ -96,8 +105,11 @@ export default {
   [gen.ccmd + bas.cUnderscore + bas.ccv]: cmd_cv,
   [gen.ccfg + bas.cUnderscore + bas.ccv]: cfg_cv,
   [gen.cctr + bas.cUnderscore + bas.ccv]: ctr_cv,
+  [gen.celm + bas.cUnderscore + bas.ccv]: elm_cv,
   [gen.cfnc + bas.cUnderscore + bas.ccv]: fnc_cv,
   [gen.cgen + bas.cUnderscore + bas.ccv]: gen_cv,
+  [gen.ciso + bas.cUnderscore + bas.ccv]: iso_cv,
+  [gen.cknt + bas.cUnderscore + bas.ccv]: knt_cv,
   [gen.clng + bas.cUnderscore + bas.ccv]: lng_cv,
   [gen.cmsg + bas.cUnderscore + bas.ccv]: msg_cv,
   [gen.cnum + bas.cUnderscore + bas.ccv]: num_cv,
