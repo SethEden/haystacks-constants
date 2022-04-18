@@ -1,1 +1,0 @@
-line,Line,circle,Circle,oval,Oval,square,Square,triangle,Triangle,rectangle,Rectangle,octagon,Octagon,hexagon,Hexagon,heptagon,Heptagon,nonagon,Nonagon,trapezoid,Trapezoid,cube,Cube
