@@ -23,26 +23,42 @@ export const businessConstantsValidation = [
   {Name: 'cecho', Actual: biz.cecho, Expected: 'echo'},
   {Name: 'cEcho', Actual: biz.cEcho, Expected: 'Echo'},
 
+  // ***********************************************************************
+  // BEGIN ArrayParsing catagory
+  // ***********************************************************************
   // ***********************************************
-  // ArrayParsing rules in order
+  // AuxiliaryArrayParsing rules in order
+  // ***********************************************
+  {Name: 'cparseColorRangeInputs', Actual: biz.cparseColorRangeInputs, Expected: 'parseColorRangeInputs'},
+  {Name: 'cdoesArrayContainValue', Actual: biz.cdoesArrayContainValue, Expected: 'doesArrayContainValue'},
+
+  // ***********************************************
+  // CharacterArrayParsing rules in order
   // ***********************************************
   {Name: 'creplaceCharacterWithCharacter', Actual: biz.creplaceCharacterWithCharacter, Expected: 'replaceCharacterWithCharacter'},
-  {Name: 'cconvertCamelCaseStringToArray', Actual: biz.cconvertCamelCaseStringToArray, Expected: 'convertCamelCaseStringToArray'},
-  {Name: 'cgetWordsArrayFromString', Actual: biz.cgetWordsArrayFromString, Expected: 'getWordsArrayFromString'},
-  {Name: 'crecombineStringArrayWithSpaces', Actual: biz.crecombineStringArrayWithSpaces, Expected: 'recombineStringArrayWithSpaces'},
-  {Name: 'cconvertArrayToCamelCaseString', Actual: biz.cconvertArrayToCamelCaseString, Expected: 'convertArrayToCamelCaseString'},
-  {Name: 'cdoesArrayContainLowerCaseConsolidatedString', Actual: biz.cdoesArrayContainLowerCaseConsolidatedString, Expected: 'doesArrayContainLowerCaseConsolidatedString'},
   {Name: 'cdoesArrayContainCharacter', Actual: biz.cdoesArrayContainCharacter, Expected: 'doesArrayContainCharacter'},
   {Name: 'cremoveCharacterFromArray', Actual: biz.cremoveCharacterFromArray, Expected: 'removeCharacterFromArray'},
-  {Name: 'cascertainMatchingElements', Actual: biz.cascertainMatchingElements, Expected: 'ascertainMatchingElements'},
-  {Name: 'cdoesArrayContainFilename', Actual: biz.cdoesArrayContainFilename, Expected: 'doesArrayContainFilename'},
-  {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
-  {Name: 'cgetLengthOfLongestStringInArray', Actual: biz.cgetLengthOfLongestStringInArray, Expected: 'getLengthOfLongestStringInArray'},
-  {Name: 'csearchForPatternsInStringArray', Actual: biz.csearchForPatternsInStringArray, Expected: 'searchForPatternsInStringArray'},
-  {Name: 'cvalidatePatternsThatNeedImplementation', Actual: biz.cvalidatePatternsThatNeedImplementation, Expected: 'validatePatternsThatNeedImplementation'},
+  {Name: 'creplaceCharacterAtIndex', Actual: biz.creplaceCharacterAtIndex, Expected: 'replaceCharacterAtIndex'},
+
+  // ***********************************************
+  // CommandArrayParsing rules in order
+  // ***********************************************
   {Name: 'csolveLehmerCode', Actual: biz.csolveLehmerCode, Expected: 'solveLehmerCode'},
   {Name: 'crecursiveArrayExpansion', Actual: biz.crecursiveArrayExpansion, Expected: 'recursiveArrayExpansion'},
   {Name: 'cgetLehmerCodeValue', Actual: biz.cgetLehmerCodeValue, Expected: 'getLehmerCodeValue'},
+  {Name: 'cgenerateCommandAliases', Actual: biz.cgenerateCommandAliases, Expected: 'generateCommandAliases'},
+  {Name: 'caggregateCommandArguments', Actual: biz.caggregateCommandArguments, Expected: 'aggregateCommandArguments'},
+
+  // ***********************************************
+  // ConstantArrayParsing rules in order
+  // ***********************************************
+  {Name: 'cgetLengthOfLongestStringInArray', Actual: biz.cgetLengthOfLongestStringInArray, Expected: 'getLengthOfLongestStringInArray'},
+  {Name: 'csearchForPatternsInStringArray', Actual: biz.csearchForPatternsInStringArray, Expected: 'searchForPatternsInStringArray'},
+  {Name: 'cvalidatePatternsThatNeedImplementation', Actual: biz.cvalidatePatternsThatNeedImplementation, Expected: 'validatePatternsThatNeedImplementation'},
+
+  // ***********************************************
+  // DataArrayParsing rules in order
+  // ***********************************************
   {Name: 'carraysAreEqual', Actual: biz.carraysAreEqual, Expected: 'arraysAreEqual'},
   {Name: 'cstoreData', Actual: biz.cstoreData, Expected: 'storeData'},
   {Name: 'cgetStoredData', Actual: biz.cgetStoredData, Expected: 'getStoredData'},
@@ -53,12 +69,126 @@ export const businessConstantsValidation = [
   {Name: 'cisArrayOrObject', Actual: biz.cisArrayOrObject, Expected: 'isArrayOrObject'},
   {Name: 'cisNonZeroLengthArray', Actual: biz.cisNonZeroLengthArray, Expected: 'isNonZeroLengthArray'},
   {Name: 'carrayDeepClone', Actual: biz.carrayDeepClone, Expected: 'arrayDeepClone'},
-  {Name: 'creplaceCharacterAtIndex', Actual: biz.creplaceCharacterAtIndex, Expected: 'replaceCharacterAtIndex'},
-  {Name: 'cgenerateCommandAliases', Actual: biz.cgenerateCommandAliases, Expected: 'generateCommandAliases'},
-  {Name: 'caggregateCommandArguments', Actual: biz.caggregateCommandArguments, Expected: 'aggregateCommandArguments'},
+
+  // ***********************************************
+  // PathArrayParsing rules in order
+  // ***********************************************
+  {Name: 'cdoesArrayContainFilename', Actual: biz.cdoesArrayContainFilename, Expected: 'doesArrayContainFilename'},
+  {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
   {Name: 'cgetFileAndPathListForPath', Actual: biz.cgetFileAndPathListForPath, Expected: 'getFileAndPathListForPath'},
-  {Name: 'cparseColorRangeInputs', Actual: biz.cparseColorRangeInputs, Expected: 'parseColorRangeInputs'},
-  {Name: 'cdoesArrayContainValue', Actual: biz.cdoesArrayContainValue, Expected: 'doesArrayContainValue'},
+
+  // ***********************************************
+  // WordArrayParsing rules in order
+  // ***********************************************
+  {Name: 'cconvertCamelCaseStringToArray', Actual: biz.cconvertCamelCaseStringToArray, Expected: 'convertCamelCaseStringToArray'},
+  {Name: 'cgetWordsArrayFromString', Actual: biz.cgetWordsArrayFromString, Expected: 'getWordsArrayFromString'},
+  {Name: 'crecombineStringArrayWithSpaces', Actual: biz.crecombineStringArrayWithSpaces, Expected: 'recombineStringArrayWithSpaces'},
+  {Name: 'cconvertArrayToCamelCaseString', Actual: biz.cconvertArrayToCamelCaseString, Expected: 'convertArrayToCamelCaseString'},
+  {Name: 'cdoesArrayContainLowerCaseConsolidatedString', Actual: biz.cdoesArrayContainLowerCaseConsolidatedString, Expected: 'doesArrayContainLowerCaseConsolidatedString'},
+  {Name: 'cascertainMatchingElements', Actual: biz.cascertainMatchingElements, Expected: 'ascertainMatchingElements'},
+
+  // ***********************************************************************
+  // END ArrayParsing catagory
+  // ***********************************************************************
+
+  // ***********************************************************************
+  // BEGIN StringParsing catagory
+  // ***********************************************************************
+  // ***********************************************
+  // AuxiliaryStringParsing rules in order
+  // ***********************************************
+  {Name: 'cgetNowMoment', Actual: biz.cgetNowMoment, Expected: 'getNowMoment'},
+
+  // ***********************************************
+  // CharacterStringParsing rules in order
+  // ***********************************************
+  {Name: 'csingleQuoteSwapAfterEquals', Actual: biz.csingleQuoteSwapAfterEquals, Expected: 'singleQuoteSwapAfterEquals'},
+  {Name: 'cswapForwardSlashToBackSlash', Actual: biz.cswapForwardSlashToBackSlash, Expected: 'swapForwardSlashToBackSlash'},
+  {Name: 'cswapBackSlashToForwardSlash', Actual: biz.cswapBackSlashToForwardSlash, Expected: 'swapBackSlashToForwardSlash'},
+  {Name: 'cswapDoubleForwardSlashToSingleForwardSlash', Actual: biz.cswapDoubleForwardSlashToSingleForwardSlash, Expected: 'swapDoubleForwardSlashToSingleForwardSlash'},
+  {Name: 'cswapDoubleBackSlashToSingleBackSlash', Actual: biz.cswapDoubleBackSlashToSingleBackSlash, Expected: 'swapDoubleBackSlashToSingleBackSlash'},
+  {Name: 'creplaceSpacesWithPlus', Actual: biz.creplaceSpacesWithPlus, Expected: 'replaceSpacesWithPlus'},
+  {Name: 'creplaceColonWithUnderscore', Actual: biz.creplaceColonWithUnderscore, Expected: 'replaceColonWithUnderscore'},
+  {Name: 'ccleanCarriageReturnFromString', Actual: biz.ccleanCarriageReturnFromString, Expected: 'cleanCarriageReturnFromString'},
+  {Name: 'cconvertStringToLowerCase', Actual: biz.cconvertStringToLowerCase, Expected: 'convertStringToLowerCase'},
+  {Name: 'cconvertStringToUpperCase', Actual: biz.cconvertStringToUpperCase, Expected: 'convertStringToUpperCase'},
+  {Name: 'cdoesStringContainUpperCaseCharacter', Actual: biz.cdoesStringContainUpperCaseCharacter, Expected: 'doesStringContainUpperCaseCharacter'},
+  {Name: 'cdoesStringContainLowerCaseCharacter', Actual: biz.cdoesStringContainLowerCaseCharacter, Expected: 'doesStringContainLowerCaseCharacter'},
+  {Name: 'cisFirstCharacterLowerCase', Actual: biz.cisFirstCharacterLowerCase, Expected: 'isFirstCharacterLowerCase'},
+  {Name: 'cisFirstCharacterUpperCase', Actual: biz.cisFirstCharacterUpperCase, Expected: 'isFirstCharacterUpperCase'},
+  // replaceCharacterAtIndexOfString - Not exposed as a public business rule. This is a support function.
+
+  // ***********************************************
+  // CommandStringParsing rules in order
+  // ***********************************************
+  {Name: 'ccleanCommandInput', Actual: biz.ccleanCommandInput, Expected: 'cleanCommandInput'},
+  {Name: 'cisValidCommandNameString', Actual: biz.cisValidCommandNameString, Expected: 'isValidCommandNameString'},
+  {Name: 'ccountDuplicateCommandAliases', Actual: biz.ccountDuplicateCommandAliases, Expected: 'countDuplicateCommandAliases'},
+
+  // ***********************************************
+  // ConstantStringParsing rules in order
+  // ***********************************************
+  {Name: 'cvalidateConstantsDataValidation', Actual: biz.cvalidateConstantsDataValidation, Expected: 'validateConstantsDataValidation'},
+  {Name: 'cdetermineConstantsContextQualifiedPrefix', Actual: biz.cdetermineConstantsContextQualifiedPrefix, Expected: 'determineConstantsContextQualifiedPrefix'},
+  {Name: 'cdetermineSuggestedConstantsValidationLineOfCode', Actual: biz.cdetermineSuggestedConstantsValidationLineOfCode, Expected: 'determineSuggestedConstantsValidationLineOfCode'},
+  {Name: 'cvalidateConstantsDataValidationLineItemName', Actual: biz.cvalidateConstantsDataValidationLineItemName, Expected: 'validateConstantsDataValidationLineItemName'},
+  {Name: 'cdoesConstantExist', Actual: biz.cdoesConstantExist, Expected: 'doesConstantExist'},
+  {Name: 'cgetConstantType', Actual: biz.cgetConstantType, Expected: 'getConstantType'},
+  {Name: 'cgetConstantActualValue', Actual: biz.cgetConstantActualValue, Expected: 'getConstantActualValue'},
+  {Name: 'cgetConstantName', Actual: biz.cgetConstantName, Expected: 'getConstantName'},
+  {Name: 'cfindConstantName', Actual: biz.cfindConstantName, Expected: 'findConstantName'},
+  {Name: 'cisConstantTypeValid', Actual: biz.cisConstantTypeValid, Expected: 'isConstantTypeValid'},
+  {Name: 'cconvertConstantTypeToConstantPrefix', Actual: biz.cconvertConstantTypeToConstantPrefix, Expected: 'convertConstantTypeToConstantPrefix'},
+  {Name: 'cconstantsOptimizedFulfillmentSystem', Actual: biz.cconstantsOptimizedFulfillmentSystem, Expected: 'constantsOptimizedFulfillmentSystem'},
+  {Name: 'cconstantsFulfillmentSystem', Actual: biz.cconstantsFulfillmentSystem, Expected: 'constantsFulfillmentSystem'},
+  {Name: 'cvalidateConstantsDataValues', Actual: biz.cvalidateConstantsDataValues, Expected: 'validateConstantsDataValues'},
+  {Name: 'cisConstantValid', Actual: biz.cisConstantValid, Expected: 'isConstantValid'},
+
+  // ***********************************************
+  // DataStringParsing rules in order
+  // ***********************************************
+  {Name: 'cgetAttributeName', Actual: biz.cgetAttributeName, Expected: 'getAttributeName'},
+  {Name: 'cgetAttributeValue', Actual: biz.cgetAttributeValue, Expected: 'getAttributeValue'},
+  {Name: 'cgetValueFromAssignmentOperationString', Actual: biz.cgetValueFromAssignmentOperationString, Expected: 'getValueFromAssignmentOperationString'},
+  {Name: 'cgetDataCatagoryFromDataContextName', Actual: biz.cgetDataCatagoryFromDataContextName, Expected: 'getDataCatagoryFromDataContextName'},
+  {Name: 'cgetDataCatagoryDetailNameFromDataContextName', Actual: biz.cgetDataCatagoryDetailNameFromDataContextName, Expected: 'getDataCatagoryDetailNameFromDataContextName'},
+  {Name: 'cgetKeywordNameFromDataContextName', Actual: biz.cgetKeywordNameFromDataContextName, Expected: 'getKeywordNameFromDataContextName'},
+  {Name: 'cloadDataFile', Actual: biz.cloadDataFile, Expected: 'loadDataFile'},
+  {Name: 'csaveDataFile', Actual: biz.csaveDataFile, Expected: 'saveDataFile'},
+  {Name: 'cgetUserNameFromEmail', Actual: biz.cgetUserNameFromEmail, Expected: 'getUserNameFromEmail'},
+
+  // ***********************************************
+  // FileStringParsing rules in order
+  // ***********************************************
+  {Name: 'cgetFileNameFromPath', Actual: biz.cgetFileNameFromPath, Expected: 'getFileNameFromPath'},
+  {Name: 'cgetFileExtension', Actual: biz.cgetFileExtension, Expected: 'getFileExtension'},
+  {Name: 'cremoveDotFromFileExtension', Actual: biz.cremoveDotFromFileExtension, Expected: 'removeDotFromFileExtension'},
+  {Name: 'cremoveFileExtensionFromFileName', Actual: biz.cremoveFileExtensionFromFileName, Expected: 'removeFileExtensionFromFileName'},
+  {Name: 'cascertainMatchingFilenames', Actual: biz.cascertainMatchingFilenames, Expected: 'ascertainMatchingFilenames'},
+  {Name: 'csupportedFileFormatsAre', Actual: biz.csupportedFileFormatsAre, Expected: 'supportedFileFormatsAre'},
+  {Name: 'ccopyAllFilesAndFoldersFromFolderToFolder', Actual: biz.ccopyAllFilesAndFoldersFromFolderToFolder, Expected: 'copyAllFilesAndFoldersFromFolderToFolder'},
+  {Name: 'cremoveXnumberOfFoldersFromEndOfPath', Actual: biz.cremoveXnumberOfFoldersFromEndOfPath, Expected: 'removeXnumberOfFoldersFromEndOfPath'},
+  {Name: 'cgetFirstTopLevelFolderFromPath', Actual: biz.cgetFirstTopLevelFolderFromPath, Expected: 'getFirstTopLevelFolderFromPath'},
+  {Name: 'ccreateZipArchive', Actual: biz.ccreateZipArchive, Expected: 'createZipArchive'},
+
+  // ***********************************************
+  // WordStringParsing rules in order
+  // ***********************************************
+  {Name: 'cisStringCamelCase', Actual: biz.cisStringCamelCase, Expected: 'isStringCamelCase'},
+  {Name: 'cmapWordToCamelCaseWord', Actual: biz.cmapWordToCamelCaseWord, Expected: 'mapWordToCamelCaseWord'},
+  {Name: 'csimplifyAndConsolidateString', Actual: biz.csimplifyAndConsolidateString, Expected: 'simplifyAndConsolidateString'},
+  {Name: 'ccompareSimplifiedAndConsolidatedStrings', Actual: biz.ccompareSimplifiedAndConsolidatedStrings, Expected: 'compareSimplifiedAndConsolidatedStrings'},
+  {Name: 'ccountCamelCaseWords', Actual: biz.ccountCamelCaseWords, Expected: 'countCamelCaseWords'},
+  {Name: 'cdoesStringContainAcronym', Actual: biz.cdoesStringContainAcronym, Expected: 'doesStringContainAcronym'},
+  {Name: 'cdetermineWordDelimiter', Actual: biz.cdetermineWordDelimiter, Expected: 'determineWordDelimiter'},
+  {Name: 'ccountDelimiterInString', Actual: biz.ccountDelimiterInString, Expected: 'countDelimiterInString'},
+  {Name: 'cgetWordCountInString', Actual: biz.cgetWordCountInString, Expected: 'getWordCountInString'},
+  {Name: 'cisStringList', Actual: biz.cisStringList, Expected: 'isStringList'},
+  {Name: 'caggregateNumericalDifferenceBetweenTwoStrings', Actual: biz.caggregateNumericalDifferenceBetweenTwoStrings, Expected: 'aggregateNumericalDifferenceBetweenTwoStrings'},
+
+  // ***********************************************************************
+  // END StringParsing catagory
+  // ***********************************************************************
 
   // ***********************************************
   // characterGeneration rules in order
@@ -115,73 +245,6 @@ export const businessConstantsValidation = [
   {Name: 'cgenerateRandomBrightColor', Actual: biz.cgenerateRandomBrightColor, Expected: 'generateRandomBrightColor'},
   {Name: 'cgenerateRandomDarkColor', Actual: biz.cgenerateRandomDarkColor, Expected: 'generateRandomDarkColor'},
   {Name: 'cgenerateRandomColor', Actual: biz.cgenerateRandomColor, Expected: 'generateRandomColor'},
-
-  // ***********************************************
-  // StringParsing rules in order
-  // ***********************************************
-  {Name: 'csingleQuoteSwapAfterEquals', Actual: biz.csingleQuoteSwapAfterEquals, Expected: 'singleQuoteSwapAfterEquals'},
-  {Name: 'cswapForwardSlashToBackSlash', Actual: biz.cswapForwardSlashToBackSlash, Expected: 'swapForwardSlashToBackSlash'},
-  {Name: 'cswapBackSlashToForwardSlash', Actual: biz.cswapBackSlashToForwardSlash, Expected: 'swapBackSlashToForwardSlash'},
-  {Name: 'cswapDoubleForwardSlashToSingleForwardSlash', Actual: biz.cswapDoubleForwardSlashToSingleForwardSlash, Expected: 'swapDoubleForwardSlashToSingleForwardSlash'},
-  {Name: 'cswapDoubleBackSlashToSingleBackSlash', Actual: biz.cswapDoubleBackSlashToSingleBackSlash, Expected: 'swapDoubleBackSlashToSingleBackSlash'},
-  {Name: 'cgetUserNameFromEmail', Actual: biz.cgetUserNameFromEmail, Expected: 'getUserNameFromEmail'},
-  {Name: 'creplaceSpacesWithPlus', Actual: biz.creplaceSpacesWithPlus, Expected: 'replaceSpacesWithPlus'},
-  {Name: 'creplaceColonWithUnderscore', Actual: biz.creplaceColonWithUnderscore, Expected: 'replaceColonWithUnderscore'},
-  {Name: 'ccleanCarriageReturnFromString', Actual: biz.ccleanCarriageReturnFromString, Expected: 'cleanCarriageReturnFromString'},
-  {Name: 'cconvertStringToLowerCase', Actual: biz.cconvertStringToLowerCase, Expected: 'convertStringToLowerCase'},
-  {Name: 'cconvertStringToUpperCase', Actual: biz.cconvertStringToUpperCase, Expected: 'convertStringToUpperCase'},
-  {Name: 'cgetFileNameFromPath', Actual: biz.cgetFileNameFromPath, Expected: 'getFileNameFromPath'},
-  {Name: 'cgetFileExtension', Actual: biz.cgetFileExtension, Expected: 'getFileExtension'},
-  {Name: 'cremoveDotFromFileExtension', Actual: biz.cremoveDotFromFileExtension, Expected: 'removeDotFromFileExtension'},
-  {Name: 'cremoveFileExtensionFromFileName', Actual: biz.cremoveFileExtensionFromFileName, Expected: 'removeFileExtensionFromFileName'},
-  {Name: 'cgetValueFromAssignmentOperationString', Actual: biz.cgetValueFromAssignmentOperationString, Expected: 'getValueFromAssignmentOperationString'},
-  {Name: 'caggregateNumericalDifferenceBetweenTwoStrings', Actual: biz.caggregateNumericalDifferenceBetweenTwoStrings, Expected: 'aggregateNumericalDifferenceBetweenTwoStrings'},
-  {Name: 'ccountCamelCaseWords', Actual: biz.ccountCamelCaseWords, Expected: 'countCamelCaseWords'},
-  {Name: 'cdoesStringContainAcronym', Actual: biz.cdoesStringContainAcronym, Expected: 'doesStringContainAcronym'},
-  {Name: 'ccountDelimiterInString', Actual: biz.ccountDelimiterInString, Expected: 'countDelimiterInString'},
-  {Name: 'cdetermineWordDelimiter', Actual: biz.cdetermineWordDelimiter, Expected: 'determineWordDelimiter'},
-  {Name: 'cgetWordCountInString', Actual: biz.cgetWordCountInString, Expected: 'getWordCountInString'},
-  {Name: 'cdoesStringContainUpperCaseCharacter', Actual: biz.cdoesStringContainUpperCaseCharacter, Expected: 'doesStringContainUpperCaseCharacter'},
-  {Name: 'cdoesStringContainLowerCaseCharacter', Actual: biz.cdoesStringContainLowerCaseCharacter, Expected: 'doesStringContainLowerCaseCharacter'},
-  {Name: 'cisFirstCharacterLowerCase', Actual: biz.cisFirstCharacterLowerCase, Expected: 'isFirstCharacterLowerCase'},
-  {Name: 'cisFirstCharacterUpperCase', Actual: biz.cisFirstCharacterUpperCase, Expected: 'isFirstCharacterUpperCase'},
-  {Name: 'cisStringList', Actual: biz.cisStringList, Expected: 'isStringList'},
-  {Name: 'cisStringCamelCase', Actual: biz.cisStringCamelCase, Expected: 'isStringCamelCase'},
-  {Name: 'cmapWordToCamelCaseWord', Actual: biz.cmapWordToCamelCaseWord, Expected: 'mapWordToCamelCaseWord'},
-  {Name: 'csimplifyAndConsolidateString', Actual: biz.csimplifyAndConsolidateString, Expected: 'simplifyAndConsolidateString'},
-  {Name: 'ccompareSimplifiedAndConsolidatedStrings', Actual: biz.ccompareSimplifiedAndConsolidatedStrings, Expected: 'compareSimplifiedAndConsolidatedStrings'},
-  {Name: 'cascertainMatchingFilenames', Actual: biz.cascertainMatchingFilenames, Expected: 'ascertainMatchingFilenames'},
-  {Name: 'cvalidateConstantsDataValidation', Actual: biz.cvalidateConstantsDataValidation, Expected: 'validateConstantsDataValidation'},
-  {Name: 'cdetermineConstantsContextQualifiedPrefix', Actual: biz.cdetermineConstantsContextQualifiedPrefix, Expected: 'determineConstantsContextQualifiedPrefix'},
-  {Name: 'cdetermineSuggestedConstantsValidationLineOfCode', Actual: biz.cdetermineSuggestedConstantsValidationLineOfCode, Expected: 'determineSuggestedConstantsValidationLineOfCode'},
-  {Name: 'cvalidateConstantsDataValidationLineItemName', Actual: biz.cvalidateConstantsDataValidationLineItemName, Expected: 'validateConstantsDataValidationLineItemName'},
-  {Name: 'cdoesConstantExist', Actual: biz.cdoesConstantExist, Expected: 'doesConstantExist'},
-  {Name: 'cgetConstantType', Actual: biz.cgetConstantType, Expected: 'getConstantType'},
-  {Name: 'cgetConstantActualValue', Actual: biz.cgetConstantActualValue, Expected: 'getConstantActualValue'},
-  {Name: 'cgetConstantName', Actual: biz.cgetConstantName, Expected: 'getConstantName'},
-  {Name: 'cfindConstantName', Actual: biz.cfindConstantName, Expected: 'findConstantName'},
-  {Name: 'cisConstantTypeValid', Actual: biz.cisConstantTypeValid, Expected: 'isConstantTypeValid'},
-  {Name: 'cconvertConstantTypeToConstantPrefix', Actual: biz.cconvertConstantTypeToConstantPrefix, Expected: 'convertConstantTypeToConstantPrefix'},
-  {Name: 'cconstantsOptimizedFulfillmentSystem', Actual: biz.cconstantsOptimizedFulfillmentSystem, Expected: 'constantsOptimizedFulfillmentSystem'},
-  {Name: 'cconstantsFulfillmentSystem', Actual: biz.cconstantsFulfillmentSystem, Expected: 'constantsFulfillmentSystem'},
-  {Name: 'cvalidateConstantsDataValues', Actual: biz.cvalidateConstantsDataValues, Expected: 'validateConstantsDataValues'},
-  {Name: 'cisValidCommandNameString', Actual: biz.cisValidCommandNameString, Expected: 'isValidCommandNameString'},
-  {Name: 'cisConstantValid', Actual: biz.cisConstantValid, Expected: 'isConstantValid'},
-  {Name: 'ccountDuplicateCommandAliases', Actual: biz.ccountDuplicateCommandAliases, Expected: 'countDuplicateCommandAliases'},
-  {Name: 'cgetDataCatagoryFromDataContextName', Actual: biz.cgetDataCatagoryFromDataContextName, Expected: 'getDataCatagoryFromDataContextName'},
-  {Name: 'cgetDataCatagoryDetailNameFromDataContextName', Actual: biz.cgetDataCatagoryDetailNameFromDataContextName, Expected: 'getDataCatagoryDetailNameFromDataContextName'},
-  {Name: 'cgetKeywordNameFromDataContextName', Actual: biz.cgetKeywordNameFromDataContextName, Expected: 'getKeywordNameFromDataContextName'},
-  {Name: 'cremoveXnumberOfFoldersFromEndOfPath', Actual: biz.cremoveXnumberOfFoldersFromEndOfPath, Expected: 'removeXnumberOfFoldersFromEndOfPath'},
-  {Name: 'cgetFirstTopLevelFolderFromPath', Actual: biz.cgetFirstTopLevelFolderFromPath, Expected: 'getFirstTopLevelFolderFromPath'},
-  {Name: 'cloadDataFile', Actual: biz.cloadDataFile, Expected: 'loadDataFile'},
-  {Name: 'csaveDataFile', Actual: biz.csaveDataFile, Expected: 'saveDataFile'},
-  {Name: 'csupportedFileFormatsAre', Actual: biz.csupportedFileFormatsAre, Expected: 'supportedFileFormatsAre'},
-  {Name: 'ccopyAllFilesAndFoldersFromFolderToFolder', Actual: biz.ccopyAllFilesAndFoldersFromFolderToFolder, Expected: 'copyAllFilesAndFoldersFromFolderToFolder'},
-  {Name: 'cgetAttributeName', Actual: biz.cgetAttributeName, Expected: 'getAttributeName'},
-  {Name: 'cgetAttributeValue', Actual: biz.cgetAttributeValue, Expected: 'getAttributeValue'},
-  {Name: 'ccleanCommandInput', Actual: biz.ccleanCommandInput, Expected: 'cleanCommandInput'},
-  {Name: 'cgetNowMoment', Actual: biz.cgetNowMoment, Expected: 'getNowMoment'},
-  {Name: 'ccreateZipArchive', Actual: biz.ccreateZipArchive, Expected: 'createZipArchive'},
 
   // ***********************************************
   // StringParsingUtiities rules in order

@@ -25,26 +25,42 @@ import * as wrd from './word.constants.js';
 export const cecho = wrd.cecho; // echo
 export const cEcho = wrd.cEcho; // Echo
 
+// ***********************************************************************
+// BEGIN ArrayParsing catagory
+// ***********************************************************************
 // ***********************************************
-// ArrayParsing rules in order
+// AuxiliaryArrayParsing rules in order
+// ***********************************************
+export const cparseColorRangeInputs = wrd.cparse + wrd.cColor + wrd.cRange + wrd.cInputs; // parseColorRangeInputs
+export const cdoesArrayContainValue = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cValue; // doesArrayContainValue
+
+// ***********************************************
+// CharacterArrayParsing rules in order
 // ***********************************************
 export const creplaceCharacterWithCharacter = wrd.creplace + wrd.cCharacter + wrd.cWith + wrd.cCharacter; // replaceCharacterWithCharacter
-export const cconvertCamelCaseStringToArray = wrd.cconvert + wrd.cCamel + wrd.cCase + wrd.cString + wrd.cTo + wrd.cArray; // convertCamelCaseStringToArray
-export const cgetWordsArrayFromString = wrd.cget + wrd.cWords + wrd.cArray + wrd.cFrom + wrd.cString; // getWordsArrayFromString
-export const crecombineStringArrayWithSpaces = wrd.crecombine + wrd.cString + wrd.cArray + wrd.cWith + wrd.cSpaces; // recombineStringArrayWithSpaces
-export const cconvertArrayToCamelCaseString = wrd.cconvert + wrd.cArray + wrd.cTo + wrd.cCamel + wrd.cCase + wrd.cString; // convertArrayToCamelCaseString
-export const cdoesArrayContainLowerCaseConsolidatedString = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cLower + wrd.cCase + wrd.cConsolidated + wrd.cString; // doesArrayContainLowerCaseConsolidatedString
 export const cdoesArrayContainCharacter = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cCharacter; // doesArrayContainCharacter
 export const cremoveCharacterFromArray = wrd.cremove + wrd.cCharacter + wrd.cFrom + wrd.cArray; // removeCharacterFromArray
-export const cascertainMatchingElements = wrd.cascertain + wrd.cMatching + wrd.cElements; // ascertainMatchingElements
-export const cdoesArrayContainFilename = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cFilename; // doesArrayContainFilename
-export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
-export const cgetLengthOfLongestStringInArray = wrd.cget + wrd.cLength + wrd.cOf + wrd.cLongest + wrd.cString + bas.cIn + wrd.cArray; // getLengthOfLongestStringInArray
-export const csearchForPatternsInStringArray = wrd.csearch + wrd.cFor + wrd.cPatterns + bas.cIn + wrd.cString + wrd.cArray; // searchForPatternsInStringArray
-export const cvalidatePatternsThatNeedImplementation = wrd.cvalidate + wrd.cPatterns + wrd.cThat + wrd.cNeed + wrd.cImplementation; // validatePatternsThatNeedImplementation
+export const creplaceCharacterAtIndex = wrd.creplace + wrd.cCharacter + wrd.cAt + wrd.cIndex; // replaceCharacterAtIndex
+
+// ***********************************************
+// CommandArrayParsing rules in order
+// ***********************************************
 export const csolveLehmerCode = wrd.csolve + wrd.cLehmer + wrd.cCode; // solveLehmerCode
 export const crecursiveArrayExpansion = wrd.crecursive + wrd.cArray + wrd.cExpansion; // recursiveArrayExpansion
 export const cgetLehmerCodeValue = wrd.cget + wrd.cLehmer + wrd.cCode + wrd.cValue; // getLehmerCodeValue
+export const cgenerateCommandAliases = wrd.cgenerate + wrd.cCommand + wrd.cAliases; // generateCommandAliases
+export const caggregateCommandArguments = wrd.caggregate + wrd.cCommand + wrd.cArguments; // aggregateCommandArguments
+
+// ***********************************************
+// ConstantArrayParsing rules in order
+// ***********************************************
+export const cgetLengthOfLongestStringInArray = wrd.cget + wrd.cLength + wrd.cOf + wrd.cLongest + wrd.cString + bas.cIn + wrd.cArray; // getLengthOfLongestStringInArray
+export const csearchForPatternsInStringArray = wrd.csearch + wrd.cFor + wrd.cPatterns + bas.cIn + wrd.cString + wrd.cArray; // searchForPatternsInStringArray
+export const cvalidatePatternsThatNeedImplementation = wrd.cvalidate + wrd.cPatterns + wrd.cThat + wrd.cNeed + wrd.cImplementation; // validatePatternsThatNeedImplementation
+
+// ***********************************************
+// DataArrayParsing rules in order
+// ***********************************************
 export const carraysAreEqual = wrd.carrays + wrd.cAre + wrd.cEqual; // arraysAreEqual
 export const cstoreData = wrd.cstore + wrd.cData; // storeData
 export const cgetStoredData = wrd.cget + wrd.cStored + wrd.cData; // getStoredData
@@ -55,12 +71,126 @@ export const cisArray = wrd.cis + wrd.cArray; // isArray
 export const cisArrayOrObject = wrd.cis + wrd.cArray + wrd.cOr + wrd.cObject; // isArrayOrObject
 export const cisNonZeroLengthArray = wrd.cis + phn.cNon + num.cZero + wrd.cLength + wrd.cArray; // isNonZeroLengthArray
 export const carrayDeepClone = wrd.carray + wrd.cDeep + wrd.cClone; // arrayDeepClone
-export const creplaceCharacterAtIndex = wrd.creplace + wrd.cCharacter + wrd.cAt + wrd.cIndex; // replaceCharacterAtIndex
-export const cgenerateCommandAliases = wrd.cgenerate + wrd.cCommand + wrd.cAliases; // generateCommandAliases
-export const caggregateCommandArguments = wrd.caggregate + wrd.cCommand + wrd.cArguments; // aggregateCommandArguments
+
+// ***********************************************
+// PathArrayParsing rules in order
+// ***********************************************
+export const cdoesArrayContainFilename = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cFilename; // doesArrayContainFilename
+export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
 export const cgetFileAndPathListForPath = wrd.cget + wrd.cFile + wrd.cAnd + wrd.cPath + wrd.cList + wrd.cFor + wrd.cPath; // getFileAndPathListForPath
-export const cparseColorRangeInputs = wrd.cparse + wrd.cColor + wrd.cRange + wrd.cInputs; // parseColorRangeInputs
-export const cdoesArrayContainValue = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cValue; // doesArrayContainValue
+
+// ***********************************************
+// WordArrayParsing rules in order
+// ***********************************************
+export const cconvertCamelCaseStringToArray = wrd.cconvert + wrd.cCamel + wrd.cCase + wrd.cString + wrd.cTo + wrd.cArray; // convertCamelCaseStringToArray
+export const cgetWordsArrayFromString = wrd.cget + wrd.cWords + wrd.cArray + wrd.cFrom + wrd.cString; // getWordsArrayFromString
+export const crecombineStringArrayWithSpaces = wrd.crecombine + wrd.cString + wrd.cArray + wrd.cWith + wrd.cSpaces; // recombineStringArrayWithSpaces
+export const cconvertArrayToCamelCaseString = wrd.cconvert + wrd.cArray + wrd.cTo + wrd.cCamel + wrd.cCase + wrd.cString; // convertArrayToCamelCaseString
+export const cdoesArrayContainLowerCaseConsolidatedString = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cLower + wrd.cCase + wrd.cConsolidated + wrd.cString; // doesArrayContainLowerCaseConsolidatedString
+export const cascertainMatchingElements = wrd.cascertain + wrd.cMatching + wrd.cElements; // ascertainMatchingElements
+
+// ***********************************************************************
+// END ArrayParsing catagory
+// ***********************************************************************
+
+// ***********************************************************************
+// BEGIN StringParsing catagory
+// ***********************************************************************
+// ***********************************************
+// AuxiliaryArrayParsing rules in order
+// ***********************************************
+export const cgetNowMoment = wrd.cget + wrd.cNow + wrd.cMoment; // getNowMoment
+
+// ***********************************************
+// CharacterArrayParsing rules in order
+// ***********************************************
+export const csingleQuoteSwapAfterEquals = wrd.csingle + wrd.cQuote + wrd.cSwap + wrd.cAfter + wrd.cEquals; // singleQuoteSwapAfterEquals
+export const cswapForwardSlashToBackSlash = wrd.cswap + sys.cForwardSlash + bas.cTo + sys.cBackSlash; // swapForwardSlashToBackSlash
+export const cswapBackSlashToForwardSlash = wrd.cswap + sys.cBackSlash + bas.cTo + sys.cForwardSlash; // swapBackSlashToForwardSlash
+export const cswapDoubleForwardSlashToSingleForwardSlash = wrd.cswap + wrd.cDouble + sys.cForwardSlash + bas.cTo + wrd.cSingle + sys.cForwardSlash; // swapDoubleForwardSlashToSingleForwardSlash
+export const cswapDoubleBackSlashToSingleBackSlash = wrd.cswap + wrd.cDouble + sys.cBackSlash + bas.cTo + wrd.cSingle + sys.cBackSlash; // swapDoubleBackSlashToSingleBackSlash
+export const creplaceSpacesWithPlus = wrd.creplace + wrd.cSpaces + wrd.cWith + wrd.cPlus; // replaceSpacesWithPlus
+export const creplaceColonWithUnderscore = wrd.creplace + wrd.cColon + wrd.cWith + wrd.cUnderscore; // replaceColonWithUnderscore
+export const ccleanCarriageReturnFromString = wrd.cclean + wrd.cCarriage + wrd.cReturn + wrd.cFrom + wrd.cString; // cleanCarriageReturnFromString
+export const cconvertStringToLowerCase = wrd.cconvert + wrd.cString + wrd.cTo + wrd.cLower + wrd.cCase; // convertStringToLowerCase
+export const cconvertStringToUpperCase = wrd.cconvert + wrd.cString + wrd.cTo + wrd.cUpper + wrd.cCase; // convertStringToUpperCase
+export const cdoesStringContainUpperCaseCharacter = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cUpper + wrd.cCase + wrd.cCharacter; // doesStringContainUpperCaseCharacter
+export const cdoesStringContainLowerCaseCharacter = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cLower + wrd.cCase + wrd.cCharacter; // doesStringContainLowerCaseCharacter
+export const cisFirstCharacterLowerCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cLower + wrd.cCase; // isFirstCharacterLowerCase
+export const cisFirstCharacterUpperCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cUpper + wrd.cCase; // isFirstCharacterUpperCase
+// replaceCharacterAtIndexOfString - Not exposed as a public business rule. This is a support function.
+
+// ***********************************************
+// CommandArrayParsing rules in order
+// ***********************************************
+export const ccleanCommandInput = wrd.cclean + wrd.cCommand + wrd.cInput; // cleanCommandInput
+export const cisValidCommandNameString = wrd.cis + wrd.cValid + wrd.cCommand + wrd.cName + wrd.cString; // isValidCommandNameString
+export const ccountDuplicateCommandAliases = wrd.ccount + wrd.cDuplicate + wrd.cCommand + wrd.cAliases; // countDuplicateCommandAliases
+
+// ***********************************************
+// ConstantArrayParsing rules in order
+// ***********************************************
+export const cvalidateConstantsDataValidation = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValidation; // validateConstantsDataValidation
+export const cdetermineConstantsContextQualifiedPrefix = wrd.cdetermine + wrd.cConstants + wrd.cContext + wrd.cQualified + wrd.cPrefix; // determineConstantsContextQualifiedPrefix
+export const cdetermineSuggestedConstantsValidationLineOfCode = wrd.cdetermine + wrd.cSuggested + wrd.cConstants + wrd.cValidation + wrd.cLine + wrd.cOf + wrd.cCode; // determineSuggestedConstantsValidationLineOfCode
+export const cvalidateConstantsDataValidationLineItemName = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValidation + wrd.cLine + wrd.cItem + wrd.cName; // validateConstantsDataValidationLineItemName
+export const cdoesConstantExist = wrd.cdoes + wrd.cConstant + wrd.cExist; // doesConstantExist
+export const cgetConstantType = wrd.cget + wrd.cConstant + wrd.cType; // getConstantType
+export const cgetConstantActualValue = wrd.cget + wrd.cConstant + wrd.cActual + wrd.cValue; // getConstantActualValue
+export const cgetConstantName = wrd.cget + wrd.cConstant + wrd.cName; // getConstantName
+export const cfindConstantName = wrd.cfind + wrd.cConstant + wrd.cName; // findConstantName
+export const cisConstantTypeValid = wrd.cis + wrd.cConstant + wrd.cType + wrd.cValid; // isConstantTypeValid
+export const cconvertConstantTypeToConstantPrefix = wrd.cconvert + wrd.cConstant + wrd.cType + wrd.cTo + wrd.cConstant + wrd.cPrefix; // convertConstantTypeToConstantPrefix
+export const cconstantsOptimizedFulfillmentSystem = wrd.cconstants + wrd.cOptimized + wrd.cFulfillment + wrd.cSystem; // constantsOptimizedFulfillmentSystem
+export const cconstantsFulfillmentSystem = wrd.cconstants + wrd.cFulfillment + wrd.cSystem; // constantsFulfillmentSystem
+export const cvalidateConstantsDataValues = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValues; // validateConstantsDataValues
+export const cisConstantValid = wrd.cis + wrd.cConstant + wrd.cValid; // isConstantValid
+
+// ***********************************************
+// DataArrayParsing rules in order
+// ***********************************************
+export const cgetAttributeName = wrd.cget + wrd.cAttribute + wrd.cName; // getAttributeName
+export const cgetAttributeValue = wrd.cget + wrd.cAttribute + wrd.cValue; // getAttributeValue
+export const cgetValueFromAssignmentOperationString = wrd.cget + wrd.cValue + wrd.cFrom + wrd.cAssignment + wrd.cOperation + wrd.cString; // getValueFromAssignmentOperationString
+export const cgetDataCatagoryFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryFromDataContextName
+export const cgetDataCatagoryDetailNameFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cDetail + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryDetailNameFromDataContextName
+export const cgetKeywordNameFromDataContextName = wrd.cget + wrd.cKeyword + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getKeywordNameFromDataContextName
+export const cloadDataFile = wrd.cload + wrd.cData + wrd.cFile; // loadDataFile
+export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
+export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
+
+// ***********************************************
+// FileArrayParsing rules in order
+// ***********************************************
+export const cgetFileNameFromPath = wrd.cget + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // getFileNameFromPath
+export const cgetFileExtension = wrd.cget + wrd.cFile + wrd.cExtension; // getFileExtension
+export const cremoveDotFromFileExtension = wrd.cremove + wrd.cDot + wrd.cFrom + wrd.cFile + wrd.cExtension; // removeDotFromFileExtension
+export const cremoveFileExtensionFromFileName = wrd.cremove + wrd.cFile + wrd.cExtension + wrd.cFrom + wrd.cFileName; // removeFileExtensionFromFileName
+export const cascertainMatchingFilenames = wrd.cascertain + wrd.cMatching + wrd.cFilenames; // ascertainMatchingFilenames
+export const csupportedFileFormatsAre = wrd.csupported + wrd.cFile + wrd.cFormats + wrd.cAre; // supportedFileFormatsAre
+export const ccopyAllFilesAndFoldersFromFolderToFolder = wrd.ccopy + wrd.cAll + wrd.cFiles + wrd.cAnd + wrd.cFolders + wrd.cFrom + wrd.cFolder + wrd.cTo + wrd.cFolder; // copyAllFilesAndFoldersFromFolderToFolder
+export const cremoveXnumberOfFoldersFromEndOfPath = wrd.cremove + bas.cX + wrd.cnumber + wrd.cOf + wrd.cFolders + wrd.cFrom + wrd.cEnd + wrd.cOf + wrd.cPath; // removeXnumberOfFoldersFromEndOfPath
+export const cgetFirstTopLevelFolderFromPath = wrd.cget + num.cFirst + wrd.cTop + wrd.cLevel + wrd.cFolder + wrd.cFrom + wrd.cPath; // getFirstTopLevelFolderFromPath
+export const ccreateZipArchive = wrd.ccreate + gen.cZip + wrd.cArchive; // createZipArchive
+
+// ***********************************************
+// WordArrayParsing rules in order
+// ***********************************************
+export const cisStringCamelCase = wrd.cis + wrd.cString + wrd.cCamel + wrd.cCase; // isStringCamelCase
+export const cmapWordToCamelCaseWord = wrd.cmap + wrd.cWord + wrd.cTo + wrd.cCamel + wrd.cCase + wrd.cWord; // mapWordToCamelCaseWord
+export const csimplifyAndConsolidateString = wrd.csimplify + wrd.cAnd + wrd.cConsolidate + wrd.cString; // simplifyAndConsolidateString
+export const ccompareSimplifiedAndConsolidatedStrings = wrd.ccompare + wrd.cSimplified + wrd.cAnd + wrd.cConsolidated + wrd.cStrings; // compareSimplifiedAndConsolidatedStrings
+export const ccountCamelCaseWords = wrd.ccount + wrd.cCamel + wrd.cCase + wrd.cWords; // countCamelCaseWords
+export const cdoesStringContainAcronym = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cAcronym; // doesStringContainAcronym
+export const cdetermineWordDelimiter = wrd.cdetermine + wrd.cWord + wrd.cDelimiter; // determineWordDelimiter
+export const ccountDelimiterInString = wrd.ccount + wrd.cDelimiter + wrd.cIn + wrd.cString; // countDelimiterInString
+export const cgetWordCountInString = wrd.cget + wrd.cWord + wrd.cCount + wrd.cIn + wrd.cString; // getWordCountInString
+export const cisStringList = wrd.cis + wrd.cString + wrd.cList; // isStringList
+export const caggregateNumericalDifferenceBetweenTwoStrings = wrd.caggregate + wrd.cNumerical + wrd.cDifference + wrd.cBetween + num.cTwo + wrd.cStrings; // aggregateNumericalDifferenceBetweenTwoStrings
+
+// ***********************************************************************
+// END StringParsing catagory
+// ***********************************************************************
 
 // ***********************************************
 // characterGeneration rules in order
@@ -117,73 +247,6 @@ export const cgenerateRandomInvalidEmail = wrd.cgenerate + wrd.cRandom + wrd.cIn
 export const cgenerateRandomBrightColor = wrd.cgenerate + wrd.cRandom + wrd.cBright + wrd.cColor; // generateRandomBrightColor
 export const cgenerateRandomDarkColor = wrd.cgenerate + wrd.cRandom + wrd.cDark + wrd.cColor; // generateRandomDarkColor
 export const cgenerateRandomColor = wrd.cgenerate + wrd.cRandom + wrd.cColor; // generateRandomColor
-
-// ***********************************************
-// StringParsing rules in order
-// ***********************************************
-export const csingleQuoteSwapAfterEquals = wrd.csingle + wrd.cQuote + wrd.cSwap + wrd.cAfter + wrd.cEquals; // singleQuoteSwapAfterEquals
-export const cswapForwardSlashToBackSlash = wrd.cswap + sys.cForwardSlash + bas.cTo + sys.cBackSlash; // swapForwardSlashToBackSlash
-export const cswapBackSlashToForwardSlash = wrd.cswap + sys.cBackSlash + bas.cTo + sys.cForwardSlash; // swapBackSlashToForwardSlash
-export const cswapDoubleForwardSlashToSingleForwardSlash = wrd.cswap + wrd.cDouble + sys.cForwardSlash + bas.cTo + wrd.cSingle + sys.cForwardSlash; // swapDoubleForwardSlashToSingleForwardSlash
-export const cswapDoubleBackSlashToSingleBackSlash = wrd.cswap + wrd.cDouble + sys.cBackSlash + bas.cTo + wrd.cSingle + sys.cBackSlash; // swapDoubleBackSlashToSingleBackSlash
-export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
-export const creplaceSpacesWithPlus = wrd.creplace + wrd.cSpaces + wrd.cWith + wrd.cPlus; // replaceSpacesWithPlus
-export const creplaceColonWithUnderscore = wrd.creplace + wrd.cColon + wrd.cWith + wrd.cUnderscore; // replaceColonWithUnderscore
-export const ccleanCarriageReturnFromString = wrd.cclean + wrd.cCarriage + wrd.cReturn + wrd.cFrom + wrd.cString; // cleanCarriageReturnFromString
-export const cconvertStringToLowerCase = wrd.cconvert + wrd.cString + wrd.cTo + wrd.cLower + wrd.cCase; // convertStringToLowerCase
-export const cconvertStringToUpperCase = wrd.cconvert + wrd.cString + wrd.cTo + wrd.cUpper + wrd.cCase; // convertStringToUpperCase
-export const cgetFileNameFromPath = wrd.cget + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // getFileNameFromPath
-export const cgetFileExtension = wrd.cget + wrd.cFile + wrd.cExtension; // getFileExtension
-export const cremoveDotFromFileExtension = wrd.cremove + wrd.cDot + wrd.cFrom + wrd.cFile + wrd.cExtension; // removeDotFromFileExtension
-export const cremoveFileExtensionFromFileName = wrd.cremove + wrd.cFile + wrd.cExtension + wrd.cFrom + wrd.cFileName; // removeFileExtensionFromFileName
-export const cgetValueFromAssignmentOperationString = wrd.cget + wrd.cValue + wrd.cFrom + wrd.cAssignment + wrd.cOperation + wrd.cString; // getValueFromAssignmentOperationString
-export const caggregateNumericalDifferenceBetweenTwoStrings = wrd.caggregate + wrd.cNumerical + wrd.cDifference + wrd.cBetween + num.cTwo + wrd.cStrings; // aggregateNumericalDifferenceBetweenTwoStrings
-export const ccountCamelCaseWords = wrd.ccount + wrd.cCamel + wrd.cCase + wrd.cWords; // countCamelCaseWords
-export const cdoesStringContainAcronym = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cAcronym; // doesStringContainAcronym
-export const ccountDelimiterInString = wrd.ccount + wrd.cDelimiter + wrd.cIn + wrd.cString; // countDelimiterInString
-export const cdetermineWordDelimiter = wrd.cdetermine + wrd.cWord + wrd.cDelimiter; // determineWordDelimiter
-export const cgetWordCountInString = wrd.cget + wrd.cWord + wrd.cCount + wrd.cIn + wrd.cString; // getWordCountInString
-export const cdoesStringContainUpperCaseCharacter = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cUpper + wrd.cCase + wrd.cCharacter; // doesStringContainUpperCaseCharacter
-export const cdoesStringContainLowerCaseCharacter = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cLower + wrd.cCase + wrd.cCharacter; // doesStringContainLowerCaseCharacter
-export const cisFirstCharacterLowerCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cLower + wrd.cCase; // isFirstCharacterLowerCase
-export const cisFirstCharacterUpperCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cUpper + wrd.cCase; // isFirstCharacterUpperCase
-export const cisStringList = wrd.cis + wrd.cString + wrd.cList; // isStringList
-export const cisStringCamelCase = wrd.cis + wrd.cString + wrd.cCamel + wrd.cCase; // isStringCamelCase
-export const cmapWordToCamelCaseWord = wrd.cmap + wrd.cWord + wrd.cTo + wrd.cCamel + wrd.cCase + wrd.cWord; // mapWordToCamelCaseWord
-export const csimplifyAndConsolidateString = wrd.csimplify + wrd.cAnd + wrd.cConsolidate + wrd.cString; // simplifyAndConsolidateString
-export const ccompareSimplifiedAndConsolidatedStrings = wrd.ccompare + wrd.cSimplified + wrd.cAnd + wrd.cConsolidated + wrd.cStrings; // compareSimplifiedAndConsolidatedStrings
-export const cascertainMatchingFilenames = wrd.cascertain + wrd.cMatching + wrd.cFilenames; // ascertainMatchingFilenames
-export const cvalidateConstantsDataValidation = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValidation; // validateConstantsDataValidation
-export const cdetermineConstantsContextQualifiedPrefix = wrd.cdetermine + wrd.cConstants + wrd.cContext + wrd.cQualified + wrd.cPrefix; // determineConstantsContextQualifiedPrefix
-export const cdetermineSuggestedConstantsValidationLineOfCode = wrd.cdetermine + wrd.cSuggested + wrd.cConstants + wrd.cValidation + wrd.cLine + wrd.cOf + wrd.cCode; // determineSuggestedConstantsValidationLineOfCode
-export const cvalidateConstantsDataValidationLineItemName = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValidation + wrd.cLine + wrd.cItem + wrd.cName; // validateConstantsDataValidationLineItemName
-export const cdoesConstantExist = wrd.cdoes + wrd.cConstant + wrd.cExist; // doesConstantExist
-export const cgetConstantType = wrd.cget + wrd.cConstant + wrd.cType; // getConstantType
-export const cgetConstantActualValue = wrd.cget + wrd.cConstant + wrd.cActual + wrd.cValue; // getConstantActualValue
-export const cgetConstantName = wrd.cget + wrd.cConstant + wrd.cName; // getConstantName
-export const cfindConstantName = wrd.cfind + wrd.cConstant + wrd.cName; // findConstantName
-export const cisConstantTypeValid = wrd.cis + wrd.cConstant + wrd.cType + wrd.cValid; // isConstantTypeValid
-export const cconvertConstantTypeToConstantPrefix = wrd.cconvert + wrd.cConstant + wrd.cType + wrd.cTo + wrd.cConstant + wrd.cPrefix; // convertConstantTypeToConstantPrefix
-export const cconstantsOptimizedFulfillmentSystem = wrd.cconstants + wrd.cOptimized + wrd.cFulfillment + wrd.cSystem; // constantsOptimizedFulfillmentSystem
-export const cconstantsFulfillmentSystem = wrd.cconstants + wrd.cFulfillment + wrd.cSystem; // constantsFulfillmentSystem
-export const cvalidateConstantsDataValues = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValues; // validateConstantsDataValues
-export const cisValidCommandNameString = wrd.cis + wrd.cValid + wrd.cCommand + wrd.cName + wrd.cString; // isValidCommandNameString
-export const cisConstantValid = wrd.cis + wrd.cConstant + wrd.cValid; // isConstantValid
-export const ccountDuplicateCommandAliases = wrd.ccount + wrd.cDuplicate + wrd.cCommand + wrd.cAliases; // countDuplicateCommandAliases
-export const cgetDataCatagoryFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryFromDataContextName
-export const cgetDataCatagoryDetailNameFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cDetail + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryDetailNameFromDataContextName
-export const cgetKeywordNameFromDataContextName = wrd.cget + wrd.cKeyword + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getKeywordNameFromDataContextName
-export const cremoveXnumberOfFoldersFromEndOfPath = wrd.cremove + bas.cX + wrd.cnumber + wrd.cOf + wrd.cFolders + wrd.cFrom + wrd.cEnd + wrd.cOf + wrd.cPath; // removeXnumberOfFoldersFromEndOfPath
-export const cgetFirstTopLevelFolderFromPath = wrd.cget + num.cFirst + wrd.cTop + wrd.cLevel + wrd.cFolder + wrd.cFrom + wrd.cPath; // getFirstTopLevelFolderFromPath
-export const cloadDataFile = wrd.cload + wrd.cData + wrd.cFile; // loadDataFile
-export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
-export const csupportedFileFormatsAre = wrd.csupported + wrd.cFile + wrd.cFormats + wrd.cAre; // supportedFileFormatsAre
-export const ccopyAllFilesAndFoldersFromFolderToFolder = wrd.ccopy + wrd.cAll + wrd.cFiles + wrd.cAnd + wrd.cFolders + wrd.cFrom + wrd.cFolder + wrd.cTo + wrd.cFolder; // copyAllFilesAndFoldersFromFolderToFolder
-export const cgetAttributeName = wrd.cget + wrd.cAttribute + wrd.cName; // getAttributeName
-export const cgetAttributeValue = wrd.cget + wrd.cAttribute + wrd.cValue; // getAttributeValue
-export const ccleanCommandInput = wrd.cclean + wrd.cCommand + wrd.cInput; // cleanCommandInput
-export const cgetNowMoment = wrd.cget + wrd.cNow + wrd.cMoment; // getNowMoment
-export const ccreateZipArchive = wrd.ccreate + gen.cZip + wrd.cArchive; // createZipArchive
 
 // ***********************************************
 // StringParsingUtiities rules in order
