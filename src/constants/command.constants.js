@@ -17,35 +17,57 @@ import * as biz from './business.constants.js';
 import * as sys from './system.constants.js';
 import * as wrd from './word.constants.js';
 
-// Generic Commands constants
-
 // ***********************************************
-// Nominal commands in order
+// Advanced commands in order
 // ***********************************************
-export const cechoCommand = biz.cecho + wrd.cCommand; // echoCommand
-export const cEchoCommand = biz.cEcho + wrd.cCommand; // EchoCommand
-export const cclearScreen = wrd.cclear + wrd.cScreen; // clearScreen
-export const cworkflowHelp = wrd.cworkflow + wrd.cHelp; // workflowHelp
 export const ccommandSequencer = wrd.ccommand + wrd.cSequencer; // commandSequencer
-export const cprintDataHive = wrd.cprint + wrd.cData + wrd.cHive; // printDataHive
-export const cprintDataHiveAttributes = cprintDataHive + wrd.cAttributes; // printDataHiveAttributes
-export const cclearDataStorage = wrd.cclear + wrd.cData + wrd.cStorage; // clearDataStorage
 export const cbusinessRule = wrd.cbusiness + wrd.cRule; // businessRule
 export const ccommandGenerator = wrd.ccommand + wrd.cGenerator; // commandGenerator
 export const ccommandAliasGenerator = wrd.ccommand + wrd.cAlias + wrd.cGenerator; // commandAliasGenerator
+
+// ***********************************************
+// Auxiliary commands in order
+// ***********************************************
+export const cconvertColors = wrd.cconvert + wrd.cColors; // convertColors
+
+// ***********************************************
+// Configuration commands in order
+// ***********************************************
+export const csaveConfiguration = wrd.csave + wrd.cConfiguration; // saveConfiguration
+
+// ***********************************************
+// Constant commands in order
+// ***********************************************
 export const cconstantsGenerator = wrd.cconstants + wrd.cGenerator; // constantsGenerator
 export const cconstantsGeneratorList = cconstantsGenerator + wrd.cList; // constantsGeneratorList
 export const cconstantsPatternRecognizer = wrd.cconstants + wrd.cPattern + wrd.cRecognizer; // constantsPatternRecognizer
-export const cbusinessRulesMetrics = wrd.cbusiness + wrd.cRules + wrd.cMetrics; // businessRulesMetrics
-export const ccommandMetrics = wrd.ccommand + wrd.cMetrics; // commandMetrics
-export const csaveConfiguration = wrd.csave + wrd.cConfiguration; // saveConfiguration
-export const cconvertColors = wrd.cconvert + wrd.cColors; // convertColors
+
+// ***********************************************
+// Data Directorate commands in order
+// ***********************************************
+export const cprintDataHive = wrd.cprint + wrd.cData + wrd.cHive; // printDataHive
+export const cprintDataHiveAttributes = cprintDataHive + wrd.cAttributes; // printDataHiveAttributes
+export const cclearDataStorage = wrd.cclear + wrd.cData + wrd.cStorage; // clearDataStorage
 
 // ***********************************************
 // Integration Test commands in order
 // ***********************************************
 export const cvalidateConstants = wrd.cvalidate + wrd.cConstants; // validateConstants
 export const cvalidateCommandAliases = wrd.cvalidate + wrd.cCommand + wrd.cAliases; // validateCommandAliases
+
+// ***********************************************
+// Performance Metric commands in order
+// ***********************************************
+export const cbusinessRulesMetrics = wrd.cbusiness + wrd.cRules + wrd.cMetrics; // businessRulesMetrics
+export const ccommandMetrics = wrd.ccommand + wrd.cMetrics; // commandMetrics
+
+// ***********************************************
+// System commands in order
+// ***********************************************
+export const cechoCommand = biz.cecho + wrd.cCommand; // echoCommand
+export const cEchoCommand = biz.cEcho + wrd.cCommand; // EchoCommand
+export const cclearScreen = wrd.cclear + wrd.cScreen; // clearScreen
+export const cworkflowHelp = wrd.cworkflow + wrd.cHelp; // workflowHelp
 
 // ********************************
 // System defined workflows
