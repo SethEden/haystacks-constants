@@ -1,6 +1,6 @@
 /**
  * @file generic.constants.validation.js
- * @module generic.constants.vaidation
+ * @module generic.constants.validation
  * @description Contains all validations for the generic constants.
  * @requires module:generic.constants
  * @author Seth Hollingsead
@@ -231,7 +231,7 @@ export const genericConstantsValidation = [
   {Name: 'celm', Actual: gen.celm, Expected: 'elm'},
   {Name: 'cgen', Actual: gen.cgen, Expected: 'gen'},
   {Name: 'ciso', Actual: gen.ciso, Expected: 'iso'},
-  {Name: 'ckts', Actual: gen.ckts, Expected: 'kts'},
+  {Name: 'cknt', Actual: gen.cknt, Expected: 'knt'},
   {Name: 'clng', Actual: gen.clng, Expected: 'lng'},
   {Name: 'cmsg', Actual: gen.cmsg, Expected: 'msg'},
   {Name: 'cnum', Actual: gen.cnum, Expected: 'num'},
