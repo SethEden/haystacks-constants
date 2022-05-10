@@ -2397,6 +2397,12 @@ export const cexclusions = cexclusion + bas.cs; // exclusions
 export const cExclusions = cExclusion + bas.cs; // Exclusions
 export const ceach = bas.cea + bas.cch; // each
 export const cEach = bas.cEa + bas.cch; // Each
+export const cinternal = phn.cint + bas.cer + phn.cnal; // internal
+export const cInternal = phn.cInt + bas.cer + phn.cnal; // Internal
+export const cinternals = cinternal + bas.cs; // internals
+export const cInternals = cInternal + bas.cs; // Internals
+export const cdid = bas.cd + bas.cid; // did
+export const cDid = bas.cD + bas.cid; // Did
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

@@ -232,6 +232,7 @@ export const cTra = bas.cTr + bas.ca; // Tra
 export const ctrans = ctra + bas.cns; // trans
 export const cTrans = cTra + bas.cns; // Trans
 export const cint = bas.cin + bas.ct; // int
+export const cInt = bas.cIn + bas.ct; // Int
 export const cloc = bas.clo + bas.cc; // loc
 export const cLoc = bas.cLo + bas.cc; // Loc
 export const cation = bas.ca + ction; // ation

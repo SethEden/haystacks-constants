@@ -61,6 +61,7 @@ export const cenableColorizedConsoleLogs = wrd.cenable + wrd.cColorized + wrd.cC
 export const cprimaryCommandDelimiter = wrd.cprimary + wrd.cCommand + wrd.cDelimiter; // primaryCommandDelimiter
 export const csecondaryCommandDelimiter = wrd.csecondary + wrd.cCommand + wrd.cDelimiter; // secondaryCommandDelimiter
 export const ctertiaryCommandDelimiter = wrd.ctertiary + wrd.cCommand + wrd.cDelimiter; // tertiaryCommandDelimiter
+export const cconfigurationInitialized = wrd.cconfiguration + wrd.cInitialized; // configurationInitialized
 export const cenableBusinessRuleOutput = wrd.cenable + wrd.cBusiness + wrd.cRule + wrd.cOutput; // enableBusinessRuleOutput
 export const cenableBusinessRulePerformanceMetrics = wrd.cenable + wrd.cBusiness + wrd.cRule + wrd.cPerformance + wrd.cMetrics; // enableBusinessRulePerformanceMetrics
 export const cbusinessRulesNamesPerformanceTrackingStack = wrd.cbusiness + wrd.cRules + wrd.cNames + wrd.cPerformance + wrd.cTracking + wrd.cStack; // businessRulesNamesPerformanceTrackingStack

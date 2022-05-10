@@ -29,6 +29,7 @@ export const cInputData = wrd.cInput + wrd.cData; // InputData
 export const cinputMetaData = wrd.cinput + wrd.cMetaData; // inputMetaData
 export const cInputMetaData = wrd.cInput + wrd.cMetaData; // InputMetaData
 export const cinputDataIs = cinputData + sys.cSpaceIsColonSpace; // inputData is:
+export const cinputsIs = wrd.cinputs + sys.cSpaceIsColonSpace; // inputs is:
 export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSpace; // inputMetaData is:
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
 
@@ -387,7 +388,8 @@ export const cworkflowPathConfigurationNameIs = wrd.cworkflow + wrd.cPath + wrd.
 export const cresolvedSystemWorkflowsPathIs = wrd.cresolved + wrd.cSystem + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedSystemWorkflowsPath is:
 export const cresolvedClientWorkflowsPathIs = wrd.cresolved + wrd.cClient + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedClientWorkflowsPath is:
 export const cresolvedCustomWorkflowsPathIs = wrd.cresolved + wrd.cCustom + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedCustomWorkflowsPath is:
-export const cbusinessRuleIs = wrd.cbusiness + wrd.cRule + sys.cSpaceIsColonSpace; // businessRule is:
+export const cbusinessRulesIs = wrd.cbusiness + wrd.cRules + sys.cSpaceIsColonSpace; // businessRules is:
+export const crulesToExecuteIs = wrd.crules + wrd.cTo + wrd.cExecute + sys.cSpaceIsColonSpace; // rulesToExecute is:
 export const cruleInputIs = wrd.crule + wrd.cInput + sys.cSpaceIsColonSpace; // ruleInput is:
 export const cruleMetaDataIs = wrd.crule + wrd.cMetaData + sys.cSpaceIsColonSpace; // ruleMetaData is:
 export const cconfigurationNamespaceIs = wrd.cconfiguration + wrd.cName + wrd.cspace + sys.cSpaceIsColonSpace; // configurationNamespace is:
@@ -679,6 +681,8 @@ export const cprintDataHiveAttributesMessage2 = wrd.csuch + bas.cSpace + bas.cas
 export const cprintDataHiveAttributesMessage3 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cname + bas.cDot + wrd.cspace + bas.cDot + wrd.cattribute + wrd.cName + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csystem + bas.cSpace + bas.cto + bas.cSpace + wrd.cprint + bas.cSpace + wrd.cout + bas.cSpace + wrd.cattribute + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfrom + bas.cDot;
 // Nothing to echo.
 export const cNothingToEcho = wrd.cNothing + bas.cSpace + bas.cto + bas.cSpace + wrd.cecho + bas.cDot; // Nothing to echo.
+// ERROR: Did not find any matching style logic pattern!
+export const cDidNotFindAnyMatchingStyleLogicPattern = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cDid + bas.cSpace + gen.cnot + bas.cSpace + wrd.cfind + bas.cSpace + wrd.cany + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cstyle + bas.cSpace + wrd.clogic + bas.cSpace + wrd.cpattern + bas.cExclamation;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';

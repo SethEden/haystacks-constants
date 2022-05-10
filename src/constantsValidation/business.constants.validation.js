@@ -74,7 +74,6 @@ export const businessConstantsValidation = [
   // PathArrayParsing rules in order
   // ***********************************************
   {Name: 'cdoesArrayContainFilename', Actual: biz.cdoesArrayContainFilename, Expected: 'doesArrayContainFilename'},
-  {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
   {Name: 'cgetFileAndPathListForPath', Actual: biz.cgetFileAndPathListForPath, Expected: 'getFileAndPathListForPath'},
 
   // ***********************************************
@@ -97,7 +96,8 @@ export const businessConstantsValidation = [
   // ***********************************************
   // AuxiliaryStringParsing rules in order
   // ***********************************************
-  {Name: 'cgetNowMoment', Actual: biz.cgetNowMoment, Expected: 'getNowMoment'},
+  // NONE - getNowMoment was here, but it was a wrapper function, so it was removed.
+  // I am going to leave this here as a landing place for future auxiliaryStringParsing utility business rules.
 
   // ***********************************************
   // CharacterStringParsing rules in order
@@ -166,10 +166,8 @@ export const businessConstantsValidation = [
   {Name: 'cremoveFileExtensionFromFileName', Actual: biz.cremoveFileExtensionFromFileName, Expected: 'removeFileExtensionFromFileName'},
   {Name: 'cascertainMatchingFilenames', Actual: biz.cascertainMatchingFilenames, Expected: 'ascertainMatchingFilenames'},
   {Name: 'csupportedFileFormatsAre', Actual: biz.csupportedFileFormatsAre, Expected: 'supportedFileFormatsAre'},
-  {Name: 'ccopyAllFilesAndFoldersFromFolderToFolder', Actual: biz.ccopyAllFilesAndFoldersFromFolderToFolder, Expected: 'copyAllFilesAndFoldersFromFolderToFolder'},
   {Name: 'cremoveXnumberOfFoldersFromEndOfPath', Actual: biz.cremoveXnumberOfFoldersFromEndOfPath, Expected: 'removeXnumberOfFoldersFromEndOfPath'},
   {Name: 'cgetFirstTopLevelFolderFromPath', Actual: biz.cgetFirstTopLevelFolderFromPath, Expected: 'getFirstTopLevelFolderFromPath'},
-  {Name: 'ccreateZipArchive', Actual: biz.ccreateZipArchive, Expected: 'createZipArchive'},
 
   // ***********************************************
   // WordStringParsing rules in order
@@ -213,11 +211,52 @@ export const businessConstantsValidation = [
   {Name: 'cconvertNumberToLowerCaseLetter', Actual: biz.cconvertNumberToLowerCaseLetter, Expected: 'convertNumberToLowerCaseLetter'},
 
   // ***********************************************
+  // fileOperations rules in order
+  // ***********************************************
+  {Name: 'cgetXmlData', Actual: biz.cgetXmlData, Expected: 'getXmlData'},
+  {Name: 'cgetCsvData', Actual: biz.cgetCsvData, Expected: 'getCsvData'},
+  {Name: 'cgetJsonData', Actual: biz.cgetJsonData, Expected: 'getJsonData'},
+  {Name: 'cwriteJsonData', Actual: biz.cwriteJsonData, Expected: 'writeJsonData'},
+  {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
+  {Name: 'cscanDirectoryContents', Actual: biz.cscanDirectoryContents, Expected: 'scanDirectoryContents'},
+  {Name: 'creadDirectorySynchronously', Actual: biz.creadDirectorySynchronously, Expected: 'readDirectorySynchronously'},
+  {Name: 'ccopyAllFilesAndFoldersFromFolderToFolder', Actual: biz.ccopyAllFilesAndFoldersFromFolderToFolder, Expected: 'copyAllFilesAndFoldersFromFolderToFolder'},
+  {Name: 'cbuildReleasePackage', Actual: biz.cbuildReleasePackage, Expected: 'buildReleasePackage'},
+  {Name: 'ccreateZipArchive', Actual: biz.ccreateZipArchive, Expected: 'createZipArchive'},
+  {Name: 'ccleanRootPath', Actual: biz.ccleanRootPath, Expected: 'cleanRootPath'},
+  {Name: 'ccopyFileSync', Actual: biz.ccopyFileSync, Expected: 'copyFileSync'},
+  {Name: 'ccopyFolderRecursiveSync', Actual: biz.ccopyFolderRecursiveSync, Expected: 'copyFolderRecursiveSync'},
+  {Name: 'cappendMessageToFile', Actual: biz.cappendMessageToFile, Expected: 'appendMessageToFile'},
+
+  // ***********************************************
+  // lexicalAnalyzer rules in order
+  // ***********************************************
+  {Name: 'cparseBusinessRuleArgument', Actual: biz.cparseBusinessRuleArgument, Expected: 'parseBusinessRuleArgument'},
+  {Name: 'canalyzeArgument', Actual: biz.canalyzeArgument, Expected: 'analyzeArgument'},
+  {Name: 'canalyzeForRegularExpression', Actual: biz.canalyzeForRegularExpression, Expected: 'analyzeForRegularExpression'},
+  {Name: 'cparseArgumentAsRegularExpression', Actual: biz.cparseArgumentAsRegularExpression, Expected: 'parseArgumentAsRegularExpression'},
+  {Name: 'cparseArgumentAsArray', Actual: biz.cparseArgumentAsArray, Expected: 'parseArgumentAsArray'},
+  {Name: 'cremoveStringLiteralTagsFromArray', Actual: biz.cremoveStringLiteralTagsFromArray, Expected: 'removeStringLiteralTagsFromArray'},
+
+  // ***********************************************
   // mathOperations rules in order
   // ***********************************************
   {Name: 'chex2rgbConversion', Actual: biz.chex2rgbConversion, Expected: 'hex2rgbConversion'},
   {Name: 'cisOdd', Actual: biz.cisOdd, Expected: 'isOdd'},
   {Name: 'cisEven', Actual: biz.cisEven, Expected: 'isEven'},
+
+  // ***********************************************
+  // promptOperations rules in order
+  // ***********************************************
+  {Name: 'cprompt', Actual: biz.cprompt, Expected: 'prompt'},
+
+  // ***********************************************
+  // ruleParsing rules in order
+  // ***********************************************
+  {Name: 'cdoAllRulesExist', Actual: biz.cdoAllRulesExist, Expected: 'doAllRulesExist'},
+  {Name: 'cdoesRuleExist', Actual: biz.cdoesRuleExist, Expected: 'doesRuleExist'},
+  {Name: 'cgetRule', Actual: biz.cgetRule, Expected: 'getRule'},
+  {Name: 'cprocessRulesInternal', Actual: biz.cprocessRulesInternal, Expected: 'processRulesInternal'},
 
   // ***********************************************
   // stringGeneration rules in order
@@ -258,5 +297,13 @@ export const businessConstantsValidation = [
   {Name: 'cisFloat', Actual: biz.cisFloat, Expected: 'isFloat'},
   {Name: 'cisString', Actual: biz.cisString, Expected: 'isString'},
   {Name: 'creplaceDoublePercentWithMessage', Actual: biz.creplaceDoublePercentWithMessage, Expected: 'replaceDoublePercentWithMessage'},
-  {Name: 'cutilitiesReplaceCharacterWithCharacter', Actual: biz.cutilitiesReplaceCharacterWithCharacter, Expected: 'utilitiesReplaceCharacterWithCharacter'}
+  {Name: 'cutilitiesReplaceCharacterWithCharacter', Actual: biz.cutilitiesReplaceCharacterWithCharacter, Expected: 'utilitiesReplaceCharacterWithCharacter'},
+
+  // ***********************************************
+  // timeComputation rules in order
+  // ***********************************************
+  {Name: 'cgetNowMoment', Actual: biz.cgetNowMoment, Expected: 'getNowMoment'},
+  {Name: 'ccomputeDeltaTime', Actual: biz.ccomputeDeltaTime, Expected: 'computeDeltaTime'},
+  {Name: 'creformatDeltaTime', Actual: biz.creformatDeltaTime, Expected: 'reformatDeltaTime'},
+  {Name: 'csleep', Actual: biz.csleep, Expected: 'sleep'}
 ];
