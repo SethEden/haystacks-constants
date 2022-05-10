@@ -85,7 +85,7 @@ export const functionConstantsValidation = [
   {Name: 'cmergeClientBusienssRules', Actual: fnc.cmergeClientBusienssRules, Expected: 'mergeClientBusinessRules'},
   {Name: 'cmergeClientCommands', Actual: fnc.cmergeClientCommands, Expected: 'mergeClientCommands'},
   {Name: 'cloadCommandAliases', Actual: fnc.cloadCommandAliases, Expected: 'loadCommandAliases'},
-  {Name: 'cexecuteBusinessRule', Actual: fnc.cexecuteBusinessRule, Expected: 'executeBusinessRule'},
+  {Name: 'cexecuteBusinessRules', Actual: fnc.cexecuteBusinessRules, Expected: 'executeBusinessRules'},
 
   // colorizer
   {Name: 'ccolorizeMessageSimple', Actual: fnc.ccolorizeMessageSimple, Expected: 'colorizeMessageSimple'},

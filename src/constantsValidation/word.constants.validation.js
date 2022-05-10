@@ -2396,6 +2396,12 @@ export const wordConstantsValidation = [
   {Name: 'cExclusions', Actual: wrd.cExclusions, Expected: 'Exclusions'},
   {Name: 'ceach', Actual: wrd.ceach, Expected: 'each'},
   {Name: 'cEach', Actual: wrd.cEach, Expected: 'Each'},
+  {Name: 'cinternal', Actual: wrd.cinternal, Expected: 'internal'},
+  {Name: 'cInternal', Actual: wrd.cInternal, Expected: 'Internal'},
+  {Name: 'cinternals', Actual: wrd.cinternals, Expected: 'internals'},
+  {Name: 'cInternals', Actual: wrd.cInternals, Expected: 'Internals'},
+  {Name: 'cdid', Actual: wrd.cdid, Expected: 'did'},
+  {Name: 'cDid', Actual: wrd.cDid, Expected: 'Did'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

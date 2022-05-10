@@ -239,6 +239,7 @@ export const phonicConstantsValidation = [
   {Name: 'ctrans', Actual: phn.ctrans, Expected: 'trans'},
   {Name: 'cTrans', Actual: phn.cTrans, Expected: 'Trans'},
   {Name: 'cint', Actual: phn.cint, Expected: 'int'},
+  {Name: 'cInt', Actual: phn.cInt, Expected: 'Int'},
   {Name: 'cloc', Actual: phn.cloc, Expected: 'loc'},
   {Name: 'cLoc', Actual: phn.cLoc, Expected: 'Loc'},
   {Name: 'cation', Actual: phn.cation, Expected: 'ation'},
