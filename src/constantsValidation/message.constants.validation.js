@@ -27,6 +27,7 @@ export const messageConstantsVaidation = [
   {Name: 'cinputMetaData', Actual: msg.cinputMetaData, Expected: 'inputMetaData'},
   {Name: 'cInputMetaData', Actual: msg.cInputMetaData, Expected: 'InputMetaData'},
   {Name: 'cinputDataIs', Actual: msg.cinputDataIs, Expected: 'inputData is: '},
+  {Name: 'cinputsIs', Actual: msg.cinputsIs, Expected: 'inputs is: '},
   {Name: 'cinputMetaDataIs', Actual: msg.cinputMetaDataIs, Expected: 'inputMetaData is: '},
   {Name: 'creturnDataIs', Actual: msg.creturnDataIs, Expected: 'returnData is: '},
 
@@ -383,7 +384,8 @@ export const messageConstantsVaidation = [
   {Name: 'cresolvedSystemWorkflowsPathIs', Actual: msg.cresolvedSystemWorkflowsPathIs, Expected: 'resolvedSystemWorkflowsPath is: '},
   {Name: 'cresolvedClientWorkflowsPathIs', Actual: msg.cresolvedClientWorkflowsPathIs, Expected: 'resolvedClientWorkflowsPath is: '},
   {Name: 'cresolvedCustomWorkflowsPathIs', Actual: msg.cresolvedCustomWorkflowsPathIs, Expected: 'resolvedCustomWorkflowsPath is: '},
-  {Name: 'cbusinessRuleIs', Actual: msg.cbusinessRuleIs, Expected: 'businessRule is: '},
+  {Name: 'cbusinessRulesIs', Actual: msg.cbusinessRulesIs, Expected: 'businessRules is: '},
+  {Name: 'crulesToExecuteIs', Actual: msg.crulesToExecuteIs, Expected: 'rulesToExecute is: '},
   {Name: 'cruleInputIs', Actual: msg.cruleInputIs, Expected: 'ruleInput is: '},
   {Name: 'cruleMetaDataIs', Actual: msg.cruleMetaDataIs, Expected: 'ruleMetaData is: '},
   {Name: 'cconfigurationNamespaceIs', Actual: msg.cconfigurationNamespaceIs, Expected: 'configurationNamespace is: '},
@@ -647,6 +649,7 @@ export const messageConstantsVaidation = [
   {Name: 'cprintDataHiveAttributesMessage2', Actual: msg.cprintDataHiveAttributesMessage2, Expected: 'such as the configuration data hive.'},
   {Name: 'cprintDataHiveAttributesMessage3', Actual: msg.cprintDataHiveAttributesMessage3, Expected: 'ERROR: Please enter a valid name.space.attributeName for the system to print out attribute data from.'},
   {Name: 'cNothingToEcho', Actual: msg.cNothingToEcho, Expected: 'Nothing to echo.'},
+  {Name: 'cDidNotFindAnyMatchingStyleLogicPattern', Actual: msg.cDidNotFindAnyMatchingStyleLogicPattern, Expected: 'ERROR: Did not find any matching style logic pattern!'},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'prompt01'},

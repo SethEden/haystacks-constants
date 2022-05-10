@@ -62,6 +62,7 @@ export const configurationConstantsValidation = [
   {Name: 'cprimaryCommandDelimiter', Actual: cfg.cprimaryCommandDelimiter, Expected: 'primaryCommandDelimiter'},
   {Name: 'csecondaryCommandDelimiter', Actual: cfg.csecondaryCommandDelimiter, Expected: 'secondaryCommandDelimiter'},
   {Name: 'ctertiaryCommandDelimiter', Actual: cfg.ctertiaryCommandDelimiter, Expected: 'tertiaryCommandDelimiter'},
+  {Name: 'cconfigurationInitialized', Actual: cfg.cconfigurationInitialized, Expected: 'configurationInitialized'},
   {Name: 'cenableBusinessRuleOutput', Actual: cfg.cenableBusinessRuleOutput, Expected: 'enableBusinessRuleOutput'},
   {Name: 'cenableBusinessRulePerformanceMetrics', Actual: cfg.cenableBusinessRulePerformanceMetrics, Expected: 'enableBusinessRulePerformanceMetrics'},
   {Name: 'cbusinessRulesNamesPerformanceTrackingStack', Actual: cfg.cbusinessRulesNamesPerformanceTrackingStack, Expected: 'businessRulesNamesPerformanceTrackingStack'},

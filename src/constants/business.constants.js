@@ -76,7 +76,6 @@ export const carrayDeepClone = wrd.carray + wrd.cDeep + wrd.cClone; // arrayDeep
 // PathArrayParsing rules in order
 // ***********************************************
 export const cdoesArrayContainFilename = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cFilename; // doesArrayContainFilename
-export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
 export const cgetFileAndPathListForPath = wrd.cget + wrd.cFile + wrd.cAnd + wrd.cPath + wrd.cList + wrd.cFor + wrd.cPath; // getFileAndPathListForPath
 
 // ***********************************************
@@ -99,7 +98,8 @@ export const cascertainMatchingElements = wrd.cascertain + wrd.cMatching + wrd.c
 // ***********************************************
 // AuxiliaryArrayParsing rules in order
 // ***********************************************
-export const cgetNowMoment = wrd.cget + wrd.cNow + wrd.cMoment; // getNowMoment
+// NONE - getNowMoment was here, but it was a wrapper function, so it was removed.
+// I am going to leave this here as a landing place for future auxiliaryStringParsing utility business rules.
 
 // ***********************************************
 // CharacterArrayParsing rules in order
@@ -168,10 +168,8 @@ export const cremoveDotFromFileExtension = wrd.cremove + wrd.cDot + wrd.cFrom + 
 export const cremoveFileExtensionFromFileName = wrd.cremove + wrd.cFile + wrd.cExtension + wrd.cFrom + wrd.cFileName; // removeFileExtensionFromFileName
 export const cascertainMatchingFilenames = wrd.cascertain + wrd.cMatching + wrd.cFilenames; // ascertainMatchingFilenames
 export const csupportedFileFormatsAre = wrd.csupported + wrd.cFile + wrd.cFormats + wrd.cAre; // supportedFileFormatsAre
-export const ccopyAllFilesAndFoldersFromFolderToFolder = wrd.ccopy + wrd.cAll + wrd.cFiles + wrd.cAnd + wrd.cFolders + wrd.cFrom + wrd.cFolder + wrd.cTo + wrd.cFolder; // copyAllFilesAndFoldersFromFolderToFolder
 export const cremoveXnumberOfFoldersFromEndOfPath = wrd.cremove + bas.cX + wrd.cnumber + wrd.cOf + wrd.cFolders + wrd.cFrom + wrd.cEnd + wrd.cOf + wrd.cPath; // removeXnumberOfFoldersFromEndOfPath
 export const cgetFirstTopLevelFolderFromPath = wrd.cget + num.cFirst + wrd.cTop + wrd.cLevel + wrd.cFolder + wrd.cFrom + wrd.cPath; // getFirstTopLevelFolderFromPath
-export const ccreateZipArchive = wrd.ccreate + gen.cZip + wrd.cArchive; // createZipArchive
 
 // ***********************************************
 // WordArrayParsing rules in order
@@ -215,11 +213,52 @@ export const cconvertNumberToUpperCaseLetter = wrd.cconvert + wrd.cNumber + wrd.
 export const cconvertNumberToLowerCaseLetter = wrd.cconvert + wrd.cNumber + wrd.cTo + wrd.cLower + wrd.cCase + wrd.cLetter; // convertNumberToLowerCaseLetter
 
 // ***********************************************
+// fileOperations rules in order
+// ***********************************************
+export const cgetXmlData = wrd.cget + gen.cXml + wrd.cData; // getXmlData
+export const cgetCsvData = wrd.cget + gen.cCsv + wrd.cData; // getCsvData
+export const cgetJsonData = wrd.cget + gen.cJson + wrd.cData; // getJsonData
+export const cwriteJsonData = wrd.cwrite + gen.cJson + wrd.cData; // writeJsonData
+export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
+export const cscanDirectoryContents = wrd.cscan + wrd.cDirectory + wrd.cContents; // scanDirectoryContents
+export const creadDirectorySynchronously = wrd.cread + wrd.cDirectory + wrd.cSynchronously; // readDirectorySynchronously
+export const ccopyAllFilesAndFoldersFromFolderToFolder = wrd.ccopy + wrd.cAll + wrd.cFiles + wrd.cAnd + wrd.cFolders + wrd.cFrom + wrd.cFolder + wrd.cTo + wrd.cFolder; // copyAllFilesAndFoldersFromFolderToFolder
+export const cbuildReleasePackage = wrd.cbuild + wrd.cRelease + wrd.cPackage; // buildReleasePackage
+export const ccreateZipArchive = wrd.ccreate + gen.cZip + wrd.cArchive; // createZipArchive
+export const ccleanRootPath = wrd.cclean + wrd.cRoot + wrd.cPath; // cleanRootPath
+export const ccopyFileSync = wrd.ccopy + wrd.cFile + wrd.cSync; // copyFileSync
+export const ccopyFolderRecursiveSync = wrd.ccopy + wrd.cFolder + wrd.cRecursive + wrd.cSync; // copyFolderRecursiveSync
+export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.cFile; // appendMessageToFile
+
+// ***********************************************
+// lexicalAnalyzer rules in order
+// ***********************************************
+export const cparseBusinessRuleArgument = wrd.cparse + wrd.cBusiness + wrd.cRule + wrd.cArgument; // parseBusinessRuleArgument
+export const canalyzeArgument = wrd.canalyze + wrd.cArgument; // analyzeArgument
+export const canalyzeForRegularExpression = wrd.canalyze + wrd.cFor + wrd.cRegular + wrd.cExpression; // analyzeForRegularExpression
+export const cparseArgumentAsRegularExpression = wrd.cparse + wrd.cArgument + wrd.cAs + wrd.cRegular + wrd.cExpression; // parseArgumentAsRegularExpression
+export const cparseArgumentAsArray = wrd.cparse + wrd.cArgument + wrd.cAs + wrd.cArray; // parseArgumentAsArray
+export const cremoveStringLiteralTagsFromArray = wrd.cremove + wrd.cString + wrd.cLiteral + wrd.cTags + wrd.cFrom + wrd.cArray; // removeStringLiteralTagsFromArray
+
+// ***********************************************
 // mathOperations rules in order
 // ***********************************************
 export const chex2rgbConversion = gen.chex + num.c2 + gen.crgb + wrd.cConversion; // hex2rgbConversion
 export const cisOdd = wrd.cis + wrd.cOdd; // isOdd
 export const cisEven = wrd.cis + wrd.cEven; // isEven
+
+// ***********************************************
+// promptOperations rules in order
+// ***********************************************
+export const cprompt = phn.cpro + phn.cmpt; // prompt
+
+// ***********************************************
+// ruleParsing rules in order
+// ***********************************************
+export const cdoAllRulesExist = wrd.cdo + wrd.cAll + wrd.cRules + wrd.cExist; // doAllRulesExist
+export const cdoesRuleExist = wrd.cdoes + wrd.cRule + wrd.cExist; // doesRuleExist
+export const cgetRule = wrd.cget + wrd.cRule; // getRule
+export const cprocessRulesInternal = wrd.cprocess + wrd.cRules + wrd.cInternal; // processRulesInternal
 
 // ***********************************************
 // stringGeneration rules in order
@@ -261,3 +300,11 @@ export const cisFloat = wrd.cis + wrd.cFloat; // isFloat
 export const cisString = wrd.cis + wrd.cString; // isString
 export const creplaceDoublePercentWithMessage = wrd.creplace + wrd.cDouble + wrd.cPercent + wrd.cWith + wrd.cMessage; // replaceDoublePercentWithMessage
 export const cutilitiesReplaceCharacterWithCharacter = wrd.cutilities + wrd.cReplace + wrd.cCharacter + wrd.cWith + wrd.cCharacter; // utilitiesReplaceCharacterWithCharacter
+
+// ***********************************************
+// timeComputation rules in order
+// ***********************************************
+export const cgetNowMoment = wrd.cget + wrd.cNow + wrd.cMoment; // getNowMoment
+export const ccomputeDeltaTime = wrd.ccompute + wrd.cDelta + wrd.cTime; // computeDeltaTime
+export const creformatDeltaTime = wrd.creformat + wrd.cDelta + wrd.cTime; // reformatDeltaTime
+export const csleep = wrd.csleep; // sleep
