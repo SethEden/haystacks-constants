@@ -2423,6 +2423,22 @@ export const cinternals = cinternal + bas.cs; // internals
 export const cInternals = cInternal + bas.cs; // Internals
 export const cdid = bas.cd + bas.cid; // did
 export const cDid = bas.cD + bas.cid; // Did
+export const cproperty = phn.cpro + phn.cper + bas.cty; // property
+export const cProperty = phn.cPro + phn.cper + bas.cty; // Property
+export const cproperties = phn.cpro + phn.cper + cties; // properties
+export const cProperties = phn.cPro + phn.cper + cties; // Properties
+export const cmutate = bas.cmu + bas.cta + bas.cte; // mutate
+export const cMutate = bas.cMu + bas.cta + bas.cte; // Mutate
+export const cmutates = cmutate + bas.cs; // mutates
+export const cMutates = cMutate + bas.cs; // Mutates
+export const cmutated = cmutate + bas.cd; // mutated
+export const cMutated = cMutate + bas.cd; // Mutated
+export const cmutating = bas.cmu + bas.cta + bas.ct + phn.cing; // mutating
+export const cMutating = bas.cMu + bas.cta + bas.ct + phn.cing; // Mutating
+export const cmutation = bas.cmu + bas.cta + phn.ction; // mutation
+export const cMutation = bas.cMu + bas.cta + phn.ction; // Mutation
+export const cmutations = cmutation + bas.cs; // mutations
+export const cMutations = cMutation + bas.cs; // Mutations
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

@@ -70,6 +70,7 @@ export const businessConstantsValidation = [
   {Name: 'cisNonZeroLengthArray', Actual: biz.cisNonZeroLengthArray, Expected: 'isNonZeroLengthArray'},
   {Name: 'carrayDeepClone', Actual: biz.carrayDeepClone, Expected: 'arrayDeepClone'},
   {Name: 'cgetNamespacedDataObject', Actual: biz.cgetNamespacedDataObject, Expected: 'getNamespacedDataObject'},
+  {Name: 'csetNamespacedDataObject', Actual: biz.csetNamespacedDataObject, Expected: 'setNamespacedDataObject'},
 
   // ***********************************************
   // PathArrayParsing rules in order

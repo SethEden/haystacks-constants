@@ -562,6 +562,9 @@ export const messageConstantsVaidation = [
   {Name: 'csourceDestinationArrayIs', Actual: msg.csourceDestinationArrayIs, Expected: 'sourceDestinationArray is: '},
   {Name: 'cfilterArrayIs', Actual: msg.cfilterArrayIs, Expected: 'filterArray is: '},
   {Name: 'cnamespaceDataObjectPathNotFound', Actual: msg.cnamespaceDataObjectPathNotFound, Expected: 'ERROR: Namespace data object path not found: '},
+  {Name: 'cnewValueIs', Actual: msg.cnewValueIs, Expected: 'newValue is: '},
+  {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
+  {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -651,6 +654,9 @@ export const messageConstantsVaidation = [
   {Name: 'cprintDataHiveAttributesMessage3', Actual: msg.cprintDataHiveAttributesMessage3, Expected: 'ERROR: Please enter a valid name.space.attributeName for the system to print out attribute data from.'},
   {Name: 'cNothingToEcho', Actual: msg.cNothingToEcho, Expected: 'Nothing to echo.'},
   {Name: 'cDidNotFindAnyMatchingStyleLogicPattern', Actual: msg.cDidNotFindAnyMatchingStyleLogicPattern, Expected: 'ERROR: Did not find any matching style logic pattern!'},
+  {Name: 'cchangeSettingError01', Actual: msg.cchangeSettingError01, Expected: 'ERROR: changeSetting command, invalid entry: '},
+  {Name: 'cchangeSettingError02', Actual: msg.cchangeSettingError02, Expected: 'Please enter a fully qualified path to a data property in the system,'},
+  {Name: 'cchangeSettingError03', Actual: msg.cchangeSettingError03, Expected: 'and a value that you would like to assign to that data property.'},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'prompt01'},

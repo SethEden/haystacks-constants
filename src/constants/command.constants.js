@@ -34,6 +34,7 @@ export const cconvertColors = wrd.cconvert + wrd.cColors; // convertColors
 // Configuration commands in order
 // ***********************************************
 export const csaveConfiguration = wrd.csave + wrd.cConfiguration; // saveConfiguration
+export const cchangeConfigurationSetting = wrd.cchange + wrd.cConfiguration + wrd.cSetting; // changeConfigurationSetting
 
 // ***********************************************
 // Constant commands in order

@@ -35,6 +35,7 @@ export const commandConstantsValidation = [
   // Configuration commands in order
   // ***********************************************
   {Name: 'csaveConfiguration', Actual: cmd.csaveConfiguration, Expected: 'saveConfiguration'},
+  {Name: 'cchangeConfigurationSetting', Actual: cmd.cchangeConfigurationSetting, Expected: 'changeConfigurationSetting'},
 
   // ***********************************************
   // Constant commands in order

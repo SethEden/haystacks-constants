@@ -72,6 +72,7 @@ export const cisArrayOrObject = wrd.cis + wrd.cArray + wrd.cOr + wrd.cObject; //
 export const cisNonZeroLengthArray = wrd.cis + phn.cNon + num.cZero + wrd.cLength + wrd.cArray; // isNonZeroLengthArray
 export const carrayDeepClone = wrd.carray + wrd.cDeep + wrd.cClone; // arrayDeepClone
 export const cgetNamespacedDataObject = wrd.cget + wrd.cNamespaced + wrd.cData + wrd.cObject; // getNamespacedDataObject
+export const csetNamespacedDataObject = wrd.cset + wrd.cNamespaced + wrd.cData + wrd.cObject; // setNamespacedDataObject
 
 // ***********************************************
 // PathArrayParsing rules in order
