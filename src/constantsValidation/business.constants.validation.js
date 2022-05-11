@@ -69,6 +69,7 @@ export const businessConstantsValidation = [
   {Name: 'cisArrayOrObject', Actual: biz.cisArrayOrObject, Expected: 'isArrayOrObject'},
   {Name: 'cisNonZeroLengthArray', Actual: biz.cisNonZeroLengthArray, Expected: 'isNonZeroLengthArray'},
   {Name: 'carrayDeepClone', Actual: biz.carrayDeepClone, Expected: 'arrayDeepClone'},
+  {Name: 'cgetNamespacedDataObject', Actual: biz.cgetNamespacedDataObject, Expected: 'getNamespacedDataObject'},
 
   // ***********************************************
   // PathArrayParsing rules in order
@@ -116,7 +117,7 @@ export const businessConstantsValidation = [
   {Name: 'cdoesStringContainLowerCaseCharacter', Actual: biz.cdoesStringContainLowerCaseCharacter, Expected: 'doesStringContainLowerCaseCharacter'},
   {Name: 'cisFirstCharacterLowerCase', Actual: biz.cisFirstCharacterLowerCase, Expected: 'isFirstCharacterLowerCase'},
   {Name: 'cisFirstCharacterUpperCase', Actual: biz.cisFirstCharacterUpperCase, Expected: 'isFirstCharacterUpperCase'},
-  // replaceCharacterAtIndexOfString - Not exposed as a public business rule. This is a support function.
+  {Name: 'creplaceCharacterAtIndexOfString', Actual: biz.creplaceCharacterAtIndexOfString, Expected: 'replaceCharacterAtIndexOfString'},
 
   // ***********************************************
   // CommandStringParsing rules in order

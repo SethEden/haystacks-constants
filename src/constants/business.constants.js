@@ -71,6 +71,7 @@ export const cisArray = wrd.cis + wrd.cArray; // isArray
 export const cisArrayOrObject = wrd.cis + wrd.cArray + wrd.cOr + wrd.cObject; // isArrayOrObject
 export const cisNonZeroLengthArray = wrd.cis + phn.cNon + num.cZero + wrd.cLength + wrd.cArray; // isNonZeroLengthArray
 export const carrayDeepClone = wrd.carray + wrd.cDeep + wrd.cClone; // arrayDeepClone
+export const cgetNamespacedDataObject = wrd.cget + wrd.cNamespaced + wrd.cData + wrd.cObject; // getNamespacedDataObject
 
 // ***********************************************
 // PathArrayParsing rules in order
@@ -102,7 +103,7 @@ export const cascertainMatchingElements = wrd.cascertain + wrd.cMatching + wrd.c
 // I am going to leave this here as a landing place for future auxiliaryStringParsing utility business rules.
 
 // ***********************************************
-// CharacterArrayParsing rules in order
+// CharacterStringParsing rules in order
 // ***********************************************
 export const csingleQuoteSwapAfterEquals = wrd.csingle + wrd.cQuote + wrd.cSwap + wrd.cAfter + wrd.cEquals; // singleQuoteSwapAfterEquals
 export const cswapForwardSlashToBackSlash = wrd.cswap + sys.cForwardSlash + bas.cTo + sys.cBackSlash; // swapForwardSlashToBackSlash
@@ -118,17 +119,17 @@ export const cdoesStringContainUpperCaseCharacter = wrd.cdoes + wrd.cString + wr
 export const cdoesStringContainLowerCaseCharacter = wrd.cdoes + wrd.cString + wrd.cContain + wrd.cLower + wrd.cCase + wrd.cCharacter; // doesStringContainLowerCaseCharacter
 export const cisFirstCharacterLowerCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cLower + wrd.cCase; // isFirstCharacterLowerCase
 export const cisFirstCharacterUpperCase = wrd.cis + num.cFirst + wrd.cCharacter + wrd.cUpper + wrd.cCase; // isFirstCharacterUpperCase
-// replaceCharacterAtIndexOfString - Not exposed as a public business rule. This is a support function.
+export const creplaceCharacterAtIndexOfString = wrd.creplace + wrd.cCharacter + wrd.cAt + wrd.cIndex + wrd.cOf + wrd.cString; // replaceCharacterAtIndexOfString
 
 // ***********************************************
-// CommandArrayParsing rules in order
+// CommandStringParsing rules in order
 // ***********************************************
 export const ccleanCommandInput = wrd.cclean + wrd.cCommand + wrd.cInput; // cleanCommandInput
 export const cisValidCommandNameString = wrd.cis + wrd.cValid + wrd.cCommand + wrd.cName + wrd.cString; // isValidCommandNameString
 export const ccountDuplicateCommandAliases = wrd.ccount + wrd.cDuplicate + wrd.cCommand + wrd.cAliases; // countDuplicateCommandAliases
 
 // ***********************************************
-// ConstantArrayParsing rules in order
+// ConstantStringParsing rules in order
 // ***********************************************
 export const cvalidateConstantsDataValidation = wrd.cvalidate + wrd.cConstants + wrd.cData + wrd.cValidation; // validateConstantsDataValidation
 export const cdetermineConstantsContextQualifiedPrefix = wrd.cdetermine + wrd.cConstants + wrd.cContext + wrd.cQualified + wrd.cPrefix; // determineConstantsContextQualifiedPrefix
@@ -147,7 +148,7 @@ export const cvalidateConstantsDataValues = wrd.cvalidate + wrd.cConstants + wrd
 export const cisConstantValid = wrd.cis + wrd.cConstant + wrd.cValid; // isConstantValid
 
 // ***********************************************
-// DataArrayParsing rules in order
+// DataStringParsing rules in order
 // ***********************************************
 export const cgetAttributeName = wrd.cget + wrd.cAttribute + wrd.cName; // getAttributeName
 export const cgetAttributeValue = wrd.cget + wrd.cAttribute + wrd.cValue; // getAttributeValue
@@ -160,7 +161,7 @@ export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
 export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
 
 // ***********************************************
-// FileArrayParsing rules in order
+// FileStringParsing rules in order
 // ***********************************************
 export const cgetFileNameFromPath = wrd.cget + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // getFileNameFromPath
 export const cgetFileExtension = wrd.cget + wrd.cFile + wrd.cExtension; // getFileExtension
@@ -172,7 +173,7 @@ export const cremoveXnumberOfFoldersFromEndOfPath = wrd.cremove + bas.cX + wrd.c
 export const cgetFirstTopLevelFolderFromPath = wrd.cget + num.cFirst + wrd.cTop + wrd.cLevel + wrd.cFolder + wrd.cFrom + wrd.cPath; // getFirstTopLevelFolderFromPath
 
 // ***********************************************
-// WordArrayParsing rules in order
+// WordStringParsing rules in order
 // ***********************************************
 export const cisStringCamelCase = wrd.cis + wrd.cString + wrd.cCamel + wrd.cCase; // isStringCamelCase
 export const cmapWordToCamelCaseWord = wrd.cmap + wrd.cWord + wrd.cTo + wrd.cCamel + wrd.cCase + wrd.cWord; // mapWordToCamelCaseWord

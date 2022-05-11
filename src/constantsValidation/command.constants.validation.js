@@ -49,6 +49,7 @@ export const commandConstantsValidation = [
   {Name: 'cprintDataHive', Actual: cmd.cprintDataHive, Expected: 'printDataHive'},
   {Name: 'cprintDataHiveAttributes', Actual: cmd.cprintDataHiveAttributes, Expected: 'printDataHiveAttributes'},
   {Name: 'cclearDataStorage', Actual: cmd.cclearDataStorage, Expected: 'clearDataStorage'},
+  {Name: 'cchangeSetting', Actual: cmd.cchangeSetting, Expected: 'changeSetting'},
 
   // ***********************************************
   // Integration Test commands in order

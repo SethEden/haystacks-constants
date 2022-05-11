@@ -475,6 +475,7 @@ export const messageConstantsVaidation = [
   {Name: 'cReturnArgumentValueSameAsItWasPassedIn', Actual: msg.cReturnArgumentValueSameAsItWasPassedIn, Expected: 'Return the argumentValue the same as it was passed in.'},
   {Name: 'cCheckIfThereAreBracketsOrNoBrackets', Actual: msg.cCheckIfThereAreBracketsOrNoBrackets, Expected: 'Check if there are brackets or no brackets.'},
   {Name: 'cBracketsWereFound', Actual: msg.cBracketsWereFound, Expected: 'Brackets were found'},
+  {Name: 'cBracketsWereNotFound', Actual: msg.cBracketsWereNotFound, Expected: 'Brackets were not found'},
   {Name: 'cCheckIfThereIsRegularExpressionOrNot', Actual: msg.cCheckIfThereIsRegularExpressionOrNot, Expected: 'Check if there is a Regular Expression or not.'},
   {Name: 'cRegularExpressionWasFound', Actual: msg.cRegularExpressionWasFound, Expected: 'A regular expression was found!'},
   {Name: 'cNoRegExpFound', Actual: msg.cNoRegExpFound, Expected: 'NO RegExp found!'},
@@ -560,7 +561,7 @@ export const messageConstantsVaidation = [
   {Name: 'callCommandWorkflowsDataIs', Actual: msg.callCommandWorkflowsDataIs, Expected: 'allCommandWorkflowsData is: '},
   {Name: 'csourceDestinationArrayIs', Actual: msg.csourceDestinationArrayIs, Expected: 'sourceDestinationArray is: '},
   {Name: 'cfilterArrayIs', Actual: msg.cfilterArrayIs, Expected: 'filterArray is: '},
-  {Name: 'csuccessfulCopyIs', Actual: msg.csuccessfulCopyIs, Expected: 'successfulCopy is: '},
+  {Name: 'cnamespaceDataObjectPathNotFound', Actual: msg.cnamespaceDataObjectPathNotFound, Expected: 'ERROR: Namespace data object path not found: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},

@@ -479,6 +479,7 @@ export const cCallingAnalyzeArgumentIndexIs = wrd.cCalling + bas.cSpace + wrd.ca
 export const cReturnArgumentValueSameAsItWasPassedIn = wrd.cReturn + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cargument + wrd.cValue + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cSpace + bas.cas + bas.cSpace + bas.cit + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cpassed + bas.cSpace + bas.cin + bas.cDot; // Return the argumentValue the same as it was passed in.
 export const cCheckIfThereAreBracketsOrNoBrackets = wrd.cCheck + bas.cSpace + bas.cif + bas.cSpace + wrd.cthere + bas.cSpace + wrd.care + bas.cSpace + wrd.cbrackets + bas.cSpace + bas.cor + bas.cSpace + bas.cno + bas.cSpace + wrd.cbrackets + bas.cDot; // Check if there are brackets or no brackets.
 export const cBracketsWereFound = wrd.cBrackets + bas.cSpace + wrd.cwere + bas.cSpace + wrd.cfound; // Brackets were found
+export const cBracketsWereNotFound = wrd.cBrackets + bas.cSpace + wrd.cwere + bas.cSpace + gen.cnot + bas.cSpace + wrd.cfound; // Brackets were not found
 export const cCheckIfThereIsRegularExpressionOrNot = wrd.cCheck + bas.cSpace + bas.cif + bas.cSpace + wrd.cthere + bas.cSpace + bas.cis + bas.cSpace + bas.ca + bas.cSpace + wrd.cRegular + bas.cSpace + wrd.cExpression + bas.cSpace + bas.cor + bas.cSpace + gen.cnot + bas.cDot; // Check if there is a Regular Expression or not.
 export const cRegularExpressionWasFound = bas.cA + bas.cSpace + wrd.cregular + bas.cSpace + wrd.cexpression + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cfound + bas.cExclamation; // A regular expression was found!
 export const cNoRegExpFound = bas.cNO + bas.cSpace + gen.cRegExp + bas.cSpace + wrd.cfound + bas.cExclamation; // NO RegExp found!
@@ -564,6 +565,7 @@ export const cActualColonDoublePercent = bas.cDoubleQuote + wrd.cActual + bas.cD
 export const callCommandWorkflowsDataIs = wrd.call + wrd.cCommand + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allCommandWorkflowsData is:
 export const csourceDestinationArrayIs = wrd.csource + wrd.cDestination + wrd.cArray + sys.cSpaceIsColonSpace; // sourceDestinationArray is:
 export const cfilterArrayIs = wrd.cfilter + wrd.cArray + sys.cSpaceIsColonSpace; // filterArray is:
+export const cnamespaceDataObjectPathNotFound = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cNamespace + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cobject + bas.cSpace + wrd.cpath + bas.cSpace + gen.cnot + bas.cSpace + wrd.cfound + bas.cColon + bas.cSpace; // ERROR: Namespace data object path not found:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -683,6 +685,7 @@ export const cprintDataHiveAttributesMessage3 = wrd.cERROR + bas.cColon + bas.cS
 export const cNothingToEcho = wrd.cNothing + bas.cSpace + bas.cto + bas.cSpace + wrd.cecho + bas.cDot; // Nothing to echo.
 // ERROR: Did not find any matching style logic pattern!
 export const cDidNotFindAnyMatchingStyleLogicPattern = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cDid + bas.cSpace + gen.cnot + bas.cSpace + wrd.cfind + bas.cSpace + wrd.cany + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cstyle + bas.cSpace + wrd.clogic + bas.cSpace + wrd.cpattern + bas.cExclamation;
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';

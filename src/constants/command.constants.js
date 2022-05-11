@@ -48,6 +48,7 @@ export const cconstantsPatternRecognizer = wrd.cconstants + wrd.cPattern + wrd.c
 export const cprintDataHive = wrd.cprint + wrd.cData + wrd.cHive; // printDataHive
 export const cprintDataHiveAttributes = cprintDataHive + wrd.cAttributes; // printDataHiveAttributes
 export const cclearDataStorage = wrd.cclear + wrd.cData + wrd.cStorage; // clearDataStorage
+export const cchangeSetting = wrd.cchange + wrd.cSetting; // changeSetting
 
 // ***********************************************
 // Integration Test commands in order
