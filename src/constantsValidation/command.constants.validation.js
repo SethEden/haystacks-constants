@@ -35,6 +35,7 @@ export const commandConstantsValidation = [
   // Configuration commands in order
   // ***********************************************
   {Name: 'csaveConfiguration', Actual: cmd.csaveConfiguration, Expected: 'saveConfiguration'},
+  {Name: 'cchangeConfigurationSetting', Actual: cmd.cchangeConfigurationSetting, Expected: 'changeConfigurationSetting'},
 
   // ***********************************************
   // Constant commands in order
@@ -42,6 +43,7 @@ export const commandConstantsValidation = [
   {Name: 'cconstantsGenerator', Actual: cmd.cconstantsGenerator, Expected: 'constantsGenerator'},
   {Name: 'cconstantsGeneratorList', Actual: cmd.cconstantsGeneratorList, Expected: 'constantsGeneratorList'},
   {Name: 'cconstantsPatternRecognizer', Actual: cmd.cconstantsPatternRecognizer, Expected: 'constantsPatternRecognizer'},
+  {Name: 'cevaluateConstant', Actual: cmd.cevaluateConstant, Expected: 'evaluateConstant'},
 
   // ***********************************************
   // Data Directorate commands in order
@@ -49,6 +51,7 @@ export const commandConstantsValidation = [
   {Name: 'cprintDataHive', Actual: cmd.cprintDataHive, Expected: 'printDataHive'},
   {Name: 'cprintDataHiveAttributes', Actual: cmd.cprintDataHiveAttributes, Expected: 'printDataHiveAttributes'},
   {Name: 'cclearDataStorage', Actual: cmd.cclearDataStorage, Expected: 'clearDataStorage'},
+  {Name: 'cchangeSetting', Actual: cmd.cchangeSetting, Expected: 'changeSetting'},
 
   // ***********************************************
   // Integration Test commands in order

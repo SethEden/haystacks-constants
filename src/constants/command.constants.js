@@ -34,6 +34,7 @@ export const cconvertColors = wrd.cconvert + wrd.cColors; // convertColors
 // Configuration commands in order
 // ***********************************************
 export const csaveConfiguration = wrd.csave + wrd.cConfiguration; // saveConfiguration
+export const cchangeConfigurationSetting = wrd.cchange + wrd.cConfiguration + wrd.cSetting; // changeConfigurationSetting
 
 // ***********************************************
 // Constant commands in order
@@ -41,6 +42,7 @@ export const csaveConfiguration = wrd.csave + wrd.cConfiguration; // saveConfigu
 export const cconstantsGenerator = wrd.cconstants + wrd.cGenerator; // constantsGenerator
 export const cconstantsGeneratorList = cconstantsGenerator + wrd.cList; // constantsGeneratorList
 export const cconstantsPatternRecognizer = wrd.cconstants + wrd.cPattern + wrd.cRecognizer; // constantsPatternRecognizer
+export const cevaluateConstant = wrd.cevaluate + wrd.cConstant; // evaluateConstant
 
 // ***********************************************
 // Data Directorate commands in order
@@ -48,6 +50,7 @@ export const cconstantsPatternRecognizer = wrd.cconstants + wrd.cPattern + wrd.c
 export const cprintDataHive = wrd.cprint + wrd.cData + wrd.cHive; // printDataHive
 export const cprintDataHiveAttributes = cprintDataHive + wrd.cAttributes; // printDataHiveAttributes
 export const cclearDataStorage = wrd.cclear + wrd.cData + wrd.cStorage; // clearDataStorage
+export const cchangeSetting = wrd.cchange + wrd.cSetting; // changeSetting
 
 // ***********************************************
 // Integration Test commands in order
