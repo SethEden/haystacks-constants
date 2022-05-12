@@ -2439,6 +2439,14 @@ export const cmutation = bas.cmu + bas.cta + phn.ction; // mutation
 export const cMutation = bas.cMu + bas.cta + phn.ction; // Mutation
 export const cmutations = cmutation + bas.cs; // mutations
 export const cMutations = cMutation + bas.cs; // Mutations
+export const cevaluate = ceval + bas.cua + bas.cte; // evaluate
+export const cEvaluate = cEval + bas.cua + bas.cte; // Evaluate
+export const cevaluates = cevaluate + bas.cs; // evaluates
+export const cEvaluates = cEvaluate + bas.cs; // Evaluates
+export const cevaluated = cevaluate + bas.cd; // evaluated
+export const cEvaluated = cEvaluate + bas.cd; // Evaluated
+export const cevaluating = ceval + bas.cua + bas.ct + phn.cing; // evaluating
+export const cEvaluating = cEval + bas.cua + bas.ct + phn.cing; // Evaluating
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

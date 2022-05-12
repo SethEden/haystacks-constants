@@ -43,6 +43,7 @@ export const commandConstantsValidation = [
   {Name: 'cconstantsGenerator', Actual: cmd.cconstantsGenerator, Expected: 'constantsGenerator'},
   {Name: 'cconstantsGeneratorList', Actual: cmd.cconstantsGeneratorList, Expected: 'constantsGeneratorList'},
   {Name: 'cconstantsPatternRecognizer', Actual: cmd.cconstantsPatternRecognizer, Expected: 'constantsPatternRecognizer'},
+  {Name: 'cevaluateConstant', Actual: cmd.cevaluateConstant, Expected: 'evaluateConstant'},
 
   // ***********************************************
   // Data Directorate commands in order

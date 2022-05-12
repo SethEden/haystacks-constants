@@ -42,6 +42,7 @@ export const cchangeConfigurationSetting = wrd.cchange + wrd.cConfiguration + wr
 export const cconstantsGenerator = wrd.cconstants + wrd.cGenerator; // constantsGenerator
 export const cconstantsGeneratorList = cconstantsGenerator + wrd.cList; // constantsGeneratorList
 export const cconstantsPatternRecognizer = wrd.cconstants + wrd.cPattern + wrd.cRecognizer; // constantsPatternRecognizer
+export const cevaluateConstant = wrd.cevaluate + wrd.cConstant; // evaluateConstant
 
 // ***********************************************
 // Data Directorate commands in order
