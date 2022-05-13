@@ -2446,6 +2446,16 @@ export const wordConstantsValidation = [
   {Name: 'cEvaluated', Actual: wrd.cEvaluated, Expected: 'Evaluated'},
   {Name: 'cevaluating', Actual: wrd.cevaluating, Expected: 'evaluating'},
   {Name: 'cEvaluating', Actual: wrd.cEvaluating, Expected: 'Evaluating'},
+  {Name: 'cplug', Actual: wrd.cplug, Expected: 'plug'},
+  {Name: 'cPlug', Actual: wrd.cPlug, Expected: 'Plug'},
+  {Name: 'cplugs', Actual: wrd.cplugs, Expected: 'plugs'},
+  {Name: 'cPlugs', Actual: wrd.cPlugs, Expected: 'Plugs'},
+  {Name: 'cplugged', Actual: wrd.cplugged, Expected: 'plugged'},
+  {Name: 'cPlugged', Actual: wrd.cPlugged, Expected: 'Plugged'},
+  {Name: 'cplugging', Actual: wrd.cplugging, Expected: 'plugging'},
+  {Name: 'cPlugging', Actual: wrd.cPlugging, Expected: 'Plugging'},
+  {Name: 'cplugin', Actual: wrd.cplugin, Expected: 'plugin'},
+  {Name: 'cPlugin', Actual: wrd.cPlugin, Expected: 'Plugin'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

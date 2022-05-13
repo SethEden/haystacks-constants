@@ -2447,6 +2447,16 @@ export const cevaluated = cevaluate + bas.cd; // evaluated
 export const cEvaluated = cEvaluate + bas.cd; // Evaluated
 export const cevaluating = ceval + bas.cua + bas.ct + phn.cing; // evaluating
 export const cEvaluating = cEval + bas.cua + bas.ct + phn.cing; // Evaluating
+export const cplug = bas.cpl + bas.cug; // plug
+export const cPlug = bas.cPl + bas.cug; // Plug
+export const cplugs = cplug + bas.cs; // plugs
+export const cPlugs = cPlug + bas.cs; // Plugs
+export const cplugged = cplug + phn.cged; // plugged
+export const cPlugged = cPlug + phn.cged; // Plugged
+export const cplugging = cplug + bas.cg + phn.cing; // plugging
+export const cPlugging = cPlug + bas.cg + phn.cing; // Plugging
+export const cplugin = cplug + cin; // plugin
+export const cPlugin = cPlug + cin; // Plugin
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

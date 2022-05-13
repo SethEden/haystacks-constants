@@ -87,6 +87,7 @@ export const cinitFrameworkSchema = gen.cinit + wrd.cFramework + wrd.cSchema; //
 export const cmergeClientBusienssRules = wrd.cmerge + wrd.cClient + wrd.cBusiness + wrd.cRules; // mergeClientBusinessRules
 export const cmergeClientCommands = wrd.cmerge + wrd.cClient + wrd.cCommands; // mergeClientCommands
 export const cloadCommandAliases = wrd.cload + wrd.cCommand + wrd.cAliases; // loadCommandAliases
+export const cloadPlugin = wrd.cload + wrd.cPlugin; // loadPlugin;
 export const cexecuteBusinessRules = wrd.cexecute + wrd.cBusiness + wrd.cRules; // executeBusinessRules
 // smuggle something cenqueueCommand = wrd.cenqueue + wrd.cCommand; // enqueueCommand
 // smuggle something cisCommandQueueEmpty = wrd.cis + wrd.cCommand + wrd.cQueue + wrd.cEmpty; // isCommandQueueEmpty

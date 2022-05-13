@@ -565,6 +565,7 @@ export const messageConstantsVaidation = [
   {Name: 'cnewValueIs', Actual: msg.cnewValueIs, Expected: 'newValue is: '},
   {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
   {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
+  {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
