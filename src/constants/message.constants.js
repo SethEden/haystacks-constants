@@ -569,6 +569,34 @@ export const cnamespaceDataObjectPathNotFound = wrd.cERROR + bas.cColon + bas.cS
 export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // newValue is:
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
+export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
+// New Workflow defined messages.
+export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
+export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
+export const cworkflowDataIs = wrd.cworkflow + wrd.cData + sys.cSpaceIsColonSpace; // workflowData is:
+export const cworkflowEntityIs = wrd.cworkflow + wrd.cEntity + sys.cSpaceIsColonSpace; // workflowEntity is:
+export const cworkflowObjectIs = wrd.cworkflow + wrd.cObject + sys.cSpaceIsColonSpace; // workflowObject is:
+export const cworkflowIs = wrd.cworkflow + sys.cSpaceIsColonSpace; // workflow is:
+export const cworkflowDataStructureWorkflowEntityIs = wrd.cworkflow + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.cworkflow + wrd.cEntity + bas.cCloseBracket + sys.cSpaceIsColonSpace; // workflowDataStructure[workflowEntity] is:
+export const cworkflowDataStructureWorkflowEntityIsOfTypeObject = wrd.cworkflow + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.cworkflow + wrd.cEntity + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + wrd.cof + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cobject + bas.cExclamation; // workflowDataStructure[workflowEntity] is of type object!
+export const callWorkflowsTempReturnedFromRecursiveCallIs = wrd.call + wrd.cWorkflows + wrd.cTemp + bas.cSpace + wrd.creturned + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // allWorkflowsTemp returned from the recursive call is:
+export const callWorkflowsAfterPushingToArray1Is = wrd.call + wrd.cWorkflows + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cpushing + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.carray + bas.cSpace + num.c1 + sys.cSpaceIsColonSpace; // allWorkflows after pushing to the array 1 is:
+export const callWorkflowsAfterPushingToArray2Is = wrd.call + wrd.cWorkflows + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cpushing + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.carray + bas.cSpace + num.c2 + sys.cSpaceIsColonSpace; // allWorkflows after pushing to the array 2 is:
+export const cworkflowDataStructureIs = wrd.cworkflow + wrd.cData + wrd.cStructure + sys.cSpaceIsColonSpace; // workflowDataStructure is:
+export const cnamespaceToFindIs = wrd.cnamespace + wrd.cTo + wrd.cFind + sys.cSpaceIsColonSpace; // namespaceToFind is:
+export const cworkflowNamespaceObjectIs = wrd.cworkflow + wrd.cNamespace + wrd.cObject + sys.cSpaceIsColonSpace; // workflowNamespaceObject is:
+export const cleafNodeNameIs = wrd.cleaf + wrd.cNode + wrd.cName + sys.cSpaceIsColonSpace; // leafNodeName is:
+export const cpropertyIs = wrd.cproperty + sys.cSpaceIsColonSpace; // property is:
+export const cinputDataPropertyIs = wrd.cinput + wrd.cData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + sys.cSpaceIsColonSpace; // inputData[property] is:
+export const cinputMetaDataPropertyIs = wrd.cinput + wrd.cMetaData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + sys.cSpaceIsColonSpace; // inputMetaData[property] is:
+export const cworkflowEntityValueIs = wrd.cworkflow + wrd.cEntity + bas.cOpenBracket + wrd.cValue + bas.cCloseBracket + sys.cSpaceIsColonSpace; // workflowEntity[Value] is:
+export const cworkflowParentIs = wrd.cworkflow + wrd.cParent + sys.cSpaceIsColonSpace; // workflowParent is:
+export const cDoneWithForLoopReturnDataIs = wrd.cDone + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfor + bas.cDash + wrd.cloop + bas.cComa + bas.cSpace + creturnDataIs; // Done with the for-loop, returnData is:
+export const cAfterRecursiveCallReturnDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + bas.cSpace + wrd.creturn + wrd.cData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + sys.cSpaceIsColonSpace; // AFTER recursive call returnData[property] is:
+export const cdataToMergeKeysJis = wrd.cdata + wrd.cTo + wrd.cMerge + wrd.cKeys + bas.cOpenBracket + bas.cj + bas.cCloseBracket + sys.cSpaceIsColonSpace; // dataToMergeKeys[j] is:
+export const cAfterConcatenating2ArraysInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.cconcatenating + bas.cSpace + num.ctwo + bas.cSpace + wrd.carrays + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER concatenating two arrays: inputData[property] is:
+export const cAfterRecursiveMergeInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.cmerge + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER recursive merge: inputData[property] is:
+export const cnamespaceDataObjectIs = wrd.cnamespace + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceDataObject is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -694,6 +722,54 @@ export const cchangeSettingError01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.
 export const cchangeSettingError02 = wrd.cPlease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cfully + bas.cSpace + wrd.cqualified + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cto + bas.cSpace + bas.ca + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cproperty + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csystem + bas.cComa;
 // and a value that you would like to assign to that data property.
 export const cchangeSettingError03 = wrd.cand + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cwould + bas.cSpace + wrd.clike + bas.cSpace + wrd.cto + bas.cSpace + wrd.cassign + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cproperty + bas.cDot;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Workflow messages
+// The recursive call returned false,
+export const cgetAllWorkflowsMessage01 = wrd.cThe + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + bas.cSpace + wrd.creturned + bas.cSpace + gen.cfalse + bas.cComa + bas.cSpace;
+// so push the current entity to the output array!
+export const cgetAllWorkflowsMessage02 = wrd.cso + bas.cSpace + wrd.cpush + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.centity + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.coutput + bas.cSpace + wrd.carray + bas.cExclamation;
+// workflowEntity is NOT an object type,
+export const cgetAllWorkflowsMessage03 = wrd.cworkflow + wrd.cEntity + bas.cSpace + wrd.cis + bas.cSpace + gen.cNOT + bas.cSpace + wrd.can + bas.cSpace + wrd.cobject + bas.cSpace + wrd.ctype + bas.cComa + bas.cSpace;
+// so push it to the output array!
+export const cgetAllWorkflowsMessage04 = wrd.cso + bas.cSpace + wrd.cpush + bas.cSpace + wrd.cit + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.coutput + bas.cSpace + wrd.carray + bas.cExclamation;
+// calling getWorkflowNamespaceDataObject() function,
+export const cworkfowHelpMessage01 = wrd.ccalling + bas.cSpace + wrd.cget + wrd.cWorkflow + wrd.cNamespace + wrd.cData + wrd.cObject + bas.cOpenParenthesis + bas.cCloseParenthesis + bas.cSpace + wrd.cfunction + bas.cComa + bas.cSpace;
+// because the user entered some namespace we should look for!
+export const cworkfowHelpMessage02 = wrd.cbecause + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.csome + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cwe + bas.cSpace + wrd.cshould + bas.cSpace + wrd.clook + bas.cSpace + wrd.cfor + bas.cExclamation;
+// NOW call getAllWorkflows with the above found data!
+export const cworkfowHelpMessage03 = wrd.cNOW + bas.cSpace + wrd.ccall + bas.cSpace + wrd.cget + wrd.cAll + wrd.cWorkflows + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cabove + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cdata + bas.cExclamation;
+// User did not enter any parameters,
+export const cworkfowHelpMessage04 = wrd.cUser + bas.cSpace + wrd.cdid + bas.cSpace + wrd.cnot + bas.cSpace + wrd.center + bas.cSpace + wrd.cany + bas.cSpace + wrd.cparameters + bas.cComa + bas.cSpace;
+// just call getAllWorkflows functions with no input,
+export const cworkfowHelpMessage05 = wrd.cjust + bas.cSpace + wrd.ccall + bas.cSpace + wrd.cget + wrd.cAll + wrd.cWorkflows + bas.cSpace + wrd.cfunctions + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cno + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace;
+// will return all and print all.
+export const cworkfowHelpMessage06 = wrd.cwill + bas.cSpace + wrd.creturn + bas.cSpace + wrd.call + bas.cSpace + wrd.cand + bas.cSpace + wrd.cprint + bas.cSpace + wrd.call + bas.cDot;
+// property is not a Workflow,
+export const cprocessXmlLeafNodeMessage01 = wrd.cproperty + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + bas.ca + bas.cSpace + wrd.cWorkflow + bas.cComa + bas.cSpace;
+// so call processXmlLeafNode() recursively!
+export const cprocessXmlLeafNodeMessage02 = wrd.cso + bas.cSpace + wrd.ccall + bas.cSpace + wrd.cprocess + gen.cXml + wrd.cLeaf + wrd.cNode + bas.cOpenParenthesis + bas.cCloseParenthesis + bas.cSpace + wrd.crecursively + bas.cExclamation;
+// property is in inputData
+export const cobjectDeepMergeMessage01 = wrd.cproperty + bas.cSpace + wrd.cis + bas.cSpace + wrd.cin + bas.cSpace + wrd.cinput + wrd.cData;
+// inputData[property] is not an object!
+export const cobjectDeepMergeMessage02 = wrd.cinput + wrd.cData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + gen.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.cobject + bas.cExclamation;
+// Assign it directly.
+export const cobjectDeepMergeMessage03 = wrd.cAssign + bas.cSpace + wrd.cit + bas.cSpace + wrd.cdirectly + bas.cDot;
+// inputData[property] is an object!
+export const cobjectDeepMergeMessage04 = wrd.cinput + wrd.cData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cobject + bas.cExclamation;
+// inputMetaData[property] is not an object,
+export const cobjectDeepMergeMessage05 = wrd.cinput + wrd.cMetaData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + gen.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.cobject + bas.cComa + bas.cSpace;
+// inputMetaData[property] is an object.
+export const cobjectDeepMergeMessage06 = wrd.cinput + wrd.cMetaData + bas.cOpenBracket + wrd.cproperty + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cobject + bas.cDot;
+// Array lengths are the same at this level.
+export const cobjectDeepMergeMessage07 = wrd.cArray + bas.cSpace + wrd.clengths + bas.cSpace + wrd.care + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cSpace + wrd.cat + bas.cSpace + wrd.cthis + bas.cSpace + wrd.clevel + bas.cDot;
+// Two arrays get concatenated.
+export const cobjectDeepMergeMessage08 = num.cTwo + bas.cSpace + wrd.carrays + bas.cSpace + wrd.cget + bas.cSpace + wrd.cconcatenated + bas.cDot;
+// Two objects get merged recursively.
+export const cobjectDeepMergeMessage09 = num.cTwo + bas.cSpace + wrd.cobjects + bas.cSpace + wrd.cget + bas.cSpace + wrd.cmerged + bas.cSpace + wrd.crecursively + bas.cDot;
+// property is not in inputData,
+export const cobjectDeepMergeMessage10 = wrd.cproperty + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cin + bas.cSpace + wrd.cinput + wrd.cData + bas.cComa + bas.cSpace;
+// so add it directly.
+export const cobjectDeepMergeMessage11 = wrd.cso + bas.cSpace + wrd.c_add + bas.cSpace + wrd.cit + bas.cSpace + wrd.cdirectly + bas.cDot;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';
