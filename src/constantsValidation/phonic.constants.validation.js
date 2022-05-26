@@ -1203,5 +1203,7 @@ export const phonicConstantsValidation = [
   {Name: 'cstr', Actual: phn.cstr, Expected: 'str'},
   {Name: 'cStr', Actual: phn.cStr, Expected: 'Str'},
   {Name: 'csur', Actual: phn.csur, Expected: 'sur'},
-  {Name: 'cSur', Actual: phn.cSur, Expected: 'Sur'}
+  {Name: 'cSur', Actual: phn.cSur, Expected: 'Sur'},
+  {Name: 'ccat', Actual: phn.ccat, Expected: 'cat'},
+  {Name: 'cCat', Actual: phn.cCat, Expected: 'Cat'}
 ];
