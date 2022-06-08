@@ -83,6 +83,7 @@ export const cdisplaySummaryConstantsValidationPassMessages = wrd.cdisplay + wrd
 export const cdisplaySummaryConstantsValidationFailMessages = wrd.cdisplay + wrd.cSummary + wrd.cConstants + wrd.cValidation + wrd.cFail + wrd.cMessages; // displaySummaryConstantsValidationFailMessages
 export const cpassAllConstantsValidation = wrd.cpass + wrd.cAll + wrd.cConstants + wrd.cValidation; // passAllConstantsValidation
 export const cpassedAllCommandAliasesDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cCommand + wrd.cAliases + wrd.cDuplicate + wrd.cChecks; // passedAllCommandAliasesDuplicateChecks
+export const cpassedAllWorkflowDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cWorkflow + wrd.cDuplicate + wrd.cChecks; // passedAllWorkflowDuplicateChecks
 export const creleaseCompleted = wrd.crelease + wrd.cCompleted; // releaseCompleted
 
 // Test Time Tracking

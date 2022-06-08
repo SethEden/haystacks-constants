@@ -58,6 +58,7 @@ export const commandConstantsValidation = [
   // ***********************************************
   {Name: 'cvalidateConstants', Actual: cmd.cvalidateConstants, Expected: 'validateConstants'},
   {Name: 'cvalidateCommandAliases', Actual: cmd.cvalidateCommandAliases, Expected: 'validateCommandAliases'},
+  {Name: 'cvalidateWorkflows', Actual: cmd.cvalidateWorkflows, Expected: 'validateWorkflows'},
 
   // ***********************************************
   // Performance Metric commands in order

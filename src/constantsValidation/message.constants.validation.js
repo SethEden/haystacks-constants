@@ -615,6 +615,9 @@ export const messageConstantsVaidation = [
   {Name: 'ccommandAliasDataStructureCommandAliasEntityIs', Actual: msg.ccommandAliasDataStructureCommandAliasEntityIs, Expected: 'commandAliasDataStructure[commandAliasEntity] is: '},
   {Name: 'cnamespaceCommandsObjectIs', Actual: msg.cnamespaceCommandsObjectIs, Expected: 'namespaceCommandsObject is: '},
   {Name: 'cTheConstantDoesNotExist', Actual: msg.cTheConstantDoesNotExist, Expected: 'The constant does not exist: '},
+  {Name: 'callWorkflowsDataIs', Actual: msg.callWorkflowsDataIs, Expected: 'allWorkflowsData is: '},
+  {Name: 'cDuplicateWorkflowCountIs', Actual: msg.cDuplicateWorkflowCountIs, Expected: 'Duplicate workflow count is: '},
+  {Name: 'cDuplicateWorkflowNameIs', Actual: msg.cDuplicateWorkflowNameIs, Expected: 'Duplicate workflow name is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -741,6 +744,7 @@ export const messageConstantsVaidation = [
   {Name: 'cgetAllCommandAliasDataMessage01', Actual: msg.cgetAllCommandAliasDataMessage01, Expected: 'internalCommandAliasDataStructure[commandAliasEntity] is of type object!'},
   {Name: 'cgetAllCommandAliasDataMessage02', Actual: msg.cgetAllCommandAliasDataMessage02, Expected: 'The recursive call returned false, so push the current entity to the output array!'},
   {Name: 'cevaluateConstantMessage01', Actual: msg.cevaluateConstantMessage01, Expected: 'ERROR: No constant value entered, please enter a constant name to evaluate.'},
+  {Name: 'cvalidateWorkflowsMessage01', Actual: msg.cvalidateWorkflowsMessage01, Expected: 'PASSED: All duplicate workflow validation tests!'},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'prompt01'},

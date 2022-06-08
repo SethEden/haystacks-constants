@@ -619,6 +619,9 @@ export const callCommandsDataIs = wrd.call + wrd.cCommands + wrd.cData + sys.cSp
 export const ccommandAliasDataStructureCommandAliasEntityIs = wrd.ccommand + wrd.cAlias + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.ccommand + wrd.cAlias + wrd.cEntity + bas.cCloseBracket + sys.cSpaceIsColonSpace; // commandAliasDataStructure[commandAliasEntity] is:
 export const cnamespaceCommandsObjectIs = wrd.cnamespace + wrd.cCommands + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceCommandsObject is:
 export const cTheConstantDoesNotExist = wrd.cThe + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // The constant does not exist:
+export const callWorkflowsDataIs = wrd.call + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowsData is:
+export const cDuplicateWorkflowCountIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace ; // Duplicate workflow count is:
+export const cDuplicateWorkflowNameIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace ; // Duplicate workflow name is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -810,6 +813,8 @@ export const cgetAllCommandAliasDataMessage01 = wrd.cinternal + wrd.cCommand + w
 export const cgetAllCommandAliasDataMessage02 = wrd.cThe + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + bas.cSpace + wrd.creturned + bas.cSpace + gen.cfalse + bas.cComa + bas.cSpace + wrd.cso + bas.cSpace + wrd.cpush + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.centity + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.coutput + bas.cSpace + wrd.carray + bas.cExclamation;
 // ERROR: No constant value entered, please enter a constant name to evaluate.
 export const cevaluateConstantMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.centered + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cname + bas.cSpace + wrd.cto + bas.cSpace + wrd.cevaluate + bas.cDot;
+// PASSED: All duplicate workflow validation tests!
+export const cvalidateWorkflowsMessage01 = wrd.cPASSED + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.cduplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctests + bas.cExclamation;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';
