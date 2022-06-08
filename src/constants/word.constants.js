@@ -2521,6 +2521,8 @@ export const cconcatenating = cconcat + bas.cen + bas.cat + phn.cing; // concate
 export const cConcatenating = cConcat + bas.cen + bas.cat + phn.cing; // Concatenating
 export const cabove = bas.cab + phn.cove; // above
 export const cAbove = bas.cAb + phn.cove; // Above
+export const csure = bas.cs + phn.cure; // sure
+export const cSure = bas.cS + phn.cure; // Sure
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

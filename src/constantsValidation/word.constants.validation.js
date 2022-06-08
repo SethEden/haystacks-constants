@@ -2520,6 +2520,8 @@ export const wordConstantsValidation = [
   {Name: 'cConcatenating', Actual: wrd.cConcatenating, Expected: 'Concatenating'},
   {Name: 'cabove', Actual: wrd.cabove, Expected: 'above'},
   {Name: 'cAbove', Actual: wrd.cAbove, Expected: 'Above'},
+  {Name: 'csure', Actual: wrd.csure, Expected: 'sure'},
+  {Name: 'cSure', Actual: wrd.cSure, Expected: 'Sure'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
