@@ -128,7 +128,6 @@ export const creplaceCharacterAtIndexOfString = wrd.creplace + wrd.cCharacter + 
 // ***********************************************
 export const ccleanCommandInput = wrd.cclean + wrd.cCommand + wrd.cInput; // cleanCommandInput
 export const cisValidCommandNameString = wrd.cis + wrd.cValid + wrd.cCommand + wrd.cName + wrd.cString; // isValidCommandNameString
-export const ccountDuplicateCommandAliases = wrd.ccount + wrd.cDuplicate + wrd.cCommand + wrd.cAliases; // countDuplicateCommandAliases
 
 // ***********************************************
 // ConstantStringParsing rules in order

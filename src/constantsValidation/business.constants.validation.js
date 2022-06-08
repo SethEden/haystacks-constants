@@ -126,7 +126,6 @@ export const businessConstantsValidation = [
   // ***********************************************
   {Name: 'ccleanCommandInput', Actual: biz.ccleanCommandInput, Expected: 'cleanCommandInput'},
   {Name: 'cisValidCommandNameString', Actual: biz.cisValidCommandNameString, Expected: 'isValidCommandNameString'},
-  {Name: 'ccountDuplicateCommandAliases', Actual: biz.ccountDuplicateCommandAliases, Expected: 'countDuplicateCommandAliases'},
 
   // ***********************************************
   // ConstantStringParsing rules in order

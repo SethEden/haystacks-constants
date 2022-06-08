@@ -597,6 +597,31 @@ export const cdataToMergeKeysJis = wrd.cdata + wrd.cTo + wrd.cMerge + wrd.cKeys 
 export const cAfterConcatenating2ArraysInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.cconcatenating + bas.cSpace + num.ctwo + bas.cSpace + wrd.carrays + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER concatenating two arrays: inputData[property] is:
 export const cAfterRecursiveMergeInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.cmerge + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER recursive merge: inputData[property] is:
 export const cnamespaceDataObjectIs = wrd.cnamespace + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceDataObject is:
+// MultiCommandAliases
+export const cnamespaceCommandsDataIs = wrd.cnamespace + wrd.cCommands + wrd.cData + sys.cSpaceIsColonSpace; // namespaceCommandsData is:
+export const callCommandAliasFlatDataIs = wrd.call + wrd.cCommand + wrd.cAlias + wrd.cFlat + wrd.cData + sys.cSpaceIsColonSpace; // allCommandAliasFlatData is:
+export const cfoundValidCommandIs = wrd.cfound + wrd.cValid + wrd.cCommand + sys.cSpaceIsColonSpace; // foundValidCommand is:
+export const ccommandAliasDataIs = wrd.ccommand + wrd.cAlias + wrd.cData + sys.cSpaceIsColonSpace; // commandAliasData is:
+export const ccommandAliasNameIs = wrd.ccommand + wrd.cAlias + wrd.cName + sys.cSpaceIsColonSpace; // commandAliasName is:
+export const ccommandAliasEntityIs = wrd.ccommand + wrd.cAlias + wrd.cEntity + sys.cSpaceIsColonSpace; // commandAliasEntity is:
+export const ccommandAliasEntityValueIs = wrd.ccommand + wrd.cAlias + wrd.cEntity + wrd.cValue + sys.cSpaceIsColonSpace; // commandAliasEntityValue is:
+export const ctempCommandAliasCountIs = wrd.ctemp + wrd.cCommand + wrd.cAlias + wrd.cCount + sys.cSpaceIsColonSpace; // tempCommandAliasCount is:
+export const caddingCommandAliasCount = wrd.cadding + bas.cSpace + wrd.ccommand + wrd.cAlias + wrd.cCount + bas.cColon + bas.cSpace; // adding commandAliasCount:
+export const cAfterAddingCommandAliasCountAndTempCommandAliasCount = wrd.cAfter + bas.cSpace + wrd.cadding + bas.cSpace + wrd.ccommand + wrd.cAlias + wrd.cCount + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctemp + wrd.cCommand + wrd.cAlias + wrd.cCount + bas.cColon + bas.cSpace; // After adding commandAliasCount and tempCommandAliasCount:
+export const ccommandAliasCountIs = wrd.ccommand + wrd.cAlias + wrd.cCount + sys.cSpaceIsColonSpace; // commandAliasCount is:
+export const ccommandAliasesObjectTempIs = wrd.ccommand + wrd.cAliases + wrd.cObject + wrd.cTemp + sys.cSpaceIsColonSpace; // commandAliasesObjectTemp is:
+export const ccommandAliasObjectIs = wrd.ccommand + wrd.cAlias + wrd.cObject + sys.cSpaceIsColonSpace; // commandAliasObject is:
+export const cinternalCommandAliasDataStructureIs = wrd.cinternal + wrd.cCommand + wrd.cAlias + wrd.cData + wrd.cStructure + sys.cSpaceIsColonSpace; // internalCommandAliasDataStructure is:
+export const cinternalCommandAliasDataStructureCommandAliasEntityIs = wrd.cinternal + wrd.cCommand + wrd.cAlias + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.ccommand + wrd.cAlias + wrd.cEntity + bas.cCloseBracket + sys.cSpaceIsColonSpace; // internalCommandAliasDataStructure[commandAliasEntity] is:
+export const callCommandAliasesTempReturnedFromRecursiveCallIs = wrd.call + wrd.cCommand + wrd.cAliases + wrd.cTemp + bas.cSpace + wrd.creturned + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // allCommandAliasesTemp returned from the recursive call is:
+export const callCommandsDataAfterPushingToTheArrayIs = wrd.call + wrd.cCommands + wrd.cData + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cpushing + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.carray + sys.cSpaceIsColonSpace; // allCommandsData after pushing to the array is:
+export const callCommandsDataIs = wrd.call + wrd.cCommands + wrd.cData + sys.cSpaceIsColonSpace; // allCommandsData is:
+export const ccommandAliasDataStructureCommandAliasEntityIs = wrd.ccommand + wrd.cAlias + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.ccommand + wrd.cAlias + wrd.cEntity + bas.cCloseBracket + sys.cSpaceIsColonSpace; // commandAliasDataStructure[commandAliasEntity] is:
+export const cnamespaceCommandsObjectIs = wrd.cnamespace + wrd.cCommands + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceCommandsObject is:
+export const cTheConstantDoesNotExist = wrd.cThe + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // The constant does not exist:
+export const callWorkflowsDataIs = wrd.call + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowsData is:
+export const cDuplicateWorkflowCountIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace ; // Duplicate workflow count is:
+export const cDuplicateWorkflowNameIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace ; // Duplicate workflow name is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -770,6 +795,26 @@ export const cobjectDeepMergeMessage09 = num.cTwo + bas.cSpace + wrd.cobjects + 
 export const cobjectDeepMergeMessage10 = wrd.cproperty + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cin + bas.cSpace + wrd.cinput + wrd.cData + bas.cComa + bas.cSpace;
 // so add it directly.
 export const cobjectDeepMergeMessage11 = wrd.cso + bas.cSpace + wrd.c_add + bas.cSpace + wrd.cit + bas.cSpace + wrd.cdirectly + bas.cDot;
+// ERROR: The command namespace was not found.
+export const chelpCommandMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot;
+// Please make sure you have entered the correct name and try again.
+export const chelpCommandMessage02 = wrd.cPlease + bas.cSpace + wrd.cmake + bas.cSpace + wrd.csure + bas.cSpace + wrd.cyou + bas.cSpace + wrd.chave + bas.cSpace + wrd.centered + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccorrect + bas.cSpace + wrd.cname + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
+// NOW call getAllCommandAliasData with the above found data!
+export const chelpCommandMessage03 = wrd.cNOW + bas.cSpace + wrd.ccall + bas.cSpace + wrd.cget + wrd.cAll + wrd.cCommand + wrd.cAlias + wrd.cData + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cabove + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cdata + bas.cExclamation;
+// ERROR: The workflow namespace was not found.
+export const cworkflowHelpCommandMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot;
+// Found a matching alias entry! 1
+export const cFoundMatchingAliasEntry1 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.calias + bas.cSpace + wrd.centry + bas.cExclamation + bas.cSpace + num.c1;
+// Found a matching alias entry! 2
+export const cFoundMatchingAliasEntry2 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.calias + bas.cSpace + wrd.centry + bas.cExclamation + bas.cSpace + num.c2;
+// internalCommandAliasDataStructure[commandAliasEntity] is of type object!
+export const cgetAllCommandAliasDataMessage01 = wrd.cinternal + wrd.cCommand + wrd.cAlias + wrd.cData + wrd.cStructure + bas.cOpenBracket + wrd.ccommand + wrd.cAlias + wrd.cEntity + bas.cCloseBracket + bas.cSpace + wrd.cis + bas.cSpace + wrd.cof + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cobject + bas.cExclamation;
+// The recursive call returned false, so push the current entity to the output array!
+export const cgetAllCommandAliasDataMessage02 = wrd.cThe + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + bas.cSpace + wrd.creturned + bas.cSpace + gen.cfalse + bas.cComa + bas.cSpace + wrd.cso + bas.cSpace + wrd.cpush + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.centity + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.coutput + bas.cSpace + wrd.carray + bas.cExclamation;
+// ERROR: No constant value entered, please enter a constant name to evaluate.
+export const cevaluateConstantMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.centered + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cname + bas.cSpace + wrd.cto + bas.cSpace + wrd.cevaluate + bas.cDot;
+// PASSED: All duplicate workflow validation tests!
+export const cvalidateWorkflowsMessage01 = wrd.cPASSED + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.cduplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctests + bas.cExclamation;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';
