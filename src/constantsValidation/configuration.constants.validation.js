@@ -84,6 +84,7 @@ export const configurationConstantsValidation = [
   {Name: 'cdisplaySummaryConstantsValidationFailMessages', Actual: cfg.cdisplaySummaryConstantsValidationFailMessages, Expected: 'displaySummaryConstantsValidationFailMessages'},
   {Name: 'cpassAllConstantsValidation', Actual: cfg.cpassAllConstantsValidation, Expected: 'passAllConstantsValidation'},
   {Name: 'cpassedAllCommandAliasesDuplicateChecks', Actual: cfg.cpassedAllCommandAliasesDuplicateChecks, Expected: 'passedAllCommandAliasesDuplicateChecks'},
+  {Name: 'cpassedAllWorkflowDuplicateChecks', Actual: cfg.cpassedAllWorkflowDuplicateChecks, Expected: 'passedAllWorkflowDuplicateChecks'},
   {Name: 'creleaseCompleted', Actual: cfg.creleaseCompleted, Expected: 'releaseCompleted'},
 
   // Test Time Tracking
