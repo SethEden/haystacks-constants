@@ -221,6 +221,7 @@ export const businessConstantsValidation = [
   {Name: 'cwriteJsonData', Actual: biz.cwriteJsonData, Expected: 'writeJsonData'},
   {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
   {Name: 'cscanDirectoryContents', Actual: biz.cscanDirectoryContents, Expected: 'scanDirectoryContents'},
+  {Name: 'cgetDirectoryList', Actual: biz.cgetDirectoryList, Expected: 'getDirectoryList'},
   {Name: 'creadDirectorySynchronously', Actual: biz.creadDirectorySynchronously, Expected: 'readDirectorySynchronously'},
   {Name: 'ccopyAllFilesAndFoldersFromFolderToFolder', Actual: biz.ccopyAllFilesAndFoldersFromFolderToFolder, Expected: 'copyAllFilesAndFoldersFromFolderToFolder'},
   {Name: 'cbuildReleasePackage', Actual: biz.cbuildReleasePackage, Expected: 'buildReleasePackage'},

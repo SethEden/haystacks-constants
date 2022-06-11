@@ -2523,6 +2523,14 @@ export const cabove = bas.cab + phn.cove; // above
 export const cAbove = bas.cAb + phn.cove; // Above
 export const csure = bas.cs + phn.cure; // sure
 export const cSure = bas.cS + phn.cure; // Sure
+export const ctheme = bas.cth + phn.ceme; // theme
+export const cTheme = bas.cTh + phn.ceme; // Theme
+export const cthemes = ctheme + bas.cs; // themes
+export const cThemes = cTheme + bas.cs; // Themes
+export const cthemed = ctheme + bas.cd; // themed
+export const cThemed = cTheme + bas.cd; // Themed
+export const ctheming = bas.cth + bas.cem + phn.cing; // theming
+export const cTheming = bas.cTh + bas.cem + phn.cing; // Theming
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

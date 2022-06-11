@@ -1157,6 +1157,7 @@ export const cSig = bas.cSi + bas.cg; // Sig
 export const crop = bas.cro + bas.cp; // rop
 export const cRop = bas.cRo + bas.cp; // Rop
 export const cged = bas.cge + bas.cd; // ged
+export const ceme = bas.cem + bas.ce; // eme
 
 //////////////////////////////////////////////////////////////////
 // Knots

@@ -2522,6 +2522,14 @@ export const wordConstantsValidation = [
   {Name: 'cAbove', Actual: wrd.cAbove, Expected: 'Above'},
   {Name: 'csure', Actual: wrd.csure, Expected: 'sure'},
   {Name: 'cSure', Actual: wrd.cSure, Expected: 'Sure'},
+  {Name: 'ctheme', Actual: wrd.ctheme, Expected: 'theme'},
+  {Name: 'cTheme', Actual: wrd.cTheme, Expected: 'Theme'},
+  {Name: 'cthemes', Actual: wrd.cthemes, Expected: 'themes'},
+  {Name: 'cThemes', Actual: wrd.cThemes, Expected: 'Themes'},
+  {Name: 'cthemed', Actual: wrd.cthemed, Expected: 'themed'},
+  {Name: 'cThemed', Actual: wrd.cThemed, Expected: 'Themed'},
+  {Name: 'ctheming', Actual: wrd.ctheming, Expected: 'theming'},
+  {Name: 'cTheming', Actual: wrd.cTheming, Expected: 'Theming'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

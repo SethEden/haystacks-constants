@@ -223,6 +223,7 @@ export const cgetJsonData = wrd.cget + gen.cJson + wrd.cData; // getJsonData
 export const cwriteJsonData = wrd.cwrite + gen.cJson + wrd.cData; // writeJsonData
 export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
 export const cscanDirectoryContents = wrd.cscan + wrd.cDirectory + wrd.cContents; // scanDirectoryContents
+export const cgetDirectoryList = wrd.cget + wrd.cDirectory + wrd.cList; // getDirectoryList
 export const creadDirectorySynchronously = wrd.cread + wrd.cDirectory + wrd.cSynchronously; // readDirectorySynchronously
 export const ccopyAllFilesAndFoldersFromFolderToFolder = wrd.ccopy + wrd.cAll + wrd.cFiles + wrd.cAnd + wrd.cFolders + wrd.cFrom + wrd.cFolder + wrd.cTo + wrd.cFolder; // copyAllFilesAndFoldersFromFolderToFolder
 export const cbuildReleasePackage = wrd.cbuild + wrd.cRelease + wrd.cPackage; // buildReleasePackage
