@@ -355,6 +355,7 @@ export const cappConfigPathIs = phn.capp + wrd.cConfig + wrd.cPath + sys.cSpaceI
 export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkResourcesPath is:
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
+export const cframeworkThemesPathIs = wrd.cframework + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkThemesPath is:
 export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkCommandAliasesPath is:
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
@@ -625,6 +626,12 @@ export const cTheConstantDoesNotExist = wrd.cThe + bas.cSpace + wrd.cconstant + 
 export const callWorkflowsDataIs = wrd.call + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowsData is:
 export const cDuplicateWorkflowCountIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace ; // Duplicate workflow count is:
 export const cDuplicateWorkflowNameIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace ; // Duplicate workflow name is:
+// Themes
+export const cthemesNamesIs = wrd.cthemes + wrd.cNames + sys.cSpaceIsColonSpace; // themesNames is:
+export const cthemeNameIs = wrd.ctheme + wrd.cName + sys.cSpaceIsColonSpace; // themeName is:
+export const cthemePathIs = wrd.ctheme + wrd.cPath + sys.cSpaceIsColonSpace; // themePath is:
+export const cthemesListIs = wrd.cthemes + wrd.cList + sys.cSpaceIsColonSpace; // themesList is:
+export const cthemeDataIs = wrd.ctheme + wrd.cData + sys.cSpaceIsColonSpace; // themeData is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;

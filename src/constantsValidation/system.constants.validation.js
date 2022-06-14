@@ -305,6 +305,7 @@ export const systemConstantsValidation = [
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
   {Name: 'cappConfigPath', Actual: sys.cappConfigPath, Expected: 'appConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: sys.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
+  {Name: 'cthemeConfigPath', Actual: sys.ccthemeConfigPath, Expected: 'themeConfigPath'},
   {Name: 'cApplicationName', Actual: sys.cApplicationName, Expected: 'ApplicationName'},
   {Name: 'cApplicationRootPath', Actual: sys.cApplicationRootPath, Expected: 'ApplicationRootPath'},
   {Name: 'cApplicationCleanedRootPath', Actual: sys.cApplicationCleanedRootPath, Expected: 'ApplicationCleanedRootPath'},
@@ -389,6 +390,7 @@ export const systemConstantsValidation = [
   {Name: 'cframeworkConstantsPath', Actual: sys.cframeworkConstantsPath, Expected: 'constants//'},
   {Name: 'cframeworkResourcesPath', Actual: sys.cframeworkResourcesPath, Expected: 'resources//'},
   {Name: 'cframeworkResourcesConfigurationPath', Actual: sys.cframeworkResourcesConfigurationPath, Expected: 'resources//configuration//'},
+  {Name: 'cframeworkThemesPath', Actual: sys.cframeworkThemesPath, Expected: 'resources//themes//'},
   {Name: 'cframeworkResourcesCommandAliasesPath', Actual: sys.cframeworkResourcesCommandAliasesPath, Expected: 'resources//commands//'},
   {Name: 'cframeworkResourcesWorkflowsPath', Actual: sys.cframeworkResourcesWorkflowsPath, Expected: 'resources//workflows//'}
 ];

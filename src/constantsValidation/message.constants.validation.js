@@ -352,6 +352,7 @@ export const messageConstantsVaidation = [
   {Name: 'cframeworkResourcesPathIs', Actual: msg.cframeworkResourcesPathIs, Expected: 'frameworkResourcesPath is: '},
   {Name: 'cframeworkFullMetaDataPathIs', Actual: msg.cframeworkFullMetaDataPathIs, Expected: 'frameworkFullMetaDataPath is: '},
   {Name: 'cframeworkConfigPathIs', Actual: msg.cframeworkConfigPathIs, Expected: 'frameworkConfigPath is: '},
+  {Name: 'cframeworkThemesPathIs', Actual: msg.cframeworkThemesPathIs, Expected: 'frameworkThemesPath is: '},
   {Name: 'cframeworkCommandAliasesPathIs', Actual: msg.cframeworkCommandAliasesPathIs, Expected: 'frameworkCommandAliasesPath is: '},
   {Name: 'cframeworkWorkflowsPathIs', Actual: msg.cframeworkWorkflowsPathIs, Expected: 'frameworkWorkflowsPath is: '},
   {Name: 'ccommandAliasesPathIs', Actual: msg.ccommandAliasesPathIs, Expected: 'commandAliasesPath is: '},
