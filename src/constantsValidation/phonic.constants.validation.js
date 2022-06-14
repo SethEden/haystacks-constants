@@ -951,6 +951,7 @@ export const phonicConstantsValidation = [
   {Name: 'caki', Actual: phn.caki, Expected: 'aki'},
   {Name: 'chaki', Actual: phn.chaki, Expected: 'haki'},
   {Name: 'cava', Actual: phn.cava, Expected: 'ava'},
+  {Name: 'cAva', Actual: phn.cAva, Expected: 'Ava'},
   {Name: 'civer', Actual: phn.civer, Expected: 'iver'},
   {Name: 'cnta', Actual: phn.cnta, Expected: 'nta'},
   {Name: 'cgenta', Actual: phn.cgenta, Expected: 'genta'},

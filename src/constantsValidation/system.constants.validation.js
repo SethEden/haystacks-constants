@@ -305,7 +305,7 @@ export const systemConstantsValidation = [
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
   {Name: 'cappConfigPath', Actual: sys.cappConfigPath, Expected: 'appConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: sys.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
-  {Name: 'cthemeConfigPath', Actual: sys.ccthemeConfigPath, Expected: 'themeConfigPath'},
+  {Name: 'cthemeConfigPath', Actual: sys.cthemeConfigPath, Expected: 'themeConfigPath'},
   {Name: 'cApplicationName', Actual: sys.cApplicationName, Expected: 'ApplicationName'},
   {Name: 'cApplicationRootPath', Actual: sys.cApplicationRootPath, Expected: 'ApplicationRootPath'},
   {Name: 'cApplicationCleanedRootPath', Actual: sys.cApplicationCleanedRootPath, Expected: 'ApplicationCleanedRootPath'},
