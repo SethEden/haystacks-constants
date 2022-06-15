@@ -944,6 +944,7 @@ export const camen = came + bas.cn; // amen
 export const caki = bas.cak + bas.ci; // aki
 export const chaki = bas.ch + caki; // haki
 export const cava = bas.cav + bas.ca; // ava
+export const cAva = bas.cAv + bas.ca; // Ava
 export const civer = cive + bas.cr; // iver
 export const cnta = bas.cnt + bas.ca; // nta
 export const cgenta = bas.cge + cnta; // genta
@@ -1157,6 +1158,7 @@ export const cSig = bas.cSi + bas.cg; // Sig
 export const crop = bas.cro + bas.cp; // rop
 export const cRop = bas.cRo + bas.cp; // Rop
 export const cged = bas.cge + bas.cd; // ged
+export const ceme = bas.cem + bas.ce; // eme
 
 //////////////////////////////////////////////////////////////////
 // Knots
