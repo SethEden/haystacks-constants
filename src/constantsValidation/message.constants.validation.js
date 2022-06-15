@@ -567,6 +567,7 @@ export const messageConstantsVaidation = [
   {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
   {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
   {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
+  {Name: 'ccomaCountIs', Actual: msg.ccomaCountIs, Expected: 'comaCount is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

@@ -571,6 +571,7 @@ export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // ne
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
+export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
