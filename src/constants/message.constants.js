@@ -355,6 +355,7 @@ export const cappConfigPathIs = phn.capp + wrd.cConfig + wrd.cPath + sys.cSpaceI
 export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkResourcesPath is:
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
+export const cframeworkThemesPathIs = wrd.cframework + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkThemesPath is:
 export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkCommandAliasesPath is:
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
@@ -570,6 +571,7 @@ export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // ne
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
+export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -625,6 +627,17 @@ export const cTheConstantDoesNotExist = wrd.cThe + bas.cSpace + wrd.cconstant + 
 export const callWorkflowsDataIs = wrd.call + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowsData is:
 export const cDuplicateWorkflowCountIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace ; // Duplicate workflow count is:
 export const cDuplicateWorkflowNameIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace ; // Duplicate workflow name is:
+// Themes
+export const cthemesNamesIs = wrd.cthemes + wrd.cNames + sys.cSpaceIsColonSpace; // themesNames is:
+export const cthemeNameIs = wrd.ctheme + wrd.cName + sys.cSpaceIsColonSpace; // themeName is:
+export const cthemePathIs = wrd.ctheme + wrd.cPath + sys.cSpaceIsColonSpace; // themePath is:
+export const cthemesListIs = wrd.cthemes + wrd.cList + sys.cSpaceIsColonSpace; // themesList is:
+export const cthemeDataIs = wrd.ctheme + wrd.cData + sys.cSpaceIsColonSpace; // themeData is:
+export const cthemeConfigPathNameIs = wrd.ctheme + wrd.cConfig + wrd.cPath + wrd.cName + sys.cSpaceIsColonSpace; // themeConfigPathName is:
+export const cthemeConfigFilesToLoadIs = wrd.ctheme + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace; // themeConfigFilesToLoad is:
+export const cdesiredThemeNameIs = wrd.cdesired + wrd.cTheme + wrd.cName + sys.cSpaceIsColonSpace; // desiredThemeName is:
+export const cnamedThemePathIsVerified = wrd.cnamed + wrd.cTheme + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.cverified + bas.cColon + bas.cSpace; // namedThemePath is verified:
+export const cloadedThemeDataIs = wrd.cloaded + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // loadedThemeData is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -818,6 +831,22 @@ export const cgetAllCommandAliasDataMessage02 = wrd.cThe + bas.cSpace + wrd.crec
 export const cevaluateConstantMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.centered + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cname + bas.cSpace + wrd.cto + bas.cSpace + wrd.cevaluate + bas.cDot;
 // PASSED: All duplicate workflow validation tests!
 export const cvalidateWorkflowsMessage01 = wrd.cPASSED + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.cduplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctests + bas.cExclamation;
+// ERROR: Invalid entry, please enter a valid configuration namespace to change,
+export const cchangeConfigurationSettingMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cInvalid + bas.cSpace + wrd.centry + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cto + bas.cSpace + wrd.cchange + bas.cComa + bas.cSpace;
+// and a value to assign to the configuration setting.
+export const cchangeConfigurationSettingMessage02 = wrd.cand + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalue + bas.cSpace + wrd.cto + bas.cSpace + wrd.cassign + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.csetting + bas.cDot;
+// EXAMPLE: changeConfigurationSetting debugSetting.businessRules.rules.arrayParsing.commandArrayParsing.solveLehmerCode true
+export const cchangeConfigurationSettingMessage03 = wrd.cEXAMPLE + bas.cColon + bas.cSpace + wrd.cchange + wrd.cConfiguration + wrd.cSetting + bas.cSpace + wrd.cdebug + wrd.cSetting + bas.cDot + wrd.cbusiness + wrd.cRules + bas.cDot + wrd.crules + bas.cDot + wrd.carray + wrd.cParsing + bas.cDot + wrd.ccommand + wrd.cArray + wrd.cParsing + bas.cDot + wrd.csolve + wrd.cLehmer + wrd.cCode + bas.cSpace + gen.ctrue;
+// ERROR: There was an error applying the selected theme to the active debug settings configuration.
+export const cchangeDebugConfigurationThemeMessage01 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.capplying + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cselected + bas.cSpace + wrd.ctheme + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cactive + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csettings + bas.cSpace + wrd.cconfiguration + bas.cDot;
+// ERROR: The specified theme name was not found in the current list of supported themes.
+export const cchangeDebugConfigurationThemeMessage02 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.ctheme + bas.cSpace + wrd.cname + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccurrent + bas.cSpace + wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.csupported + bas.cSpace + wrd.cthemes + bas.cDot;
+// You can find the available themes at the following path location:
+export const cchangeDebugConfigurationThemeMessage03 = wrd.cYou + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cfind + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cavailable + bas.cSpace + wrd.cthemes + bas.cSpace + wrd.cat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfollowing + bas.cSpace + wrd.cpath + bas.cSpace + wrd.clocation + bas.cColon + bas.cSpace;
+// ERROR: Invalid entry, please enter a theme name you would like the debug settings to switch to when logging debug statements.
+export const cchangeDebugConfigurationThemeMessage04 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cInvalid + bas.cSpace + wrd.centry + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.ctheme + bas.cSpace + wrd.cname + bas.cSpace + wrd.cyou + bas.cSpace + wrd.cwould + bas.cSpace + wrd.clike + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csettings + bas.cSpace + wrd.cto + bas.cSpace + wrd.cswitch + bas.cSpace + wrd.cto + bas.cSpace + wrd.cwhen + bas.cSpace + wrd.clogging + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.cstatements + bas.cDot;
+// EXAMPLE: changeDebugConfigurationTheme Skywalker
+export const cchangeDebugConfigurationThemeMessage05 = wrd.cEXAMPLE + bas.cColon + bas.cSpace + wrd.cchange + wrd.cDebug + wrd.cConfiguration + wrd.cTheme + bas.cSpace + wrd.cSky + wrd.cwalker;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
 export const cprompt01 = 'prompt01';

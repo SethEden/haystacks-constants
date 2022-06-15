@@ -352,6 +352,7 @@ export const messageConstantsVaidation = [
   {Name: 'cframeworkResourcesPathIs', Actual: msg.cframeworkResourcesPathIs, Expected: 'frameworkResourcesPath is: '},
   {Name: 'cframeworkFullMetaDataPathIs', Actual: msg.cframeworkFullMetaDataPathIs, Expected: 'frameworkFullMetaDataPath is: '},
   {Name: 'cframeworkConfigPathIs', Actual: msg.cframeworkConfigPathIs, Expected: 'frameworkConfigPath is: '},
+  {Name: 'cframeworkThemesPathIs', Actual: msg.cframeworkThemesPathIs, Expected: 'frameworkThemesPath is: '},
   {Name: 'cframeworkCommandAliasesPathIs', Actual: msg.cframeworkCommandAliasesPathIs, Expected: 'frameworkCommandAliasesPath is: '},
   {Name: 'cframeworkWorkflowsPathIs', Actual: msg.cframeworkWorkflowsPathIs, Expected: 'frameworkWorkflowsPath is: '},
   {Name: 'ccommandAliasesPathIs', Actual: msg.ccommandAliasesPathIs, Expected: 'commandAliasesPath is: '},
@@ -566,6 +567,7 @@ export const messageConstantsVaidation = [
   {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
   {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
   {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
+  {Name: 'ccomaCountIs', Actual: msg.ccomaCountIs, Expected: 'comaCount is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -621,6 +623,17 @@ export const messageConstantsVaidation = [
   {Name: 'callWorkflowsDataIs', Actual: msg.callWorkflowsDataIs, Expected: 'allWorkflowsData is: '},
   {Name: 'cDuplicateWorkflowCountIs', Actual: msg.cDuplicateWorkflowCountIs, Expected: 'Duplicate workflow count is: '},
   {Name: 'cDuplicateWorkflowNameIs', Actual: msg.cDuplicateWorkflowNameIs, Expected: 'Duplicate workflow name is: '},
+  // Themes
+  {Name: 'cthemesNamesIs', Actual: msg.cthemesNamesIs, Expected: 'themesNames is: '},
+  {Name: 'cthemeNameIs', Actual: msg.cthemeNameIs, Expected: 'themeName is: '},
+  {Name: 'cthemePathIs', Actual: msg.cthemePathIs, Expected: 'themePath is: '},
+  {Name: 'cthemesListIs', Actual: msg.cthemesListIs, Expected: 'themesList is: '},
+  {Name: 'cthemeDataIs', Actual: msg.cthemeDataIs, Expected: 'themeData is: '},
+  {Name: 'cthemeConfigPathNameIs', Actual: msg.cthemeConfigPathNameIs, Expected: 'themeConfigPathName is: '},
+  {Name: 'cthemeConfigFilesToLoadIs', Actual: msg.cthemeConfigFilesToLoadIs, Expected: 'themeConfigFilesToLoad is: '},
+  {Name: 'cdesiredThemeNameIs', Actual: msg.cdesiredThemeNameIs, Expected: 'desiredThemeName is: '},
+  {Name: 'cnamedThemePathIsVerified', Actual: msg.cnamedThemePathIsVerified, Expected: 'namedThemePath is verified: '},
+  {Name: 'cloadedThemeDataIs', Actual: msg.cloadedThemeDataIs, Expected: 'loadedThemeData is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -748,6 +761,14 @@ export const messageConstantsVaidation = [
   {Name: 'cgetAllCommandAliasDataMessage02', Actual: msg.cgetAllCommandAliasDataMessage02, Expected: 'The recursive call returned false, so push the current entity to the output array!'},
   {Name: 'cevaluateConstantMessage01', Actual: msg.cevaluateConstantMessage01, Expected: 'ERROR: No constant value entered, please enter a constant name to evaluate.'},
   {Name: 'cvalidateWorkflowsMessage01', Actual: msg.cvalidateWorkflowsMessage01, Expected: 'PASSED: All duplicate workflow validation tests!'},
+  {Name: 'cchangeConfigurationSettingMessage01', Actual: msg.cchangeConfigurationSettingMessage01, Expected: 'ERROR: Invalid entry, please enter a valid configuration namespace to change, '},
+  {Name: 'cchangeConfigurationSettingMessage02', Actual: msg.cchangeConfigurationSettingMessage02, Expected: 'and a value to assign to the configuration setting.'},
+  {Name: 'cchangeConfigurationSettingMessage03', Actual: msg.cchangeConfigurationSettingMessage03, Expected: 'EXAMPLE: changeConfigurationSetting debugSetting.businessRules.rules.arrayParsing.commandArrayParsing.solveLehmerCode true'},
+  {Name: 'cchangeDebugConfigurationThemeMessage01', Actual: msg.cchangeDebugConfigurationThemeMessage01, Expected: 'ERROR: There was an error applying the selected theme to the active debug settings configuration.'},
+  {Name: 'cchangeDebugConfigurationThemeMessage02', Actual: msg.cchangeDebugConfigurationThemeMessage02, Expected: 'ERROR: The specified theme name was not found in the current list of supported themes.'},
+  {Name: 'cchangeDebugConfigurationThemeMessage03', Actual: msg.cchangeDebugConfigurationThemeMessage03, Expected: 'You can find the available themes at the following path location: '},
+  {Name: 'cchangeDebugConfigurationThemeMessage04', Actual: msg.cchangeDebugConfigurationThemeMessage04, Expected: 'ERROR: Invalid entry, please enter a theme name you would like the debug settings to switch to when logging debug statements.'},
+  {Name: 'cchangeDebugConfigurationThemeMessage05', Actual: msg.cchangeDebugConfigurationThemeMessage05, Expected: 'EXAMPLE: changeDebugConfigurationTheme Skywalker'},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'prompt01'},
