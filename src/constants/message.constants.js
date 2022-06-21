@@ -517,6 +517,7 @@ export const cAlreadyExists = bas.cSpace + wrd.cALREADY + bas.cSpace + wrd.cexis
 export const cdoesNotExist = bas.cSpace + wrd.cdoes + bas.cSpace + gen.cnot + bas.cSpace + wrd.cexist + bas.cExclamation; // does not exist!
 export const cisEmpty = bas.cSpace + bas.cis + bas.cSpace + wrd.cempty + bas.cExclamation; // is empty!
 export const cContentsOfTheStackNamespace = wrd.cContents + bas.cSpace + bas.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cname + wrd.cspace + bas.cColon + bas.cSpace; // Contents of the stack namespace:
+export const cContentsOfTheQueueNamespace = wrd.cContents + bas.cSpace + bas.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cqueue + bas.cSpace + wrd.cname + wrd.cspace + bas.cColon + bas.cSpace; // Contents of the queue namespace:
 export const cwordDelimiterIs = wrd.cword + wrd.cDelimiter + sys.cSpaceIsColonSpace; // wordDelimiter is:
 export const cstringContainsAcronymIs = wrd.cstring + wrd.cContains + wrd.cAcronym + sys.cSpaceIsColonSpace; // stringContainsAcronym is:
 export const cErrorZipPackageReleaseFailed = wrd.cERROR + bas.cColon + bas.cSpace + gen.cZip + bas.cSpace + wrd.cpackage + bas.cSpace + wrd.crelease + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Zip package release failed:

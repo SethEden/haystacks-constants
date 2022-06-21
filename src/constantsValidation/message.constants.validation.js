@@ -513,6 +513,7 @@ export const messageConstantsVaidation = [
   {Name: 'cdoesNotExist', Actual: msg.cdoesNotExist, Expected: ' does not exist!'},
   {Name: 'cisEmpty', Actual: msg.cisEmpty, Expected: ' is empty!'},
   {Name: 'cContentsOfTheStackNamespace', Actual: msg.cContentsOfTheStackNamespace, Expected: 'Contents of the stack namespace: '},
+  {Name: 'cContentsOfTheQueueNamespace', Actual: msg.cContentsOfTheQueueNamespace, Expected: 'Contents of the queue namespace: '},
   {Name: 'cwordDelimiterIs', Actual: msg.cwordDelimiterIs, Expected: 'wordDelimiter is: '},
   {Name: 'cstringContainsAcronymIs', Actual: msg.cstringContainsAcronymIs, Expected: 'stringContainsAcronym is: '},
   {Name: 'cErrorZipPackageReleaseFailed', Actual: msg.cErrorZipPackageReleaseFailed, Expected: 'ERROR: Zip package release failed: '},
