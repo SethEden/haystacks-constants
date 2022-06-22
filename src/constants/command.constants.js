@@ -4,7 +4,6 @@
  * @description Contains many re-usable command constants
  * @requires module:basic.constants
  * @requires module:business.constants
- * @requires module:system.constants
  * @requires module:word.constants
  * @author Seth Hollingsead
  * @date 2022/02/04
@@ -14,7 +13,6 @@
 // Internal imports
 import * as bas from './basic.constants.js';
 import * as biz from './business.constants.js';
-import * as sys from './system.constants.js';
 import * as wrd from './word.constants.js';
 
 // ***********************************************
