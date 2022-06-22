@@ -24,7 +24,7 @@ export const businessConstantsValidation = [
   {Name: 'cEcho', Actual: biz.cEcho, Expected: 'Echo'},
 
   // ***********************************************************************
-  // BEGIN ArrayParsing catagory
+  // BEGIN ArrayParsing category
   // ***********************************************************************
   // ***********************************************
   // AuxiliaryArrayParsing rules in order
@@ -90,11 +90,11 @@ export const businessConstantsValidation = [
   {Name: 'cascertainMatchingElements', Actual: biz.cascertainMatchingElements, Expected: 'ascertainMatchingElements'},
 
   // ***********************************************************************
-  // END ArrayParsing catagory
+  // END ArrayParsing category
   // ***********************************************************************
 
   // ***********************************************************************
-  // BEGIN StringParsing catagory
+  // BEGIN StringParsing category
   // ***********************************************************************
   // ***********************************************
   // AuxiliaryStringParsing rules in order
@@ -152,8 +152,8 @@ export const businessConstantsValidation = [
   {Name: 'cgetAttributeName', Actual: biz.cgetAttributeName, Expected: 'getAttributeName'},
   {Name: 'cgetAttributeValue', Actual: biz.cgetAttributeValue, Expected: 'getAttributeValue'},
   {Name: 'cgetValueFromAssignmentOperationString', Actual: biz.cgetValueFromAssignmentOperationString, Expected: 'getValueFromAssignmentOperationString'},
-  {Name: 'cgetDataCatagoryFromDataContextName', Actual: biz.cgetDataCatagoryFromDataContextName, Expected: 'getDataCatagoryFromDataContextName'},
-  {Name: 'cgetDataCatagoryDetailNameFromDataContextName', Actual: biz.cgetDataCatagoryDetailNameFromDataContextName, Expected: 'getDataCatagoryDetailNameFromDataContextName'},
+  {Name: 'cgetDataCategoryFromDataContextName', Actual: biz.cgetDataCategoryFromDataContextName, Expected: 'getDataCategoryFromDataContextName'},
+  {Name: 'cgetDataCategoryDetailNameFromDataContextName', Actual: biz.cgetDataCategoryDetailNameFromDataContextName, Expected: 'getDataCategoryDetailNameFromDataContextName'},
   {Name: 'cgetKeywordNameFromDataContextName', Actual: biz.cgetKeywordNameFromDataContextName, Expected: 'getKeywordNameFromDataContextName'},
   {Name: 'cloadDataFile', Actual: biz.cloadDataFile, Expected: 'loadDataFile'},
   {Name: 'csaveDataFile', Actual: biz.csaveDataFile, Expected: 'saveDataFile'},
@@ -187,7 +187,7 @@ export const businessConstantsValidation = [
   {Name: 'caggregateNumericalDifferenceBetweenTwoStrings', Actual: biz.caggregateNumericalDifferenceBetweenTwoStrings, Expected: 'aggregateNumericalDifferenceBetweenTwoStrings'},
 
   // ***********************************************************************
-  // END StringParsing catagory
+  // END StringParsing category
   // ***********************************************************************
 
   // ***********************************************
