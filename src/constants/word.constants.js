@@ -20,7 +20,7 @@ import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
 import * as unt from './unit.constants.js';
 
-// Miscelaneious Words
+// Miscellaneous Words
 export const c1a1d = 'a' + 'd'; // ad // 'ca' & 'cd' is some how a reserved word.
 export const c3d = num.c3 + bas.cd; // 3d
 export const c3D = num.c3 + bas.cD; // 3D
@@ -614,7 +614,7 @@ export const cscore = bas.cs + phn.ccore; // score
 export const cScore = bas.cS + phn.ccore; // Score
 export const cunderscore = cunder + cscore; // underscore
 export const cUnderscore = cUnder + cscore; // Underscore
-export const cCatagory = bas.cCa + bas.cta + bas.cgo + bas.cry; // Catagory
+export const cCategory = bas.cCa + bas.cte + bas.cgo + bas.cry; // Category
 export const cclean = bas.cc + phn.clean; // clean
 export const cClean = bas.cC + phn.clean; // Clean
 export const ccleaned = cclean + bas.ced; // cleaned
@@ -763,7 +763,7 @@ export const cSelectors = cSelector + bas.cs; // Selectors
 export const cIndividual = bas.cIn + bas.cdi + bas.cvi + bas.cdu + bas.cal; // Individual
 export const cIndividually = cIndividual + bas.cly; // Individually
 export const cexist = bas.cex + phn.cist; // exist
-export const cExist = bas.cEx + phn.cist;; // Exist
+export const cExist = bas.cEx + phn.cist; // Exist
 export const cexists = cexist + bas.cs; // exists
 export const cExists = cExist + bas.cs; // Exists
 export const cexisted = cexist + bas.ced; // existed

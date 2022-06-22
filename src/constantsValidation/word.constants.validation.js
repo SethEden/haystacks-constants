@@ -613,7 +613,7 @@ export const wordConstantsValidation = [
   {Name: 'cScore', Actual: wrd.cScore, Expected: 'Score'},
   {Name: 'cunderscore', Actual: wrd.cunderscore, Expected: 'underscore'},
   {Name: 'cUnderscore', Actual: wrd.cUnderscore, Expected: 'Underscore'},
-  {Name: 'cCatagory', Actual: wrd.cCatagory, Expected: 'Catagory'},
+  {Name: 'cCategory', Actual: wrd.cCategory, Expected: 'Category'},
   {Name: 'cclean', Actual: wrd.cclean, Expected: 'clean'},
   {Name: 'cClean', Actual: wrd.cClean, Expected: 'Clean'},
   {Name: 'ccleaned', Actual: wrd.ccleaned, Expected: 'cleaned'},

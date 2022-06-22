@@ -26,7 +26,7 @@ export const cecho = wrd.cecho; // echo
 export const cEcho = wrd.cEcho; // Echo
 
 // ***********************************************************************
-// BEGIN ArrayParsing catagory
+// BEGIN ArrayParsing category
 // ***********************************************************************
 // ***********************************************
 // AuxiliaryArrayParsing rules in order
@@ -92,11 +92,11 @@ export const cdoesArrayContainLowerCaseConsolidatedString = wrd.cdoes + wrd.cArr
 export const cascertainMatchingElements = wrd.cascertain + wrd.cMatching + wrd.cElements; // ascertainMatchingElements
 
 // ***********************************************************************
-// END ArrayParsing catagory
+// END ArrayParsing category
 // ***********************************************************************
 
 // ***********************************************************************
-// BEGIN StringParsing catagory
+// BEGIN StringParsing category
 // ***********************************************************************
 // ***********************************************
 // AuxiliaryArrayParsing rules in order
@@ -154,8 +154,8 @@ export const cisConstantValid = wrd.cis + wrd.cConstant + wrd.cValid; // isConst
 export const cgetAttributeName = wrd.cget + wrd.cAttribute + wrd.cName; // getAttributeName
 export const cgetAttributeValue = wrd.cget + wrd.cAttribute + wrd.cValue; // getAttributeValue
 export const cgetValueFromAssignmentOperationString = wrd.cget + wrd.cValue + wrd.cFrom + wrd.cAssignment + wrd.cOperation + wrd.cString; // getValueFromAssignmentOperationString
-export const cgetDataCatagoryFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryFromDataContextName
-export const cgetDataCatagoryDetailNameFromDataContextName = wrd.cget + wrd.cData + wrd.cCatagory + wrd.cDetail + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCatagoryDetailNameFromDataContextName
+export const cgetDataCategoryFromDataContextName = wrd.cget + wrd.cData + wrd.cCategory + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCategoryFromDataContextName
+export const cgetDataCategoryDetailNameFromDataContextName = wrd.cget + wrd.cData + wrd.cCategory + wrd.cDetail + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getDataCategoryDetailNameFromDataContextName
 export const cgetKeywordNameFromDataContextName = wrd.cget + wrd.cKeyword + wrd.cName + wrd.cFrom + wrd.cData + wrd.cContext + wrd.cName; // getKeywordNameFromDataContextName
 export const cloadDataFile = wrd.cload + wrd.cData + wrd.cFile; // loadDataFile
 export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
@@ -189,7 +189,7 @@ export const cisStringList = wrd.cis + wrd.cString + wrd.cList; // isStringList
 export const caggregateNumericalDifferenceBetweenTwoStrings = wrd.caggregate + wrd.cNumerical + wrd.cDifference + wrd.cBetween + num.cTwo + wrd.cStrings; // aggregateNumericalDifferenceBetweenTwoStrings
 
 // ***********************************************************************
-// END StringParsing catagory
+// END StringParsing category
 // ***********************************************************************
 
 // ***********************************************
