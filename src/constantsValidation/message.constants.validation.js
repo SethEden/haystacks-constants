@@ -635,6 +635,8 @@ export const messageConstantsVaidation = [
   {Name: 'cdesiredThemeNameIs', Actual: msg.cdesiredThemeNameIs, Expected: 'desiredThemeName is: '},
   {Name: 'cnamedThemePathIsVerified', Actual: msg.cnamedThemePathIsVerified, Expected: 'namedThemePath is verified: '},
   {Name: 'cloadedThemeDataIs', Actual: msg.cloadedThemeDataIs, Expected: 'loadedThemeData is: '},
+  {Name: 'cErrorLineIsNullOrUndefined', Actual: msg.cErrorLineIsNullOrUndefined, Expected: 'ERROR: line is null or undefined: '},
+  {Name: 'cSpaceFileIs', Actual: msg.cSpaceFileIs, Expected: ' file is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -771,13 +773,12 @@ export const messageConstantsVaidation = [
   {Name: 'cchangeDebugConfigurationThemeMessage04', Actual: msg.cchangeDebugConfigurationThemeMessage04, Expected: 'ERROR: Invalid entry, please enter a theme name you would like the debug settings to switch to when logging debug statements.'},
   {Name: 'cchangeDebugConfigurationThemeMessage05', Actual: msg.cchangeDebugConfigurationThemeMessage05, Expected: 'EXAMPLE: changeDebugConfigurationTheme Skywalker'},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-  {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'prompt01'},
-  {Name: 'cprompt02', Actual: msg.cprompt02, Expected: 'prompt02'},
-  {Name: 'cprompt03', Actual: msg.cprompt03, Expected: 'prompt03'},
-  {Name: 'cprintMessageToFile01', Actual: msg.cprintMessageToFile01, Expected: 'printMessageToFile01'},
-  {Name: 'cprintMessageToFile02', Actual: msg.cprintMessageToFile02, Expected: 'printMessageToFile02'},
-  {Name: 'cprintMessageToFile03', Actual: msg.cprintMessageToFile03, Expected: 'printMessageToFile03'}
+  {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'Caught the case that the input string contains the global carriage return term.'},
+  {Name: 'cprompt02', Actual: msg.cprompt02, Expected: 'index of the carriage return character: '},
+  {Name: 'cprompt03', Actual: msg.cprompt03, Expected: 'Caught the case that the string includes a carriage return and new line characters.'},
+  {Name: 'cprintMessageToFile01', Actual: msg.cprintMessageToFile01, Expected: '!file.includes(undefined)'},
+  {Name: 'cprintMessageToFile02', Actual: msg.cprintMessageToFile02, Expected: 'ERROR: Failure to log to file: '},
+  {Name: 'cprintMessageToFile03', Actual: msg.cprintMessageToFile03, Expected: 'ERROR: Log File includes undefined.'}
 
   // Coded System Messages
   // EXAMPLE:

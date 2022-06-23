@@ -618,7 +618,10 @@ export const wordConstantsValidation = [
   {Name: 'cClean', Actual: wrd.cClean, Expected: 'Clean'},
   {Name: 'ccleaned', Actual: wrd.ccleaned, Expected: 'cleaned'},
   {Name: 'cCleaned', Actual: wrd.cCleaned, Expected: 'Cleaned'},
+  {Name: 'ccarriage', Actual: wrd.ccarriage, Expected: 'carriage'},
   {Name: 'cCarriage', Actual: wrd.cCarriage, Expected: 'Carriage'},
+  {Name: 'ccarriages', Actual: wrd.ccarriages, Expected: 'carriages'},
+  {Name: 'cCarriages', Actual: wrd.cCarriages, Expected: 'Carriages'},
   {Name: 'cturn', Actual: wrd.cturn, Expected: 'turn'},
   {Name: 'cTurn', Actual: wrd.cTurn, Expected: 'Turn'},
   {Name: 'cturns', Actual: wrd.cturns, Expected: 'turns'},
@@ -2594,6 +2597,10 @@ export const wordConstantsValidation = [
   {Name: 'cStatement', Actual: wrd.cStatement, Expected: 'Statement'},
   {Name: 'cstatements', Actual: wrd.cstatements, Expected: 'statements'},
   {Name: 'cStatements', Actual: wrd.cStatements, Expected: 'Statements'},
+  {Name: 'cglobal', Actual: wrd.cglobal, Expected: 'global'},
+  {Name: 'cGlobal', Actual: wrd.cGlobal, Expected: 'Global'},
+  {Name: 'cglobals', Actual: wrd.cglobals, Expected: 'globals'},
+  {Name: 'cGlobals', Actual: wrd.cGlobals, Expected: 'Globals'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
