@@ -619,7 +619,10 @@ export const cclean = bas.cc + phn.clean; // clean
 export const cClean = bas.cC + phn.clean; // Clean
 export const ccleaned = cclean + bas.ced; // cleaned
 export const cCleaned = cClean + bas.ced; // Cleaned
+export const ccarriage = bas.cca + bas.crr + bas.ci + phn.cage; // carriage
 export const cCarriage = bas.cCa + bas.crr + bas.ci + phn.cage; // Carriage
+export const ccarriages = ccarriage + bas.cs; // carriages
+export const cCarriages = cCarriage + bas.cs; // Carriages
 export const cturn = bas.ctu + bas.crn; // turn
 export const cTurn = bas.cTu + bas.crn; // Turn
 export const cturns = cturn + bas.cs; // turns
@@ -2595,6 +2598,10 @@ export const cstatement = bas.cst + phn.cate + phn.cment; // statement
 export const cStatement = bas.cSt + phn.cate + phn.cment; // Statement
 export const cstatements = cstatement + bas.cs; // statements
 export const cStatements = cStatement + bas.cs; // Statements
+export const cglobal = phn.cglo + phn.cbal; // global
+export const cGlobal = phn.cGlo + phn.cbal; // Global
+export const cglobals = cglobal + bas.cs; // globals
+export const cGlobals = cGlobal + bas.cs; // Globals
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
