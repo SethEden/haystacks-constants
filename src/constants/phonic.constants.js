@@ -1159,6 +1159,10 @@ export const crop = bas.cro + bas.cp; // rop
 export const cRop = bas.cRo + bas.cp; // Rop
 export const cged = bas.cge + bas.cd; // ged
 export const ceme = bas.cem + bas.ce; // eme
+export const cglo = bas.cgl + bas.co; // glo
+export const cGlo = bas.cGl + bas.co; // Glo
+export const cbal = bas.cba + bas.cl; // bal
+export const cBal = bas.cBa + bas.cl; // Bal
 
 //////////////////////////////////////////////////////////////////
 // Knots

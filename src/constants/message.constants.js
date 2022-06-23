@@ -639,6 +639,8 @@ export const cthemeConfigFilesToLoadIs = wrd.ctheme + wrd.cConfig + wrd.cFiles +
 export const cdesiredThemeNameIs = wrd.cdesired + wrd.cTheme + wrd.cName + sys.cSpaceIsColonSpace; // desiredThemeName is:
 export const cnamedThemePathIsVerified = wrd.cnamed + wrd.cTheme + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.cverified + bas.cColon + bas.cSpace; // namedThemePath is verified:
 export const cloadedThemeDataIs = wrd.cloaded + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // loadedThemeData is:
+export const cErrorLineIsNullOrUndefined = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cline + bas.cSpace + wrd.cis + bas.cSpace + 'null' + bas.cSpace + wrd.cor + bas.cSpace + 'undefined' + bas.cColon + bas.cSpace; // ERROR: line is null or undefined:
+export const cSpaceFileIs = bas.cSpace + wrd.cfile + sys.cSpaceIsColonSpace; // file is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -850,17 +852,17 @@ export const cchangeDebugConfigurationThemeMessage04 = wrd.cERROR + bas.cColon +
 export const cchangeDebugConfigurationThemeMessage05 = wrd.cEXAMPLE + bas.cColon + bas.cSpace + wrd.cchange + wrd.cDebug + wrd.cConfiguration + wrd.cTheme + bas.cSpace + wrd.cSky + wrd.cwalker;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 'Caught the case that the input string contains the global carriage return term.'
-export const cprompt01 = 'prompt01';
+export const cprompt01 = wrd.cCaught + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccase + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cSpace + wrd.ccontains + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cglobal + bas.cSpace + wrd.ccarriage + bas.cSpace + wrd.creturn + bas.cSpace + wrd.cterm + bas.cDot;
 // 'index of the carriage return character: '
-export const cprompt02 = 'prompt02';
+export const cprompt02 = wrd.cindex + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccarriage + bas.cSpace + wrd.creturn + bas.cSpace + wrd.ccharacter + bas.cColon + bas.cSpace;
 // 'Caught the case that the string includes a carriage return and new line characters.'
-export const cprompt03 = 'prompt03';
+export const cprompt03 = wrd.cCaught + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccase + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cincludes + bas.cSpace + bas.ca + bas.cSpace + wrd.ccarriage + bas.cSpace + wrd.creturn + bas.cSpace + wrd.cand + bas.cSpace + wrd.cnew + bas.cSpace + wrd.cline + bas.cSpace + wrd.ccharacters + bas.cDot;
 // '!file.includes(undefined)'
-export const cprintMessageToFile01 = 'printMessageToFile01';
+export const cprintMessageToFile01 = bas.cExclamation + wrd.cfile + bas.cDot + wrd.cincludes + bas.cOpenParenthesis + 'undefined' + bas.cCloseParenthesis;
 // 'ERROR: Failure to log to file: '
-export const cprintMessageToFile02 = 'printMessageToFile02';
+export const cprintMessageToFile02 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.clog + bas.cSpace + wrd.cto + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 // 'ERROR: Log File includes undefined.'
-export const cprintMessageToFile03 = 'printMessageToFile03';
+export const cprintMessageToFile03 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cLog + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cincludes + bas.cSpace + 'undefined' + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:
