@@ -380,7 +380,7 @@ export const cunit_constants_js = wrd.cunit + bas.cDot + wrd.cconstants + gen.cD
 export const cword_constants_js = wrd.cword + bas.cDot + wrd.cconstants + gen.cDotjs; // word.constants.js
 
 // System Paths
-export const cActualFrameworkName = wrd.chay + wrd.cstacks; // haystacks
+export const cActualFrameworkName = wrd.chay + wrd.cstacks; // haystacks // Deprecated along with the haystacks framework
 export const cFrameworkName = wrd.cFramework + wrd.cName; // FrameworkName
 export const cFrameworkVersionNumber = wrd.cFramework + wrd.cVersion + wrd.cNumber; // FrameworkVersionNumber
 export const cFrameworkDescription = wrd.cFramework + wrd.cDescription; // FrameworkDescription

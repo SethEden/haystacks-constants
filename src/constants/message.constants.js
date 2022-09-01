@@ -863,6 +863,8 @@ export const cprintMessageToFile01 = bas.cExclamation + wrd.cfile + bas.cDot + w
 export const cprintMessageToFile02 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.clog + bas.cSpace + wrd.cto + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 // 'ERROR: Log File includes undefined.'
 export const cprintMessageToFile03 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cLog + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cincludes + bas.cSpace + 'undefined' + bas.cDot;
+// WARNING: Queue:
+export const cWarningQueue = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cQueue + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

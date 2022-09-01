@@ -778,7 +778,8 @@ export const messageConstantsVaidation = [
   {Name: 'cprompt03', Actual: msg.cprompt03, Expected: 'Caught the case that the string includes a carriage return and new line characters.'},
   {Name: 'cprintMessageToFile01', Actual: msg.cprintMessageToFile01, Expected: '!file.includes(undefined)'},
   {Name: 'cprintMessageToFile02', Actual: msg.cprintMessageToFile02, Expected: 'ERROR: Failure to log to file: '},
-  {Name: 'cprintMessageToFile03', Actual: msg.cprintMessageToFile03, Expected: 'ERROR: Log File includes undefined.'}
+  {Name: 'cprintMessageToFile03', Actual: msg.cprintMessageToFile03, Expected: 'ERROR: Log File includes undefined.'},
+  {Name: 'cWarningQueue', Actual: msg.cWarningQueue, Expected: 'WARNING: Queue: '}
 
   // Coded System Messages
   // EXAMPLE:
