@@ -356,6 +356,7 @@ export const cBinaryReleasePath = wrd.cBinary + wrd.cRelease + wrd.cPath; // Bin
 export const cdevtty = bas.cForwardSlash + cdev + bas.cForwardSlash + phn.ctty; // /dev/tty
 export const cpackageDotJson = wrd.cpackage + bas.cDot + gen.cjson; // package.json
 export const cDoubleDotForwardSlash = bas.cDoubleDot + bas.cForwardSlash; // ../
+export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 
 // Constants Filenames
 export const cbasic_constants_js = wrd.cbasic + bas.cDot + wrd.cconstants + gen.cDotjs; // basic.constants.js

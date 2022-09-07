@@ -356,6 +356,7 @@ export const systemConstantsValidation = [
   {Name: 'cdevtty', Actual: sys.cdevtty, Expected: '/dev/tty'},
   {Name: 'cpackageDotJson', Actual: sys.cpackageDotJson, Expected: 'package.json'},
   {Name: 'cDoubleDotForwardSlash', Actual: sys.cDoubleDotForwardSlash, Expected: '../'},
+  {Name: 'cpluginsLoaded', Actual: sys.cpluginsLoaded, Expected: 'pluginsLoaded'},
 
   // Constants Filenames
   {Name: 'cbasic_constants_js', Actual: sys.cbasic_constants_js, Expected: 'basic.constants.js'},
