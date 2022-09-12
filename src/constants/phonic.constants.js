@@ -1163,7 +1163,7 @@ export const cglo = bas.cgl + bas.co; // glo
 export const cGlo = bas.cGl + bas.co; // Glo
 export const cbal = bas.cba + bas.cl; // bal
 export const cBal = bas.cBa + bas.cl; // Bal
-
+export const cief = bas.cie + bas.cf; // ief
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

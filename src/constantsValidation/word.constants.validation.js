@@ -2601,6 +2601,14 @@ export const wordConstantsValidation = [
   {Name: 'cGlobal', Actual: wrd.cGlobal, Expected: 'Global'},
   {Name: 'cglobals', Actual: wrd.cglobals, Expected: 'globals'},
   {Name: 'cGlobals', Actual: wrd.cGlobals, Expected: 'Globals'},
+  {Name: 'cchief', Actual: wrd.cchief, Expected: 'chief'},
+  {Name: 'cChief', Actual: wrd.cChief, Expected: 'Chief'},
+  {Name: 'cchiefs', Actual: wrd.cchiefs, Expected: 'chiefs'},
+  {Name: 'cChiefs', Actual: wrd.cChiefs, Expected: 'Chiefs'},
+  {Name: 'cchiefton', Actual: wrd.cchiefton, Expected: 'chiefton'},
+  {Name: 'cChiefton', Actual: wrd.cChiefton, Expected: 'Chiefton'},
+  {Name: 'cchieftons', Actual: wrd.cchieftons, Expected: 'chieftons'},
+  {Name: 'cChieftons', Actual: wrd.cChieftons, Expected: 'Chieftons'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

@@ -2602,6 +2602,14 @@ export const cglobal = phn.cglo + phn.cbal; // global
 export const cGlobal = phn.cGlo + phn.cbal; // Global
 export const cglobals = cglobal + bas.cs; // globals
 export const cGlobals = cGlobal + bas.cs; // Globals
+export const cchief = bas.cch + phn.cief; // chief
+export const cChief = bas.cCh + phn.cief; // Chief
+export const cchiefs = cchief + bas.cs; // chiefs
+export const cChiefs = cChief + bas.cs; // Chiefs
+export const cchiefton = cchief + phn.cton; // chiefton
+export const cChiefton = cChief + phn.cton; // Chiefton
+export const cchieftons = cchiefton + bas.cs; // chieftons
+export const cChieftons = cChiefton + bas.cs; // Chieftons
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
