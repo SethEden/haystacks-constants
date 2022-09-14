@@ -2626,8 +2626,18 @@ export const cjoins = cjoin + bas.cs; // joins
 export const cJoins = cJoin + bas.cs; // Joins
 export const cjoined = cjoin + bas.ced; // joined
 export const cJoined = cJoin + bas.ced; // Joined
+export const cjoiner = cjoin + bas.cer; // joiner
+export const cJoiner = cJoin + bas.cer; // Joiner
 export const cjoining = cjoin + phn.cing; // joining
 export const cJoining = cJoin + phn.cing; // Joining
+export const cjoint = bas.cjo + phn.cint; // joint
+export const cJoint = bas.cJo + phn.cint; // Joint
+export const cjoints = cjoint + bas.cs; // joints
+export const cJoints = cJoint + bas.cs; // Joints
+export const cjointed = cjoint + bas.ced; // jointed
+export const cJointed = cJoint + bas.ced; // Jointed
+export const cjointing = cjoint + phn.cing; // jointing
+export const cJointing = cJoint + phn.cing; // Jointing
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

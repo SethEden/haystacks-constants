@@ -2625,8 +2625,18 @@ export const wordConstantsValidation = [
   {Name: 'cJoins', Actual: wrd.cJoins, Expected: 'Joins'},
   {Name: 'cjoined', Actual: wrd.cjoined, Expected: 'joined'},
   {Name: 'cJoined', Actual: wrd.cJoined, Expected: 'Joined'},
+  {Name: 'cjoiner', Actual: wrd.cjoiner, Expected: 'joiner'},
+  {Name: 'cJoiner', Actual: wrd.cJoiner, Expected: 'Joiner'},
   {Name: 'cjoining', Actual: wrd.cjoining, Expected: 'joining'},
   {Name: 'cJoining', Actual: wrd.cJoining, Expected: 'Joining'},
+  {Name: 'cjoint', Actual: wrd.cjoint, Expected: 'joint'},
+  {Name: 'cJoint', Actual: wrd.cJoint, Expected: 'Joint'},
+  {Name: 'cjoints', Actual: wrd.cjoints, Expected: 'joints'},
+  {Name: 'cJoints', Actual: wrd.cJoints, Expected: 'Joints'},
+  {Name: 'cjointed', Actual: wrd.cjointed, Expected: 'jointed'},
+  {Name: 'cJointed', Actual: wrd.cJointed, Expected: 'Jointed'},
+  {Name: 'cjointing', Actual: wrd.cjointing, Expected: 'jointing'},
+  {Name: 'cJointing', Actual: wrd.cJointing, Expected: 'Jointing'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
