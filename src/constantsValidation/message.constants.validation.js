@@ -799,7 +799,11 @@ export const messageConstantsVaidation = [
   {Name: 'cprintMessageToFile01', Actual: msg.cprintMessageToFile01, Expected: '!file.includes(undefined)'},
   {Name: 'cprintMessageToFile02', Actual: msg.cprintMessageToFile02, Expected: 'ERROR: Failure to log to file: '},
   {Name: 'cprintMessageToFile03', Actual: msg.cprintMessageToFile03, Expected: 'ERROR: Log File includes undefined.'},
-  {Name: 'cWarningQueue', Actual: msg.cWarningQueue, Expected: 'WARNING: Queue: '}
+  {Name: 'cWarningQueue', Actual: msg.cWarningQueue, Expected: 'WARNING: Queue: '},
+  {Name: 'cextractAndProcessPluginEntryPointUriMessage01', Actual: msg.cextractAndProcessPluginEntryPointUriMessage01, Expected: 'pluginMainPath before join is: '},
+  {Name: 'cextractAndProcessPluginEntryPointUriMessage02', Actual: msg.cextractAndProcessPluginEntryPointUriMessage02, Expected: 'pluginMainPath after join is: '},
+  {Name: 'cextractAndProcessPluginEntryPointUriMessage03', Actual: msg.cextractAndProcessPluginEntryPointUriMessage03, Expected: 'pluginMainPath URI is: '},
+  {Name: 'cextractAndProcessPluginEntryPointUriMessage04', Actual: msg.cextractAndProcessPluginEntryPointUriMessage04, Expected: 'ERROR: No plugin meta data or plugin path are specified: '}
 
   // Coded System Messages
   // EXAMPLE:

@@ -889,8 +889,9 @@ export const cWarningQueue = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cQueue
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 export const cextractAndProcessPluginEntryPointUriMessage01 = wrd.cplugin + wrd.cMain + wrd.cPath + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cjoin + sys.cSpaceIsColonSpace; // pluginMainPath before join is:
 export const cextractAndProcessPluginEntryPointUriMessage02 = wrd.cplugin + wrd.cMain + wrd.cPath + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cjoin + sys.cSpaceIsColonSpace; // pluginMainPath after join is:
-export const cextractAndProcessPluginEntryPointUriMessage03 = ; // pluginMainPath URI is:
-export const cextractAndProcessPluginEntryPointUriMessage04 = ; // ERROR: No plugin meta data or plugin path are specified:
+export const cextractAndProcessPluginEntryPointUriMessage03 = wrd.cplugin + wrd.cMain + wrd.cPath + bas.cSpace + gen.cURI + bas.cSpace + sys.cSpaceIsColonSpace; // pluginMainPath URI is:
+// ERROR: No plugin meta data or plugin path are specified:
+export const cextractAndProcessPluginEntryPointUriMessage04 = cERROR_Colon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cmeta + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cor + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cpath + bas.cSpace + wrd.care + bas.cSpace + wrd.cspecified + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

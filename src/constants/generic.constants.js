@@ -105,6 +105,12 @@ export const cJSON = bas.cJS + bas.cON; // JSON
 export const cenv = bas.cen + bas.cv; // env
 export const cEnv = bas.cEn + bas.cv; // Env
 export const cENV = bas.cEN + bas.cV; // ENV
+export const curl = bas.cur + bas.cl; // url
+export const cUrl = bas.cUr + bas.cl; // Url
+export const cURL = bas.cUR + bas.cL; // URL
+export const curi = bas.cur + bas.ci; // uri
+export const cUri = bas.cUr + bas.ci; // Uri
+export const cURI = bas.cUR + bas.cI; // URI
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe

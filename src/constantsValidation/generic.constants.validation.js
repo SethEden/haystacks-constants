@@ -106,6 +106,12 @@ export const genericConstantsValidation = [
   {Name: 'cenv', Actual: gen.cenv, Expected: 'env'},
   {Name: 'cEnv', Actual: gen.cEnv, Expected: 'Env'},
   {Name: 'cENV', Actual: gen.cENV, Expected: 'ENV'},
+  {Name: 'curl', Actual: gen.curl, Expected: 'url'},
+  {Name: 'cUrl', Actual: gen.cUrl, Expected: 'Url'},
+  {Name: 'cURL', Actual: gen.cURL, Expected: 'URL'},
+  {Name: 'curi', Actual: gen.curi, Expected: 'uri'},
+  {Name: 'cUri', Actual: gen.cUri, Expected: 'Uri'},
+  {Name: 'cURI', Actual: gen.cURI, Expected: 'URI'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},
