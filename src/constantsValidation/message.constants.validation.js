@@ -579,6 +579,7 @@ export const messageConstantsVaidation = [
   {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
   {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
   {Name: 'cpluginsPathsAre', Actual: msg.cpluginsPathsAre, Expected: 'pluginPaths are: '},
+  {Name: 'cpluginNameIs', Actual: msg.cpluginNameIs, Expected: 'pluginName is: '},
   {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
   {Name: 'ccomaCountIs', Actual: msg.ccomaCountIs, Expected: 'comaCount is: '},
   {Name: 'cpluginRegistryPathIs', Actual: msg.cpluginRegistryPathIs, Expeted: 'pluginRegistryPath is: '},
@@ -586,6 +587,18 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginMetaDataIs', Actual: msg.cpluginMetaDataIs, Expeted: 'pluginMetaData is: '},
   {Name: 'cpluginExecutionPathIs', Actual: msg.cpluginExecutionPathIs, Expeted: 'pluginExecutionPath is: '},
   {Name: 'cdataLoadedIs', Actual: msg.cdataLoadedIs, Expeted: 'dataLoaded is: '},
+  {Name: 'cresolvedPluginRegistryPathIs', Actual: msg.cresolvedPluginRegistryPathIs, Expected: 'resolvedPluginRegistryPath is: '},
+  {Name: 'cpluginRegistryDataIs', Actual: msg.cpluginRegistryDataIs, Expected: 'pluginRegistryData is: '},
+  {Name: 'cerrorMessage', Actual: msg.cerrorMessage, Expected: 'error message: '},
+  {Name: 'ccurrentPluginNameIs', Actual: msg.ccurrentPluginNameIs, Expected: 'currentPluginName is: '},
+  {Name: 'cpluginRegistryIs', Actual: msg.cpluginRegistryIs, Expected: 'pluginRegistry is: '},
+  {Name: 'cpluginRegistryListIs', Actual: msg.cpluginRegistryListIs, Expected: 'pluginRegistryList is: '},
+  {Name: 'cpluginRegistryFolderListIs', Actual: msg.cpluginRegistryFolderListIs, Expected: ' pluginRegistryFolderList is: '},
+  {Name: 'cfolderPluginIs', Actual: msg.cfolderPluginIs, Expected: 'folderPlugin is: '},
+  {Name: 'cfolderPluginNameIs', Actual: msg.cfolderPluginNameIs, Expected: 'folderPluginName is: '},
+  {Name: 'cregistryPluginIs', Actual: msg.cregistryPluginIs, Expected: 'registryPlugin is: '},
+  {Name: 'cregistryPluginNameIs', Actual: msg.cregistryPluginNameIs, Expected: 'registryPluginName is: '},
+  {Name: 'csynchronizedPluginRegistryListIs', Actual: msg.csynchronizedPluginRegistryListIs, Expected: 'synchronizedPluginRegistryList is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -803,8 +816,13 @@ export const messageConstantsVaidation = [
   {Name: 'cextractAndProcessPluginEntryPointUriMessage01', Actual: msg.cextractAndProcessPluginEntryPointUriMessage01, Expected: 'pluginMainPath before join is: '},
   {Name: 'cextractAndProcessPluginEntryPointUriMessage02', Actual: msg.cextractAndProcessPluginEntryPointUriMessage02, Expected: 'pluginMainPath after join is: '},
   {Name: 'cextractAndProcessPluginEntryPointUriMessage03', Actual: msg.cextractAndProcessPluginEntryPointUriMessage03, Expected: 'pluginMainPath URI is: '},
-  {Name: 'cextractAndProcessPluginEntryPointUriMessage04', Actual: msg.cextractAndProcessPluginEntryPointUriMessage04, Expected: 'ERROR: No plugin meta data or plugin path are specified: '}
-
+  {Name: 'cextractAndProcessPluginEntryPointUriMessage04', Actual: msg.cextractAndProcessPluginEntryPointUriMessage04, Expected: 'ERROR: No plugin meta data or plugin path are specified: '},
+  {Name: 'cstorePluginRegistryInDataStoreMessage01', Actual: msg.cstorePluginRegistryInDataStoreMessage01, Expected: 'ERROR: There was a problem saving the registry data to the plugin registry in the d-data structure: '},
+  {Name: 'cErrorRegisterPluginMessage01', Actual: msg.cErrorRegisterPluginMessage01, Expected: 'ERROR: Failure to register plugin: '},
+  {Name: 'cErrorUnRegisterPluginMessage01', Actual: msg.cErrorUnRegisterPluginMessage01, Expected: 'ERROR: Failure to unregister plugin: '},
+  {Name: 'cErrorUnregisterAllPluginsMessage01', Actual: msg.cErrorUnregisterAllPluginsMessage01, Expected: 'RROR: Could not unregister all of the plugins.'},
+  {Name: 'cErrorSavePluginRegistryMessage01', Actual: msg.cErrorSavePluginRegistryMessage01, Expected: 'ERROR: Failure to write out the plugin registry to the plugin path specified by the application: '},
+  {Name: 'cErrorSyncPluginRegistryWithPluginRegistryPathMessage01', Actual: msg.cErrorSyncPluginRegistryWithPluginRegistryPathMessage01, Expected: 'ERROR: Failure to synchronize the plugin registry with the list of plugins available from the plugins folder specified by the application in the plugins registry JSON file.'}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

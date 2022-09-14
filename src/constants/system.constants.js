@@ -358,6 +358,7 @@ export const cBinaryRootPath = wrd.cBinary + wrd.cRoot + wrd.cPath; // BinaryRoo
 export const cBinaryReleasePath = wrd.cBinary + wrd.cRelease + wrd.cPath; // BinaryReleasePath
 export const cdevtty = bas.cForwardSlash + cdev + bas.cForwardSlash + phn.ctty; // /dev/tty
 export const cpackageDotJson = wrd.cpackage + bas.cDot + gen.cjson; // package.json
+export const cpluginsDotJson = wrd.cplugins + bas.cDot + gen.cjson; // plugins.json
 export const cDoubleDotForwardSlash = bas.cDoubleDot + bas.cForwardSlash; // ../
 export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 

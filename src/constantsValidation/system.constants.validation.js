@@ -358,6 +358,7 @@ export const systemConstantsValidation = [
   {Name: 'cBinaryReleasePath', Actual: sys.cBinaryReleasePath, Expected: 'BinaryReleasePath'},
   {Name: 'cdevtty', Actual: sys.cdevtty, Expected: '/dev/tty'},
   {Name: 'cpackageDotJson', Actual: sys.cpackageDotJson, Expected: 'package.json'},
+  {Name: 'cpluginsDotJson', Actual: sys.cpluginsDotJson, Expected: 'plugins.json'},
   {Name: 'cDoubleDotForwardSlash', Actual: sys.cDoubleDotForwardSlash, Expected: '../'},
   {Name: 'cpluginsLoaded', Actual: sys.cpluginsLoaded, Expected: 'pluginsLoaded'},
 

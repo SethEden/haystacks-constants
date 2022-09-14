@@ -80,6 +80,7 @@ export const configurationConstantsValidation = [
   {Name: 'cclearBusinessRulesPerformanceDataAfterAnalysis', Actual: cfg.cclearBusinessRulesPerformanceDataAfterAnalysis, Expected: 'clearBusinessRulesPerformanceDataAfterAnalysis'},
   {Name: 'cclearCommandPerformanceDataAfterAnalysis', Actual: cfg.cclearCommandPerformanceDataAfterAnalysis, Expected: 'clearCommandPerformanceDataAfterAnalysis'},
   {Name: 'cprintDataHiveToLogFile', Actual: cfg.cprintDataHiveToLogFile, Expected: 'printDataHiveToLogFile'},
+  {Name: 'cenablePluginLoader', Actual: cfg.cenablePluginLoader, Expected: 'enablePluginLoader'},
   {Name: 'cenableConstantsValidation', Actual: cfg.cenableConstantsValidation, Expected: 'enableConstantsValidation'},
   {Name: 'cframeworkConstantsValidationData', Actual: cfg.cframeworkConstantsValidationData, Expected: 'frameworkConstantsValidationData'},
   {Name: 'capplicationConstantsValidationData', Actual: cfg.capplicationConstantsValidationData, Expected: 'applicationConstantsValidationData'},
@@ -91,6 +92,8 @@ export const configurationConstantsValidation = [
   {Name: 'cpassedAllCommandAliasesDuplicateChecks', Actual: cfg.cpassedAllCommandAliasesDuplicateChecks, Expected: 'passedAllCommandAliasesDuplicateChecks'},
   {Name: 'cpassedAllWorkflowDuplicateChecks', Actual: cfg.cpassedAllWorkflowDuplicateChecks, Expected: 'passedAllWorkflowDuplicateChecks'},
   {Name: 'creleaseCompleted', Actual: cfg.creleaseCompleted, Expected: 'releaseCompleted'},
+  {Name: 'cpluginRegistry', Actual: cfg.cpluginRegistry, Expected: 'pluginRegistry'},
+  {Name: 'cpluginRegistryPath', Actual: cfg.cpluginRegistryPath, Expected: 'pluginRegistryPath'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},

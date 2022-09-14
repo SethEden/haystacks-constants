@@ -79,6 +79,7 @@ export const ccommandsPerformanceAnalysisStack = wrd.ccommands + wrd.cPerformanc
 export const cclearBusinessRulesPerformanceDataAfterAnalysis = wrd.cclear + wrd.cBusiness + wrd.cRules + wrd.cPerformance + wrd.cData + wrd.cAfter + wrd.cAnalysis; // clearBusinessRulesPerformanceDataAfterAnalysis
 export const cclearCommandPerformanceDataAfterAnalysis = wrd.cclear + wrd.cCommand + wrd.cPerformance + wrd.cData + wrd.cAfter + wrd.cAnalysis; // clearCommandPerformanceDataAfterAnalysis
 export const cprintDataHiveToLogFile = wrd.cprint + wrd.cData + wrd.cHive + wrd.cTo + gen.cLog + wrd.cFile; // printDataHiveToLogFile
+export const cenablePluginLoader = wrd.cenable + wrd.cPlugin + wrd.cLoader; // enablePluginLoader
 export const cenableConstantsValidation = wrd.cenable + wrd.cConstants + wrd.cValidation; // enableConstantsValidation
 export const cframeworkConstantsValidationData = wrd.cframework + wrd.cConstants + wrd.cValidation + wrd.cData; // frameworkConstantsValidationData
 export const capplicationConstantsValidationData = wrd.capplication + wrd.cConstants + wrd.cValidation + wrd.cData; // applicationConstantsValidationData
@@ -90,6 +91,8 @@ export const cpassAllConstantsValidation = wrd.cpass + wrd.cAll + wrd.cConstants
 export const cpassedAllCommandAliasesDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cCommand + wrd.cAliases + wrd.cDuplicate + wrd.cChecks; // passedAllCommandAliasesDuplicateChecks
 export const cpassedAllWorkflowDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cWorkflow + wrd.cDuplicate + wrd.cChecks; // passedAllWorkflowDuplicateChecks
 export const creleaseCompleted = wrd.crelease + wrd.cCompleted; // releaseCompleted
+export const cpluginRegistry = wrd.cplugin + wrd.cRegistry; // pluginRegistry
+export const cpluginRegistryPath = wrd.cplugin + wrd.cRegistry + wrd.cPath; // pluginRegistryPath
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp
