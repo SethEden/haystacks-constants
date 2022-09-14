@@ -2610,6 +2610,24 @@ export const cchiefton = cchief + phn.cton; // chiefton
 export const cChiefton = cChief + phn.cton; // Chiefton
 export const cchieftons = cchiefton + bas.cs; // chieftons
 export const cChieftons = cChiefton + bas.cs; // Chieftons
+export const cregister = phn.creg + bas.ci + phn.cster; // register
+export const cRegister = phn.cReg + bas.ci + phn.cster; // Register
+export const cregisters = cregister + bas.cs; // registers
+export const cRegisters = cRegister + bas.cs; // Registers
+export const cregistered = cregister + bas.ced; // registered
+export const cRegistered = cRegister + bas.ced; // Registered
+export const cregistering = cregister + phn.cing; // registering
+export const cRegistering = cRegister + phn.cing; // Registering
+export const cregistry = phn.creg + bas.cis + ctry; // registry
+export const cRegistry = phn.cReg + bas.cis + ctry; // Registry
+export const cjoin = bas.cjo + bas.cin; // join
+export const cJoin = bas.cJo + bas.cin; // Join
+export const cjoins = cjoin + bas.cs; // joins
+export const cJoins = cJoin + bas.cs; // Joins
+export const cjoined = cjoin + bas.ced; // joined
+export const cJoined = cJoin + bas.ced; // Joined
+export const cjoining = cjoin + phn.cing; // joining
+export const cJoining = cJoin + phn.cing; // Joining
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

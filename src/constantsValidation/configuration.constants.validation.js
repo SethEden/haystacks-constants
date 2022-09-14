@@ -31,6 +31,7 @@ export const configurationConstantsValidation = [
   {Name: 'capplicationConstantsPath', Actual: cfg.capplicationConstantsPath, Expected: 'applicationConstantsPath'},
   {Name: 'cclientMetaDataPath', Actual: cfg.cclientMetaDataPath, Expected: 'clientMetaDataPath'},
   {Name: 'cclientCommandAliasesPath', Actual: cfg.cclientCommandAliasesPath, Expected: 'clientCommandAliasesPath'},
+  {Name: 'cclientRegisteredPlugins', Actual: cfg.cclientRegisteredPlugins, Expected: 'clientRegisteredPlugins'},
   {Name: 'cclientWorkflowsPath', Actual: cfg.cclientWorkflowsPath, Expected: 'clientWorkflowsPath'},
   {Name: 'cframeworkFullMetaDataPath', Actual: cfg.cframeworkFullMetaDataPath, Expected: 'frameworkFullMetaDataPath'},
   {Name: 'cappConfigPath', Actual: cfg.cappConfigPath, Expected: 'appConfigPath'},

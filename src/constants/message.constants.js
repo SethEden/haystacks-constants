@@ -360,6 +360,8 @@ export const cclientCommandAliasesPathIs = wrd.cclient + wrd.cCommand + wrd.cAli
 export const cclientWorkflowsPathIs = wrd.cclient + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // clientWorkflowsPath is:
 export const cframeworkRootPathIs = wrd.cframework + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkRootPath is:
 export const cappConfigPathIs = phn.capp + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // appConfigPath is:
+export const cpluginConfigPathIs = wrd.cplugin + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // pluginConfigPath is:
+export const cconfigPathIs = wrd.cconfig + wrd.cPath + sys.cSpaceIsColonSpace; // configPath is:
 export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkResourcesPath is:
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
@@ -370,6 +372,7 @@ export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + s
 export const cworkflowPathIs = wrd.cworkflow + wrd.cPath + sys.cSpaceIsColonSpace; // workflowPath is:
 export const cALL_DATA_IS = wrd.cALL + bas.cSpace + wrd.cDATA + bas.cSpace + wrd.cIS + bas.cColon + bas.cSpace; // ALL DATA is:
 export const cAllLoadedDataIs = wrd.cAll + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // All loaded data is:
+export const callPluginConfigDataIs = wrd.call + wrd.cPlugin + wrd.cConfig + wrd.cData + sys.cSpaceIsColonSpace; // allPluginConfigData is:
 export const cconfigDataIs = wrd.cconfig + wrd.cData + sys.cSpaceIsColonSpace; // configData is:
 export const cERROR = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 // ERROR: Invalid access to:
@@ -582,6 +585,12 @@ export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cO
 export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
 export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
+export const cpluginRegistryPathIs = wrd.cplugin + wrd.cRegistry + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRegistryPath is:
+export const cresolvedPluginPathIs = wrd.cresolved + wrd.cPlugin + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedPluginPath is:
+export const cpluginMetaDataIs = wrd.cplugin + wrd.cMetaData + sys.cSpaceIsColonSpace; // pluginMetaData is:
+export const cpluginExecutionPathIs = wrd.cplugin + wrd.cExecution + wrd.cPath + sys.cSpaceIsColonSpace; // pluginExecutionPath is:
+export const cdataLoadedIs = wrd.cdata + wrd.cLoaded + sys.cSpaceIsColonSpace; // dataLoaded is:
+
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -877,6 +886,11 @@ export const cprintMessageToFile02 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.
 export const cprintMessageToFile03 = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cLog + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cincludes + bas.cSpace + 'undefined' + bas.cDot;
 // WARNING: Queue:
 export const cWarningQueue = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cQueue + bas.cColon + bas.cSpace;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+export const cextractAndProcessPluginEntryPointUriMessage01 = wrd.cplugin + wrd.cMain + wrd.cPath + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cjoin + sys.cSpaceIsColonSpace; // pluginMainPath before join is:
+export const cextractAndProcessPluginEntryPointUriMessage02 = wrd.cplugin + wrd.cMain + wrd.cPath + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cjoin + sys.cSpaceIsColonSpace; // pluginMainPath after join is:
+export const cextractAndProcessPluginEntryPointUriMessage03 = ; // pluginMainPath URI is:
+export const cextractAndProcessPluginEntryPointUriMessage04 = ; // ERROR: No plugin meta data or plugin path are specified:
 
 // Coded System Messages
 // EXAMPLE:

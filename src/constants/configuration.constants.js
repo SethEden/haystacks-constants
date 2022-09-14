@@ -30,6 +30,7 @@ export const cclientConstantsPath = wrd.cclient + wrd.cConstants + wrd.cPath; //
 export const capplicationConstantsPath = wrd.capplication + wrd.cConstants + wrd.cPath; // applicationConstantsPath
 export const cclientMetaDataPath = wrd.cclient + wrd.cMetaData + wrd.cPath; // clientMetaDataPath
 export const cclientCommandAliasesPath = wrd.cclient + wrd.cCommand + wrd.cAliases + wrd.cPath; // clientCommandAliasesPath
+export const cclientRegisteredPlugins = wrd.cclient + wrd.cRegistered + wrd.cPlugins; // clientRegisteredPlugins
 export const cclientWorkflowsPath = wrd.cclient + wrd.cWorkflows + wrd.cPath; // clientWorkflowsPath
 export const cframeworkFullMetaDataPath = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath; // frameworkFullMetaDataPath
 export const cappConfigPath = gen.capp + wrd.cConfig + wrd.cPath; // appConfigPath
