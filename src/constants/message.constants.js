@@ -584,6 +584,7 @@ export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.c
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
 export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
 export const cpluginNameIs = wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace; // pluginName is:
+export const cpluginNamesIs = wrd.cplugin + wrd.cNames + sys.cSpaceIsColonSpace; // pluginNames is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
 export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
 export const cpluginRegistryPathIs = wrd.cplugin + wrd.cRegistry + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRegistryPath is:
@@ -603,6 +604,12 @@ export const cfolderPluginNameIs = wrd.cfolder + wrd.cPlugin + wrd.cName + sys.c
 export const cregistryPluginIs = wrd.cregistry + wrd.cPlugin + sys.cSpaceIsColonSpace; // registryPlugin is:
 export const cregistryPluginNameIs = wrd.cregistry + wrd.cPlugin + wrd.cName + sys.cSpaceIsColonSpace; // registryPluginName is:
 export const csynchronizedPluginRegistryListIs = wrd.csynchronized + wrd.cPlugin + wrd.cRegistry + wrd.cList + sys.cSpaceIsColonSpace; // synchronizedPluginRegistryList is:
+export const cpluginKeyIs = wrd.cplugin + wrd.cKey + sys.cSpaceIsColonSpace; // pluginKey is:
+export const cloadedPluginMetaDataAtIndex = wrd.cloaded + wrd.cPlugin + wrd.cMetaData + bas.cSpace + wrd.cat + bas.cSpace + wrd.cindex + bas.cColon + bas.cSpace; // loadedPluginMetaData at index:
+export const cpluginsMetaDataIs = wrd.cplugins + wrd.cMetaData + sys.cSpaceIsColonSpace; // pluginsMetaData is:
+export const cpluginMetaDataKeyIs = wrd.cplugin + wrd.cMetaData + sys.cSpaceIsColonSpace; // pluginMetaDataKey is:
+export const cpluginPathUriAtIndex = wrd.cplugin + wrd.cPath + gen.cURI + bas.cSpace + wrd.cat + bas.cSpace + wrd.cindex + bas.cColon + bas.cSpace; // pluginPathURL at index:
+export const cpluginsExecutionPathsIs = wrd.cplugins + wrd.cExecution + wrd.cPaths + sys.cSpaceIsColonSpace; // pluginsExecutionPaths is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -913,6 +920,11 @@ export const cErrorUnregisterAllPluginsMessage01 = cERROR_Colon + bas.cSpace + w
 export const cErrorSavePluginRegistryMessage01 = cERROR_Colon + bas.cSpace + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cwrite + bas.cSpace + wrd.cout + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cby + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cappication + bas.cColon + bas.cSpace;
 // ERROR: Failure to synchronize the plugin registry with the list of plugins available from the plugins folder specified by the application in the plugins registry JSON file.
 export const cErrorSyncPluginRegistryWithPluginRegistryPathMessage01 = cERROR_Colon + bas.cSpace + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.csynchronize + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cavailable + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cfolder + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cby + bas.cSpace + wrd.cthe + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cregistry + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cfile + bas.cDot;
+export const cErrorLoadAllPluginsMetaDataMessage01 = cERROR_Colon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpaths + bas.cSpace + wrd.cprovided + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cpaths + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // ERROR: No plugin paths provided, please provide paths and try again.
+export const cErrorLoadAllPluginsExecutionPathsMessage01 = cERROR_Colon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cplugn + bas.cSpace + wrd.cmeta + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cfound + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.censure + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ccorrect + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cis + bas.cSpace + wrd.cprovided + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot; // ERROR: No plugin meta data was found. Please ensure the correct path is provided and try again.
+export const cloadAllPluginsMessage01 = bas.cSpace + wrd.cFailed + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace; // Failed to load the plugin:
+export const cloadAllPluginsMessage02 = wrd.cplugin + bas.cSpace + wrd.centry + bas.cSpace + wrd.cpoint + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace; // plugin entry point path:
+export const cloadAllPluginsMessage03 = cERROR_Colon + bas.cSpace + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cexecution + bas.cSpace + wrd.cpaths + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cmetaData  + bas.cSpace + wrd.cwas + wrd.cspecified + bas.cColon + bas.cSpace; // ERROR: No plugin execution paths or plugins metaData was specified:
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
