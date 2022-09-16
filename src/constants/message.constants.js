@@ -361,6 +361,7 @@ export const cclientWorkflowsPathIs = wrd.cclient + wrd.cWorkflows + wrd.cPath +
 export const cframeworkRootPathIs = wrd.cframework + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkRootPath is:
 export const cappConfigPathIs = phn.capp + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // appConfigPath is:
 export const cpluginConfigPathIs = wrd.cplugin + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // pluginConfigPath is:
+export const cpluginResourcePathIs = wrd.cplugin + wrd.cResource + wrd.cPath + sys.cSpaceIsColonSpace; // pluginResourcePath is:
 export const cconfigPathIs = wrd.cconfig + wrd.cPath + sys.cSpaceIsColonSpace; // configPath is:
 export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkResourcesPath is:
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:

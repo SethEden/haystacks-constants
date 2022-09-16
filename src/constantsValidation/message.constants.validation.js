@@ -358,6 +358,7 @@ export const messageConstantsVaidation = [
   {Name: 'cframeworkRootPathIs', Actual: msg.cframeworkRootPathIs, Expected: 'frameworkRootPath is: '},
   {Name: 'cappConfigPathIs', Actual: msg.cappConfigPathIs, Expected: 'appConfigPath is: '},
   {Name: 'cpluginConfigPathIs', Actual: msg.cpluginConfigPathIs, Expected: 'pluginConfigPath is: '},
+  {Name: 'cpluginResourcePathIs', Actual: msg.cpluginResourcePathIs, Expected: 'pluginResourcePath is: '},
   {Name: 'cconfigPathIs', Actual: msg.cconfigPathIs, Expected: 'configPath is: '},
   {Name: 'cframeworkResourcesPathIs', Actual: msg.cframeworkResourcesPathIs, Expected: 'frameworkResourcesPath is: '},
   {Name: 'cframeworkFullMetaDataPathIs', Actual: msg.cframeworkFullMetaDataPathIs, Expected: 'frameworkFullMetaDataPath is: '},
