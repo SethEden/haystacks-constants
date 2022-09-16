@@ -830,7 +830,13 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorUnRegisterPluginMessage01', Actual: msg.cErrorUnRegisterPluginMessage01, Expected: 'ERROR: Failure to unregister plugin: '},
   {Name: 'cErrorUnregisterAllPluginsMessage01', Actual: msg.cErrorUnregisterAllPluginsMessage01, Expected: 'RROR: Could not unregister all of the plugins.'},
   {Name: 'cErrorSavePluginRegistryMessage01', Actual: msg.cErrorSavePluginRegistryMessage01, Expected: 'ERROR: Failure to write out the plugin registry to the plugin path specified by the application: '},
-  {Name: 'cErrorSyncPluginRegistryWithPluginRegistryPathMessage01', Actual: msg.cErrorSyncPluginRegistryWithPluginRegistryPathMessage01, Expected: 'ERROR: Failure to synchronize the plugin registry with the list of plugins available from the plugins folder specified by the application in the plugins registry JSON file.'}
+  {Name: 'cErrorSyncPluginRegistryWithPluginRegistryPathMessage01', Actual: msg.cErrorSyncPluginRegistryWithPluginRegistryPathMessage01, Expected: 'ERROR: Failure to synchronize the plugin registry with the list of plugins available from the plugins folder specified by the application in the plugins registry JSON file.'},
+  {Name: 'cErrorRegisterPluginCommandMessage01', Actual: msg.cErrorRegisterPluginCommandMessage01, Expected: 'ERROR: Failure to register the specified plugin: '},
+  {Name: 'cErrorUnregisterPluginCommandMessage01', Actual: msg.cErrorUnregisterPluginCommandMessage01, Expected: 'ERROR: Failure to unregister the specified plugin, invalid input: '}
+  {Name: 'cErrorLoadPluginCommandMessage01', Actual: msg.cErrorLoadPluginCommandMessage01, Expected: 'ERROR: Failure to load the specified plugin, invalid input: '},
+  {Name: 'cErrorLoadPluginsCommandMessage01', Actual: msg.cErrorLoadPluginsCommandMessage01, Expected: 'ERROR: Failure to load the specified plugins, invalid input: '},
+  {Name: 'cErrorUnloadPluginCommandMessage01', Actual: msg.cErrorUnloadPluginCommandMessage01, Expected: 'ERROR: Failure to unload the specified plugin, invalid input: '},
+  {Name: 'cErrorUnloadPluginsCommandMessage01', Actual: msg.cErrorUnloadPluginsCommandMessage01, Expected: 'ERROR: Failure to unload the specified plugins, invalid input: '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
