@@ -161,6 +161,7 @@ export const cous = bas.cou + bas.cs; // ous
 export const ceous = bas.ce + cous; // eous
 export const cung = bas.cun + bas.cg; // ung
 export const cary = bas.car + bas.cy; // ary
+export const ciar = bas.cia + bas.cr; // iar
 export const ciary = bas.ci + cary; // iary
 export const cMis = bas.cMi + bas.cs; // Mis
 export const cmis = bas.camai + bas.cs; // mis
@@ -394,6 +395,7 @@ export const cPROD = bas.cPR + bas.cOD; // PROD
 export const cana = bas.can + bas.ca; // ana
 export const cAna = bas.cAn + bas.ca; // Ana
 export const csis = bas.csi + bas.cs; // sis
+export const crag = bas.cra + bas.cg; // rag
 export const crage = bas.cra + bas.cge; // rage
 export const cear = bas.cea + bas.cr; // ear
 export const crgb = bas.crg + bas.cb; // rgb
@@ -1163,7 +1165,10 @@ export const cglo = bas.cgl + bas.co; // glo
 export const cGlo = bas.cGl + bas.co; // Glo
 export const cbal = bas.cba + bas.cl; // bal
 export const cBal = bas.cBa + bas.cl; // Bal
-
+export const cief = bas.cie + bas.cf; // ief
+export const clem = bas.cle + bas.cm; // lem
+export const csav = bas.csa + bas.cv; // sav
+export const cSav = bas.cSa + bas.cv; // Sav
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

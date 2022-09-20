@@ -305,6 +305,7 @@ export const csystemConfigFileName = wrd.cframework + bas.cDot + wrd.csystem + g
 export const capplicationConfigFileName = wrd.capplication + bas.cDot + wrd.csystem + gen.cDotjson; // application.system.json
 export const cappConfigPath = gen.capp + wrd.cConfig + wrd.cPath; // appConfigPath
 export const cframeworkConfigPath = wrd.cframework + wrd.cConfig + wrd.cPath; // frameworkConfigPath
+export const cpluginConfigPath = wrd.cplugin + wrd.cConfig + wrd.cPath; // pluginConfigPath
 export const cthemeConfigPath = wrd.ctheme + wrd.cConfig + wrd.cPath; // themeConfigPath
 export const cApplicationName = wrd.cApplication + wrd.cName; // ApplicationName
 export const cApplicationRootPath = wrd.cApplication + wrd.cRoot + wrd.cPath; // ApplicationRootPath
@@ -323,6 +324,8 @@ export const cSystemConstantsPath = wrd.cSystem + wrd.cConstants + wrd.cPath; //
 export const cSystemConstantsPathActual = wrd.csrc + bas.cForwardSlash + wrd.cconstants + bas.cForwardSlash; // src/constants/
 export const cclientBusinessRules = wrd.cclient + wrd.cBusiness + wrd.cRules; // clientBusinessRules
 export const cclientCommands = wrd.cclient + wrd.cCommands; // clientCommands
+export const cpluginBusinessRules = wrd.cplugin + wrd.cBusiness + wrd.cRules; // pluginBusinessRules
+export const cpluginCommands = wrd.cplugin + wrd.cCommands; // pluginCommands
 export const cclientRulesLibrary = wrd.cclient + wrd.cRules + wrd.cLibrary; // clientRulesLibrary
 export const cCommandQueue = wrd.cCommand + wrd.cQueue; // CommandQueue
 export const cConstantsValidationData = wrd.cConstants + wrd.cValidation + wrd.cData; // ConstantsValidationData
@@ -355,7 +358,9 @@ export const cBinaryRootPath = wrd.cBinary + wrd.cRoot + wrd.cPath; // BinaryRoo
 export const cBinaryReleasePath = wrd.cBinary + wrd.cRelease + wrd.cPath; // BinaryReleasePath
 export const cdevtty = bas.cForwardSlash + cdev + bas.cForwardSlash + phn.ctty; // /dev/tty
 export const cpackageDotJson = wrd.cpackage + bas.cDot + gen.cjson; // package.json
+export const cpluginsDotJson = wrd.cplugins + bas.cDot + gen.cjson; // plugins.json
 export const cDoubleDotForwardSlash = bas.cDoubleDot + bas.cForwardSlash; // ../
+export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 
 // Constants Filenames
 export const cbasic_constants_js = wrd.cbasic + bas.cDot + wrd.cconstants + gen.cDotjs; // basic.constants.js
