@@ -169,6 +169,7 @@ export const phonicConstantsValidation = [
   {Name: 'ceous', Actual: phn.ceous, Expected: 'eous'},
   {Name: 'cung', Actual: phn.cung, Expected: 'ung'},
   {Name: 'cary', Actual: phn.cary, Expected: 'ary'},
+  {Name: 'ciar', Actual: phn.ciar, Expected: 'iar'},
   {Name: 'ciary', Actual: phn.ciary, Expected: 'iary'},
   {Name: 'cMis', Actual: phn.cMis, Expected: 'Mis'},
   {Name: 'cmis', Actual: phn.cmis, Expected: 'mis'},
@@ -401,6 +402,7 @@ export const phonicConstantsValidation = [
   {Name: 'cana', Actual: phn.cana, Expected: 'ana'},
   {Name: 'cAna', Actual: phn.cAna, Expected: 'Ana'},
   {Name: 'csis', Actual: phn.csis, Expected: 'sis'},
+  {Name: 'crag', Actual: phn.crag, Expected: 'rag'},
   {Name: 'crage', Actual: phn.crage, Expected: 'rage'},
   {Name: 'cear', Actual: phn.cear, Expected: 'ear'},
   {Name: 'crgb', Actual: phn.crgb, Expected: 'rgb'},
@@ -1170,6 +1172,10 @@ export const phonicConstantsValidation = [
   {Name: 'cGlo', Actual: phn.cGlo, Expected: 'Glo'},
   {Name: 'cbal', Actual: phn.cbal, Expected: 'bal'},
   {Name: 'cBal', Actual: phn.cBal, Expected: 'Bal'},
+  {Name: 'cief', Actual: phn.cief, Expected: 'ief'},
+  {Name: 'clem', Actual: phn.clem, Expected: 'lem'},
+  {Name: 'csav', Actual: phn.csav, Expected: 'sav'},
+  {Name: 'cSav', Actual: phn.cSav, Expected: 'Sav'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

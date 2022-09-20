@@ -305,6 +305,7 @@ export const systemConstantsValidation = [
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
   {Name: 'cappConfigPath', Actual: sys.cappConfigPath, Expected: 'appConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: sys.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
+  {Name: 'cpluginConfigPath', Actual: sys.cpluginConfigPath, Expected: 'pluginConfigPath'},
   {Name: 'cthemeConfigPath', Actual: sys.cthemeConfigPath, Expected: 'themeConfigPath'},
   {Name: 'cApplicationName', Actual: sys.cApplicationName, Expected: 'ApplicationName'},
   {Name: 'cApplicationRootPath', Actual: sys.cApplicationRootPath, Expected: 'ApplicationRootPath'},
@@ -323,6 +324,8 @@ export const systemConstantsValidation = [
   {Name: 'cSystemConstantsPathActual', Actual: sys.cSystemConstantsPathActual, Expected: 'src/constants/'},
   {Name: 'cclientBusinessRules', Actual: sys.cclientBusinessRules, Expected: 'clientBusinessRules'},
   {Name: 'cclientCommands', Actual: sys.cclientCommands, Expected: 'clientCommands'},
+  {Name: 'cpluginBusinessRules', Actual: sys.cpluginBusinessRules, Expected: 'pluginBusinessRules'},
+  {Name: 'cpluginCommands', Actual: sys.cpluginCommands, Expected: 'pluginCommands'},
   {Name: 'cclientRulesLibrary', Actual: sys.cclientRulesLibrary, Expected: 'clientRulesLibrary'},
   {Name: 'cCommandQueue', Actual: sys.cCommandQueue, Expected: 'CommandQueue'},
   {Name: 'cConstantsValidationData', Actual: sys.cConstantsValidationData, Expected: 'ConstantsValidationData'},
@@ -355,7 +358,9 @@ export const systemConstantsValidation = [
   {Name: 'cBinaryReleasePath', Actual: sys.cBinaryReleasePath, Expected: 'BinaryReleasePath'},
   {Name: 'cdevtty', Actual: sys.cdevtty, Expected: '/dev/tty'},
   {Name: 'cpackageDotJson', Actual: sys.cpackageDotJson, Expected: 'package.json'},
+  {Name: 'cpluginsDotJson', Actual: sys.cpluginsDotJson, Expected: 'plugins.json'},
   {Name: 'cDoubleDotForwardSlash', Actual: sys.cDoubleDotForwardSlash, Expected: '../'},
+  {Name: 'cpluginsLoaded', Actual: sys.cpluginsLoaded, Expected: 'pluginsLoaded'},
 
   // Constants Filenames
   {Name: 'cbasic_constants_js', Actual: sys.cbasic_constants_js, Expected: 'basic.constants.js'},
