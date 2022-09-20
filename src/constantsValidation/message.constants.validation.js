@@ -836,7 +836,16 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadPluginCommandMessage01', Actual: msg.cErrorLoadPluginCommandMessage01, Expected: 'ERROR: Failure to load the specified plugin, invalid input: '},
   {Name: 'cErrorLoadPluginsCommandMessage01', Actual: msg.cErrorLoadPluginsCommandMessage01, Expected: 'ERROR: Failure to load the specified plugins, invalid input: '},
   {Name: 'cErrorUnloadPluginCommandMessage01', Actual: msg.cErrorUnloadPluginCommandMessage01, Expected: 'ERROR: Failure to unload the specified plugin, invalid input: '},
-  {Name: 'cErrorUnloadPluginsCommandMessage01', Actual: msg.cErrorUnloadPluginsCommandMessage01, Expected: 'ERROR: Failure to unload the specified plugins, invalid input: '}
+  {Name: 'cErrorUnloadPluginsCommandMessage01', Actual: msg.cErrorUnloadPluginsCommandMessage01, Expected: 'ERROR: Failure to unload the specified plugins, invalid input: '},
+  {Name: 'cErrorListAllPluginsInRegistryCommandMessage01', Actual: msg.cErrorListAllPluginsInRegistryCommandMessage01, Expected: 'ERROR: There was an error getting the list of plugins from the registry.'},
+  {Name: 'cErrorListAllPluginsInRegistryPathCommandMessage01', Actual: msg.cErrorListAllPluginsInRegistryPathCommandMessage01, Expected: 'ERROR: There was an error getting the list of plugins from the path listed in the plugin registry.'},
+  {Name: 'cErrorCountPluginsInRegistryCommandMessage01', Actual: msg.cErrorCountPluginsInRegistryCommandMessage01, Expected: 'ERROR: There was an error getting the number of plugins in the plugin registry.'},
+  {Name: 'cErrorCountPluginsInRegistryPathCommandMessage01', Actual: msg.cErrorCountPluginsInRegistryPathCommandMessage01, Expected: 'ERROR: There was an error getting the number of plugins in the path listed in the plugin registry.'},
+  {Name: 'cErrorSyncPluginRegistryWithPathCommandMessage01', Actual: msg.cErrorSyncPluginRegistryWithPathCommandMessage01, Expected: 'ERROR: Failure to synchronize the plugin registry with the plugin path listed in the plugin registry.'},
+  {Name: 'cErrorUnregisterAllPluginsCommandMessage01', Actual: msg.cErrorUnregisterAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unregister all plugins.'},
+  {Name: 'cErrorSavePluginRegistryToDiskCommandMessage01', Actual: msg.cErrorSavePluginRegistryToDiskCommandMessage01, Expected: 'ERROR: Failure to save the plugin registry to the hard drive.'},
+  {Name: 'cErrorLoadPluginsFromRegistryCommandMessage01', Actual: msg.cErrorLoadPluginsFromRegistryCommandMessage01, Expected: 'ERROR: Failure to load the plugins from the plugin registry.'},
+  {Name: 'cErrorUnloadAllPluginsCommandMessage01', Actual: msg.cErrorUnloadAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unload all the plugins.'}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
