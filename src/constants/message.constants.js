@@ -611,6 +611,10 @@ export const cpluginsMetaDataIs = wrd.cplugins + wrd.cMetaData + sys.cSpaceIsCol
 export const cpluginMetaDataKeyIs = wrd.cplugin + wrd.cMetaData + wrd.cKey + sys.cSpaceIsColonSpace; // pluginMetaDataKey is:
 export const cpluginPathUriAtIndex = wrd.cplugin + wrd.cPath + gen.cURI + bas.cSpace + wrd.cat + bas.cSpace + wrd.cindex + bas.cColon + bas.cSpace; // pluginPathURI at index:
 export const cpluginsExecutionPathsIs = wrd.cplugins + wrd.cExecution + wrd.cPaths + sys.cSpaceIsColonSpace; // pluginsExecutionPaths is:
+export const cpluginsRootPathIs = wrd.cplugins + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginsRootPath is:
+export const cpluginRegistryListLengthEqualZero = wrd.cplugin + wrd.cRegistry + wrd.cList + bas.cDot + wrd.clength + bas.cSpace + bas.cEqualEqualEqual + bas.cSpace + num.c0; // pluginRegistryList.length === 0
+export const cpluginRegistryListLengthNotEqualZero = wrd.cplugin + wrd.cRegistry + wrd.cList + bas.cDot + wrd.clength + bas.cSpace + bas.cExclamation + bas.cEqualEqual + bas.cSpace + num.c0; // pluginRegistryList.length !== 0
+export const cpluginPathsArrayIs = wrd.cplugin + wrd.cPaths + wrd.cArray + sys.cSpaceIsColonSpace; // pluginPathsArray is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
