@@ -607,6 +607,10 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginMetaDataKeyIs', Actual: msg.cpluginMetaDataKeyIs, Expected: 'pluginMetaDataKey is: '},
   {Name: 'cpluginPathUriAtIndex', Actual: msg.cpluginPathUriAtIndex, Expected: 'pluginPathURI at index: '},
   {Name: 'cpluginsExecutionPathsIs', Actual: msg.cpluginsExecutionPathsIs, Expected: 'pluginsExecutionPaths is: '},
+  {Name: 'cpluginsRootPathIs', Actual: msg.cpluginsRootPathIs, Expected: 'pluginsRootPath is: '},
+  {Name: 'cpluginRegistryListLengthEqualZero', Actual: msg.cpluginRegistryListLengthEqualZero, Expected: 'pluginRegistryList.length === 0'},
+  {Name: 'cpluginRegistryListLengthNotEqualZero', Actual: msg.cpluginRegistryListLengthNotEqualZero, Expected: 'pluginRegistryList.length !== 0'},
+  {Name: 'cpluginPathsArrayIs', Actual: msg.cpluginPathsArrayIs, Expected: 'pluginPathsArray is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
