@@ -94,6 +94,7 @@ export const configurationConstantsValidation = [
   {Name: 'creleaseCompleted', Actual: cfg.creleaseCompleted, Expected: 'releaseCompleted'},
   {Name: 'cpluginRegistry', Actual: cfg.cpluginRegistry, Expected: 'pluginRegistry'},
   {Name: 'cpluginRegistryPath', Actual: cfg.cpluginRegistryPath, Expected: 'pluginRegistryPath'},
+  {Name: 'cpluginsRootPath', Actual: cfg.cpluginsRootPath, Expected: 'pluginsRootPath'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},
