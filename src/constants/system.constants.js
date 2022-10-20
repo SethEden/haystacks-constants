@@ -303,6 +303,7 @@ export const cctrl_z = phn.cctrl + bas.cPlus + bas.cz; // ctrl+z
 // System Terms
 export const csystemConfigFileName = wrd.cframework + bas.cDot + wrd.csystem + gen.cDotjson; // framework.system.json
 export const capplicationConfigFileName = wrd.capplication + bas.cDot + wrd.csystem + gen.cDotjson; // application.system.json
+export const cpluginConfigFileName = wrd.cplugin + bas.cDot + wrd.csystem + gen.cDotjson; // plugin.system.json
 export const cappConfigPath = gen.capp + wrd.cConfig + wrd.cPath; // appConfigPath
 export const cframeworkConfigPath = wrd.cframework + wrd.cConfig + wrd.cPath; // frameworkConfigPath
 export const cpluginConfigPath = wrd.cplugin + wrd.cConfig + wrd.cPath; // pluginConfigPath

@@ -32,6 +32,8 @@ export const messageConstantsVaidation = [
   {Name: 'creturnDataIs', Actual: msg.creturnDataIs, Expected: 'returnData is: '},
 
   // System Messages
+  {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
+  {Name: 'cWARNING_Colon', Actual: msg.cWARNING_Colon, Expected: 'WARNING: '},
   // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
   {Name: 'cApplicationWarningMessage1a', Actual: msg.cApplicationWarningMessage1a, Expected: 'WARNING: No .Env File found! '},
   {Name: 'cApplicationWarningMessage1b', Actual: msg.cApplicationWarningMessage1b, Expected: 'Going to default to the DEVELOPMENT ENVIRONMENT!'},
@@ -448,7 +450,6 @@ export const messageConstantsVaidation = [
   {Name: 'cdataObjectIs', Actual: msg.cdataObjectIs, Expected: 'dataObject is: '},
   {Name: 'celementNamePatternIs', Actual: msg.celementNamePatternIs, Expected: 'elementNamePattern is: '},
   {Name: 'celementCountIs', Actual: msg.celementCountIs, Expected: 'elementCount is: '},
-  {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
   {Name: 'cfileAndPathToLoadFromIs', Actual: msg.cfileAndPathToLoadFromIs, Expected: 'file and path to load from is: '},
   {Name: 'cDoneLoadingDataFrom', Actual: msg.cDoneLoadingDataFrom, Expected: 'DONE loading data from: '},
   {Name: 'cfileAndPathToWriteDataToIs', Actual: msg.cfileAndPathToWriteDataToIs, Expected: 'file and path to write data to is: '},
@@ -679,6 +680,15 @@ export const messageConstantsVaidation = [
   {Name: 'cloadedThemeDataIs', Actual: msg.cloadedThemeDataIs, Expected: 'loadedThemeData is: '},
   {Name: 'cErrorLineIsNullOrUndefined', Actual: msg.cErrorLineIsNullOrUndefined, Expected: 'ERROR: line is null or undefined: '},
   {Name: 'cSpaceFileIs', Actual: msg.cSpaceFileIs, Expected: ' file is: '},
+  // Plugin specific
+  {Name: 'cconfigFilesPathIs', Actual: msg.cconfigFilesPathIs, Expected: 'configFilesPath is: '},
+  {Name: 'chighLevelPluginSystemConfigurationContainerIs', Actual: msg.chighLevelPluginSystemConfigurationContainerIs, Expected: 'highLevelPluginSystemConfigurationContainer is: '},
+  {Name: 'chighLevelPluginDebugConfigurationContainerIs', Actual: msg.chighLevelPluginDebugConfigurationContainerIs, Expected: 'highLevelPluginDebugConfigurationContainer is: '},
+  {Name: 'cfullyQualifiedNameIs', Actual: msg.cfullyQualifiedNameIs, Expected: 'fullyQualifiedName is: '},
+  {Name: 'cnameIs', Actual: msg.cnameIs, Expected: 'name is: '},
+  {Name: 'cnamespaceIs', Actual: msg.cnamespaceIs, Expected: 'namespace is: '},
+  {Name: 'cValueBeforeRuleProcessingIs', Actual: msg.cValueBeforeRuleProcessingIs, Expected: 'value BEFORE rule processing is: '},
+  {Name: 'cValueAfterRuleProcessingIs', Actual: msg.cValueAfterRuleProcessingIs, Expected: 'value AFTER rule processing is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -849,7 +859,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorUnregisterAllPluginsCommandMessage01', Actual: msg.cErrorUnregisterAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unregister all plugins.'},
   {Name: 'cErrorSavePluginRegistryToDiskCommandMessage01', Actual: msg.cErrorSavePluginRegistryToDiskCommandMessage01, Expected: 'ERROR: Failure to save the plugin registry to the hard drive.'},
   {Name: 'cErrorLoadPluginsFromRegistryCommandMessage01', Actual: msg.cErrorLoadPluginsFromRegistryCommandMessage01, Expected: 'ERROR: Failure to load the plugins from the plugin registry.'},
-  {Name: 'cErrorUnloadAllPluginsCommandMessage01', Actual: msg.cErrorUnloadAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unload all the plugins.'}
+  {Name: 'cErrorUnloadAllPluginsCommandMessage01', Actual: msg.cErrorUnloadAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unload all the plugins.'},
+  {Name: 'cWarningDataPathConfigurationNameNotSupported', Actual: msg.cWarningDataPathConfigurationNameNotSupported, Expected: 'WARNING: dataPathConfigurationName not supported: '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

@@ -303,6 +303,7 @@ export const systemConstantsValidation = [
   // System Terms
   {Name: 'csystemConfigFileName', Actual: sys.csystemConfigFileName, Expected: 'framework.system.json'},
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
+  {Name: 'cpluginConfigFileName', Actual: sys.cpluginConfigFileName, Expected: 'plugin.system.json'},
   {Name: 'cappConfigPath', Actual: sys.cappConfigPath, Expected: 'appConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: sys.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
   {Name: 'cpluginConfigPath', Actual: sys.cpluginConfigPath, Expected: 'pluginConfigPath'},

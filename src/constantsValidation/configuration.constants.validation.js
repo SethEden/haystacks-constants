@@ -41,6 +41,7 @@ export const configurationConstantsValidation = [
   {Name: 'cappConfigFiles', Actual: cfg.cappConfigFiles, Expected: 'appConfigFiles'},
   {Name: 'cframeworkConfigFiles', Actual: cfg.cframeworkConfigFiles, Expected: 'frameworkConfigFiles'},
   {Name: 'cthemeConfigFiles', Actual: cfg.cthemeConfigFiles, Expected: 'themeConfigFiles'},
+  {Name: 'cpluginConfigFiles', Actual: cfg.cpluginConfigFiles, Expected: 'pluginConfigFiles'},
   {Name: 'cappConfigReferencePath', Actual: cfg.cappConfigReferencePath, Expected: 'appConfigReferencePath'},
   {Name: 'cpluginConfigReferencePath', Actual: cfg.cpluginConfigReferencePath, Expected: 'pluginConfigReferencePath'},
   {Name: 'cframeworkCommandAliasesPath', Actual: cfg.cframeworkCommandAliasesPath, Expected: 'frameworkCommandAliasesPath'},

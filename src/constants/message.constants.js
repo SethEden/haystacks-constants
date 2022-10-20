@@ -34,6 +34,8 @@ export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSp
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
 
 // System Messages
+export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
+export const cWARNING_Colon = wrd.cWARNING + bas.cColon + bas.cSpace; // WARNING:
 // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
 export const cApplicationWarningMessage1a = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + gen.cDotEnv + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cfound + bas.cExclamation + bas.cSpace; // WARNING: No .Env File found!
 export const cApplicationWarningMessage1b = wrd.cGoing + bas.cSpace + bas.cto + bas.cSpace + wrd.cdefault + bas.cSpace + bas.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cDEVELOPMENT + bas.cSpace + wrd.cENVIRONMENT + bas.cExclamation; // Going to default to the DEVELOPMENT ENVIRONMENT!
@@ -452,7 +454,6 @@ export const celementNameIs = wrd.celement + wrd.cName + sys.cSpaceIsColonSpace;
 export const cdataObjectIs = wrd.cdata + wrd.cObject + sys.cSpaceIsColonSpace; // dataObject is:
 export const celementNamePatternIs = wrd.celement + wrd.cName + wrd.cPattern + sys.cSpaceIsColonSpace; // elementNamePattern is:
 export const celementCountIs = wrd.celement + wrd.cCount + sys.cSpaceIsColonSpace; // elementCount is:
-export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 export const cfileAndPathToLoadFromIs = wrd.cfile + bas.cSpace + wrd.cand + bas.cSpace + wrd.cpath + bas.cSpace + bas.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cfrom + sys.cSpaceIsColonSpace; // file and path to load from is:
 export const cDoneLoadingDataFrom = wrd.cDONE + bas.cSpace + wrd.cloading + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfrom + bas.cColon + bas.cSpace; // DONE loading data from:
 export const cfileAndPathToWriteDataToIs = wrd.cfile + bas.cSpace + wrd.cand + bas.cSpace + wrd.cpath + bas.cSpace + bas.cto + bas.cSpace + wrd.cwrite + bas.cSpace + wrd.cdata + bas.cSpace + bas.cto + bas.cSpace + bas.cis + bas.cColon + bas.cSpace; // file and path to write data to is:
@@ -683,6 +684,15 @@ export const cnamedThemePathIsVerified = wrd.cnamed + wrd.cTheme + wrd.cPath + b
 export const cloadedThemeDataIs = wrd.cloaded + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // loadedThemeData is:
 export const cErrorLineIsNullOrUndefined = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cline + bas.cSpace + wrd.cis + bas.cSpace + 'null' + bas.cSpace + wrd.cor + bas.cSpace + 'undefined' + bas.cColon + bas.cSpace; // ERROR: line is null or undefined:
 export const cSpaceFileIs = bas.cSpace + wrd.cfile + sys.cSpaceIsColonSpace; // file is:
+// Plugin specific
+export const cconfigFilesPathIs = wrd.cconfig + wrd.cFiles + wrd.cPath + sys.cSpaceIsColonSpace; // configFilesPath is:
+export const chighLevelPluginSystemConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginSystemConfigurationContainer is:
+export const chighLevelPluginDebugConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginDebugConfigurationContainer is:
+export const cfullyQualifiedNameIs = wrd.cfully + wrd.cQualified + wrd.cName + sys.cSpaceIsColonSpace; // fullyQualifiedName is:
+export const cnameIs = wrd.cname + sys.cSpaceIsColonSpace; // name is:
+export const cnamespaceIs = wrd.cnamespace + sys.cSpaceIsColonSpace; // namespace is:
+export const cValueBeforeRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value BEFORE rule processing is:
+export const cValueAfterRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value AFTER rule processing is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -954,6 +964,8 @@ export const cErrorSavePluginRegistryToDiskCommandMessage01 = cERROR_Colon + wrd
 export const cErrorLoadPluginsFromRegistryCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cDot;
 // ERROR: Failure to unload all the plugins.
 export const cErrorUnloadAllPluginsCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cunload + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cDot;
+// WARNING: dataPathConfigurationName not supported: 
+export const cWarningDataPathConfigurationNameNotSupported = cWARNING_Colon + wrd.cdata + wrd.cPath + wrd.cConfiguration + wrd.cName + bas.cSpace + wrd.cnot + bas.cSpace + wrd.csupported + bas.cColon + bas.cSpace;
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

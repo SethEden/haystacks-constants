@@ -40,6 +40,7 @@ export const cframeworkThemesPath = wrd.cframework + wrd.cThemes + wrd.cPath; //
 export const cappConfigFiles = gen.capp + wrd.cConfig + wrd.cFiles; // appConfigFiles
 export const cframeworkConfigFiles = wrd.cframework + wrd.cConfig + wrd.cFiles; // frameworkConfigFiles
 export const cthemeConfigFiles = wrd.ctheme + wrd.cConfig + wrd.cFiles; // themeConfigFiles
+export const cpluginConfigFiles = wrd.cplugin + wrd.cConfig + wrd.cFiles; // pluginConfigFiles
 export const cappConfigReferencePath = gen.capp + wrd.cConfig + wrd.cReference + wrd.cPath; // appConfigReferencePath
 export const cpluginConfigReferencePath = wrd.cplugin + wrd.cConfig + wrd.cReference + wrd.cPath; // pluginConfigReferencePath
 export const cframeworkCommandAliasesPath = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath; // frameworkCommandAliasesPath
