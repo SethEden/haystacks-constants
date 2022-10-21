@@ -167,6 +167,7 @@ export const creturnDataBeforePopIs = sys.creturnData + bas.cSpace + wrd.cBEFORE
 export const creturnDataAfterPopIs = sys.creturnData + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cPOP + sys.cSpaceIsColonSpace; // returnData AFTER POP is:
 export const cmasterTempReturnDataBeforeRecursiveCallIs = wrd.cmaster + wrd.cTemp + wrd.cReturn + wrd.cData + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // masterTempReturnData BEFORE recursive call is:
 export const ctempReturnData1Is = wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + sys.cSpaceIsColonSpace; // tempReturnData1 is:
+export const ctempReturnData2Is = wrd.ctemp + wrd.cReturn + wrd.cData + num.c2 + sys.cSpaceIsColonSpace; // tempReturnData2 is:
 export const ctempReturnData1DotLengthIs = wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // tempReturnData1.length is:
 export const cpushingTempReturnData1Kvalue = wrd.cpushing + bas.cSpace + wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + bas.cOpenBracket + bas.ck + bas.cCloseBracket + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace; // pushing tempReturnData1[k] value:
 export const cmasterTempReturnDataAfterRecursiveCallIs = wrd.cmaster + wrd.cTemp + wrd.cReturn + wrd.cData + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // masterTempReturnData AFTER recursive call is:
@@ -693,6 +694,7 @@ export const cnameIs = wrd.cname + sys.cSpaceIsColonSpace; // name is:
 export const cnamespaceIs = wrd.cnamespace + sys.cSpaceIsColonSpace; // namespace is:
 export const cValueBeforeRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value BEFORE rule processing is:
 export const cValueAfterRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value AFTER rule processing is:
+export const creturnDataAfterObjectAssignIs = wrd.creturnData + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cobject + bas.cDot + wrd.cassign + sys.cSpaceIsColonSpace; // returnData after object.assign is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;

@@ -165,6 +165,7 @@ export const messageConstantsVaidation = [
   {Name: 'creturnDataAfterPopIs', Actual: msg.creturnDataAfterPopIs, Expected: 'returnData AFTER POP is: '},
   {Name: 'cmasterTempReturnDataBeforeRecursiveCallIs', Actual: msg.cmasterTempReturnDataBeforeRecursiveCallIs, Expected: 'masterTempReturnData BEFORE recursive call is: '},
   {Name: 'ctempReturnData1Is', Actual: msg.ctempReturnData1Is, Expected: 'tempReturnData1 is: '},
+  {Name: 'ctempReturnData2Is', Actual: msg.ctempReturnData2Is, Expected: 'tempReturnData2 is: '},
   {Name: 'ctempReturnData1DotLengthIs', Actual: msg.ctempReturnData1DotLengthIs, Expected: 'tempReturnData1.length is: '},
   {Name: 'cpushingTempReturnData1Kvalue', Actual: msg.cpushingTempReturnData1Kvalue, Expected: 'pushing tempReturnData1[k] value: '},
   {Name: 'cmasterTempReturnDataAfterRecursiveCallIs', Actual: msg.cmasterTempReturnDataAfterRecursiveCallIs, Expected: 'masterTempReturnData AFTER recursive call is: '},
@@ -689,6 +690,7 @@ export const messageConstantsVaidation = [
   {Name: 'cnamespaceIs', Actual: msg.cnamespaceIs, Expected: 'namespace is: '},
   {Name: 'cValueBeforeRuleProcessingIs', Actual: msg.cValueBeforeRuleProcessingIs, Expected: 'value BEFORE rule processing is: '},
   {Name: 'cValueAfterRuleProcessingIs', Actual: msg.cValueAfterRuleProcessingIs, Expected: 'value AFTER rule processing is: '},
+  {Name: 'creturnDataAfterObjectAssignIs', Actual: msg.creturnDataAfterObjectAssignIs, Expected: 'returnData after object.assign is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
