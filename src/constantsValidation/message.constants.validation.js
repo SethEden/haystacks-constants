@@ -581,8 +581,10 @@ export const messageConstantsVaidation = [
   {Name: 'cnewValueIs', Actual: msg.cnewValueIs, Expected: 'newValue is: '},
   {Name: 'cparentDataObjectBeforeMutationIs', Actual: msg.cparentDataObjectBeforeMutationIs, Expected: 'parentDataObject BEFORE mutation is: '},
   {Name: 'cparentDataObjectAfterMutationIs', Actual: msg.cparentDataObjectAfterMutationIs, Expected: 'parentDataObject AFTER mutation is: '},
+  {Name: 'callPluginsDataIs', Actual: msg.callPluginsDataIs, Expected: 'allPluginsData is: '},
   {Name: 'cpluginsPathsAre', Actual: msg.cpluginsPathsAre, Expected: 'pluginPaths are: '},
   {Name: 'cpluginNameIs', Actual: msg.cpluginNameIs, Expected: 'pluginName is: '},
+  {Name: 'cpluginDataIs', Actual: msg.cpluginDataIs, Expected: 'pluginData is: '},
   {Name: 'cpluginNamesIs', Actual: msg.cpluginNamesIs, Expected: 'pluginNames is: '},
   {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
   {Name: 'ccomaCountIs', Actual: msg.ccomaCountIs, Expected: 'comaCount is: '},
@@ -691,6 +693,16 @@ export const messageConstantsVaidation = [
   {Name: 'cValueBeforeRuleProcessingIs', Actual: msg.cValueBeforeRuleProcessingIs, Expected: 'value BEFORE rule processing is: '},
   {Name: 'cValueAfterRuleProcessingIs', Actual: msg.cValueAfterRuleProcessingIs, Expected: 'value AFTER rule processing is: '},
   {Name: 'creturnDataAfterObjectAssignIs', Actual: msg.creturnDataAfterObjectAssignIs, Expected: 'returnData after object.assign is: '},
+  {Name: 'cbeginProcessingHighLevelPluginSystemConfigurationContainer', Actual: msg.cbeginProcessingHighLevelPluginSystemConfigurationContainer, Expected: 'begin processing highLevelPluginSystemConfigurationContainer'},
+  {Name: 'cendProcessingHighLevelPluginSystemConfigurationContainer', Actual: msg.cendProcessingHighLevelPluginSystemConfigurationContainer, Expected: 'end processing highLevelPluginSystemConfigurationContainer'},
+  {Name: 'cbeginProcessingHighLevelPluginDebugConfigurationContainer', Actual: msg.cbeginProcessingHighLevelPluginDebugConfigurationContainer, Expected: 'begin processing highLevelPluginDebugConfigurationContainer'},
+  {Name: 'cendProcessingHighLevelPluginDebugConfigurationContainer', Actual: msg.cendProcessingHighLevelPluginDebugConfigurationContainer, Expected: 'end processing highLevelPluginDebugConfigurationContainer'},
+  {Name: 'cpluginBusinessRulesIs', Actual: msg.cpluginBusinessRulesIs, Expected: 'pluginBusinessRules is: '},
+  {Name: 'cplguinCommandsIs', Actual: msg.cplguinCommandsIs, Expected: 'pluginCommands is: '},
+  {Name: 'cpluginConfigurationDataIs', Actual: msg.cpluginConfigurationDataIs, Expected: 'pluginConfigurationData is: '},
+  {Name: 'cpluginCommandAliasesIs', Actual: msg.cpluginCommandAliasesIs, Expected: 'pluginCommandAlises is: '},
+  {Name: 'cpluginWorkflowsIs', Actual: msg.cpluginWorkflowsIs, Expected: 'pluginWorkflows is: '},
+  {Name: 'cpluginConstansValidationIs', Actual: msg.cpluginConstansValidationIs, Expected: 'pluginConstantsValidation is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -862,7 +874,10 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorSavePluginRegistryToDiskCommandMessage01', Actual: msg.cErrorSavePluginRegistryToDiskCommandMessage01, Expected: 'ERROR: Failure to save the plugin registry to the hard drive.'},
   {Name: 'cErrorLoadPluginsFromRegistryCommandMessage01', Actual: msg.cErrorLoadPluginsFromRegistryCommandMessage01, Expected: 'ERROR: Failure to load the plugins from the plugin registry.'},
   {Name: 'cErrorUnloadAllPluginsCommandMessage01', Actual: msg.cErrorUnloadAllPluginsCommandMessage01, Expected: 'ERROR: Failure to unload all the plugins.'},
-  {Name: 'cWarningDataPathConfigurationNameNotSupported', Actual: msg.cWarningDataPathConfigurationNameNotSupported, Expected: 'WARNING: dataPathConfigurationName not supported: '}
+  {Name: 'cWarningDataPathConfigurationNameNotSupported', Actual: msg.cWarningDataPathConfigurationNameNotSupported, Expected: 'WARNING: dataPathConfigurationName not supported: '},
+  {Name: 'cloadPluginResourceDataMessage01', Actual: msg.cloadPluginResourceDataMessage01, Expected: 'ERROR: Invalid data type specified: '},
+  {Name: 'cErrorIntegrateAllPluginsDataMessage01', Actual: msg.cErrorIntegrateAllPluginsDataMessage01, Expected: 'ERROR: Invalid data input, unable to integrate all plugin data.'},
+  {Name: 'cErrorIntegratePluginDataMessage01', Actual: msg.cErrorIntegratePluginDataMessage01, Expected: 'ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.'}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

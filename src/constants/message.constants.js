@@ -585,8 +585,10 @@ export const cnamespaceDataObjectPathNotFound = wrd.cERROR + bas.cColon + bas.cS
 export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // newValue is:
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
+export const callPluginsDataIs = wrd.call + wrd.cPlugins + wrd.cData + sys.cSpaceIsColonSpace; // allPluginsData is:
 export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
 export const cpluginNameIs = wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace; // pluginName is:
+export const cpluginDataIs = wrd.cpluging + wrd.cData + sys.cSpaceIsColonSpace; // pluginData is:
 export const cpluginNamesIs = wrd.cplugin + wrd.cNames + sys.cSpaceIsColonSpace; // pluginNames is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
 export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
@@ -694,7 +696,17 @@ export const cnameIs = wrd.cname + sys.cSpaceIsColonSpace; // name is:
 export const cnamespaceIs = wrd.cnamespace + sys.cSpaceIsColonSpace; // namespace is:
 export const cValueBeforeRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value BEFORE rule processing is:
 export const cValueAfterRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value AFTER rule processing is:
-export const creturnDataAfterObjectAssignIs = wrd.creturnData + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cobject + bas.cDot + wrd.cassign + sys.cSpaceIsColonSpace; // returnData after object.assign is:
+export const creturnDataAfterObjectAssignIs = sys.creturnData + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cobject + bas.cDot + wrd.cassign + sys.cSpaceIsColonSpace; // returnData after object.assign is:
+export const cbeginProcessingHighLevelPluginSystemConfigurationContainer = wrd.cbegin + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer; // begin processing highLevelPluginSystemConfigurationContainer
+export const cendProcessingHighLevelPluginSystemConfigurationContainer = wrd.cend + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer; // end processing highLevelPluginSystemConfigurationContainer
+export const cbeginProcessingHighLevelPluginDebugConfigurationContainer = wrd.cbegin + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer; // begin processing highLevelPluginDebugConfigurationContainer
+export const cendProcessingHighLevelPluginDebugConfigurationContainer = wrd.cend + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer; // end processing highLevelPluginDebugConfigurationContainer
+export const cpluginBusinessRulesIs = wrd.cplugin + wrd.cBusiness + wrd.cRules + sys.cSpaceIsColonSpace; // pluginBusinessRules is:
+export const cplguinCommandsIs = wrd.cplugin + wrd.cCommands + sys.cSpaceIsColonSpace; // pluginCommands is:
+export const cpluginConfigurationDataIs = wrd.cplugin + wrd.cConfiguration + wrd.cData + sys.cSpaceIsColonSpace; // pluginConfigurationData is:
+export const cpluginCommandAliasesIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginCommandAlises is:
+export const cpluginWorkflowsIs = wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace; // pluginWorkflows is:
+export const cpluginConstansValidationIs = wrd.cplugin + wrd.cConstants + wrd.cValidation + sys.cSpaceIsColonSpace; // pluginConstantsValidation is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -968,6 +980,12 @@ export const cErrorLoadPluginsFromRegistryCommandMessage01 = cERROR_Colon + wrd.
 export const cErrorUnloadAllPluginsCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cunload + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cDot;
 // WARNING: dataPathConfigurationName not supported: 
 export const cWarningDataPathConfigurationNameNotSupported = cWARNING_Colon + wrd.cdata + wrd.cPath + wrd.cConfiguration + wrd.cName + bas.cSpace + wrd.cnot + bas.cSpace + wrd.csupported + bas.cColon + bas.cSpace;
+// ERROR: Invalid data type specified:
+export const cloadPluginResourceDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cspecified + bas.cColon + bas.cSpace;
+// ERROR: Invalid data input, unable to integrate all plugin data.
+export const cErrorIntegrateAllPluginsDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cintegrate + bas.cSpace + wrd.call + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata;
+// ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.
+export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cundefined + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvaid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
