@@ -395,6 +395,7 @@ export const cPROD = bas.cPR + bas.cOD; // PROD
 export const cana = bas.can + bas.ca; // ana
 export const cAna = bas.cAn + bas.ca; // Ana
 export const csis = bas.csi + bas.cs; // sis
+export const csist = csis + bas.ct; // sist
 export const crag = bas.cra + bas.cg; // rag
 export const crage = bas.cra + bas.cge; // rage
 export const cear = bas.cea + bas.cr; // ear

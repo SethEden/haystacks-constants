@@ -2997,6 +2997,14 @@ export const charder = chard + bas.cer; // harder
 export const cHarder = cHard + bas.cer; // Harder
 export const chardest = chard + phn.cest; // hardest
 export const cHardest = cHard + phn.cest; // Hardest
+export const cpersist = phn.cper + phn.csist; // persist
+export const cPersist = phn.cPer + phn.csist; // Persist
+export const cpersists = cpersist + bas.cs; // persists
+export const cPersists = cPersist + bas.cs; // Persists
+export const cpersisted = cpersist + bas.ced; // persisted
+export const cPersisted = cPersist + bas.ced; // Persisted
+export const cpersisting = cpersist + phn.cing; // persisting
+export const cPersisting = cPersist + phn.cing; // Persisting
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

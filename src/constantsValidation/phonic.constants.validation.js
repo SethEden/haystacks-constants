@@ -402,6 +402,7 @@ export const phonicConstantsValidation = [
   {Name: 'cana', Actual: phn.cana, Expected: 'ana'},
   {Name: 'cAna', Actual: phn.cAna, Expected: 'Ana'},
   {Name: 'csis', Actual: phn.csis, Expected: 'sis'},
+  {Name: 'csist', Actual: phn.csist, Expected: 'sist'},
   {Name: 'crag', Actual: phn.crag, Expected: 'rag'},
   {Name: 'crage', Actual: phn.crage, Expected: 'rage'},
   {Name: 'cear', Actual: phn.cear, Expected: 'ear'},

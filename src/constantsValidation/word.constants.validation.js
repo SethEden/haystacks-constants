@@ -2992,6 +2992,14 @@ export const wordConstantsValidation = [
   {Name: 'cHarder', Actual: wrd.cHarder, Expected: 'Harder'},
   {Name: 'chardest', Actual: wrd.chardest, Expected: 'hardest'},
   {Name: 'cHardest', Actual: wrd.cHardest, Expected: 'Hardest'},
+  {Name: 'cpersist', Actual: wrd.cpersist, Expected: 'persist'},
+  {Name: 'cPersist', Actual: wrd.cPersist, Expected: 'Persist'},
+  {Name: 'cpersists', Actual: wrd.cpersists, Expected: 'persists'},
+  {Name: 'cPersists', Actual: wrd.cPersists, Expected: 'Persists'},
+  {Name: 'cpersisted', Actual: wrd.cpersisted, Expected: 'persisted'},
+  {Name: 'cPersisted', Actual: wrd.cPersisted, Expected: 'Persisted'},
+  {Name: 'cpersisting', Actual: wrd.cpersisting, Expected: 'persisting'},
+  {Name: 'cPersisting', Actual: wrd.cPersisting, Expected: 'Persisting'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

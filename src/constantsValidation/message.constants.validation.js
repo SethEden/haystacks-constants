@@ -587,6 +587,9 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginDataIs', Actual: msg.cpluginDataIs, Expected: 'pluginData is: '},
   {Name: 'cpluginNamesIs', Actual: msg.cpluginNamesIs, Expected: 'pluginNames is: '},
   {Name: 'cpluginPathIs', Actual: msg.cpluginPathIs, Expected: 'pluginPath is: '},
+  {Name: 'cpluginRulesIs', Actual: msg.cpluginRulesIs, Expected: 'pluginRules is: '},
+  {Name: 'cpluginCommandsIs', Actual: msg.cpluginCommandsIs, Expected: 'pluginCommands is: '},
+  {Name: 'cpluginConfigDataIs', Actual: msg.cpluginConfigDataIs, Expected: 'pluginConfigData is: '},
   {Name: 'ccomaCountIs', Actual: msg.ccomaCountIs, Expected: 'comaCount is: '},
   {Name: 'cpluginRegistryPathIs', Actual: msg.cpluginRegistryPathIs, Expected: 'pluginRegistryPath is: '},
   {Name: 'cresolvedPluginPathIs', Actual: msg.cresolvedPluginPathIs, Expected: 'resolvedPluginPath is: '},
@@ -877,7 +880,11 @@ export const messageConstantsVaidation = [
   {Name: 'cWarningDataPathConfigurationNameNotSupported', Actual: msg.cWarningDataPathConfigurationNameNotSupported, Expected: 'WARNING: dataPathConfigurationName not supported: '},
   {Name: 'cloadPluginResourceDataMessage01', Actual: msg.cloadPluginResourceDataMessage01, Expected: 'ERROR: Invalid data type specified: '},
   {Name: 'cErrorIntegrateAllPluginsDataMessage01', Actual: msg.cErrorIntegrateAllPluginsDataMessage01, Expected: 'ERROR: Invalid data input, unable to integrate all plugin data.'},
-  {Name: 'cErrorIntegratePluginDataMessage01', Actual: msg.cErrorIntegratePluginDataMessage01, Expected: 'ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.'}
+  {Name: 'cErrorIntegratePluginDataMessage01', Actual: msg.cErrorIntegratePluginDataMessage01, Expected: 'ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.'},
+  {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage01, Expected: 'ERROR: Failure to merge the plugin rules for plugin: '},
+  {Name: 'cErrorAddPluginCommandsMessage01', Actual: msg.cErrorAddPluginCommandsMessage01, Expected: 'ERROR: Failure to merge the plugin comamnds for plugin: '},
+  {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
+  {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
