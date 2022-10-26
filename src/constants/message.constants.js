@@ -34,6 +34,8 @@ export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSp
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
 
 // System Messages
+export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
+export const cWARNING_Colon = wrd.cWARNING + bas.cColon + bas.cSpace; // WARNING:
 // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
 export const cApplicationWarningMessage1a = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + gen.cDotEnv + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cfound + bas.cExclamation + bas.cSpace; // WARNING: No .Env File found!
 export const cApplicationWarningMessage1b = wrd.cGoing + bas.cSpace + bas.cto + bas.cSpace + wrd.cdefault + bas.cSpace + bas.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cDEVELOPMENT + bas.cSpace + wrd.cENVIRONMENT + bas.cExclamation; // Going to default to the DEVELOPMENT ENVIRONMENT!
@@ -165,6 +167,7 @@ export const creturnDataBeforePopIs = sys.creturnData + bas.cSpace + wrd.cBEFORE
 export const creturnDataAfterPopIs = sys.creturnData + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cPOP + sys.cSpaceIsColonSpace; // returnData AFTER POP is:
 export const cmasterTempReturnDataBeforeRecursiveCallIs = wrd.cmaster + wrd.cTemp + wrd.cReturn + wrd.cData + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // masterTempReturnData BEFORE recursive call is:
 export const ctempReturnData1Is = wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + sys.cSpaceIsColonSpace; // tempReturnData1 is:
+export const ctempReturnData2Is = wrd.ctemp + wrd.cReturn + wrd.cData + num.c2 + sys.cSpaceIsColonSpace; // tempReturnData2 is:
 export const ctempReturnData1DotLengthIs = wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // tempReturnData1.length is:
 export const cpushingTempReturnData1Kvalue = wrd.cpushing + bas.cSpace + wrd.ctemp + wrd.cReturn + wrd.cData + num.c1 + bas.cOpenBracket + bas.ck + bas.cCloseBracket + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace; // pushing tempReturnData1[k] value:
 export const cmasterTempReturnDataAfterRecursiveCallIs = wrd.cmaster + wrd.cTemp + wrd.cReturn + wrd.cData + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.ccall + sys.cSpaceIsColonSpace; // masterTempReturnData AFTER recursive call is:
@@ -452,7 +455,6 @@ export const celementNameIs = wrd.celement + wrd.cName + sys.cSpaceIsColonSpace;
 export const cdataObjectIs = wrd.cdata + wrd.cObject + sys.cSpaceIsColonSpace; // dataObject is:
 export const celementNamePatternIs = wrd.celement + wrd.cName + wrd.cPattern + sys.cSpaceIsColonSpace; // elementNamePattern is:
 export const celementCountIs = wrd.celement + wrd.cCount + sys.cSpaceIsColonSpace; // elementCount is:
-export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 export const cfileAndPathToLoadFromIs = wrd.cfile + bas.cSpace + wrd.cand + bas.cSpace + wrd.cpath + bas.cSpace + bas.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cfrom + sys.cSpaceIsColonSpace; // file and path to load from is:
 export const cDoneLoadingDataFrom = wrd.cDONE + bas.cSpace + wrd.cloading + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfrom + bas.cColon + bas.cSpace; // DONE loading data from:
 export const cfileAndPathToWriteDataToIs = wrd.cfile + bas.cSpace + wrd.cand + bas.cSpace + wrd.cpath + bas.cSpace + bas.cto + bas.cSpace + wrd.cwrite + bas.cSpace + wrd.cdata + bas.cSpace + bas.cto + bas.cSpace + bas.cis + bas.cColon + bas.cSpace; // file and path to write data to is:
@@ -583,10 +585,15 @@ export const cnamespaceDataObjectPathNotFound = wrd.cERROR + bas.cColon + bas.cS
 export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // newValue is:
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
+export const callPluginsDataIs = wrd.call + wrd.cPlugins + wrd.cData + sys.cSpaceIsColonSpace; // allPluginsData is:
 export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
 export const cpluginNameIs = wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace; // pluginName is:
+export const cpluginDataIs = wrd.cplugin + wrd.cData + sys.cSpaceIsColonSpace; // pluginData is:
 export const cpluginNamesIs = wrd.cplugin + wrd.cNames + sys.cSpaceIsColonSpace; // pluginNames is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
+export const cpluginRulesIs = wrd.cplugin + wrd.cRules + sys.cSpaceIsColonSpace; // pluginRules is:
+export const cpluginCommandsIs = wrd.cplugin + wrd.cCommands + sys.cSpaceIsColonSpace; // pluginCommands is:
+export const cpluginConfigDataIs = wrd.cplugin + wrd.cConfig + wrd.cData + sys.cSpaceIsColonSpace; // pluginConfigData is:
 export const ccomaCountIs = wrd.ccoma + wrd.cCount + sys.cSpaceIsColonSpace; // comaCount is:
 export const cpluginRegistryPathIs = wrd.cplugin + wrd.cRegistry + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRegistryPath is:
 export const cresolvedPluginPathIs = wrd.cresolved + wrd.cPlugin + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedPluginPath is:
@@ -683,6 +690,30 @@ export const cnamedThemePathIsVerified = wrd.cnamed + wrd.cTheme + wrd.cPath + b
 export const cloadedThemeDataIs = wrd.cloaded + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // loadedThemeData is:
 export const cErrorLineIsNullOrUndefined = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cline + bas.cSpace + wrd.cis + bas.cSpace + 'null' + bas.cSpace + wrd.cor + bas.cSpace + 'undefined' + bas.cColon + bas.cSpace; // ERROR: line is null or undefined:
 export const cSpaceFileIs = bas.cSpace + wrd.cfile + sys.cSpaceIsColonSpace; // file is:
+export const cthemesDataIs = wrd.cthemes + wrd.cData + sys.cSpaceIsColonSpace; // themesData is:
+export const capplicationThemesIs = wrd.capplication + wrd.cThemes + sys.cSpaceIsColonSpace; // applicationThemes is:
+export const cthemesRootPathIs = wrd.cthemes + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // themesRootPath is:
+// Plugin specific
+export const cconfigFilesPathIs = wrd.cconfig + wrd.cFiles + wrd.cPath + sys.cSpaceIsColonSpace; // configFilesPath is:
+export const chighLevelPluginSystemConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginSystemConfigurationContainer is:
+export const chighLevelPluginDebugConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginDebugConfigurationContainer is:
+export const cfullyQualifiedNameIs = wrd.cfully + wrd.cQualified + wrd.cName + sys.cSpaceIsColonSpace; // fullyQualifiedName is:
+export const cnameIs = wrd.cname + sys.cSpaceIsColonSpace; // name is:
+export const cnamespaceIs = wrd.cnamespace + sys.cSpaceIsColonSpace; // namespace is:
+export const cValueBeforeRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value BEFORE rule processing is:
+export const cValueAfterRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value AFTER rule processing is:
+export const creturnDataAfterObjectAssignIs = sys.creturnData + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cobject + bas.cDot + wrd.cassign + sys.cSpaceIsColonSpace; // returnData after object.assign is:
+export const cbeginProcessingHighLevelPluginSystemConfigurationContainer = wrd.cbegin + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer; // begin processing highLevelPluginSystemConfigurationContainer
+export const cendProcessingHighLevelPluginSystemConfigurationContainer = wrd.cend + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer; // end processing highLevelPluginSystemConfigurationContainer
+export const cbeginProcessingHighLevelPluginDebugConfigurationContainer = wrd.cbegin + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer; // begin processing highLevelPluginDebugConfigurationContainer
+export const cendProcessingHighLevelPluginDebugConfigurationContainer = wrd.cend + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer; // end processing highLevelPluginDebugConfigurationContainer
+export const cpluginBusinessRulesIs = wrd.cplugin + wrd.cBusiness + wrd.cRules + sys.cSpaceIsColonSpace; // pluginBusinessRules is:
+export const cplguinCommandsIs = wrd.cplugin + wrd.cCommands + sys.cSpaceIsColonSpace; // pluginCommands is:
+export const cpluginConfigurationDataIs = wrd.cplugin + wrd.cConfiguration + wrd.cData + sys.cSpaceIsColonSpace; // pluginConfigurationData is:
+export const cpluginCommandAliasesIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginCommandAliases is:
+export const cpluginWorkflowsIs = wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace; // pluginWorkflows is:
+export const cpluginConstansValidationIs = wrd.cplugin + wrd.cConstants + wrd.cValidation + sys.cSpaceIsColonSpace; // pluginConstantsValidation is:
+export const cpluginThemeDataIs = wrd.cplugin + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // pluginThemeData is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -954,6 +985,26 @@ export const cErrorSavePluginRegistryToDiskCommandMessage01 = cERROR_Colon + wrd
 export const cErrorLoadPluginsFromRegistryCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cDot;
 // ERROR: Failure to unload all the plugins.
 export const cErrorUnloadAllPluginsCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cunload + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cDot;
+// WARNING: dataPathConfigurationName not supported: 
+export const cWarningDataPathConfigurationNameNotSupported = cWARNING_Colon + wrd.cdata + wrd.cPath + wrd.cConfiguration + wrd.cName + bas.cSpace + wrd.cnot + bas.cSpace + wrd.csupported + bas.cColon + bas.cSpace;
+// ERROR: Invalid data type specified:
+export const cloadPluginResourceDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cspecified + bas.cColon + bas.cSpace;
+// ERROR: Invalid data input, unable to integrate all plugin data.
+export const cErrorIntegrateAllPluginsDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cintegrate + bas.cSpace + wrd.call + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cDot;
+// ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.
+export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + bas.cun + bas.cde + bas.cfi + bas.cne + bas.cd + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
+// ERROR: Failure to merge the plugin rules for plugin:
+export const cErrorAddPluginRulesMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.crules + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to merge the plugin comamnds for plugin:
+export const cErrorAddPluginCommandsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure unable to persist the plugin configuration data for plugin:
+export const cErrorAddPluginConfigurationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cpersist + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to merge the plugin command aliases for plugin:
+export const cErrorAddPluginCommandAliasesMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to merge the plugin workflows for plugin:
+export const cErrorAddPluginWorkflowsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to merge the plugin constants validation data for plugin: 
+export const cErrorAddPluginConstantsValidationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
