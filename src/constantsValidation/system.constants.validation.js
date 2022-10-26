@@ -196,6 +196,7 @@ export const systemConstantsValidation = [
   {Name: 'cFramework', Actual: sys.cFramework, Expected: 'Framework'},
   {Name: 'cCommandsAliases', Actual: sys.cCommandsAliases, Expected: 'CommandsAliases'},
   {Name: 'cCommandWorkflows', Actual: sys.cCommandWorkflows, Expected: 'CommandWorkflows'},
+  {Name: 'cPluginWorkflows', Actual: sys.cPluginWorkflows, Expected: 'PluginWorkflows'},
   {Name: 'cStandardDeviation', Actual: sys.cStandardDeviation, Expected: 'StandardDeviation'},
   {Name: 'cHexValue', Actual: sys.cHexValue, Expected: 'HexValue'},
   {Name: 'cexportconst', Actual: sys.cexportconst, Expected: 'export const'},
@@ -303,6 +304,7 @@ export const systemConstantsValidation = [
   // System Terms
   {Name: 'csystemConfigFileName', Actual: sys.csystemConfigFileName, Expected: 'framework.system.json'},
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
+  {Name: 'cpluginConfigFileName', Actual: sys.cpluginConfigFileName, Expected: 'plugin.system.json'},
   {Name: 'cappConfigPath', Actual: sys.cappConfigPath, Expected: 'appConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: sys.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
   {Name: 'cpluginConfigPath', Actual: sys.cpluginConfigPath, Expected: 'pluginConfigPath'},
@@ -329,6 +331,7 @@ export const systemConstantsValidation = [
   {Name: 'cclientRulesLibrary', Actual: sys.cclientRulesLibrary, Expected: 'clientRulesLibrary'},
   {Name: 'cCommandQueue', Actual: sys.cCommandQueue, Expected: 'CommandQueue'},
   {Name: 'cConstantsValidationData', Actual: sys.cConstantsValidationData, Expected: 'ConstantsValidationData'},
+  {Name: 'cpluginConstantsValidationData', Actual: sys.cpluginConstantsValidationData, Expected: 'pluginConstantsValidationData'},
   {Name: 'cConstantsShortNames', Actual: sys.cConstantsShortNames, Expected: 'ConstantsShortNames'},
   {Name: 'cConstantsFileNames', Actual: sys.cConstantsFileNames, Expected: 'ConstantsFileNames'},
   {Name: 'cConstantsPrefix', Actual: sys.cConstantsPrefix, Expected: 'ConstantsPrefix'},

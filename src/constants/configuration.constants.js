@@ -40,10 +40,13 @@ export const cframeworkThemesPath = wrd.cframework + wrd.cThemes + wrd.cPath; //
 export const cappConfigFiles = gen.capp + wrd.cConfig + wrd.cFiles; // appConfigFiles
 export const cframeworkConfigFiles = wrd.cframework + wrd.cConfig + wrd.cFiles; // frameworkConfigFiles
 export const cthemeConfigFiles = wrd.ctheme + wrd.cConfig + wrd.cFiles; // themeConfigFiles
+export const cpluginConfigFiles = wrd.cplugin + wrd.cConfig + wrd.cFiles; // pluginConfigFiles
 export const cappConfigReferencePath = gen.capp + wrd.cConfig + wrd.cReference + wrd.cPath; // appConfigReferencePath
 export const cpluginConfigReferencePath = wrd.cplugin + wrd.cConfig + wrd.cReference + wrd.cPath; // pluginConfigReferencePath
 export const cframeworkCommandAliasesPath = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath; // frameworkCommandAliasesPath
+export const cpluginCommandAliasesPath = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cPath; // pluginCommandAliasesPath
 export const cframeworkWorkflowsPath = wrd.cframework + wrd.cWorkflows + wrd.cPath; // frameworkWorkflowsPath
+export const cpluginWorkflowsPath = wrd.cplugin + wrd.cWorkflows + wrd.cPath; // pluginWorkflowsPath
 export const cdebugSetting = wrd.cdebug + wrd.cSetting; // debugSetting
 export const cdebugSettings = wrd.cdebug + wrd.cSettings; // debugSettings
 export const cdebugFiles = wrd.cdebug + wrd.cFiles; // debugFiles
@@ -93,7 +96,7 @@ export const cpassedAllWorkflowDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cW
 export const creleaseCompleted = wrd.crelease + wrd.cCompleted; // releaseCompleted
 export const cpluginRegistry = wrd.cplugin + wrd.cRegistry; // pluginRegistry
 export const cpluginRegistryPath = wrd.cplugin + wrd.cRegistry + wrd.cPath; // pluginRegistryPath
-export const cpluginsRootPath = wrd.cplugins + wrd.croot + bas.cPath; // pluginsRootPath
+export const cpluginsRootPath = wrd.cplugins + wrd.cRoot + wrd.cPath; // pluginsRootPath
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp
