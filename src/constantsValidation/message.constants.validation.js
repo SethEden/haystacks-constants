@@ -686,6 +686,9 @@ export const messageConstantsVaidation = [
   {Name: 'cloadedThemeDataIs', Actual: msg.cloadedThemeDataIs, Expected: 'loadedThemeData is: '},
   {Name: 'cErrorLineIsNullOrUndefined', Actual: msg.cErrorLineIsNullOrUndefined, Expected: 'ERROR: line is null or undefined: '},
   {Name: 'cSpaceFileIs', Actual: msg.cSpaceFileIs, Expected: ' file is: '},
+  {Name: 'cthemesDataIs', Actual: msg.cthemesDataIs, Expected: 'themesData is: '},
+  {Name: 'capplicationThemesIs', Actual: msg.capplicationThemesIs, Expected: 'applicationThemes is: '},
+  {Name: 'cthemesRootPathIs', Actual: msg.cthemesRootPathIs, Expected: 'themesRootPath is: '},
   // Plugin specific
   {Name: 'cconfigFilesPathIs', Actual: msg.cconfigFilesPathIs, Expected: 'configFilesPath is: '},
   {Name: 'chighLevelPluginSystemConfigurationContainerIs', Actual: msg.chighLevelPluginSystemConfigurationContainerIs, Expected: 'highLevelPluginSystemConfigurationContainer is: '},
@@ -706,6 +709,7 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginCommandAliasesIs', Actual: msg.cpluginCommandAliasesIs, Expected: 'pluginCommandAlises is: '},
   {Name: 'cpluginWorkflowsIs', Actual: msg.cpluginWorkflowsIs, Expected: 'pluginWorkflows is: '},
   {Name: 'cpluginConstansValidationIs', Actual: msg.cpluginConstansValidationIs, Expected: 'pluginConstantsValidation is: '},
+  {Name: 'cpluginThemeDataIs', Actual: msg.cpluginThemeDataIs, Expected: 'pluginThemeData is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -884,7 +888,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage01, Expected: 'ERROR: Failure to merge the plugin rules for plugin: '},
   {Name: 'cErrorAddPluginCommandsMessage01', Actual: msg.cErrorAddPluginCommandsMessage01, Expected: 'ERROR: Failure to merge the plugin comamnds for plugin: '},
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
-  {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '}
+  {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '},
+  {Name: 'cErrorAddPluginWorkflowsMessage01', Actual: msg.cErrorAddPluginWorkflowsMessage01, Expected: 'ERROR: Failure to merge the plugin workflows for plugin: '},
+  {Name: 'cErrorAddPluginConstantsValidationDataMessage01', Actual: msg.cErrorAddPluginConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the plugin constants validation data for plugin:  '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
