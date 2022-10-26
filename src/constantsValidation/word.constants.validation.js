@@ -3000,6 +3000,18 @@ export const wordConstantsValidation = [
   {Name: 'cPersisted', Actual: wrd.cPersisted, Expected: 'Persisted'},
   {Name: 'cpersisting', Actual: wrd.cpersisting, Expected: 'persisting'},
   {Name: 'cPersisting', Actual: wrd.cPersisting, Expected: 'Persisting'},
+  {Name: 'cintegrate', Actual: wrd.cintegrate, Expected: 'integrate'},
+  {Name: 'cIntegrate', Actual: wrd.cIntegrate, Expected: 'Integrate'},
+  {Name: 'cintegrates', Actual: wrd.cintegrates, Expected: 'integrates'},
+  {Name: 'cIntegrates', Actual: wrd.cIntegrates, Expected: 'Integrates'},
+  {Name: 'cintegrated', Actual: wrd.cintegrated, Expected: 'integrated'},
+  {Name: 'cIntegrated', Actual: wrd.cIntegrated, Expected: 'Integrated'},
+  {Name: 'cintegrating', Actual: wrd.cintegrating, Expected: 'integrating'},
+  {Name: 'cIntegrating', Actual: wrd.cIntegrating, Expected: 'Integrating'},
+  {Name: 'cintegration', Actual: wrd.cintegration, Expected: 'integration'},
+  {Name: 'cIntegration', Actual: wrd.cIntegration, Expected: 'Integration'},
+  {Name: 'cintegrations', Actual: wrd.cintegrations, Expected: 'integrations'},
+  {Name: 'cIntegrations', Actual: wrd.cIntegrations, Expected: 'Integrations'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

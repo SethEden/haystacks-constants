@@ -706,7 +706,7 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginBusinessRulesIs', Actual: msg.cpluginBusinessRulesIs, Expected: 'pluginBusinessRules is: '},
   {Name: 'cplguinCommandsIs', Actual: msg.cplguinCommandsIs, Expected: 'pluginCommands is: '},
   {Name: 'cpluginConfigurationDataIs', Actual: msg.cpluginConfigurationDataIs, Expected: 'pluginConfigurationData is: '},
-  {Name: 'cpluginCommandAliasesIs', Actual: msg.cpluginCommandAliasesIs, Expected: 'pluginCommandAlises is: '},
+  {Name: 'cpluginCommandAliasesIs', Actual: msg.cpluginCommandAliasesIs, Expected: 'pluginCommandAliases is: '},
   {Name: 'cpluginWorkflowsIs', Actual: msg.cpluginWorkflowsIs, Expected: 'pluginWorkflows is: '},
   {Name: 'cpluginConstansValidationIs', Actual: msg.cpluginConstansValidationIs, Expected: 'pluginConstantsValidation is: '},
   {Name: 'cpluginThemeDataIs', Actual: msg.cpluginThemeDataIs, Expected: 'pluginThemeData is: '},
@@ -890,7 +890,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '},
   {Name: 'cErrorAddPluginWorkflowsMessage01', Actual: msg.cErrorAddPluginWorkflowsMessage01, Expected: 'ERROR: Failure to merge the plugin workflows for plugin: '},
-  {Name: 'cErrorAddPluginConstantsValidationDataMessage01', Actual: msg.cErrorAddPluginConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the plugin constants validation data for plugin:  '}
+  {Name: 'cErrorAddPluginConstantsValidationDataMessage01', Actual: msg.cErrorAddPluginConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the plugin constants validation data for plugin: '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

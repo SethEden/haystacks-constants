@@ -588,7 +588,7 @@ export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cO
 export const callPluginsDataIs = wrd.call + wrd.cPlugins + wrd.cData + sys.cSpaceIsColonSpace; // allPluginsData is:
 export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
 export const cpluginNameIs = wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace; // pluginName is:
-export const cpluginDataIs = wrd.cpluging + wrd.cData + sys.cSpaceIsColonSpace; // pluginData is:
+export const cpluginDataIs = wrd.cplugin + wrd.cData + sys.cSpaceIsColonSpace; // pluginData is:
 export const cpluginNamesIs = wrd.cplugin + wrd.cNames + sys.cSpaceIsColonSpace; // pluginNames is:
 export const cpluginPathIs = wrd.cplugin + wrd.cPath + sys.cSpaceIsColonSpace; // pluginPath is:
 export const cpluginRulesIs = wrd.cplugin + wrd.cRules + sys.cSpaceIsColonSpace; // pluginRules is:
@@ -690,7 +690,7 @@ export const cnamedThemePathIsVerified = wrd.cnamed + wrd.cTheme + wrd.cPath + b
 export const cloadedThemeDataIs = wrd.cloaded + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // loadedThemeData is:
 export const cErrorLineIsNullOrUndefined = wrd.cERROR + bas.cColon + bas.cSpace + wrd.cline + bas.cSpace + wrd.cis + bas.cSpace + 'null' + bas.cSpace + wrd.cor + bas.cSpace + 'undefined' + bas.cColon + bas.cSpace; // ERROR: line is null or undefined:
 export const cSpaceFileIs = bas.cSpace + wrd.cfile + sys.cSpaceIsColonSpace; // file is:
-export const cthemesDataIs = wrd.cthemes + wrd.cdata + sys.cSpaceIsColonSpace; // themesData is:
+export const cthemesDataIs = wrd.cthemes + wrd.cData + sys.cSpaceIsColonSpace; // themesData is:
 export const capplicationThemesIs = wrd.capplication + wrd.cThemes + sys.cSpaceIsColonSpace; // applicationThemes is:
 export const cthemesRootPathIs = wrd.cthemes + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // themesRootPath is:
 // Plugin specific
@@ -710,7 +710,7 @@ export const cendProcessingHighLevelPluginDebugConfigurationContainer = wrd.cend
 export const cpluginBusinessRulesIs = wrd.cplugin + wrd.cBusiness + wrd.cRules + sys.cSpaceIsColonSpace; // pluginBusinessRules is:
 export const cplguinCommandsIs = wrd.cplugin + wrd.cCommands + sys.cSpaceIsColonSpace; // pluginCommands is:
 export const cpluginConfigurationDataIs = wrd.cplugin + wrd.cConfiguration + wrd.cData + sys.cSpaceIsColonSpace; // pluginConfigurationData is:
-export const cpluginCommandAliasesIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginCommandAlises is:
+export const cpluginCommandAliasesIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginCommandAliases is:
 export const cpluginWorkflowsIs = wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace; // pluginWorkflows is:
 export const cpluginConstansValidationIs = wrd.cplugin + wrd.cConstants + wrd.cValidation + sys.cSpaceIsColonSpace; // pluginConstantsValidation is:
 export const cpluginThemeDataIs = wrd.cplugin + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // pluginThemeData is:
@@ -990,13 +990,13 @@ export const cWarningDataPathConfigurationNameNotSupported = cWARNING_Colon + wr
 // ERROR: Invalid data type specified:
 export const cloadPluginResourceDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cspecified + bas.cColon + bas.cSpace;
 // ERROR: Invalid data input, unable to integrate all plugin data.
-export const cErrorIntegrateAllPluginsDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cintegrate + bas.cSpace + wrd.call + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata;
+export const cErrorIntegrateAllPluginsDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cintegrate + bas.cSpace + wrd.call + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cDot;
 // ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.
-export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cundefined + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvaid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
+export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + bas.cun + bas.cde + bas.cfi + bas.cne + bas.cd + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
 // ERROR: Failure to merge the plugin rules for plugin:
 export const cErrorAddPluginRulesMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.crules + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Failure to merge the plugin comamnds for plugin:
-export const cErrorAddPluginCommandsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugn + bas.cColon + bas.cSpace;
+export const cErrorAddPluginCommandsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Failure unable to persist the plugin configuration data for plugin:
 export const cErrorAddPluginConfigurationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cpersist + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Failure to merge the plugin command aliases for plugin:

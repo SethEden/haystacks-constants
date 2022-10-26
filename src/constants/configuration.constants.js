@@ -96,7 +96,7 @@ export const cpassedAllWorkflowDuplicateChecks = wrd.cpassed + wrd.cAll + wrd.cW
 export const creleaseCompleted = wrd.crelease + wrd.cCompleted; // releaseCompleted
 export const cpluginRegistry = wrd.cplugin + wrd.cRegistry; // pluginRegistry
 export const cpluginRegistryPath = wrd.cplugin + wrd.cRegistry + wrd.cPath; // pluginRegistryPath
-export const cpluginsRootPath = wrd.cplugins + wrd.croot + bas.cPath; // pluginsRootPath
+export const cpluginsRootPath = wrd.cplugins + wrd.cRoot + wrd.cPath; // pluginsRootPath
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp

@@ -3005,6 +3005,18 @@ export const cpersisted = cpersist + bas.ced; // persisted
 export const cPersisted = cPersist + bas.ced; // Persisted
 export const cpersisting = cpersist + phn.cing; // persisting
 export const cPersisting = cPersist + phn.cing; // Persisting
+export const cintegrate = phn.cint + bas.ceg + phn.crate; // integrate
+export const cIntegrate = phn.cInt + bas.ceg + phn.crate; // Integrate
+export const cintegrates = cintegrate + bas.cs; // integrates
+export const cIntegrates = cIntegrate + bas.cs; // Integrates
+export const cintegrated = cintegrate + bas.cd; // integrated
+export const cIntegrated = cIntegrate + bas.cd; // Integrated
+export const cintegrating = phn.cint + bas.ceg + phn.crat + phn.cing; // integrating
+export const cIntegrating = phn.cInt + bas.ceg + phn.crat + phn.cing; // Integrating
+export const cintegration = phn.cint + bas.ceg + bas.cra + phn.ction; // integration
+export const cIntegration = phn.cInt + bas.ceg + bas.cra + phn.ction; // Integration
+export const cintegrations = cintegration + bas.cs; // integrations
+export const cIntegrations = cIntegration + bas.cs; // Integrations
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

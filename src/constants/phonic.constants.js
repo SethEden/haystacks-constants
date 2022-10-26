@@ -181,6 +181,7 @@ export const cver = bas.cve + bas.cr; // ver
 export const cVer = bas.cVe + bas.cr; // Ver
 export const cvert = cver + bas.ct; // vert
 export const convert = bas.con + cvert; // onvert
+export const crat = bas.cra + bas.ct; // rat
 export const crate = bas.cra + bas.cte; // crate
 export const cenerate = bas.cen + bas.ce + crate; // enerate
 export const cdom = bas.cdo + bas.cm; // dom

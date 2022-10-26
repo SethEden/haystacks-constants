@@ -188,6 +188,7 @@ export const phonicConstantsValidation = [
   {Name: 'cVer', Actual: phn.cVer, Expected: 'Ver'},
   {Name: 'cvert', Actual: phn.cvert, Expected: 'vert'},
   {Name: 'convert', Actual: phn.convert, Expected: 'onvert'},
+  {Name: 'crat', Actual: phn.crat, Expected: 'rat'},
   {Name: 'crate', Actual: phn.crate, Expected: 'rate'},
   {Name: 'cenerate', Actual: phn.cenerate, Expected: 'enerate'},
   {Name: 'cdom', Actual: phn.cdom, Expected: 'dom'},
