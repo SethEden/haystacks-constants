@@ -693,6 +693,8 @@ export const cSpaceFileIs = bas.cSpace + wrd.cfile + sys.cSpaceIsColonSpace; // 
 export const cthemesDataIs = wrd.cthemes + wrd.cData + sys.cSpaceIsColonSpace; // themesData is:
 export const capplicationThemesIs = wrd.capplication + wrd.cThemes + sys.cSpaceIsColonSpace; // applicationThemes is:
 export const cthemesRootPathIs = wrd.cthemes + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // themesRootPath is:
+export const cframeworkThemeDataIs = wrd.cframework + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // frameworkThemeData is:
+export const capplicationThemesPathIs = wrd.capplication + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // applicationThemesPath is:
 // Plugin specific
 export const cconfigFilesPathIs = wrd.cconfig + wrd.cFiles + wrd.cPath + sys.cSpaceIsColonSpace; // configFilesPath is:
 export const chighLevelPluginSystemConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginSystemConfigurationContainer is:
@@ -714,6 +716,7 @@ export const cpluginCommandAliasesIs = wrd.cplugin + wrd.cCommand + wrd.cAliases
 export const cpluginWorkflowsIs = wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace; // pluginWorkflows is:
 export const cpluginConstansValidationIs = wrd.cplugin + wrd.cConstants + wrd.cValidation + sys.cSpaceIsColonSpace; // pluginConstantsValidation is:
 export const cpluginThemeDataIs = wrd.cplugin + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // pluginThemeData is:
+export const cpluginNameArrayIs = wrd.cplugin + wrd.cName + wrd.cArray + sys.cSpaceIsColonSpace; // pluginNameArray is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1003,8 +1006,9 @@ export const cErrorAddPluginConfigurationDataMessage01 = cERROR_Colon + wrd.cFai
 export const cErrorAddPluginCommandAliasesMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Failure to merge the plugin workflows for plugin:
 export const cErrorAddPluginWorkflowsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
-// ERROR: Failure to merge the plugin constants validation data for plugin: 
-export const cErrorAddPluginConstantsValidationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to merge the constants validation data for the type:
+export const cErrorAddConstantsValidationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ctype + bas.cColon + bas.cSpace;
+
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

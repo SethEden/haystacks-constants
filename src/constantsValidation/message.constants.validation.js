@@ -689,6 +689,8 @@ export const messageConstantsVaidation = [
   {Name: 'cthemesDataIs', Actual: msg.cthemesDataIs, Expected: 'themesData is: '},
   {Name: 'capplicationThemesIs', Actual: msg.capplicationThemesIs, Expected: 'applicationThemes is: '},
   {Name: 'cthemesRootPathIs', Actual: msg.cthemesRootPathIs, Expected: 'themesRootPath is: '},
+  {Name: 'cframeworkThemeDataIs', Actual: msg.cframeworkThemeDataIs, Expected: 'frameworkThemeData is: '},
+  {Name: 'capplicationThemesPathIs', Actual: msg.capplicationThemesPathIs, Expected: 'applicationThemesPath is: '},
   // Plugin specific
   {Name: 'cconfigFilesPathIs', Actual: msg.cconfigFilesPathIs, Expected: 'configFilesPath is: '},
   {Name: 'chighLevelPluginSystemConfigurationContainerIs', Actual: msg.chighLevelPluginSystemConfigurationContainerIs, Expected: 'highLevelPluginSystemConfigurationContainer is: '},
@@ -710,6 +712,7 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginWorkflowsIs', Actual: msg.cpluginWorkflowsIs, Expected: 'pluginWorkflows is: '},
   {Name: 'cpluginConstansValidationIs', Actual: msg.cpluginConstansValidationIs, Expected: 'pluginConstantsValidation is: '},
   {Name: 'cpluginThemeDataIs', Actual: msg.cpluginThemeDataIs, Expected: 'pluginThemeData is: '},
+  {Name: 'cpluginNameArrayIs', Actual: msg.cpluginNameArrayIs, Expected: 'pluginNameArray is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -848,6 +851,7 @@ export const messageConstantsVaidation = [
   {Name: 'cchangeDebugConfigurationThemeMessage03', Actual: msg.cchangeDebugConfigurationThemeMessage03, Expected: 'You can find the available themes at the following path location: '},
   {Name: 'cchangeDebugConfigurationThemeMessage04', Actual: msg.cchangeDebugConfigurationThemeMessage04, Expected: 'ERROR: Invalid entry, please enter a theme name you would like the debug settings to switch to when logging debug statements.'},
   {Name: 'cchangeDebugConfigurationThemeMessage05', Actual: msg.cchangeDebugConfigurationThemeMessage05, Expected: 'EXAMPLE: changeDebugConfigurationTheme Skywalker'},
+  {Name: 'cErrorAddThemeDataMessage01', Actual: msg.cErrorAddThemeDataMessage01, Expected: 'ERROR: Failure to merge the theme data for: '},
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {Name: 'cprompt01', Actual: msg.cprompt01, Expected: 'Caught the case that the input string contains the global carriage return term.'},
   {Name: 'cprompt02', Actual: msg.cprompt02, Expected: 'index of the carriage return character: '},
@@ -890,7 +894,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '},
   {Name: 'cErrorAddPluginWorkflowsMessage01', Actual: msg.cErrorAddPluginWorkflowsMessage01, Expected: 'ERROR: Failure to merge the plugin workflows for plugin: '},
-  {Name: 'cErrorAddPluginConstantsValidationDataMessage01', Actual: msg.cErrorAddPluginConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the plugin constants validation data for plugin: '}
+  {Name: 'cErrorAddConstantsValidationDataMessage01', Actual: msg.cErrorAddConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the constants validation data for the type: '}
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
