@@ -622,6 +622,11 @@ export const cpluginsRootPathIs = wrd.cplugins + wrd.cRoot + wrd.cPath + sys.cSp
 export const cpluginRegistryListLengthEqualZero = wrd.cplugin + wrd.cRegistry + wrd.cList + bas.cDot + wrd.clength + bas.cSpace + bas.cEqualEqualEqual + bas.cSpace + num.c0; // pluginRegistryList.length === 0
 export const cpluginRegistryListLengthNotEqualZero = wrd.cplugin + wrd.cRegistry + wrd.cList + bas.cDot + wrd.clength + bas.cSpace + bas.cExclamation + bas.cEqualEqual + bas.cSpace + num.c0; // pluginRegistryList.length !== 0
 export const cpluginPathsArrayIs = wrd.cplugin + wrd.cPaths + wrd.cArray + sys.cSpaceIsColonSpace; // pluginPathsArray is:
+export const cvalidationFrameworkArrayIs = wrd.cvalidation + wrd.cFramework + wrd.cArray + sys.cSpaceIsColonSpace; // validationFrameworkArray is:
+export const cvalidationApplicationArrayIs = wrd.cvalidation + wrd.cApplication + wrd.cArray + sys.cSpaceIsColonSpace; // validationApplicationArray is:
+export const cvalidationPluginsMetaArrayIs = wrd.cvalidation + wrd.cPlugins + wrd.cMeta + wrd.cArray + sys.cSpaceIsColonSpace; // validationPluginsMetaArray is:
+export const cvalidationArrayBeforePluginConstantsValidationDataMergeIs = wrd.cvalidation + wrd.cArray + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace; // validationArray before plugin constants validation data merge is:
+export const cvalidationArrayAfterPluginConstantsValidationDataMergeIs = wrd.cvalidation + wrd.cArray + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace; // validationArray after plugin constants validation data merge is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -701,6 +706,7 @@ export const chighLevelPluginSystemConfigurationContainerIs = wrd.chigh + wrd.cL
 export const chighLevelPluginDebugConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cDebug + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginDebugConfigurationContainer is:
 export const cfullyQualifiedNameIs = wrd.cfully + wrd.cQualified + wrd.cName + sys.cSpaceIsColonSpace; // fullyQualifiedName is:
 export const cnameIs = wrd.cname + sys.cSpaceIsColonSpace; // name is:
+export const cpluginIs = wrd.cplugin + sys.cSpaceIsColonSpace; // plugin is:
 export const cnamespaceIs = wrd.cnamespace + sys.cSpaceIsColonSpace; // namespace is:
 export const cValueBeforeRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value BEFORE rule processing is:
 export const cValueAfterRuleProcessingIs = wrd.cvalue + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.crule + bas.cSpace + wrd.cprocessing + sys.cSpaceIsColonSpace; // value AFTER rule processing is:
@@ -717,6 +723,9 @@ export const cpluginWorkflowsIs = wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsCol
 export const cpluginConstansValidationIs = wrd.cplugin + wrd.cConstants + wrd.cValidation + sys.cSpaceIsColonSpace; // pluginConstantsValidation is:
 export const cpluginThemeDataIs = wrd.cplugin + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // pluginThemeData is:
 export const cpluginNameArrayIs = wrd.cplugin + wrd.cName + wrd.cArray + sys.cSpaceIsColonSpace; // pluginNameArray is:
+export const cconstantsFilePathNamesIs = wrd.cconstants + wrd.cFile + wrd.cPath + wrd.cName + sys.cSpaceIsColonSpace; // constantsFilePathName is:
+export const cconstantsFilePathValueIs = wrd.cconstants + wrd.cFile + wrd.cPath + wrd.cValue + sys.cSpaceIsColonSpace; // constantsFilePathValue is:
+export const cnewPluginConstantValidationNameIs = wrd.cnew + wrd.cPlugin + wrd.cConstant + wrd.cValidation + wrd.cName + sys.cSpaceIsColonSpace; // newPluginConstantValidationName is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
