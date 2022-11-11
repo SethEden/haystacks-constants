@@ -108,6 +108,7 @@ export const cstringDeltaValueIs = wrd.cstring + gen.cDelta + bas.cSpace + wrd.c
 export const cFilenamesMatch = wrd.cFilenames + bas.cSpace + wrd.cmatch; // Filenames match
 export const cFilenamesDoNotMatch = wrd.cFilenames + bas.cSpace + bas.cdo + bas.cSpace + gen.cnot + bas.cSpace + wrd.cmatch; // Filenames do not match
 export const cconstantsLineIs = wrd.cconstants + wrd.cLine + sys.cSpaceIsColonSpace; // constants line is:
+export const cconstantsLineKeyIs = wrd.cconstants + wrd.cLine + wrd.cKey + sys.cSpaceIsColonSpace; // constants lineKey is:
 export const cArrayElementsMatch = wrd.cArray + bas.cSpace + wrd.celements + bas.cSpace + wrd.cmatch; // Array elements match
 export const cArrayElementsDoNotMatch = wrd.cArray + bas.cSpace + wrd.celements + bas.cSpace + bas.cdo + bas.cSpace + gen.cnot + bas.cSpace + wrd.cmatch; // Array elements do not match
 export const clineArray2Is = wrd.cline + wrd.cArray + bas.cOpenBracket + num.c2 + bas.cCloseBracket + sys.cSpaceIsColonSpace; // lineArray[2] is:
@@ -424,6 +425,7 @@ export const cloadedFileDataIs = wrd.cloaded + bas.cSpace + wrd.cfile + bas.cSpa
 export const cBEGIN_PROCESSING_ADDITIONAL_DATA = wrd.cBEGIN + bas.cSpace + wrd.cPROCESSING + bas.cSpace + wrd.cADDITIONAL + bas.cSpace + wrd.cDATA; // BEGIN PROCESSING ADDITIONAL DATA
 export const cDONE_PROCESSING_ADDITIONAL_DATA = wrd.cDONE + bas.cSpace + wrd.cPROCESSING + bas.cSpace + wrd.cADDITIONAL + bas.cSpace + wrd.cDATA; // DONE PROCESSING ADDITIONAL DATA
 export const cMERGED_dataIs = wrd.cMERGED + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // MERGED data is:
+export const cfileContentsAre = wrd.cfile + wrd.cContents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // fileContents are:
 export const cparsedDataFileContentsAre = wrd.cparsed + wrd.cData + wrd.cFile + bas.cSpace + wrd.ccontents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // parsedDataFile contents are:
 export const cdataCategoryIs = wrd.cdata + wrd.cCategory + sys.cSpaceIsColonSpace; // dataCategory is:
 export const cfullyParsedDataIs = wrd.cfully + bas.cSpace + wrd.cparsed + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // fully parsed data is:
@@ -1019,6 +1021,16 @@ export const cErrorAddPluginCommandAliasesMessage01 = cERROR_Colon + wrd.cFailur
 export const cErrorAddPluginWorkflowsMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Failure to merge the constants validation data for the type:
 export const cErrorAddConstantsValidationDataMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cmerge + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.ctype + bas.cColon + bas.cSpace;
+// ERROR: Failure to read from file: 
+export const cErrorLoadAsciiFileFromPathMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cread + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+// BEGIN processing all lines from file: 
+export const cBeginProcessingAllLinesFromFile = wrd.cBEGIN + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.call + bas.cSpace + wrd.clines + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+// BEGIN processing a line
+export const cBeginProcessingLine = wrd.cBEGIN + bas.cSpace + wrd.cprocessing + bas.cSpace + bas.ca + bas.cSpace + wrd.cline;
+// END processing a line
+export const cEndProcessingLine = wrd.cEND + bas.cSpace + wrd.cprocessing + bas.cSpace + bas.ca + bas.cSpace + wrd.cline;
+// END processing all lines from file: 
+export const cEndProcessingAllLinesFromFile = wrd.cEND + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.call + bas.cSpace + wrd.clines + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

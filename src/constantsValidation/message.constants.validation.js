@@ -106,6 +106,7 @@ export const messageConstantsVaidation = [
   {Name: 'cFilenamesMatch', Actual: msg.cFilenamesMatch, Expected: 'Filenames match'},
   {Name: 'cFilenamesDoNotMatch', Actual: msg.cFilenamesDoNotMatch, Expected: 'Filenames do not match'},
   {Name: 'cconstantsLineIs', Actual: msg.cconstantsLineIs, Expected: 'constantsLine is: '},
+  {Name: 'cconstantsLineKeyIs', Actual: msg.cconstantsLineKeyIs, Expected: 'constants lineKey is: '},
   {Name: 'cArrayElementsMatch', Actual: msg.cArrayElementsMatch, Expected: 'Array elements match'},
   {Name: 'cArrayElementsDoNotMatch', Actual: msg.cArrayElementsDoNotMatch, Expected: 'Array elements do not match'},
   {Name: 'clineArray2Is', Actual: msg.clineArray2Is, Expected: 'lineArray[2] is: '},
@@ -420,6 +421,7 @@ export const messageConstantsVaidation = [
   {Name: 'cBEGIN_PROCESSING_ADDITIONAL_DATA', Actual: msg.cBEGIN_PROCESSING_ADDITIONAL_DATA, Expected: 'BEGIN PROCESSING ADDITIONAL DATA'},
   {Name: 'cDONE_PROCESSING_ADDITIONAL_DATA', Actual: msg.cDONE_PROCESSING_ADDITIONAL_DATA, Expected: 'DONE PROCESSING ADDITIONAL DATA'},
   {Name: 'cMERGED_dataIs', Actual: msg.cMERGED_dataIs, Expected: 'MERGED data is: '},
+  {Name: 'cfileContentsAre', Actual: msg.cfileContentsAre, Expected: 'fileContents are: '},
   {Name: 'cparsedDataFileContentsAre', Actual: msg.cparsedDataFileContentsAre, Expected: 'parsedDataFile contents are: '},
   {Name: 'cdataCategoryIs', Actual: msg.cdataCategoryIs, Expected: 'dataCategory is: '},
   {Name: 'cfullyParsedDataIs', Actual: msg.cfullyParsedDataIs, Expected: 'fully parsed data is: '},
@@ -903,7 +905,13 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '},
   {Name: 'cErrorAddPluginWorkflowsMessage01', Actual: msg.cErrorAddPluginWorkflowsMessage01, Expected: 'ERROR: Failure to merge the plugin workflows for plugin: '},
-  {Name: 'cErrorAddConstantsValidationDataMessage01', Actual: msg.cErrorAddConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the constants validation data for the type: '}
+  {Name: 'cErrorAddConstantsValidationDataMessage01', Actual: msg.cErrorAddConstantsValidationDataMessage01, Expected: 'ERROR: Failure to merge the constants validation data for the type: '},
+  {Name: 'cErrorLoadAsciiFileFromPathMessage01', Actual: msg.cErrorLoadAsciiFileFromPathMessage01, Expected: 'ERROR: Failure to read from file: '},
+  {Name: 'cBeginProcessingAllLinesFromFile', Actual: msg.cBeginProcessingAllLinesFromFile, Expected: 'BEGIN processing all lines from file: '},
+  {Name: 'cBeginProcessingLine', Actual: msg.cBeginProcessingLine, Expected: 'BEGIN processing a line'},
+  {Name: 'cEndProcessingLine', Actual: msg.cEndProcessingLine, Expected: 'END processing a line'},
+  {Name: 'cEndProcessingAllLinesFromFile', Actual: msg.cEndProcessingAllLinesFromFile, Expected: 'END processing all lines from file:  '},
+
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

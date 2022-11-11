@@ -221,6 +221,7 @@ export const cgetXmlData = wrd.cget + gen.cXml + wrd.cData; // getXmlData
 export const cgetCsvData = wrd.cget + gen.cCsv + wrd.cData; // getCsvData
 export const cgetJsonData = wrd.cget + gen.cJson + wrd.cData; // getJsonData
 export const cwriteJsonData = wrd.cwrite + gen.cJson + wrd.cData; // writeJsonData
+export const cloadAsciiFileFromPath = wrd.cload + gen.cAscii + wrd.cFile + wrd.cFrom + wrd.cPath; // loadAsciiFileFromPath
 export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
 export const cscanDirectoryContents = wrd.cscan + wrd.cDirectory + wrd.cContents; // scanDirectoryContents
 export const cgetDirectoryList = wrd.cget + wrd.cDirectory + wrd.cList; // getDirectoryList
