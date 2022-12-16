@@ -625,6 +625,12 @@ export const messageConstantsVaidation = [
   {Name: 'cvalidationPluginsMetaArrayIs', Actual: msg.cvalidationPluginsMetaArrayIs, Expected: 'validationPluginsMetaArray is: '},
   {Name: 'cvalidationArrayBeforePluginConstantsValidationDataMergeIs', Actual: msg.cvalidationArrayBeforePluginConstantsValidationDataMergeIs, Expected: 'validationArray before plugin constants validation data merge is: '},
   {Name: 'cvalidationArrayAfterPluginConstantsValidationDataMergeIs', Actual: msg.cvalidationArrayAfterPluginConstantsValidationDataMergeIs, Expected: 'validationArray after plugin constants validation data merge is: '},
+  {Name: 'clineIs', Actual: msg.clineIs, Expected: 'line is: '},
+  {Name: 'celement1Is', Actual: msg.celement1Is, Expected: 'element1 is: '},
+  {Name: 'cconstantsNamespaceParentObjectIs', Actual: msg.cconstantsNamespaceParentObjectIs, Expected: 'constantsNamespaceParentObject is: '},
+  {Name: 'cconstantNamespaceObjectIs', Actual: msg.cconstantNamespaceObjectIs, Expected: 'constantNamespaceObject is: '},
+  {Name: 'celementIs', Actual: msg.celementIs, Expected: 'element is: '},
+  {Name: 'cvalidationLineItemIs', Actual: msg.cvalidationLineItemIs, Expected: 'validationLineItem is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -911,6 +917,8 @@ export const messageConstantsVaidation = [
   {Name: 'cBeginProcessingLine', Actual: msg.cBeginProcessingLine, Expected: 'BEGIN processing a line'},
   {Name: 'cEndProcessingLine', Actual: msg.cEndProcessingLine, Expected: 'END processing a line'},
   {Name: 'cEndProcessingAllLinesFromFile', Actual: msg.cEndProcessingAllLinesFromFile, Expected: 'END processing all lines from file:  '},
+  {Name: 'cvalidateConstantsDataValidationLineItemNameErrorMessage1', Actual: msg.cvalidateConstantsDataValidationLineItemNameErrorMessage1, Expected: 'ERROR: Unable to find the constant namespace among all the constants validation data: '},
+  {Name: 'cFoundMatchingNamespaceConstant', Actual: msg.cFoundMatchingNamespaceConstant, Expected: 'Found a matching namespace constant.'}
 
   // Coded System Messages
   // EXAMPLE:

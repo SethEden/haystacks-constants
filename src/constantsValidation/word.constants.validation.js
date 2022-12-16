@@ -3018,6 +3018,8 @@ export const wordConstantsValidation = [
   {Name: 'cIntegration', Actual: wrd.cIntegration, Expected: 'Integration'},
   {Name: 'cintegrations', Actual: wrd.cintegrations, Expected: 'integrations'},
   {Name: 'cIntegrations', Actual: wrd.cIntegrations, Expected: 'Integrations'},
+  {Name: 'camong', Actual: wrd.camong, Expected: 'among'},
+  {Name: 'cAmong', Actual: wrd.cAmong, Expected: 'Among'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

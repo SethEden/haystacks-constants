@@ -3023,6 +3023,8 @@ export const cintegration = phn.cint + bas.ceg + bas.cra + phn.ction; // integra
 export const cIntegration = phn.cInt + bas.ceg + bas.cra + phn.ction; // Integration
 export const cintegrations = cintegration + bas.cs; // integrations
 export const cIntegrations = cIntegration + bas.cs; // Integrations
+export const camong = bas.cam + phn.cong; // among
+export const cAmong = bas.cAm + phn.cong; // Among
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

@@ -629,6 +629,12 @@ export const cvalidationApplicationArrayIs = wrd.cvalidation + wrd.cApplication 
 export const cvalidationPluginsMetaArrayIs = wrd.cvalidation + wrd.cPlugins + wrd.cMeta + wrd.cArray + sys.cSpaceIsColonSpace; // validationPluginsMetaArray is:
 export const cvalidationArrayBeforePluginConstantsValidationDataMergeIs = wrd.cvalidation + wrd.cArray + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace; // validationArray before plugin constants validation data merge is:
 export const cvalidationArrayAfterPluginConstantsValidationDataMergeIs = wrd.cvalidation + wrd.cArray + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace; // validationArray after plugin constants validation data merge is:
+export const clineIs = wrd.cline + sys.cSpaceIsColonSpace; // line is:
+export const celement1Is = wrd.celement + num.c1 + sys.cSpaceIsColonSpace; // element1 is:
+export const cconstantsNamespaceParentObjectIs = wrd.cconstants + wrd.cNamespace + wrd.cParent + wrd.cObject + sys.cSpaceIsColonSpace; // constantsNamespaceParentObject is:
+export const cconstantNamespaceObjectIs = wrd.cconstant + wrd.cNamespace + wrd.cObject + sys.cSpaceIsColonSpace; // constantNamespaceObject is:
+export const celementIs = wrd.celement + sys.cSpaceIsColonSpace; // element is:
+export const cvalidationLineItemIs = wrd.cvalidation + wrd.cLine + wrd.cItem + sys.cSpaceIsColonSpace; //validationLineItem is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -1031,6 +1037,10 @@ export const cBeginProcessingLine = wrd.cBEGIN + bas.cSpace + wrd.cprocessing + 
 export const cEndProcessingLine = wrd.cEND + bas.cSpace + wrd.cprocessing + bas.cSpace + bas.ca + bas.cSpace + wrd.cline;
 // END processing all lines from file: 
 export const cEndProcessingAllLinesFromFile = wrd.cEND + bas.cSpace + wrd.cprocessing + bas.cSpace + wrd.call + bas.cSpace + wrd.clines + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+// ERROR: Unable to find the constant namespace among all the constants validation data:
+export const cvalidateConstantsDataValidationLineItemNameErrorMessage1 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cfind + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.camong + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace;
+export const cFoundMatchingNamespaceConstant = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cconstant + bas.cDot; // Found a matching namespace constant.
+
 
 // Coded System Messages
 // EXAMPLE:
