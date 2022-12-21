@@ -141,6 +141,7 @@ export const cDotenv = bas.cDot + cenv; // .env
 export const cDotEnv = bas.cDot + cEnv; // .Env
 export const cDotENV = bas.cDot + cENV; // .ENV
 export const cascii = bas.cas + bas.cci + bas.ci; // ascii
+export const cAscii = bas.cAs + bas.cci + bas.ci; // Ascii
 
 // Time Formatting
 export const cYYYY = bas.cYY + bas.cYY; // YYYY

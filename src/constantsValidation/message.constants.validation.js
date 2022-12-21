@@ -105,8 +105,8 @@ export const messageConstantsVaidation = [
   {Name: 'cstringDeltaValueIs', Actual: msg.cstringDeltaValueIs, Expected: 'stringDelta value is: '},
   {Name: 'cFilenamesMatch', Actual: msg.cFilenamesMatch, Expected: 'Filenames match'},
   {Name: 'cFilenamesDoNotMatch', Actual: msg.cFilenamesDoNotMatch, Expected: 'Filenames do not match'},
-  {Name: 'cconstantsLineIs', Actual: msg.cconstantsLineIs, Expected: 'constantsLine is: '},
-  {Name: 'cconstantsLineKeyIs', Actual: msg.cconstantsLineKeyIs, Expected: 'constants lineKey is: '},
+  {Name: 'cconstantsLineIs', Actual: msg.cconstantsLineIs, Expected: 'constants Line is: '},
+  {Name: 'cconstantsLineKeyIs', Actual: msg.cconstantsLineKeyIs, Expected: 'constants LineKey is: '},
   {Name: 'cArrayElementsMatch', Actual: msg.cArrayElementsMatch, Expected: 'Array elements match'},
   {Name: 'cArrayElementsDoNotMatch', Actual: msg.cArrayElementsDoNotMatch, Expected: 'Array elements do not match'},
   {Name: 'clineArray2Is', Actual: msg.clineArray2Is, Expected: 'lineArray[2] is: '},
@@ -631,6 +631,8 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantNamespaceObjectIs', Actual: msg.cconstantNamespaceObjectIs, Expected: 'constantNamespaceObject is: '},
   {Name: 'celementIs', Actual: msg.celementIs, Expected: 'element is: '},
   {Name: 'cvalidationLineItemIs', Actual: msg.cvalidationLineItemIs, Expected: 'validationLineItem is: '},
+  {Name: 'cphase1ResultsIs', Actual: msg.cphase1ResultsIs, Expected: 'phase1Results is: '},
+  {Name: 'cphase2ResultsIs', Actual: msg.cphase2ResultsIs, Expected: 'phase2Results is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -889,7 +891,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorSyncPluginRegistryWithPluginRegistryPathMessage01', Actual: msg.cErrorSyncPluginRegistryWithPluginRegistryPathMessage01, Expected: 'ERROR: Failure to synchronize the plugin registry with the list of plugins available from the plugins folder specified by the application in the plugins registry JSON file.'},
   {Name: 'cErrorLoadAllPluginsMetaDataMessage01', Actual: msg.cErrorLoadAllPluginsMetaDataMessage01, Expected: 'ERROR: No plugin paths provided, please provide paths and try again.'},
   {Name: 'cErrorLoadAllPluginsExecutionPathsMessage01', Actual: msg.cErrorLoadAllPluginsExecutionPathsMessage01, Expected: 'ERROR: No plugin meta data was found. Please ensure the correct path is provided and try again.'},
-  {Name: 'cloadAllPluginsMessage01', Actual: msg.cloadAllPluginsMessage01, Expected: 'Failed to load the plugin: '},
+  {Name: 'cloadAllPluginsMessage01', Actual: msg.cloadAllPluginsMessage01, Expected: ' Failed to load the plugin: '},
   {Name: 'cloadAllPluginsMessage02', Actual: msg.cloadAllPluginsMessage02, Expected: 'plugin entry point path: '},
   {Name: 'cloadAllPluginsMessage03', Actual: msg.cloadAllPluginsMessage03, Expected: 'ERROR: No plugin execution paths or plugins metaData was specified: '},
   {Name: 'cErrorRegisterPluginCommandMessage01', Actual: msg.cErrorRegisterPluginCommandMessage01, Expected: 'ERROR: Failure to register the specified plugin, invalid input: '},
@@ -912,7 +914,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorIntegrateAllPluginsDataMessage01', Actual: msg.cErrorIntegrateAllPluginsDataMessage01, Expected: 'ERROR: Invalid data input, unable to integrate all plugin data.'},
   {Name: 'cErrorIntegratePluginDataMessage01', Actual: msg.cErrorIntegratePluginDataMessage01, Expected: 'ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.'},
   {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage01, Expected: 'ERROR: Failure to merge the plugin rules for plugin: '},
-  {Name: 'cErrorAddPluginCommandsMessage01', Actual: msg.cErrorAddPluginCommandsMessage01, Expected: 'ERROR: Failure to merge the plugin comamnds for plugin: '},
+  {Name: 'cErrorAddPluginCommandsMessage01', Actual: msg.cErrorAddPluginCommandsMessage01, Expected: 'ERROR: Failure to merge the plugin commands for plugin: '},
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage01', Actual: msg.cErrorAddPluginCommandAliasesMessage01, Expected: 'ERROR: Failure to merge the plugin command aliases for plugin: '},
   {Name: 'cErrorAddPluginWorkflowsMessage01', Actual: msg.cErrorAddPluginWorkflowsMessage01, Expected: 'ERROR: Failure to merge the plugin workflows for plugin: '},
@@ -921,9 +923,11 @@ export const messageConstantsVaidation = [
   {Name: 'cBeginProcessingAllLinesFromFile', Actual: msg.cBeginProcessingAllLinesFromFile, Expected: 'BEGIN processing all lines from file: '},
   {Name: 'cBeginProcessingLine', Actual: msg.cBeginProcessingLine, Expected: 'BEGIN processing a line'},
   {Name: 'cEndProcessingLine', Actual: msg.cEndProcessingLine, Expected: 'END processing a line'},
-  {Name: 'cEndProcessingAllLinesFromFile', Actual: msg.cEndProcessingAllLinesFromFile, Expected: 'END processing all lines from file:  '},
+  {Name: 'cEndProcessingAllLinesFromFile', Actual: msg.cEndProcessingAllLinesFromFile, Expected: 'END processing all lines from file: '},
   {Name: 'cvalidateConstantsDataValidationLineItemNameErrorMessage1', Actual: msg.cvalidateConstantsDataValidationLineItemNameErrorMessage1, Expected: 'ERROR: Unable to find the constant namespace among all the constants validation data: '},
-  {Name: 'cFoundMatchingNamespaceConstant', Actual: msg.cFoundMatchingNamespaceConstant, Expected: 'Found a matching namespace constant.'}
+  {Name: 'cFoundMatchingNamespaceConstant', Actual: msg.cFoundMatchingNamespaceConstant, Expected: 'Found a matching namespace constant.'},
+  {Name: 'cScanningConstantsValidationPhase1Message', Actual: msg.cScanningConstantsValidationPhase1Message, Expected: 'Scanning constants phase 1 validation data for file: '},
+  {Name: 'cScanningConstantsValidationPhase2Message', Actual: msg.cScanningConstantsValidationPhase2Message, Expected: 'Scanning constants phase 2 validation data for: '}
 
   // Coded System Messages
   // EXAMPLE:

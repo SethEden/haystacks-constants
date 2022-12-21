@@ -142,6 +142,7 @@ export const genericConstantsValidation = [
   {Name: 'cDotEnv', Actual: gen.cDotEnv, Expected: '.Env'},
   {Name: 'cDotENV', Actual: gen.cDotENV, Expected: '.ENV'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
+  {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
 
   // Time Formatting
   {Name: 'cYYYY', Actual: gen.cYYYY, Expected: 'YYYY'},
