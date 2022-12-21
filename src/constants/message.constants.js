@@ -637,6 +637,8 @@ export const celementIs = wrd.celement + sys.cSpaceIsColonSpace; // element is:
 export const cvalidationLineItemIs = wrd.cvalidation + wrd.cLine + wrd.cItem + sys.cSpaceIsColonSpace; // validationLineItem is:
 export const cphase1ResultsIs = wrd.cphase + num.c1 + wrd.cResults + sys.cSpaceIsColonSpace; // phase1Results is:
 export const cphase2ResultsIs = wrd.cphase + num.c2 + wrd.cResults + sys.cSpaceIsColonSpace; // phase2Results is:
+export const cconstantValidationObjectIs = wrd.cconstant + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // constantValidationObject is:
+export const ccharacterIs = wrd.ccharacter + sys.cSpaceIsColonSpace; // character is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -1044,6 +1046,9 @@ export const cvalidateConstantsDataValidationLineItemNameErrorMessage1 = cERROR_
 export const cFoundMatchingNamespaceConstant = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cconstant + bas.cDot; // Found a matching namespace constant.
 export const cScanningConstantsValidationPhase1Message = wrd.cScanning + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cphase + bas.cSpace + num.c1 + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace; // Scanning constants phase 1 validation data for file:
 export const cScanningConstantsValidationPhase2Message = wrd.cScanning + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cphase + bas.cSpace + num.c2 + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cColon + bas.cSpace; // Scanning constants phase 2 validation data for:
+export const cdoesConstantExistMessage01 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatch + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cconstants + bas.cDot; // Found a match with the application constants.
+export const cdoesConstantExistMessage02 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatch + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cconstants + bas.cDot; // Found a match with the framework constants.
+export const cupperCaseLetterFound = wrd.cUpper + bas.cSpace + wrd.ccase + bas.cSpace + wrd.cletter + bas.cSpace + wrd.cfound + bas.cDot; // Upper case letter found.
 
 // Coded System Messages
 // EXAMPLE:

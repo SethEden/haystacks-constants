@@ -633,6 +633,8 @@ export const messageConstantsVaidation = [
   {Name: 'cvalidationLineItemIs', Actual: msg.cvalidationLineItemIs, Expected: 'validationLineItem is: '},
   {Name: 'cphase1ResultsIs', Actual: msg.cphase1ResultsIs, Expected: 'phase1Results is: '},
   {Name: 'cphase2ResultsIs', Actual: msg.cphase2ResultsIs, Expected: 'phase2Results is: '},
+  {Name: 'cconstantValidationObjectIs', Actual: msg.cconstantValidationObjectIs, Expected: 'constantValidationObject is: '},
+  {Name: 'ccharacterIs', Actual: msg.ccharacterIs, Expected: 'character is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -927,7 +929,10 @@ export const messageConstantsVaidation = [
   {Name: 'cvalidateConstantsDataValidationLineItemNameErrorMessage1', Actual: msg.cvalidateConstantsDataValidationLineItemNameErrorMessage1, Expected: 'ERROR: Unable to find the constant namespace among all the constants validation data: '},
   {Name: 'cFoundMatchingNamespaceConstant', Actual: msg.cFoundMatchingNamespaceConstant, Expected: 'Found a matching namespace constant.'},
   {Name: 'cScanningConstantsValidationPhase1Message', Actual: msg.cScanningConstantsValidationPhase1Message, Expected: 'Scanning constants phase 1 validation data for file: '},
-  {Name: 'cScanningConstantsValidationPhase2Message', Actual: msg.cScanningConstantsValidationPhase2Message, Expected: 'Scanning constants phase 2 validation data for: '}
+  {Name: 'cScanningConstantsValidationPhase2Message', Actual: msg.cScanningConstantsValidationPhase2Message, Expected: 'Scanning constants phase 2 validation data for: '},
+  {Name: 'cdoesConstantExistMessage01', Actual: msg.cdoesConstantExistMessage01, Expected: 'Found a match with the application constants.'},
+  {Name: 'cdoesConstantExistMessage02', Actual: msg.cdoesConstantExistMessage02, Expected: 'Found a match with the framework constants.'},
+  {Name: 'cupperCaseLetterFound', Actual: msg.cupperCaseLetterFound, Expected: 'Upper case letter found.'}
 
   // Coded System Messages
   // EXAMPLE:
