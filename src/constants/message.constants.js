@@ -639,6 +639,8 @@ export const cphase1ResultsIs = wrd.cphase + num.c1 + wrd.cResults + sys.cSpaceI
 export const cphase2ResultsIs = wrd.cphase + num.c2 + wrd.cResults + sys.cSpaceIsColonSpace; // phase2Results is:
 export const cconstantValidationObjectIs = wrd.cconstant + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // constantValidationObject is:
 export const ccharacterIs = wrd.ccharacter + sys.cSpaceIsColonSpace; // character is:
+export const cconstantTypeIs = wrd.cconstant + wrd.cType + sys.cSpaceIsColonSpace; // constantType is:
+export const cconstantPrefixIs = wrd.cconstant + wrd.cPrefix + sys.cSpaceIsColonSpace; // constantPrefix is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

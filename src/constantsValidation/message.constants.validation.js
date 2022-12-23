@@ -635,6 +635,8 @@ export const messageConstantsVaidation = [
   {Name: 'cphase2ResultsIs', Actual: msg.cphase2ResultsIs, Expected: 'phase2Results is: '},
   {Name: 'cconstantValidationObjectIs', Actual: msg.cconstantValidationObjectIs, Expected: 'constantValidationObject is: '},
   {Name: 'ccharacterIs', Actual: msg.ccharacterIs, Expected: 'character is: '},
+  {Name: 'cconstantTypeIs', Actual: msg.cconstantTypeIs, Expected: 'constantType is: '},
+  {Name: 'cconstantPrefixIs', Actual: msg.cconstantPrefixIs, Expected: 'constantPrefix is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
