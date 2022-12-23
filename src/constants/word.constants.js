@@ -3025,6 +3025,14 @@ export const cintegrations = cintegration + bas.cs; // integrations
 export const cIntegrations = cIntegration + bas.cs; // Integrations
 export const camong = bas.cam + phn.cong; // among
 export const cAmong = bas.cAm + phn.cong; // Among
+export const ctier = ctie + bas.cr; // tier
+export const cTier = cTie + bas.cr; // Tier
+export const ctiers = ctier + bas.cs; // tiers
+export const cTiers = cTier + bas.cs; // Tiers
+export const ctiered = ctier + bas.ced; // tiered
+export const cTiered = cTier + bas.ced; // Tiered
+export const ctiering = ctier + phn.cing; // tiering
+export const cTiering = cTier + phn.cing; // Tiering
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

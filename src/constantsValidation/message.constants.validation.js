@@ -513,6 +513,7 @@ export const messageConstantsVaidation = [
   {Name: 'creturnDeltaTimeIs', Actual: msg.creturnDeltaTimeIs, Expected: 'returnDeltaTime is: '},
   {Name: 'csleepTimeIs', Actual: msg.csleepTimeIs, Expected: 'sleepTime is: '},
   {Name: 'cworkflowNameIs', Actual: msg.cworkflowNameIs, Expected: 'workflowName is: '},
+  {Name: 'csecondTierWorkflowNameIs', Actual: msg.csecondTierWorkflowNameIs, Expected: 'secondTierWorkflowName is: '},
   {Name: 'ccurrentWorkflowIs', Actual: msg.ccurrentWorkflowIs, Expected: 'currentWorkflow is: '},
   {Name: 'cworkflowValueIs', Actual: msg.cworkflowValueIs, Expected: 'workflowValue is: '},
   {Name: 'cdataHivePathArrayIs', Actual: msg.cdataHivePathArrayIs, Expected: 'dataHivePathArray is: '},
@@ -637,6 +638,7 @@ export const messageConstantsVaidation = [
   {Name: 'ccharacterIs', Actual: msg.ccharacterIs, Expected: 'character is: '},
   {Name: 'cconstantTypeIs', Actual: msg.cconstantTypeIs, Expected: 'constantType is: '},
   {Name: 'cconstantPrefixIs', Actual: msg.cconstantPrefixIs, Expected: 'constantPrefix is: '},
+  {Name: 'cinputAndOutputAreTheSame', Actual: msg.cinputAndOutputAreTheSame, Expected: 'input and output are the same!'},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -934,7 +936,10 @@ export const messageConstantsVaidation = [
   {Name: 'cScanningConstantsValidationPhase2Message', Actual: msg.cScanningConstantsValidationPhase2Message, Expected: 'Scanning constants phase 2 validation data for: '},
   {Name: 'cdoesConstantExistMessage01', Actual: msg.cdoesConstantExistMessage01, Expected: 'Found a match with the application constants.'},
   {Name: 'cdoesConstantExistMessage02', Actual: msg.cdoesConstantExistMessage02, Expected: 'Found a match with the framework constants.'},
-  {Name: 'cupperCaseLetterFound', Actual: msg.cupperCaseLetterFound, Expected: 'Upper case letter found.'}
+  {Name: 'cupperCaseLetterFound', Actual: msg.cupperCaseLetterFound, Expected: 'Upper case letter found.'},
+  {Name: 'csingleQuoteSwapAfterEqualsMessage01', Actual: msg.csingleQuoteSwapAfterEqualsMessage01, Expected: 'inputData is an array! Capture the first element only.'},
+  {Name: 'csingleQuoteSwapAfterEqualsMessage02', Actual: msg.csingleQuoteSwapAfterEqualsMessage02, Expected: 'inputData is a string input, use it as is.'},
+  {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'}
 
   // Coded System Messages
   // EXAMPLE:

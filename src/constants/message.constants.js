@@ -517,6 +517,7 @@ export const cformatIs = wrd.cformat + sys.cSpaceIsColonSpace; // format is:
 export const creturnDeltaTimeIs = wrd.creturn + wrd.cDelta + wrd.cTime + sys.cSpaceIsColonSpace; // returnDeltaTime is:
 export const csleepTimeIs = wrd.csleep + wrd.cTime + sys.cSpaceIsColonSpace; // sleepTime is:
 export const cworkflowNameIs = wrd.cworkflow + wrd.cName + sys.cSpaceIsColonSpace; // workflowName is:
+export const csecondTierWorkflowNameIs = num.csecond + wrd.cTier + wrd.cWorkflow + wrd.cName + sys.cSpaceIsColonSpace; // secondTierWorkflowName is:
 export const ccurrentWorkflowIs = wrd.ccurrent + wrd.cWorkflow + sys.cSpaceIsColonSpace; // currentWorkflow is:
 export const cworkflowValueIs = wrd.cworkflow + wrd.cValue + sys.cSpaceIsColonSpace; // workflowValue is:
 export const cdataHivePathArrayIs = wrd.cdata + wrd.cHive + wrd.cPath + wrd.cArray + sys.cSpaceIsColonSpace; // dataHivePathArray is:
@@ -641,6 +642,7 @@ export const cconstantValidationObjectIs = wrd.cconstant + wrd.cValidation + wrd
 export const ccharacterIs = wrd.ccharacter + sys.cSpaceIsColonSpace; // character is:
 export const cconstantTypeIs = wrd.cconstant + wrd.cType + sys.cSpaceIsColonSpace; // constantType is:
 export const cconstantPrefixIs = wrd.cconstant + wrd.cPrefix + sys.cSpaceIsColonSpace; // constantPrefix is:
+export const cinputAndOutputAreTheSame = wrd.cinput + bas.cSpace + wrd.cand + bas.cSpace + wrd.coutput + bas.cSpace + wrd.care + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cExclamation; // input and output are the same!
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -1051,6 +1053,9 @@ export const cScanningConstantsValidationPhase2Message = wrd.cScanning + bas.cSp
 export const cdoesConstantExistMessage01 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatch + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cconstants + bas.cDot; // Found a match with the application constants.
 export const cdoesConstantExistMessage02 = wrd.cFound + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatch + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cconstants + bas.cDot; // Found a match with the framework constants.
 export const cupperCaseLetterFound = wrd.cUpper + bas.cSpace + wrd.ccase + bas.cSpace + wrd.cletter + bas.cSpace + wrd.cfound + bas.cDot; // Upper case letter found.
+export const csingleQuoteSwapAfterEqualsMessage01 = cinputData + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cExclamation + bas.cSpace + wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfirst + bas.cSpace + wrd.celement + bas.cSpace + wrd.conly + bas.cDot; // inputData is an array! Capture the first element only.
+export const csingleQuoteSwapAfterEqualsMessage02 = cinputData + bas.cSpace + wrd.cis + bas.cSpace + bas.ca + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cit + bas.cSpace + wrd.cas + bas.cSpace + wrd.cis + bas.cDot; // inputData is a string input, use it as is.
+export const csingleQuoteSwapAfterEqualsMessage03 = wrd.cFirst + bas.cSpace + wrd.creplace + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cquotes + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cdouble + bas.cSpace + wrd.cquotes + bas.cDot; // First replace all the quotes in the string with double quotes.
 
 // Coded System Messages
 // EXAMPLE:
