@@ -142,6 +142,7 @@ export const genericConstantsValidation = [
   {Name: 'cDotEnv', Actual: gen.cDotEnv, Expected: '.Env'},
   {Name: 'cDotENV', Actual: gen.cDotENV, Expected: '.ENV'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
+  {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
 
   // Time Formatting
   {Name: 'cYYYY', Actual: gen.cYYYY, Expected: 'YYYY'},
@@ -262,9 +263,9 @@ export const genericConstantsValidation = [
   {Name: 'capp', Actual: gen.capp, Expected: 'app'},
   {Name: 'cApp', Actual: gen.cApp, Expected: 'App'},
   {Name: 'cAPP', Actual: gen.cAPP, Expected: 'APP'},
-  {name: 'cplg', Actual: gen.cplg, Expected: 'plg'},
-  {name: 'cPlg', Actual: gen.cPlg, Expected: 'Plg'},
-  {name: 'cPLG', Actual: gen.cPLG, Expected: 'PLG'},
+  {Name: 'cplg', Actual: gen.cplg, Expected: 'plg'},
+  {Name: 'cPlg', Actual: gen.cPlg, Expected: 'Plg'},
+  {Name: 'cPLG', Actual: gen.cPLG, Expected: 'PLG'},
   {Name: 'carg', Actual: gen.carg, Expected: 'arg'},
   {Name: 'cArg', Actual: gen.cArg, Expected: 'Arg'},
   {Name: 'cargs', Actual: gen.cargs, Expected: 'args'},

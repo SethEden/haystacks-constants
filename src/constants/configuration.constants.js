@@ -37,6 +37,7 @@ export const cappConfigPath = gen.capp + wrd.cConfig + wrd.cPath; // appConfigPa
 export const cpluginConfigPath = wrd.cplugin + wrd.cConfig + wrd.cPath; // pluginConfigPath
 export const cframeworkConfigPath = wrd.cframework + wrd.cConfig + wrd.cPath; // frameworkConfigPath
 export const cframeworkThemesPath = wrd.cframework + wrd.cThemes + wrd.cPath; // frameworkThemesPath
+export const cclientThemesPath = wrd.cclient + wrd.cThemes + wrd.cPath; // clientThemesPath
 export const cappConfigFiles = gen.capp + wrd.cConfig + wrd.cFiles; // appConfigFiles
 export const cframeworkConfigFiles = wrd.cframework + wrd.cConfig + wrd.cFiles; // frameworkConfigFiles
 export const cthemeConfigFiles = wrd.ctheme + wrd.cConfig + wrd.cFiles; // themeConfigFiles
