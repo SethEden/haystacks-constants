@@ -32,6 +32,7 @@ export const cinputDataIs = cinputData + sys.cSpaceIsColonSpace; // inputData is
 export const cinputsIs = wrd.cinputs + sys.cSpaceIsColonSpace; // inputs is:
 export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSpace; // inputMetaData is:
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
+export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpaceIsColonSpace; // returnDataTemp is:
 
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
@@ -155,6 +156,7 @@ export const ccommandWordAliasesAfterChangeIs = wrd.ccommand + wrd.cWord + wrd.c
 export const cmasterCommandWordAlisesArrayIs = wrd.cmaster + wrd.cCommand + wrd.cWord + wrd.cAliases + wrd.cArray + sys.cSpaceIsColonSpace; // masterCommandWordAliasesArray is:
 export const cmasterArrayIndexIs = wrd.cmaster + wrd.cArray + wrd.cIndex + sys.cSpaceIsColonSpace; // masterArrayIndex is:
 export const cCommandAliasesAre = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // Command Aliases are:
+export const cexpandedArrayIs = wrd.cexpanded + wrd.cArray + sys.cSpaceIsColonSpace; // expandedArray is:
 export const cexpandedLehmerCodeArrayIs = wrd.cexpanded + sys.cLehmerCodeArray + sys.cSpaceIsColonSpace; // expandedLehmerCodeArray is:
 export const cindexOfExpansionIs = wrd.cindex + bas.cOf + wrd.cExpansion + sys.cSpaceIsColonSpace; // indexOfExpansion is:
 export const carrayToBeExpandedIs = wrd.carray+ bas.cTo + bas.cBe + wrd.cExpanded + sys.cSpaceIsColonSpace; // arrayToBeExpanded is:
@@ -643,6 +645,7 @@ export const ccharacterIs = wrd.ccharacter + sys.cSpaceIsColonSpace; // characte
 export const cconstantTypeIs = wrd.cconstant + wrd.cType + sys.cSpaceIsColonSpace; // constantType is:
 export const cconstantPrefixIs = wrd.cconstant + wrd.cPrefix + sys.cSpaceIsColonSpace; // constantPrefix is:
 export const cinputAndOutputAreTheSame = wrd.cinput + bas.cSpace + wrd.cand + bas.cSpace + wrd.coutput + bas.cSpace + wrd.care + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cExclamation; // input and output are the same!
+export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpace; // arrayElement is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

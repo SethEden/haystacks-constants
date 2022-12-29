@@ -30,6 +30,7 @@ export const messageConstantsVaidation = [
   {Name: 'cinputsIs', Actual: msg.cinputsIs, Expected: 'inputs is: '},
   {Name: 'cinputMetaDataIs', Actual: msg.cinputMetaDataIs, Expected: 'inputMetaData is: '},
   {Name: 'creturnDataIs', Actual: msg.creturnDataIs, Expected: 'returnData is: '},
+  {Name: 'creturnDataTempIs', Actual: msg.creturnDataTempIs, Expected: 'returnDataTemp is: '},
 
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
@@ -153,6 +154,7 @@ export const messageConstantsVaidation = [
   {Name: 'cmasterCommandWordAlisesArrayIs', Actual: msg.cmasterCommandWordAlisesArrayIs, Expected: 'masterCommandWordAliasesArray is: '},
   {Name: 'cmasterArrayIndexIs', Actual: msg.cmasterArrayIndexIs, Expected: 'masterArrayIndex is: '},
   {Name: 'cCommandAliasesAre', Actual: msg.cCommandAliasesAre, Expected: 'Command Aliases are: '},
+  {Name: 'cexpandedArrayIs', Actual: msg.cexpandedArrayIs, Expected: 'expandedArray is: '},
   {Name: 'cexpandedLehmerCodeArrayIs', Actual: msg.cexpandedLehmerCodeArrayIs, Expected: 'expandedLehmerCodeArray is: '},
   {Name: 'cindexOfExpansionIs', Actual: msg.cindexOfExpansionIs, Expected: 'indexOfExpansion is: '},
   {Name: 'carrayToBeExpandedIs', Actual: msg.carrayToBeExpandedIs, Expected: 'arrayToBeExpanded is: '},
@@ -639,6 +641,7 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantTypeIs', Actual: msg.cconstantTypeIs, Expected: 'constantType is: '},
   {Name: 'cconstantPrefixIs', Actual: msg.cconstantPrefixIs, Expected: 'constantPrefix is: '},
   {Name: 'cinputAndOutputAreTheSame', Actual: msg.cinputAndOutputAreTheSame, Expected: 'input and output are the same!'},
+  {Name: 'carrayElementIs', Actual: msg.carrayElementIs, Expected: 'arrayElement is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
