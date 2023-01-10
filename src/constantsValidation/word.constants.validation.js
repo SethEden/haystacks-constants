@@ -3028,6 +3028,14 @@ export const wordConstantsValidation = [
   {Name: 'cTiered', Actual: wrd.cTiered, Expected: 'Tiered'},
   {Name: 'ctiering', Actual: wrd.ctiering, Expected: 'tiering'},
   {Name: 'cTiering', Actual: wrd.cTiering, Expected: 'Tiering'},
+  {Name: 'chaystack', Actual: wrd.chaystack, Expected: 'haystack'},
+  {Name: 'cHaystack', Actual: wrd.cHaystack, Expected: 'Haystack'},
+  {Name: 'chaystacks', Actual: wrd.chaystacks, Expected: 'haystacks'},
+  {Name: 'cHaystacks', Actual: wrd.cHaystacks, Expected: 'Haystacks'},
+  {Name: 'chaystacked', Actual: wrd.chaystacked, Expected: 'haystacked'},
+  {Name: 'cHaystacked', Actual: wrd.cHaystacked, Expected: 'Haystacked'},
+  {Name: 'chaystacking', Actual: wrd.chaystacking, Expected: 'haystacking'},
+  {Name: 'cHaystacking', Actual: wrd.cHaystacking, Expected: 'Haystacking'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
