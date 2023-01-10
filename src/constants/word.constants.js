@@ -3033,6 +3033,14 @@ export const ctiered = ctier + bas.ced; // tiered
 export const cTiered = cTier + bas.ced; // Tiered
 export const ctiering = ctier + phn.cing; // tiering
 export const cTiering = cTier + phn.cing; // Tiering
+export const chaystack = chay + cstack; // haystack
+export const cHaystack = cHay + cstack; // Haystack
+export const chaystacks = chay + cstacks; // haystacks
+export const cHaystacks = cHay + cstacks; // Haystacks
+export const chaystacked = chaystack + bas.ced; // haystacked
+export const cHaystacked = cHaystack + bas.ced; // Haystacked
+export const chaystacking = chaystack + phn.cing; // haystacking
+export const cHaystacking = cHaystack + phn.cing; // Haystacking
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
