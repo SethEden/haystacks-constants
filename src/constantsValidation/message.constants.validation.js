@@ -715,6 +715,7 @@ export const messageConstantsVaidation = [
   {Name: 'cthemesRootPathIs', Actual: msg.cthemesRootPathIs, Expected: 'themesRootPath is: '},
   {Name: 'cframeworkThemeDataIs', Actual: msg.cframeworkThemeDataIs, Expected: 'frameworkThemeData is: '},
   {Name: 'capplicationThemesPathIs', Actual: msg.capplicationThemesPathIs, Expected: 'applicationThemesPath is: '},
+  {Name: 'capplicationThemeDataIs', Actual: msg.capplicationThemeDataIs, Expected: 'applicationThemeData is: '},
   // Plugin specific
   {Name: 'cconfigFilesPathIs', Actual: msg.cconfigFilesPathIs, Expected: 'configFilesPath is: '},
   {Name: 'chighLevelPluginSystemConfigurationContainerIs', Actual: msg.chighLevelPluginSystemConfigurationContainerIs, Expected: 'highLevelPluginSystemConfigurationContainer is: '},
