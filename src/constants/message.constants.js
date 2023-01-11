@@ -719,6 +719,7 @@ export const capplicationThemesIs = wrd.capplication + wrd.cThemes + sys.cSpaceI
 export const cthemesRootPathIs = wrd.cthemes + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // themesRootPath is:
 export const cframeworkThemeDataIs = wrd.cframework + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // frameworkThemeData is:
 export const capplicationThemesPathIs = wrd.capplication + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // applicationThemesPath is:
+export const capplicationThemeDataIs = wrd.capplication + wrd.cTheme + wrd.cData + sys.cSpaceIsColonSpace; // applicationThemeData is:
 // Plugin specific
 export const cconfigFilesPathIs = wrd.cconfig + wrd.cFiles + wrd.cPath + sys.cSpaceIsColonSpace; // configFilesPath is:
 export const chighLevelPluginSystemConfigurationContainerIs = wrd.chigh + wrd.cLevel + wrd.cPlugin + wrd.cSystem + wrd.cConfiguration + wrd.cContainer + sys.cSpaceIsColonSpace; // highLevelPluginSystemConfigurationContainer is:
@@ -1059,6 +1060,7 @@ export const cupperCaseLetterFound = wrd.cUpper + bas.cSpace + wrd.ccase + bas.c
 export const csingleQuoteSwapAfterEqualsMessage01 = cinputData + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cExclamation + bas.cSpace + wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + num.cfirst + bas.cSpace + wrd.celement + bas.cSpace + wrd.conly + bas.cDot; // inputData is an array! Capture the first element only.
 export const csingleQuoteSwapAfterEqualsMessage02 = cinputData + bas.cSpace + wrd.cis + bas.cSpace + bas.ca + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cit + bas.cSpace + wrd.cas + bas.cSpace + wrd.cis + bas.cDot; // inputData is a string input, use it as is.
 export const csingleQuoteSwapAfterEqualsMessage03 = num.cFirst + bas.cSpace + wrd.creplace + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cquotes + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cdouble + bas.cSpace + wrd.cquotes + bas.cDot; // First replace all the quotes in the string with double quotes.
+export const cloadConfigDataErrorMessage01 = wrd.cFATAL + bas.cSpace + cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cpath + bas.cComa + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cdependency + bas.cSpace + wrd.cfailure + bas.cColon + bas.cSpace; // FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure:
 
 // Coded System Messages
 // EXAMPLE:

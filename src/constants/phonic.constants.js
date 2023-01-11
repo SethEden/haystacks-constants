@@ -1171,6 +1171,8 @@ export const cief = bas.cie + bas.cf; // ief
 export const clem = bas.cle + bas.cm; // lem
 export const csav = bas.csa + bas.cv; // sav
 export const cSav = bas.cSa + bas.cv; // Sav
+export const cency = cenc + bas.cy; // ency
+export const cancy = canc + bas.cy; // ancy
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
