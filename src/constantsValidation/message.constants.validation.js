@@ -642,6 +642,7 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantPrefixIs', Actual: msg.cconstantPrefixIs, Expected: 'constantPrefix is: '},
   {Name: 'cinputAndOutputAreTheSame', Actual: msg.cinputAndOutputAreTheSame, Expected: 'input and output are the same!'},
   {Name: 'carrayElementIs', Actual: msg.carrayElementIs, Expected: 'arrayElement is: '},
+  {Name: 'cattributeNameIs', Actual: msg.cattributeNameIs, Expected: 'attributeName is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -742,6 +743,8 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantsFilePathNamesIs', Actual: msg.cconstantsFilePathNamesIs, Expected: 'constantsFilePathName is: '},
   {Name: 'cconstantsFilePathValueIs', Actual: msg.cconstantsFilePathValueIs, Expected: 'constantsFilePathValue is: '},
   {Name: 'cnewPluginConstantValidationNameIs', Actual: msg.cnewPluginConstantValidationNameIs, Expected: 'newPluginConstantValidationName is: '},
+  {Name: 'cpluginObjectIs', Actual: msg.cpluginObjectIs, Expected: 'pluginObject is: '},
+  {Name: 'cpluginParentObjectIs', Actual: msg.cpluginParentObjectIs, Expected: 'pluginParentObject is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},

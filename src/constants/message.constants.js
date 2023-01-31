@@ -646,6 +646,7 @@ export const cconstantTypeIs = wrd.cconstant + wrd.cType + sys.cSpaceIsColonSpac
 export const cconstantPrefixIs = wrd.cconstant + wrd.cPrefix + sys.cSpaceIsColonSpace; // constantPrefix is:
 export const cinputAndOutputAreTheSame = wrd.cinput + bas.cSpace + wrd.cand + bas.cSpace + wrd.coutput + bas.cSpace + wrd.care + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cExclamation; // input and output are the same!
 export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpace; // arrayElement is:
+export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSpace; // attributeName is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -746,6 +747,8 @@ export const cpluginNameArrayIs = wrd.cplugin + wrd.cName + wrd.cArray + sys.cSp
 export const cconstantsFilePathNamesIs = wrd.cconstants + wrd.cFile + wrd.cPath + wrd.cName + sys.cSpaceIsColonSpace; // constantsFilePathName is:
 export const cconstantsFilePathValueIs = wrd.cconstants + wrd.cFile + wrd.cPath + wrd.cValue + sys.cSpaceIsColonSpace; // constantsFilePathValue is:
 export const cnewPluginConstantValidationNameIs = wrd.cnew + wrd.cPlugin + wrd.cConstant + wrd.cValidation + wrd.cName + sys.cSpaceIsColonSpace; // newPluginConstantValidationName is:
+export const cpluginObjectIs = wrd.cplugin + wrd.cObject + sys.cSpaceIsColonSpace; // pluginObject is:
+export const cpluginParentObjectIs = wrd.cplugin + wrd.cParent + wrd.cObject + sys.cSpaceIsColonSpace; // pluginParentObject is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
