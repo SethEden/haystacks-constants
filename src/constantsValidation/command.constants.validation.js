@@ -69,6 +69,25 @@ export const commandConstantsValidation = [
   {Name: 'ccommandMetrics', Actual: cmd.ccommandMetrics, Expected: 'commandMetrics'},
 
   // ***********************************************
+  // Plugin commands in order
+  // ***********************************************
+  {Name: 'clistAllPluginsInRegistry', Actual: cmd.clistAllPluginsInRegistry, Expected: 'listAllPluginsInRegistry'},
+  {Name: 'clistAllPluginsInRegistryPath', Actual: cmd.clistAllPluginsInRegistryPath, Expected: 'listAllPluginsInRegistryPath'},
+  {Name: 'ccountPluginsInRegistry', Actual: cmd.ccountPluginsInRegistry, Expected: 'countPluginsInRegistry'},
+  {Name: 'ccountPluginsInRegistryPath', Actual: cmd.ccountPluginsInRegistryPath, Expected: 'countPluginsInRegistryPath'},
+  {Name: 'cregisterPlugin', Actual: cmd.cregisterPlugin, Expected: 'registerPlugin'},
+  {Name: 'cunregisterPlugin', Actual: cmd.cunregisterPlugin, Expected: 'unregisterPlugin'},
+  {Name: 'csyncPluginRegistryWithPath', Actual: cmd.csyncPluginRegistryWithPath, Expected: 'syncPluginRegistryWithPath'},
+  {Name: 'cunregisterAllPlugins', Actual: cmd.cunregisterAllPlugins, Expected: 'unregisterAllPlugins'},
+  {Name: 'csavePluginRegistryToDisk', Actual: cmd.csavePluginRegistryToDisk, Expected: 'savePluginRegistryToDisk'},
+  {Name: 'cloadPlugin', Actual: cmd.cloadPlugin, Expected: 'loadPlugin'},
+  {Name: 'cloadPlugins', Actual: cmd.cloadPlugins, Expected: 'loadPlugins'},
+  {Name: 'cloadPluginsFromRegistry', Actual: cmd.cloadPluginsFromRegistry, Expected: 'loadPluginsFromRegistry'},
+  {Name: 'cunloadPlugin', Actual: cmd.cunloadPlugin, Expected: 'unloadPlugin'},
+  {Name: 'cunloadPlugins', Actual: cmd.cunloadPlugins, Expected: 'unloadPlugins'},
+  {Name: 'cunloadAllPlugin', Actual: cmd.cunloadAllPlugin, Expected: 'unloadAllPlugin'},
+
+  // ***********************************************
   // System commands in order
   // ***********************************************
   {Name: 'cechoCommand', Actual: cmd.cechoCommand, Expected: 'echoCommand'},

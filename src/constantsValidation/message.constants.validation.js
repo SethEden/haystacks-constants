@@ -946,7 +946,8 @@ export const messageConstantsVaidation = [
   {Name: 'cupperCaseLetterFound', Actual: msg.cupperCaseLetterFound, Expected: 'Upper case letter found.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage01', Actual: msg.csingleQuoteSwapAfterEqualsMessage01, Expected: 'inputData is an array! Capture the first element only.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage02', Actual: msg.csingleQuoteSwapAfterEqualsMessage02, Expected: 'inputData is a string input, use it as is.'},
-  {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'}
+  {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'},
+  {Name: 'cErrorUnloadPluginMessage01', Actual: msg.cErrorUnloadPluginMessage01, Expected: 'ERROR: There was an error unloading the plugin: '}
 
   // Coded System Messages
   // EXAMPLE:

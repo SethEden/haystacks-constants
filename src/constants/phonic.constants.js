@@ -1173,6 +1173,8 @@ export const csav = bas.csa + bas.cv; // sav
 export const cSav = bas.cSa + bas.cv; // Sav
 export const cency = cenc + bas.cy; // ency
 export const cancy = canc + bas.cy; // ancy
+export const cisk = bas.cis + bas.ck; // isk
+export const cicc = bas.cis + bas.cc; // isc
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

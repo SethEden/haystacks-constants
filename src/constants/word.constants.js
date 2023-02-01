@@ -3085,6 +3085,14 @@ export const cdependencies = cdepend + phn.cenc + phn.cies; // dependencies
 export const cDependencies = cDepend + phn.cenc + phn.cies; // Dependencies
 export const cdependancies = cdepend + phn.canc + phn.cies; // dependancies
 export const cDependancies = cDepend + phn.canc + phn.cies; // Dependancies
+export const cdisk = bas.cd + phn.cisk; // disk
+export const cDisk = bas.cD + phn.cisk; // Disk
+export const cdisc = bas.cd + phn.cisc; // disc
+export const cDisc = bas.cD + phn.cisc; // Disc
+export const cdisks = cdisk + bas.cs; // disks
+// smuggle something cDisks = cDisk + bas.cs; // Disks // NOTE: Cannot redeclare Disks - Language limitation
+export const cdiscs = cdisc + bas.cs; // discs
+// smuggle something cDiskes = cDisc + bas.cs; // Discs // NOTE: Cannot redeclare Discs - Language limitation
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

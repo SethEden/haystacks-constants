@@ -3080,6 +3080,14 @@ export const wordConstantsValidation = [
   {Name: 'cDependencies', Actual: wrd.cDependencies, Expected: 'Dependencies'},
   {Name: 'cdependancies', Actual: wrd.cdependancies, Expected: 'dependancies'},
   {Name: 'cDependancies', Actual: wrd.cDependancies, Expected: 'Dependancies'},
+  {Name: 'cdisk', Actual: wrd.cdisk, Expected: 'disk'},
+  {Name: 'cDisk', Actual: wrd.cDisk, Expected: 'Disk'},
+  {Name: 'cdisc', Actual: wrd.cdisc, Expected: 'disc'},
+  {Name: 'cDisc', Actual: wrd.cDisc, Expected: 'Disc'},
+  {Name: 'cdisks', Actual: wrd.cdisks, Expected: 'disks'},
+  // smuggle something cDisks = cDisk + bas.cs; // Disks // NOTE: Cannot redeclare Disks - Language limitation
+  {Name: 'cdiscs', Actual: wrd.cdiscs, Expected: 'discs'},
+  // smuggle something cDiskes = cDisc + bas.cs; // Discs // NOTE: Cannot redeclare Discs - Language limitation
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
