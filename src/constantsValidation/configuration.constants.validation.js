@@ -52,6 +52,7 @@ export const configurationConstantsValidation = [
   {Name: 'cpluginCommandAliasesPath', Actual: cfg.cpluginCommandAliasesPath, Expected: 'pluginCommandAliasesPath'},
   {Name: 'cframeworkWorkflowsPath', Actual: cfg.cframeworkWorkflowsPath, Expected: 'frameworkWorkflowsPath'},
   {Name: 'cpluginWorkflowsPath', Actual: cfg.cpluginWorkflowsPath, Expected: 'pluginWorkflowsPath'},
+  {Name: 'cpluginThemesPath', Actual: cfg.cpluginThemesPath, Expected: 'pluginThemesPath'},
   {Name: 'cdebugSetting', Actual: cfg.cdebugSetting, Expected: 'debugSetting'},
   {Name: 'cdebugSettings', Actual: cfg.cdebugSettings, Expected: 'debugSettings'},
   {Name: 'cdebugFiles', Actual: cfg.cdebugFiles, Expected: 'debugFiles'},
