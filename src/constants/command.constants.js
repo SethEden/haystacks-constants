@@ -68,7 +68,7 @@ export const ccommandMetrics = wrd.ccommand + wrd.cMetrics; // commandMetrics
 // ***********************************************
 // Plugin commands in order
 // ***********************************************
-export const clistAllPluginsInRegistry = wrd.clist + wrd.cAll + wrd.cPlugins + wrd.cin + wrd.cRegistry; // listAllPluginsInRegistry
+export const clistAllPluginsInRegistry = wrd.clist + wrd.cAll + wrd.cPlugins + wrd.cIn + wrd.cRegistry; // listAllPluginsInRegistry
 export const clistAllPluginsInRegistryPath = wrd.clist + wrd.cAll + wrd.cPlugins + wrd.cIn + wrd.cRegistry + wrd.cPath; // listAllPluginsInRegistryPath
 export const ccountPluginsInRegistry = wrd.ccount + wrd.cPlugins + wrd.cIn + wrd.cRegistry; // countPluginsInRegistry
 export const ccountPluginsInRegistryPath = wrd.ccount + wrd.cPlugins + wrd.cIn + wrd.cRegistry + wrd.cPath; // countPluginsInRegistryPath

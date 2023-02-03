@@ -376,7 +376,7 @@ export const crint = bas.cri + bas.cnt; // rint
 export const cgen = bas.cge + bas.cn; // gen
 export const cGen = bas.cGe + bas.cn; // Gen
 export const cato = bas.cat + bas.co; // ato
-export const cator = cato + bas.r; // ator
+export const cator = cato + bas.cr; // ator
 export const cdex = bas.cde + bas.cx; // dex
 export const call = bas.cal + bas.cl; // all
 export const cAll = bas.cAl + bas.cl; // All
@@ -1175,7 +1175,7 @@ export const cSav = bas.cSa + bas.cv; // Sav
 export const cency = cenc + bas.cy; // ency
 export const cancy = canc + bas.cy; // ancy
 export const cisk = bas.cis + bas.ck; // isk
-export const cicc = bas.cis + bas.cc; // isc
+export const cisc = bas.cis + bas.cc; // isc
 export const cmov = bas.cmo + bas.cv; // mov
 //////////////////////////////////////////////////////////////////
 // Knots

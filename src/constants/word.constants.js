@@ -689,10 +689,10 @@ export const cremove = bas.cre + cmove; // remove
 export const cRemove = bas.cRe + cmove; // Remove
 export const cremoves = cremove + bas.cs; // removes
 export const cRemoves = cRemove + bas.cs; // Removes
-export const cremoved = cremove + bas.ced; // removed
-export const cRemoved = cRemove + bas.ced; // Removed
-export const cremover = cremove + bas.cer; // remover
-export const cRemover = cRemove + bas.cer; // Remover
+export const cremoved = cremove + bas.cd; // removed
+export const cRemoved = cRemove + bas.cd; // Removed
+export const cremover = cremove + bas.cr; // remover
+export const cRemover = cRemove + bas.cr; // Remover
 export const cremoving = bas.cre + phn.cmov + phn.cing; // removing
 export const cRemoving = bas.cRe + phn.cmov + phn.cing; // Removing
 export const cExtension = phn.cExt + bas.cen + bas.cs + phn.cion; // Extension
@@ -3110,7 +3110,7 @@ export const cDisc = bas.cD + phn.cisc; // Disc
 export const cdisks = cdisk + bas.cs; // disks
 // smuggle something cDisks = cDisk + bas.cs; // Disks // NOTE: Cannot redeclare Disks - Language limitation
 export const cdiscs = cdisc + bas.cs; // discs
-// smuggle something cDiskes = cDisc + bas.cs; // Discs // NOTE: Cannot redeclare Discs - Language limitation
+// smuggle something cDiscs = cDisc + bas.cs; // Discs // NOTE: Cannot redeclare Discs - Language limitation
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

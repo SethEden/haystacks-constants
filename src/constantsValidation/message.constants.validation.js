@@ -950,6 +950,7 @@ export const messageConstantsVaidation = [
   {Name: 'csingleQuoteSwapAfterEqualsMessage01', Actual: msg.csingleQuoteSwapAfterEqualsMessage01, Expected: 'inputData is an array! Capture the first element only.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage02', Actual: msg.csingleQuoteSwapAfterEqualsMessage02, Expected: 'inputData is a string input, use it as is.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'},
+  {Name: 'cloadConfigDataErrorMessage01', Actual: msg.cloadConfigDataErrorMessage01, Expected: 'FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure: '},
   {Name: 'cErrorUnloadPluginMessage01', Actual: msg.cErrorUnloadPluginMessage01, Expected: 'ERROR: There was an error unloading the plugin: '},
   {Name: 'cErrorUnloadPluginMessage02', Actual: msg.cErrorUnloadPluginMessage02, Expected: 'ERROR: Failure to remove business rules for the plugin: '},
   {Name: 'cErrorUnloadPluginMessage03', Actual: msg.cErrorUnloadPluginMessage03, Expected: 'ERROR: Failure to remove commands for the plugin: '},
