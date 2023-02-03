@@ -642,6 +642,7 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantPrefixIs', Actual: msg.cconstantPrefixIs, Expected: 'constantPrefix is: '},
   {Name: 'cinputAndOutputAreTheSame', Actual: msg.cinputAndOutputAreTheSame, Expected: 'input and output are the same!'},
   {Name: 'carrayElementIs', Actual: msg.carrayElementIs, Expected: 'arrayElement is: '},
+  {Name: 'cattributeNameIs', Actual: msg.cattributeNameIs, Expected: 'attributeName is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -672,6 +673,7 @@ export const messageConstantsVaidation = [
   {Name: 'cAfterConcatenating2ArraysInputDataPropertyIs', Actual: msg.cAfterConcatenating2ArraysInputDataPropertyIs, Expected: 'AFTER concatenating two arrays: inputData[property] is: '},
   {Name: 'cAfterRecursiveMergeInputDataPropertyIs', Actual: msg.cAfterRecursiveMergeInputDataPropertyIs, Expected: 'AFTER recursive merge: inputData[property] is: '},
   {Name: 'cnamespaceDataObjectIs', Actual: msg.cnamespaceDataObjectIs, Expected: 'namespaceDataObject is: '},
+  {Name: 'cdataStructureIs', Actual: msg.cdataStructureIs, Expected: 'dataStructure is: '},
   // MultiCommandAliases
   {Name: 'cnamespaceCommandsDataIs', Actual: msg.cnamespaceCommandsDataIs, Expected: 'namespaceCommandsData is: '},
   {Name: 'callCommandAliasFlatDataIs', Actual: msg.callCommandAliasFlatDataIs, Expected: 'allCommandAliasFlatData is: '},
@@ -742,6 +744,10 @@ export const messageConstantsVaidation = [
   {Name: 'cconstantsFilePathNamesIs', Actual: msg.cconstantsFilePathNamesIs, Expected: 'constantsFilePathName is: '},
   {Name: 'cconstantsFilePathValueIs', Actual: msg.cconstantsFilePathValueIs, Expected: 'constantsFilePathValue is: '},
   {Name: 'cnewPluginConstantValidationNameIs', Actual: msg.cnewPluginConstantValidationNameIs, Expected: 'newPluginConstantValidationName is: '},
+  {Name: 'cpluginObjectIs', Actual: msg.cpluginObjectIs, Expected: 'pluginObject is: '},
+  {Name: 'cpluginParentObjectIs', Actual: msg.cpluginParentObjectIs, Expected: 'pluginParentObject is: '},
+  {Name: 'cpluginBusinessRuleConstValidationObjectIs', Actual: msg.cpluginBusinessRuleConstValidationObjectIs, Expected: 'pluginBusinessRuleConstValidationObject is: '},
+  {Name: 'cpluginCommandsConstValidationObjectIs', Actual: msg.cpluginCommandsConstValidationObjectIs, Expected: 'pluginCommandsConstValidationObject is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -943,7 +949,30 @@ export const messageConstantsVaidation = [
   {Name: 'cupperCaseLetterFound', Actual: msg.cupperCaseLetterFound, Expected: 'Upper case letter found.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage01', Actual: msg.csingleQuoteSwapAfterEqualsMessage01, Expected: 'inputData is an array! Capture the first element only.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage02', Actual: msg.csingleQuoteSwapAfterEqualsMessage02, Expected: 'inputData is a string input, use it as is.'},
-  {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'}
+  {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'},
+  {Name: 'cloadConfigDataErrorMessage01', Actual: msg.cloadConfigDataErrorMessage01, Expected: 'FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure: '},
+  {Name: 'cErrorUnloadPluginMessage01', Actual: msg.cErrorUnloadPluginMessage01, Expected: 'ERROR: There was an error unloading the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage02', Actual: msg.cErrorUnloadPluginMessage02, Expected: 'ERROR: Failure to remove business rules for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage03', Actual: msg.cErrorUnloadPluginMessage03, Expected: 'ERROR: Failure to remove commands for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage04', Actual: msg.cErrorUnloadPluginMessage04, Expected: 'ERROR: Failure to remove configuration data for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage05', Actual: msg.cErrorUnloadPluginMessage05, Expected: 'ERROR: Failure to remove command aliases for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage06', Actual: msg.cErrorUnloadPluginMessage06, Expected: 'ERROR: Failure to remove workflows for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage07', Actual: msg.cErrorUnloadPluginMessage07, Expected: 'ERROR: Failure to remove theme data for the plugin: '},
+  {Name: 'cErrorUnloadPluginMessage08', Actual: msg.cErrorUnloadPluginMessage08, Expected: 'ERROR: Failure to remove constants validation data for the plugin: '},
+  {Name: 'cremovePluginBusinessRulesMessage01', Actual: msg.cremovePluginBusinessRulesMessage01, Expected: 'ERROR: Constants validation data for the specified plugin was not found. Plugin: '},
+  {Name: 'cremovePluginBusinessRulesMessage02', Actual: msg.cremovePluginBusinessRulesMessage02, Expected: 'Removing plugin business rule: '},
+  {Name: 'cremovePluginBusinessRulesMessage03', Actual: msg.cremovePluginBusinessRulesMessage03, Expected: 'ERROR: Failure attempting to delete the plugin business rules for plugin: '},
+  {Name: 'cremovePluginBusinessRulesMessage04', Actual: msg.cremovePluginBusinessRulesMessage04, Expected: 'ERROR: Plugin business rule constants validation data for the specified plugin was not found. Plugin: '},
+  {Name: 'cremovePluginCommandsMessage01', Actual: msg.cremovePluginCommandsMessage01, Expected: 'Removing plugin command: '},
+  {Name: 'cremovePluginCommandsMessage02', Actual: msg.cremovePluginCommandsMessage02, Expected: 'ERROR: Failure attempting to delete the plugin commands for plugin: '},
+  {Name: 'cremovePluginCommandsMessage03', Actual: msg.cremovePluginCommandsMessage03, Expected: 'ERROR: Plugin command constants validation data for the specified plugin was not found. Plugin: '},
+  {Name: 'cremovePluginConfigurationDataMessage01', Actual: msg.cremovePluginConfigurationDataMessage01, Expected: 'ERROR: Unable to remove the plugin configuration data for the specified plugin: '},
+  {Name: 'cremovePluginConfigurationDataMessage02', Actual: msg.cremovePluginConfigurationDataMessage02, Expected: 'ERROR: Unable to locate the plugins configuration data. Plugin: '},
+  {Name: 'cremovePluginConfigurationDataMessage03', Actual: msg.cremovePluginConfigurationDataMessage03, Expected: 'ERROR: Unable to locate the plugins configuration debug settings data. Plugin: '},
+  {Name: 'cremovePluginCommandAliasesMessage01', Actual: msg.cremovePluginCommandAliasesMessage01, Expected: 'ERROR: Unable to remove the plugin command aliases for the specified plugin: '},
+  {Name: 'cremovePluginCommandAliasesMessage02', Actual: msg.cremovePluginCommandAliasesMessage02, Expected: 'ERROR: Unable to locate the plugins command aliases data. Plugin: '},
+  {Name: 'cremovePluginWorkflowsMessage01', Actual: msg.cremovePluginWorkflowsMessage01, Expected: 'ERROR: Unable to remove the plugin workflows for the specified plugin: '},
+  {Name: 'cremovePluginWorkflowsMessage02', Actual: msg.cremovePluginWorkflowsMessage02, Expected: 'ERROR: Unable to locate the plugins workflow data. Plugin: '}
 
   // Coded System Messages
   // EXAMPLE:
