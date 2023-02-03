@@ -51,6 +51,7 @@ export const cframeworkCommandAliasesPath = wrd.cframework + wrd.cCommand + wrd.
 export const cpluginCommandAliasesPath = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cPath; // pluginCommandAliasesPath
 export const cframeworkWorkflowsPath = wrd.cframework + wrd.cWorkflows + wrd.cPath; // frameworkWorkflowsPath
 export const cpluginWorkflowsPath = wrd.cplugin + wrd.cWorkflows + wrd.cPath; // pluginWorkflowsPath
+export const cpluginThemesPath = wrd.cplugin + wrd.cThemes + wrd.cPath; // pluginThemesPath
 export const cdebugSetting = wrd.cdebug + wrd.cSetting; // debugSetting
 export const cdebugSettings = wrd.cdebug + wrd.cSettings; // debugSettings
 export const cdebugFiles = wrd.cdebug + wrd.cFiles; // debugFiles

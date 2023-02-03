@@ -677,6 +677,7 @@ export const cdataToMergeKeysJis = wrd.cdata + wrd.cTo + wrd.cMerge + wrd.cKeys 
 export const cAfterConcatenating2ArraysInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.cconcatenating + bas.cSpace + num.ctwo + bas.cSpace + wrd.carrays + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER concatenating two arrays: inputData[property] is:
 export const cAfterRecursiveMergeInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.cmerge + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER recursive merge: inputData[property] is:
 export const cnamespaceDataObjectIs = wrd.cnamespace + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceDataObject is:
+export const cdataStructureIs = wrd.cdata + wrd.cStructure + sys.cSpaceIsColonSpace; // dataStructure is:
 // MultiCommandAliases
 export const cnamespaceCommandsDataIs = wrd.cnamespace + wrd.cCommands + wrd.cData + sys.cSpaceIsColonSpace; // namespaceCommandsData is:
 export const callCommandAliasFlatDataIs = wrd.call + wrd.cCommand + wrd.cAlias + wrd.cFlat + wrd.cData + sys.cSpaceIsColonSpace; // allCommandAliasFlatData is:
@@ -749,6 +750,8 @@ export const cconstantsFilePathValueIs = wrd.cconstants + wrd.cFile + wrd.cPath 
 export const cnewPluginConstantValidationNameIs = wrd.cnew + wrd.cPlugin + wrd.cConstant + wrd.cValidation + wrd.cName + sys.cSpaceIsColonSpace; // newPluginConstantValidationName is:
 export const cpluginObjectIs = wrd.cplugin + wrd.cObject + sys.cSpaceIsColonSpace; // pluginObject is:
 export const cpluginParentObjectIs = wrd.cplugin + wrd.cParent + wrd.cObject + sys.cSpaceIsColonSpace; // pluginParentObject is:
+export const cpluginBusinessRuleConstValidationObjectIs = wrd.cplugin + wrd.cBusiness + wrd.cRule + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginBusinessRuleConstValidationObject is:
+export const cpluginCommandsConstValidationObjectIs = wrd.cplugin + wrd.cCommands + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginCommandsConstValidationObject is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1065,6 +1068,47 @@ export const csingleQuoteSwapAfterEqualsMessage02 = cinputData + bas.cSpace + wr
 export const csingleQuoteSwapAfterEqualsMessage03 = num.cFirst + bas.cSpace + wrd.creplace + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cquotes + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cdouble + bas.cSpace + wrd.cquotes + bas.cDot; // First replace all the quotes in the string with double quotes.
 export const cloadConfigDataErrorMessage01 = wrd.cFATAL + bas.cSpace + cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cpath + bas.cComa + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cdependency + bas.cSpace + wrd.cfailure + bas.cColon + bas.cSpace; // FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure:
 export const cErrorUnloadPluginMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerrro + bas.cSpace + wrd.cunloading + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace; // ERROR: There was an error unloading the plugin: 
+// ERROR: Failure to remove business rules for the plugin:
+export const cErrorUnloadPluginMessage02 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove commands for the plugin:
+export const cErrorUnloadPluginMessage03 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove configuration data for the plugin:
+export const cErrorUnloadPluginMessage04 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove command aliases for the plugin:
+export const cErrorUnloadPluginMessage05 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove workflows for the plugin:
+export const cErrorUnloadPluginMessage06 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove theme data for the plugin:
+export const cErrorUnloadPluginMessage07 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.ctheme + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Failure to remove constants validation data for the plugin:
+export const cErrorUnloadPluginMessage08 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Constants validation data for the specified plugin was not found. Plugin:
+export const cremovePluginBusinessRulesMessage01 = cERROR_Colon + wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+export const cremovePluginBusinessRulesMessage02 = wrd.cRemoving + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crule + bas.cColon + bas.cSpace; // Removing plugin business rule:
+// ERROR: Failure attempting to delete the plugin business rules for plugin:
+export const cremovePluginBusinessRulesMessage03 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Plugin business rule constants validation data for the specified plugin was not found. Plugin:
+export const cremovePluginBusinessRulesMessage04 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crule + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// Removing plugin command:
+export const cremovePluginCommandsMessage01 = wrd.cRemoving + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommand + bas.cColon + bas.cSpace;
+// ERROR: Failure attempting to delete the plugin commands for plugin:
+export const cremovePluginCommandsMessage02 = wrd.cFailure + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Plugin command constants validation data for the specified plugin was not found. Plugin:
+export const cremovePluginCommandsMessage03 = wrd.cPlugin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot + bas.cSpace + wrd.cPlugn + bas.cColon + bas.cSpace;
+// ERROR: Unable to remove the plugin configuration data for the specified plugin: 
+export const cremovePluginConfigurationDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins configuration data. Plugin:
+export const cremovePluginConfigurationDataMessage02 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins configuration debug settings data. Plugin:
+export const cremovePluginConfigurationDataMessage03 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csettings + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to remove the plugin command aliases for the specified plugin:
+export const cremovePluginCommandAliasesMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins command aliases data. Plugin: 
+export const cremovePluginCommandAliasesMessage02 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to remove the plugin workflows for the specified plugin:
+export const cremovePluginWorkflowsMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins workflow data. Plugin:
+export const cremovePluginWorkflowsMessage02 = cERROR_Colon + bas.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:
