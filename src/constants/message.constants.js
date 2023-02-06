@@ -753,6 +753,11 @@ export const cpluginParentObjectIs = wrd.cplugin + wrd.cParent + wrd.cObject + s
 export const cpluginBusinessRuleConstValidationObjectIs = wrd.cplugin + wrd.cBusiness + wrd.cRule + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginBusinessRuleConstValidationObject is:
 export const cpluginCommandsConstValidationObjectIs = wrd.cplugin + wrd.cCommands + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginCommandsConstValidationObject is:
 export const cloadedPlugin = wrd.cloaded + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace; // loaded plugin:
+export const cpluginsLoadedListIs = wrd.cplugins + wrd.cLoaded + wrd.cLists + sys.cSpaceIsColonSpace; // pluginsLoadedList is:
+export const cpluginLoadedKeyIs = wrd.cplugin + wrd.cLoaded + wrd.cKey + sys.cSpaceIsColonSpace; // pluginLoadedKey is:
+export const cpluginLoadedEntryIs = wrd.cplugin + wrd.cLoaded + wrd.cEntry + sys.cSpaceIsColonSpace; // pluginLoadedEntry is:
+export const cpluginLoadedEntryNameIs = wrd.cplugin + wrd.cLoaded + wrd.cEntry + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace; // pluginLoadedEntry name is:
+export const clistAllLoadedPluginsMessage01 = wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace; // List of loaded plugins is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1117,7 +1122,13 @@ export const cremovePluginThemesMessage02 = cERROR_Colon + wrd.cUnable + bas.cSp
 // ERROR: Unable to remove the plugin constants validation data for the specified plugin:
 export const cremovePluginConstantsValidationDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Unable to locate the plugins constants validation data. Plugin:
-export const cremovePluginConstantsValidationDataMessage02 = cERROR_Coolon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+export const cremovePluginConstantsValidationDataMessage02 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: No plugin name specified:
+export const cErrorUnloadPluginsMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cspecified + bas.cColong + bas.cSpace;
+// pluginsLoadedList is an array and length greater than or equal to 1
+export const cunloadPluginMessage01 = wrd.cplugins + wrd.cLoaded + wrd.cList + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cand + bas.cSpace + wrd.clength + bas.cSpace + wrd.cgreater + bas.cSpace + wrd.cthan + bas.cSpace + wrd.cor + bas.cSpace + wrd.cequal + bas.cSpace + wrd.cto + bas.cSpace + num.c1;
+// ERROR: There was an error getting the list of loaded plugins.
+export const cErrorListAllLoadedPluginsMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cgetting + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cplugins + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:

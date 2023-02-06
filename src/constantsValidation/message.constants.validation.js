@@ -749,6 +749,11 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginBusinessRuleConstValidationObjectIs', Actual: msg.cpluginBusinessRuleConstValidationObjectIs, Expected: 'pluginBusinessRuleConstValidationObject is: '},
   {Name: 'cpluginCommandsConstValidationObjectIs', Actual: msg.cpluginCommandsConstValidationObjectIs, Expected: 'pluginCommandsConstValidationObject is: '},
   {Name: 'cloadedPlugin', Actual: msg.cloadedPlugin, Expected: 'loaded plugin: '},
+  {Name: 'cpluginsLoadedListIs', Actual: msg.cpluginsLoadedListIs, Expected: 'pluginsLoadedList is: '},
+  {Name: 'cpluginLoadedKeyIs', Actual: msg.cpluginLoadedKeyIs, Expected: 'pluginLoadedKey is: '},
+  {Name: 'cpluginLoadedEntryIs', Actual: msg.cpluginLoadedEntryIs, Expected: 'pluginLoadedEntry is: '},
+  {Name: 'cpluginLoadedEntryNameIs', Actual: msg.cpluginLoadedEntryNameIs, Expected: 'pluginLoadedEntry name is: '},
+  {Name: 'clistAllLoadedPluginsMessage01', Actual: msg.clistAllLoadedPluginsMessage01, Expected: 'List of loaded plugins is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -977,7 +982,10 @@ export const messageConstantsVaidation = [
   {Name: 'cremovePluginThemesMessage01', Actual: msg.cremovePluginThemesMessage01, Expected: 'ERROR: Unable to remove the plugin themes for the specified plugin: '},
   {Name: 'cremovePluginThemesMessage02', Actual: msg.cremovePluginThemesMessage02, Expected: 'ERROR: Unable to locate the plugins themes data. Plugin: '},
   {Name: 'cremovePluginConstantsValidationDataMessage01', Actual: msg.cremovePluginConstantsValidationDataMessage01, Expected: 'ERROR: Unable to remove the plugin constants validation data for the specified plugin: '},
-  {Name: 'cremovePluginConstantsValidationDataMessage02', Actual: msg.cremovePluginConstantsValidationDataMessage02, Expected: 'ERROR: Unable to locate the plugins constants validation data. Plugin: '}
+  {Name: 'cremovePluginConstantsValidationDataMessage02', Actual: msg.cremovePluginConstantsValidationDataMessage02, Expected: 'ERROR: Unable to locate the plugins constants validation data. Plugin: '},
+  {Name: 'cErrorUnloadPluginsMessage01', Actual: msg.cErrorUnloadPluginsMessage01, Expected: 'ERROR: No plugin name specified: '},
+  {Name: 'cunloadPluginMessage01', Actual: msg.cunloadPluginMessage01, Expected: 'pluginsLoadedList is an array and length greater than or equal to 1'},
+  {Name: 'cErrorListAllLoadedPluginsMessage01', Actual: msg.cErrorListAllLoadedPluginsMessage01, Expected: 'ERROR: There was an error getting the list of loaded plugins.'}
 
   // Coded System Messages
   // EXAMPLE:
