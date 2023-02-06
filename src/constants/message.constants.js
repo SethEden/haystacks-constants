@@ -752,6 +752,7 @@ export const cpluginObjectIs = wrd.cplugin + wrd.cObject + sys.cSpaceIsColonSpac
 export const cpluginParentObjectIs = wrd.cplugin + wrd.cParent + wrd.cObject + sys.cSpaceIsColonSpace; // pluginParentObject is:
 export const cpluginBusinessRuleConstValidationObjectIs = wrd.cplugin + wrd.cBusiness + wrd.cRule + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginBusinessRuleConstValidationObject is:
 export const cpluginCommandsConstValidationObjectIs = wrd.cplugin + wrd.cCommands + gen.cConst + wrd.cValidation + wrd.cObject + sys.cSpaceIsColonSpace; // pluginCommandsConstValidationObject is:
+export const cloadedPlugin = wrd.cloaded + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace; // loaded plugin:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1109,6 +1110,14 @@ export const cremovePluginCommandAliasesMessage02 = cERROR_Colon + wrd.cUnable +
 export const cremovePluginWorkflowsMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: Unable to locate the plugins workflow data. Plugin:
 export const cremovePluginWorkflowsMessage02 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to remove the plugin themes for the specified plugin:
+export const cremovePluginThemesMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cthemes + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins themes data. Plugin:
+export const cremovePluginThemesMessage02 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cthemes + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to remove the plugin constants validation data for the specified plugin:
+export const cremovePluginConstantsValidationDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: Unable to locate the plugins constants validation data. Plugin:
+export const cremovePluginConstantsValidationDataMessage02 = cERROR_Coolon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.clocate + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

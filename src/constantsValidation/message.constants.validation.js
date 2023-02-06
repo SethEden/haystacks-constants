@@ -748,6 +748,7 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginParentObjectIs', Actual: msg.cpluginParentObjectIs, Expected: 'pluginParentObject is: '},
   {Name: 'cpluginBusinessRuleConstValidationObjectIs', Actual: msg.cpluginBusinessRuleConstValidationObjectIs, Expected: 'pluginBusinessRuleConstValidationObject is: '},
   {Name: 'cpluginCommandsConstValidationObjectIs', Actual: msg.cpluginCommandsConstValidationObjectIs, Expected: 'pluginCommandsConstValidationObject is: '},
+  {Name: 'cloadedPlugin', Actual: msg.cloadedPlugin, Expected: 'loaded plugin: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -972,7 +973,11 @@ export const messageConstantsVaidation = [
   {Name: 'cremovePluginCommandAliasesMessage01', Actual: msg.cremovePluginCommandAliasesMessage01, Expected: 'ERROR: Unable to remove the plugin command aliases for the specified plugin: '},
   {Name: 'cremovePluginCommandAliasesMessage02', Actual: msg.cremovePluginCommandAliasesMessage02, Expected: 'ERROR: Unable to locate the plugins command aliases data. Plugin: '},
   {Name: 'cremovePluginWorkflowsMessage01', Actual: msg.cremovePluginWorkflowsMessage01, Expected: 'ERROR: Unable to remove the plugin workflows for the specified plugin: '},
-  {Name: 'cremovePluginWorkflowsMessage02', Actual: msg.cremovePluginWorkflowsMessage02, Expected: 'ERROR: Unable to locate the plugins workflow data. Plugin: '}
+  {Name: 'cremovePluginWorkflowsMessage02', Actual: msg.cremovePluginWorkflowsMessage02, Expected: 'ERROR: Unable to locate the plugins workflow data. Plugin: '},
+  {Name: 'cremovePluginThemesMessage01', Actual: msg.cremovePluginThemesMessage01, Expected: 'ERROR: Unable to remove the plugin themes for the specified plugin: '},
+  {Name: 'cremovePluginThemesMessage02', Actual: msg.cremovePluginThemesMessage02, Expected: 'ERROR: Unable to locate the plugins themes data. Plugin: '},
+  {Name: 'cremovePluginConstantsValidationDataMessage01', Actual: msg.cremovePluginConstantsValidationDataMessage01, Expected: 'ERROR: Unable to remove the plugin constants validation data for the specified plugin: '},
+  {Name: 'cremovePluginConstantsValidationDataMessage02', Actual: msg.cremovePluginConstantsValidationDataMessage02, Expected: 'ERROR: Unable to locate the plugins constants validation data. Plugin: '}
 
   // Coded System Messages
   // EXAMPLE:
