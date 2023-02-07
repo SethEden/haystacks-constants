@@ -757,7 +757,10 @@ export const cpluginsLoadedListIs = wrd.cplugins + wrd.cLoaded + wrd.cLists + sy
 export const cpluginLoadedKeyIs = wrd.cplugin + wrd.cLoaded + wrd.cKey + sys.cSpaceIsColonSpace; // pluginLoadedKey is:
 export const cpluginLoadedEntryIs = wrd.cplugin + wrd.cLoaded + wrd.cEntry + sys.cSpaceIsColonSpace; // pluginLoadedEntry is:
 export const cpluginLoadedEntryNameIs = wrd.cplugin + wrd.cLoaded + wrd.cEntry + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace; // pluginLoadedEntry name is:
-export const clistAllLoadedPluginsMessage01 = wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace; // List of loaded plugins is:
+export const clistAllLoadedPluginsMessage01 = wrd.cList + bas.cSpace + wrd.cof + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cplugins + sys.cSpaceIsColonSpace; // List of loaded plugins is:
+export const clistOfPluginsInRegistryIs = wrd.cList + bas.cSpace + wrd.cof + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cin + bas.cSpace + wrd.cregistry + sys.cSpaceIsColonSpace; // List of plugins in registry is:
+export const cpluginListArrayIs = wrd.cplugin + wrd.cList + wrd.cArray + sys.cSpaceIsColonSpace; // pluginListArray is:
+export const cpluginsListArrayIs = wrd.cplugins + wrd.cList + wrd.cArray + sys.cSpaceIsColonSpace; // pluginsListArray is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1129,6 +1132,19 @@ export const cErrorUnloadPluginsMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace 
 export const cunloadPluginMessage01 = wrd.cplugins + wrd.cLoaded + wrd.cList + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cand + bas.cSpace + wrd.clength + bas.cSpace + wrd.cgreater + bas.cSpace + wrd.cthan + bas.cSpace + wrd.cor + bas.cSpace + wrd.cequal + bas.cSpace + wrd.cto + bas.cSpace + num.c1;
 // ERROR: There was an error getting the list of loaded plugins.
 export const cErrorListAllLoadedPluginsMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cgetting + bas.cSpace + wrd.cthe + bas.cSpace + wrd.clist + bas.cSpace + wrd.cof + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cplugins + bas.cDot;
+// ERROR: Failure to unregister any of the specified plugins, invalid input:
+export const cErrorUnregisterPluginsCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cunregister + bas.cSpace + wrd.cany + bas.cSpace + wrd.cof + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugins + bas.cSpace + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cinput + bas.cColon + bas.cSpace;
+// ERROR: The plugin name was not a valid name: 
+export const cErrorUnregisterPluginsMessage01 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
+// ERROR: There is no defined plugin registry.
+export const cErrorGetPluginsRegistryPathMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cis + bas.cSpace + wrd.cno + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cDot;
+export const cpluginsRegistryPathMessageIs = wrd.cplugins + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cpath + sys.cSpaceIsColonSpace; // plugins registry path is:
+// ERROR: The specified plugin is already registered. Plugin name:
+export const cErrorRegisterPluginMessage02 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cis + bas.cSpace + wrd.calready + bas.cSpace + wrd.cregistered + bas.cSpace + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name is an invalid value:
+export const cErrorRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+// ERROR: Plugin Path is an invalid value:
+export const cErrorRegisterPluginMessage04 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:
