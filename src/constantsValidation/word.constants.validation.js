@@ -2605,6 +2605,12 @@ export const wordConstantsValidation = [
   {Name: 'cGot', Actual: wrd.cGot, Expected: 'Got'},
   {Name: 'cmiss', Actual: wrd.cmiss, Expected: 'miss'},
   {Name: 'cMiss', Actual: wrd.cMiss, Expected: 'Miss'},
+  {Name: 'cmisses', Actual: wrd.cmisses, Expected: 'misses'},
+  {Name: 'cMisses', Actual: wrd.cMisses, Expected: 'Misses'},
+  {Name: 'cmissed', Actual: wrd.cmissed, Expected: 'missed'},
+  {Name: 'cMissed', Actual: wrd.cMissed, Expected: 'Missed'},
+  {Name: 'cmissing', Actual: wrd.cmissing, Expected: 'missing'},
+  {Name: 'cMissing', Actual: wrd.cMissing, Expected: 'Missing'},
   {Name: 'cecho', Actual: wrd.cecho, Expected: 'echo'},
   {Name: 'cEcho', Actual: wrd.cEcho, Expected: 'Echo'},
   {Name: 'cincrement', Actual: wrd.cincrement, Expected: 'increment'},
@@ -3106,6 +3112,18 @@ export const wordConstantsValidation = [
   // smuggle something cDisks = cDisk + bas.cs; // Disks // NOTE: Cannot redeclare Disks - Language limitation
   {Name: 'cdiscs', Actual: wrd.cdiscs, Expected: 'discs'},
   // smuggle something cDiskes = cDisc + bas.cs; // Discs // NOTE: Cannot redeclare Discs - Language limitation
+  {Name: 'caccumulate', Actual: wrd.caccumulate, Expected: 'accumulate'},
+  {Name: 'cAccumulate', Actual: wrd.cAccumulate, Expected: 'Accumulate'},
+  {Name: 'caccumulates', Actual: wrd.caccumulates, Expected: 'accumulates'},
+  {Name: 'cAccumulates', Actual: wrd.cAccumulates, Expected: 'Accumulates'},
+  {Name: 'caccumulated', Actual: wrd.caccumulated, Expected: 'accumulated'},
+  {Name: 'cAccumulated', Actual: wrd.cAccumulated, Expected: 'Accumulated'},
+  {Name: 'caccumulating', Actual: wrd.caccumulating, Expected: 'accumulating'},
+  {Name: 'cAccumulating', Actual: wrd.cAccumulating, Expected: 'Accumulating'},
+  {Name: 'caccumulator', Actual: wrd.caccumulator, Expected: 'accumulator'},
+  {Name: 'cAccumulator', Actual: wrd.cAccumulator, Expected: 'Accumulator'},
+  {Name: 'caccumulators', Actual: wrd.caccumulators, Expected: 'accumulators'},
+  {Name: 'cAccumulators', Actual: wrd.cAccumulators, Expected: 'Accumulators'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

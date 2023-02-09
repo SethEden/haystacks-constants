@@ -71,13 +71,16 @@ export const commandConstantsValidation = [
   // ***********************************************
   // Plugin commands in order
   // ***********************************************
+  {Name: 'clistAllLoadedPlugins', Actual: cmd.clistAllLoadedPlugins, Expected: 'listAllLoadedPlugins'},
   {Name: 'clistAllPluginsInRegistry', Actual: cmd.clistAllPluginsInRegistry, Expected: 'listAllPluginsInRegistry'},
   {Name: 'clistAllPluginsInRegistryPath', Actual: cmd.clistAllPluginsInRegistryPath, Expected: 'listAllPluginsInRegistryPath'},
   {Name: 'ccountPluginsInRegistry', Actual: cmd.ccountPluginsInRegistry, Expected: 'countPluginsInRegistry'},
   {Name: 'ccountPluginsInRegistryPath', Actual: cmd.ccountPluginsInRegistryPath, Expected: 'countPluginsInRegistryPath'},
   {Name: 'cregisterPlugin', Actual: cmd.cregisterPlugin, Expected: 'registerPlugin'},
   {Name: 'cunregisterPlugin', Actual: cmd.cunregisterPlugin, Expected: 'unregisterPlugin'},
+  {Name: 'cunregisterPlugins', Actual: cmd.cunregisterPlugins, Expected: 'unregisterPlugins'},
   {Name: 'csyncPluginRegistryWithPath', Actual: cmd.csyncPluginRegistryWithPath, Expected: 'syncPluginRegistryWithPath'},
+  {Name: 'clistPluginsRegistryPath', Actual: cmd.clistPluginsRegistryPath, Expected: 'listPluginsRegistryPath'},
   {Name: 'cunregisterAllPlugins', Actual: cmd.cunregisterAllPlugins, Expected: 'unregisterAllPlugins'},
   {Name: 'csavePluginRegistryToDisk', Actual: cmd.csavePluginRegistryToDisk, Expected: 'savePluginRegistryToDisk'},
   {Name: 'cloadPlugin', Actual: cmd.cloadPlugin, Expected: 'loadPlugin'},
@@ -85,7 +88,7 @@ export const commandConstantsValidation = [
   {Name: 'cloadPluginsFromRegistry', Actual: cmd.cloadPluginsFromRegistry, Expected: 'loadPluginsFromRegistry'},
   {Name: 'cunloadPlugin', Actual: cmd.cunloadPlugin, Expected: 'unloadPlugin'},
   {Name: 'cunloadPlugins', Actual: cmd.cunloadPlugins, Expected: 'unloadPlugins'},
-  {Name: 'cunloadAllPlugin', Actual: cmd.cunloadAllPlugin, Expected: 'unloadAllPlugin'},
+  {Name: 'cunloadAllPlugins', Actual: cmd.cunloadAllPlugins, Expected: 'unloadAllPlugins'},
 
   // ***********************************************
   // System commands in order
