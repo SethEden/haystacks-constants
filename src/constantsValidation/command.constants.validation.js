@@ -78,6 +78,7 @@ export const commandConstantsValidation = [
   {Name: 'ccountPluginsInRegistryPath', Actual: cmd.ccountPluginsInRegistryPath, Expected: 'countPluginsInRegistryPath'},
   {Name: 'cregisterPlugin', Actual: cmd.cregisterPlugin, Expected: 'registerPlugin'},
   {Name: 'cunregisterPlugin', Actual: cmd.cunregisterPlugin, Expected: 'unregisterPlugin'},
+  {Name: 'cunregisterPlugins', Actual: cmd.cunregisterPlugins, Expected: 'unregisterPlugins'},
   {Name: 'csyncPluginRegistryWithPath', Actual: cmd.csyncPluginRegistryWithPath, Expected: 'syncPluginRegistryWithPath'},
   {Name: 'clistPluginsRegistryPath', Actual: cmd.clistPluginsRegistryPath, Expected: 'listPluginsRegistryPath'},
   {Name: 'cunregisterAllPlugins', Actual: cmd.cunregisterAllPlugins, Expected: 'unregisterAllPlugins'},

@@ -757,6 +757,8 @@ export const messageConstantsVaidation = [
   {Name: 'clistOfPluginsInRegistryIs', Actual: msg.clistOfPluginsInRegistryIs, Expected: 'List of plugins in registry is: '},
   {Name: 'cpluginListArrayIs', Actual: msg.cpluginListArrayIs, Expected: 'pluginListArray is: '},
   {Name: 'cpluginsListArrayIs', Actual: msg.cpluginsListArrayIs, Expected: 'pluginsListArray is: '},
+  {Name: 'caccumulatorPluginRegistryIs', Actual: msg.caccumulatorPluginRegistryIs, Expected: 'accumulatorPluginRegistry is: '},
+  {Name: 'cprefixPluginPathIs', Actual: msg.cprefixPluginPathIs, Expected: 'prefixPluginPath is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -995,7 +997,8 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginsRegistryPathMessageIs', Actual: msg.cpluginsRegistryPathMessageIs, Expected: 'plugins registry path is: '},
   {Name: 'cErrorRegisterPluginMessage02', Actual: msg.cErrorRegisterPluginMessage02, Expected: 'ERROR: The specified plugin is already registered. Plugin name: '},
   {Name: 'cErrorRegisterPluginMessage03', Actual: msg.cErrorRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
-  {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '}
+  {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '},
+  {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '}
 
   // Coded System Messages
   // EXAMPLE:
