@@ -748,6 +748,17 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginParentObjectIs', Actual: msg.cpluginParentObjectIs, Expected: 'pluginParentObject is: '},
   {Name: 'cpluginBusinessRuleConstValidationObjectIs', Actual: msg.cpluginBusinessRuleConstValidationObjectIs, Expected: 'pluginBusinessRuleConstValidationObject is: '},
   {Name: 'cpluginCommandsConstValidationObjectIs', Actual: msg.cpluginCommandsConstValidationObjectIs, Expected: 'pluginCommandsConstValidationObject is: '},
+  {Name: 'cloadedPlugin', Actual: msg.cloadedPlugin, Expected: 'loaded plugin: '},
+  {Name: 'cpluginsLoadedListIs', Actual: msg.cpluginsLoadedListIs, Expected: 'pluginsLoadedList is: '},
+  {Name: 'cpluginLoadedKeyIs', Actual: msg.cpluginLoadedKeyIs, Expected: 'pluginLoadedKey is: '},
+  {Name: 'cpluginLoadedEntryIs', Actual: msg.cpluginLoadedEntryIs, Expected: 'pluginLoadedEntry is: '},
+  {Name: 'cpluginLoadedEntryNameIs', Actual: msg.cpluginLoadedEntryNameIs, Expected: 'pluginLoadedEntry name is: '},
+  {Name: 'clistAllLoadedPluginsMessage01', Actual: msg.clistAllLoadedPluginsMessage01, Expected: 'List of loaded plugins is: '},
+  {Name: 'clistOfPluginsInRegistryIs', Actual: msg.clistOfPluginsInRegistryIs, Expected: 'List of plugins in registry is: '},
+  {Name: 'cpluginListArrayIs', Actual: msg.cpluginListArrayIs, Expected: 'pluginListArray is: '},
+  {Name: 'cpluginsListArrayIs', Actual: msg.cpluginsListArrayIs, Expected: 'pluginsListArray is: '},
+  {Name: 'caccumulatorPluginRegistryIs', Actual: msg.caccumulatorPluginRegistryIs, Expected: 'accumulatorPluginRegistry is: '},
+  {Name: 'cprefixPluginPathIs', Actual: msg.cprefixPluginPathIs, Expected: 'prefixPluginPath is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -972,7 +983,22 @@ export const messageConstantsVaidation = [
   {Name: 'cremovePluginCommandAliasesMessage01', Actual: msg.cremovePluginCommandAliasesMessage01, Expected: 'ERROR: Unable to remove the plugin command aliases for the specified plugin: '},
   {Name: 'cremovePluginCommandAliasesMessage02', Actual: msg.cremovePluginCommandAliasesMessage02, Expected: 'ERROR: Unable to locate the plugins command aliases data. Plugin: '},
   {Name: 'cremovePluginWorkflowsMessage01', Actual: msg.cremovePluginWorkflowsMessage01, Expected: 'ERROR: Unable to remove the plugin workflows for the specified plugin: '},
-  {Name: 'cremovePluginWorkflowsMessage02', Actual: msg.cremovePluginWorkflowsMessage02, Expected: 'ERROR: Unable to locate the plugins workflow data. Plugin: '}
+  {Name: 'cremovePluginWorkflowsMessage02', Actual: msg.cremovePluginWorkflowsMessage02, Expected: 'ERROR: Unable to locate the plugins workflow data. Plugin: '},
+  {Name: 'cremovePluginThemesMessage01', Actual: msg.cremovePluginThemesMessage01, Expected: 'ERROR: Unable to remove the plugin themes for the specified plugin: '},
+  {Name: 'cremovePluginThemesMessage02', Actual: msg.cremovePluginThemesMessage02, Expected: 'ERROR: Unable to locate the plugins themes data. Plugin: '},
+  {Name: 'cremovePluginConstantsValidationDataMessage01', Actual: msg.cremovePluginConstantsValidationDataMessage01, Expected: 'ERROR: Unable to remove the plugin constants validation data for the specified plugin: '},
+  {Name: 'cremovePluginConstantsValidationDataMessage02', Actual: msg.cremovePluginConstantsValidationDataMessage02, Expected: 'ERROR: Unable to locate the plugins constants validation data. Plugin: '},
+  {Name: 'cErrorUnloadPluginsMessage01', Actual: msg.cErrorUnloadPluginsMessage01, Expected: 'ERROR: No plugin name specified: '},
+  {Name: 'cunloadPluginMessage01', Actual: msg.cunloadPluginMessage01, Expected: 'pluginsLoadedList is an array and length greater than or equal to 1'},
+  {Name: 'cErrorListAllLoadedPluginsMessage01', Actual: msg.cErrorListAllLoadedPluginsMessage01, Expected: 'ERROR: There was an error getting the list of loaded plugins.'},
+  {Name: 'cErrorUnregisterPluginsCommandMessage01', Actual: msg.cErrorUnregisterPluginsCommandMessage01, Expected: 'ERROR: Failure to unregister any of the specified plugins, invalid input: '},
+  {Name: 'cErrorUnregisterPluginsMessage01', Actual: msg.cErrorUnregisterPluginsMessage01, Expected: 'ERROR: The plugin name was not a valid name: '},
+  {Name: 'cErrorGetPluginsRegistryPathMessage01', Actual: msg.cErrorGetPluginsRegistryPathMessage01, Expected: 'ERROR: There is no defined plugin registry.'},
+  {Name: 'cpluginsRegistryPathMessageIs', Actual: msg.cpluginsRegistryPathMessageIs, Expected: 'plugins registry path is: '},
+  {Name: 'cErrorRegisterPluginMessage02', Actual: msg.cErrorRegisterPluginMessage02, Expected: 'ERROR: The specified plugin is already registered. Plugin name: '},
+  {Name: 'cErrorRegisterPluginMessage03', Actual: msg.cErrorRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
+  {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '},
+  {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '}
 
   // Coded System Messages
   // EXAMPLE:

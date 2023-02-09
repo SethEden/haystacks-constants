@@ -102,6 +102,7 @@ export const creleaseCompleted = wrd.crelease + wrd.cCompleted; // releaseComple
 export const cpluginRegistry = wrd.cplugin + wrd.cRegistry; // pluginRegistry
 export const cpluginRegistryPath = wrd.cplugin + wrd.cRegistry + wrd.cPath; // pluginRegistryPath
 export const cpluginsRootPath = wrd.cplugins + wrd.cRoot + wrd.cPath; // pluginsRootPath
+export const csynchronizePluginRegistryWithPluginFolder = wrd.csynchronize + wrd.cPlugin + wrd.cRegistry + wrd.cWith + wrd.cPlugin + wrd.cFolder; // synchronizePluginRegistryWithPluginFolder
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp

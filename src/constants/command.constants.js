@@ -68,13 +68,16 @@ export const ccommandMetrics = wrd.ccommand + wrd.cMetrics; // commandMetrics
 // ***********************************************
 // Plugin commands in order
 // ***********************************************
+export const clistAllLoadedPlugins = wrd.clist + wrd.cAll + wrd.cLoaded + wrd.cPlugins; // listAllLoadedPlugins
 export const clistAllPluginsInRegistry = wrd.clist + wrd.cAll + wrd.cPlugins + wrd.cIn + wrd.cRegistry; // listAllPluginsInRegistry
 export const clistAllPluginsInRegistryPath = wrd.clist + wrd.cAll + wrd.cPlugins + wrd.cIn + wrd.cRegistry + wrd.cPath; // listAllPluginsInRegistryPath
 export const ccountPluginsInRegistry = wrd.ccount + wrd.cPlugins + wrd.cIn + wrd.cRegistry; // countPluginsInRegistry
 export const ccountPluginsInRegistryPath = wrd.ccount + wrd.cPlugins + wrd.cIn + wrd.cRegistry + wrd.cPath; // countPluginsInRegistryPath
 export const cregisterPlugin = wrd.cregister + wrd.cPlugin; // registerPlugin
 export const cunregisterPlugin = wrd.cunregister + wrd.cPlugin; // unregisterPlugin
+export const cunregisterPlugins = wrd.cunregister + wrd.cPlugins; // unregisterPlugins
 export const csyncPluginRegistryWithPath = wrd.csync + wrd.cPlugin + wrd.cRegistry + wrd.cWith + wrd.cPath; // syncPluginRegistryWithPath
+export const clistPluginsRegistryPath = wrd.clist + wrd.cPlugins + wrd.cRegistry + wrd.cPath; // listPluginsRegistryPath
 export const cunregisterAllPlugins = wrd.cunregister + wrd.cAll + wrd.cPlugins; // unregisterAllPlugins
 export const csavePluginRegistryToDisk = wrd.csave + wrd.cPlugin + wrd.cRegistry + wrd.cTo + wrd.cDisk; // savePluginRegistryToDisk
 export const cloadPlugin = wrd.cload + wrd.cPlugin; // loadPlugin
@@ -82,7 +85,7 @@ export const cloadPlugins = wrd.cload + wrd.cPlugins; // loadPlugins
 export const cloadPluginsFromRegistry = wrd.cload + wrd.cPlugins + wrd.cFrom + wrd.cRegistry; // loadPluginsFromRegistry
 export const cunloadPlugin = wrd.cunload + wrd.cPlugin; // unloadPlugin
 export const cunloadPlugins = wrd.cunload + wrd.cPlugins; // unloadPlugins
-export const cunloadAllPlugin = wrd.cunload + wrd.cAll + wrd.cPlugin; // unloadAllPlugin
+export const cunloadAllPlugins = wrd.cunload + wrd.cAll + wrd.cPlugins; // unloadAllPlugins
 
 // ***********************************************
 // System commands in order

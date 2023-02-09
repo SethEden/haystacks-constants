@@ -103,6 +103,7 @@ export const configurationConstantsValidation = [
   {Name: 'cpluginRegistry', Actual: cfg.cpluginRegistry, Expected: 'pluginRegistry'},
   {Name: 'cpluginRegistryPath', Actual: cfg.cpluginRegistryPath, Expected: 'pluginRegistryPath'},
   {Name: 'cpluginsRootPath', Actual: cfg.cpluginsRootPath, Expected: 'pluginsRootPath'},
+  {Name: 'csynchronizePluginRegistryWithPluginFolder', Actual: cfg.csynchronizePluginRegistryWithPluginFolder, Expected: 'synchronizePluginRegistryWithPluginFolder'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},
