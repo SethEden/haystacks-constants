@@ -647,6 +647,8 @@ export const cconstantPrefixIs = wrd.cconstant + wrd.cPrefix + sys.cSpaceIsColon
 export const cinputAndOutputAreTheSame = wrd.cinput + bas.cSpace + wrd.cand + bas.cSpace + wrd.coutput + bas.cSpace + wrd.care + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csame + bas.cExclamation; // input and output are the same!
 export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpace; // arrayElement is:
 export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSpace; // attributeName is:
+export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cColon + bas.cSpace; // j-th iteration:
+export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -678,6 +680,7 @@ export const cAfterConcatenating2ArraysInputDataPropertyIs = wrd.cAFTER + bas.cS
 export const cAfterRecursiveMergeInputDataPropertyIs = wrd.cAFTER + bas.cSpace + wrd.crecursive + bas.cSpace + wrd.cmerge + bas.cColon + bas.cSpace + cinputDataPropertyIs; // AFTER recursive merge: inputData[property] is:
 export const cnamespaceDataObjectIs = wrd.cnamespace + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceDataObject is:
 export const cdataStructureIs = wrd.cdata + wrd.cStructure + sys.cSpaceIsColonSpace; // dataStructure is:
+export const ccommandQueueIs = wrd.ccommand + wrd.cQueue + sys.cSpaceIsColonSpace; // commandQueue is:
 // MultiCommandAliases
 export const cnamespaceCommandsDataIs = wrd.cnamespace + wrd.cCommands + wrd.cData + sys.cSpaceIsColonSpace; // namespaceCommandsData is:
 export const callCommandAliasFlatDataIs = wrd.call + wrd.cCommand + wrd.cAlias + wrd.cFlat + wrd.cData + sys.cSpaceIsColonSpace; // allCommandAliasFlatData is:
@@ -1149,6 +1152,8 @@ export const cErrorRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cS
 export const cErrorRegisterPluginMessage04 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 // ERROR: A command is missing command aliases definitions. Data:
 export const cErrorCountMatchingCommandAliasMessage01 = cERROR_Colon + bas.cA + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cis + bas.cSpace + wrd.cmissing + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cdefinitions + bas.cDot + bas.cSpace + wrd.cData + bas.cColon + bas.cSpace;
+// ERROR: There was an error attempting to load the specified plugin: 
+export const cloadPluginErrorMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

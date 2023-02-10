@@ -643,6 +643,8 @@ export const messageConstantsVaidation = [
   {Name: 'cinputAndOutputAreTheSame', Actual: msg.cinputAndOutputAreTheSame, Expected: 'input and output are the same!'},
   {Name: 'carrayElementIs', Actual: msg.carrayElementIs, Expected: 'arrayElement is: '},
   {Name: 'cattributeNameIs', Actual: msg.cattributeNameIs, Expected: 'attributeName is: '},
+  {Name: 'cjthIteration', Actual: msg.cjthIteration, Expected: 'j-th iteration: '},
+  {Name: 'cSpaceDataColonSpace', Actual: msg.cSpaceDataColonSpace, Expected: ' data: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -674,6 +676,7 @@ export const messageConstantsVaidation = [
   {Name: 'cAfterRecursiveMergeInputDataPropertyIs', Actual: msg.cAfterRecursiveMergeInputDataPropertyIs, Expected: 'AFTER recursive merge: inputData[property] is: '},
   {Name: 'cnamespaceDataObjectIs', Actual: msg.cnamespaceDataObjectIs, Expected: 'namespaceDataObject is: '},
   {Name: 'cdataStructureIs', Actual: msg.cdataStructureIs, Expected: 'dataStructure is: '},
+  {Name: 'ccommandQueueIs', Actual: msg.ccommandQueueIs, Expected: 'commandQueue is: '},
   // MultiCommandAliases
   {Name: 'cnamespaceCommandsDataIs', Actual: msg.cnamespaceCommandsDataIs, Expected: 'namespaceCommandsData is: '},
   {Name: 'callCommandAliasFlatDataIs', Actual: msg.callCommandAliasFlatDataIs, Expected: 'allCommandAliasFlatData is: '},
@@ -998,7 +1001,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRegisterPluginMessage02', Actual: msg.cErrorRegisterPluginMessage02, Expected: 'ERROR: The specified plugin is already registered. Plugin name: '},
   {Name: 'cErrorRegisterPluginMessage03', Actual: msg.cErrorRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
   {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '},
-  {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '}
+  {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '},
+  {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '}
 
   // Coded System Messages
   // EXAMPLE:
