@@ -1154,6 +1154,8 @@ export const cErrorRegisterPluginMessage04 = cERROR_Colon + wrd.cPlugin + bas.cS
 export const cErrorCountMatchingCommandAliasMessage01 = cERROR_Colon + bas.cA + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cis + bas.cSpace + wrd.cmissing + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cdefinitions + bas.cDot + bas.cSpace + wrd.cData + bas.cColon + bas.cSpace;
 // ERROR: There was an error attempting to load the specified plugin: 
 export const cloadPluginErrorMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
+// ERROR: No data available for reading, error message:
+export const cErrorNoDataAvailableForReading = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cavailable + bas.cSpace + wrd.cfor + bas.cSpace + wrd.creading + bas.cComa + bas.cSpace + cerrorMessage;
 
 // Coded System Messages
 // EXAMPLE:

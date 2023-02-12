@@ -1002,7 +1002,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRegisterPluginMessage03', Actual: msg.cErrorRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
   {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '},
   {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '},
-  {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '}
+  {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '},
+  {Name: 'cErrorNoDataAvailableForReading', Actual: msg.cErrorNoDataAvailableForReading, Expected: 'ERROR: No data available for reading, error message: '}
 
   // Coded System Messages
   // EXAMPLE:
