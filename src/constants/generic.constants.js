@@ -281,3 +281,4 @@ export const cBin = bas.cBi + bas.cn; // Bin
 export const cBIN = bas.cBI + bas.cN; // BIN
 export const cinit = phn.cini + bas.ct; // init
 export const cInit = phn.cIni + bas.ct; // Init
+export const cEAGAIN = bas.cEA + bas.cGA + bas.cIN; // EAGAIN
