@@ -280,5 +280,6 @@ export const genericConstantsValidation = [
   {Name: 'cBin', Actual: gen.cBin, Expected: 'Bin'},
   {Name: 'cBIN', Actual: gen.cBIN, Expected: 'BIN'},
   {Name: 'cinit', Actual: gen.cinit, Expected: 'init'},
-  {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'}
+  {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'},
+  {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'}
 ];
