@@ -943,6 +943,14 @@ export const messageConstantsVaidation = [
   {Name: 'cloadPluginResourceDataMessage01', Actual: msg.cloadPluginResourceDataMessage01, Expected: 'ERROR: Invalid data type specified: '},
   {Name: 'cErrorIntegrateAllPluginsDataMessage01', Actual: msg.cErrorIntegrateAllPluginsDataMessage01, Expected: 'ERROR: Invalid data input, unable to integrate all plugin data.'},
   {Name: 'cErrorIntegratePluginDataMessage01', Actual: msg.cErrorIntegratePluginDataMessage01, Expected: 'ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.'},
+  {Name: 'cErrorIntegratePluginDataMessage02', Actual: msg.cErrorIntegratePluginDataMessage02, Expected: 'ERROR: No plugin business rules data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage03', Actual: msg.cErrorIntegratePluginDataMessage03, Expected: 'ERROR: No plugin commands data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage04', Actual: msg.cErrorIntegratePluginDataMessage04, Expected: 'ERROR: No plugin configuration data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage05', Actual: msg.cErrorIntegratePluginDataMessage05, Expected: 'ERROR: No plugin command aliases data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage06', Actual: msg.cErrorIntegratePluginDataMessage06, Expected: 'ERROR: No plugin workflows data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage07', Actual: msg.cErrorIntegratePluginDataMessage07, Expected: 'ERROR: No plugin constants validation data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage08', Actual: msg.cErrorIntegratePluginDataMessage08, Expected: 'ERROR: No plugin themes data was loaded for the plugin: '},
+  {Name: 'cErrorIntegratePluginDataMessage09', Actual: msg.cErrorIntegratePluginDataMessage09, Expected: 'ERROR: No plugin data was loaded at all for the plugin: '},
   {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage01, Expected: 'ERROR: Failure to merge the plugin rules for plugin: '},
   {Name: 'cErrorAddPluginCommandsMessage01', Actual: msg.cErrorAddPluginCommandsMessage01, Expected: 'ERROR: Failure to merge the plugin commands for plugin: '},
   {Name: 'cErrorAddPluginConfigurationDataMessage01', Actual: msg.cErrorAddPluginConfigurationDataMessage01, Expected: 'ERROR: Failure unable to persist the plugin configuration data for plugin: '},
@@ -1003,7 +1011,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRegisterPluginMessage04', Actual: msg.cErrorRegisterPluginMessage04, Expected: 'ERROR: Plugin Path is an invalid value: '},
   {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '},
   {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '},
-  {Name: 'cErrorNoDataAvailableForReading', Actual: msg.cErrorNoDataAvailableForReading, Expected: 'ERROR: No data available for reading, error message: '}
+  {Name: 'cErrorNoDataAvailableForReading', Actual: msg.cErrorNoDataAvailableForReading, Expected: 'ERROR: No data available for reading, error message: '},
+  {Name: 'cErrorLoadingPlugin', Actual: msg.cErrorLoadingPlugin, Expected: 'ERROR: There was an error attempting to load the plugin: '}
 
   // Coded System Messages
   // EXAMPLE:
