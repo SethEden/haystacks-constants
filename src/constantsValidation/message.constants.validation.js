@@ -762,6 +762,22 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginsListArrayIs', Actual: msg.cpluginsListArrayIs, Expected: 'pluginsListArray is: '},
   {Name: 'caccumulatorPluginRegistryIs', Actual: msg.caccumulatorPluginRegistryIs, Expected: 'accumulatorPluginRegistry is: '},
   {Name: 'cprefixPluginPathIs', Actual: msg.cprefixPluginPathIs, Expected: 'prefixPluginPath is: '},
+  {Name: 'cformatStringIs', Actual: msg.cformatStringIs, Expected: 'formatString is: '},
+  {Name: 'cmessageIs', Actual: msg.cmessageIs, Expected: 'message is: '},
+  {Name: 'cpluginCommandAliasesPathIs', Actual: msg.cpluginCommandAliasesPathIs, Expected: 'pluginCommandAliasesPath is: '},
+  {Name: 'cpluginWorkflowsPathIs', Actual: msg.cpluginWorkflowsPathIs, Expected: 'pluginWorkflowsPath is: '},
+  {Name: 'cpluginThemesPathIs', Actual: msg.cpluginThemesPathIs, Expected: 'pluginThemesPath is: '},
+  {Name: 'cpluginCommandAliasesDataIs', Actual: msg.cpluginCommandAliasesDataIs, Expcted: 'pluginCommandAliasesData is: '},
+  {Name: 'cpluginWorkflowsDataIs', Actual: msg.cpluginWorkflowsDataIs, Expected: 'pluginWorkflowsData is: '},
+  {Name: 'cpluginThemesDataIs', Actual: msg.cpluginThemesDataIs, Expected: 'pluginThemesData is: '},
+  {Name: 'chaystacksConfigDataIs', Actual: msg.chaystacksConfigDataIs, Expected: 'haystacksConfigData is: '},
+  {Name: 'clogFileIs', Actual: msg.clogFileIs, Expected: 'logFile is: '},
+  {Name: 'copenFileSyncMessage', Actual: msg.copenFileSyncMessage, Expeted: 'open the file sync: '},
+  {Name: 'cappendFileSyncMessage', Actual: msg.cappendFileSyncMessage, Expected: 'append to the file sync: '},
+  {Name: 'cDoneAppendingToFileMessage', Actual: msg.cDoneAppendingToFileMessage, Expected: 'DONE appending to the file: '},
+  {Name: 'caliasesPathIs', Actual: msg.caliasesPathIs, Expected: 'aliasesPath is: '},
+  {Name: 'cworkflowsPathIs', Actual: msg.cworkflowsPathIs, Expected: 'workflowsPath is: '},
+  {Name: 'cthemesPathIs', Actual: msg.cthemesPathIs, Expected: 'themesPath is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -973,6 +989,8 @@ export const messageConstantsVaidation = [
   {Name: 'csingleQuoteSwapAfterEqualsMessage02', Actual: msg.csingleQuoteSwapAfterEqualsMessage02, Expected: 'inputData is a string input, use it as is.'},
   {Name: 'csingleQuoteSwapAfterEqualsMessage03', Actual: msg.csingleQuoteSwapAfterEqualsMessage03, Expected: 'First replace all the quotes in the string with double quotes.'},
   {Name: 'cloadConfigDataErrorMessage01', Actual: msg.cloadConfigDataErrorMessage01, Expected: 'FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure: '},
+  {Name: 'cloadConfigDataErrorMessage02', Actual: msg.cloadConfigDataErrorMessage02, Expected: 'FATAL ERROR: Unable to load the specified plugin, no Haystacks context data object.'},
+  {Name: 'cloadConfigDataErrorMessage03', Actual: msg.cloadConfigDataErrorMessage03, Expected: 'FATAL ERROR: Unable to load the specified plugin, no config data for the plugin: '},
   {Name: 'cErrorUnloadPluginMessage01', Actual: msg.cErrorUnloadPluginMessage01, Expected: 'ERROR: There was an error unloading the plugin: '},
   {Name: 'cErrorUnloadPluginMessage02', Actual: msg.cErrorUnloadPluginMessage02, Expected: 'ERROR: Failure to remove business rules for the plugin: '},
   {Name: 'cErrorUnloadPluginMessage03', Actual: msg.cErrorUnloadPluginMessage03, Expected: 'ERROR: Failure to remove commands for the plugin: '},
@@ -1012,7 +1030,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorCountMatchingCommandAliasMessage01', Actual: msg.cErrorCountMatchingCommandAliasMessage01, Expected: 'ERROR: A command is missing command aliases definitions. Data: '},
   {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '},
   {Name: 'cErrorNoDataAvailableForReading', Actual: msg.cErrorNoDataAvailableForReading, Expected: 'ERROR: No data available for reading, error message: '},
-  {Name: 'cErrorLoadingPlugin', Actual: msg.cErrorLoadingPlugin, Expected: 'ERROR: There was an error attempting to load the plugin: '}
+  {Name: 'cErrorLoadingPlugin', Actual: msg.cErrorLoadingPlugin, Expected: 'ERROR: There was an error attempting to load the plugin: '},
+  {Name: 'cpluginLoadConfigDataMessage', Actual: msg.cpluginLoadConfigDataMessage, Expected: 'Done loading the Haystacks dependency data, now try and use Haystacks to load the config data, from the configPath.'}
 
   // Coded System Messages
   // EXAMPLE:

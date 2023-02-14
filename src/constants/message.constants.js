@@ -766,6 +766,22 @@ export const cpluginListArrayIs = wrd.cplugin + wrd.cList + wrd.cArray + sys.cSp
 export const cpluginsListArrayIs = wrd.cplugins + wrd.cList + wrd.cArray + sys.cSpaceIsColonSpace; // pluginsListArray is:
 export const caccumulatorPluginRegistryIs = wrd.caccumulator + wrd.cPlugin + wrd.cRegistry + sys.cSpaceIsColonSpace; // accumulatorPluginRegistry is:
 export const cprefixPluginPathIs = wrd.cprefix + wrd.cPlugin + wrd.cPath + sys.cSpaceIsColonSpace; // prefixPluginPath is:
+export const cformatStringIs = wrd.cformat + wrd.cString + sys.cSpaceIsColonSpace; // formatString is:
+export const cmessageIs = wrd.cmessage + sys.cSpaceIsColonSpace; // message is:
+export const cpluginCommandAliasesPathIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // pluginCommandAliasesPath is:
+export const cpluginWorkflowsPathIs = wrd.cplugin + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // pluginWorkflowsPath is:
+export const cpluginThemesPathIs = wrd.cplugin + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // pluginThemesPath is:
+export const cpluginCommandAliasesDataIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cData + sys.cSpaceIsColonSpace; // pluginCommandAliasesData is:
+export const cpluginWorkflowsDataIs = wrd.cplugin + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // pluginWorkflowsData is:
+export const cpluginThemesDataIs = wrd.cplugin + wrd.cThemes + wrd.cData + sys.cSpaceIsColonSpace; // pluginThemesData is:
+export const chaystacksConfigDataIs = wrd.chaystacks + wrd.cConfig + wrd.cData + sys.cSpaceIsColonSpace; // haystacksConfigData is:
+export const clogFileIs = wrd.clog + wrd.cFile + sys.cSpaceIsColonSpace; // logFile is:
+export const copenFileSyncMessage = wrd.copen + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cSpace + wrd.csync + bas.cColon + bas.cSpace; // open the file sync:
+export const cappendFileSyncMessage = wrd.cappend + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cSpace + wrd.csync + bas.cColon + bas.cSpace; // append to the file sync:
+export const cDoneAppendingToFileMessage = wrd.cDONE + bas.cSpace + wrd.cappending + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace; // DONE appending to the file:
+export const caliasesPathIs = wrd.caliases + wrd.cPath + sys.cSpaceIsColonSpace; // aliasesPath is:
+export const cworkflowsPathIs = wrd.cworkflows + wrd.cPath + sys.cSpaceIsColonSpace; // workflowsPath is:
+export const cthemesPathIs = wrd.cthemes + wrd.cPath + sys.cSpaceIsColonSpace; // themesPath is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1097,6 +1113,10 @@ export const csingleQuoteSwapAfterEqualsMessage01 = cinputData + bas.cSpace + wr
 export const csingleQuoteSwapAfterEqualsMessage02 = cinputData + bas.cSpace + wrd.cis + bas.cSpace + bas.ca + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cit + bas.cSpace + wrd.cas + bas.cSpace + wrd.cis + bas.cDot; // inputData is a string input, use it as is.
 export const csingleQuoteSwapAfterEqualsMessage03 = num.cFirst + bas.cSpace + wrd.creplace + bas.cSpace + wrd.call + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cquotes + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cstring + bas.cSpace + wrd.cwith + bas.cSpace + wrd.cdouble + bas.cSpace + wrd.cquotes + bas.cDot; // First replace all the quotes in the string with double quotes.
 export const cloadConfigDataErrorMessage01 = wrd.cFATAL + bas.cSpace + cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cpath + bas.cComa + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cdependency + bas.cSpace + wrd.cfailure + bas.cColon + bas.cSpace; // FATAL ERROR: Unable to load the specified plugin config path, Haystacks framework data dependency failure:
+// FATAL ERROR: Unable to load the specified plugin, no Haystacks context data object.
+export const cloadConfigDataErrorMessage02 = wrd.cFATAL + bas.cSpace + cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cComa + bas.cSpace + wrd.cno + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.ccontext + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cobject + bas.cDot;
+// FATAL ERROR: Unable to load the specified plugin, no config data for the plugin:
+export const cloadConfigDataErrorMessage03 = wrd.cFATAL + bas.cSpace + cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cComa + bas.cSpace + wrd.cno + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugn + bas.cColon + bas.cSpace;
 export const cErrorUnloadPluginMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cunloading + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace; // ERROR: There was an error unloading the plugin: 
 // ERROR: Failure to remove business rules for the plugin:
 export const cErrorUnloadPluginMessage02 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cremove + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
@@ -1174,7 +1194,8 @@ export const cloadPluginErrorMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace 
 export const cErrorNoDataAvailableForReading = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cavailable + bas.cSpace + wrd.cfor + bas.cSpace + wrd.creading + bas.cComa + bas.cSpace + cerrorMessage;
 // ERROR: There was an error attempting to load the plugin:
 export const cErrorLoadingPlugin = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
-
+// Done loading the Haystacks dependency data, now try and use Haystacks to load the config data, from the configPath.
+export const cpluginLoadConfigDataMessage = wrd.cDone + bas.cSpace + wrd.cloading + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cdependency + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + wrd.cnow + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cand + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfig + wrd.cPath + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:
