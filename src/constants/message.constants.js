@@ -1196,6 +1196,22 @@ export const cErrorNoDataAvailableForReading = cERROR_Colon + wrd.cNo + bas.cSpa
 export const cErrorLoadingPlugin = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // Done loading the Haystacks dependency data, now try and use Haystacks to load the config data, from the configPath.
 export const cpluginLoadConfigDataMessage = wrd.cDone + bas.cSpace + wrd.cloading + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cdependency + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + wrd.cnow + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cand + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cHaystacks + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfig + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconfig + wrd.cPath + bas.cDot;
+// NOTE: The user entered command log setting is not enabled.
+export const cprintUserCommandLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
+// Change the setting logUserEnteredCommands to enable user entered command log data to be captured for printing.
+export const cprintUserCommandLogMessage02 = wrd.cChange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csetting + wrd.clog + wrd.cUser + wrd.cEntered + wrd.cCommands + bas.cSpace + wrd.cto + bas.cSpace + wrd.cenable + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cSpace + wrd.cbe + bas.cSpace + wrd.ccaptured + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprinting + bas.cDot;
+// NOTE: The command log setting is not enabled.
+export const cprintAllCommandLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
+// Change the setting logAllCommands to enable command log data to be captured for printing.
+export const cprintAllCommandLogMessage02 = wrd.cChange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csetting + bas.cSpace + wrd.clog + wrd.cAll + wrd.cCommands + bas.cSpace + wrd.cto + bas.cSpace + wrd.cenable + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cSpace + wrd.cbe + bas.cSpace + wrd.ccaptured + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprinting + bas.cDot;
+// User commands log is empty.
+export const cUserCommandsLogIsEmpty = wrd.cUser + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cis + bas.cSpace + wrd.cempty + bas.cDot;
+// All commands log is empty.
+export const cAllCommandsLogIsEmpty = wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cis + bas.cSpace + wrd.cempty + bas.cDot;
+// NOTE: User commands log clearing setting is not enabled.
+export const cclearUserCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cUser + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
+// NOTE: All commands log clearing setting is not enabled.
+export const cclearAllCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:

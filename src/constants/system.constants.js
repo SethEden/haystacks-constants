@@ -370,6 +370,8 @@ export const cpackageDotJson = wrd.cpackage + bas.cDot + gen.cjson; // package.j
 export const cpluginsDotJson = wrd.cplugins + bas.cDot + gen.cjson; // plugins.json
 export const cDoubleDotForwardSlash = bas.cDoubleDot + bas.cForwardSlash; // ../
 export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
+export const cUserEnteredCommandLog = wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cLog; // UserEnteredCommandLog
+export const cSystemCommandLog = wrd.cSystem + wrd.cCommand + wrd.cLog; // SystemCommandLog
 
 // Constants Filenames
 export const cbasic_constants_js = wrd.cbasic + bas.cDot + wrd.cconstants + gen.cDotjs; // basic.constants.js

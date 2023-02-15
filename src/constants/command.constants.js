@@ -94,6 +94,10 @@ export const cechoCommand = biz.cecho + wrd.cCommand; // echoCommand
 export const cEchoCommand = biz.cEcho + wrd.cCommand; // EchoCommand
 export const cclearScreen = wrd.cclear + wrd.cScreen; // clearScreen
 export const cworkflowHelp = wrd.cworkflow + wrd.cHelp; // workflowHelp
+export const cprintUserCommandsLog = wrd.cprint + wrd.cUser + wrd.cCommands + wrd.cLog; // printUserCommandsLog
+export const cprintAllCommandsLog = wrd.cprint + wrd.cAll + wrd.cCommands + wrd.cLog; // printAllCommandsLog
+export const cclearUserCommandsLog = wrd.cclear + wrd.cUser + wrd.cCommands + wrd.cLog; // clearUserCommandsLog
+export const cclearAllCommandsLog = wrd.cclear + wrd.cAll + wrd.cCommands + wrd.cLog; // clearAllCommandsLog
 
 // ********************************
 // System defined workflows

@@ -1031,7 +1031,15 @@ export const messageConstantsVaidation = [
   {Name: 'cloadPluginErrorMessage01', Actual: msg.cloadPluginErrorMessage01, Expected: 'ERROR: There was an error attempting to load the specified plugin: '},
   {Name: 'cErrorNoDataAvailableForReading', Actual: msg.cErrorNoDataAvailableForReading, Expected: 'ERROR: No data available for reading, error message: '},
   {Name: 'cErrorLoadingPlugin', Actual: msg.cErrorLoadingPlugin, Expected: 'ERROR: There was an error attempting to load the plugin: '},
-  {Name: 'cpluginLoadConfigDataMessage', Actual: msg.cpluginLoadConfigDataMessage, Expected: 'Done loading the Haystacks dependency data, now try and use Haystacks to load the config data, from the configPath.'}
+  {Name: 'cpluginLoadConfigDataMessage', Actual: msg.cpluginLoadConfigDataMessage, Expected: 'Done loading the Haystacks dependency data, now try and use Haystacks to load the config data, from the configPath.'},
+  {Name: 'cprintUserCommandLogMessage01', Actual: msg.cprintUserCommandLogMessage01, Expected: 'NOTE: The user entered command log setting is not enabled.'},
+  {Name: 'cprintUserCommandLogMessage02', Actual: msg.cprintUserCommandLogMessage02, Expected: 'Change the setting logUserEnteredCommands to enable user entered command log data to be captured for printing.'},
+  {Name: 'cprintAllCommandLogMessage01', Actual: msg.cprintAllCommandLogMessage01, Expected: 'NOTE: The command log setting is not enabled.'},
+  {Name: 'cprintAllCommandLogMessage02', Actual: msg.cprintAllCommandLogMessage02, Expected: 'Change the setting logAllCommands to enable command log data to be captured for printing.'},
+  {Name: 'cUserCommandsLogIsEmpty', Actual: msg.cUserCommandsLogIsEmpty, Expected: 'User commands log is empty.'},
+  {Name: 'cAllCommandsLogIsEmpty', Actual: msg.cAllCommandsLogIsEmpty, Expected: 'All commands log is empty.'},
+  {Name: 'cclearUserCommandsLogMessage01', Actual: msg.cclearUserCommandsLogMessage01, Expected: 'NOTE: User commands log clearing setting is not enabled.'},
+  {Name: 'cclearAllCommandsLogMessage01', Actual: msg.cclearAllCommandsLogMessage01, Expected: 'NOTE: All commands log clearing setting is not enabled.'}
 
   // Coded System Messages
   // EXAMPLE:
