@@ -370,6 +370,8 @@ export const systemConstantsValidation = [
   {Name: 'cpluginsDotJson', Actual: sys.cpluginsDotJson, Expected: 'plugins.json'},
   {Name: 'cDoubleDotForwardSlash', Actual: sys.cDoubleDotForwardSlash, Expected: '../'},
   {Name: 'cpluginsLoaded', Actual: sys.cpluginsLoaded, Expected: 'pluginsLoaded'},
+  {Name: 'cUserEnteredCommandLog', Actual: sys.cUserEnteredCommandLog, Expected: 'UserEnteredCommandLog'},
+  {Name: 'cSystemCommandLog', Actual: sys.cSystemCommandLog, Expected: 'SystemCommandLog'},
 
   // Constants Filenames
   {Name: 'cbasic_constants_js', Actual: sys.cbasic_constants_js, Expected: 'basic.constants.js'},

@@ -103,6 +103,10 @@ export const cpluginRegistry = wrd.cplugin + wrd.cRegistry; // pluginRegistry
 export const cpluginRegistryPath = wrd.cplugin + wrd.cRegistry + wrd.cPath; // pluginRegistryPath
 export const cpluginsRootPath = wrd.cplugins + wrd.cRoot + wrd.cPath; // pluginsRootPath
 export const csynchronizePluginRegistryWithPluginFolder = wrd.csynchronize + wrd.cPlugin + wrd.cRegistry + wrd.cWith + wrd.cPlugin + wrd.cFolder; // synchronizePluginRegistryWithPluginFolder
+export const clogUserEnteredCommands = wrd.clog + wrd.cUser + wrd.cEntered + wrd.cCommands; // logUserEnteredCommands
+export const clogAllCommands = wrd.clog + wrd.cAll + wrd.cCommands; // logAllCommands
+export const cenableUserCommandsLogClearing = wrd.cenable + wrd.cUser + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableUserCommandsLogClearing
+export const cenableAllCommandsLogClearing = wrd.cenable + wrd.cAll + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableAllCommandsLogClearing
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp
