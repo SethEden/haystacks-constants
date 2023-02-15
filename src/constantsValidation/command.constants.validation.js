@@ -97,6 +97,10 @@ export const commandConstantsValidation = [
   {Name: 'cEchoCommand', Actual: cmd.cEchoCommand, Expected: 'EchoCommand'},
   {Name: 'cclearScreen', Actual: cmd.cclearScreen, Expected: 'clearScreen'},
   {Name: 'cworkflowHelp', Actual: cmd.cworkflowHelp, Expected: 'workflowHelp'},
+  {Name: 'cprintUserCommandsLog', Actual: cmd.cprintUserCommandsLog, Expected: 'printUserCommandsLog'},
+  {Name: 'cprintAllCommandsLog', Actual: cmd.cprintAllCommandsLog, Expected: 'printAllCommandsLog'},
+  {Name: 'cclearUserCommandsLog', Actual: cmd.cclearUserCommandsLog, Expected: 'clearUserCommandsLog'},
+  {Name: 'cclearAllCommandsLog', Actual: cmd.cclearAllCommandsLog, Expected: 'clearAllCommandsLog'},
 
   // ********************************
   // System defined workflows

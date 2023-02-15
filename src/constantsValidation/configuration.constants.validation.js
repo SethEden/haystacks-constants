@@ -104,6 +104,10 @@ export const configurationConstantsValidation = [
   {Name: 'cpluginRegistryPath', Actual: cfg.cpluginRegistryPath, Expected: 'pluginRegistryPath'},
   {Name: 'cpluginsRootPath', Actual: cfg.cpluginsRootPath, Expected: 'pluginsRootPath'},
   {Name: 'csynchronizePluginRegistryWithPluginFolder', Actual: cfg.csynchronizePluginRegistryWithPluginFolder, Expected: 'synchronizePluginRegistryWithPluginFolder'},
+  {Name: 'clogUserEnteredCommands', Actual: cfg.clogUserEnteredCommands, Expected: 'logUserEnteredCommands'},
+  {Name: 'clogAllCommands', Actual: cfg.clogAllCommands, Expected: 'logAllCommands'},
+  {Name: 'cenableUserCommandsLogClearing', Actual: cfg.cenableUserCommandsLogClearing, Expected: 'enableUserCommandsLogClearing'},
+  {Name: 'cenableAllCommandsLogClearing', Actual: cfg.cenableAllCommandsLogClearing, Expected: 'enableAllCommandsLogClearing'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},
