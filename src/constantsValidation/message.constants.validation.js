@@ -702,6 +702,7 @@ export const messageConstantsVaidation = [
   {Name: 'cnamespaceCommandsObjectIs', Actual: msg.cnamespaceCommandsObjectIs, Expected: 'namespaceCommandsObject is: '},
   {Name: 'cTheConstantDoesNotExist', Actual: msg.cTheConstantDoesNotExist, Expected: 'The constant does not exist: '},
   {Name: 'callWorkflowsDataIs', Actual: msg.callWorkflowsDataIs, Expected: 'allWorkflowsData is: '},
+  {Name: 'callWorkflowsToValidate', Actual: msg.callWorkflowsToValidate, Expected: 'allWorkflowsToValidate is: '},
   {Name: 'cDuplicateWorkflowCountIs', Actual: msg.cDuplicateWorkflowCountIs, Expected: 'Duplicate workflow count is: '},
   {Name: 'cDuplicateWorkflowNameIs', Actual: msg.cDuplicateWorkflowNameIs, Expected: 'Duplicate workflow name is: '},
   // Themes
