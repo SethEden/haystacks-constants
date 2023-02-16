@@ -651,6 +651,9 @@ export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.cit
 export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
 export const cinputDataLengthIs = wrd.cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
 export const cvalidationTypesInputArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesInputArray is:
+export const cvalidationTypesConfirmedArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesConfirmedArray is:
+export const cvalidationTypesConfirmedListIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cList + sys.cSpaceIsColonSpace; // validationTypesConfirmedList is:
+
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -1270,13 +1273,13 @@ export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = wrd.cCons
 // WARNING: No valid constants validation types were entered.
 export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Command Aliases validation types are:
-export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + rd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid command aliases validation types were entered.
 export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Workflows validation types are:
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid workflow validation types were entered.
-export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.valid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:
