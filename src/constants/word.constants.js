@@ -1256,6 +1256,9 @@ export const cMatching = cMatch + phn.cing; // Matching
 export const cdoes = cdo + bas.ces; // does
 export const cDoes = cDo + bas.ces; // Does
 export const cDOES = cDO + bas.cES; // DOES
+export const capp = phn.capp; // app
+export const cApp = phn.cApp; // App
+export const cAPP = phn.cAPP; // APP
 export const capplication = phn.capp + phn.clica + phn.ction; // application
 export const cApplication = phn.cApp + phn.clica + phn.ction; // Application
 export const cAPPLICATION = phn.cAPP + phn.cLICA + phn.cTION; // APPLICATION
@@ -3172,6 +3175,14 @@ export const cfastest = cfast + phn.cest; // fastest
 export const cFastest = cFast + phn.cest; // Fastest
 export const cfasting = cfast + phn.cing; // fasting
 export const cFasting = cFast + phn.cing; // Fasting
+export const cshift = bas.csh + phn.cift; // shift
+export const cShift = bas.cSh + phn.cift; // Shift
+export const cshifts = cshift + bas.cs; // shifts
+export const cShifts = cShift + bas.cs; // Shifts
+export const cshifted = cshift + bas.ced; // shifted
+export const cShifted = cShift + bas.ced; // Shifted
+export const cshifting = cshift + phn.cing; // shifting
+export const cShifting = cShift + phn.cing; // Shifting
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

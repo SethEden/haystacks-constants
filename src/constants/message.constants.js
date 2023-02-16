@@ -1257,6 +1257,22 @@ export const carrayCloningObject = wrd.carray + bas.cSpace + wrd.ccloning + bas.
 export const carrayDeepCloneString = wrd.carray + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cstring;
 // object deep cloning
 export const cobjectDeepCloning = wrd.cobject + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.ccloning;
+// shift the data1!
+export const cshiftData1 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c1 + bas.cExclamation;
+// shift the data2!
+export const cshiftData2 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c2 + bas.cExclamation;
+// validationTypesInputArray is:
+export const cvalidationTypesInputArrayIs = w;
+// WARNING: The specified validation type is not available, please enter a valid type and try again. Type not recognized: 
+export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = ;
+// Constants validation types are:
+export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = ;
+// WARNING: No valid constants validation types were entered.
+export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = ;
+// Command Aliases validation types are:
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = ;
+// WARNING: No valid command aliases validation types were entered.
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = ;
 
 // Coded System Messages
 // EXAMPLE:

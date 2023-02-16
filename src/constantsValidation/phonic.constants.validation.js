@@ -35,6 +35,7 @@ export const phonicConstantsValidation = [
   {Name: 'cwenty', Actual: phn.cwenty, Expected: 'wenty'},
   {Name: 'chirty', Actual: phn.chirty, Expected: 'hirty'},
   {Name: 'cifty', Actual: phn.cifty, Expected: 'ifty'},
+  {Name: 'cift', Actual: phn.cift, Expected: 'ift'},
   {Name: 'cred', Actual: phn.cred, Expected: 'red'},
   {Name: 'cgreen', Actual: phn.cgreen, Expected: 'green'},
   {Name: 'cblue', Actual: phn.cblue, Expected: 'blue'},
