@@ -1264,7 +1264,7 @@ export const cshiftData2 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd
 // validationTypesInputArray is:
 export const cvalidationTypesInputArrayIs = w;
 // WARNING: The specified validation type is not available, please enter a valid type and try again. Type not recognized: 
-export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = ;
+export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cavailable + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cType + bas.cSpace + wrd.cnot + bas.cSpace + wrd.crecognized + bas.cColon + bas.cSpace;
 // Constants validation types are:
 export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = ;
 // WARNING: No valid constants validation types were entered.

@@ -1179,6 +1179,7 @@ export const cisk = bas.cis + bas.ck; // isk
 export const cisc = bas.cis + bas.cc; // isc
 export const cmov = bas.cmo + bas.cv; // mov
 export const cast = bas.cas + bas.ct; // ast
+export const cniz = bas.cni + bas.cz; // niz
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
