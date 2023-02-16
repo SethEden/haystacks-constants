@@ -645,6 +645,7 @@ export const messageConstantsVaidation = [
   {Name: 'cattributeNameIs', Actual: msg.cattributeNameIs, Expected: 'attributeName is: '},
   {Name: 'cjthIteration', Actual: msg.cjthIteration, Expected: 'j-th iteration: '},
   {Name: 'cSpaceDataColonSpace', Actual: msg.cSpaceDataColonSpace, Expected: ' data: '},
+  {Name: 'cinputDataLengthIs', Actual: msg.cinputDataLengthIs, Expected: 'inputData.length is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

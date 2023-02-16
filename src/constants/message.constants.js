@@ -649,6 +649,7 @@ export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpac
 export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSpace; // attributeName is:
 export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cColon + bas.cSpace; // j-th iteration:
 export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
+export const cinputDataLengthIs = wrd.cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
