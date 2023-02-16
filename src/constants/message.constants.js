@@ -1212,6 +1212,8 @@ export const cAllCommandsLogIsEmpty = wrd.cAll + bas.cSpace + wrd.ccommands + ba
 export const cclearUserCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cUser + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // NOTE: All commands log clearing setting is not enabled.
 export const cclearAllCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
+// Invalid input object. Expected a valid JSON object. Object type is:
+export const cErrorObjectDeepCloneMessage01 = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cExpected + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cObject + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

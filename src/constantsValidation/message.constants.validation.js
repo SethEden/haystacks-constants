@@ -1039,7 +1039,8 @@ export const messageConstantsVaidation = [
   {Name: 'cUserCommandsLogIsEmpty', Actual: msg.cUserCommandsLogIsEmpty, Expected: 'User commands log is empty.'},
   {Name: 'cAllCommandsLogIsEmpty', Actual: msg.cAllCommandsLogIsEmpty, Expected: 'All commands log is empty.'},
   {Name: 'cclearUserCommandsLogMessage01', Actual: msg.cclearUserCommandsLogMessage01, Expected: 'NOTE: User commands log clearing setting is not enabled.'},
-  {Name: 'cclearAllCommandsLogMessage01', Actual: msg.cclearAllCommandsLogMessage01, Expected: 'NOTE: All commands log clearing setting is not enabled.'}
+  {Name: 'cclearAllCommandsLogMessage01', Actual: msg.cclearAllCommandsLogMessage01, Expected: 'NOTE: All commands log clearing setting is not enabled.'},
+  {Name: 'cErrorObjectDeepCloneMessage01', Actual: msg.cErrorObjectDeepCloneMessage01, Expected: 'Invalid input object. Expected a valid JSON object. Object type is: '}
 
   // Coded System Messages
   // EXAMPLE:
