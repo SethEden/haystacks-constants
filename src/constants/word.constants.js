@@ -1932,6 +1932,12 @@ export const cdeepness = cdeep + phn.cness; // deepness
 export const cDeepness = cDeep + phn.cness; // Deepness
 export const cclone = bas.ccl + num.cone; // clone
 export const cClone = bas.cCl + num.cone; // Clone
+export const cclones = cclone + bas.cs; // clones
+export const cClones = cClone + bas.cs; // Clones
+export const ccloned = cclone + bas.cd; // cloned
+export const cCloned = cClone + bas.cd; // Cloned
+export const ccloning = bas.ccl + bas.con + phn.cing; // cloning
+export const cCloning = bas.cCl + bas.con + phn.cing; // Cloning
 export const ccursive = phn.ccur + phn.csive; // cursive
 export const cCursive = phn.cCur + phn.csive; // Cursive
 export const crecursive = bas.cre + ccursive; // recursive
@@ -3147,6 +3153,14 @@ export const caccumulator = phn.cacc + bas.cum + bas.cul + phn.cator; // accumul
 export const cAccumulator = phn.cAcc + bas.cum + bas.cul + phn.cator; // Accumulator
 export const caccumulators = caccumulator + bas.cs; // accumulators
 export const cAccumulators = cAccumulator + bas.cs; // Accumulators
+export const cfast = bas.cf + phn.cast; // fast
+export const cFast = bas.cF + phn.cast; // Fast
+export const cfaster = cfast + bas.cer; // faster
+export const cFaster = cFast + bas.cer; // Faster
+export const cfastest = cfast + phn.cest; // fastest
+export const cFastest = cFast + phn.cest; // Fastest
+export const cfasting = cfast + phn.cing; // fasting
+export const cFasting = cFast + phn.cing; // Fasting
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

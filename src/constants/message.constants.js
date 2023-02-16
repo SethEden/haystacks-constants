@@ -1214,6 +1214,48 @@ export const cclearUserCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpac
 export const cclearAllCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // Invalid input object. Expected a valid JSON object. Object type is:
 export const cErrorObjectDeepCloneMessage01 = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cExpected + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cObject + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace;
+// D-command stack before loading is:
+export const cdCommandStackBeforeLoadingIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-businessRules stack before loading is:
+export const cdBusinessRulesStackBeforeLoadingIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dCommandClone stack before loading is:
+export const cdCommandCloneStackBeforeLoadingIs = bas.cd + wrd.cCommand + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dBusinessRulesClone stack before loading is:
+export const cdBusinessRulesCloneStackBeforeLoadingIs = bas.cd + wrd.cBusiness + wrd.cRules + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dCommandClone stack after loading is:
+export const cdCommandCloneStackAfterLoadingIs = bas.cd + wrd.cCommand + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dBusinessRulesClone stack after loading is:
+export const cdBusinessRulesCloneStackAfterLoadingIs = bas.cd + wrd.cBusiness + wrd.cRules + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-command stack after loading is:
+export const cdCommandStackAfterLoadingIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-businessRules stack after loading is:
+export const cdBusinessRulesStackAfterLoadingIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-command stack after over-write is:
+export const cdCommandStackAfterOverWriteIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cover + bas.cDash + wrd.cwrite + sys.cSpaceIsColonSpace;
+// D-businessRules stack after over-write is:
+export const cdBusinessRulesStackAfterOverWriteIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cover + bas.cDash + wrd.cwrite + sys.cSpaceIsColonSpace;
+// D-command stack is:
+export const cdCommandStackIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + sys.cSpaceIsColonSpace;
+// D-command stack before merge is:
+export const cdCommandStackBeforeMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// D-command stack after merge is:
+export const cdCommandStackAfterMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.merge + sys.cSpaceIsColonSpace;
+// D-businessRules stack is:
+export const cdBusinessRulesStackIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + sys.cSpaceIsColonSpace;
+// D-businessRules stack before merge is:
+export const cdBusinessRulesStackBeforeMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// D-businessRules stack after merge is:
+export const cdBusinessRulesStackAfterMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.merge + sys.cSpaceIsColonSpace;
+// ERROR: Unable to clone data and re-assign it to the D-data structure.
+export const cErrorSetDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cre + bas.cDash + wrd.cassign + bas.cSpace + wrd.cit + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + bas.cD + bas.cDash + wrd.cdata + bas.cSpace + wrd.cstructure + bas.cDot;
+// fast exit enabled
+export const cfastExitEnabled = wrd.cfast + bas.cSpace + wrd.cexit + bas.cSpace + wrd.cenabled;
+// array cloning object
+export const carrayCloningObject = wrd.carray + bas.cSpace + wrd.ccloning + bas.cSpace + wrd.cobject;
+// array deep clone string
+export const carrayDeepCloneString = wrd.carray + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cstring;
+// object deep cloning
+export const cobjectDeepCloning = wrd.cobject + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.ccloning;
 
 // Coded System Messages
 // EXAMPLE:
