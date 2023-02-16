@@ -650,6 +650,7 @@ export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSp
 export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cColon + bas.cSpace; // j-th iteration:
 export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
 export const cinputDataLengthIs = wrd.cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
+export const cvalidationTypesInputArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesInputArray is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -1261,18 +1262,16 @@ export const cobjectDeepCloning = wrd.cobject + bas.cSpace + wrd.cdeep + bas.cSp
 export const cshiftData1 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c1 + bas.cExclamation;
 // shift the data2!
 export const cshiftData2 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c2 + bas.cExclamation;
-// validationTypesInputArray is:
-export const cvalidationTypesInputArrayIs = w;
 // WARNING: The specified validation type is not available, please enter a valid type and try again. Type not recognized: 
 export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cavailable + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cType + bas.cSpace + wrd.cnot + bas.cSpace + wrd.crecognized + bas.cColon + bas.cSpace;
 // Constants validation types are:
-export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = ;
+export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid constants validation types were entered.
-export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = ;
+export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Command Aliases validation types are:
-export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = ;
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + rd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid command aliases validation types were entered.
-export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = ;
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:
