@@ -384,6 +384,7 @@ export const cLabel = bas.cLa + bas.cbe + bas.cl; // Label
 export const cField = bas.cFi + bas.cel + bas.cd; // Field
 export const ctype = bas.ct + phn.cype; // type
 export const cType = bas.cT + phn.cype; // Type
+export const ctypes = ctype + bas.cs; // types
 export const cTypes = cType + bas.cs; // Types
 export const cvalid = bas.cv + phn.calid; // valid
 export const cValid = bas.cV + phn.calid; // Valid

@@ -382,6 +382,7 @@ export const wordConstantsValidation = [
   {Name: 'cField', Actual: wrd.cField, Expected: 'Field'},
   {Name: 'ctype', Actual: wrd.ctype, Expected: 'type'},
   {Name: 'cType', Actual: wrd.cType, Expected: 'Type'},
+  {Name: 'ctypes', Actual: wrd.ctypes, Expected: 'types'},
   {Name: 'cTypes', Actual: wrd.cTypes, Expected: 'Types'},
   {Name: 'cvalid', Actual: wrd.cvalid, Expected: 'valid'},
   {Name: 'cValid', Actual: wrd.cValid, Expected: 'Valid'},
