@@ -651,6 +651,7 @@ export const messageConstantsVaidation = [
   {Name: 'cvalidationTypesConfirmedListIs', Actual: msg.cvalidationTypesConfirmedListIs, Expected: 'validationTypesConfirmedList is: '},
   {Name: 'callCommandAliasesToValidateIs', Actual: msg.callCommandAliasesToValidateIs, Expected: 'callCommandAliasesToValidate is: '},
   {Name: 'cvalidationArrayIs', Actual: msg.cvalidationArrayIs, Expected: 'validationArray is: '},
+  {Name: 'capplicationCommandAliasesIs', Actual: msg.capplicationCommandAliasesIs, Expected: 'applicationCommandAliases is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

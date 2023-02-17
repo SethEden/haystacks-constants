@@ -649,12 +649,13 @@ export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpac
 export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSpace; // attributeName is:
 export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cColon + bas.cSpace; // j-th iteration:
 export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
-export const cinputDataLengthIs = wrd.cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
+export const cinputDataLengthIs = cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
 export const cvalidationTypesInputArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesInputArray is:
 export const cvalidationTypesConfirmedArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesConfirmedArray is:
 export const cvalidationTypesConfirmedListIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cList + sys.cSpaceIsColonSpace; // validationTypesConfirmedList is:
 export const callCommandAliasesToValidateIs = wrd.call + wrd.cCommand + wrd.cAliases + wrd.cTo + wrd.cValidate + sys.cSpaceIsColonSpace; // callCommandAliasesToValidate is:
 export const cvalidationArrayIs = wrd.cvalidation + wrd.cArray + sys.cSpaceIsColonSpace; // validationArray is:
+export const capplicationCommandAliasesIs = wrd.capplication + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // applicationCommandAliases is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
