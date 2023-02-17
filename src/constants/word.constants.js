@@ -3198,6 +3198,10 @@ export const cshifted = cshift + bas.ced; // shifted
 export const cShifted = cShift + bas.ced; // Shifted
 export const cshifting = cshift + phn.cing; // shifting
 export const cShifting = cShift + phn.cing; // Shifting
+export const cextra = bas.cex + phn.ctra; // extra
+export const cExtra = bas.cEx + phn.ctra; // Extra
+export const cextras = cextra + bas.cs; // extras
+export const cExtras = cExtra + bas.cs; // Extras
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

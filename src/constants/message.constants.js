@@ -665,7 +665,17 @@ export const cprocessingPluginsCommands = wrd.cprocessing + bas.cSpace + wrd.cpl
 export const cprocessingCommandsFor = wrd.cprocessing + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cColon + bas.cSpace; // processing commands for:
 export const cframeworkCommandAliasesIs = wrd.cframework + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // frameworkCommandAliases is:
 export const cpluginsCommandAliasesIs = wrd.cplugins + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginsCommandAliases is:
-
+export const cextraUserEnteredCommandAliasesIs = wrd.cextra + wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // extraUserEnteredCommandAliases is:
+export const cworkflowNamespaceTypesInputArrayIs = wrd.cworkflow + wrd.cNamespace + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // workflowNamespaceTypesInputArray is:
+export const cworkflowNamespaceTypesConfirmedArrayIs = wrd.cworkflow + wrd.cNamespace + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // workflowNamespaceTypesConfirmedArray is:
+export const cprocessingFrameworkWorkflows = wrd.cprocessing + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cworkflows; // processing framework workflows
+export const cprocessingApplicationWorkflows = wrd.cprocessing + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cworkflows; // processing application workflows
+export const cprocessingPluginsWorkflows = wrd.cprocessing + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cworkflows; // processing plugins workflows
+export const cprocessingWorkflowsFor = wrd.cprocessing + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cColon + bas.cSpace; // processing workflows for:
+export const cframeworkWorkflowsIs = wrd.cframework + wrd.cWorkflows + sys.cSpaceIsColonSpace; // frameworkWorkflows is:
+export const capplicationWorkflowsIs = wrd.capplication + wrd.cWorkflows + sys.cSpaceIsColonSpace; // applicationWorkflows is:
+export const cextraUserEnteredWorkflowsIs = wrd.cextra + wrd.cUser + wrd.cEntered + wrd.cWorkflows + sys.cSpaceIsColonSpace; // extraUserEnteredWorkflows is:
+export const cnamespaceAllWorkflowsDataObjectIs = wrd.cnamespace + wrd.cAll + wrd.cWorkflows + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceAllWorkflowsDataObject is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

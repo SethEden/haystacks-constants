@@ -3193,6 +3193,10 @@ export const wordConstantsValidation = [
   {Name: 'cShifted', Actual: wrd.cShifted, Expected: 'Shifted'},
   {Name: 'cshifting', Actual: wrd.cshifting, Expected: 'shifting'},
   {Name: 'cShifting', Actual: wrd.cShifting, Expected: 'Shifting'},
+  {Name: 'cextra', Actual: wrd.cextra, Expected: 'extra'},
+  {Name: 'cExtra', Actual: wrd.cExtra, Expected: 'Extra'},
+  {Name: 'cextras', Actual: wrd.cextras, Expected: 'extras'},
+  {Name: 'cExtras', Actual: wrd.cExtras, Expected: 'Extras'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
