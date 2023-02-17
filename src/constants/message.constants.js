@@ -1227,7 +1227,7 @@ export const cpluginLoadConfigDataMessage = wrd.cDone + bas.cSpace + wrd.cloadin
 // NOTE: The user entered command log setting is not enabled.
 export const cprintUserCommandLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // Change the setting logUserEnteredCommands to enable user entered command log data to be captured for printing.
-export const cprintUserCommandLogMessage02 = wrd.cChange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csetting + wrd.clog + wrd.cUser + wrd.cEntered + wrd.cCommands + bas.cSpace + wrd.cto + bas.cSpace + wrd.cenable + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cSpace + wrd.cbe + bas.cSpace + wrd.ccaptured + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprinting + bas.cDot;
+export const cprintUserCommandLogMessage02 = wrd.cChange + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csetting + bas.cSpace + wrd.clog + wrd.cUser + wrd.cEntered + wrd.cCommands + bas.cSpace + wrd.cto + bas.cSpace + wrd.cenable + bas.cSpace + wrd.cuser + bas.cSpace + wrd.centered + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cSpace + wrd.cbe + bas.cSpace + wrd.ccaptured + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprinting + bas.cDot;
 // NOTE: The command log setting is not enabled.
 export const cprintAllCommandLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.clog + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // Change the setting logAllCommands to enable command log data to be captured for printing.
@@ -1267,15 +1267,15 @@ export const cdCommandStackIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace +
 // D-command stack before merge is:
 export const cdCommandStackBeforeMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
 // D-command stack after merge is:
-export const cdCommandStackAfterMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.merge + sys.cSpaceIsColonSpace;
+export const cdCommandStackAfterMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
 // D-businessRules stack is:
 export const cdBusinessRulesStackIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + sys.cSpaceIsColonSpace;
 // D-businessRules stack before merge is:
 export const cdBusinessRulesStackBeforeMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
 // D-businessRules stack after merge is:
-export const cdBusinessRulesStackAfterMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.merge + sys.cSpaceIsColonSpace;
+export const cdBusinessRulesStackAfterMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
 // ERROR: Unable to clone data and re-assign it to the D-data structure.
-export const cErrorSetDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cre + bas.cDash + wrd.cassign + bas.cSpace + wrd.cit + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + bas.cD + bas.cDash + wrd.cdata + bas.cSpace + wrd.cstructure + bas.cDot;
+export const cErrorSetDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + bas.cre + bas.cDash + wrd.cassign + bas.cSpace + wrd.cit + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + bas.cD + bas.cDash + wrd.cdata + bas.cSpace + wrd.cstructure + bas.cDot;
 // fast exit enabled
 export const cfastExitEnabled = wrd.cfast + bas.cSpace + wrd.cexit + bas.cSpace + wrd.cenabled;
 // array cloning object
