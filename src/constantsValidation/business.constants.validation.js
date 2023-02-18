@@ -69,6 +69,7 @@ export const businessConstantsValidation = [
   {Name: 'cisArrayOrObject', Actual: biz.cisArrayOrObject, Expected: 'isArrayOrObject'},
   {Name: 'cisNonZeroLengthArray', Actual: biz.cisNonZeroLengthArray, Expected: 'isNonZeroLengthArray'},
   {Name: 'carrayDeepClone', Actual: biz.carrayDeepClone, Expected: 'arrayDeepClone'},
+  {Name: 'cobjectDeepClone', Actual: biz.cobjectDeepClone, Expected: 'objectDeepClone'},
   {Name: 'cobjectDeepMerge', Actual: biz.cobjectDeepMerge, Expected: 'objectDeepMerge'},
   {Name: 'cgetNamespacedDataObject', Actual: biz.cgetNamespacedDataObject, Expected: 'getNamespacedDataObject'},
   {Name: 'csetNamespacedDataObject', Actual: biz.csetNamespacedDataObject, Expected: 'setNamespacedDataObject'},
