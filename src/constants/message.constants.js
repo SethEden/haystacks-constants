@@ -649,6 +649,33 @@ export const carrayElementIs = wrd.carray + wrd.cElement + sys.cSpaceIsColonSpac
 export const cattributeNameIs = wrd.cattribute + wrd.cName + sys.cSpaceIsColonSpace; // attributeName is:
 export const cjthIteration = bas.cj + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cColon + bas.cSpace; // j-th iteration:
 export const cSpaceDataColonSpace = bas.cSpace + wrd.cdata + bas.cColon + bas.cSpace; // data:
+export const cinputDataLengthIs = cinputData + bas.cDot + wrd.clength + sys.cSpaceIsColonSpace; // inputData.length is:
+export const cvalidationTypesInputArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesInputArray is:
+export const cvalidationTypesConfirmedArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesConfirmedArray is:
+export const cvalidationTypesConfirmedListIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cList + sys.cSpaceIsColonSpace; // validationTypesConfirmedList is:
+export const callCommandAliasesToValidateIs = wrd.call + wrd.cCommand + wrd.cAliases + wrd.cTo + wrd.cValidate + sys.cSpaceIsColonSpace; // callCommandAliasesToValidate is:
+export const cvalidationArrayIs = wrd.cvalidation + wrd.cArray + sys.cSpaceIsColonSpace; // validationArray is:
+export const capplicationCommandAliasesIs = wrd.capplication + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // applicationCommandAliases is:
+export const ccommandNamespaceTypesInputArrayIs = wrd.ccommand + wrd.cNamespace + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // commandNamespaceTypesInputArray is:
+export const ccommandNamespaceTypesConfirmedArrayIs = wrd.ccommand + wrd.cNamespace + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // commandNamespaceTypesConfirmedArray is:
+export const cnamespaceAllCommandsDataObjectIs = wrd.cnamespace + wrd.cAll + wrd.cCommands + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceAllCommandsDataObject is:
+export const cprocessingFrameworkCommands = wrd.cprocessing + bas.cSpace + wrd.cframework + bas.cSpace + wrd.ccommands; // processing framework commands
+export const cprocessingApplicationCommands = wrd.cprocessing + bas.cSpace + wrd.capplication + bas.cSpace + wrd.ccommands; // processing application commands
+export const cprocessingPluginsCommands = wrd.cprocessing + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.ccommands; // processing plugin commands
+export const cprocessingCommandsFor = wrd.cprocessing + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.cfor + bas.cColon + bas.cSpace; // processing commands for:
+export const cframeworkCommandAliasesIs = wrd.cframework + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // frameworkCommandAliases is:
+export const cpluginsCommandAliasesIs = wrd.cplugins + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // pluginsCommandAliases is:
+export const cextraUserEnteredCommandAliasesIs = wrd.cextra + wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // extraUserEnteredCommandAliases is:
+export const cworkflowNamespaceTypesInputArrayIs = wrd.cworkflow + wrd.cNamespace + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // workflowNamespaceTypesInputArray is:
+export const cworkflowNamespaceTypesConfirmedArrayIs = wrd.cworkflow + wrd.cNamespace + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // workflowNamespaceTypesConfirmedArray is:
+export const cprocessingFrameworkWorkflows = wrd.cprocessing + bas.cSpace + wrd.cframework + bas.cSpace + wrd.cworkflows; // processing framework workflows
+export const cprocessingApplicationWorkflows = wrd.cprocessing + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cworkflows; // processing application workflows
+export const cprocessingPluginsWorkflows = wrd.cprocessing + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cworkflows; // processing plugins workflows
+export const cprocessingWorkflowsFor = wrd.cprocessing + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cfor + bas.cColon + bas.cSpace; // processing workflows for:
+export const cframeworkWorkflowsIs = wrd.cframework + wrd.cWorkflows + sys.cSpaceIsColonSpace; // frameworkWorkflows is:
+export const capplicationWorkflowsIs = wrd.capplication + wrd.cWorkflows + sys.cSpaceIsColonSpace; // applicationWorkflows is:
+export const cextraUserEnteredWorkflowsIs = wrd.cextra + wrd.cUser + wrd.cEntered + wrd.cWorkflows + sys.cSpaceIsColonSpace; // extraUserEnteredWorkflows is:
+export const cnamespaceAllWorkflowsDataObjectIs = wrd.cnamespace + wrd.cAll + wrd.cWorkflows + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceAllWorkflowsDataObject is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -704,6 +731,7 @@ export const ccommandAliasDataStructureCommandAliasEntityIs = wrd.ccommand + wrd
 export const cnamespaceCommandsObjectIs = wrd.cnamespace + wrd.cCommands + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceCommandsObject is:
 export const cTheConstantDoesNotExist = wrd.cThe + bas.cSpace + wrd.cconstant + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // The constant does not exist:
 export const callWorkflowsDataIs = wrd.call + wrd.cWorkflows + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowsData is:
+export const callWorkflowsToValidate = wrd.call + wrd.cWorkflows + wrd.cTo + wrd.cValidate + sys.cSpaceIsColonSpace; // allWorkflowsToValidate is:
 export const cDuplicateWorkflowCountIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.ccount + sys.cSpaceIsColonSpace ; // Duplicate workflow count is:
 export const cDuplicateWorkflowNameIs = wrd.cDuplicate + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace ; // Duplicate workflow name is:
 // Themes
@@ -1212,6 +1240,68 @@ export const cAllCommandsLogIsEmpty = wrd.cAll + bas.cSpace + wrd.ccommands + ba
 export const cclearUserCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cUser + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // NOTE: All commands log clearing setting is not enabled.
 export const cclearAllCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
+// Invalid input object. Expected a valid JSON object. Object type is:
+export const cErrorObjectDeepCloneMessage01 = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cExpected + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cObject + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace;
+// D-command stack before loading is:
+export const cdCommandStackBeforeLoadingIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-businessRules stack before loading is:
+export const cdBusinessRulesStackBeforeLoadingIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dCommandClone stack before loading is:
+export const cdCommandCloneStackBeforeLoadingIs = bas.cd + wrd.cCommand + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dBusinessRulesClone stack before loading is:
+export const cdBusinessRulesCloneStackBeforeLoadingIs = bas.cd + wrd.cBusiness + wrd.cRules + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dCommandClone stack after loading is:
+export const cdCommandCloneStackAfterLoadingIs = bas.cd + wrd.cCommand + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// dBusinessRulesClone stack after loading is:
+export const cdBusinessRulesCloneStackAfterLoadingIs = bas.cd + wrd.cBusiness + wrd.cRules + wrd.cClone + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-command stack after loading is:
+export const cdCommandStackAfterLoadingIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-businessRules stack after loading is:
+export const cdBusinessRulesStackAfterLoadingIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
+// D-command stack after over-write is:
+export const cdCommandStackAfterOverWriteIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cover + bas.cDash + wrd.cwrite + sys.cSpaceIsColonSpace;
+// D-businessRules stack after over-write is:
+export const cdBusinessRulesStackAfterOverWriteIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cover + bas.cDash + wrd.cwrite + sys.cSpaceIsColonSpace;
+// D-command stack is:
+export const cdCommandStackIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + sys.cSpaceIsColonSpace;
+// D-command stack before merge is:
+export const cdCommandStackBeforeMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// D-command stack after merge is:
+export const cdCommandStackAfterMergeIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// D-businessRules stack is:
+export const cdBusinessRulesStackIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + sys.cSpaceIsColonSpace;
+// D-businessRules stack before merge is:
+export const cdBusinessRulesStackBeforeMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// D-businessRules stack after merge is:
+export const cdBusinessRulesStackAfterMergeIs = bas.cD + bas.cDash + sys.cbusinessRules + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace;
+// ERROR: Unable to clone data and re-assign it to the D-data structure.
+export const cErrorSetDataMessage01 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + bas.cre + bas.cDash + wrd.cassign + bas.cSpace + wrd.cit + bas.cSpace + wrd.cto + bas.cSpace + wrd.cthe + bas.cSpace + bas.cD + bas.cDash + wrd.cdata + bas.cSpace + wrd.cstructure + bas.cDot;
+// fast exit enabled
+export const cfastExitEnabled = wrd.cfast + bas.cSpace + wrd.cexit + bas.cSpace + wrd.cenabled;
+// array cloning object
+export const carrayCloningObject = wrd.carray + bas.cSpace + wrd.ccloning + bas.cSpace + wrd.cobject;
+// array deep clone string
+export const carrayDeepCloneString = wrd.carray + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.cclone + bas.cSpace + wrd.cstring;
+// object deep cloning
+export const cobjectDeepCloning = wrd.cobject + bas.cSpace + wrd.cdeep + bas.cSpace + wrd.ccloning;
+// shift the data1!
+export const cshiftData1 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c1 + bas.cExclamation;
+// shift the data2!
+export const cshiftData2 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdata + num.c2 + bas.cExclamation;
+// WARNING: The specified validation type is not available, please enter a valid type and try again. Type not recognized: 
+export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cavailable + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cType + bas.cSpace + wrd.cnot + bas.cSpace + wrd.crecognized + bas.cColon + bas.cSpace;
+// Constants validation types are:
+export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+// WARNING: No valid constants validation types were entered.
+export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// Command Aliases validation types are:
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+// WARNING: No valid command aliases validation types were entered.
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// Workflows validation types are:
+export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+// WARNING: No valid workflow validation types were entered.
+export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:

@@ -26,7 +26,8 @@ export const chir = bas.chi + bas.cr; // hir
 export const cigh = bas.cig + bas.ch; // igh
 export const cwenty = bas.cw + bas.cen + bas.cty; // wenty
 export const chirty = bas.chi + bas.cr + bas.cty; // hirty
-export const cifty = bas.cif + bas.cty; // ifty
+export const cift = bas.cif + bas.ct; // ift
+export const cifty = cift + bas.cy; // ifty
 export const cred = bas.cre + bas.cd; // red
 export const cgreen = bas.cgr + bas.cee + bas.cn; // green
 export const cblue = bas.cbl + bas.cue; // blue
@@ -1177,6 +1178,8 @@ export const cancy = canc + bas.cy; // ancy
 export const cisk = bas.cis + bas.ck; // isk
 export const cisc = bas.cis + bas.cc; // isc
 export const cmov = bas.cmo + bas.cv; // mov
+export const cast = bas.cas + bas.ct; // ast
+export const cniz = bas.cni + bas.cz; // niz
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
