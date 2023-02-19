@@ -1302,6 +1302,8 @@ export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWAR
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid workflow validation types were entered.
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// ERROR: The specified path does not exist or cannot be found:
+export const cErrorGetDirectoryListMessage01 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cfound + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

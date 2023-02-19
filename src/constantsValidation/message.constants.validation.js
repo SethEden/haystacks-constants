@@ -1098,7 +1098,8 @@ export const messageConstantsVaidation = [
   {Name: 'cWarningUserEnteredCommandAliasesValidationDataTypeMessage02', Actual: msg.cWarningUserEnteredCommandAliasesValidationDataTypeMessage02, Expected: 'Command Aliases validation types are: '},
   {Name: 'cWarningUserEnteredCommandAliasesValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredCommandAliasesValidationDataTypeMessage03, Expected: 'WARNING: No valid command aliases validation types were entered.'},
   {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage02', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage02, Expected: 'Workflows validation types are: '},
-  {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage03, Expected: 'WARNING: No valid workflow validation types were entered.'}
+  {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage03, Expected: 'WARNING: No valid workflow validation types were entered.'},
+  {Name: 'cErrorGetDirectoryListMessage01', Actual: msg.cErrorGetDirectoryListMessage01, Expected: 'ERROR: The specified path does not exist or cannot be found: '}
 
   // Coded System Messages
   // EXAMPLE:
