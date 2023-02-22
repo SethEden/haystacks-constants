@@ -1308,6 +1308,12 @@ export const cErrorGetDirectoryListMessage01 = cERROR_Colon + wrd.cThe + bas.cSp
 export const cWarningUserEnteredValidationDateTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid validation types were entered.
 export const cWarningUserEnteredValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// Begin command aliases validation
+export const cBeginCommandAliasesValidationMessage = wrd.cBegin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation;
+// Begin workflows validation
+export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cvalidation;
+// Running all validations
+export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
 
 // Coded System Messages
 // EXAMPLE:

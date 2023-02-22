@@ -1102,6 +1102,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorGetDirectoryListMessage01', Actual: msg.cErrorGetDirectoryListMessage01, Expected: 'ERROR: The specified path does not exist or cannot be found: '},
   {Name: 'cWarningUserEnteredValidationDateTypeMessage02', Actual: msg.cWarningUserEnteredValidationDateTypeMessage02, Expected: 'Validation types are: '},
   {Name: 'cWarningUserEnteredValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredValidationDataTypeMessage03, Expected: 'WARNING: No valid validation types were entered.'},
+  {Name: 'cBeginCommandAliasesValidationMessage', Actual: msg.cBeginCommandAliasesValidationMessage, Expected: 'Begin command aliases validation'},
+  {Name: 'cBeginWorkflowsValidationMessage', Actual: msg.cBeginWorkflowsValidationMessage, Expected: 'Begin workflows validation'},
+  {Name: 'cRunningAllValidationsMessage', Actual: msg.cRunningAllValidationsMessage, Expected: 'Running all validations'},
 
   // Coded System Messages
   // EXAMPLE:
