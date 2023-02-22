@@ -1098,10 +1098,16 @@ export const messageConstantsVaidation = [
   {Name: 'cWarningUserEnteredCommandAliasesValidationDataTypeMessage02', Actual: msg.cWarningUserEnteredCommandAliasesValidationDataTypeMessage02, Expected: 'Command Aliases validation types are: '},
   {Name: 'cWarningUserEnteredCommandAliasesValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredCommandAliasesValidationDataTypeMessage03, Expected: 'WARNING: No valid command aliases validation types were entered.'},
   {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage02', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage02, Expected: 'Workflows validation types are: '},
-  {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage03, Expected: 'WARNING: No valid workflow validation types were entered.'}
+  {Name: 'cWarningUserEnteredWorkflowsValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredWorkflowsValidationDataTypeMessage03, Expected: 'WARNING: No valid workflow validation types were entered.'},
+  {Name: 'cErrorGetDirectoryListMessage01', Actual: msg.cErrorGetDirectoryListMessage01, Expected: 'ERROR: The specified path does not exist or cannot be found: '},
+  {Name: 'cWarningUserEnteredValidationDateTypeMessage02', Actual: msg.cWarningUserEnteredValidationDateTypeMessage02, Expected: 'Validation types are: '},
+  {Name: 'cWarningUserEnteredValidationDataTypeMessage03', Actual: msg.cWarningUserEnteredValidationDataTypeMessage03, Expected: 'WARNING: No valid validation types were entered.'},
+  {Name: 'cBeginCommandAliasesValidationMessage', Actual: msg.cBeginCommandAliasesValidationMessage, Expected: 'Begin command aliases validation'},
+  {Name: 'cBeginWorkflowsValidationMessage', Actual: msg.cBeginWorkflowsValidationMessage, Expected: 'Begin workflows validation'},
+  {Name: 'cRunningAllValidationsMessage', Actual: msg.cRunningAllValidationsMessage, Expected: 'Running all validations'},
 
   // Coded System Messages
   // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
-
+  {Name: 'cgetRuleMessage01', Actual: msg.cgetRuleMessage01, Expected: 'D[sys.cbusinessRules][inputData] is: '}
 ];
