@@ -58,6 +58,7 @@ export const cchangeSetting = wrd.cchange + wrd.cSetting; // changeSetting
 export const cvalidateConstants = wrd.cvalidate + wrd.cConstants; // validateConstants
 export const cvalidateCommandAliases = wrd.cvalidate + wrd.cCommand + wrd.cAliases; // validateCommandAliases
 export const cvalidateWorkflows = wrd.cvalidate + wrd.cWorkflows; // validateWorkflows
+export const crunAllValidations = wrd.crun + wrd.cAll + wrd.cValidations; // runAllValidations
 
 // ***********************************************
 // Performance Metric commands in order

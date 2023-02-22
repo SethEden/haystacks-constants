@@ -1302,7 +1302,21 @@ export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWAR
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid workflow validation types were entered.
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// ERROR: The specified path does not exist or cannot be found:
+export const cErrorGetDirectoryListMessage01 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cfound + bas.cColon + bas.cSpace;
+// Validation types are:
+export const cWarningUserEnteredValidationDateTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+// WARNING: No valid validation types were entered.
+export const cWarningUserEnteredValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
+// Begin command aliases validation
+export const cBeginCommandAliasesValidationMessage = wrd.cBegin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation;
+// Begin workflows validation
+export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cvalidation;
+// Running all validations
+export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
 
 // Coded System Messages
 // EXAMPLE:
 // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
+// D[sys.cbusinessRules][inputData] is:
+export const cgetRuleMessage01 = bas.cD + bas.cOpenBracket + gen.csys + bas.cDot + bas.cc+ sys.cbusinessRules + bas.cCloseBracket + bas.cOpenBracket + cinputData + bas.cCloseBracket + sys.cSpaceIsColonSpace;
