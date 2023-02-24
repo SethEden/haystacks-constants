@@ -261,7 +261,20 @@ export const ccount = bas.cco + phn.cunt; // count
 export const cCount = bas.cCo + phn.cunt; // Count
 export const ccounter = ccount + bas.cer; // counter
 export const cCounter = cCount + bas.cer; // Counter
+export const caccount = bas.cac + ccount; // account
 export const cAccount = bas.cAc + ccount; // Account
+export const caccounts = caccount + bas.cs; // accounts
+export const cAccounts = cAccount + bas.cs; // Accounts
+export const caccounted = caccount + bas.ced; // accounted
+export const cAccounted = cAccount + bas.ced; // Accounted
+export const caccounter = caccount + bas.cer; // accounter
+export const cAccounter = caccount + bas.cer; // Accounter
+export const caccounters = caccounter + bas.cs; // accounters
+export const cAccounters = cAccounter + bas.cs; // Accounters
+export const caccountering = caccounter + phn.cing; // accountering
+export const cAccountering = cAccounter + phn.cing; // Accountering
+export const caccounting = caccount + phn.cing; // accounting
+export const cAccounting = cAccount + phn.cing; // Accounting
 export const cHamburger = bas.cHa + bas.cmb + bas.cur + bas.cge + bas.cr; // Hamburger
 export const cMe = bas.cM + bas.ce; // Me
 export const cMenu = cMe + bas.cnu; // Menu
@@ -1649,6 +1662,9 @@ export const cStarts = cStart + bas.cs; // Starts
 export const cstarted = cstart + bas.ced; // started
 export const cStarted = cStart + bas.ced; // Started
 export const cstartup = cstart + bas.cup; // startup
+export const cStartup = cStart + bas.cup; // Startup
+export const cstartups = cstartup + bas.cs; // startups
+export const cStartups = cStartup + bas.cs; // Startups
 export const cstarting = cstart + phn.cing; // starting
 export const cStarting = cStart + phn.cing; // Starting
 export const coutput = cout + cput; // output
@@ -3202,6 +3218,32 @@ export const cextra = bas.cex + phn.ctra; // extra
 export const cExtra = bas.cEx + phn.ctra; // Extra
 export const cextras = cextra + bas.cs; // extras
 export const cExtras = cExtra + bas.cs; // Extras
+export const cinstruct = bas.cin + phn.cstruct; // instruct
+export const cInstruct = bas.cIn + phn.cstruct; // Instruct
+export const cinstructs = cinstruct + bas.cs; // instructs
+export const cInstructs = cInstruct + bas.cs; // Instructs
+export const cinstructed = cinstruct + bas.ced; // instructed
+export const cInstructed = cInstruct + bas.ced; // Instructed
+export const cinstructing = cinstruct + phn.cing; // instructing
+export const cInstructing = cInstruct + phn.cing; // Instructing
+export const cinstruction = cinstruct + phn.cion; // instruction
+export const cInstruction = cInstruct + phn.cion; // Instruction
+export const cinstructions = cinstruction + bas.cs; // instructions
+export const cInstructions = cInstruction + bas.cs; // Instructions
+export const cinstructioned = cinstruction + bas.ced; // instructioned
+export const cInstructioned = cInstruction + bas.ced; // Instructioned
+export const cinstructioning = cinstruction + phn.cing; // instructioning
+export const cInstructioning = cInstruction + phn.cing; // Instructioning
+
+// account
+// your
+// login
+// logout
+// password
+// email
+// required
+
+
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
