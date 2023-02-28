@@ -29,6 +29,8 @@ export const genericConstantsValidation = [
   {Name: 'cfalse', Actual: gen.cfalse, Expected: 'false'},
   {Name: 'cTRUE', Actual: gen.cTRUE, Expected: 'TRUE'},
   {Name: 'cFALSE', Actual: gen.cFALSE, Expected: 'FALSE'},
+  {Name: 'con', Actual: gen.con, Expected: 'on'},
+  {Name: 'cOn', Actual: gen.cOn, Expected: 'On'},
   {Name: 'cOff', Actual: gen.cOff, Expected: 'Off'},
   {Name: 'coff', Actual: gen.coff, Expected: 'off'},
   {Name: 'cOFF', Actual: gen.cOFF, Expected: 'OFF'},

@@ -1181,7 +1181,15 @@ export const cmov = bas.cmo + bas.cv; // mov
 export const cast = bas.cas + bas.ct; // ast
 export const cniz = bas.cni + bas.cz; // niz
 export const cuct = bas.cuc + bas.ct; // uct
-export const cstruct = cstr + cuct; // struct
+export const cqui = bas.cqu + bas.ci; // qui
+export const croy = bas.cro + bas.cy; // roy
+export const cply = bas.cpl + bas.cy; // ply
+export const cdis = bas.cdi + bas.cs; // dis
+export const cDis = bas.cDi + bas.cs; // Dis
+export const cich = bas.cic + bas.ch; // ich
+export const cprev = cpre + bas.cv; // prev
+export const cPrev = cPre + bas.cv; // Prev
+export const cious = bas.ci + cous; // ious
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
@@ -1220,6 +1228,7 @@ export const cuty = bas.cut + bas.cy; // uty
 export const coft = bas.cof + bas.ct; // oft
 export const cstr = bas.cst + bas.cr; // str
 export const cStr = bas.cSt + bas.cr; // Str
+export const cstruct = cstr + cuct; // struct
 export const csur = bas.csu + bas.cr; // sur
 export const cSur = bas.cSu + bas.cr; // Sur
 export const ccat = bas.cca + bas.ct; // cat
