@@ -256,6 +256,7 @@ export const couble = bas.cou + cble; // ouble
 export const cduct = bas.cdu + bas.cct; // duct
 export const cgate = bas.cga + bas.cte; // gate
 export const cggregate = bas.cgg + bas.cre + cgate; // ggregate
+export const cdiff = bas.cdi + bas.cff; // diff
 export const cDiff = bas.cDi + bas.cff; // Diff
 export const cenc = bas.cen + bas.cc; // enc
 export const cence = cenc + bas.ce; // ence
@@ -1190,6 +1191,12 @@ export const cich = bas.cic + bas.ch; // ich
 export const cprev = cpre + bas.cv; // prev
 export const cPrev = cPre + bas.cv; // Prev
 export const cious = bas.ci + cous; // ious
+export const coic = bas.coi + bas.cc; // oic
+export const coice = coic + bas.ce; // oice
+export const coos = bas.coo + bas.cs; // oos
+export const coose = coos + bas.ce; // oose
+export const cpon = bas.cpo + bas.cn; // pon
+export const cspon = bas.cs + cpon; // spon
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
