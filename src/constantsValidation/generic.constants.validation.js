@@ -283,5 +283,12 @@ export const genericConstantsValidation = [
   {Name: 'cBIN', Actual: gen.cBIN, Expected: 'BIN'},
   {Name: 'cinit', Actual: gen.cinit, Expected: 'init'},
   {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'},
-  {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'}
+  {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
+  {Name: 'cESC', Actual: gen.cESC, Expected: 'ESC'},
+  {Name: 'cCTRL', Actual: gen.cCTRL, Expected: 'CTRL'},
+  {Name: 'cALT', Actual: gen.cALT, Expected: 'ALT'},
+  {Name: 'cSHIFT', Actual: gen.cSHIFT, Expected: 'SHIFT'},
+  {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
+  {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
+  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'}
 ];
