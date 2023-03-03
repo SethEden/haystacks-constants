@@ -284,6 +284,9 @@ export const genericConstantsValidation = [
   {Name: 'cinit', Actual: gen.cinit, Expected: 'init'},
   {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'},
   {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
+  {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
+  {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\u0003'}, // CTRL+C key-combo
+  {Name: 'cESC_Key', Actual: gen.cESC_Key, Expected: '\u001b'}, // ESC key ASCII code
   {Name: 'cESC', Actual: gen.cESC, Expected: 'ESC'},
   {Name: 'cCTRL', Actual: gen.cCTRL, Expected: 'CTRL'},
   {Name: 'cALT', Actual: gen.cALT, Expected: 'ALT'},
