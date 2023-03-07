@@ -1201,6 +1201,8 @@ export const cpon = bas.cpo + bas.cn; // pon
 export const cspon = bas.cs + cpon; // spon
 export const cump = bas.cum + bas.cp; // ump
 export const cnst = bas.cns + bas.ct; // nst
+export const cacy = bas.cac + bas.cy; // acy
+export const cdat = bas.cda + bas.ct; // dat
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
