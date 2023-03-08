@@ -3760,6 +3760,8 @@ export const ctotaled = ctotal + bas.ced; // totaled
 export const cTotaled = cTotal + bas.ced; // Totaled
 export const ctotaling = ctotal + phn.cing; // totaling
 export const cTotaling = cTotal + phn.cing; // Totaling
+export const cleast = bas.cle + phn.cast; // least
+export const cLeast = bas.cLe + phn.cast; // Least
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

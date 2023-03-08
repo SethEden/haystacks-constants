@@ -3756,6 +3756,8 @@ export const wordConstantsValidation = [
   {Name: 'cTotaled', Actual: wrd.cTotaled, Expected: 'Totaled'},
   {Name: 'ctotaling', Actual: wrd.ctotaling, Expected: 'totaling'},
   {Name: 'cTotaling', Actual: wrd.cTotaling, Expected: 'Totaling'},
+  {Name: 'cleast', Actual: wrd.cleast, Expected: 'least'},
+  {Name: 'cLeast', Actual: wrd.cLeast, Expected: 'Least'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
