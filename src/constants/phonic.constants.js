@@ -1203,6 +1203,8 @@ export const cump = bas.cum + bas.cp; // ump
 export const cnst = bas.cns + bas.ct; // nst
 export const cacy = bas.cac + bas.cy; // acy
 export const cdat = bas.cda + bas.ct; // dat
+export const clier = bas.cl + cier; // lier
+export const cliest = bas.cli + cest; // liest
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
