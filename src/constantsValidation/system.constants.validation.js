@@ -372,6 +372,7 @@ export const systemConstantsValidation = [
   {Name: 'cpluginsLoaded', Actual: sys.cpluginsLoaded, Expected: 'pluginsLoaded'},
   {Name: 'cUserEnteredCommandLog', Actual: sys.cUserEnteredCommandLog, Expected: 'UserEnteredCommandLog'},
   {Name: 'cSystemCommandLog', Actual: sys.cSystemCommandLog, Expected: 'SystemCommandLog'},
+  {Name: 'ccommandPrompt', Actual: sys.ccommandPrompt, Expected: 'commandPrompt'},
 
   // Constants Filenames
   {Name: 'cbasic_constants_js', Actual: sys.cbasic_constants_js, Expected: 'basic.constants.js'},

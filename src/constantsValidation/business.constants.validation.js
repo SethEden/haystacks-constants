@@ -30,6 +30,7 @@ export const businessConstantsValidation = [
   // AuxiliaryArrayParsing rules in order
   // ***********************************************
   {Name: 'cparseColorRangeInputs', Actual: biz.cparseColorRangeInputs, Expected: 'parseColorRangeInputs'},
+  {Name: 'cgetNamedColorDataArray', Actual: biz.cgetNamedColorDataArray, Expected: 'getNamedColorDataArray'},
   {Name: 'cdoesArrayContainValue', Actual: biz.cdoesArrayContainValue, Expected: 'doesArrayContainValue'},
 
   // ***********************************************
@@ -264,6 +265,7 @@ export const businessConstantsValidation = [
   // promptOperations rules in order
   // ***********************************************
   {Name: 'cprompt', Actual: biz.cprompt, Expected: 'prompt'},
+  {Name: 'cpromptRaw', Actual: biz.cpromptRaw, Expected: 'promptRaw'},
 
   // ***********************************************
   // ruleParsing rules in order

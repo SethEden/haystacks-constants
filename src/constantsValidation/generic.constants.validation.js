@@ -29,6 +29,8 @@ export const genericConstantsValidation = [
   {Name: 'cfalse', Actual: gen.cfalse, Expected: 'false'},
   {Name: 'cTRUE', Actual: gen.cTRUE, Expected: 'TRUE'},
   {Name: 'cFALSE', Actual: gen.cFALSE, Expected: 'FALSE'},
+  {Name: 'con', Actual: gen.con, Expected: 'on'},
+  {Name: 'cOn', Actual: gen.cOn, Expected: 'On'},
   {Name: 'cOff', Actual: gen.cOff, Expected: 'Off'},
   {Name: 'coff', Actual: gen.coff, Expected: 'off'},
   {Name: 'cOFF', Actual: gen.cOFF, Expected: 'OFF'},
@@ -281,5 +283,15 @@ export const genericConstantsValidation = [
   {Name: 'cBIN', Actual: gen.cBIN, Expected: 'BIN'},
   {Name: 'cinit', Actual: gen.cinit, Expected: 'init'},
   {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'},
-  {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'}
+  {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
+  {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
+  {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\\u0003'}, // CTRL+C key-combo
+  {Name: 'cESC_Key', Actual: gen.cESC_Key, Expected: '\\u001b'}, // ESC key ASCII code
+  {Name: 'cESC', Actual: gen.cESC, Expected: 'ESC'},
+  {Name: 'cCTRL', Actual: gen.cCTRL, Expected: 'CTRL'},
+  {Name: 'cALT', Actual: gen.cALT, Expected: 'ALT'},
+  {Name: 'cSHIFT', Actual: gen.cSHIFT, Expected: 'SHIFT'},
+  {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
+  {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
+  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'}
 ];

@@ -29,6 +29,11 @@ export const cCarriageReturn = '\r'; // \r
 export const cNewLine = '\n'; // \n
 export const cPlus = '+'; // +
 export const cStar = '*'; // *
+export const cDoubleStar = cStar + cStar; // **
+export const cFourStar = cDoubleStar + cDoubleStar; // ****
+export const cTenStar = cDoubleStar + cDoubleStar + cDoubleStar + cDoubleStar + cDoubleStar; // **********
+export const cFiftyStar = cTenStar + cTenStar + cTenStar + cTenStar + cTenStar; // **************************************************
+export const cOneHundredStar = cFiftyStar + cFiftyStar; // ****************************************************************************************************
 export const cDash = '-'; // -
 export const cDoubleDash = cDash + cDash; // --
 export const cEqual = '='; // =
