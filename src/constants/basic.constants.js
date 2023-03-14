@@ -10,6 +10,7 @@
 export const cSpace = ' ';
 export const cUnderscore = '_'; // _
 export const cPipe = '|'; // |
+export const cDoublePipe = cPipe.repeat(2); // ||
 export const cExclamation = '!'; // !
 export const cQuestion = '?'; // ?
 export const cSingleQuote = '\''; // '
@@ -29,16 +30,16 @@ export const cCarriageReturn = '\r'; // \r
 export const cNewLine = '\n'; // \n
 export const cPlus = '+'; // +
 export const cStar = '*'; // *
-export const cDoubleStar = cStar + cStar; // **
-export const cFourStar = cDoubleStar + cDoubleStar; // ****
-export const cTenStar = cDoubleStar + cDoubleStar + cDoubleStar + cDoubleStar + cDoubleStar; // **********
-export const cFiftyStar = cTenStar + cTenStar + cTenStar + cTenStar + cTenStar; // **************************************************
-export const cOneHundredStar = cFiftyStar + cFiftyStar; // ****************************************************************************************************
+export const cDoubleStar = cStar.repeat(2); // **
+export const cFourStar = cDoubleStar.repeat(2); // ****
+export const cTenStar = cDoubleStar.repeat(5); // **********
+export const cFiftyStar = cTenStar.repeat(5); // **************************************************
+export const cOneHundredStar = cFiftyStar.repeat(2); // ****************************************************************************************************
 export const cDash = '-'; // -
-export const cDoubleDash = cDash + cDash; // --
+export const cDoubleDash = cDash.repeat(2); // --
 export const cEqual = '='; // =
-export const cEqualEqual = cEqual + cEqual; // ==
-export const cEqualEqualEqual = cEqualEqual + cEqual; // ===
+export const cEqualEqual = cEqual.repeat(2); // ==
+export const cEqualEqualEqual = cEqual.repeat(3); // ===
 export const cNotEqualEqual = cExclamation + cEqualEqual; // !==
 export const cGreaterThan = '>'; // >
 export const cLessThan = '<'; // <
@@ -47,11 +48,11 @@ export const cAt = '@'; // @
 export const cHash = '#';  // #
 export const cDollar = '$'; // $
 export const cPercent = '%'; // %
-export const cDoublePercent = cPercent + cPercent; // %%
+export const cDoublePercent = cPercent.repeat(2); // %%
 export const cCarrot = '^'; // ^
 export const cAndPersand = '&'; // &
 export const cDot = '.'; // .
-export const cDoubleDot = cDot + cDot; // ..
+export const cDoubleDot = cDot.repeat(2); // ..
 export const cComa = ','; // ,
 export const cColon = ':'; // :
 export const cSemiColon = ';'; // ;

@@ -283,6 +283,9 @@ export const genericConstantsValidation = [
   {Name: 'cBIN', Actual: gen.cBIN, Expected: 'BIN'},
   {Name: 'cinit', Actual: gen.cinit, Expected: 'init'},
   {Name: 'cInit', Actual: gen.cInit, Expected: 'Init'},
+  {Name: 'cwpm', Actual: gen.cwpm, Expected: 'wpm'},
+  {Name: 'cWpm', Actual: gen.cWpm, Expected: 'Wpm'},
+  {Name: 'cWPM', Actual: gen.cWPM, Expected: 'WPM'},
   {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
   {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
   {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\\u0003'}, // CTRL+C key-combo
@@ -293,5 +296,6 @@ export const genericConstantsValidation = [
   {Name: 'cSHIFT', Actual: gen.cSHIFT, Expected: 'SHIFT'},
   {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
   {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
+  {Name: 'cSPACE', Actual: gen.cSPACE, Expected: 'SPACE'},
   {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'}
 ];
