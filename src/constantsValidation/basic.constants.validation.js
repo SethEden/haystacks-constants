@@ -22,6 +22,7 @@ export const basicConstantsValidation = [
   {Name: 'cSpace', Actual: bas.cSpace, Expected: ' '},
   {Name: 'cUnderscore', Actual: bas.cUnderscore, Expected: '_'},
   {Name: 'cPipe', Actual: bas.cPipe, Expected: '|'},
+  {Name: 'cDoublePipe', Actual: bas.cDoublePipe, Expected: '||'},
   {Name: 'cExclamation', Actual: bas.cExclamation, Expected: '!'},
   {Name: 'cQuestion', Actual: bas.cQuestion, Expected: '?'},
   {Name: 'cSingleQuote', Actual: bas.cSingleQuote, Expected: '\''},
