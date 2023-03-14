@@ -32,6 +32,7 @@ export const cEcho = wrd.cEcho; // Echo
 // AuxiliaryArrayParsing rules in order
 // ***********************************************
 export const cparseColorRangeInputs = wrd.cparse + wrd.cColor + wrd.cRange + wrd.cInputs; // parseColorRangeInputs
+export const cgetNamedColorDataArray = wrd.cget + wrd.cNamed + wrd.cColor + wrd.cData + wrd.cArray; // getNamedColorDataArray
 export const cdoesArrayContainValue = wrd.cdoes + wrd.cArray + wrd.cContain + wrd.cValue; // doesArrayContainValue
 
 // ***********************************************
@@ -266,6 +267,7 @@ export const cisEven = wrd.cis + wrd.cEven; // isEven
 // promptOperations rules in order
 // ***********************************************
 export const cprompt = phn.cpro + phn.cmpt; // prompt
+export const cpromptRaw = cprompt + wrd.cRaw; // promptRaw
 
 // ***********************************************
 // ruleParsing rules in order

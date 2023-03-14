@@ -372,6 +372,7 @@ export const cDoubleDotForwardSlash = bas.cDoubleDot + bas.cForwardSlash; // ../
 export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 export const cUserEnteredCommandLog = wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cLog; // UserEnteredCommandLog
 export const cSystemCommandLog = wrd.cSystem + wrd.cCommand + wrd.cLog; // SystemCommandLog
+export const ccommandPrompt = wrd.ccommand + wrd.cPrompt; // commandPrompt
 
 // Constants Filenames
 export const cbasic_constants_js = wrd.cbasic + bas.cDot + wrd.cconstants + gen.cDotjs; // basic.constants.js
