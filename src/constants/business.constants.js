@@ -308,6 +308,7 @@ export const cgenerateRandomColor = wrd.cgenerate + wrd.cRandom + wrd.cColor; //
 // StringParsingUtiities rules in order
 // ***********************************************
 export const cparseSystemRootPath = wrd.cparse + wrd.cSystem + wrd.cRoot + wrd.cPath; // parseSystemRootPath
+export const cparseSystemRootPathApplicationName = cparseSsytemRootPath + wrd.cApplication + wrd.cName; // parseSystemRootPathApplicationName
 export const cstringToDataType = wrd.cstring + wrd.cTo + wrd.cData + wrd.cType; // stringToDataType
 export const cstringToBoolean = wrd.cstring + wrd.cTo + wrd.cBoolean; // stringToBoolean
 export const cdetermineObjectDataType = wrd.cdetermine + wrd.cObject + wrd.cData + wrd.cType; // determineObjectDataType
