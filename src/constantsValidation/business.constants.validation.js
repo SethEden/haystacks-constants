@@ -306,6 +306,7 @@ export const businessConstantsValidation = [
   // StringParsingUtiities rules in order
   // ***********************************************
   {Name: 'cparseSystemRootPath', Actual: biz.cparseSystemRootPath, Expected: 'parseSystemRootPath'},
+  {Name: 'cparseSystemRootPathApplicationName', Actual: biz.cparseSystemRootPathApplicationName, Expected: 'parseSystemRootPathApplicationName'},
   {Name: 'cstringToDataType', Actual: biz.cstringToDataType, Expected: 'stringToDataType'},
   {Name: 'cstringToBoolean', Actual: biz.cstringToBoolean, Expected: 'stringToBoolean'},
   {Name: 'cdetermineObjectDataType', Actual: biz.cdetermineObjectDataType, Expected: 'determineObjectDataType'},
