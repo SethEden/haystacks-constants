@@ -2657,6 +2657,8 @@ export const cseparate = bas.cse + bas.cpa + phn.crate; // separate
 export const cSeparate = bas.cSe + bas.cpa + phn.crate; // Separate
 export const cseparated = cseparate + bas.cd; // separated
 export const cSeparated = cSeparate + bas.cd; // Separated
+export const cseparator = bas.cse + bas.cpa + bas.cra + phn.ctor; // separator
+export const cSeparator = bas.cSe + bas.cpa + bas.cra + phn.ctor; // Separator
 export const csea = bas.cse + bas.ca; // sea
 export const cSea = bas.cSe + bas.ca; // Sea
 export const csearch = csea + phn.crch; // search
@@ -4309,6 +4311,8 @@ export const cwished = cwish + bas.ced; // wished
 export const cWished = cWish + bas.ced; // Wished
 export const cwishing = cwish + phn.cing; // wishing
 export const cWishing = cWish + phn.cing; // Wishing
+export const crectify = phn.crect + phn.cify; // rectify
+export const cRectify = phn.cRect + phn.cify; // Rectify
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
