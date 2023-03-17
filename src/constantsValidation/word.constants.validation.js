@@ -2653,6 +2653,8 @@ export const wordConstantsValidation = [
   {Name: 'cSeparate', Actual: wrd.cSeparate, Expected: 'Separate'},
   {Name: 'cseparated', Actual: wrd.cseparated, Expected: 'separated'},
   {Name: 'cSeparated', Actual: wrd.cSeparated, Expected: 'Separated'},
+  {Name: 'cseparator', Actual: wrd.cseparator, Expected: 'separator'},
+  {Name: 'cSeparator', Actual: wrd.cSeparator, Expected: 'Separator'},
   {Name: 'csea', Actual: wrd.csea, Expected: 'sea'},
   {Name: 'cSea', Actual: wrd.cSea, Expected: 'Sea'},
   {Name: 'csearch', Actual: wrd.csearch, Expected: 'search'},
@@ -4305,6 +4307,8 @@ export const wordConstantsValidation = [
   {Name: 'cWished', Actual: wrd.cWished, Expected: 'Wished'},
   {Name: 'cwishing', Actual: wrd.cwishing, Expected: 'wishing'},
   {Name: 'cWishing', Actual: wrd.cWishing, Expected: 'Wishing'},
+  {Name: 'crectify', Actual: wrd.crectify, Expected: 'rectify'},
+  {Name: 'cRectify', Actual: wrd.cRectify, Expected: 'Rectify'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
