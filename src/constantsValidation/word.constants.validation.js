@@ -127,6 +127,8 @@ export const wordConstantsValidation = [
   {Name: 'cits', Actual: wrd.cits, Expected: 'its'},
   {Name: 'cIts', Actual: wrd.cIts, Expected: 'Its'},
   {Name: 'cITS', Actual: wrd.cITS, Expected: 'ITS'},
+  {Name: 'cus', Actual: wrd.cus, Expected: 'us'},
+  {Name: 'cUs', Actual: wrd.cUs, Expected: 'Us'},
   {Name: 'cbe', Actual: wrd.cbe, Expected: 'be'},
   {Name: 'cBe', Actual: wrd.cBe, Expected: 'Be'},
   {Name: 'cBE', Actual: wrd.cBE, Expected: 'BE'},
