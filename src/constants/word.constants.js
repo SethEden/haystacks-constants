@@ -129,6 +129,7 @@ export const cIts = cIt + bas.cs; // Its
 export const cITS = cIT + bas.cS; // ITS
 export const cus = bas.cus; // us
 export const cUs = bas.cUs; // Us
+export const cUS = bas.cUS; // US
 export const cbe = bas.cbe; // be
 export const cBe = bas.cBe; // Be
 export const cBE = bas.cBE; // BE
