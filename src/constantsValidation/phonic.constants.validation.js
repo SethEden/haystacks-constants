@@ -1224,6 +1224,7 @@ export const phonicConstantsValidation = [
   {Name: 'crid', Actual: phn.crid, Expected: 'rid'},
   {Name: 'cRid', Actual: phn.cRid, Expected: 'Rid'},
   {Name: 'cpos', Actual: phn.cpos, Expected: 'pos'},
+  {Name: 'cware', Actual: phn.cware, Expected: 'ware'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},
