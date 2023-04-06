@@ -399,8 +399,11 @@ export const cword_constants_js = wrd.cword + bas.cDot + wrd.cconstants + gen.cD
 // System Paths
 export const cActualFrameworkName = wrd.chay + wrd.cstacks; // haystacks // Deprecated along with the haystacks framework
 export const cFrameworkName = wrd.cFramework + wrd.cName; // FrameworkName
+export const cPluginName = wrd.cPlugin + wrd.cName; // PluginName
 export const cFrameworkVersionNumber = wrd.cFramework + wrd.cVersion + wrd.cNumber; // FrameworkVersionNumber
+export const cPluginVersionNumber = wrd.cPlugin + wrd.cVersion + wrd.cNumber; // PluginVersionNumber
 export const cFrameworkDescription = wrd.cFramework + wrd.cDescription; // FrameworkDescription
+export const cPluginDescription = wrd.cPlugin + wrd.cDescription; // PluginDescription
 export const cmetaDatadotJson = wrd.cmeta + wrd.cData + bas.cDot + gen.cjson; // metaData.json
 export const cFrameworkDevelopRootPath = wrd.csrc + bas.cDoubleForwardSlash; // src//
 export const cFrameworkProductionRootPath = wrd.cbin + bas.cDoubleForwardSlash; // bin//
