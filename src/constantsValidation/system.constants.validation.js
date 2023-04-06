@@ -399,8 +399,11 @@ export const systemConstantsValidation = [
   // System Paths
   {Name: 'cActualFrameworkName', Actual: sys.cActualFrameworkName, Expected: 'haystacks'},
   {Name: 'cFrameworkName', Actual: sys.cFrameworkName, Expected: 'FrameworkName'},
+  {Name: 'cPluginName', Actual: sys.cPluginName, Expected: 'PluginName'},
   {Name: 'cFrameworkVersionNumber', Actual: sys.cFrameworkVersionNumber, Expected: 'FrameworkVersionNumber'},
+  {Name: 'cPluginVersionNumber', Actual: sys.cPluginVersionNumber, Expected: 'PluginVersionNumber'},
   {Name: 'cFrameworkDescription', Actual: sys.cFrameworkDescription, Expected: 'FrameworkDescription'},
+  {Name: 'cPluginDescription', Actual: sys.cPluginDescription, Expected: 'PluginDescription'},
   {Name: 'cmetaDatadotJson', Actual: sys.cmetaDatadotJson, Expected: 'metaData.json'},
   {Name: 'cFrameworkDevelopRootPath', Actual: sys.cFrameworkDevelopRootPath, Expected: 'src//'},
   {Name: 'cFrameworkProductionRootPath', Actual: sys.cFrameworkProductionRootPath, Expected: 'bin//'},

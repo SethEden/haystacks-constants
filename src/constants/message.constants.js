@@ -554,6 +554,7 @@ export const cinputDataRightBeforeProcessingIs = cinputData + bas.cSpace + wrd.c
 export const cnumberIs = wrd.cnumber + sys.cSpaceIsColonSpace; // number is:
 export const capplicationMetaDataPathAndFilenameIs = wrd.capplication + wrd.cMetaData + wrd.cPath + wrd.cAnd + wrd.cFilename + sys.cSpaceIsColonSpace; // applicationMetaDataPathAndFilename is:
 export const cframeworkMetaDataPathAndFilenameIs = wrd.cframework + wrd.cMetaData + wrd.cPath + wrd.cAnd + wrd.cFilename + sys.cSpaceIsColonSpace; // frameworkMetaDataPathAndFilename is:
+export const cpluginMetaDataPathAndFilenameIs = wrd.cplugin + wrd.cMetaData + wrd.cPath + wrd.cAnd + wrd.cFilename + sys.cSpaceIsColonSpace; // pluginMetaDataPathAndFilename is:
 export const capplicationMetaDataIs = wrd.capplication + wrd.cMetaData + sys.cSpaceIsColonSpace; // applicationMetaData is:
 export const cframeworkMetaDataIs = wrd.cframework + wrd.cMetaData + sys.cSpaceIsColonSpace; // frameworkMetaData is:
 export const cApplicationNameIs = wrd.cApplication + wrd.cName + sys.cSpaceIsColonSpace; // ApplicationName is:
@@ -562,6 +563,8 @@ export const cApplicationDescriptionIs = wrd.cApplication + wrd.cDescription + s
 export const cFrameworkNameIs = wrd.cFramework + wrd.cName + sys.cSpaceIsColonSpace; // FrameworkName is:
 export const cFrameworkVersionNumberIs = wrd.cFramework + wrd.cVersion + wrd.cNumber + sys.cSpaceIsColonSpace; // FrameworkVersionNumber is:
 export const cFrameworkDescriptionIs = wrd.cFramework + wrd.cDescription + sys.cSpaceIsColonSpace; // FrameworkDescription is:
+export const cPluginVersionNumberIs = wrd.cPlugin + wrd.cVersion + wrd.cNumber + sys.cSpaceIsColonSpace; // PluginVersionNumber is:
+export const cPluginDescriptionIs = wrd.cPlugin + wrd.cDescription + sys.cSpaceIsColonSpace; // PluginDescription is:
 export const csessionDateTimeStampIs = wrd.csession + wrd.cDate + wrd.cTime + wrd.cStamp + sys.cSpaceIsColonSpace; // sessionDateTimeStamp is:
 export const clogFileNameIs = wrd.clog + wrd.cFileName + sys.cSpaceIsColonSpace; // logFileName is:
 export const cprimaryCommandDelimiterIs = wrd.cprimary + wrd.cCommand + wrd.cDelimiter + sys.cSpaceIsColonSpace; // primaryCommandDelimiter is:
@@ -812,6 +815,9 @@ export const cDoneAppendingToFileMessage = wrd.cDONE + bas.cSpace + wrd.cappendi
 export const caliasesPathIs = wrd.caliases + wrd.cPath + sys.cSpaceIsColonSpace; // aliasesPath is:
 export const cworkflowsPathIs = wrd.cworkflows + wrd.cPath + sys.cSpaceIsColonSpace; // workflowsPath is:
 export const cthemesPathIs = wrd.cthemes + wrd.cPath + sys.cSpaceIsColonSpace; // themesPath is:
+export const cpluginCodeRootPathIs = wrd.cplugin + wrd.cCode + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginCodeRootPath is:
+export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRootPath is:
+export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
