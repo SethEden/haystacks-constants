@@ -1218,6 +1218,7 @@ export const crid = bas.cri + bas.cd; // rid
 export const cRid = bas.cRi + bas.cd; // Rid
 export const cpos = bas.cpo + bas.cs; // pos
 export const cware = bas.cwa + bas.cre; // ware
+export const crld = bas.crl + bas.cd; // rld
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
