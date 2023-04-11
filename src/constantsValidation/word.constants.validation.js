@@ -4317,6 +4317,8 @@ export const wordConstantsValidation = [
   {Name: 'cwolf', Actual: wrd.cwolf, Expected: 'wolf'},
   {Name: 'cworld', Actual: wrd.cworld, Expected: 'world'},
   {Name: 'cWorld', Actual: wrd.cWorld, Expected: 'World'},
+  {Name: 'cnet', Actual: wrd.cnet, Expected: 'net'},
+  {Name: 'cNet', Actual: wrd.cNet, Expected: 'Net'},
   {Name: 'cinternet', Actual: wrd.cinternet, Expected: 'internet'},
   {Name: 'cInternet', Actual: wrd.cInternet, Expected: 'Internet'},
   {Name: 'caardwolf', Actual: wrd.caardwolf, Expected: 'aardwolf'},
@@ -4426,6 +4428,10 @@ export const wordConstantsValidation = [
   {Name: 'cAbbott', Actual: wrd.cAbbott, Expected: 'Abbott'},
   {Name: 'cabboud', Actual: wrd.cabboud, Expected: 'abboud'},
   {Name: 'cAbboud', Actual: wrd.cAbboud, Expected: 'Abboud'},
+  {Name: 'chell', Actual: wrd.chell, Expected: 'hell'},
+  {Name: 'cHell', Actual: wrd.cHell, Expected: 'Hell'},
+  {Name: 'chello', Actual: wrd.chello, Expected: 'hello'},
+  {Name: 'cHello', Actual: wrd.cHello, Expected: 'Hello'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
@@ -4890,8 +4896,6 @@ export const wordConstantsValidation = [
   {Name: 'cCarrick', Actual: wrd.cCarrick, Expected: 'Carrick'},
   {Name: 'cbrummel', Actual: wrd.cbrummel, Expected: 'brummel'},
   {Name: 'cBrummel', Actual: wrd.cBrummel, Expected: 'Brummel'},
-  {Name: 'cnet', Actual: wrd.cnet, Expected: 'net'},
-  {Name: 'cNet', Actual: wrd.cNet, Expected: 'Net'},
   {Name: 'cnets', Actual: wrd.cnets, Expected: 'nets'},
   {Name: 'cNets', Actual: wrd.cNets, Expected: 'Nets'},
   {Name: 'cnetted', Actual: wrd.cnetted, Expected: 'netted'},
