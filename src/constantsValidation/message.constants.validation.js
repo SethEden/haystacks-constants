@@ -399,6 +399,7 @@ export const messageConstantsVaidation = [
   {Name: 'cresolvedSystemCommandsAliasesPathIs', Actual: msg.cresolvedSystemCommandsAliasesPathIs, Expected: 'resolvedSystemCommandsAliasesPath is: '},
   {Name: 'cresolvedClientCommandsAliasesPathIs', Actual: msg.cresolvedClientCommandsAliasesPathIs, Expected: 'resolvedClientCommandsAliasesPath is: '},
   {Name: 'cresolvedCustomCommandsAliasesPathIs', Actual: msg.cresolvedCustomCommandsAliasesPathIs, Expected: 'resolvedCustomCommandsAliasesPath is: '},
+  {Name: 'cresolvedPluginCommandsAliasesPathIs', Actual: msg.cresolvedPluginCommandsAliasesPathIs, Expected: 'resolvedPluginCommandsAliasesPath is: '},
   {Name: 'cworkflowPathConfigurationNameIs', Actual: msg.cworkflowPathConfigurationNameIs, Expected: 'workflowPathConfigurationName is: '},
   {Name: 'cresolvedSystemWorkflowsPathIs', Actual: msg.cresolvedSystemWorkflowsPathIs, Expected: 'resolvedSystemWorkflowsPath is: '},
   {Name: 'cresolvedClientWorkflowsPathIs', Actual: msg.cresolvedClientWorkflowsPathIs, Expected: 'resolvedClientWorkflowsPath is: '},
@@ -814,6 +815,7 @@ export const messageConstantsVaidation = [
   {Name: 'cpluginCodeRootPathIs', Actual: msg.cpluginCodeRootPathIs, Expected: 'pluginCodeRootPath is: '},
   {Name: 'cpluginRootPathIs', Actual: msg.cpluginRootPathIs, Expected: 'pluginRootPath is: '},
   {Name: 'cpluginReleaseResourcesPathIs', Actual: msg.cpluginReleaseResourcesPathIs, Expected: 'pluginReleaseResourcesPath is: '},
+  {Name: 'cfilesToLoadIsValid', Actual: msg.cfilesToLoadIsValid, Expected: 'filesToLoad is valid'},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
