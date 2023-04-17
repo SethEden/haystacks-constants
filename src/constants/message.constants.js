@@ -403,6 +403,7 @@ export const ccommandAliasesPathConfigNameIs = wrd.ccommand + wrd.cAliases + wrd
 export const cresolvedSystemCommandsAliasesPathIs = wrd.cresolved + wrd.cSystem + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedSystemCommandsAliasesPath is:
 export const cresolvedClientCommandsAliasesPathIs = wrd.cresolved + wrd.cClient + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedClientCommandsAliasesPath is:
 export const cresolvedCustomCommandsAliasesPathIs = wrd.cresolved + wrd.cCustom + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedCustomCommandsAliasesPath is:
+export const cresolvedPluginCommandsAliasesPathIs = wrd.cresolved + wrd.cPlugin + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedPluginCommandsAliasesPath is:
 export const cworkflowPathConfigurationNameIs = wrd.cworkflow + wrd.cPath + wrd.cConfiguration + wrd.cName + sys.cSpaceIsColonSpace; // workflowPathConfigurationName is:
 export const cresolvedSystemWorkflowsPathIs = wrd.cresolved + wrd.cSystem + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedSystemWorkflowsPath is:
 export const cresolvedClientWorkflowsPathIs = wrd.cresolved + wrd.cClient + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedClientWorkflowsPath is:
@@ -818,6 +819,7 @@ export const cthemesPathIs = wrd.cthemes + wrd.cPath + sys.cSpaceIsColonSpace; /
 export const cpluginCodeRootPathIs = wrd.cplugin + wrd.cCode + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginCodeRootPath is:
 export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRootPath is:
 export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
+export const cfilesToLoadIsValid = wrd.cfiles + wrd.cTo + wrd.cLoad + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid; // filesToLoad is valid
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
