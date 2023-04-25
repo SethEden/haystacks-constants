@@ -286,6 +286,9 @@ export const genericConstantsValidation = [
   {Name: 'cwpm', Actual: gen.cwpm, Expected: 'wpm'},
   {Name: 'cWpm', Actual: gen.cWpm, Expected: 'Wpm'},
   {Name: 'cWPM', Actual: gen.cWPM, Expected: 'WPM'},
+  {Name: 'capi', Actual: gen.capi, Expected: 'api'},
+  {Name: 'cApi', Actual: gen.cApi, Expected: 'Api'},
+  {Name: 'cAPI', Actual: gen.cAPI, Expected: 'API'},
   {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
   {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
   {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\\u0003'}, // CTRL+C key-combo
