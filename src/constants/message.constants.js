@@ -682,6 +682,9 @@ export const cextraUserEnteredWorkflowsIs = wrd.cextra + wrd.cUser + wrd.cEntere
 export const cnamespaceAllWorkflowsDataObjectIs = wrd.cnamespace + wrd.cAll + wrd.cWorkflows + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // namespaceAllWorkflowsDataObject is:
 export const cdataNameIs = wrd.cdata + wrd.cName + sys.cSpaceIsColonSpace; // dataName is:
 export const cdataIs = wrd.cdata + sys.cSpaceIsColonSpace; // data is:
+export const cdataSourceIs = wrd.cdata + wrd.cSource + sys.cSpaceIsColonSpace; // dataSource is:
+export const cpossibleDataNamesArrayIs = wrd.cpossible + wrd.cData + wrd.cNames + wrd.cArray + sys.cSpaceIsColonSpace; // possibleDataNamesArray is:
+export const cdataElementIs = wrd.cdata + wrd.cElement + sys.cSpaceIsColonSpace; // dataElement is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
