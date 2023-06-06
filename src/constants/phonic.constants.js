@@ -1222,6 +1222,7 @@ export const cRid = bas.cRi + bas.cd; // Rid
 export const cpos = bas.cpo + bas.cs; // pos
 export const cware = bas.cwa + bas.cre; // ware
 export const crld = bas.crl + bas.cd; // rld
+export const cRLD = bas.cRL + bas.cD; // RLD
 export const cios = bas.cio + bas.cs; // ios
 export const cposs = bas.cpo + bas.css; // poss
 export const cPoss = bas.cPo + bas.css; // Poss

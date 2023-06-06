@@ -1229,6 +1229,7 @@ export const phonicConstantsValidation = [
   {Name: 'cpos', Actual: phn.cpos, Expected: 'pos'},
   {Name: 'cware', Actual: phn.cware, Expected: 'ware'},
   {Name: 'crld', Actual: phn.crld, Expected: 'rld'},
+  {Name: 'cRLD', Actual: phn.cRLD, Expected: 'RLD'},
   {Name: 'cios', Actual: phn.cios, Expected: 'ios'},
   {Name: 'cposs', Actual: phn.cposs, Expected: 'poss'},
   {Name: 'cPoss', Actual: phn.cPoss, Expected: 'Poss'},
