@@ -255,6 +255,7 @@ export const genericConstantsValidation = [
 
   // Miscelanious
   {Name: 'cUTF8', Actual: gen.cUTF8, Expected: 'UTF8'},
+  {Name: 'cNaN', Actual: gen.cNaN, Expected: 'NaN'},
   {Name: 'crgb', Actual: gen.crgb, Expected: 'rgb'},
   {Name: 'cRGB', Actual: gen.cRGB, Expected: 'RGB'},
   {Name: 'ccmyk', Actual: gen.ccmyk, Expected: 'cmyk'},

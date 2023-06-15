@@ -255,6 +255,7 @@ export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8
+export const cNaN = bas.cNa + bas.cN; // NaN
 export const crgb = bas.crg + bas.cb; // rgb
 export const cRGB = bas.cRG + bas.cB; // RGB
 export const ccmyk = bas.ccm + bas.cyk; // cmyk
