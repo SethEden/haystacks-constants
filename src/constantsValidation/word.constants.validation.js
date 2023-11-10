@@ -4503,6 +4503,18 @@ export const wordConstantsValidation = [
   {Name: 'cPlating', Actual: wrd.cPlating, Expected: 'Plating'},
   {Name: 'cplatings', Actual: wrd.cplatings, Expected: 'platings'},
   {Name: 'cPlatings', Actual: wrd.cPlatings, Expected: 'Platings'},
+  {Name: 'cbehave', Actual: wrd.cbehave, Expected: 'behave'},
+  {Name: 'cBehave', Actual: wrd.cBehave, Expected: 'Behave'},
+  {Name: 'cbehaves', Actual: wrd.cbehaves, Expected: 'behaves'},
+  {Name: 'cBehaves', Actual: wrd.cBehaves, Expected: 'Behaves'},
+  {Name: 'cbehaved', Actual: wrd.cbehaved, Expected: 'behaved'},
+  {Name: 'cBehaved', Actual: wrd.cBehaved, Expected: 'Behaved'},
+  {Name: 'cbehaving', Actual: wrd.cbehaving, Expected: 'behaving'},
+  {Name: 'cBehaving', Actual: wrd.cBehaving, Expected: 'Behaving'},
+  {Name: 'cbehavior', Actual: wrd.cbehavior, Expected: 'behavior'},
+  {Name: 'cBehavior', Actual: wrd.cBehavior, Expected: 'Behavior'},
+  {Name: 'cbehaviors', Actual: wrd.cbehaviors, Expected: 'behaviors'},
+  {Name: 'cBehaviors', Actual: wrd.cBehaviors, Expected: 'Behaviors'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

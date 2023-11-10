@@ -681,6 +681,8 @@ export const messageConstantsVaidation = [
   {Name: 'cdataSourceIs', Actual: msg.cdataSourceIs, Expected: 'dataSource is: '},
   {Name: 'cpossibleDataNamesArrayIs', Actual: msg.cpossibleDataNamesArrayIs, Expected: 'possibleDataNamesArray is: '},
   {Name: 'cdataElementIs', Actual: msg.cdataElementIs, Expected: 'dataElement is: '},
+  {Name: 'ccommandsAre', Actual: msg.ccommandsAre, Expected: 'commands are: '},
+  {Name: 'cbusinessRulesAre', Actual: msg.cbusinessRulesAre, Expected: 'businessRules are: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

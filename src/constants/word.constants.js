@@ -4507,6 +4507,18 @@ export const cplating = bas.cp + phn.clat + phn.cing; // plating
 export const cPlating = bas.cP + phn.clat + phn.cing; // Plating
 export const cplatings = cplating + bas.cs; // platings
 export const cPlatings = cPlating + bas.cs; // Platings
+export const cbehave = cbe + chave; // behave
+export const cBehave = cBe + chave; // Behave
+export const cbehaves = cbehave + bas.cs; // behaves
+export const cBehaves = cBehave + bas.cs; // Behaves
+export const cbehaved = cbehave + bas.cd; // behaved
+export const cBehaved = cBehave + bas.cd; // Behaved
+export const cbehaving = bas.cbe + phn.chav + phn.cing; // behaving
+export const cBehaving = bas.cBe + phn.chav + phn.cing; // Behaving
+export const cbehavior = bas.cbe + phn.chav + phn.cior; // behavior
+export const cBehavior = bas.cBe + phn.chav + phn.cior; // Behavior
+export const cbehaviors = cbehavior + bas.cs; // behaviors
+export const cBehaviors = cBehavior + bas.cs; // Behaviors
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

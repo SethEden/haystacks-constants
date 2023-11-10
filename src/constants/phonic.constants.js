@@ -1230,6 +1230,8 @@ export const cibly = bas.cib + bas.cly; // ibly
 export const cibi = bas.cib + bas.ci; // ibi
 export const clit = bas.cli + bas.ct; // lit
 export const clity = clit + bas.cy; // lity
+export const cior = bas.cio + bas.cr; // ior
+export const chav = bas.cha + bas.cv; // hav
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

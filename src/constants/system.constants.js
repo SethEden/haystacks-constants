@@ -177,6 +177,7 @@ export const cnavigateTo = wrd.cnavigate + bas.cTo; // navigateTo
 export const cNavigateTo = wrd.cNavigate + bas.cTo; // NavigateTo
 export const cBrowserRefresh = wrd.cBrowser + wrd.cRefresh; // BrowserRefresh
 export const cSpaceIsColonSpace = bas.cSpace + bas.cis + bas.cColon + bas.cSpace; // is:
+export const cSpaceAreColonSpace = bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // are:
 export const cdeployApplication = wrd.cdeploy + wrd.cApplication; // deployApplication
 export const cdeployMetaData = wrd.cdeploy + wrd.cMetaData // deployMetaData
 export const creleaseApplication = wrd.crelease + wrd.cApplication; // releaseApplication

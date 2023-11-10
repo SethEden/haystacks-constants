@@ -177,6 +177,7 @@ export const systemConstantsValidation = [
   {Name: 'cNavigateTo', Actual: sys.cNavigateTo, Expected: 'NavigateTo'},
   {Name: 'cBrowserRefresh', Actual: sys.cBrowserRefresh, Expected: 'BrowserRefresh'},
   {Name: 'cSpaceIsColonSpace', Actual: sys.cSpaceIsColonSpace, Expected: ' is: '},
+  {Name: 'cSpaceAreColonSpace', Actual: sys.cSpaceAreColonSpace, Expected: ' are: '},
   {Name: 'cdeployApplication', Actual: sys.cdeployApplication, Expected: 'deployApplication'},
   {Name: 'cdeployMetaData', Actual: sys.cdeployMetaData, Expected: 'deployMetaData'},
   {Name: 'creleaseApplication', Actual: sys.creleaseApplication, Expected: 'releaseApplication'},
