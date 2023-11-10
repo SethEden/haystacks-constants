@@ -4606,6 +4606,7 @@ export const wordConstantsValidation = [
   {Name: 'cCherry', Actual: wrd.cCherry, Expected: 'Cherry'},
   {Name: 'cBlossom', Actual: wrd.cBlossom, Expected: 'Blossom'},
   {Name: 'cChestnut', Actual: wrd.cChestnut, Expected: 'Chestnut'},
+  {Name: 'cchrome', Actual: wrd.cchrome, Expected: 'chrome'},
   {Name: 'cChrome', Actual: wrd.cChrome, Expected: 'Chrome'},
   {Name: 'cCinnamon', Actual: wrd.cCinnamon, Expected: 'Cinnamon'},
   {Name: 'cCocoa', Actual: wrd.cCocoa, Expected: 'Cocoa'},

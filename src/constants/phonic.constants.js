@@ -1232,6 +1232,8 @@ export const clit = bas.cli + bas.ct; // lit
 export const clity = clit + bas.cy; // lity
 export const cior = bas.cio + bas.cr; // ior
 export const chav = bas.cha + bas.cv; // hav
+export const cfir = bas.cfi + bas.cr; // fir
+export const cFir = bas.cFi + bas.cr; // Fir
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
