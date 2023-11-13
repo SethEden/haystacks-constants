@@ -260,6 +260,51 @@ export const cvrml = bas.cvr + bas.cml; // vrml
 export const cVrml = bas.cVr + bas.cml; // Vrml
 export const cVRML = bas.cVR + bas.cML; // VRML
 
+// Browsers
+export const cchrome = wrd.cchrome; // chrome
+export const cChrome = wrd.cChrome; // Chrome
+export const cedge = wrd.cedge; // edge
+export const cEdge = wrd.cEdge; // Edge
+export const cfirefox = wrd.cfire + wrd.cfox; // firefox
+export const cFirefox = wrd.cFire + wrd.cfox; // Firefox
+export const copera = wrd.copera; // opera
+export const cOpera = wrd.cOpera; // Opera
+export const csafari = wrd.csafari; // safari
+export const cSafari = wrd.cSafari; // Safari
+export const cvivaldi = wrd.cvivaldi; // vivaldi
+export const cVivaldi = wrd.cVivaldi; // Vivaldi
+export const cbrave = wrd.cbrave; // brave
+export const cBrave = wrd.cBrave; // Brave
+export const cinternetExplorer = wrd.cinternet + wrd.cExplorer; // internet Explorer
+export const cInternetExplorer = wrd.cInternet + wrd.cExplorer; // Internet Explorer
+export const cchromium = wrd.cchromium; // chromium
+export const cChromium = wrd.cChromium; // Chromium
+export const ctorBrowser = wrd.ctor + wrd.cBrowser; // torBrowser
+export const cTorBrowser = wrd.cTor + wrd.cBrowser; // TorBrowser
+export const cmaxthon = wrd.cmax + phn.cthon; // maxthon
+export const cMaxthon = wrd.cMax + phn.cthon; // Maxthon
+export const cwaterfox = wrd.cwater + wrd.cfox; // waterfox
+export const cWaterfox = wrd.cWater + wrd.cfox; // Waterfox
+export const cseaMonkey = wrd.csea + wrd.cMonkey; // seaMonkey
+export const cSeaMonkey = wrd.cSea + wrd.cMonkey; // SeaMonkey
+export const cepic = wrd.cepic; // epic
+export const cEpic = wrd.cEpic; // Epic
+export const cmidori = phn.cmid + phn.cori; // midori
+export const cMidori = phn.cMid + phn.cori; // Midori
+export const cUCBrowser = bas.cUC + wrd.cBrowser; // UCBrowser
+export const coperaGX = copera + bas.cGX; // operaGX
+export const cOperaGX = cOpera + bas.cGX; // OperaGX
+export const cyandexBrowser = phn.cyan + phn.cdex + wrd.cBrowser; // yandexBrowser
+export const cYandexBrowser = phn.cYan + phn.cdex + wrd.cBrowser; // YandexBrowser
+export const ccomodoDragon = wrd.ccomodo + wrd.cDragon; // comodoDragon
+export const cComodoDragon = wrd.cComodo + wrd.cDragon; // ComodoDragon
+export const ccomodoIceDragon = wrd.ccomodo + wrd.cIce + wrd.cDragon; // comodoIceDragon
+export const cComodoIceDragon = wrd.cComodo + wrd.cIce + wrd.cDragon; // ComodoIceDragon
+export const cfirefoxFocus = cfirefox + wrd.cFocus; // firefoxFocus
+export const cFirefoxFocus = cFirefox + wrd.cFocus; // FirefoxFocus
+export const calohaBrowser = wrd.caloha + wrd.cBrowser; // alohaBrowser
+export const cAlohaBrowser = wrd.cAloha + wrd.cBrowser; // AlohaBrowser
+
 // UI Element Types
 export const cButton = bas.cBu + bas.ctt + bas.con; // Button
 

@@ -105,6 +105,8 @@ export const ckth = bas.ck + bas.cth; // kth
 export const crent = bas.cre + bas.cnt; // rent
 export const carent = bas.ca + crent; // arent
 export const ctor = bas.cto + bas.cr; // tor
+export const cTor = bas.cTo + bas.cr; // Tor
+export const cTOR = bas.cTO + bas.cR; // TOR
 export const cctor = bas.cc + ctor; // ctor
 export const celector = bas.cel + bas.cec + ctor; // elector
 export const coolean = bas.coo + bas.cle + bas.can; // oolean
@@ -340,6 +342,7 @@ export const cCol = bas.cCo + bas.cl; // Col
 export const creen = bas.cre + bas.cen; // reen
 export const clue = bas.clu + bas.ce; // lue Referance to Tron here! :-P
 export const cyan = bas.cy + bas.can; // yan
+export const cYan = bas.cY + bas.can; // Yan
 export const cite = bas.cit + bas.ce; // ite
 export const cang = bas.can + bas.cg; // ang
 export const cange = cang + bas.ce; // ange
@@ -1234,6 +1237,27 @@ export const cior = bas.cio + bas.cr; // ior
 export const chav = bas.cha + bas.cv; // hav
 export const cfir = bas.cfi + bas.cr; // fir
 export const cFir = bas.cFi + bas.cr; // Fir
+export const csaf = bas.csa + bas.cf; // saf
+export const cSaf = bas.cSa + bas.cf; // Saf
+export const cldi = bas.cld + bas.ci; // ldi
+export const crav = bas.cra + bas.cv; // rav
+export const cRav = bas.cRa + bas.cv; // Rav
+export const clor = bas.clo + bas.cr; // lor
+export const cLor = bas.cLo + bas.cr; // Lor
+export const clore = clor + bas.ce; // lore
+export const cLore = cLor + bas.ce; // Lore
+export const cchr = bas.cch + bas.cr; // chr
+export const cChr = bas.cCh + bas.cr; // Chr
+export const ctho = bas.cth + bas.co; // tho
+export const cTho = bas.cTh + bas.co; // Tho
+export const cthon = ctho + bas.cn; // thon
+export const cThon = cTho + bas.cn; // Thon
+export const cmid = bas.cmi + bas.cd; // mid
+export const cMid = bas.cMi + bas.cd; // Mid
+export const codo = bas.cod + bas.co; // odo
+export const ccus = bas.ccu + bas.cs; // cus
+export const cCus = bas.cCu + bas.cs; // Cus
+export const coha = bas.coh + bas.ca; // oha
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
@@ -1279,7 +1303,6 @@ export const csur = bas.csu + bas.cr; // sur
 export const cSur = bas.cSu + bas.cr; // Sur
 export const ccat = bas.cca + bas.ct; // cat
 export const cCat = bas.cCa + bas.ct; // Cat
-
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 // NOTE: Additional Optimizations needed for the following
