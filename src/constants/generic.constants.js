@@ -156,7 +156,7 @@ export const cYYYYMMDD_HHmmss_SSS = cYYYYMMDD_HHmmss + bas.cDash + cSSS; // YYYY
 export const cYYYY_MM_DD_HH_mm_ss_SSS = cYYYY + bas.cColon + bas.cMM + bas.cColon + bas.cDD + bas.cDash + bas.cHH + bas.cColon + bas.cmm + bas.cColon + bas.css + bas.cColon + cSSS; // YYYY:MM:DD-HH:mm:ss:SSS
 
 // Operating Systems
-export const cwin32 = phn.cwin + num.c32;
+export const cwin32 = phn.cwin + num.c32; // win32
 
 // Naval & Military Codes
 export const cAlfa = bas.cAl + bas.cfa; //  Alfa
@@ -233,6 +233,8 @@ export const cbas = bas.cba + bas.cs; // bas
 export const cbiz = bas.cbi + bas.cz; // biz
 export const cclr = phn.cclr; // clr
 export const ccmd = bas.ccm + bas.cd; // cmd
+export const cCmd = bas.cCm + bas.cd; // Cmd
+export const cCMD = bas.cCM + bas.cD; // CMD
 export const ccfg = bas.ccf + bas.cg; // cfg
 export const ccon = bas.cco + bas.cn; // con
 export const cctr = phn.cctr; // ctr

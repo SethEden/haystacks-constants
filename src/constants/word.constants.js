@@ -4964,6 +4964,7 @@ export const cPolish = bas.cPo + phn.clish; // Polish
 export const cpolished = cpolish + bas.ced; // polished
 export const cPolished = cPolish + bas.ced; // Polished
 export const cPomp = bas.cPo + bas.cmp; // Pomp
+export const cpower = bas.cpo + phn.cwer; // power
 export const cPower = bas.cPo + phn.cwer; // Power
 export const cPortland = cPort + bas.cla + bas.cnd; // Portland
 export const cPrinceton = phn.cPri + phn.cnce + phn.cton; // Princeton

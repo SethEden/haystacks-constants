@@ -233,6 +233,8 @@ export const genericConstantsValidation = [
   {Name: 'cbiz', Actual: gen.cbiz, Expected: 'biz'},
   {Name: 'cclr', Actual: gen.cclr, Expected: 'clr'},
   {Name: 'ccmd', Actual: gen.ccmd, Expected: 'cmd'},
+  {Name: 'cCmd', Actual: gen.cCmd, Expected: 'Cmd'},
+  {Name: 'cCMD', Actual: gen.cCMD, Expected: 'CMD'},
   {Name: 'ccfg', Actual: gen.ccfg, Expected: 'cfg'},
   {Name: 'ccon', Actual: gen.ccon, Expected: 'con'},
   {Name: 'cctr', Actual: gen.cctr, Expected: 'ctr'},

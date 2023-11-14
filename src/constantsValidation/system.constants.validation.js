@@ -305,6 +305,11 @@ export const systemConstantsValidation = [
   {Name: 'calohaBrowser', Actual: sys.calohaBrowser, Expected: 'alohaBrowser'},
   {Name: 'cAlohaBrowser', Actual: sys.cAlohaBrowser, Expected: 'AlohaBrowser'},
 
+  // Command Systems
+  {Name: 'ccmd', Actual: sys.ccmd, Expected: 'cmd'},
+  {Name: 'cbash', Actual: sys.cbash, Expected: 'bash'},
+  {Name: 'cpowershell', Actual: sys.cpowershell, Expected: 'powershell'},
+
   // UI Element Types
   {Name: 'cButton', Actual: sys.cButton, Expected: 'Button'},
 

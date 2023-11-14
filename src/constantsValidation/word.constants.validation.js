@@ -4960,6 +4960,7 @@ export const wordConstantsValidation = [
   {Name: 'cpolished', Actual: wrd.cpolished, Expected: 'polished'},
   {Name: 'cPolished', Actual: wrd.cPolished, Expected: 'Polished'},
   {Name: 'cPomp', Actual: wrd.cPomp, Expected: 'Pomp'},
+  {Name: 'cpower', Actual: wrd.cpower, Expected: 'power'},
   {Name: 'cPower', Actual: wrd.cPower, Expected: 'Power'},
   {Name: 'cPortland', Actual: wrd.cPortland, Expected: 'Portland'},
   {Name: 'cPrinceton', Actual: wrd.cPrinceton, Expected: 'Princeton'},

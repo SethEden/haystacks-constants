@@ -305,6 +305,11 @@ export const cFirefoxFocus = cFirefox + wrd.cFocus; // FirefoxFocus
 export const calohaBrowser = wrd.caloha + wrd.cBrowser; // alohaBrowser
 export const cAlohaBrowser = wrd.cAloha + wrd.cBrowser; // AlohaBrowser
 
+// Command Systems
+export const ccmd = gen.ccmd; // cmd
+export const cbash = bas.cba + bas.csh; // bash
+export const cpowershell = wrd.cpower + wrd.cshell; // powershell
+
 // UI Element Types
 export const cButton = bas.cBu + bas.ctt + bas.con; // Button
 
