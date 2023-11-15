@@ -4640,6 +4640,18 @@ export const cwatching = cwatch + phn.cing; // watching
 export const cWatching = cWatch + phn.cing; // Watching
 export const ccypress = bas.ccy + cpress; // cypress
 export const cCypress = bas.cCy + cpress; // Cypress
+export const cspawn = bas.csp + phn.cawn;
+export const cSpawn = bas.cSp + phn.cawn;
+export const cspawns = cspawn + bas.cs;
+export const cSpawns = cSpawn + bas.cs;
+export const cspawner = cspawn + bas.cer;
+export const cSpawner = cSpawn + bas.cer;
+export const cspawned = cspawn + bas.ced;
+export const cSpawned = cSpawn + bas.ced;
+export const cspawning = cspawn + phn.cing;
+export const cSpawning = cSpawn + phn.cing;
+export const ccmd = bas.ccm + bas.cd;
+export const cCmd = bas.cCm + bas.cd;
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
