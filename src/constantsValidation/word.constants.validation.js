@@ -4636,6 +4636,16 @@ export const wordConstantsValidation = [
   {Name: 'cWatching', Actual: wrd.cWatching, Expected: 'Watching'},
   {Name: 'ccypress', Actual: wrd.ccypress, Expected: 'cypress'},
   {Name: 'cCypress', Actual: wrd.cCypress, Expected: 'Cypress'},
+  {Name: 'spawn', Actual: wrd.cspawn, Expected: 'spawn'},
+  {Name: 'Spawn', Actual: wrd.cSpawn, Expected: 'Spawn'},
+  {Name: 'spawns', Actual: wrd.cspawns, Expected: 'spawns'},
+  {Name: 'Spawns', Actual: wrd.cSpawns, Expected: 'Spawns'},
+  {Name: 'spawner', Actual: wrd.cspawner, Expected: 'spawner'},
+  {Name: 'Spawner', Actual: wrd.cSpawner, Expected: 'Spawner'},
+  {Name: 'spawned', Actual: wrd.cspawned, Expected: 'spawned'},
+  {Name: 'Spawned', Actual: wrd.cSpawned, Expected: 'Spawned'},
+  {Name: 'spawning', Actual: wrd.cspawning, Expected: 'spawning'},
+  {Name: 'Spawning', Actual: wrd.cSpawning, Expected: 'Spawning'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

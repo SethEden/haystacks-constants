@@ -4650,8 +4650,6 @@ export const cspawned = cspawn + bas.ced;
 export const cSpawned = cSpawn + bas.ced;
 export const cspawning = cspawn + phn.cing;
 export const cSpawning = cSpawn + phn.cing;
-export const ccmd = bas.ccm + bas.cd;
-export const cCmd = bas.cCm + bas.cd;
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
