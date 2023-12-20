@@ -559,7 +559,6 @@ export const cpluginMetaDataPathAndFilenameIs = wrd.cplugin + wrd.cMetaData + wr
 export const capplicationMetaDataIs = wrd.capplication + wrd.cMetaData + sys.cSpaceIsColonSpace; // applicationMetaData is:
 export const cframeworkMetaDataIs = wrd.cframework + wrd.cMetaData + sys.cSpaceIsColonSpace; // frameworkMetaData is:
 export const cApplicationNameIs = wrd.cApplication + wrd.cName + sys.cSpaceIsColonSpace; // ApplicationName is:
-export const cApplicationVersionNumberIs = wrd.cApplication + wrd.cVersion + wrd.cNumber + sys.cSpaceIsColonSpace; // ApplicationVersionNumber is:
 export const cApplicationDescriptionIs = wrd.cApplication + wrd.cDescription + sys.cSpaceIsColonSpace; // ApplicationDescription is:
 export const cFrameworkNameIs = wrd.cFramework + wrd.cName + sys.cSpaceIsColonSpace; // FrameworkName is:
 export const cFrameworkVersionNumberIs = wrd.cFramework + wrd.cVersion + wrd.cNumber + sys.cSpaceIsColonSpace; // FrameworkVersionNumber is:
@@ -1329,6 +1328,13 @@ export const cBeginCommandAliasesValidationMessage = wrd.cBegin + bas.cSpace + w
 export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cvalidation;
 // Running all validations
 export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
+// ERROR: There was a fatal error in warden.initFrameworkSchema function.
+export const cErrorInitFrameworkMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + wrd.cwarden + bas.cDot + gen.cinit + wrd.cFramework + wrd.cSchema + bas.cSpace + wrd.cfunction + bas.cDot;
+// ERROR: There was a fatal error in main.initFramework function.
+export const cErrorInitFrameworkMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + wrd.cmain + bas.cDot + gen.cinit + wrd.cFramework + bas.cSpace + wrd.cfunction + bas.cDot;
+// ERROR: clientConfiguration was not properly defined.
+export const cErrorInitFrameworkMessage03 = cERROR_Colon + bas.cSpace + wrd.cclient + wrd.cConfiguration + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+
 
 // Coded System Messages
 // EXAMPLE:
