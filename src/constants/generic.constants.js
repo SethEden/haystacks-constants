@@ -304,3 +304,4 @@ export const cENTER = bas.cEN + bas.cTE + bas.cR; // ENTER
 export const cSPACE = bas.cSP + bas.cAC + bas.cE; // SPACE
 export const cBACKSPACE = bas.cBA + bas.cCK + cSPACE; // BACKSPACE
 export const cCroot = bas.cC + bas.cColon + bas.cForwardSlash; // C:/
+export const cCrootBackSlash = bas.cC + bas.cColon + bas.cBackSlash; // C:\
