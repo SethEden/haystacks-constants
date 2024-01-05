@@ -5,7 +5,7 @@
   "main": "./src/main.js",
   "type": "module",
   "scripts": {
-    "vers": "standard-version -m \"chore(release) version %s \""
+    "vers": "release-please -m \"chore(release) version %s \""
   },
   "repository": {
     "type": "git",
