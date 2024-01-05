@@ -22,6 +22,8 @@ export const messageConstantsVaidation = [
   // Logging Constants
   {Name: 'cBEGIN_Function', Actual: msg.cBEGIN_Function, Expected: 'BEGIN %% Function'},
   {Name: 'cEND_Function', Actual: msg.cEND_Function, Expected: 'END %% Function'},
+  {Name: 'cBEGIN_Event', Actual: msg.cBEGIN, Expected: 'BEGIN %% Event'},
+  {Name: 'cEND_Event', Actual: msg.cEND, Expected: 'END %% Event'},
   {Name: 'cinputData', Actual: msg.cinputData, Expected: 'inputData'},
   {Name: 'cInputData', Actual: msg.cInputData, Expected: 'InputData'},
   {Name: 'cinputMetaData', Actual: msg.cinputMetaData, Expected: 'inputMetaData'},

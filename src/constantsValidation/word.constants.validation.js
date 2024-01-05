@@ -9,7 +9,7 @@
  */
 
 // Internal imports
-import { cRD } from '../constants/basic.constants.js'
+import { cRD } from '../constants/basic.constants.js';
 import * as wrd from '../constants/word.constants.js';
 
 /**
@@ -5034,6 +5034,13 @@ export const wordConstantsValidation = [
   {Name: 'cScreamin', Actual: wrd.cScreamin, Expected: 'Screamin'},
   {Name: 'cSeal', Actual: wrd.cSeal, Expected: 'Seal'},
   {Name: 'cshell', Actual: wrd.cshell, Expected: 'shell'},
+  {Name: 'cShell', Actual: wrd.cShell, Expected: 'Shell'},
+  {Name: 'cshells', Actual: wrd.cshells, Expected: 'shells'},
+  {Name: 'cShells', Actual: wrd.cShells, Expected: 'Shells'},
+  {Name: 'cshelled', Actual: wrd.cshelled, Expected: 'shelled'},
+  {Name: 'cShelled', Actual: wrd.cShelled, Expected: 'Shelled'},
+  {Name: 'cshelling', Actual: wrd.cshelling, Expected: 'shelling'},
+  {Name: 'cShelling', Actual: wrd.cShelling, Expected: 'Shelling'},
   {Name: 'cSelective', Actual: wrd.cSelective, Expected: 'Selective'},
   {Name: 'cShamrock', Actual: wrd.cShamrock, Expected: 'Shamrock'},
   {Name: 'cShimmering', Actual: wrd.cShimmering, Expected: 'Shimmering'},

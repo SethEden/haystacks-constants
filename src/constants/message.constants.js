@@ -24,6 +24,8 @@ import * as wrd from './word.constants.js';
 // Logging Constants
 export const cBEGIN_Function = wrd.cBEGIN + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // BEGIN %% Function
 export const cEND_Function = wrd.cEND + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // END %% Function
+export const cBEGIN_Event = wrd.cBEGIN + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cEvent; // BEGIN %% Event
+export const cEND_Event = wrd.cEND + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cEvent; // END %% Event
 export const cinputData = wrd.cinput + wrd.cData; // inputData
 export const cInputData = wrd.cInput + wrd.cData; // InputData
 export const cinputMetaData = wrd.cinput + wrd.cMetaData; // inputMetaData
