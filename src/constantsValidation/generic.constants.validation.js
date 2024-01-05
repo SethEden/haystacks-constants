@@ -302,5 +302,7 @@ export const genericConstantsValidation = [
   {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
   {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
   {Name: 'cSPACE', Actual: gen.cSPACE, Expected: 'SPACE'},
-  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'}
+  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'},
+  {Name: 'cCroot', Actual: gen.cCroot, Expected: 'C:/'},
+  {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'}
 ];

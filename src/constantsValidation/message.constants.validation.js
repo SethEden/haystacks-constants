@@ -1122,6 +1122,10 @@ export const messageConstantsVaidation = [
   {Name: 'cBeginCommandAliasesValidationMessage', Actual: msg.cBeginCommandAliasesValidationMessage, Expected: 'Begin command aliases validation'},
   {Name: 'cBeginWorkflowsValidationMessage', Actual: msg.cBeginWorkflowsValidationMessage, Expected: 'Begin workflows validation'},
   {Name: 'cRunningAllValidationsMessage', Actual: msg.cRunningAllValidationsMessage, Expected: 'Running all validations'},
+  {Name: 'cErrorInitFrameworkMessage01', Actual: msg.cErrorInitFrameworkMessage01, Expected: 'ERROR: There was a fatal error in warden.initFrameworkSchema function.'},
+  {Name: 'cErrorInitFrameworkMessage02', Actual: msg.cErrorInitFrameworkMessage02, Expected: 'ERROR: There was a fatal error in main.initFramework function.'},
+  {Name: 'cErrorInitFrameworkMessage03', Actual: msg.cErrorInitFrameworkMessage03, Expected: 'ERROR: clientConfiguration was not properly defined.'},
+
 
   // Coded System Messages
   // EXAMPLE:
