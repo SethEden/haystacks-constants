@@ -573,7 +573,7 @@ export const cprimaryCommandDelimiterIs = wrd.cprimary + wrd.cCommand + wrd.cDel
 export const csecondaryCommandDelimiterIs = wrd.csecondary + wrd.cCommand + wrd.cDelimiter + sys.cSpaceIsColonSpace; // secondaryCommandDelimiter is:
 export const ctertiaryCommandDelimiterIs = wrd.ctertiary + wrd.cCommand + wrd.cDelimiter + sys.cSpaceIsColonSpace; // tertiaryCommandDelimiter is:
 export const ccommandSequencerCommandToEnqueueIs = wrd.ccommand + wrd.cSequencer + bas.cSpace + wrd.cCommand + bas.cSpace + bas.cTo + bas.cSpace + wrd.cEnqueue + sys.cSpaceIsColonSpace; // commandSequencer Command To Enqueue is:
-export const cWarningMessageIsUndefined = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cmessage + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined; // WARNING: message is undefined
+export const cWarningMessageIsUndefined = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cmessage + bas.cSpace + wrd.cis + bas.cSpace + 'undefined'; // WARNING: message is undefined
 export const cclassPathIs = wrd.cclass + wrd.cPath + sys.cSpaceIsColonSpace; // classPath is:
 export const cargsArrayContainsRegEx1Is = gen.cargs + wrd.cArray + wrd.cContains + wrd.cRegEx + num.c1 + sys.cSpaceIsColonSpace; // argsArrayContainsRegEx1 is:
 export const cargsArrayContainsRegEx2Is = gen.cargs + wrd.cArray + wrd.cContains + wrd.cRegEx + num.c2 + sys.cSpaceIsColonSpace; // argsArrayContainsRegEx2 is:
@@ -1331,12 +1331,21 @@ export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cw
 // Running all validations
 export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
 // ERROR: There was a fatal error in warden.initFrameworkSchema function.
-export const cErrorInitFrameworkMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + wrd.cwarden + bas.cDot + gen.cinit + wrd.cFramework + wrd.cSchema + bas.cSpace + wrd.cfunction + bas.cDot;
+export const cErrorInitFrameworkMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + bas.cSpace + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + bas.cSpace + wrd.cwarden + bas.cDot + gen.cinit + wrd.cFramework + wrd.cSchema + bas.cSpace + wrd.cfunction + bas.cDot;
 // ERROR: There was a fatal error in main.initFramework function.
-export const cErrorInitFrameworkMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + wrd.cmain + bas.cDot + gen.cinit + wrd.cFramework + bas.cSpace + wrd.cfunction + bas.cDot;
+export const cErrorInitFrameworkMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + bas.cSpace + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + bas.cSpace + wrd.cmain + bas.cDot + gen.cinit + wrd.cFramework + bas.cSpace + wrd.cfunction + bas.cDot;
 // ERROR: clientConfiguration was not properly defined.
 export const cErrorInitFrameworkMessage03 = cERROR_Colon + bas.cSpace + wrd.cclient + wrd.cConfiguration + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
-
+// ERROR: Input data was not properly defined.
+export const cErrorAccouterFrameworkMessage01 = cERROR_Colon + bas.cSpace + wrd.cInput + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot; 
+// ERROR: clientBusinessRules was not properly defined.
+export const cErrorMergeClientBusinessRulesMessage01 = cERROR_Colon + bas.cSpace + wrd.cclient + wrd.cBusiness + wrd.cRules + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: clientCommands was not properly defined.
+export const cErrorMergeClientCommandsMessage01 = cERROR_Colon + bas.cSpace + wrd.cclient + wrd.cCommands + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: commandAliasesPath was not properly defined.
+export const cErrorLoadCommandAliasesMessage01 = cERROR_Colon + bas.cSpace + wrd.ccommand + wrd.cAliases + wrd.cPath + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: contextName was not properly defined.
+export const cErrorLoadCommandAliasesMessage02 = cERROR_Colon + bas.cSpace + wrd.ccontext + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:

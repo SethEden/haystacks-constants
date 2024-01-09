@@ -4650,6 +4650,10 @@ export const wordConstantsValidation = [
   {Name: 'Spawned', Actual: wrd.cSpawned, Expected: 'Spawned'},
   {Name: 'spawning', Actual: wrd.cspawning, Expected: 'spawning'},
   {Name: 'Spawning', Actual: wrd.cSpawning, Expected: 'Spawning'},
+  {Name: 'warden', Actual: wrd.cwarden, Expected: 'warden'},
+  {Name: 'Warden', Actual: wrd.cWarden, Expected: 'Warden'},
+  {Name: 'caccouter', Actual: wrd.accouter, Expected: 'accouter'},
+  {Name: 'cAccouter', Actual: wrd.Accouter, Expected: 'Accouter'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
