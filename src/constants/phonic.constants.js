@@ -1258,6 +1258,8 @@ export const codo = bas.cod + bas.co; // odo
 export const ccus = bas.ccu + bas.cs; // cus
 export const cCus = bas.cCu + bas.cs; // Cus
 export const coha = bas.coh + bas.ca; // oha
+export const ctil = bas.cti + bas.cl; // til
+export const cTil = bas.cTi + bas.cl; // Til
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
