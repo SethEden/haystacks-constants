@@ -1130,7 +1130,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorMergeClientCommandsMessage01', Actual: msg.cErrorMergeClientCommandsMessage01, Expected: 'ERROR: clientCommands was not properly defined.'},
   {Name: 'cErrorLoadCommandAliasesMessage01', Actual: msg.cErrorLoadCommandAliasesMessage01, Expected: 'ERROR: commandAliasesPath was not properly defined.'},
   {Name: 'cErrorLoadCommandAliasesMessage02', Actual: msg.cErrorLoadCommandAliasesMessage02, Expected: 'ERROR: contextName was not properly defined.'},
-
+  {Name: 'cErrorListAllLoadedPluginsMessage02', Actual: msg.cErrorListAllLoadedPluginsMessage02, Expected: 'ERROR: Plugin list does not exist or is not an array.'},
+  {Name: 'cErrorAttributeNameMessage01', Actual: msg.cErrorAttributeNameMessage01, Expected: 'ERROR: attributeName was not properly defined.'},
 
   // Coded System Messages
   // EXAMPLE:

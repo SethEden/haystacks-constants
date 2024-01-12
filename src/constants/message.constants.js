@@ -1346,6 +1346,11 @@ export const cErrorMergeClientCommandsMessage01 = cERROR_Colon + bas.cSpace + wr
 export const cErrorLoadCommandAliasesMessage01 = cERROR_Colon + bas.cSpace + wrd.ccommand + wrd.cAliases + wrd.cPath + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
 // ERROR: contextName was not properly defined.
 export const cErrorLoadCommandAliasesMessage02 = cERROR_Colon + bas.cSpace + wrd.ccontext + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: Plugin list does not exist or is not an array.
+export const cErrorListAllLoadedPluginsMessage02 = cERROR_Colon + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.clist + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cDot;
+// ERROR: attributeName was not properly defined.
+export const cErrorAttributeNameMessage01 = cERROR_Colon + bas.cSpace + wrd.cattribute + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+
 
 // Coded System Messages
 // EXAMPLE:
