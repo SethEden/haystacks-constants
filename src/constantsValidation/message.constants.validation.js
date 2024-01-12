@@ -1125,6 +1125,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorInitFrameworkMessage01', Actual: msg.cErrorInitFrameworkMessage01, Expected: 'ERROR: There was a fatal error in warden.initFrameworkSchema function.'},
   {Name: 'cErrorInitFrameworkMessage02', Actual: msg.cErrorInitFrameworkMessage02, Expected: 'ERROR: There was a fatal error in main.initFramework function.'},
   {Name: 'cErrorInitFrameworkMessage03', Actual: msg.cErrorInitFrameworkMessage03, Expected: 'ERROR: clientConfiguration was not properly defined.'},
+  {Name: 'cErrorAccouterFrameworkMessage01', Actual: msg.cErrorAccouterFrameworkMessage01, Expected: 'ERROR: Input data was not properly defined.'},
+  {Name: 'cErrorMergeClientBusinessRulesMessage01', Actual: msg.cErrorMergeClientBusinessRulesMessage01, Expected: 'ERROR: clientBusinessRules was not properly defined.'},
+  {Name: 'cErrorMergeClientCommandsMessage01', Actual: msg.cErrorMergeClientCommandsMessage01, Expected: 'ERROR: clientCommands was not properly defined.'},
+  {Name: 'cErrorLoadCommandAliasesMessage01', Actual: msg.cErrorLoadCommandAliasesMessage01, Expected: 'ERROR: commandAliasesPath was not properly defined.'},
+  {Name: 'cErrorLoadCommandAliasesMessage02', Actual: msg.cErrorLoadCommandAliasesMessage02, Expected: 'ERROR: contextName was not properly defined.'},
 
 
   // Coded System Messages
