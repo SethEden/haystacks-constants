@@ -306,6 +306,7 @@ export const systemConstantsValidation = [
   {Name: 'cAlohaBrowser', Actual: sys.cAlohaBrowser, Expected: 'AlohaBrowser'},
 
   // Command Systems
+  {Name: 'cdos', Actual: sys.cdos, Expected: 'dos'},
   {Name: 'ccmd', Actual: sys.ccmd, Expected: 'cmd'},
   {Name: 'cbash', Actual: sys.cbash, Expected: 'bash'},
   {Name: 'cpowershell', Actual: sys.cpowershell, Expected: 'powershell'},

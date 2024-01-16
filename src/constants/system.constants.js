@@ -306,6 +306,7 @@ export const calohaBrowser = wrd.caloha + wrd.cBrowser; // alohaBrowser
 export const cAlohaBrowser = wrd.cAloha + wrd.cBrowser; // AlohaBrowser
 
 // Command Systems
+export const cdos = gen.cdos; // dos
 export const ccmd = gen.ccmd; // cmd
 export const cbash = bas.cba + bas.csh; // bash
 export const cpowershell = wrd.cpower + wrd.cshell; // powershell
