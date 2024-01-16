@@ -826,6 +826,7 @@ export const cpluginCodeRootPathIs = wrd.cplugin + wrd.cCode + wrd.cRoot + wrd.c
 export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRootPath is:
 export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
 export const cfilesToLoadIsValid = wrd.cfiles + wrd.cTo + wrd.cLoad + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid; // filesToLoad is valid
+export const cpluginsFromPathArrayIs = wrd.cplugins + wrd.cFrom + wrd.cPath + wrd.cArray + bas.cSpace + wrd.cis + sys.cSpaceIsColonSpace; // pluginsFromPathArray is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1350,7 +1351,10 @@ export const cErrorLoadCommandAliasesMessage02 = cERROR_Colon + bas.cSpace + wrd
 export const cErrorListAllLoadedPluginsMessage02 = cERROR_Colon + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.clist + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cDot;
 // ERROR: attributeName was not properly defined.
 export const cErrorAttributeNameMessage01 = cERROR_Colon + bas.cSpace + wrd.cattribute + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
-
+// ERROR: The plugin does not exist in the plugin path. Plugin name:
+export const cErrorRegisterPluginMessage05 = cERROR_Colon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + wrd.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
+// ERROR: There are no plugins in the plugin path. Plugin path:
+export const cErrorRegisterPluginMessage06 = cERROR_Colon + bas.cSpace + wrd.cThere + bas.cSpace + wrd.care + bas.cSpace + wrd.cno + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:
