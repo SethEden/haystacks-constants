@@ -1135,6 +1135,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAttributeNameMessage01', Actual: msg.cErrorAttributeNameMessage01, Expected: 'ERROR: attributeName was not properly defined.'},
   {Name: 'cErrorRegisterPluginMessage05', Actual: msg.cErrorRegisterPluginMessage05, Expected: 'ERROR: The plugin does not exist in the plugin path. Plugin name: '},
   {Name: 'cErrorRegisterPluginMessage06', Actual: msg.cErrorRegisterPluginMessage06, Expected: 'ERROR: There are no plugins in the plugin path. Plugin path: '},
+  {Name: 'cErrorUnRegisterPluginMessage02', Actual: msg.cErrorUnRegisterPluginMessage02, Expected: 'ERROR: Plugin Name does not exist. Plugin Name: '},
+  {Name: 'cErrorUnRegisterPluginMessage03', Actual: msg.cErrorUnRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
+
 
 
 
