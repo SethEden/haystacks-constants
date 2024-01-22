@@ -4714,6 +4714,16 @@ export const cfinishing = cfinish + phn.cing; // finishing
 export const cFinishing = cFinish + phn.cing; // Finishing
 export const cuntil = bas.cun + phn.ctil; // until
 export const cUntil = bas.cUn + phn.ctil; // Until
+export const csignal = phn.csig + phn.cnal; // signal
+export const cSignal = phn.cSig + phn.cnal; // Signal
+export const csignals = csignal + bas.cs; // signals
+export const cSignals = cSignal + bas.cs; // Signals
+export const csignaler = csignal + bas.cer; // signaler
+export const cSignaler = cSignal + bas.cer; // Signaler
+export const csignaled = csignal + bas.ced; // signaled
+export const cSignaled = cSignal + bas.ced; // Signaled
+export const csignaling = csignal + phn.cing; // signaling
+export const cSignaling = cSignal + phn.cing; // Signaling
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
