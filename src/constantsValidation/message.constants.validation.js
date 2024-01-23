@@ -1141,6 +1141,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRegisterPluginMessage06', Actual: msg.cErrorRegisterPluginMessage06, Expected: 'ERROR: There are no plugins in the plugin path. Plugin path: '},
   {Name: 'cErrorUnRegisterPluginMessage02', Actual: msg.cErrorUnRegisterPluginMessage02, Expected: 'ERROR: Plugin Name does not exist. Plugin Name: '},
   {Name: 'cErrorUnRegisterPluginMessage03', Actual: msg.cErrorUnRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
+  {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
 
 
 
