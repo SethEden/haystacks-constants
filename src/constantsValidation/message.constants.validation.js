@@ -1141,8 +1141,13 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRegisterPluginMessage06', Actual: msg.cErrorRegisterPluginMessage06, Expected: 'ERROR: There are no plugins in the plugin path. Plugin path: '},
   {Name: 'cErrorUnRegisterPluginMessage02', Actual: msg.cErrorUnRegisterPluginMessage02, Expected: 'ERROR: Plugin Name does not exist. Plugin Name: '},
   {Name: 'cErrorUnRegisterPluginMessage03', Actual: msg.cErrorUnRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
+<<<<<<< HEAD
   {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},
   {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
+=======
+  {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
+
+>>>>>>> cb0f5cd28d101300d36fa37bb1aad8f8994e41fe
 
 
 

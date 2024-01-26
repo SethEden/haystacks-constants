@@ -1363,10 +1363,16 @@ export const cErrorRegisterPluginMessage06 = cERROR_Colon + bas.cSpace + wrd.cTh
 export const cErrorUnRegisterPluginMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value: 
 export const cErrorUnRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+<<<<<<< HEAD
 // ERROR: No file specified, cannot delete nothing.
 export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cnothing + bas.cDot;
 // ERROR: There was an error attempting to delete the file:
 export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+=======
+// ERROR: Plugin List Array is an invalid value: 
+export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+
+>>>>>>> cb0f5cd28d101300d36fa37bb1aad8f8994e41fe
 
 // Coded System Messages
 // EXAMPLE:
