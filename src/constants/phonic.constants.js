@@ -1260,6 +1260,11 @@ export const cCus = bas.cCu + bas.cs; // Cus
 export const coha = bas.coh + bas.ca; // oha
 export const ctil = bas.cti + bas.cl; // til
 export const cTil = bas.cTi + bas.cl; // Til
+export const cdar = bas.cda + bas.cr; // dar
+export const cDar = bas.cDa + bas.cr; // Dar
+export const csent = bas.cs + cent; // sent
+export const cSent = bas.cS + cent; // Sent
+export const cism = bas.cis + bas.cm; // ism
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

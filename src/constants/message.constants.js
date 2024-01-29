@@ -688,6 +688,10 @@ export const cpossibleDataNamesArrayIs = wrd.cpossible + wrd.cData + wrd.cNames 
 export const cdataElementIs = wrd.cdata + wrd.cElement + sys.cSpaceIsColonSpace; // dataElement is:
 export const ccommandsAre = wrd.ccommands + sys.cSpaceAreColonSpace; // commands are:
 export const cbusinessRulesAre = sys.cbusinessRules + sys.cSpaceAreColonSpace; // businessRules are:
+export const cmessageFromChild = wrd.cmessage + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cchild + bas.cColon + bas.cSpace; // message from child:
+export const cexitedWithCode = wrd.cExited + bas.cSpace + wrd.cwith + bas.cSpace + wrd.ccode + bas.cColon + bas.cSpace; // Exited with code:
+export const candSignal = bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + wrd.csignal + bas.cColon + bas.cSpace; // , and signal:
+export const cisAbsent = wrd.cis + bas.cSpace + wrd.cabsent + bas.cDot; // is absent.
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

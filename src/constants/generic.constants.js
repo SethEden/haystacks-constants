@@ -157,6 +157,8 @@ export const cYYYY_MM_DD_HH_mm_ss_SSS = cYYYY + bas.cColon + bas.cMM + bas.cColo
 
 // Operating Systems
 export const cwin32 = phn.cwin + num.c32; // win32
+export const cdarwin = phn.cdar + phn.cwin; // darwin
+export const clinux = phn.clin + bas.cux; // linux
 
 // Naval & Military Codes
 export const cAlfa = bas.cAl + bas.cfa; //  Alfa
@@ -308,3 +310,4 @@ export const cSPACE = bas.cSP + bas.cAC + bas.cE; // SPACE
 export const cBACKSPACE = bas.cBA + bas.cCK + cSPACE; // BACKSPACE
 export const cCroot = bas.cC + bas.cColon + bas.cForwardSlash; // C:/
 export const cCrootBackSlash = bas.cC + bas.cColon + bas.cBackSlash; // C:\
+export const cipc = bas.cip + bas.cc; // ipc - Inter-Process Communication
