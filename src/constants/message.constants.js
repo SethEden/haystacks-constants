@@ -688,6 +688,10 @@ export const cpossibleDataNamesArrayIs = wrd.cpossible + wrd.cData + wrd.cNames 
 export const cdataElementIs = wrd.cdata + wrd.cElement + sys.cSpaceIsColonSpace; // dataElement is:
 export const ccommandsAre = wrd.ccommands + sys.cSpaceAreColonSpace; // commands are:
 export const cbusinessRulesAre = sys.cbusinessRules + sys.cSpaceAreColonSpace; // businessRules are:
+export const cmessageFromChild = wrd.cmessage + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cchild + bas.cColon + bas.cSpace; // message from child:
+export const cexitedWithCode = wrd.cExited + bas.cSpace + wrd.cwith + bas.cSpace + wrd.ccode + bas.cColon + bas.cSpace; // Exited with code:
+export const candSignal = bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + wrd.csignal + bas.cColon + bas.cSpace; // , and signal:
+export const cisAbsent = wrd.cis + bas.cSpace + wrd.cabsent + bas.cDot; // is absent.
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -808,6 +812,10 @@ export const caccumulatorPluginRegistryIs = wrd.caccumulator + wrd.cPlugin + wrd
 export const cprefixPluginPathIs = wrd.cprefix + wrd.cPlugin + wrd.cPath + sys.cSpaceIsColonSpace; // prefixPluginPath is:
 export const cformatStringIs = wrd.cformat + wrd.cString + sys.cSpaceIsColonSpace; // formatString is:
 export const cmessageIs = wrd.cmessage + sys.cSpaceIsColonSpace; // message is:
+export const cerrorIs = wrd.cerror + sys.cSpaceIsColonSpace; // error Is:
+export const cwarningIs = wrd.cwarning + sys.cSpaceIsColonSpace; // warning Is:
+export const ccodeIs = wrd.ccode + sys.cSpaceIsColonSpace; // code Is:
+export const csignalIs = wrd.csignal + sys.cSpaceIsColonSpace; // signal Is:
 export const cpluginCommandAliasesPathIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // pluginCommandAliasesPath is:
 export const cpluginWorkflowsPathIs = wrd.cplugin + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // pluginWorkflowsPath is:
 export const cpluginThemesPathIs = wrd.cplugin + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // pluginThemesPath is:
@@ -1355,6 +1363,16 @@ export const cErrorAttributeNameMessage01 = cERROR_Colon + bas.cSpace + wrd.catt
 export const cErrorRegisterPluginMessage05 = cERROR_Colon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + wrd.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
 // ERROR: There are no plugins in the plugin path. Plugin path:
 export const cErrorRegisterPluginMessage06 = cERROR_Colon + bas.cSpace + wrd.cThere + bas.cSpace + wrd.care + bas.cSpace + wrd.cno + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name does not exist. Plugin Name:
+export const cErrorUnRegisterPluginMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name is an invalid value: 
+export const cErrorUnRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+// ERROR: No file specified, cannot delete nothing.
+export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cnothing + bas.cDot;
+// ERROR: There was an error attempting to delete the file:
+export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+// ERROR: Plugin List Array is an invalid value: 
+export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

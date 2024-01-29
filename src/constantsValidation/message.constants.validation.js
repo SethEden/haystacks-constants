@@ -685,6 +685,10 @@ export const messageConstantsVaidation = [
   {Name: 'cdataElementIs', Actual: msg.cdataElementIs, Expected: 'dataElement is: '},
   {Name: 'ccommandsAre', Actual: msg.ccommandsAre, Expected: 'commands are: '},
   {Name: 'cbusinessRulesAre', Actual: msg.cbusinessRulesAre, Expected: 'businessRules are: '},
+  {Name: 'cmessageFromChild', Actual: msg.cmessageFromChild, Expected: 'message from child: '},
+  {Name: 'cexitedWithCode', Actual: msg.cexitedWithCode, Expected: 'Exited with code: '},
+  {Name: 'candSignal', Actual: msg.candSignal, Expected: ', and signal: '},
+  {Name: 'cisAbsent', Actual: msg.cisAbsent, Expected: 'is absent.'},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},
@@ -805,6 +809,10 @@ export const messageConstantsVaidation = [
   {Name: 'cprefixPluginPathIs', Actual: msg.cprefixPluginPathIs, Expected: 'prefixPluginPath is: '},
   {Name: 'cformatStringIs', Actual: msg.cformatStringIs, Expected: 'formatString is: '},
   {Name: 'cmessageIs', Actual: msg.cmessageIs, Expected: 'message is: '},
+  {Name: 'cerrorIs', Actual: msg.cerrorIs, Expected: 'error Is: '},
+  {Name: 'cwarningIs', Actual: msg.cwarningIs, Expected: 'warning Is: '},
+  {Name: 'ccodeIs', Actual: msg.ccodeIs, Expected: 'code Is: '},
+  {Name: 'csignalIs', Actual: msg.csignalIs, Expected: 'signal Is: '},
   {Name: 'cpluginCommandAliasesPathIs', Actual: msg.cpluginCommandAliasesPathIs, Expected: 'pluginCommandAliasesPath is: '},
   {Name: 'cpluginWorkflowsPathIs', Actual: msg.cpluginWorkflowsPathIs, Expected: 'pluginWorkflowsPath is: '},
   {Name: 'cpluginThemesPathIs', Actual: msg.cpluginThemesPathIs, Expected: 'pluginThemesPath is: '},
@@ -1135,8 +1143,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAttributeNameMessage01', Actual: msg.cErrorAttributeNameMessage01, Expected: 'ERROR: attributeName was not properly defined.'},
   {Name: 'cErrorRegisterPluginMessage05', Actual: msg.cErrorRegisterPluginMessage05, Expected: 'ERROR: The plugin does not exist in the plugin path. Plugin name: '},
   {Name: 'cErrorRegisterPluginMessage06', Actual: msg.cErrorRegisterPluginMessage06, Expected: 'ERROR: There are no plugins in the plugin path. Plugin path: '},
-
-
+  {Name: 'cErrorUnRegisterPluginMessage02', Actual: msg.cErrorUnRegisterPluginMessage02, Expected: 'ERROR: Plugin Name does not exist. Plugin Name: '},
+  {Name: 'cErrorUnRegisterPluginMessage03', Actual: msg.cErrorUnRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
+  {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},
+  {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
+  {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
 
   // Coded System Messages
   // EXAMPLE:

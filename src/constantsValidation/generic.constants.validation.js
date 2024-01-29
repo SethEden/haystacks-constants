@@ -158,6 +158,8 @@ export const genericConstantsValidation = [
 
   // Operating Systems
   {Name: 'cwin32', Actual: gen.cwin32, Expected: 'win32'},
+  {Name: 'cdarwin', Actual: gen.cdarwin, Expected: 'darwin'},
+  {Name: 'clinux', Actual: gen.clinux, Expected: 'linux'},
 
   // Naval & Military Codes
   {Name: 'cAlfa', Actual: gen.cAlfa, Expected: 'Alfa'},
@@ -307,5 +309,6 @@ export const genericConstantsValidation = [
   {Name: 'cSPACE', Actual: gen.cSPACE, Expected: 'SPACE'},
   {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'},
   {Name: 'cCroot', Actual: gen.cCroot, Expected: 'C:/'},
-  {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'}
+  {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'},
+  {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'} // - Inter-Process Communication
 ];
