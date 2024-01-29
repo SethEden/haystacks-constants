@@ -157,6 +157,8 @@ export const cYYYY_MM_DD_HH_mm_ss_SSS = cYYYY + bas.cColon + bas.cMM + bas.cColo
 
 // Operating Systems
 export const cwin32 = phn.cwin + num.c32; // win32
+export const cdarwin = bas.cda + bas.cr + phn.cwin; // darwin
+export const clinux = bas.cli + bas.cnu + bas.cx ; // linux
 
 // Naval & Military Codes
 export const cAlfa = bas.cAl + bas.cfa; //  Alfa
