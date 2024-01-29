@@ -28,6 +28,7 @@ export const cBackSlash = '\\'; // Make sure to escape the backslash // \
 export const cDoubleBackSlash = '\\\\'; // \\
 export const cCarriageReturn = '\r'; // \r
 export const cNewLine = '\n'; // \n
+export const cCarRetNewLin = cCarriageReturn + cNewLine; // \r\n
 export const cPlus = '+'; // +
 export const cStar = '*'; // *
 export const cDoubleStar = cStar.repeat(2); // **

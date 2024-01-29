@@ -1265,6 +1265,7 @@ export const cDar = bas.cDa + bas.cr; // Dar
 export const csent = bas.cs + cent; // sent
 export const cSent = bas.cS + cent; // Sent
 export const cism = bas.cis + bas.cm; // ism
+export const crve = bas.crv + bas.ce; // rve
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

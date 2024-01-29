@@ -40,6 +40,7 @@ export const basicConstantsValidation = [
   {Name: 'cDoubleBackSlash', Actual: bas.cDoubleBackSlash, Expected: '\\\\'},
   {Name: 'cCarriageReturn', Actual: bas.cCarriageReturn, Expected: '\r'},
   {Name: 'cNewLine', Actual: bas.cNewLine, Expected: '\n'},
+  {Name: 'cCarRetNewLin', Actual: bas.cCarRetNewLin, Expected: '\r\n'},
   {Name: 'cPlus', Actual: bas.cPlus, Expected: '+'},
   {Name: 'cStar', Actual: bas.cStar, Expected: '*'},
   {Name: 'cDoubleStar', Actual: bas.cDoubleStar, Expected: '**'},
