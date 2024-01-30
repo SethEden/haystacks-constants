@@ -155,15 +155,15 @@ export const genericConstantsValidation = [
   {Name: 'cDotenv', Actual: gen.cDotenv, Expected: '.env'},
   {Name: 'cDotEnv', Actual: gen.cDotEnv, Expected: '.Env'},
   {Name: 'cDotENV', Actual: gen.cDotENV, Expected: '.ENV'},
-  {Name: 'cDotsh', Actual: gen.cDotsh, Expected: 'sh'},
-  {Name: 'cDotSh', Actual: gen.cDotSh, Expected: 'Sh'},
-  {Name: 'cDotSH', Actual: gen.cDotSH, Expected: 'SH'},
-  {Name: 'cDotps1', Actual: gen.cDotps1, Expected: 'ps1'},
-  {Name: 'cDotPs1', Actual: gen.cDotPs1, Expected: 'Ps1'},
-  {Name: 'cDotPS1', Actual: gen.cDotPS1, Expected: 'PS1'},
-  {Name: 'cDotbat', Actual: gen.cDotbat, Expected: 'bat'},
-  {Name: 'cDotBat', Actual: gen.cDotBat, Expected: 'Bat'},
-  {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: 'BAT'},
+  {Name: 'cDotsh', Actual: gen.cDotsh, Expected: '.sh'},
+  {Name: 'cDotSh', Actual: gen.cDotSh, Expected: '.Sh'},
+  {Name: 'cDotSH', Actual: gen.cDotSH, Expected: '.SH'},
+  {Name: 'cDotps1', Actual: gen.cDotps1, Expected: '.ps1'},
+  {Name: 'cDotPs1', Actual: gen.cDotPs1, Expected: '.Ps1'},
+  {Name: 'cDotPS1', Actual: gen.cDotPS1, Expected: '.PS1'},
+  {Name: 'cDotbat', Actual: gen.cDotbat, Expected: '.bat'},
+  {Name: 'cDotBat', Actual: gen.cDotBat, Expected: '.Bat'},
+  {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: '.BAT'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
   {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
 
@@ -284,6 +284,8 @@ export const genericConstantsValidation = [
   // Networking
   {Name: 'cEADDRINUSE', Actual: gen.cEADDRINUSE, Expected: 'EADDRINUSE'},
   {Name: 'cECONNRESET', Actual: gen.cECONNRESET, Expected: 'ECONNRESET'},
+  {Name: 'cENOENT', Actual: gen.cENOENT, Expected: 'ENOENT'},
+  {Name: 'cEACCES', Actual: gen.cEACCES, Expected: 'EACCES'},
 
   // Miscelanious
   {Name: 'cUTF8', Actual: gen.cUTF8, Expected: 'UTF8'},

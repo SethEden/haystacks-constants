@@ -124,7 +124,7 @@ export const cPs1 = bas.cPs + num.c1; // Ps1
 export const cPS1 = bas.cPS + num.c1; // PS1
 export const cbat = bas.cba + bas.ct; // bat
 export const cBat = bas.cBa + bas.ct; // Bat
-export const cBAT = bas.cBA + bas.ct; // BAT
+export const cBAT = bas.cBA + bas.cT; // BAT
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe

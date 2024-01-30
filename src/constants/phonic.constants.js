@@ -295,6 +295,7 @@ export const carse = bas.ca + crse; // arse
 export const cARSE = bas.cA + cRSE; // ARSE
 export const cwap = bas.cwa + bas.cp; // wap
 export const cward = bas.cwa + bas.crd; // ward
+export const cWard = bas.cWa + bas.crd; // Ward
 export const clash = bas.cla + bas.csh; // lash
 export const cENV = bas.cE + bas.cNV; // ENV
 export const cavigate = bas.cav + bas.cig + cate; // avigate
@@ -1253,7 +1254,7 @@ export const ctho = bas.cth + bas.co; // tho
 export const cTho = bas.cTh + bas.co; // Tho
 export const cthon = ctho + bas.cn; // thon
 export const cThon = cTho + bas.cn; // Thon
-export const cmid = bas.cmi + bas.cd; // mid
+export const cmid = bas.camai + bas.cd; // mid
 export const cMid = bas.cMi + bas.cd; // Mid
 export const codo = bas.cod + bas.co; // odo
 export const ccus = bas.ccu + bas.cs; // cus
@@ -1280,6 +1281,7 @@ export const cfil = bas.cfi + bas.cl; // fil
 export const cicy = bas.cic + bas.cy; // icy
 export const cvok = bas.cvo + bas.ck; // vok
 export const cvoke = cvok + bas.ce; // voke
+export const cari = bas.car + bas.ci; // ari
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

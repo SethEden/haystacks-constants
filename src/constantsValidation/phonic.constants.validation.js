@@ -302,6 +302,7 @@ export const phonicConstantsValidation = [
   {Name: 'cARSE', Actual: phn.cARSE, Expected: 'ARSE'},
   {Name: 'cwap', Actual: phn.cwap, Expected: 'wap'},
   {Name: 'cward', Actual: phn.cward, Expected: 'ward'},
+  {Name: 'cWard', Actual: phn.cWard, Expected: 'Ward'},
   {Name: 'clash', Actual: phn.clash, Expected: 'lash'},
   {Name: 'cENV', Actual: phn.cENV, Expected: 'ENV'},
   {Name: 'cavigate', Actual: phn.cavigate, Expected: 'avigate'},
@@ -1287,6 +1288,7 @@ export const phonicConstantsValidation = [
   {Name: 'cicy', Actual: phn.cicy, Expected: 'icy'},
   {Name: 'cvok', Actual: phn.cvok, Expected: 'vok'},
   {Name: 'cvoke', Actual: phn.cvoke, Expected: 'voke'},
+  {Name: 'cari', Actual: phn.cari, Expected: 'ari'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},
