@@ -455,6 +455,7 @@ export const cGest = bas.cGe + bas.cst; // Gest
 export const cect = bas.cec + bas.ct; // ect
 export const croject = bas.cro + bas.cj + cect; // roject
 export const cell = bas.cel + bas.cl; // ell
+export const cELL = bas.cEL + bas.cL; // ELL
 export const cnion = bas.cni + bas.con; // nion
 export const ceta = bas.cet + bas.ca; // eta
 export const ccent = bas.cce + bas.cnt; // cent
@@ -1275,6 +1276,10 @@ export const cunk = bas.cun + bas.ck; // unk
 export const cnat = bas.cna + bas.ct; // nat
 export const cnate = cnat + bas.ce; // nate
 export const cnato = cnat + bas.co; // nato
+export const cfil = bas.cfi + bas.cl; // fil
+export const cicy = bas.cic + bas.cy; // icy
+export const cvok = bas.cvo + bas.ck; // vok
+export const cvoke = cvok + bas.ce; // voke
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

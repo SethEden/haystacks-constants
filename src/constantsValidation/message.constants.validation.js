@@ -20,6 +20,10 @@ import * as msg from '../constants/message.constants.js';
  */
 export const messageConstantsVaidation = [
   // Logging Constants
+  {Name: 'cBEGIN_Space', Actual: msg.cBEGIN_Space, Expected: 'BEGIN '},
+  {Name: 'cEND_Space', Actual: msg.cEND_Space, Expected: 'END '},
+  {Name: 'cSpaceFunction', Actual: msg.cSpaceFunction, Expected: ' Function'},
+  {Name: 'cSpaceEvent', Actual: msg.cSpaceEvent, Expected: ' Event'},
   {Name: 'cBEGIN_Function', Actual: msg.cBEGIN_Function, Expected: 'BEGIN %% Function'},
   {Name: 'cEND_Function', Actual: msg.cEND_Function, Expected: 'END %% Function'},
   {Name: 'cBEGIN_Event', Actual: msg.cBEGIN, Expected: 'BEGIN %% Event'},
@@ -692,6 +696,13 @@ export const messageConstantsVaidation = [
   {Name: 'creadECONNRESET', Actual: msg.creadECONNRESET, Expected: 'read ECONNRESET'},
   {Name: 'cbufferIs', Actual: msg.cbufferIs, Expected: 'buffer is: '},
   {Name: 'capplicationRootPathIs', Actual: msg.capplicationRootPathIs, Expected: 'applicationRootPath is: '},
+  {Name: 'cErrorFromChildColon', Actual: msg.cErrorFromChildColon, Expected: 'Error from child: '},
+  {Name: 'cChildDisconnected', Actual: msg.cChildDisconnected, Expected: 'disconnected'},
+  {Name: 'cscriptContentIs', Actual: msg.cscriptContentIs, Expected: 'Script content is: '},
+  {Name: 'cOpeningColon', Actual: msg.cOpeningColon, Expected: 'Opening: '},
+  {Name: 'cExitingChildProcess', Actual: msg.cExitingChildProcess, Expected: 'Exiting child process'},
+  {Name: 'cErrorOnShell', Actual: msg.cErrorOnShell, Expected: 'Error on shell: '},
+  {Name: 'coptionsAre', Actual: msg.coptionsAre, Expected: 'options are: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

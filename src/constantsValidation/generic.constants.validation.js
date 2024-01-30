@@ -75,6 +75,9 @@ export const genericConstantsValidation = [
   {Name: 'cMostSpecialCharacters', Actual: gen.cMostSpecialCharacters, Expected: '!@#$%^&*()_+{}|:"<>?.,~'},
 
   // File Extensions
+  {Name: 'ctmp', Actual: gen.ctmp, Expected: 'tmp'},
+  {Name: 'cTmp', Actual: gen.cTmp, Expected: 'Tmp'},
+  {Name: 'cTMP', Actual: gen.cTMP, Expected: 'TMP'},
   {Name: 'cexe', Actual: gen.cexe, Expected: 'exe'},
   {Name: 'cExe', Actual: gen.cExe, Expected: 'Exe'},
   {Name: 'cEXE', Actual: gen.cEXE, Expected: 'EXE'},
@@ -114,6 +117,15 @@ export const genericConstantsValidation = [
   {Name: 'curi', Actual: gen.curi, Expected: 'uri'},
   {Name: 'cUri', Actual: gen.cUri, Expected: 'Uri'},
   {Name: 'cURI', Actual: gen.cURI, Expected: 'URI'},
+  {Name: 'csh', Actual: gen.csh, Expected: 'sh'},
+  {Name: 'cSh', Actual: gen.cSh, Expected: 'Sh'},
+  {Name: 'cSH', Actual: gen.cSH, Expected: 'SH'},
+  {Name: 'cps1', Actual: gen.cps1, Expected: 'ps1'},
+  {Name: 'cPs1', Actual: gen.cPs1, Expected: 'Ps1'},
+  {Name: 'cPS1', Actual: gen.cPS1, Expected: 'PS1'},
+  {Name: 'cbat', Actual: gen.cbat, Expected: 'bat'},
+  {Name: 'cBat', Actual: gen.cBat, Expected: 'Bat'},
+  {Name: 'cBAT', Actual: gen.cBAT, Expected: 'BAT'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},
@@ -143,6 +155,15 @@ export const genericConstantsValidation = [
   {Name: 'cDotenv', Actual: gen.cDotenv, Expected: '.env'},
   {Name: 'cDotEnv', Actual: gen.cDotEnv, Expected: '.Env'},
   {Name: 'cDotENV', Actual: gen.cDotENV, Expected: '.ENV'},
+  {Name: 'cDotsh', Actual: gen.cDotsh, Expected: 'sh'},
+  {Name: 'cDotSh', Actual: gen.cDotSh, Expected: 'Sh'},
+  {Name: 'cDotSH', Actual: gen.cDotSH, Expected: 'SH'},
+  {Name: 'cDotps1', Actual: gen.cDotps1, Expected: 'ps1'},
+  {Name: 'cDotPs1', Actual: gen.cDotPs1, Expected: 'Ps1'},
+  {Name: 'cDotPS1', Actual: gen.cDotPS1, Expected: 'PS1'},
+  {Name: 'cDotbat', Actual: gen.cDotbat, Expected: 'bat'},
+  {Name: 'cDotBat', Actual: gen.cDotBat, Expected: 'Bat'},
+  {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: 'BAT'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
   {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
 
@@ -230,7 +251,7 @@ export const genericConstantsValidation = [
   {Name: 'cOctober', Actual: gen.cOctober, Expected: 'October'},
   {Name: 'cDecember', Actual: gen.cDecember, Expected: 'December'},
 
-  // Constants Abreviations
+  // Constants Abbreviations
   {Name: 'cbas', Actual: gen.cbas, Expected: 'bas'},
   {Name: 'cbiz', Actual: gen.cbiz, Expected: 'biz'},
   {Name: 'cclr', Actual: gen.cclr, Expected: 'clr'},

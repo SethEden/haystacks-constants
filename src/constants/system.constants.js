@@ -306,9 +306,17 @@ export const calohaBrowser = wrd.caloha + wrd.cBrowser; // alohaBrowser
 export const cAlohaBrowser = wrd.cAloha + wrd.cBrowser; // AlohaBrowser
 
 // Command Systems
+export const cgit = bas.cgi + bas.ct; // git
+export const cGit = bas.cGi + bas.ct; // Git
+export const cGIT = bas.cGI + bas.cT; // GIT
 export const cdos = gen.cdos; // dos
+export const cDos = gen.cDos; // Dos
+export const cDOS = gen.cDOS; // DOS
 export const ccmd = gen.ccmd; // cmd
+export const cCmd = gen.cCmd; // Cmd
+export const cCMD = gen.cCMD; // CMD
 export const cbash = bas.cba + bas.csh; // bash
+export const cgitDashBash = cgit + bas.cDash + cbash; // git-bash
 export const cpowershell = wrd.cpower + wrd.cshell; // powershell
 
 // UI Element Types

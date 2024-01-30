@@ -462,6 +462,7 @@ export const phonicConstantsValidation = [
   {Name: 'cect', Actual: phn.cect, Expected: 'ect'},
   {Name: 'croject', Actual: phn.croject, Expected: 'roject'},
   {Name: 'cell', Actual: phn.cell, Expected: 'ell'},
+  {Name: 'cELL', Actual: phn.cELL, Expected: 'ELL'},
   {Name: 'cnion', Actual: phn.cnion, Expected: 'nion'},
   {Name: 'ceta', Actual: phn.ceta, Expected: 'eta'},
   {Name: 'ccent', Actual: phn.ccent, Expected: 'cent'},
@@ -1282,6 +1283,10 @@ export const phonicConstantsValidation = [
   {Name: 'cnat', Actual: phn.cnat, Expected: 'nat'},
   {Name: 'cnate', Actual: phn.cnate, Expected: 'nate'},
   {Name: 'cnato', Actual: phn.cnato, Expected: 'nato'},
+  {Name: 'cfil', Actual: phn.cfil, Expected: 'fil'},
+  {Name: 'cicy', Actual: phn.cicy, Expected: 'icy'},
+  {Name: 'cvok', Actual: phn.cvok, Expected: 'vok'},
+  {Name: 'cvoke', Actual: phn.cvoke, Expected: 'voke'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

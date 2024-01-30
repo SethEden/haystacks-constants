@@ -74,6 +74,9 @@ export const cMostSpecialCharacters = bas.cExclamation + bas.cAt + bas.cHash + b
 bas.cOpenCurlyBrace + bas.cCloseCurlyBrace + bas.cPipe + bas.cColon + bas.cDoubleQuote + bas.cLessThan + bas.cGreaterThan + bas.cQuestion + bas.cDot + bas.cComa + bas.cTilde; // !@#$%^&*()_+{}|:"<>?.,~
 
 // File Extensions
+export const ctmp = bas.ctm + bas.cp; // tmp
+export const cTmp = bas.cTm + bas.cp; // Tmp
+export const cTMP = bas.cTM + bas.cP; // TMP
 export const cexe = bas.cex + bas.ce; // exe
 export const cExe = bas.cEx + bas.ce; // Exe
 export const cEXE = bas.cEX + bas.cE; // EXE
@@ -113,6 +116,15 @@ export const cURL = bas.cUR + bas.cL; // URL
 export const curi = bas.cur + bas.ci; // uri
 export const cUri = bas.cUr + bas.ci; // Uri
 export const cURI = bas.cUR + bas.cI; // URI
+export const csh = bas.csh; // sh
+export const cSh = bas.cSh; // Sh
+export const cSH = bas.cSH; // SH
+export const cps1 = bas.cps + num.c1; // ps1
+export const cPs1 = bas.cPs + num.c1; // Ps1
+export const cPS1 = bas.cPS + num.c1; // PS1
+export const cbat = bas.cba + bas.ct; // bat
+export const cBat = bas.cBa + bas.ct; // Bat
+export const cBAT = bas.cBA + bas.ct; // BAT
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe
@@ -142,6 +154,15 @@ export const cDotJSON = bas.cDot + cJSON; // .JSON
 export const cDotenv = bas.cDot + cenv; // .env
 export const cDotEnv = bas.cDot + cEnv; // .Env
 export const cDotENV = bas.cDot + cENV; // .ENV
+export const cDotsh = bas.cDot + csh; // sh
+export const cDotSh = bas.cDot + cSh; // Sh
+export const cDotSH = bas.cDot + cSH; // SH
+export const cDotps1 = bas.cDot + cps1; // ps1
+export const cDotPs1 = bas.cDot + cPs1; // Ps1
+export const cDotPS1 = bas.cDot + cPS1; // PS1
+export const cDotbat = bas.cDot + cbat; // bat
+export const cDotBat = bas.cDot + cBat; // Bat
+export const cDotBAT = bas.cDot + cBAT; // BAT
 export const cascii = bas.cas + bas.cci + bas.ci; // ascii
 export const cAscii = bas.cAs + bas.cci + bas.ci; // Ascii
 
@@ -263,6 +284,8 @@ export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
 // Networking
 export const cEADDRINUSE = bas.cEA + bas.cDD + bas.cRI + bas.cNU + bas.cSE; // EADDRINUSE
 export const cECONNRESET = bas.cEC + bas.cON + bas.cNR + bas.cES + bas.cET; // ECONNRESET
+export const cENOENT = bas.cEN + bas.cOE + bas.cNT; // ENOENT
+export const cEACCES = bas.cEA + bas.cCC + bas.cES; // EACCES
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8

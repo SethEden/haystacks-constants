@@ -22,10 +22,15 @@ import * as sys from './system.constants.js';
 import * as wrd from './word.constants.js';
 
 // Logging Constants
-export const cBEGIN_Function = wrd.cBEGIN + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // BEGIN %% Function
-export const cEND_Function = wrd.cEND + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // END %% Function
-export const cBEGIN_Event = wrd.cBEGIN + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cEvent; // BEGIN %% Event
-export const cEND_Event = wrd.cEND + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cEvent; // END %% Event
+export const cBEGIN_Space = wrd.cBEGIN + bas.cSpace; // BEGIN
+export const cEND_Space = wrd.cEND + bas.cSpace; // END
+export const cSpaceFunction = bas.cSpace + wrd.cFunction; // Function
+export const cSpaceEvent = bas.cSpace + wrd.cEvent; // Event
+export const cBEGIN_Function = cBEGIN_Space + bas.cDoublePercent + cSpaceFunction; // BEGIN %% Function
+export const cEND_Function = cEND_Space + bas.cDoublePercent + cSpaceFunction; // END %% Function
+export const cBEGIN_Event = cBEGIN_Space + bas.cDoublePercent + cSpaceEvent; // BEGIN %% Event
+export const cEND_Event = cEND_Space + bas.cDoublePercent + cSpaceEvent; // END %% Event
+
 export const cinputData = wrd.cinput + wrd.cData; // inputData
 export const cInputData = wrd.cInput + wrd.cData; // InputData
 export const cinputMetaData = wrd.cinput + wrd.cMetaData; // inputMetaData
@@ -695,6 +700,13 @@ export const cisAbsent = wrd.cis + bas.cSpace + wrd.cabsent + bas.cDot; // is ab
 export const creadECONNRESET = wrd.cread + bas.cSpace + gen.cECONNRESET; // read ECONNRESET
 export const cbufferIs = wrd.cbuffer + sys.cSpaceIsColonSpace; // buffer is:
 export const capplicationRootPathIs = wrd.capplication + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // applicationRootPath is:
+export const cErrorFromChildColon = wrd.cError + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cchild + bas.cColon + bas.cSpace; // Error from child:
+export const cChildDisconnected = wrd.cChild + bas.cSpace + wrd.cdisconnected; // Child disconnected
+export const cscriptContentIs = wrd.cScript + bas.cSpace + wrd.ccontent + sys.cSpaceIsColonSpace; // Script content is:
+export const cOpeningColon = wrd.cOpening + bas.cColon + bas.cSpace; // Opening:
+export const cExitingChildProcess = wrd.cExiting + bas.cSpace + wrd.cchild + bas.cSpace + wrd.cprocess; // Exiting child process
+export const cErrorOnShell = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cshell + bas.cColon + bas.cSpace; // Error on shell:
+export const coptionsAre = wrd.coptions + sys.cSpaceAreColonSpace; // options are:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

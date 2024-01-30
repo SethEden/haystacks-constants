@@ -306,9 +306,17 @@ export const systemConstantsValidation = [
   {Name: 'cAlohaBrowser', Actual: sys.cAlohaBrowser, Expected: 'AlohaBrowser'},
 
   // Command Systems
+  {Name: 'cgit', Actual: sys.cgit, Expected: 'git'},
+  {Name: 'cGit', Actual: sys.cGit, Expected: 'Git'},
+  {Name: 'cGIT', Actual: sys.cGIT, Expected: 'GIT'},
   {Name: 'cdos', Actual: sys.cdos, Expected: 'dos'},
+  {Name: 'cDos', Actual: sys.cDos, Expected: 'Dos'},
+  {Name: 'cDOS', Actual: sys.cDOS, Expected: 'DOS'},
   {Name: 'ccmd', Actual: sys.ccmd, Expected: 'cmd'},
+  {Name: 'cCmd', Actual: sys.cCmd, Expected: 'Cmd'},
+  {Name: 'cCMD', Actual: sys.cCMD, Expected: 'CMD'},
   {Name: 'cbash', Actual: sys.cbash, Expected: 'bash'},
+  {Name: 'cgitDashBash', Actual: sys.cgitDashBash, Expected: 'git-bash'},
   {Name: 'cpowershell', Actual: sys.cpowershell, Expected: 'powershell'},
 
   // UI Element Types
