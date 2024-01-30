@@ -318,7 +318,7 @@ export const cCMD = gen.cCMD; // CMD
 export const cbash = bas.cba + bas.csh; // bash
 export const cgitDashBash = cgit + bas.cDash + cbash; // git-bash
 export const cpowershell = wrd.cpower + wrd.cshell; // powershell
-export const cpwsh = bas.cpw + csh; // pwsh
+export const cpwsh = bas.cpw + bas.csh; // pwsh
 
 // UI Element Types
 export const cButton = bas.cBu + bas.ctt + bas.con; // Button
