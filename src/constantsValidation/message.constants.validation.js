@@ -689,6 +689,9 @@ export const messageConstantsVaidation = [
   {Name: 'cexitedWithCode', Actual: msg.cexitedWithCode, Expected: 'Exited with code: '},
   {Name: 'candSignal', Actual: msg.candSignal, Expected: ', and signal: '},
   {Name: 'cisAbsent', Actual: msg.cisAbsent, Expected: 'is absent.'},
+  {Name: 'creadECONNRESET', Actual: msg.creadECONNRESET, Expected: 'read ECONNRESET'},
+  {Name: 'cbufferIs', Actual: msg.cbufferIs, Expected: 'buffer is: '},
+  {Name: 'capplicationRootPathIs', Actual: msg.capplicationRootPathIs, Expected: 'applicationRootPath is: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
   {Name: 'callWorkflowDataIs', Actual: msg.callWorkflowDataIs, Expected: 'allWorkflowData is: '},

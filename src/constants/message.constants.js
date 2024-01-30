@@ -692,6 +692,9 @@ export const cmessageFromChild = wrd.cmessage + bas.cSpace + wrd.cfrom + bas.cSp
 export const cexitedWithCode = wrd.cExited + bas.cSpace + wrd.cwith + bas.cSpace + wrd.ccode + bas.cColon + bas.cSpace; // Exited with code:
 export const candSignal = bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + wrd.csignal + bas.cColon + bas.cSpace; // , and signal:
 export const cisAbsent = wrd.cis + bas.cSpace + wrd.cabsent + bas.cDot; // is absent.
+export const creadECONNRESET = wrd.cread + bas.cSpace + gen.cECONNRESET; // read ECONNRESET
+export const cbufferIs = wrd.cbuffer + sys.cSpaceIsColonSpace; // buffer is:
+export const capplicationRootPathIs = wrd.capplication + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // applicationRootPath is:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:

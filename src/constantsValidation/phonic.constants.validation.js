@@ -1273,6 +1273,15 @@ export const phonicConstantsValidation = [
   {Name: 'cSent', Actual: phn.cSent, Expected: 'Sent'},
   {Name: 'cism', Actual: phn.cism, Expected: 'ism'},
   {Name: 'crve', Actual: phn.crve, Expected: 'rve'},
+  {Name: 'cret', Actual: phn.cret, Expected: 'ret'},
+  {Name: 'cRet', Actual: phn.cRet, Expected: 'Ret'},
+  {Name: 'ceve', Actual: phn.ceve, Expected: 'eve'},
+  {Name: 'cEve', Actual: phn.cEve, Expected: 'Eve'},
+  {Name: 'ciev', Actual: phn.ciev, Expected: 'iev'},
+  {Name: 'cunk', Actual: phn.cunk, Expected: 'unk'},
+  {Name: 'cnat', Actual: phn.cnat, Expected: 'nat'},
+  {Name: 'cnate', Actual: phn.cnate, Expected: 'nate'},
+  {Name: 'cnato', Actual: phn.cnato, Expected: 'nato'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

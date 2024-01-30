@@ -1266,6 +1266,15 @@ export const csent = bas.cs + cent; // sent
 export const cSent = bas.cS + cent; // Sent
 export const cism = bas.cis + bas.cm; // ism
 export const crve = bas.crv + bas.ce; // rve
+export const cret = bas.cre + bas.ct; // ret
+export const cRet = bas.cRe + bas.ct; // Ret
+export const ceve = bas.cev + bas.ce; // eve
+export const cEve = bas.cEv + bas.ce; // Eve
+export const ciev = bas.cie + bas.cv; // iev
+export const cunk = bas.cun + bas.ck; // unk
+export const cnat = bas.cna + bas.ct; // nat
+export const cnate = cnat + bas.ce; // nate
+export const cnato = cnat + bas.co; // nato
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

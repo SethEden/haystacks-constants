@@ -260,6 +260,10 @@ export const genericConstantsValidation = [
   {Name: 'capc', Actual: gen.capc, Expected: 'apc'},
   {Name: 'callSysCV', Actual: gen.callSysCV, Expected: 'allSysCV'},
 
+  // Networking
+  {Name: 'cEADDRINUSE', Actual: gen.cEADDRINUSE, Expected: 'EADDRINUSE'},
+  {Name: 'cECONNRESET', Actual: gen.cECONNRESET, Expected: 'ECONNRESET'},
+
   // Miscelanious
   {Name: 'cUTF8', Actual: gen.cUTF8, Expected: 'UTF8'},
   {Name: 'crgb', Actual: gen.crgb, Expected: 'rgb'},
@@ -296,19 +300,30 @@ export const genericConstantsValidation = [
   {Name: 'capi', Actual: gen.capi, Expected: 'api'},
   {Name: 'cApi', Actual: gen.cApi, Expected: 'Api'},
   {Name: 'cAPI', Actual: gen.cAPI, Expected: 'API'},
+  {Name: 'ceagain', Actual: gen.ceagain, Expected: 'eagain'},
   {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
+  {Name: 'csigint', Actual: gen.csigint, Expected: 'sigint'},
   {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
   {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\\u0003'}, // CTRL+C key-combo
   {Name: 'cESC_Key', Actual: gen.cESC_Key, Expected: '\\u001b'}, // ESC key ASCII code
+  {Name: 'cesc', Actual: gen.cesc, Expected: 'esc'},
   {Name: 'cESC', Actual: gen.cESC, Expected: 'ESC'},
+  {Name: 'cctrl', Actual: gen.cctrl, Expected: 'ctrl'},
   {Name: 'cCTRL', Actual: gen.cCTRL, Expected: 'CTRL'},
+  {Name: 'calt', Actual: gen.calt, Expected: 'alt'},
   {Name: 'cALT', Actual: gen.cALT, Expected: 'ALT'},
+  {Name: 'cshift', Actual: gen.cshift, Expected: 'shift'},
   {Name: 'cSHIFT', Actual: gen.cSHIFT, Expected: 'SHIFT'},
+  {Name: 'ctab', Actual: gen.ctab, Expected: 'tab'},
   {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
+  {Name: 'center', Actual: gen.center, Expected: 'enter'},
   {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
+  {Name: 'cspace', Actual: gen.cspace, Expected: 'space'},
   {Name: 'cSPACE', Actual: gen.cSPACE, Expected: 'SPACE'},
+  {Name: 'cbackspace', Actual: gen.cbackspace, Expected: 'backspace'},
   {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'},
   {Name: 'cCroot', Actual: gen.cCroot, Expected: 'C:/'},
   {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'},
-  {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'} // - Inter-Process Communication
+  {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'}, // - Inter-Process Communication
+  {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'} // - Inter-Process Communication
 ];

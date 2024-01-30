@@ -230,7 +230,7 @@ export const cOctober = bas.cOc + bas.cto + bas.cb + bas.cer; // October
 // cNovember = bas.cNo + bas.cv + bas.cemb + bas.cer; // November
 export const cDecember = bas.cDe + bas.cc + phn.cemb + bas.cer; // December
 
-// Constants Abreviations
+// Constants Abbreviations
 export const cbas = bas.cba + bas.cs; // bas
 export const cbiz = bas.cbi + bas.cz; // biz
 export const cclr = phn.cclr; // clr
@@ -259,6 +259,10 @@ export const cunt = phn.cunt; // unt
 export const cwrd = bas.cwr + bas.cd; // wrd
 export const capc = bas.cap + bas.cc; // apc
 export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
+
+// Networking
+export const cEADDRINUSE = bas.cEA + bas.cDD + bas.cRI + bas.cNU + bas.cSE; // EADDRINUSE
+export const cECONNRESET = bas.cEC + bas.cON + bas.cNR + bas.cES + bas.cET; // ECONNRESET
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8
@@ -296,18 +300,29 @@ export const cWPM = bas.cWP + bas.cM; // WPM
 export const capi = bas.cap + bas.ci; // api
 export const cApi = bas.cAp + bas.ci; // Api
 export const cAPI = bas.cAP + bas.cI; // API
+export const ceagain = bas.cea + bas.cga + bas.cin; // eagain
 export const cEAGAIN = bas.cEA + bas.cGA + bas.cIN; // EAGAIN
+export const csigint = bas.csi + bas.cgi + bas.cnt; // sigint
 export const cSIGINT = bas.cSI + bas.cGI + bas.cNT; // SIGINT // Used to capture the CTRL+C key-combo
 export const cCTRLC = bas.cBackSlash + bas.cu + num.c00 + num.c0 + num.c3; // \u0003 // CTRL+C key-combo
 export const cESC_Key = bas.cBackSlash + bas.cu + num.c00 + num.c1 + bas.cb; // \u001b // ESC key ASCII code
+export const cesc = bas.ces + bas.cc; // esc
 export const cESC = bas.cES + bas.cC; // ESC
+export const cctrl = bas.cct + bas.crl; // ctrl
 export const cCTRL = bas.cCT + bas.cRL; // CTRL
+export const calt = bas.cal + bas.ct; // alt
 export const cALT = bas.cAL + bas.cT; // ALT
+export const cshift = bas.csh + bas.cif + bas.ct; // shift
 export const cSHIFT = bas.cSH + bas.cIF + bas.cT; // SHIFT
+export const ctab = bas.cta + bas.cb; // tab
 export const cTAB = bas.cTA + bas.cB; // TAB
+export const center = bas.cen + bas.cte + bas.cr; // enter
 export const cENTER = bas.cEN + bas.cTE + bas.cR; // ENTER
+export const cspace = bas.csp + bas.cac + bas.ce; // space
 export const cSPACE = bas.cSP + bas.cAC + bas.cE; // SPACE
+export const cbackspace = bas.cba + bas.cck + cspace; // backspace
 export const cBACKSPACE = bas.cBA + bas.cCK + cSPACE; // BACKSPACE
 export const cCroot = bas.cC + bas.cColon + bas.cForwardSlash; // C:/
 export const cCrootBackSlash = bas.cC + bas.cColon + bas.cBackSlash; // C:\
 export const cipc = bas.cip + bas.cc; // ipc - Inter-Process Communication
+export const cIPC = bas.cIP + bas.cC; // IPC - Inter-Process Communication
