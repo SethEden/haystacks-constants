@@ -346,5 +346,8 @@ export const genericConstantsValidation = [
   {Name: 'cCroot', Actual: gen.cCroot, Expected: 'C:/'},
   {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'},
   {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'}, // - Inter-Process Communication
-  {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'} // - Inter-Process Communication
+  {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'}, // - Inter-Process Communication
+  {Name: 'cusr', Actual: gen.cusr, Expected: 'usr'},
+  {Name: 'cUsr', Actual: gen.cUsr, Expected: 'Usr'},
+  {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'}
 ];

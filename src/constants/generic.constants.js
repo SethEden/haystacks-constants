@@ -349,3 +349,6 @@ export const cCroot = bas.cC + bas.cColon + bas.cForwardSlash; // C:/
 export const cCrootBackSlash = bas.cC + bas.cColon + bas.cBackSlash; // C:\
 export const cipc = bas.cip + bas.cc; // ipc - Inter-Process Communication
 export const cIPC = bas.cIP + bas.cC; // IPC - Inter-Process Communication
+export const cusr = bas.cus + bas.cr; // usr
+export const cUsr = bas.cUs + bas.cr; // Usr
+export const cUSR = bas.cUS + bas.cR; // USR

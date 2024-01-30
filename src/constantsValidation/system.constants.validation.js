@@ -318,6 +318,7 @@ export const systemConstantsValidation = [
   {Name: 'cbash', Actual: sys.cbash, Expected: 'bash'},
   {Name: 'cgitDashBash', Actual: sys.cgitDashBash, Expected: 'git-bash'},
   {Name: 'cpowershell', Actual: sys.cpowershell, Expected: 'powershell'},
+  {Name: 'cpwsh', Actual: sys.cpwsh, Expected: 'pwsh'},
 
   // UI Element Types
   {Name: 'cButton', Actual: sys.cButton, Expected: 'Button'},
