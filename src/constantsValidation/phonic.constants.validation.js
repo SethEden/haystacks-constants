@@ -631,6 +631,7 @@ export const phonicConstantsValidation = [
   {Name: 'camp', Actual: phn.camp, Expected: 'amp'},
   {Name: 'copy', Actual: phn.copy, Expected: 'opy'},
   {Name: 'cccess', Actual: phn.cccess, Expected: 'ccess'},
+  {Name: 'cCCESS', Actual: phn.cCCESS, Expected: 'cCESS'},
   {Name: 'clyz', Actual: phn.clyz, Expected: 'lyz'},
   {Name: 'clyze', Actual: phn.clyze, Expected: 'lyze'},
   {Name: 'cbra', Actual: phn.cbra, Expected: 'bra'},

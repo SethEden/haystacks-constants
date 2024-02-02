@@ -3290,6 +3290,7 @@ export const ccopying = ccopy + phn.cing; // copying
 export const cCopying = cCopy + phn.cing; // Copying
 export const csuccess = bas.csu + phn.cccess; // success
 export const cSuccess = bas.cSu + phn.cccess; // Success
+export const cSUCCESS = bas.cSU + phn.cCCESS; // SUCCESS
 export const csuccesses = csuccess + bas.ces; // successes
 export const cSuccesses = cSuccess + bas.ces; // Successes
 export const csuccessful = csuccess + phn.cful; // successful

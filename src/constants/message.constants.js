@@ -44,6 +44,7 @@ export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpac
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 export const cWARNING_Colon = wrd.cWARNING + bas.cColon + bas.cSpace; // WARNING:
+export const cSUCCESS_Colon = wrd.cSUCCESS + bas.cColon + bas.cSpace; // SUCCESS:
 // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
 export const cApplicationWarningMessage1a = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + gen.cDotEnv + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cfound + bas.cExclamation + bas.cSpace; // WARNING: No .Env File found!
 export const cApplicationWarningMessage1b = wrd.cGoing + bas.cSpace + bas.cto + bas.cSpace + wrd.cdefault + bas.cSpace + bas.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cDEVELOPMENT + bas.cSpace + wrd.cENVIRONMENT + bas.cExclamation; // Going to default to the DEVELOPMENT ENVIRONMENT!

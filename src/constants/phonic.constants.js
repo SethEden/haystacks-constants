@@ -624,6 +624,7 @@ export const cchiv = bas.cch + bas.civ; // chiv
 export const camp = bas.cam + bas.cp; // amp
 export const copy = bas.cop + bas.cy; // opy
 export const cccess = bas.ccc + cess; // ccess
+export const cCCESS = bas.cCC + cESS; // cCESS
 export const clyz = bas.cly + bas.cz; // lyz
 export const clyze = clyz + bas.ce; // lyze
 export const cbra = bas.cbr + bas.ca; // bra

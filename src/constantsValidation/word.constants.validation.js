@@ -3286,6 +3286,7 @@ export const wordConstantsValidation = [
   {Name: 'cCopying', Actual: wrd.cCopying, Expected: 'Copying'},
   {Name: 'csuccess', Actual: wrd.csuccess, Expected: 'success'},
   {Name: 'cSuccess', Actual: wrd.cSuccess, Expected: 'Success'},
+  {Name: 'cSUCCESS', Actual: wrd.cSUCCESS, Expected: 'SUCCESS'},
   {Name: 'csuccesses', Actual: wrd.csuccesses, Expected: 'successes'},
   {Name: 'cSuccesses', Actual: wrd.cSuccesses, Expected: 'Successes'},
   {Name: 'csuccessful', Actual: wrd.csuccessful, Expected: 'successful'},

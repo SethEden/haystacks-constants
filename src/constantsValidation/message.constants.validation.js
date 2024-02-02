@@ -41,6 +41,7 @@ export const messageConstantsVaidation = [
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
   {Name: 'cWARNING_Colon', Actual: msg.cWARNING_Colon, Expected: 'WARNING: '},
+  {Name: 'cSUCCESS_Colon', Actual: msg.cSUCCESS_Colon, Expected: 'SUCCESS: '},
   // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
   {Name: 'cApplicationWarningMessage1a', Actual: msg.cApplicationWarningMessage1a, Expected: 'WARNING: No .Env File found! '},
   {Name: 'cApplicationWarningMessage1b', Actual: msg.cApplicationWarningMessage1b, Expected: 'Going to default to the DEVELOPMENT ENVIRONMENT!'},
