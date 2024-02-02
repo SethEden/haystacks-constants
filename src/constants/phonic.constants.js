@@ -1282,6 +1282,10 @@ export const cicy = bas.cic + bas.cy; // icy
 export const cvok = bas.cvo + bas.ck; // vok
 export const cvoke = cvok + bas.ce; // voke
 export const cari = bas.car + bas.ci; // ari
+export const clen = bas.cle + bas.cn; // len
+export const clent = clen + bas.ct; // lent
+export const clenc = clen + bas.cc; // lenc
+export const clence = clenc + bas.ce; // lence
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

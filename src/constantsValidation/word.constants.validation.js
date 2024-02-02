@@ -4980,6 +4980,16 @@ export const wordConstantsValidation = [
   {Name: 'cTerminal', Actual: wrd.cTerminal, Expected: 'Terminal'},
   {Name: 'cterminals', Actual: wrd.cterminals, Expected: 'terminals'},
   {Name: 'cTerminals', Actual: wrd.cTerminals, Expected: 'Terminals'},
+  {Name: 'csilent', Actual: wrd.csilent, Expected: 'silent'},
+  {Name: 'cSilent', Actual: wrd.cSilent, Expected: 'Silent'},
+  {Name: 'csilence', Actual: wrd.csilence, Expected: 'silence'},
+  {Name: 'cSilence', Actual: wrd.cSilence, Expected: 'Silence'},
+  {Name: 'csilenced', Actual: wrd.csilenced, Expected: 'silenced'},
+  {Name: 'cSilenced', Actual: wrd.cSilenced, Expected: 'Silenced'},
+  {Name: 'csilencer', Actual: wrd.csilencer, Expected: 'silencer'},
+  {Name: 'cSilencer', Actual: wrd.cSilencer, Expected: 'Silencer'},
+  {Name: 'csilencing', Actual: wrd.csilencing, Expected: 'silencing'},
+  {Name: 'cSilencing', Actual: wrd.cSilencing, Expected: 'Silencing'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

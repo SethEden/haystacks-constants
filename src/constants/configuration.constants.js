@@ -111,6 +111,7 @@ export const clogUserEnteredCommands = wrd.clog + wrd.cUser + wrd.cEntered + wrd
 export const clogAllCommands = wrd.clog + wrd.cAll + wrd.cCommands; // logAllCommands
 export const cenableUserCommandsLogClearing = wrd.cenable + wrd.cUser + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableUserCommandsLogClearing
 export const cenableAllCommandsLogClearing = wrd.cenable + wrd.cAll + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableAllCommandsLogClearing
+export const csilentDeleteFailure = wrd.csilent + wrd.cDelete + wrd.cFailure; // silentDeleteFailure
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp

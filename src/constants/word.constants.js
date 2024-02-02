@@ -4984,6 +4984,16 @@ export const cterminal = cterm + phn.cinal; // terminal
 export const cTerminal = cTerm + phn.cinal; // Terminal
 export const cterminals = cterminal + bas.cs; // terminals
 export const cTerminals = cTerminal + bas.cs; // Terminals
+export const csilent = bas.csi + phn.clent; // silent
+export const cSilent = bas.cSi + phn.clent; // Silent
+export const csilence = bas.csi + phn.clence; // silence
+export const cSilence = bas.cSi + phn.clence; // Silence
+export const csilenced = csilence + bas.cd; // silenced
+export const cSilenced = cSilence + bas.cd; // Silenced
+export const csilencer = bas.csi + phn.clenc + bas.cer; // silencer
+export const cSilencer = bas.cSi + phn.clenc + bas.cer; // Silencer
+export const csilencing = bas.csi + phn.clenc + phn.cing; // silencing
+export const cSilencing = bas.cSi + phn.clenc + phn.cing; // Silencing
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
