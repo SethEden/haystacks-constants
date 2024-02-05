@@ -74,6 +74,9 @@ export const cMostSpecialCharacters = bas.cExclamation + bas.cAt + bas.cHash + b
 bas.cOpenCurlyBrace + bas.cCloseCurlyBrace + bas.cPipe + bas.cColon + bas.cDoubleQuote + bas.cLessThan + bas.cGreaterThan + bas.cQuestion + bas.cDot + bas.cComa + bas.cTilde; // !@#$%^&*()_+{}|:"<>?.,~
 
 // File Extensions
+export const ctmp = bas.ctm + bas.cp; // tmp
+export const cTmp = bas.cTm + bas.cp; // Tmp
+export const cTMP = bas.cTM + bas.cP; // TMP
 export const cexe = bas.cex + bas.ce; // exe
 export const cExe = bas.cEx + bas.ce; // Exe
 export const cEXE = bas.cEX + bas.cE; // EXE
@@ -113,6 +116,15 @@ export const cURL = bas.cUR + bas.cL; // URL
 export const curi = bas.cur + bas.ci; // uri
 export const cUri = bas.cUr + bas.ci; // Uri
 export const cURI = bas.cUR + bas.cI; // URI
+export const csh = bas.csh; // sh
+export const cSh = bas.cSh; // Sh
+export const cSH = bas.cSH; // SH
+export const cps1 = bas.cps + num.c1; // ps1
+export const cPs1 = bas.cPs + num.c1; // Ps1
+export const cPS1 = bas.cPS + num.c1; // PS1
+export const cbat = bas.cba + bas.ct; // bat
+export const cBat = bas.cBa + bas.ct; // Bat
+export const cBAT = bas.cBA + bas.cT; // BAT
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe
@@ -142,6 +154,15 @@ export const cDotJSON = bas.cDot + cJSON; // .JSON
 export const cDotenv = bas.cDot + cenv; // .env
 export const cDotEnv = bas.cDot + cEnv; // .Env
 export const cDotENV = bas.cDot + cENV; // .ENV
+export const cDotsh = bas.cDot + csh; // sh
+export const cDotSh = bas.cDot + cSh; // Sh
+export const cDotSH = bas.cDot + cSH; // SH
+export const cDotps1 = bas.cDot + cps1; // ps1
+export const cDotPs1 = bas.cDot + cPs1; // Ps1
+export const cDotPS1 = bas.cDot + cPS1; // PS1
+export const cDotbat = bas.cDot + cbat; // bat
+export const cDotBat = bas.cDot + cBat; // Bat
+export const cDotBAT = bas.cDot + cBAT; // BAT
 export const cascii = bas.cas + bas.cci + bas.ci; // ascii
 export const cAscii = bas.cAs + bas.cci + bas.ci; // Ascii
 
@@ -156,7 +177,9 @@ export const cYYYYMMDD_HHmmss_SSS = cYYYYMMDD_HHmmss + bas.cDash + cSSS; // YYYY
 export const cYYYY_MM_DD_HH_mm_ss_SSS = cYYYY + bas.cColon + bas.cMM + bas.cColon + bas.cDD + bas.cDash + bas.cHH + bas.cColon + bas.cmm + bas.cColon + bas.css + bas.cColon + cSSS; // YYYY:MM:DD-HH:mm:ss:SSS
 
 // Operating Systems
-export const cwin32 = phn.cwin + num.c32;
+export const cwin32 = phn.cwin + num.c32; // win32
+export const cdarwin = phn.cdar + phn.cwin; // darwin
+export const clinux = phn.clin + bas.cux; // linux
 
 // Naval & Military Codes
 export const cAlfa = bas.cAl + bas.cfa; //  Alfa
@@ -228,11 +251,16 @@ export const cOctober = bas.cOc + bas.cto + bas.cb + bas.cer; // October
 // cNovember = bas.cNo + bas.cv + bas.cemb + bas.cer; // November
 export const cDecember = bas.cDe + bas.cc + phn.cemb + bas.cer; // December
 
-// Constants Abreviations
+// Constants Abbreviations
 export const cbas = bas.cba + bas.cs; // bas
 export const cbiz = bas.cbi + bas.cz; // biz
 export const cclr = phn.cclr; // clr
+export const cdos = bas.cdo + bas.cs; // dos
+export const cDos = bas.cDo + bas.cs; // Dos
+export const cDOS = bas.cDO + bas.cS; // DOS
 export const ccmd = bas.ccm + bas.cd; // cmd
+export const cCmd = bas.cCm + bas.cd; // Cmd
+export const cCMD = bas.cCM + bas.cD; // CMD
 export const ccfg = bas.ccf + bas.cg; // cfg
 export const ccon = bas.cco + bas.cn; // con
 export const cctr = phn.cctr; // ctr
@@ -252,6 +280,12 @@ export const cunt = phn.cunt; // unt
 export const cwrd = bas.cwr + bas.cd; // wrd
 export const capc = bas.cap + bas.cc; // apc
 export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
+
+// Networking
+export const cEADDRINUSE = bas.cEA + bas.cDD + bas.cRI + bas.cNU + bas.cSE; // EADDRINUSE
+export const cECONNRESET = bas.cEC + bas.cON + bas.cNR + bas.cES + bas.cET; // ECONNRESET
+export const cENOENT = bas.cEN + bas.cOE + bas.cNT; // ENOENT
+export const cEACCES = bas.cEA + bas.cCC + bas.cES; // EACCES
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8
@@ -289,15 +323,32 @@ export const cWPM = bas.cWP + bas.cM; // WPM
 export const capi = bas.cap + bas.ci; // api
 export const cApi = bas.cAp + bas.ci; // Api
 export const cAPI = bas.cAP + bas.cI; // API
+export const ceagain = bas.cea + bas.cga + bas.cin; // eagain
 export const cEAGAIN = bas.cEA + bas.cGA + bas.cIN; // EAGAIN
+export const csigint = bas.csi + bas.cgi + bas.cnt; // sigint
 export const cSIGINT = bas.cSI + bas.cGI + bas.cNT; // SIGINT // Used to capture the CTRL+C key-combo
 export const cCTRLC = bas.cBackSlash + bas.cu + num.c00 + num.c0 + num.c3; // \u0003 // CTRL+C key-combo
 export const cESC_Key = bas.cBackSlash + bas.cu + num.c00 + num.c1 + bas.cb; // \u001b // ESC key ASCII code
+export const cesc = bas.ces + bas.cc; // esc
 export const cESC = bas.cES + bas.cC; // ESC
+export const cctrl = bas.cct + bas.crl; // ctrl
 export const cCTRL = bas.cCT + bas.cRL; // CTRL
+export const calt = bas.cal + bas.ct; // alt
 export const cALT = bas.cAL + bas.cT; // ALT
+export const cshift = bas.csh + bas.cif + bas.ct; // shift
 export const cSHIFT = bas.cSH + bas.cIF + bas.cT; // SHIFT
+export const ctab = bas.cta + bas.cb; // tab
 export const cTAB = bas.cTA + bas.cB; // TAB
+export const center = bas.cen + bas.cte + bas.cr; // enter
 export const cENTER = bas.cEN + bas.cTE + bas.cR; // ENTER
+export const cspace = bas.csp + bas.cac + bas.ce; // space
 export const cSPACE = bas.cSP + bas.cAC + bas.cE; // SPACE
+export const cbackspace = bas.cba + bas.cck + cspace; // backspace
 export const cBACKSPACE = bas.cBA + bas.cCK + cSPACE; // BACKSPACE
+export const cCroot = bas.cC + bas.cColon + bas.cForwardSlash; // C:/
+export const cCrootBackSlash = bas.cC + bas.cColon + bas.cBackSlash; // C:\
+export const cipc = bas.cip + bas.cc; // ipc - Inter-Process Communication
+export const cIPC = bas.cIP + bas.cC; // IPC - Inter-Process Communication
+export const cusr = bas.cus + bas.cr; // usr
+export const cUsr = bas.cUs + bas.cr; // Usr
+export const cUSR = bas.cUS + bas.cR; // USR

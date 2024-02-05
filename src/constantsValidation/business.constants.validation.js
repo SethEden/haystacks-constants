@@ -242,6 +242,7 @@ export const businessConstantsValidation = [
   {Name: 'ccleanRootPath', Actual: biz.ccleanRootPath, Expected: 'cleanRootPath'},
   {Name: 'ccopyFileSync', Actual: biz.ccopyFileSync, Expected: 'copyFileSync'},
   {Name: 'ccopyFolderRecursiveSync', Actual: biz.ccopyFolderRecursiveSync, Expected: 'copyFolderRecursiveSync'},
+  {Name: 'cdeleteFile', Actual: biz.cdeleteFile, Expected: 'deleteFile'},
   {Name: 'cappendMessageToFile', Actual: biz.cappendMessageToFile, Expected: 'appendMessageToFile'},
 
   // ***********************************************
