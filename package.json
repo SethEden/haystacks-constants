@@ -1,11 +1,11 @@
 {
   "name": "@haystacks/constants",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "description": "A repo to store reusable constants libraries for use with haystacks implemented applications & plugins.",
   "main": "./src/main.js",
   "type": "module",
   "scripts": {
-    "vers": "release-please -m \"chore(release) version %s \""
+    "vers": "standard-version -m \"chore(release) version %s \""
   },
   "repository": {
     "type": "git",
