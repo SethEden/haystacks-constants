@@ -22,8 +22,15 @@ import * as sys from './system.constants.js';
 import * as wrd from './word.constants.js';
 
 // Logging Constants
-export const cBEGIN_Function = wrd.cBEGIN + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // BEGIN %% Function
-export const cEND_Function = wrd.cEND + bas.cSpace + bas.cDoublePercent + bas.cSpace + wrd.cFunction; // END %% Function
+export const cBEGIN_Space = wrd.cBEGIN + bas.cSpace; // BEGIN
+export const cEND_Space = wrd.cEND + bas.cSpace; // END
+export const cSpaceFunction = bas.cSpace + wrd.cFunction; // Function
+export const cSpaceEvent = bas.cSpace + wrd.cEvent; // Event
+export const cBEGIN_Function = cBEGIN_Space + bas.cDoublePercent + cSpaceFunction; // BEGIN %% Function
+export const cEND_Function = cEND_Space + bas.cDoublePercent + cSpaceFunction; // END %% Function
+export const cBEGIN_Event = cBEGIN_Space + bas.cDoublePercent + cSpaceEvent; // BEGIN %% Event
+export const cEND_Event = cEND_Space + bas.cDoublePercent + cSpaceEvent; // END %% Event
+
 export const cinputData = wrd.cinput + wrd.cData; // inputData
 export const cInputData = wrd.cInput + wrd.cData; // InputData
 export const cinputMetaData = wrd.cinput + wrd.cMetaData; // inputMetaData
@@ -37,6 +44,7 @@ export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpac
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 export const cWARNING_Colon = wrd.cWARNING + bas.cColon + bas.cSpace; // WARNING:
+export const cSUCCESS_Colon = wrd.cSUCCESS + bas.cColon + bas.cSpace; // SUCCESS:
 // WARNING: No .env file found! Going to default to the DEVELOPMENT ENVIRONMENT!
 export const cApplicationWarningMessage1a = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + gen.cDotEnv + bas.cSpace + wrd.cFile + bas.cSpace + wrd.cfound + bas.cExclamation + bas.cSpace; // WARNING: No .Env File found!
 export const cApplicationWarningMessage1b = wrd.cGoing + bas.cSpace + bas.cto + bas.cSpace + wrd.cdefault + bas.cSpace + bas.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cDEVELOPMENT + bas.cSpace + wrd.cENVIRONMENT + bas.cExclamation; // Going to default to the DEVELOPMENT ENVIRONMENT!
@@ -572,7 +580,7 @@ export const cprimaryCommandDelimiterIs = wrd.cprimary + wrd.cCommand + wrd.cDel
 export const csecondaryCommandDelimiterIs = wrd.csecondary + wrd.cCommand + wrd.cDelimiter + sys.cSpaceIsColonSpace; // secondaryCommandDelimiter is:
 export const ctertiaryCommandDelimiterIs = wrd.ctertiary + wrd.cCommand + wrd.cDelimiter + sys.cSpaceIsColonSpace; // tertiaryCommandDelimiter is:
 export const ccommandSequencerCommandToEnqueueIs = wrd.ccommand + wrd.cSequencer + bas.cSpace + wrd.cCommand + bas.cSpace + bas.cTo + bas.cSpace + wrd.cEnqueue + sys.cSpaceIsColonSpace; // commandSequencer Command To Enqueue is:
-export const cWarningMessageIsUndefined = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cmessage + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined; // WARNING: message is undefined
+export const cWarningMessageIsUndefined = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cmessage + bas.cSpace + wrd.cis + bas.cSpace + 'undefined'; // WARNING: message is undefined
 export const cclassPathIs = wrd.cclass + wrd.cPath + sys.cSpaceIsColonSpace; // classPath is:
 export const cargsArrayContainsRegEx1Is = gen.cargs + wrd.cArray + wrd.cContains + wrd.cRegEx + num.c1 + sys.cSpaceIsColonSpace; // argsArrayContainsRegEx1 is:
 export const cargsArrayContainsRegEx2Is = gen.cargs + wrd.cArray + wrd.cContains + wrd.cRegEx + num.c2 + sys.cSpaceIsColonSpace; // argsArrayContainsRegEx2 is:
@@ -685,6 +693,22 @@ export const cdataIs = wrd.cdata + sys.cSpaceIsColonSpace; // data is:
 export const cdataSourceIs = wrd.cdata + wrd.cSource + sys.cSpaceIsColonSpace; // dataSource is:
 export const cpossibleDataNamesArrayIs = wrd.cpossible + wrd.cData + wrd.cNames + wrd.cArray + sys.cSpaceIsColonSpace; // possibleDataNamesArray is:
 export const cdataElementIs = wrd.cdata + wrd.cElement + sys.cSpaceIsColonSpace; // dataElement is:
+export const ccommandsAre = wrd.ccommands + sys.cSpaceAreColonSpace; // commands are:
+export const cbusinessRulesAre = sys.cbusinessRules + sys.cSpaceAreColonSpace; // businessRules are:
+export const cmessageFromChild = wrd.cmessage + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cchild + bas.cColon + bas.cSpace; // message from child:
+export const cexitedWithCode = wrd.cExited + bas.cSpace + wrd.cwith + bas.cSpace + wrd.ccode + bas.cColon + bas.cSpace; // Exited with code:
+export const candSignal = bas.cComa + bas.cSpace + wrd.cand + bas.cSpace + wrd.csignal + bas.cColon + bas.cSpace; // , and signal:
+export const cisAbsent = wrd.cis + bas.cSpace + wrd.cabsent + bas.cDot; // is absent.
+export const creadECONNRESET = wrd.cread + bas.cSpace + gen.cECONNRESET; // read ECONNRESET
+export const cbufferIs = wrd.cbuffer + sys.cSpaceIsColonSpace; // buffer is:
+export const capplicationRootPathIs = wrd.capplication + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // applicationRootPath is:
+export const cErrorFromChildColon = wrd.cError + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.cchild + bas.cColon + bas.cSpace; // Error from child:
+export const cChildDisconnected = wrd.cChild + bas.cSpace + wrd.cdisconnected; // Child disconnected
+export const cscriptContentIs = wrd.cScript + bas.cSpace + wrd.ccontent + sys.cSpaceIsColonSpace; // Script content is:
+export const cOpeningColon = wrd.cOpening + bas.cColon + bas.cSpace; // Opening:
+export const cExitingChildProcess = wrd.cExiting + bas.cSpace + wrd.cchild + bas.cSpace + wrd.cprocess; // Exiting child process
+export const cErrorOnShell = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cshell + bas.cColon + bas.cSpace; // Error on shell:
+export const coptionsAre = wrd.coptions + sys.cSpaceAreColonSpace; // options are:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -805,6 +829,10 @@ export const caccumulatorPluginRegistryIs = wrd.caccumulator + wrd.cPlugin + wrd
 export const cprefixPluginPathIs = wrd.cprefix + wrd.cPlugin + wrd.cPath + sys.cSpaceIsColonSpace; // prefixPluginPath is:
 export const cformatStringIs = wrd.cformat + wrd.cString + sys.cSpaceIsColonSpace; // formatString is:
 export const cmessageIs = wrd.cmessage + sys.cSpaceIsColonSpace; // message is:
+export const cerrorIs = wrd.cerror + sys.cSpaceIsColonSpace; // error is:
+export const cwarningIs = wrd.cwarning + sys.cSpaceIsColonSpace; // warning Is:
+export const ccodeIs = wrd.ccode + sys.cSpaceIsColonSpace; // code is:
+export const csignalIs = wrd.csignal + sys.cSpaceIsColonSpace; // signal is:
 export const cpluginCommandAliasesPathIs = wrd.cplugin + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // pluginCommandAliasesPath is:
 export const cpluginWorkflowsPathIs = wrd.cplugin + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // pluginWorkflowsPath is:
 export const cpluginThemesPathIs = wrd.cplugin + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // pluginThemesPath is:
@@ -823,6 +851,7 @@ export const cpluginCodeRootPathIs = wrd.cplugin + wrd.cCode + wrd.cRoot + wrd.c
 export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // pluginRootPath is:
 export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
 export const cfilesToLoadIsValid = wrd.cfiles + wrd.cTo + wrd.cLoad + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid; // filesToLoad is valid
+export const cpluginsFromPathArrayIs = wrd.cplugins + wrd.cFrom + wrd.cPath + wrd.cArray + sys.cSpaceIsColonSpace; // pluginsFromPathArray is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1327,6 +1356,40 @@ export const cBeginCommandAliasesValidationMessage = wrd.cBegin + bas.cSpace + w
 export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cvalidation;
 // Running all validations
 export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
+// ERROR: There was a fatal error in warden.initFrameworkSchema function.
+export const cErrorInitFrameworkMessage01 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + bas.cSpace + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + bas.cSpace + wrd.cwarden + bas.cDot + gen.cinit + wrd.cFramework + wrd.cSchema + bas.cSpace + wrd.cfunction + bas.cDot;
+// ERROR: There was a fatal error in main.initFramework function.
+export const cErrorInitFrameworkMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + bas.ca + bas.cSpace + wrd.cfatal + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cin + bas.cSpace + wrd.cmain + bas.cDot + gen.cinit + wrd.cFramework + bas.cSpace + wrd.cfunction + bas.cDot;
+// ERROR: clientConfiguration was not properly defined.
+export const cErrorInitFrameworkMessage03 = cERROR_Colon + wrd.cclient + wrd.cConfiguration + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: Input data was not properly defined.
+export const cErrorAccouterFrameworkMessage01 = cERROR_Colon + wrd.cInput + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot; 
+// ERROR: clientBusinessRules was not properly defined.
+export const cErrorMergeClientBusinessRulesMessage01 = cERROR_Colon + wrd.cclient + wrd.cBusiness + wrd.cRules + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: clientCommands was not properly defined.
+export const cErrorMergeClientCommandsMessage01 = cERROR_Colon + wrd.cclient + wrd.cCommands + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: commandAliasesPath was not properly defined.
+export const cErrorLoadCommandAliasesMessage01 = cERROR_Colon + wrd.ccommand + wrd.cAliases + wrd.cPath + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: contextName was not properly defined.
+export const cErrorLoadCommandAliasesMessage02 = cERROR_Colon + wrd.ccontext + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: Plugin list does not exist or is not an array.
+export const cErrorListAllLoadedPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.clist + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cDot;
+// ERROR: attributeName was not properly defined.
+export const cErrorAttributeNameMessage01 = cERROR_Colon + wrd.cattribute + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
+// ERROR: The plugin does not exist in the plugin path. Plugin name:
+export const cErrorRegisterPluginMessage05 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
+// ERROR: There are no plugins in the plugin path. Plugin path:
+export const cErrorRegisterPluginMessage06 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.care + bas.cSpace + wrd.cno + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name does not exist. Plugin Name:
+export const cErrorUnRegisterPluginMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name is an invalid value: 
+export const cErrorUnRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+// ERROR: No file specified, cannot delete nothing.
+export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cnothing + bas.cDot;
+// ERROR: There was an error attempting to delete the file:
+export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
+// ERROR: Plugin List Array is an invalid value: 
+export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 
 // Coded System Messages
 // EXAMPLE:

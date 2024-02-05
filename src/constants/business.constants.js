@@ -244,6 +244,7 @@ export const ccreateZipArchive = wrd.ccreate + gen.cZip + wrd.cArchive; // creat
 export const ccleanRootPath = wrd.cclean + wrd.cRoot + wrd.cPath; // cleanRootPath
 export const ccopyFileSync = wrd.ccopy + wrd.cFile + wrd.cSync; // copyFileSync
 export const ccopyFolderRecursiveSync = wrd.ccopy + wrd.cFolder + wrd.cRecursive + wrd.cSync; // copyFolderRecursiveSync
+export const cdeleteFile = wrd.cdelete + wrd.cFile; // deleteFile
 export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.cFile; // appendMessageToFile
 
 // ***********************************************

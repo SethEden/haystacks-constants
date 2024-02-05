@@ -75,6 +75,9 @@ export const genericConstantsValidation = [
   {Name: 'cMostSpecialCharacters', Actual: gen.cMostSpecialCharacters, Expected: '!@#$%^&*()_+{}|:"<>?.,~'},
 
   // File Extensions
+  {Name: 'ctmp', Actual: gen.ctmp, Expected: 'tmp'},
+  {Name: 'cTmp', Actual: gen.cTmp, Expected: 'Tmp'},
+  {Name: 'cTMP', Actual: gen.cTMP, Expected: 'TMP'},
   {Name: 'cexe', Actual: gen.cexe, Expected: 'exe'},
   {Name: 'cExe', Actual: gen.cExe, Expected: 'Exe'},
   {Name: 'cEXE', Actual: gen.cEXE, Expected: 'EXE'},
@@ -114,6 +117,15 @@ export const genericConstantsValidation = [
   {Name: 'curi', Actual: gen.curi, Expected: 'uri'},
   {Name: 'cUri', Actual: gen.cUri, Expected: 'Uri'},
   {Name: 'cURI', Actual: gen.cURI, Expected: 'URI'},
+  {Name: 'csh', Actual: gen.csh, Expected: 'sh'},
+  {Name: 'cSh', Actual: gen.cSh, Expected: 'Sh'},
+  {Name: 'cSH', Actual: gen.cSH, Expected: 'SH'},
+  {Name: 'cps1', Actual: gen.cps1, Expected: 'ps1'},
+  {Name: 'cPs1', Actual: gen.cPs1, Expected: 'Ps1'},
+  {Name: 'cPS1', Actual: gen.cPS1, Expected: 'PS1'},
+  {Name: 'cbat', Actual: gen.cbat, Expected: 'bat'},
+  {Name: 'cBat', Actual: gen.cBat, Expected: 'Bat'},
+  {Name: 'cBAT', Actual: gen.cBAT, Expected: 'BAT'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},
@@ -143,6 +155,15 @@ export const genericConstantsValidation = [
   {Name: 'cDotenv', Actual: gen.cDotenv, Expected: '.env'},
   {Name: 'cDotEnv', Actual: gen.cDotEnv, Expected: '.Env'},
   {Name: 'cDotENV', Actual: gen.cDotENV, Expected: '.ENV'},
+  {Name: 'cDotsh', Actual: gen.cDotsh, Expected: '.sh'},
+  {Name: 'cDotSh', Actual: gen.cDotSh, Expected: '.Sh'},
+  {Name: 'cDotSH', Actual: gen.cDotSH, Expected: '.SH'},
+  {Name: 'cDotps1', Actual: gen.cDotps1, Expected: '.ps1'},
+  {Name: 'cDotPs1', Actual: gen.cDotPs1, Expected: '.Ps1'},
+  {Name: 'cDotPS1', Actual: gen.cDotPS1, Expected: '.PS1'},
+  {Name: 'cDotbat', Actual: gen.cDotbat, Expected: '.bat'},
+  {Name: 'cDotBat', Actual: gen.cDotBat, Expected: '.Bat'},
+  {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: '.BAT'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
   {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
 
@@ -158,6 +179,8 @@ export const genericConstantsValidation = [
 
   // Operating Systems
   {Name: 'cwin32', Actual: gen.cwin32, Expected: 'win32'},
+  {Name: 'cdarwin', Actual: gen.cdarwin, Expected: 'darwin'},
+  {Name: 'clinux', Actual: gen.clinux, Expected: 'linux'},
 
   // Naval & Military Codes
   {Name: 'cAlfa', Actual: gen.cAlfa, Expected: 'Alfa'},
@@ -228,11 +251,16 @@ export const genericConstantsValidation = [
   {Name: 'cOctober', Actual: gen.cOctober, Expected: 'October'},
   {Name: 'cDecember', Actual: gen.cDecember, Expected: 'December'},
 
-  // Constants Abreviations
+  // Constants Abbreviations
   {Name: 'cbas', Actual: gen.cbas, Expected: 'bas'},
   {Name: 'cbiz', Actual: gen.cbiz, Expected: 'biz'},
   {Name: 'cclr', Actual: gen.cclr, Expected: 'clr'},
+  {Name: 'cdos', Actual: gen.cdos, Expected: 'dos'},
+  {Name: 'cDos', Actual: gen.cDos, Expected: 'Dos'},
+  {Name: 'cDOS', Actual: gen.cDOS, Expected: 'DOS'},
   {Name: 'ccmd', Actual: gen.ccmd, Expected: 'cmd'},
+  {Name: 'cCmd', Actual: gen.cCmd, Expected: 'Cmd'},
+  {Name: 'cCMD', Actual: gen.cCMD, Expected: 'CMD'},
   {Name: 'ccfg', Actual: gen.ccfg, Expected: 'cfg'},
   {Name: 'ccon', Actual: gen.ccon, Expected: 'con'},
   {Name: 'cctr', Actual: gen.cctr, Expected: 'ctr'},
@@ -252,6 +280,12 @@ export const genericConstantsValidation = [
   {Name: 'cwrd', Actual: gen.cwrd, Expected: 'wrd'},
   {Name: 'capc', Actual: gen.capc, Expected: 'apc'},
   {Name: 'callSysCV', Actual: gen.callSysCV, Expected: 'allSysCV'},
+
+  // Networking
+  {Name: 'cEADDRINUSE', Actual: gen.cEADDRINUSE, Expected: 'EADDRINUSE'},
+  {Name: 'cECONNRESET', Actual: gen.cECONNRESET, Expected: 'ECONNRESET'},
+  {Name: 'cENOENT', Actual: gen.cENOENT, Expected: 'ENOENT'},
+  {Name: 'cEACCES', Actual: gen.cEACCES, Expected: 'EACCES'},
 
   // Miscelanious
   {Name: 'cUTF8', Actual: gen.cUTF8, Expected: 'UTF8'},
@@ -289,16 +323,33 @@ export const genericConstantsValidation = [
   {Name: 'capi', Actual: gen.capi, Expected: 'api'},
   {Name: 'cApi', Actual: gen.cApi, Expected: 'Api'},
   {Name: 'cAPI', Actual: gen.cAPI, Expected: 'API'},
+  {Name: 'ceagain', Actual: gen.ceagain, Expected: 'eagain'},
   {Name: 'cEAGAIN', Actual: gen.cEAGAIN, Expected: 'EAGAIN'},
+  {Name: 'csigint', Actual: gen.csigint, Expected: 'sigint'},
   {Name: 'cSIGINT', Actual: gen.cSIGINT, Expected: 'SIGINT'}, // Used to capture the CTRL+C key-combo
   {Name: 'cCTRLC', Actual: gen.cCTRLC, Expected: '\\u0003'}, // CTRL+C key-combo
   {Name: 'cESC_Key', Actual: gen.cESC_Key, Expected: '\\u001b'}, // ESC key ASCII code
+  {Name: 'cesc', Actual: gen.cesc, Expected: 'esc'},
   {Name: 'cESC', Actual: gen.cESC, Expected: 'ESC'},
+  {Name: 'cctrl', Actual: gen.cctrl, Expected: 'ctrl'},
   {Name: 'cCTRL', Actual: gen.cCTRL, Expected: 'CTRL'},
+  {Name: 'calt', Actual: gen.calt, Expected: 'alt'},
   {Name: 'cALT', Actual: gen.cALT, Expected: 'ALT'},
+  {Name: 'cshift', Actual: gen.cshift, Expected: 'shift'},
   {Name: 'cSHIFT', Actual: gen.cSHIFT, Expected: 'SHIFT'},
+  {Name: 'ctab', Actual: gen.ctab, Expected: 'tab'},
   {Name: 'cTAB', Actual: gen.cTAB, Expected: 'TAB'},
+  {Name: 'center', Actual: gen.center, Expected: 'enter'},
   {Name: 'cENTER', Actual: gen.cENTER, Expected: 'ENTER'},
+  {Name: 'cspace', Actual: gen.cspace, Expected: 'space'},
   {Name: 'cSPACE', Actual: gen.cSPACE, Expected: 'SPACE'},
-  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'}
+  {Name: 'cbackspace', Actual: gen.cbackspace, Expected: 'backspace'},
+  {Name: 'cBACKSPACE', Actual: gen.cBACKSPACE, Expected: 'BACKSPACE'},
+  {Name: 'cCroot', Actual: gen.cCroot, Expected: 'C:/'},
+  {Name: 'cCrootBackSlash', Actual: gen.cCrootBackSlash, Expected: 'C:\\'},
+  {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'}, // - Inter-Process Communication
+  {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'}, // - Inter-Process Communication
+  {Name: 'cusr', Actual: gen.cusr, Expected: 'usr'},
+  {Name: 'cUsr', Actual: gen.cUsr, Expected: 'Usr'},
+  {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'}
 ];
