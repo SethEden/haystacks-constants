@@ -631,7 +631,7 @@ export const phonicConstantsValidation = [
   {Name: 'camp', Actual: phn.camp, Expected: 'amp'},
   {Name: 'copy', Actual: phn.copy, Expected: 'opy'},
   {Name: 'cccess', Actual: phn.cccess, Expected: 'ccess'},
-  {Name: 'cCCESS', Actual: phn.cCCESS, Expected: 'cCESS'},
+  {Name: 'cCCESS', Actual: phn.cCCESS, Expected: 'CCESS'},
   {Name: 'clyz', Actual: phn.clyz, Expected: 'lyz'},
   {Name: 'clyze', Actual: phn.clyze, Expected: 'lyze'},
   {Name: 'cbra', Actual: phn.cbra, Expected: 'bra'},
@@ -1290,10 +1290,10 @@ export const phonicConstantsValidation = [
   {Name: 'cvok', Actual: phn.cvok, Expected: 'vok'},
   {Name: 'cvoke', Actual: phn.cvoke, Expected: 'voke'},
   {Name: 'cari', Actual: phn.cari, Expected: 'ari'},
-  {Name: 'clen', Actual: phn.clen, Ecpected: 'len'},
-  {Name: 'clent', Actual: phn.clent, Ecpected: 'lent'},
-  {Name: 'clenc', Actual: phn.clenc, Ecpected: 'lenc'},
-  {Name: 'clence', Actual: phn.clence, Ecpected: 'lence'},
+  {Name: 'clen', Actual: phn.clen, Expected: 'len'},
+  {Name: 'clent', Actual: phn.clent, Expected: 'lent'},
+  {Name: 'clenc', Actual: phn.clenc, Expected: 'lenc'},
+  {Name: 'clence', Actual: phn.clence, Expected: 'lence'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},
