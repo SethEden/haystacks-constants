@@ -2154,8 +2154,6 @@ export const cargument = phn.carg + bas.cu + phn.cment; // argument
 export const cArgument = phn.cArg + bas.cu + phn.cment; // Argument
 export const carguments = cargument + bas.cs; // arguments
 export const cArguments = cArgument + bas.cs; // Arguments
-export const cdrain = bas.cdr + phn.cain; // drain
-export const cDrain = bas.cDr + phn.cain; // Drain
 export const cdrive = bas.cd + phn.crive; // drive
 export const cDrive = bas.cD + phn.crive; // Drive
 export const cdrives = cdrive + bas.cs; // drives
@@ -4995,6 +4993,14 @@ export const csilencer = bas.csi + phn.clenc + bas.cer; // silencer
 export const cSilencer = bas.cSi + phn.clenc + bas.cer; // Silencer
 export const csilencing = bas.csi + phn.clenc + phn.cing; // silencing
 export const cSilencing = bas.cSi + phn.clenc + phn.cing; // Silencing
+export const cdrain = bas.cdr + phn.cain; // drain
+export const cDrain = bas.cDr + phn.cain; // Drain
+export const cdrains = bas.cdr + phn.cain + bas.cs; // drains
+export const cDrains = bas.cDr + phn.cain + bas.cs; // Drains
+export const cdrained = bas.cdrain + bas.ce + bas.cd; // drained
+export const cDrained = bas.cDrain + bas.ce + bas.cd; // Drained
+export const cdraining = bas.cdrain + phn.cing; // draining
+export const cDraining = bas.cDrain + phn.cing; // Draining
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

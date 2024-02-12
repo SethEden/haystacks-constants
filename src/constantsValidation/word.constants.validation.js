@@ -2153,8 +2153,6 @@ export const wordConstantsValidation = [
   {Name: 'cArgument', Actual: wrd.cArgument, Expected: 'Argument'},
   {Name: 'carguments', Actual: wrd.carguments, Expected: 'arguments'},
   {Name: 'cArguments', Actual: wrd.cArguments, Expected: 'Arguments'},
-  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drain'},
-  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drain'},
   {Name: 'cdrive', Actual: wrd.cdrive, Expected: 'drive'},
   {Name: 'cDrive', Actual: wrd.cDrive, Expected: 'Drive'},
   {Name: 'cdrives', Actual: wrd.cdrives, Expected: 'drives'},
@@ -4992,6 +4990,14 @@ export const wordConstantsValidation = [
   {Name: 'cSilencer', Actual: wrd.cSilencer, Expected: 'Silencer'},
   {Name: 'csilencing', Actual: wrd.csilencing, Expected: 'silencing'},
   {Name: 'cSilencing', Actual: wrd.cSilencing, Expected: 'Silencing'},
+  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drain'},
+  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drain'},
+  {Name: 'cdrains', Actual: wrd.cdrains, Expected: 'drains'},
+  {Name: 'cDrains', Actual: wrd.cDrains, Expected: 'Drains'},
+  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drained'},
+  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drained'},
+  {Name: 'cdraining', Actual: wrd.cdraining, Expected: 'draining'},
+  {Name: 'cDraining', Actual: wrd.cDraining, Expected: 'Draining'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
