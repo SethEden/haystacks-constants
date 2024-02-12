@@ -10,7 +10,6 @@
  * @author Seth Hollingsead
  * @date 2020/07/16
  * @copyright Copyright © 2020-… by Seth Hollingsead. All rights reserved
- * @NOTE: We have a second word constants file, to avoid circular dependent constants definitions.
  */
 
 // Internal imports
