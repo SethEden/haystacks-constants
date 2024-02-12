@@ -4991,6 +4991,14 @@ export const wordConstantsValidation = [
   {Name: 'cSilencer', Actual: wrd.cSilencer, Expected: 'Silencer'},
   {Name: 'csilencing', Actual: wrd.csilencing, Expected: 'silencing'},
   {Name: 'cSilencing', Actual: wrd.cSilencing, Expected: 'Silencing'},
+  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drain'},
+  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drain'},
+  {Name: 'cdrains', Actual: wrd.cdrains, Expected: 'drains'},
+  {Name: 'cDrains', Actual: wrd.cDrains, Expected: 'Drains'},
+  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drained'},
+  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drained'},
+  {Name: 'cdraining', Actual: wrd.cdraining, Expected: 'draining'},
+  {Name: 'cDraining', Actual: wrd.cDraining, Expected: 'Draining'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
