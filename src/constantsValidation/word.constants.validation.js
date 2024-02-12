@@ -2153,6 +2153,8 @@ export const wordConstantsValidation = [
   {Name: 'cArgument', Actual: wrd.cArgument, Expected: 'Argument'},
   {Name: 'carguments', Actual: wrd.carguments, Expected: 'arguments'},
   {Name: 'cArguments', Actual: wrd.cArguments, Expected: 'Arguments'},
+  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drain'},
+  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drain'},
   {Name: 'cdrive', Actual: wrd.cdrive, Expected: 'drive'},
   {Name: 'cDrive', Actual: wrd.cDrive, Expected: 'Drive'},
   {Name: 'cdrives', Actual: wrd.cdrives, Expected: 'drives'},
