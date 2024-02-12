@@ -4995,12 +4995,16 @@ export const csilencing = bas.csi + phn.clenc + phn.cing; // silencing
 export const cSilencing = bas.cSi + phn.clenc + phn.cing; // Silencing
 export const cdrain = bas.cdr + phn.cain; // drain
 export const cDrain = bas.cDr + phn.cain; // Drain
-export const cdrains = bas.cdr + phn.cain + bas.cs; // drains
-export const cDrains = bas.cDr + phn.cain + bas.cs; // Drains
-export const cdrained = bas.cdrain + bas.ce + bas.cd; // drained
-export const cDrained = bas.cDrain + bas.ce + bas.cd; // Drained
-export const cdraining = bas.cdrain + phn.cing; // draining
-export const cDraining = bas.cDrain + phn.cing; // Draining
+export const cdrains = cdrain + bas.cs; // drains
+export const cDrains = cDrain + bas.cs; // Drains
+export const cdrainer = cdrain + bas.cer; // drainer
+export const cDrainer = cDrain + bas.cer; // Drainer
+export const cdrainers = cdrain + phn.cers; // drainers
+export const cDrainers = cDrain + phn.cers; // Drainers
+export const cdrained = cdrain + bas.ce + bas.cd; // drained
+export const cDrained = cDrain + bas.ce + bas.cd; // Drained
+export const cdraining = cdrain + phn.cing; // draining
+export const cDraining = cDrain + phn.cing; // Draining
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
