@@ -4994,8 +4994,8 @@ export const wordConstantsValidation = [
   {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drain'},
   {Name: 'cdrains', Actual: wrd.cdrains, Expected: 'drains'},
   {Name: 'cDrains', Actual: wrd.cDrains, Expected: 'Drains'},
-  {Name: 'cdrain', Actual: wrd.cdrain, Expected: 'drained'},
-  {Name: 'cDrain', Actual: wrd.cDrain, Expected: 'Drained'},
+  {Name: 'cdrained', Actual: wrd.cdrain, Expected: 'drained'},
+  {Name: 'cDrained', Actual: wrd.cDrain, Expected: 'Drained'},
   {Name: 'cdraining', Actual: wrd.cdraining, Expected: 'draining'},
   {Name: 'cDraining', Actual: wrd.cDraining, Expected: 'Draining'},
   //////////////////////////////////////////////////////////////////
