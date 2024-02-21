@@ -1287,6 +1287,7 @@ export const clen = bas.cle + bas.cn; // len
 export const clent = clen + bas.ct; // lent
 export const clenc = clen + bas.cc; // lenc
 export const clence = clenc + bas.ce; // lence
+export const cers = bas.cer + bas.cs; // ers
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
