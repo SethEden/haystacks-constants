@@ -10,7 +10,6 @@
  * @author Seth Hollingsead
  * @date 2020/07/16
  * @copyright Copyright © 2020-… by Seth Hollingsead. All rights reserved
- * @NOTE: We have a second word constants file, to avoid circular dependent constants definitions.
  */
 
 // Internal imports
@@ -4995,6 +4994,18 @@ export const csilencer = bas.csi + phn.clenc + bas.cer; // silencer
 export const cSilencer = bas.cSi + phn.clenc + bas.cer; // Silencer
 export const csilencing = bas.csi + phn.clenc + phn.cing; // silencing
 export const cSilencing = bas.cSi + phn.clenc + phn.cing; // Silencing
+export const cdrain = bas.cdr + phn.cain; // drain
+export const cDrain = bas.cDr + phn.cain; // Drain
+export const cdrains = cdrain + bas.cs; // drains
+export const cDrains = cDrain + bas.cs; // Drains
+export const cdrainer = cdrain + bas.cer; // drainer
+export const cDrainer = cDrain + bas.cer; // Drainer
+export const cdrainers = cdrain + phn.cers; // drainers
+export const cDrainers = cDrain + phn.cers; // Drainers
+export const cdrained = cdrain + bas.ce + bas.cd; // drained
+export const cDrained = cDrain + bas.ce + bas.cd; // Drained
+export const cdraining = cdrain + phn.cing; // draining
+export const cDraining = cDrain + phn.cing; // Draining
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
