@@ -351,5 +351,8 @@ export const genericConstantsValidation = [
   {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'}, // - Inter-Process Communication
   {Name: 'cusr', Actual: gen.cusr, Expected: 'usr'},
   {Name: 'cUsr', Actual: gen.cUsr, Expected: 'Usr'},
-  {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'}
+  {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'},
+  {Name: 'cobj', Actual: gen.cobj, Expected: 'obj'},
+  {Name: 'cObj', Actual: gen.cObj, Expected: 'Obj'},
+  {Name: 'cOBJ', Actual: gen.cOBJ, Expected: 'OBJ'}
 ];
