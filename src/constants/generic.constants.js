@@ -352,3 +352,6 @@ export const cIPC = bas.cIP + bas.cC; // IPC - Inter-Process Communication
 export const cusr = bas.cus + bas.cr; // usr
 export const cUsr = bas.cUs + bas.cr; // Usr
 export const cUSR = bas.cUS + bas.cR; // USR
+export const cobj = bas.cob + bas.cj; // obj
+export const cObj = bas.cOb + bas.cj; // Obj
+export const cOBJ = bas.cOB + bas.cJ; // OBJ
