@@ -1163,6 +1163,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},
   {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
   {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
+  {Name: 'cErrorSavePluginRegistryMessage02', Actual: msg.cErrorSavePluginRegistryMessage02, Expected: 'ERROR: pluginRegistry is an invalid value: '},
 
   // Coded System Messages
   // EXAMPLE:
