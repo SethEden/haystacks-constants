@@ -1164,6 +1164,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
   {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
   {Name: 'cErrorSavePluginRegistryMessage02', Actual: msg.cErrorSavePluginRegistryMessage02, Expected: 'ERROR: pluginRegistry is an invalid value: '},
+  {Name: 'cErrorUnloadPluginMessage09', Actual: msg.cErrorUnloadPluginMessage09, Expected: 'ERROR: Plugin Name is an invalid value, pluginName is: '},
+  {Name: 'cErrorUnloadPluginMessage10', Actual: msg.cErrorUnloadPluginMessage10, Expected: 'ERROR: Plugin Name was not found in plugins loaded, pluginName is: '},
+  {Name: 'cErrorLoadPluginMetaDataMessage01', Actual: msg.cErrorLoadPluginMetaDataMessage01, Expected: 'ERROR: prefixPluginPath is an undefined string.'},
+
+
 
   // Coded System Messages
   // EXAMPLE:

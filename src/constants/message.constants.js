@@ -1392,6 +1392,12 @@ export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace 
 export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 // ERROR: pluginRegistry is an invalid value: 
 export const cErrorSavePluginRegistryMessage02 = cERROR_Colon + wrd.cplugin + wrd.cRegistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+// ERROR: Plugin Name is an invalid value, pluginName is: 
+export const cErrorUnloadPluginMessage09 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: Plugin Name was not found in plugins loaded, pluginName is: 
+export const cErrorUnloadPluginMessage10 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cloaded + bas.cComa + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: prefixPluginPath is an undefined string.
+export const cErrorLoadPluginMetaDataMessage01 = cERROR_Colon + wrd.cprefix + wrd.cPlugin + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cundefined + bas.cSpace + wrd.cstring + bas.cDot;
 
 
 // Coded System Messages
