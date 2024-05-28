@@ -5088,6 +5088,16 @@ export const cbadder = cbad + phn.cder; // badder
 export const cBadder = cBad + phn.cder; // Badder
 export const cbaddest = cbad + bas.cd + phn.cest; // baddest
 export const cBaddest = cBad + bas.cd + phn.cest; // Baddest
+export const cpart = bas.cpa + bas.crt; // part
+export const cparts = cpart + bas.cs; // parts
+export const cparter = cpart + bas.cer; // parter
+export const cparted = cpart + bas.ced; // parted
+export const cparting = cpart + phn.cing; // parting
+export const cPart = bas.cPa + bas.crt; // Part
+export const cParts = cPart + bas.cs; // Parts
+export const cParter = cPart + bas.cer; // Parter
+export const cParted = cPart + bas.ced; // Parted
+export const cParting = cPart + phn.cing; // Parting
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
