@@ -14,6 +14,7 @@
 
 // Internal imports
 import * as bas from './basic.constants.js';
+import { cswapDoubleForwardSlashToSingleForwardSlash } from './business.constants.js';
 import * as gen from './generic.constants.js';
 import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
@@ -5089,15 +5090,31 @@ export const cBadder = cBad + phn.cder; // Badder
 export const cbaddest = cbad + bas.cd + phn.cest; // baddest
 export const cBaddest = cBad + bas.cd + phn.cest; // Baddest
 export const cpart = bas.cpa + bas.crt; // part
-export const cparts = cpart + bas.cs; // parts
-export const cparter = cpart + bas.cer; // parter
-export const cparted = cpart + bas.ced; // parted
-export const cparting = cpart + phn.cing; // parting
 export const cPart = bas.cPa + bas.crt; // Part
+export const cparts = cpart + bas.cs; // parts
 export const cParts = cPart + bas.cs; // Parts
+export const cparter = cpart + bas.cer; // parter
 export const cParter = cPart + bas.cer; // Parter
+export const cparted = cpart + bas.ced; // parted
 export const cParted = cPart + bas.ced; // Parted
+export const cparting = cpart + phn.cing; // parting
 export const cParting = cPart + phn.cing; // Parting
+export const cwar = bas.cwa + bas.cr; // war
+export const cWar = bas.cWa + bas.cr; // War
+export const cwars = cwar + bas.cs; // wars
+export const cWars = cWar + bas.cs; // Wars
+export const cwarer = cwar + bas.cer; // warer
+export const cWarer = cWar + bas.cer; // Warer
+export const cwared = cwar + bas.ced; // wared
+export const cWared = cWar + bas.ced; // Wared
+export const cwaring = cwar + phn.cing; // waring
+export const cWaring = cWar + phn.cing; // Waring
+export const cwarrior = cwar + bas.cri + cor; // warrior
+export const cWarrior = cWar + bas.cri + cor; // Warrior
+export const cwarriors = cwar + bas.cri + cor + bas.cs; // warriors
+export const cWarriors = cWar + bas.cri + cor + bas.cs; // Warriors
+
+
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
