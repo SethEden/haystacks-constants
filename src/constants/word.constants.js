@@ -14,7 +14,6 @@
 
 // Internal imports
 import * as bas from './basic.constants.js';
-import { cswapDoubleForwardSlashToSingleForwardSlash } from './business.constants.js';
 import * as gen from './generic.constants.js';
 import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
@@ -5113,8 +5112,18 @@ export const cwarrior = cwar + bas.cri + cor; // warrior
 export const cWarrior = cWar + bas.cri + cor; // Warrior
 export const cwarriors = cwar + bas.cri + cor + bas.cs; // warriors
 export const cWarriors = cWar + bas.cri + cor + bas.cs; // Warriors
-
-
+export const cgive = bas.cgi + bas.cve; // give
+export const cGive = bas.cGi + bas.cve; // Give
+export const cgives = cgive + bas.cs; // gives
+export const cGives = cGive + bas.cs; // Gives
+export const cgiver = cgive + bas.cr; // giver
+export const cGiver = cGive + bas.cr; // Giver
+export const cgiven = cgive + bas.cn; // given
+export const cGiven = cGive + bas.cn; // Given
+export const cgived = cgive + bas.cd; // gived
+export const cGived = cGive + bas.cd; // Gived
+export const cgiving = bas.cgi + bas.cvi + phn.cing; // giving
+export const cGiving = bas.cGi + bas.cvi + phn.cing; // Giving
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

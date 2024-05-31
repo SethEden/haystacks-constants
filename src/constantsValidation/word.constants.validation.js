@@ -5109,7 +5109,18 @@ export const wordConstantsValidation = [
   {Name: 'cWarrior', Actual: wrd.cWarrior, Expected: 'Warrior'},
   {Name: 'cwarriors', Actual: wrd.cwarriors, Expected: 'warriors'},
   {Name: 'cWarriors', Actual: wrd.cWarriors, Expected: 'Warriors'},
-
+  {Name: 'cgive', Actual: wrd.cgive, Expected: 'give'},
+  {Name: 'cGive', Actual: wrd.cGive, Expected: 'Give'},
+  {Name: 'cgives', Actual: wrd.cgives, Expected: 'gives'},
+  {Name: 'cGives', Actual: wrd.cGives, Expected: 'Gives'},
+  {Name: 'cgiver', Actual: wrd.cgiver, Expected: 'giver'},
+  {Name: 'cGiver', Actual: wrd.cGiver, Expected: 'Giver'},
+  {Name: 'cgiven', Actual: wrd.cgiven, Expected: 'given'},
+  {Name: 'cGiven', Actual: wrd.cGiven, Expected: 'Given'},
+  {Name: 'cgived', Actual: wrd.cgived, Expected: 'gived'},
+  {Name: 'cGived', Actual: wrd.cGived, Expected: 'Gived'},
+  {Name: 'cgiving', Actual: wrd.cgiving, Expected: 'giving'},
+  {Name: 'cGiving', Actual: wrd.cGiving, Expected: 'Giving'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

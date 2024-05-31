@@ -385,7 +385,7 @@ export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wr
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
 export const cworkflowPathIs = wrd.cworkflow + wrd.cPath + sys.cSpaceIsColonSpace; // workflowPath is:
-export const cALL_DATA_IS = wrd.cALL + bas.cSpace + wrd.cDATA + bas.cSpace + wrd.cIS + bas.cColon + bas.cSpace; // ALL DATA is:
+export const cALL_DATA_IS = wrd.cALL + bas.cSpace + wrd.cDATA + sys.cSpaceIsColonSpace; // ALL DATA is:
 export const cAllLoadedDataIs = wrd.cAll + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // All loaded data is:
 export const callPluginConfigDataIs = wrd.call + wrd.cPlugin + wrd.cConfig + wrd.cData + sys.cSpaceIsColonSpace; // allPluginConfigData is:
 export const cconfigDataIs = wrd.cconfig + wrd.cData + sys.cSpaceIsColonSpace; // configData is:
@@ -1283,7 +1283,7 @@ export const cclearUserCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpac
 // NOTE: All commands log clearing setting is not enabled.
 export const cclearAllCommandsLogMessage01 = wrd.cNOTE + bas.cColon + bas.cSpace + wrd.cAll + bas.cSpace + wrd.ccommands + bas.cSpace + wrd.clog + bas.cSpace + wrd.cclearing + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cenabled + bas.cDot;
 // Invalid input object. Expected a valid JSON object. Object type is:
-export const cErrorObjectDeepCloneMessage01 = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cExpected + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cObject + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cColon + bas.cSpace;
+export const cErrorObjectDeepCloneMessage01 = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cExpected + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cobject + bas.cDot + bas.cSpace + wrd.cObject + bas.cSpace + wrd.ctype + sys.cSpaceIsColonSpace;
 // D-command stack before loading is:
 export const cdCommandStackBeforeLoadingIs = bas.cD + bas.cDash + wrd.ccommand + bas.cSpace + wrd.cstack + bas.cSpace + wrd.cbefore + bas.cSpace + wrd.cloading + sys.cSpaceIsColonSpace;
 // D-businessRules stack before loading is:
@@ -1393,12 +1393,21 @@ export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas
 // ERROR: pluginRegistry is an invalid value: 
 export const cErrorSavePluginRegistryMessage02 = cERROR_Colon + wrd.cplugin + wrd.cRegistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value, pluginName is: 
-export const cErrorUnloadPluginMessage09 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
+export const cErrorUnloadPluginMessage09 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: Plugin Name was not found in plugins loaded, pluginName is: 
 export const cErrorUnloadPluginMessage10 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cloaded + bas.cComa + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: prefixPluginPath is an undefined string.
 export const cErrorLoadPluginMetaDataMessage01 = cERROR_Colon + wrd.cprefix + wrd.cPlugin + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cundefined + bas.cSpace + wrd.cstring + bas.cDot;
-
+// ERROR: Invalid input for contextName: 
+export const cErrorLoadAllJsonDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ccontext + wrd.cName;
+// ERROR: Invalid input for dataPath: 
+export const cErrorLoadAllJsonDataMessage02 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cPath;
+// ERROR: Given data name already exists. Data context name is: 
+export const cErrorStoreDataMessage01 = cERROR_Colon + wrd.cGiven + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cname + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.calready + bas.cSpace + wrd.cexists + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.ccontext + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
+// ERROR: Data to store is undefined.
+export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
+// ERROR: Data name is an invalid value. Data name is: 
+export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 
 // Coded System Messages
 // EXAMPLE:

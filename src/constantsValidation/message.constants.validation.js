@@ -1167,7 +1167,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorUnloadPluginMessage09', Actual: msg.cErrorUnloadPluginMessage09, Expected: 'ERROR: Plugin Name is an invalid value, pluginName is: '},
   {Name: 'cErrorUnloadPluginMessage10', Actual: msg.cErrorUnloadPluginMessage10, Expected: 'ERROR: Plugin Name was not found in plugins loaded, pluginName is: '},
   {Name: 'cErrorLoadPluginMetaDataMessage01', Actual: msg.cErrorLoadPluginMetaDataMessage01, Expected: 'ERROR: prefixPluginPath is an undefined string.'},
-
+  {Name: 'cErrorLoadAllJsonDataMessage01', Actual: msg.cErrorLoadAllJsonDataMessage01, Expected: 'ERROR: Invalid input for contextName: '},
+  {Name: 'cErrorLoadAllJsonDataMessage02', Actual: msg.cErrorLoadAllJsonDataMessage02, Expected: 'ERROR: Invalid input for dataPath: '},
+  {Name: 'cErrorStoreDataMessage01', Actual: msg.cErrorStoreDataMessage01, Expected: 'ERROR: Given data name already exists. Data context name is: '},
+  {Name: 'cErrorStoreDataMessage02', Actual: msg.cErrorStoreDataMessage02, Expected: 'ERROR: Data to store is undefined.'},
+  {Name: 'cErrorStoreDataMessage03', Actual: msg.cErrorStoreDataMessage03, Expected: 'ERROR: Data name is an invalid value. Data name is: '},
 
 
   // Coded System Messages
