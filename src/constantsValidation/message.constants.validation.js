@@ -381,7 +381,7 @@ export const messageConstantsVaidation = [
   {Name: 'cframeworkWorkflowsPathIs', Actual: msg.cframeworkWorkflowsPathIs, Expected: 'frameworkWorkflowsPath is: '},
   {Name: 'ccommandAliasesPathIs', Actual: msg.ccommandAliasesPathIs, Expected: 'commandAliasesPath is: '},
   {Name: 'cworkflowPathIs', Actual: msg.cworkflowPathIs, Expected: 'workflowPath is: '},
-  {Name: 'cALL_DATA_IS', Actual: msg.cALL_DATA_IS, Expected: 'ALL DATA IS: '},
+  {Name: 'cALL_DATA_IS', Actual: msg.cALL_DATA_IS, Expected: 'ALL DATA is: '},
   {Name: 'cAllLoadedDataIs', Actual: msg.cAllLoadedDataIs, Expected: 'All loaded data is: '},
   {Name: 'callPluginConfigDataIs', Actual: msg.callPluginConfigDataIs, Expected: 'allPluginConfigData is: '},
   {Name: 'cconfigDataIs', Actual: msg.cconfigDataIs, Expected: 'configData is: '},
@@ -1169,7 +1169,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadPluginMetaDataMessage01', Actual: msg.cErrorLoadPluginMetaDataMessage01, Expected: 'ERROR: prefixPluginPath is an undefined string.'},
   {Name: 'cErrorLoadAllJsonDataMessage01', Actual: msg.cErrorLoadAllJsonDataMessage01, Expected: 'ERROR: Invalid input for contextName: '},
   {Name: 'cErrorLoadAllJsonDataMessage02', Actual: msg.cErrorLoadAllJsonDataMessage02, Expected: 'ERROR: Invalid input for dataPath: '},
-  {Name: 'cErrorStoreDataMessage01', Actual: msg.cErrorStoreDataMessage01, Expected: 'ERROR: Given data name already exists. Data context name is: '},
+  {Name: 'cErrorStoreDataMessage01', Actual: msg.cErrorStoreDataMessage01, Expected: 'ERROR: Given data name to store already exists. Data context name is: '},
   {Name: 'cErrorStoreDataMessage02', Actual: msg.cErrorStoreDataMessage02, Expected: 'ERROR: Data to store is undefined.'},
   {Name: 'cErrorStoreDataMessage03', Actual: msg.cErrorStoreDataMessage03, Expected: 'ERROR: Data name is an invalid value. Data name is: '},
 

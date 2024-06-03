@@ -5122,8 +5122,8 @@ export const cgiven = cgive + bas.cn; // given
 export const cGiven = cGive + bas.cn; // Given
 export const cgived = cgive + bas.cd; // gived
 export const cGived = cGive + bas.cd; // Gived
-export const cgiving = bas.cgi + bas.cvi + phn.cing; // giving
-export const cGiving = bas.cGi + bas.cvi + phn.cing; // Giving
+export const cgiving = bas.cgi + bas.cv + phn.cing; // giving
+export const cGiving = bas.cGi + bas.cv + phn.cing; // Giving
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
