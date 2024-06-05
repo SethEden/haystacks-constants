@@ -1172,6 +1172,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorStoreDataMessage01', Actual: msg.cErrorStoreDataMessage01, Expected: 'ERROR: Given data name to store already exists. Data context name is: '},
   {Name: 'cErrorStoreDataMessage02', Actual: msg.cErrorStoreDataMessage02, Expected: 'ERROR: Data to store is undefined.'},
   {Name: 'cErrorStoreDataMessage03', Actual: msg.cErrorStoreDataMessage03, Expected: 'ERROR: Data name is an invalid value. Data name is: '},
+  {Name: 'cErrorEnqueueCommandMessage01', Actual: msg.cErrorEnqueueCommandMessage01, Expected: 'ERROR: Incorrect input for command: '},
+  {Name: 'cErrorLoadPluginResourceDataMessage01', Actual: msg.cErrorLoadPluginResourceDataMessage01, Expected: 'ERROR: pluginResourcePath is an invalid value, pluginResourcePath is: '},
+  {Name: 'cErrorConfigurationSettingMessage01', Actual: msg.cErrorConfigurationSettingMessage01, Expected: 'ERROR: Incorrect type of input for configuration value:'},
+  {Name: 'cErrorConfigurationSettingMessage02', Actual: msg.cErrorConfigurationSettingMessage02, Expected: 'ERROR: Incorrect type of input for configuration name:'},
+  {Name: 'cErrorConfigurationSettingMessage03', Actual: msg.cErrorConfigurationSettingMessage03, Expected: 'ERROR: Incorrect type of input for configuration path: '},
 
 
   // Coded System Messages

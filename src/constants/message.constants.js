@@ -1408,6 +1408,17 @@ export const cErrorStoreDataMessage01 = cERROR_Colon + wrd.cGiven + bas.cSpace +
 export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
 // ERROR: Data name is an invalid value. Data name is: 
 export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
+// ERROR: Incorrect input for command: 
+export const cErrorEnqueueCommandMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ccommand + bas.cColon;
+// ERROR: pluginResourcePath is an invalid value, pluginResourcePath is: 
+export const cErrorLoadPluginResourceDataMessage01 = cERROR_Colon + wrd.cplugin + wrd.cResource + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cResource + wrd.cPath + sys.cSpaceIsColonSpace; 
+// ERROR: Incorrect type of input for configuration value: 
+export const cErrorConfigurationSettingMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cvalue + wrd.cColon; 
+// ERROR: Incorrect type of input for configuration name: 
+export const cErrorConfigurationSettingMessage02 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cname + wrd.cColon; 
+// ERROR: Incorrect type of input for configuration path: 
+export const cErrorConfigurationSettingMessage03 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cpath + wrd.cColon; 
+
 
 // Coded System Messages
 // EXAMPLE:
