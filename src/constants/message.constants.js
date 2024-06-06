@@ -15,6 +15,7 @@
 
 // Internal imports
 import * as bas from './basic.constants.js';
+import * as cfg from './configuration.constants.js'
 import * as gen from './generic.constants.js';
 import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
@@ -1418,7 +1419,54 @@ export const cErrorConfigurationSettingMessage01 = cERROR_Colon + wrd.cIncorrect
 export const cErrorConfigurationSettingMessage02 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cname + wrd.cColon; 
 // ERROR: Incorrect type of input for configuration path: 
 export const cErrorConfigurationSettingMessage03 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cpath + wrd.cColon; 
-
+// ERROR: debugFilesModuleFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesModuleFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFilesModuleFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesFunctionFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesFunctionFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFilesFunctionFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesMessageFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesMessageFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFilesMessageFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesDataFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesDataFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFilesDataFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesModuleFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesModuleFontColorSettingMessage = cERROR_Colon + cfg.cdebugFilesModuleFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesFunctionFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesFunctionFontColorSettingMessage = cERROR_Colon + cfg.cdebugFilesFunctionFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesMessageFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesMessageFontColorSettingMessage = cERROR_Colon + cfg.cdebugFilesMessageFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesDataFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesDataFontColorSettingMessage = cERROR_Colon + cfg.cdebugFilesDataFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesModuleFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesModuleFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFilesModuleFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesFunctionFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesFunctionFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFilesFunctionFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesMessageFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesMessageFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFilesMessageFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFilesDataFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFilesDataFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFilesDataFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsModuleFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsModuleFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFunctionsModuleFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsFunctionFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsFunctionFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFunctionsFunctionFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsMessageFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsMessageFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFunctionsMessageFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsDataFontStyleSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsDataFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFunctionsDataFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsModuleFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsModuleFontColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsModuleFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsFunctionFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsFunctionFontColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsFunctionFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsMessageFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsMessageFontColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsMessageFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsDataFontColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsDataFontColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsDataFontColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsModuleFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsModuleFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsModuleFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsFunctionFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsFunctionFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsMessageFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsMessageFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: debugFunctionsDataFontBackgroundColorSetting not defined in debug setting configuration file.
+export const cErrorDebugFunctionsDataFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsDataFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:

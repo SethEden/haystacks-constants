@@ -1177,10 +1177,33 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorConfigurationSettingMessage01', Actual: msg.cErrorConfigurationSettingMessage01, Expected: 'ERROR: Incorrect type of input for configuration value:'},
   {Name: 'cErrorConfigurationSettingMessage02', Actual: msg.cErrorConfigurationSettingMessage02, Expected: 'ERROR: Incorrect type of input for configuration name:'},
   {Name: 'cErrorConfigurationSettingMessage03', Actual: msg.cErrorConfigurationSettingMessage03, Expected: 'ERROR: Incorrect type of input for configuration path: '},
+  {Name: 'cErrorDebugFilesModuleFontStyleSettingMessage', Actual: msg.cErrorDebugFilesModuleFontStyleSettingMessage, Expected: 'ERROR: debugFilesModuleFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesFunctionFontStyleSettingMessage', Actual: msg.cErrorDebugFilesFunctionFontStyleSettingMessage, Expected: 'ERROR: debugFilesFunctionFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesMessageFontStyleSettingMessage', Actual: msg.cErrorDebugFilesMessageFontStyleSettingMessage, Expected: 'ERROR: debugFilesMessageFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesDataFontStyleSettingMessage', Actual: msg.cErrorDebugFilesDataFontStyleSettingMessage, Expected: 'ERROR: debugFilesDataFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesModuleFontColorSettingMessage', Actual: msg.cErrorDebugFilesModuleFontColorSettingMessage, Expected: 'ERROR: debugFilesModuleFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesFunctionFontColorSettingMessage', Actual: msg.cErrorDebugFilesFunctionFontColorSettingMessage, Expected: 'ERROR: debugFilesFunctionFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesMessageFontColorSettingMessage', Actual: msg.cErrorDebugFilesMessageFontColorSettingMessage, Expected: 'ERROR: debugFilesMessageFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesDataFontColorSettingMessage', Actual: msg.cErrorDebugFilesDataFontColorSettingMessage, Expected: 'ERROR: debugFilesDataFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesModuleFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFilesModuleFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFilesModuleFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesFunctionFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFilesFunctionFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFilesFunctionFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesMessageFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFilesMessageFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFilesMessageFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFilesDataFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFilesDataFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFilesDataFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsModuleFontStyleSettingMessage', Actual: msg.cErrorDebugFunctionsModuleFontStyleSettingMessage, Expected: 'ERROR: debugFunctionsModuleFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsFunctionFontStyleSettingMessage', Actual: msg.cErrorDebugFunctionsFunctionFontStyleSettingMessage, Expected: 'ERROR: debugFunctionsFunctionFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsMessageFontStyleSettingMessage', Actual: msg.cErrorDebugFunctionsMessageFontStyleSettingMessage, Expected: 'ERROR: debugFunctionsMessageFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsDataFontStyleSettingMessage', Actual: msg.cErrorDebugFunctionsDataFontStyleSettingMessage, Expected: 'ERROR: debugFunctionsDataFontStyleSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsModuleFontColorSettingMessage', Actual: msg.cErrorDebugFunctionsModuleFontColorSettingMessage, Expected: 'ERROR: debugFunctionsModuleFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsFunctionFontColorSettingMessage', Actual: msg.cErrorDebugFunctionsFunctionFontColorSettingMessage, Expected: 'ERROR: debugFunctionsFunctionFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsMessageFontColorSettingMessage', Actual: msg.cErrorDebugFunctionsMessageFontColorSettingMessage, Expected: 'ERROR: debugFunctionsMessageFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsDataFontColorSettingMessage', Actual: msg.cErrorDebugFunctionsDataFontColorSettingMessage, Expected: 'ERROR: debugFunctionsDataFontColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsModuleFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsModuleFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsModuleFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsFunctionFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsMessageFontBackgroundColorSetting not defined in debug setting configuration file.'},
+  {Name: 'cErrorDebugFunctionsDataFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsDataFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsDataFontBackgroundColorSetting not defined in debug setting configuration file.'},  // Coded System Messages
+    
 
-
-  // Coded System Messages
-  // EXAMPLE:
+// EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
   {Name: 'cgetRuleMessage01', Actual: msg.cgetRuleMessage01, Expected: 'D[sys.cbusinessRules][inputData] is: '}
 ];
