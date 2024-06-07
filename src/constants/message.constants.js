@@ -1467,6 +1467,13 @@ export const cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage = cER
 export const cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsMessageFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
 // ERROR: debugFunctionsDataFontBackgroundColorSetting not defined in debug setting configuration file.
 export const cErrorDebugFunctionsDataFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsDataFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: columnNames is not an array of strings.
+export const cErrorConsoleLogTableMessage01 = cERROR_Colon + wrd.ccolumn + bas.cSpace + wrd.cNames + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cstrings + bas.cDot;
+// ERROR: tableData is not an array of objects.
+export const cErrorConsoleLogTableMessage02 = cERROR_Colon + wrd.ctable + bas.cSpace + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cobjects + bas.cDot;
+// ERROR: classPath is an invalid value.
+export const cErrorConsoleLogTableMessage03 = cERROR_Colon + wrd.cclass + bas.cSpace + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
+
 
 // Coded System Messages
 // EXAMPLE:

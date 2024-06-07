@@ -1201,7 +1201,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsFunctionFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsFunctionFontBackgroundColorSetting not defined in debug setting configuration file.'},
   {Name: 'cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsMessageFontBackgroundColorSetting not defined in debug setting configuration file.'},
   {Name: 'cErrorDebugFunctionsDataFontBackgroundColorSettingMessage', Actual: msg.cErrorDebugFunctionsDataFontBackgroundColorSettingMessage, Expected: 'ERROR: debugFunctionsDataFontBackgroundColorSetting not defined in debug setting configuration file.'},  // Coded System Messages
-    
+  {Name: 'cErrorConsoleLogTableMessage01', Actual: msg.cErrorConsoleLogTableMessage01, Expected: 'ERROR: columnNames is not an array of strings.'},
+  {Name: 'cErrorConsoleLogTableMessage02', Actual: msg.cErrorConsoleLogTableMessage02, Expected: 'ERROR: tableData is not an array of objects.'},
+  {Name: 'cErrorConsoleLogTableMessage03', Actual: msg.cErrorConsoleLogTableMessage03, Expected: 'ERROR: classPath is an invalid value.'},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

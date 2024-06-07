@@ -56,6 +56,7 @@ export const cchangeSetting = wrd.cchange + wrd.cSetting; // changeSetting
 // Integration Test commands in order
 // ***********************************************
 export const cvalidateConstants = wrd.cvalidate + wrd.cConstants; // validateConstants
+export const cvalidateConstantFile = wrd.cvalidate + wrd.cConstant + wrd.cFile; // cvalidateConstantFile
 export const cvalidateCommandAliases = wrd.cvalidate + wrd.cCommand + wrd.cAliases; // validateCommandAliases
 export const cvalidateWorkflows = wrd.cvalidate + wrd.cWorkflows; // validateWorkflows
 export const crunAllValidations = wrd.crun + wrd.cAll + wrd.cValidations; // runAllValidations

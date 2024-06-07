@@ -5121,6 +5121,10 @@ export const wordConstantsValidation = [
   {Name: 'cGived', Actual: wrd.cGived, Expected: 'Gived'},
   {Name: 'cgiving', Actual: wrd.cgiving, Expected: 'giving'},
   {Name: 'cGiving', Actual: wrd.cGiving, Expected: 'Giving'},
+  {Name: 'ccolumn', Actual: wrd.cccolumn, Expected: 'column'},
+  {Name: 'ccolumns', Actual: wrd.cccolumns, Expected: 'columns'},
+  {Name: 'cColumn', Actual: wrd.ccColumn, Expected: 'Column'},
+  {Name: 'cColumns', Actual: wrd.ccColumns, Expected: 'Columns'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
