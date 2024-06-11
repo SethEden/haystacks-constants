@@ -74,6 +74,7 @@ export const cisNonZeroLengthArray = wrd.cis + phn.cNon + num.cZero + wrd.cLengt
 export const carrayDeepClone = wrd.carray + wrd.cDeep + wrd.cClone; // arrayDeepClone
 export const cobjectDeepClone = wrd.cobject + wrd.cDeep + wrd.cClone; // objectDeepClone
 export const cobjectDeepMerge = wrd.cobject + wrd.cDeep + wrd.cMerge; // objectDeepMerge
+export const cconditionalObjectAssignment = wrd.ccondition + bas.cal + wrd.cObject + wrd.cAssignment; // conditionalObjectAssignment
 export const cgetNamespacedDataObject = wrd.cget + wrd.cNamespaced + wrd.cData + wrd.cObject; // getNamespacedDataObject
 export const csetNamespacedDataObject = wrd.cset + wrd.cNamespaced + wrd.cData + wrd.cObject; // setNamespacedDataObject
 

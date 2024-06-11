@@ -666,6 +666,9 @@ export const cinputDataLengthIs = cinputData + bas.cDot + wrd.clength + sys.cSpa
 export const cvalidationTypesInputArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesInputArray is:
 export const cvalidationTypesConfirmedArrayIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // validationTypesConfirmedArray is:
 export const cvalidationTypesConfirmedListIs = wrd.cvalidation + wrd.cTypes + wrd.cConfirmed + wrd.cList + sys.cSpaceIsColonSpace; // validationTypesConfirmedList is:
+export const cvalidationFileNameInputArrayIs = wrd.cvalidation + wrd.cFile + wrd.cName + wrd.cInput + wrd.cArray + sys.cSpaceIsColonSpace; // validationFileNameInputArray is: 
+export const cvalidationFileNameConfirmedArrayIs = wrd.cvalidation + wrd.cFile + wrd.cName + wrd.cConfirmed + wrd.cArray + sys.cSpaceIsColonSpace; // validationFileNameConfirmedArray is: 
+export const cvalidationFileNameConfirmedListIs = wrd.cvalidation + wrd.cFile + wrd.cName + wrd.cConfirmed + wrd.cList + sys.cSpaceIsColonSpace; // validationFileNameConfirmedList is: 
 export const callCommandAliasesToValidateIs = wrd.call + wrd.cCommand + wrd.cAliases + wrd.cTo + wrd.cValidate + sys.cSpaceIsColonSpace; // callCommandAliasesToValidate is:
 export const cvalidationArrayIs = wrd.cvalidation + wrd.cArray + sys.cSpaceIsColonSpace; // validationArray is:
 export const capplicationCommandAliasesIs = wrd.capplication + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace; // applicationCommandAliases is:
@@ -1355,6 +1358,16 @@ export const cWarningUserEnteredValidationDataTypeMessage03 = cWARNING_Colon + w
 export const cBeginCommandAliasesValidationMessage = wrd.cBegin + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation;
 // Begin workflows validation
 export const cBeginWorkflowsValidationMessage = wrd.cBegin + bas.cSpace + wrd.cworkflows + bas.cSpace + wrd.cvalidation;
+// ERROR: Please enter a valid constants file name(s) to validate.
+export const cErrorInvalidConstantsFileNameMessage01 = cERROR_Colon + wrd.cPlease + bas.cSpace + gen.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cOpenParenthesis + bas.cs + bas.cCloseParenthesis + bas.cSpace + bas.cto + bas.cSpace + wrd.cvalidate + bas.cDot;
+// WARNING: The specified validation file name is not available, please enter a valid file name and try again. Name not recognized:
+export const cWarningUserEnteredValidationDataFileNameMessage01 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cSpace + bas.cis + bas.cSpace + gen.cnot + bas.cSpace + wrd.cavailable + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + gen.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cSpace + phn.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cName + bas.cSpace + gen.cnot + bas.cSpace + wrd.crecognized + bas.cColon + bas.cSpace; 
+// WARNING: No valid constants validation file names were entered.
+export const cWarningUserEnteredValidationDataFileNameMessage02 = cWARNING_Colon + bas.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cnames + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot; 
+// Constants validation file names are:
+export const cConstantsValidationFileNamesAre = wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cnames + bas.cSpace + phn.care + bas.cColon + bas.cSpace; 
+// WARNING: You have to enter a file name to run constants validations of that file.
+export const cWarningUserEnteredValidationDataFileNameMessage03 = cWARNING_Colon + wrd.cYou + bas.cSpace + wrd.chave + bas.cSpace + bas.cto + bas.cSpace + gen.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cSpace + bas.cto + bas.cSpace + wrd.crun + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidations + bas.cSpace + bas.cof + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cfile + bas.cDot; 
 // Running all validations
 export const cRunningAllValidationsMessage = wrd.cRunning + bas.cSpace + wrd.call + bas.cSpace + wrd.cvalidations;
 // ERROR: There was a fatal error in warden.initFrameworkSchema function.
@@ -1410,15 +1423,15 @@ export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + 
 // ERROR: Data name is an invalid value. Data name is: 
 export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Incorrect input for command: 
-export const cErrorEnqueueCommandMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ccommand + bas.cColon;
+export const cErrorEnqueueCommandMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ccommand + bas.cColon + bas.cSpace;
 // ERROR: pluginResourcePath is an invalid value, pluginResourcePath is: 
 export const cErrorLoadPluginResourceDataMessage01 = cERROR_Colon + wrd.cplugin + wrd.cResource + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cResource + wrd.cPath + sys.cSpaceIsColonSpace; 
 // ERROR: Incorrect type of input for configuration value: 
-export const cErrorConfigurationSettingMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cvalue + wrd.cColon; 
+export const cErrorConfigurationSettingMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace; 
 // ERROR: Incorrect type of input for configuration name: 
-export const cErrorConfigurationSettingMessage02 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cname + wrd.cColon; 
+export const cErrorConfigurationSettingMessage02 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace; 
 // ERROR: Incorrect type of input for configuration path: 
-export const cErrorConfigurationSettingMessage03 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cpath + wrd.cColon; 
+export const cErrorConfigurationSettingMessage03 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace; 
 // ERROR: debugFilesModuleFontStyleSetting not defined in debug setting configuration file.
 export const cErrorDebugFilesModuleFontStyleSettingMessage = cERROR_Colon + cfg.cdebugFilesModuleFontStyleSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
 // ERROR: debugFilesFunctionFontStyleSetting not defined in debug setting configuration file.
@@ -1468,11 +1481,11 @@ export const cErrorDebugFunctionsMessageFontBackgroundColorSettingMessage = cERR
 // ERROR: debugFunctionsDataFontBackgroundColorSetting not defined in debug setting configuration file.
 export const cErrorDebugFunctionsDataFontBackgroundColorSettingMessage = cERROR_Colon + cfg.cdebugFunctionsDataFontBackgroundColorSetting + bas.cSpace + gen.cnot + bas.cSpace + wrd.cdefined + bas.cSpace + wrd.cin + bas.cSpace + wrd.cdebug + bas.cSpace + wrd.csetting + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cfile + bas.cDot;
 // ERROR: columnNames is not an array of strings.
-export const cErrorConsoleLogTableMessage01 = cERROR_Colon + wrd.ccolumn + bas.cSpace + wrd.cNames + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cstrings + bas.cDot;
+export const cErrorConsoleLogTableMessage01 = cERROR_Colon + wrd.ccolumn + wrd.cNames + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cstrings + bas.cDot;
 // ERROR: tableData is not an array of objects.
-export const cErrorConsoleLogTableMessage02 = cERROR_Colon + wrd.ctable + bas.cSpace + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cobjects + bas.cDot;
+export const cErrorConsoleLogTableMessage02 = cERROR_Colon + wrd.ctable + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cobjects + bas.cDot;
 // ERROR: classPath is an invalid value.
-export const cErrorConsoleLogTableMessage03 = cERROR_Colon + wrd.cclass + bas.cSpace + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
+export const cErrorConsoleLogTableMessage03 = cERROR_Colon + wrd.cclass + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
 
 
 // Coded System Messages
