@@ -38,6 +38,9 @@ export const messageConstantsVaidation = [
   {Name: 'creturnDataIs', Actual: msg.creturnDataIs, Expected: 'returnData is: '},
   {Name: 'creturnDataTempIs', Actual: msg.creturnDataTempIs, Expected: 'returnDataTemp is: '},
 
+  // Commonly used phrases
+  {Name: 'cisAnInvalidValue', Actual: msg.cisAnInvalidValue, Expected: 'is an invalid value'},
+
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
   {Name: 'cWARNING_Colon', Actual: msg.cWARNING_Colon, Expected: 'WARNING: '},
@@ -1212,6 +1215,10 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorConsoleLogTableMessage01', Actual: msg.cErrorConsoleLogTableMessage01, Expected: 'ERROR: columnNames is not an array of strings.'},
   {Name: 'cErrorConsoleLogTableMessage02', Actual: msg.cErrorConsoleLogTableMessage02, Expected: 'ERROR: tableData is not an array of objects.'},
   {Name: 'cErrorConsoleLogTableMessage03', Actual: msg.cErrorConsoleLogTableMessage03, Expected: 'ERROR: classPath is an invalid value.'},
+  {Name: 'cErrorAddPluginsCommandsMessage01', Actual: msg.cErrorAddPluginsCommandsMessage01, Expected: 'ERROR: pluginCommands is an invalid value. pluginCommands is: '},
+  {Name: 'cErrorAddPluginsCommandsMessage02', Actual: msg.cErrorAddPluginsCommandsMessage02, Expected: 'ERROR: pluginName is an invalid value. pluginName is: '},
+  {Name: 'cErrorAddPluginCommandAliasesMessage02', Actual: msg.cErrorAddPluginCommandAliasesMessage02, Expected: 'ERROR: pluginCommandAliases is an invalid value. pluginCommandAliases is: '},
+  {Name: 'cErrorAddPluginCommandAliasesMessage03', Actual: msg.cErrorAddPluginCommandAliasesMessage03, Expected: 'ERROR: pluginName is an invalid value. pluginName is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

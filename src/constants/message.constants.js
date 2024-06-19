@@ -42,6 +42,9 @@ export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSp
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
 export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpaceIsColonSpace; // returnDataTemp is:
 
+// Commonly used phrases
+export const cisAnInvalidValue = wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue; // is an invalid value
+
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
 export const cWARNING_Colon = wrd.cWARNING + bas.cColon + bas.cSpace; // WARNING:
@@ -1257,9 +1260,9 @@ export const cpluginsRegistryPathMessageIs = wrd.cplugins + bas.cSpace + wrd.cre
 // ERROR: The specified plugin is already registered. Plugin name:
 export const cErrorRegisterPluginMessage02 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cis + bas.cSpace + wrd.calready + bas.cSpace + wrd.cregistered + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value:
-export const cErrorRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cErrorRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cColon + bas.cSpace;
 // ERROR: Plugin Path is an invalid value:
-export const cErrorRegisterPluginMessage04 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cErrorRegisterPluginMessage04 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cPath + bas.cSpace + cisAnInvalidValue + bas.cColon + bas.cSpace;
 // ERROR: A command is missing command aliases definitions. Data:
 export const cErrorCountMatchingCommandAliasMessage01 = cERROR_Colon + bas.cA + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cis + bas.cSpace + wrd.cmissing + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cdefinitions + bas.cDot + bas.cSpace + wrd.cData + bas.cColon + bas.cSpace;
 // ERROR: There was an error attempting to load the specified plugin: 
@@ -1397,17 +1400,17 @@ export const cErrorRegisterPluginMessage06 = cERROR_Colon + wrd.cThere + bas.cSp
 // ERROR: Plugin Name does not exist. Plugin Name:
 export const cErrorUnRegisterPluginMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value: 
-export const cErrorUnRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cErrorUnRegisterPluginMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cColon + bas.cSpace;
 // ERROR: No file specified, cannot delete nothing.
 export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cspecified + bas.cComa + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cnothing + bas.cDot;
 // ERROR: There was an error attempting to delete the file:
 export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 // ERROR: Plugin List Array is an invalid value: 
-export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + cisAnInvalidValue + bas.cColon + bas.cSpace;
 // ERROR: pluginRegistry is an invalid value: 
-export const cErrorSavePluginRegistryMessage02 = cERROR_Colon + wrd.cplugin + wrd.cRegistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cErrorSavePluginRegistryMessage02 = cERROR_Colon + wrd.cplugin + wrd.cRegistry + bas.cSpace + cisAnInvalidValue + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value, pluginName is: 
-export const cErrorUnloadPluginMessage09 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
+export const cErrorUnloadPluginMessage09 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: Plugin Name was not found in plugins loaded, pluginName is: 
 export const cErrorUnloadPluginMessage10 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cloaded + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: prefixPluginPath is an undefined string.
@@ -1421,11 +1424,11 @@ export const cErrorStoreDataMessage01 = cERROR_Colon + wrd.cGiven + bas.cSpace +
 // ERROR: Data to store is undefined.
 export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
 // ERROR: Data name is an invalid value. Data name is: 
-export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
+export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Incorrect input for command: 
 export const cErrorEnqueueCommandMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.ccommand + bas.cColon + bas.cSpace;
 // ERROR: pluginResourcePath is an invalid value, pluginResourcePath is: 
-export const cErrorLoadPluginResourceDataMessage01 = cERROR_Colon + wrd.cplugin + wrd.cResource + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cResource + wrd.cPath + sys.cSpaceIsColonSpace; 
+export const cErrorLoadPluginResourceDataMessage01 = cERROR_Colon + wrd.cplugin + wrd.cResource + wrd.cPath + bas.cSpace + cisAnInvalidValue + bas.cComa + bas.cSpace + wrd.cplugin + wrd.cResource + wrd.cPath + sys.cSpaceIsColonSpace; 
 // ERROR: Incorrect type of input for configuration value: 
 export const cErrorConfigurationSettingMessage01 = cERROR_Colon + wrd.cIncorrect + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cof + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cconfiguration + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace; 
 // ERROR: Incorrect type of input for configuration name: 
@@ -1485,8 +1488,15 @@ export const cErrorConsoleLogTableMessage01 = cERROR_Colon + wrd.ccolumn + wrd.c
 // ERROR: tableData is not an array of objects.
 export const cErrorConsoleLogTableMessage02 = cERROR_Colon + wrd.ctable + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cSpace + wrd.cof + bas.cSpace + wrd.cobjects + bas.cDot;
 // ERROR: classPath is an invalid value.
-export const cErrorConsoleLogTableMessage03 = cERROR_Colon + wrd.cclass + wrd.cPath + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
-
+export const cErrorConsoleLogTableMessage03 = cERROR_Colon + wrd.cclass + wrd.cPath + bas.cSpace + cisAnInvalidValue + bas.cDot;
+// ERROR: pluginCommands is an invalid value. pluginCommands is: 
+export const cErrorAddPluginsCommandsMessage01 = cERROR_Colon + wrd.cplugin + wrd.cCommands + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cCommands + sys.cSpaceIsColonSpace;
+// ERROR: pluginName is an invalid value. pluginName is: 
+export const cErrorAddPluginsCommandsMessage02 = cERROR_Colon + wrd.cplugin + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: pluginCommandAliases is an invalid value. pluginCommandAliases is: 
+export const cErrorAddPluginCommandAliasesMessage02 = cERROR_Colon + wrd.cplugin + wrd.cCommand + wrd.cAliases + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace;
+// ERROR: pluginName is an invalid value. pluginName is: 
+export const cErrorAddPluginCommandAliasesMessage03 = cERROR_Colon + wrd.cplugin + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
 
 // Coded System Messages
 // EXAMPLE:
