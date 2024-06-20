@@ -1219,6 +1219,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginsCommandsMessage02', Actual: msg.cErrorAddPluginsCommandsMessage02, Expected: 'ERROR: pluginName is an invalid value. pluginName is: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage02', Actual: msg.cErrorAddPluginCommandAliasesMessage02, Expected: 'ERROR: pluginCommandAliases is an invalid value. pluginCommandAliases is: '},
   {Name: 'cErrorAddPluginCommandAliasesMessage03', Actual: msg.cErrorAddPluginCommandAliasesMessage03, Expected: 'ERROR: pluginName is an invalid value. pluginName is: '},
+  {Name: 'cErrorCountMatchingCommandAliasMessage02', Actual: msg.cErrorCountMatchingCommandAliasMessage02, Expected: 'ERROR: commandAliasData is an invalid value.'},
+  {Name: 'cErrorCountMatchingCommandAliasMessage03', Actual: msg.cErrorCountMatchingCommandAliasMessage03, Expected: 'ERROR: commandAliasName is an invalid value.'},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

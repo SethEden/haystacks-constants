@@ -1497,6 +1497,10 @@ export const cErrorAddPluginsCommandsMessage02 = cERROR_Colon + wrd.cplugin + wr
 export const cErrorAddPluginCommandAliasesMessage02 = cERROR_Colon + wrd.cplugin + wrd.cCommand + wrd.cAliases + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cCommand + wrd.cAliases + sys.cSpaceIsColonSpace;
 // ERROR: pluginName is an invalid value. pluginName is: 
 export const cErrorAddPluginCommandAliasesMessage03 = cERROR_Colon + wrd.cplugin + wrd.cName + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: commandAliasData is an invalid value.
+export const cErrorCountMatchingCommandAliasMessage02 = cERROR_Colon + wrd.ccommand + wrd.cAlias + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
+// ERROR: commandAliasName is an invalid value.
+export const cErrorCountMatchingCommandAliasMessage03 = cERROR_Colon + wrd.ccommand + wrd.cAlias + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
 
 // Coded System Messages
 // EXAMPLE:
