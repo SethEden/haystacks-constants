@@ -1501,6 +1501,12 @@ export const cErrorAddPluginCommandAliasesMessage03 = cERROR_Colon + wrd.cplugin
 export const cErrorCountMatchingCommandAliasMessage02 = cERROR_Colon + wrd.ccommand + wrd.cAlias + wrd.cData + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
 // ERROR: commandAliasName is an invalid value.
 export const cErrorCountMatchingCommandAliasMessage03 = cERROR_Colon + wrd.ccommand + wrd.cAlias + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
+// ERROR: Unable to verify that the plugin was loaded. Plugin: 
+export const cErrorRemovePluginCommandAliasesMessage03 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cverify + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cDot + bas.cSpace + wrd.cPlugin + wrd.cColon + bas.cSpace; 
+// ERROR: Invalid input plugin name is: 
+export const cErrorRemovePluginCommandAliasesMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
+// ERROR: Initialization of constants validation data was unsuccesseful.
+export const cErrorInitializeConstantsValidationDataMessage01 = cERROR_Colon + wrd.cInitialization + bas.cSpace + wrd.cof + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + wrd.cwas + wrd.cunsuccesseful + wrd.cDot;
 
 // Coded System Messages
 // EXAMPLE:
