@@ -596,6 +596,7 @@ export const cmetaDataOutputIs = wrd.cmetaData + wrd.cOutput + sys.cSpaceIsColon
 export const callCommandAliasesDataIs = wrd.call + wrd.cCommand + wrd.cAliases + wrd.cData + sys.cSpaceIsColonSpace; // allCommandAliasesData is:
 export const cresolvedFrameworkConstantsPathActualIs = wrd.cresolved + wrd.cFramework + wrd.cConstants + wrd.cPath + wrd.cActual + sys.cSpaceIsColonSpace; // resolvedFrameworkConstantsPathActual is:
 export const cresolvedClientConstantsPathActualIs = wrd.cresolved + wrd.cClient + wrd.cConstants + wrd.cPath + wrd.cActual + sys.cSpaceIsColonSpace; // resolvedClientConstantsPathActual is:
+export const cconstantsValidationDataIs = wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // constantsValidationData is:
 export const cframeworkConstantsValidationDataIs = wrd.cframework + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // frameworkConstantsValidationData is:
 export const capplicationConstantsValidationDataIs = wrd.capplication + wrd.cConstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace; // applicationConstantsValidationData is:
 export const cActualColonDoublePercent = bas.cDoubleQuote + wrd.cActual + bas.cDoubleQuote + bas.cColon + bas.cSpace + bas.cDoubleQuote + bas.cDoublePercent + bas.cDoubleQuote + bas.cComa; // "Actual": "%%",
@@ -1507,6 +1508,12 @@ export const cErrorRemovePluginCommandAliasesMessage03 = cERROR_Colon + wrd.cUna
 export const cErrorRemovePluginCommandAliasesMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Initialization of constants validation data was unsuccesseful.
 export const cErrorInitializeConstantsValidationDataMessage01 = cERROR_Colon + wrd.cInitialization + bas.cSpace + wrd.cof + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + wrd.cwas + wrd.cunsuccesseful + wrd.cDot;
+// WARNING: Context name is invalid for addConstantsValidationData.
+export const cWarningAddConstantsValidationDataMessage02 = cWARNING_Colon + wrd.cContext + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cfor + bas.cSpace + sys.caddConstantsValidationData + bas.cDot;
+// ERROR: Invalid input, contextName is: 
+export const cErrorAddConstantsValidationDataMessage03 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, constantsValidationData is: 
+export const cErrorAddConstantsValidationDataMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace;
 
 // Coded System Messages
 // EXAMPLE:

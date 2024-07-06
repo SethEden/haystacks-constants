@@ -590,6 +590,7 @@ export const messageConstantsVaidation = [
   {Name: 'callCommandAliasesDataIs', Actual: msg.callCommandAliasesDataIs, Expected: 'allCommandAliasesData is: '},
   {Name: 'cresolvedFrameworkConstantsPathActualIs', Actual: msg.cresolvedFrameworkConstantsPathActualIs, Expected: 'resolvedFrameworkConstantsPathActual is: '},
   {Name: 'cresolvedClientConstantsPathActualIs', Actual: msg.cresolvedClientConstantsPathActualIs, Expected: 'resolvedClientConstantsPathActual is: '},
+  {Name: 'cconstantsValidationDataIs', Actual: msg.cconstantsValidationDataIs, Expected: 'constantsValidationData is: '},
   {Name: 'cframeworkConstantsValidationDataIs', Actual: msg.cframeworkConstantsValidationDataIs, Expected: 'frameworkConstantsValidationData is: '},
   {Name: 'capplicationConstantsValidationDataIs', Actual: msg.capplicationConstantsValidationDataIs, Expected: 'applicationConstantsValidationData is: '},
   {Name: 'cActualColonDoublePercent', Actual: msg.cActualColonDoublePercent, Expected: '"Actual": "%%",'},
@@ -1224,6 +1225,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorRemovePluginCommandAliasesMessage03', Actual: msg.cErrorRemovePluginCommandAliasesMessage03, Expected: 'ERROR: Unable to verify that the plugin was loaded. Plugin: '},
   {Name: 'cErrorRemovePluginCommandAliasesMessage04', Actual: msg.cErrorRemovePluginCommandAliasesMessage04, Expected: 'ERROR: Invalid input plugin name is: '},
   {Name: 'cErrorInitializeConstantsValidationDataMessage01', Actual: msg.cErrorInitializeConstantsValidationDataMessage01, Expected: 'ERROR: Initialization of constants validation data was unsuccesseful.'},
+  {Name: 'cWarningAddConstantsValidationDataMessage02', Actual: msg.cWarningAddConstantsValidationDataMessage02, Expected: 'WARNING: Context name is invalid for addConstantsValidationData.'},
+  {Name: 'cErrorAddConstantsValidationDataMessage03', Actual: msg.cErrorAddConstantsValidationDataMessage03, Expected: 'ERROR: Invalid input, contextName is: '},
+  {Name: 'cErrorAddConstantsValidationDataMessage04', Actual: msg.cErrorAddConstantsValidationDataMessage04, Expected: 'ERROR: Invalid input, constantsValidationData is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
