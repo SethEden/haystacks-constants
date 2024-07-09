@@ -13,6 +13,7 @@
  */
 
 // Internal imports
+import { wordConstantsValidation } from '../constantsValidation/word.constants.validation.js';
 import * as bas from './basic.constants.js';
 import * as gen from './generic.constants.js';
 import * as num from './numeric.constants.js';
@@ -5175,6 +5176,16 @@ export const ccolumn = bas.cco + bas.clu + bas.cmn; // ccolumn
 export const ccolumns = ccolumn + bas.cs; // ccolumns
 export const cColumn = bas.cCo + bas.clu + bas.cmn; // cColumn
 export const cColumns = cColumn + bas.cs // cColumns
+export const cfake = bas.cf + phn.cake; // fake
+export const cFake = bas.cF + phn.cake; // Fake
+export const cfakes = cfake + bas.cs; // fakes
+export const cFakes = cFake + bas.cs; // Fakes
+export const cfaked = cfake + bas.cd; // faked
+export const cFaked = cFake + bas.cd; // Faked
+export const cfaker = cfake + bas.cr; // faker
+export const cFaker = cFake + bas.cr; // Faker
+export const cfaking = bas.cfa + bas.ck + phn.cing; // faking
+export const cFaking = bas.cFa + bas.ck + phn.cing; // Faking
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

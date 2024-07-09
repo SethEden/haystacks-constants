@@ -1224,10 +1224,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorCountMatchingCommandAliasMessage03', Actual: msg.cErrorCountMatchingCommandAliasMessage03, Expected: 'ERROR: commandAliasName is an invalid value.'},
   {Name: 'cErrorRemovePluginCommandAliasesMessage03', Actual: msg.cErrorRemovePluginCommandAliasesMessage03, Expected: 'ERROR: Unable to verify that the plugin was loaded. Plugin: '},
   {Name: 'cErrorRemovePluginCommandAliasesMessage04', Actual: msg.cErrorRemovePluginCommandAliasesMessage04, Expected: 'ERROR: Invalid input plugin name is: '},
-  {Name: 'cErrorInitializeConstantsValidationDataMessage01', Actual: msg.cErrorInitializeConstantsValidationDataMessage01, Expected: 'ERROR: Initialization of constants validation data was unsuccesseful.'},
+  {Name: 'cErrorInitializeConstantsValidationDataMessage01', Actual: msg.cErrorInitializeConstantsValidationDataMessage01, Expected: 'ERROR: Initialization of constants validation data was unsuccessful.'},
   {Name: 'cWarningAddConstantsValidationDataMessage02', Actual: msg.cWarningAddConstantsValidationDataMessage02, Expected: 'WARNING: Context name is invalid for addConstantsValidationData.'},
   {Name: 'cErrorAddConstantsValidationDataMessage03', Actual: msg.cErrorAddConstantsValidationDataMessage03, Expected: 'ERROR: Invalid input, contextName is: '},
   {Name: 'cErrorAddConstantsValidationDataMessage04', Actual: msg.cErrorAddConstantsValidationDataMessage04, Expected: 'ERROR: Invalid input, constantsValidationData is: '},
+  {Name: 'cErrorAddPluginConfigurationDataMessage02', Actual: msg.cErrorAddPluginConfigurationDataMessage02, Expected: 'ERROR: Invalid input, pluginConfigData is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

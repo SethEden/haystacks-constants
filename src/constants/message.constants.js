@@ -1503,17 +1503,19 @@ export const cErrorCountMatchingCommandAliasMessage02 = cERROR_Colon + wrd.ccomm
 // ERROR: commandAliasName is an invalid value.
 export const cErrorCountMatchingCommandAliasMessage03 = cERROR_Colon + wrd.ccommand + wrd.cAlias + wrd.cName + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot;
 // ERROR: Unable to verify that the plugin was loaded. Plugin: 
-export const cErrorRemovePluginCommandAliasesMessage03 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cverify + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cDot + bas.cSpace + wrd.cPlugin + wrd.cColon + bas.cSpace; 
+export const cErrorRemovePluginCommandAliasesMessage03 = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cverify + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cColon + bas.cSpace; 
 // ERROR: Invalid input plugin name is: 
 export const cErrorRemovePluginCommandAliasesMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Initialization of constants validation data was unsuccesseful.
-export const cErrorInitializeConstantsValidationDataMessage01 = cERROR_Colon + wrd.cInitialization + bas.cSpace + wrd.cof + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + wrd.cwas + wrd.cunsuccesseful + wrd.cDot;
+export const cErrorInitializeConstantsValidationDataMessage01 = cERROR_Colon + wrd.cInitialization + bas.cSpace + wrd.cof + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cunsuccessful + bas.cDot;
 // WARNING: Context name is invalid for addConstantsValidationData.
-export const cWarningAddConstantsValidationDataMessage02 = cWARNING_Colon + wrd.cContext + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cfor + bas.cSpace + sys.caddConstantsValidationData + bas.cDot;
+export const cWarningAddConstantsValidationDataMessage02 = cWARNING_Colon + wrd.cContext + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cfor + bas.cSpace + wrd.c_add + sys.cConstantsValidationData + bas.cDot;
 // ERROR: Invalid input, contextName is: 
 export const cErrorAddConstantsValidationDataMessage03 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, constantsValidationData is: 
 export const cErrorAddConstantsValidationDataMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, pluginConfigData is: 
+export const cErrorAddPluginConfigurationDataMessage02 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + cpluginConfigDataIs;
 
 // Coded System Messages
 // EXAMPLE:
