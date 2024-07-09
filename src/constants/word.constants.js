@@ -13,7 +13,6 @@
  */
 
 // Internal imports
-import { wordConstantsValidation } from '../constantsValidation/word.constants.validation.js';
 import * as bas from './basic.constants.js';
 import * as gen from './generic.constants.js';
 import * as num from './numeric.constants.js';

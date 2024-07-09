@@ -1516,6 +1516,10 @@ export const cErrorAddConstantsValidationDataMessage03 = cERROR_Colon + wrd.cInv
 export const cErrorAddConstantsValidationDataMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, pluginConfigData is: 
 export const cErrorAddPluginConfigurationDataMessage02 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + cpluginConfigDataIs;
+// WARNING: Invalid input, appConfigFilesToLoad is: 
+export const cWarningFindUniversalDebugConfigSettingMessage01 = cWARNING_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.capp + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
+// WARNING: Invalid input, frameworkConfigFilesToLoad is: 
+export const cWarningFindUniversalDebugConfigSettingMessage02 = cWARNING_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cframework + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
 
 // Coded System Messages
 // EXAMPLE:

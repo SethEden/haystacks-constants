@@ -1229,6 +1229,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddConstantsValidationDataMessage03', Actual: msg.cErrorAddConstantsValidationDataMessage03, Expected: 'ERROR: Invalid input, contextName is: '},
   {Name: 'cErrorAddConstantsValidationDataMessage04', Actual: msg.cErrorAddConstantsValidationDataMessage04, Expected: 'ERROR: Invalid input, constantsValidationData is: '},
   {Name: 'cErrorAddPluginConfigurationDataMessage02', Actual: msg.cErrorAddPluginConfigurationDataMessage02, Expected: 'ERROR: Invalid input, pluginConfigData is: '},
+  {Name: 'cWarningFindUniversalDebugConfigSettingMessage01', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage01, Expected: 'WARNING: Invalid input, appConfigFilesToLoad is: '},
+  {Name: 'cWarningFindUniversalDebugConfigSettingMessage02', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage02, Expected: 'WARNING: Invalid input, frameworkConfigFilesToLoad is:'},
+
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
