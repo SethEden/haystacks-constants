@@ -44,6 +44,7 @@ export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpac
 
 // Commonly used phrases
 export const cisAnInvalidValue = wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue; // is an invalid value
+export const cInvalidInputComaSpace = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace; // Invalid input, 
 
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
@@ -1140,7 +1141,7 @@ export const cloadPluginResourceDataMessage01 = cERROR_Colon + wrd.cInvalid + ba
 // ERROR: Invalid data input, unable to integrate all plugin data.
 export const cErrorIntegrateAllPluginsDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cunable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cintegrate + bas.cSpace + wrd.call + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cDot;
 // ERROR: Invalid input, either the plugin name or plugin data was undefined. Please provide valid data and try again.
-export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + bas.cun + bas.cde + bas.cfi + bas.cne + bas.cd + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
+export const cErrorIntegratePluginDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.ceither + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + bas.cun + bas.cde + bas.cfi + bas.cne + bas.cd + bas.cDot + bas.cSpace + wrd.cPlease + bas.cSpace + wrd.cprovide + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot;
 // ERROR: No plugin business rules data was loaded for the plugin:
 export const cErrorIntegratePluginDataMessage02 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cloaded + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cColon + bas.cSpace;
 // ERROR: No plugin commands data was loaded for the plugin:
@@ -1511,15 +1512,19 @@ export const cErrorInitializeConstantsValidationDataMessage01 = cERROR_Colon + w
 // WARNING: Context name is invalid for addConstantsValidationData.
 export const cWarningAddConstantsValidationDataMessage02 = cWARNING_Colon + wrd.cContext + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cfor + bas.cSpace + wrd.c_add + sys.cConstantsValidationData + bas.cDot;
 // ERROR: Invalid input, contextName is: 
-export const cErrorAddConstantsValidationDataMessage03 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
+export const cErrorAddConstantsValidationDataMessage03 = cERROR_Colon + cInvalidInputComaSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, constantsValidationData is: 
-export const cErrorAddConstantsValidationDataMessage04 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace;
+export const cErrorAddConstantsValidationDataMessage04 = cERROR_Colon + cInvalidInputComaSpace + wrd.cconstants + wrd.cValidation + wrd.cData + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, pluginConfigData is: 
-export const cErrorAddPluginConfigurationDataMessage02 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + cpluginConfigDataIs;
+export const cErrorAddPluginConfigurationDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginConfigDataIs;
 // WARNING: Invalid input, appConfigFilesToLoad is: 
-export const cWarningFindUniversalDebugConfigSettingMessage01 = cWARNING_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.capp + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
-// WARNING: Invalid input, frameworkConfigFilesToLoad is: 
-export const cWarningFindUniversalDebugConfigSettingMessage02 = cWARNING_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace + wrd.cframework + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
+export const cWarningFindUniversalDebugConfigSettingMessage01 = cWARNING_Colon + cInvalidInputComaSpace + wrd.capp + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
+// WARNING: Invalid input, frameworkConfigFilesToLoad are: 
+export const cWarningFindUniversalDebugConfigSettingMessage02 = cWARNING_Colon + cInvalidInputComaSpace + wrd.cframework + wrd.cConfig + wrd.cFiles + wrd.cTo + wrd.cLoad + sys.cSpaceAreColonSpace;
+// ERROR: Invalid input, contextName is: 
+export const cErrorLoadAllCsvDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, filesToLoad is: 
+export const cErrorLoadAllCsvDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + wrd.cfiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
 
 // Coded System Messages
 // EXAMPLE:

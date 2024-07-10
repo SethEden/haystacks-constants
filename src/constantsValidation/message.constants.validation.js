@@ -40,6 +40,7 @@ export const messageConstantsVaidation = [
 
   // Commonly used phrases
   {Name: 'cisAnInvalidValue', Actual: msg.cisAnInvalidValue, Expected: 'is an invalid value'},
+  {Name: 'cInvalidInputComaSpace', Actual: msg.cInvalidInputComaSpace, Expected: 'Invalid input, '},
 
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
@@ -1230,7 +1231,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddConstantsValidationDataMessage04', Actual: msg.cErrorAddConstantsValidationDataMessage04, Expected: 'ERROR: Invalid input, constantsValidationData is: '},
   {Name: 'cErrorAddPluginConfigurationDataMessage02', Actual: msg.cErrorAddPluginConfigurationDataMessage02, Expected: 'ERROR: Invalid input, pluginConfigData is: '},
   {Name: 'cWarningFindUniversalDebugConfigSettingMessage01', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage01, Expected: 'WARNING: Invalid input, appConfigFilesToLoad is: '},
-  {Name: 'cWarningFindUniversalDebugConfigSettingMessage02', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage02, Expected: 'WARNING: Invalid input, frameworkConfigFilesToLoad is:'},
+  {Name: 'cWarningFindUniversalDebugConfigSettingMessage02', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage02, Expected: 'WARNING: Invalid input, frameworkConfigFilesToLoad are: '},
+  {Name: 'cErrorLoadAllCsvDataMessage01', Actual: msg.cErrorLoadAllCsvDataMessage01, Expected: 'ERROR: Invalid input, contextName is: '},
+  {Name: 'cErrorLoadAllCsvDataMessage02', Actual: msg.cErrorLoadAllCsvDataMessage02, Expected: 'ERROR: Invalid input, filesToLoad is: '},
+
+
 
 
 // EXAMPLE:
