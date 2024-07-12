@@ -1525,6 +1525,11 @@ export const cWarningFindUniversalDebugConfigSettingMessage02 = cWARNING_Colon +
 export const cErrorLoadAllCsvDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.ccontext + wrd.cName + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, filesToLoad is: 
 export const cErrorLoadAllCsvDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + wrd.cfiles + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, data is: 
+export const cErrorProcessCsvDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cdata + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, fileToLoad is:
+export const cErrorPreprocessJsonFileMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cfile + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
+
 
 // Coded System Messages
 // EXAMPLE:

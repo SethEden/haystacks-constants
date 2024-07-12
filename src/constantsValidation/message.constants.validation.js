@@ -1234,8 +1234,8 @@ export const messageConstantsVaidation = [
   {Name: 'cWarningFindUniversalDebugConfigSettingMessage02', Actual: msg.cWarningFindUniversalDebugConfigSettingMessage02, Expected: 'WARNING: Invalid input, frameworkConfigFilesToLoad are: '},
   {Name: 'cErrorLoadAllCsvDataMessage01', Actual: msg.cErrorLoadAllCsvDataMessage01, Expected: 'ERROR: Invalid input, contextName is: '},
   {Name: 'cErrorLoadAllCsvDataMessage02', Actual: msg.cErrorLoadAllCsvDataMessage02, Expected: 'ERROR: Invalid input, filesToLoad is: '},
-
-
+  {Name: 'cErrorProcessCsvDataMessage01', Actual: msg.cErrorProcessCsvDataMessage01, Expected: 'ERROR: Invalid input, data is: '},
+  {Name: 'cErrorPreprocessJsonFileMessage01', Actual: msg.cErrorPreprocessJsonFileMessage01, Expected: 'ERROR: Invalid input, fileToLoad is:'},
 
 
 // EXAMPLE:
