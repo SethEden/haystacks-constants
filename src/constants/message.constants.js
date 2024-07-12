@@ -1529,7 +1529,12 @@ export const cErrorLoadAllCsvDataMessage02 = cERROR_Colon + cInvalidInputComaSpa
 export const cErrorProcessCsvDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cdata + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, fileToLoad is:
 export const cErrorPreprocessJsonFileMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cfile + wrd.cTo + wrd.cLoad + sys.cSpaceIsColonSpace;
-
+// WARNING: You are writing JSON data to a file that is not a JSON file.
+export const cWarningWriteJsonDataMessage01 = cWARNING_Colon + wrd.cYou + bas.cSpace + wrd.care + bas.cSpace + wrd.cwriting + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cto + bas.cSpace + bas.ca + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + bas.ca + bas.cSpace + gen.cJSON + bas.cSpace + wrd.cfile + bas.cDot;
+// ERROR: Invalid input, inputMetaData is:
+export const cErrorInvalidInputMetaDataMessage = cERROR_Colon + cInvalidInputComaSpace + cinputMetaDataIs;
+// ERROR: Invalid input, inputData is:
+export const cErrorInvalidInputDataMessage = cERROR_Colon + cInvalidInputComaSpace + cinputDataIs;
 
 // Coded System Messages
 // EXAMPLE:

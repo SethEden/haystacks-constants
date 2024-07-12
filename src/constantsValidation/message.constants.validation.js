@@ -1236,7 +1236,9 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadAllCsvDataMessage02', Actual: msg.cErrorLoadAllCsvDataMessage02, Expected: 'ERROR: Invalid input, filesToLoad is: '},
   {Name: 'cErrorProcessCsvDataMessage01', Actual: msg.cErrorProcessCsvDataMessage01, Expected: 'ERROR: Invalid input, data is: '},
   {Name: 'cErrorPreprocessJsonFileMessage01', Actual: msg.cErrorPreprocessJsonFileMessage01, Expected: 'ERROR: Invalid input, fileToLoad is:'},
-
+  {Name: 'cWarningWriteJsonDataMessage01',Actual: msg.cWarningWriteJsonDataMessage01, Expected: 'WARNING: You are writing JSON data to a file that is not a JSON file.'},
+  {Name: 'cErrorInvalidInputMetaDataMessage',Actual: msg.cErrorInvalidInputMetaDataMessage, Expected: 'ERROR: Invalid input, inputMetaData is:'},
+  {Name: 'cErrorInvalidInputDataMessage',Actual: msg.cErrorInvalidInputDataMessage, Expected: 'ERROR: Invalid input, inputData is:'},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
