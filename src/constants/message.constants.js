@@ -1423,8 +1423,8 @@ export const cErrorLoadAllJsonDataMessage01 = cERROR_Colon + wrd.cInvalid + bas.
 export const cErrorLoadAllJsonDataMessage02 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cdata + wrd.cPath + bas.cColon + bas.cSpace;
 // ERROR: Given data name already exists. Data context name is: 
 export const cErrorStoreDataMessage01 = cERROR_Colon + wrd.cGiven + bas.cSpace + wrd.cdata + bas.cSpace + wrd.cname + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.calready + bas.cSpace + wrd.cexists + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.ccontext + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
-// ERROR: Data to store is undefined.
-export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
+// ERROR: Data to store is an invalid value. Data name is: 
+export const cErrorStoreDataMessage02 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Data name is an invalid value. Data name is: 
 export const cErrorStoreDataMessage03 = cERROR_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
 // ERROR: Incorrect input for command: 
@@ -1535,6 +1535,22 @@ export const cWarningWriteJsonDataMessage01 = cWARNING_Colon + wrd.cYou + bas.cS
 export const cErrorInvalidInputMetaDataMessage = cERROR_Colon + cInvalidInputComaSpace + cinputMetaDataIs;
 // ERROR: Invalid input, inputData is:
 export const cErrorInvalidInputDataMessage = cERROR_Colon + cInvalidInputComaSpace + cinputDataIs;
+// WARNING: Data name provided was not found. Data name is: 
+export const cWarningClearDataMessage01 = cWARNING_Colon + wrd.cData + bas.cSpace + wrd.cname + bas.cSpace + wrd.cprovided + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cDot + bas.cSpace + wrd.cData + bas.cSpace + wrd.cname + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, pluginRegistryPath is: 
+export const cErrorLoadPluginRegistryMessage01 = cERROR_Colon + cInvalidInputComaSpace + cpluginRegistryPathIs;
+// ERROR: Invalid input, pluginRegistryData is: 
+export const cErrorStorePluginRegistryInDataStructrureMessage01 = cERROR_Colon + cInvalidInputComaSpace + cpluginRegistryDataIs;
+// ERROR: Invalid input, attributeName is: 
+export const cErrorListPluginsAttributeInRegistryMessage01 = cERROR_Colon + cInvalidInputComaSpace + cattributeNameIs;
+// ERROR: Invalid value, pluginRegistryList is: 
+export const cErrorListPluginsAttributeInRegistryMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginRegistryListIs;
+// ERROR: Plugin registry is undefined.
+export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined;
+
+
+
+
 
 // Coded System Messages
 // EXAMPLE:

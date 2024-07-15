@@ -1183,7 +1183,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadAllJsonDataMessage01', Actual: msg.cErrorLoadAllJsonDataMessage01, Expected: 'ERROR: Invalid input for contextName: '},
   {Name: 'cErrorLoadAllJsonDataMessage02', Actual: msg.cErrorLoadAllJsonDataMessage02, Expected: 'ERROR: Invalid input for dataPath: '},
   {Name: 'cErrorStoreDataMessage01', Actual: msg.cErrorStoreDataMessage01, Expected: 'ERROR: Given data name to store already exists. Data context name is: '},
-  {Name: 'cErrorStoreDataMessage02', Actual: msg.cErrorStoreDataMessage02, Expected: 'ERROR: Data to store is undefined.'},
+  {Name: 'cErrorStoreDataMessage02', Actual: msg.cErrorStoreDataMessage02, Expected: 'ERROR: Data to store is an invalid value. Data name is: '},
   {Name: 'cErrorStoreDataMessage03', Actual: msg.cErrorStoreDataMessage03, Expected: 'ERROR: Data name is an invalid value. Data name is: '},
   {Name: 'cErrorEnqueueCommandMessage01', Actual: msg.cErrorEnqueueCommandMessage01, Expected: 'ERROR: Incorrect input for command: '},
   {Name: 'cErrorLoadPluginResourceDataMessage01', Actual: msg.cErrorLoadPluginResourceDataMessage01, Expected: 'ERROR: pluginResourcePath is an invalid value, pluginResourcePath is: '},
@@ -1235,10 +1235,17 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadAllCsvDataMessage01', Actual: msg.cErrorLoadAllCsvDataMessage01, Expected: 'ERROR: Invalid input, contextName is: '},
   {Name: 'cErrorLoadAllCsvDataMessage02', Actual: msg.cErrorLoadAllCsvDataMessage02, Expected: 'ERROR: Invalid input, filesToLoad is: '},
   {Name: 'cErrorProcessCsvDataMessage01', Actual: msg.cErrorProcessCsvDataMessage01, Expected: 'ERROR: Invalid input, data is: '},
-  {Name: 'cErrorPreprocessJsonFileMessage01', Actual: msg.cErrorPreprocessJsonFileMessage01, Expected: 'ERROR: Invalid input, fileToLoad is:'},
+  {Name: 'cErrorPreprocessJsonFileMessage01', Actual: msg.cErrorPreprocessJsonFileMessage01, Expected: 'ERROR: Invalid input, fileToLoad is: '},
   {Name: 'cWarningWriteJsonDataMessage01',Actual: msg.cWarningWriteJsonDataMessage01, Expected: 'WARNING: You are writing JSON data to a file that is not a JSON file.'},
-  {Name: 'cErrorInvalidInputMetaDataMessage',Actual: msg.cErrorInvalidInputMetaDataMessage, Expected: 'ERROR: Invalid input, inputMetaData is:'},
-  {Name: 'cErrorInvalidInputDataMessage',Actual: msg.cErrorInvalidInputDataMessage, Expected: 'ERROR: Invalid input, inputData is:'},
+  {Name: 'cErrorInvalidInputMetaDataMessage',Actual: msg.cErrorInvalidInputMetaDataMessage, Expected: 'ERROR: Invalid input, inputMetaData is: '},
+  {Name: 'cErrorInvalidInputDataMessage',Actual: msg.cErrorInvalidInputDataMessage, Expected: 'ERROR: Invalid input, inputData is: '}, 
+  {Name: 'cWarningClearDataMessage01', Actual: msg.cWarningClearDataMessage01, Expected: 'WARNING: Data name provided was not found. Data name is: '},
+  {Name: 'cErrorLoadPluginRegistryMessage01', Actual: msg.cErrorLoadPluginRegistryMessage01, Expected: 'ERROR: Invalid input, pluginRegistryPath is: '},
+  {Name: 'cErrorStorePluginRegistryInDataStructrureMessage01', Actual: msg.cErrorStorePluginRegistryInDataStructrureMessage01, Expected: 'ERROR: Invalid input, pluginRegistryData is: '},
+  {Name: 'cErrorListPluginsAttributeInRegistryMessage01', Actual: msg.cErrorListPluginsAttributeInRegistryMessage01, Expected: 'ERROR: Invalid input, attributeName is: '},
+  {Name: 'cErrorListPluginsAttributeInRegistryMessage02', Actual: msg.cErrorListPluginsAttributeInRegistryMessage02, Expected: 'ERROR: Invalid value, pluginRegistryList is: '},
+  {Name: 'cErrorListPluginsAttributeInRegistryMessage03', Actual: msg.cErrorListPluginsAttributeInRegistryMessage03, Expected: 'ERROR: Plugin registry is undefined.'},
+
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
