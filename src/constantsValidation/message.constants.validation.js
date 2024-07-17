@@ -41,6 +41,7 @@ export const messageConstantsVaidation = [
   // Commonly used phrases
   {Name: 'cisAnInvalidValue', Actual: msg.cisAnInvalidValue, Expected: 'is an invalid value'},
   {Name: 'cInvalidInputComaSpace', Actual: msg.cInvalidInputComaSpace, Expected: 'Invalid input, '},
+  {Name: 'cInvalidValueComaSpace', Actual: msg.cInvalidValueComaSpace, Expected: 'Invalid value, '},
 
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
@@ -1169,8 +1170,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorLoadCommandAliasesMessage02', Actual: msg.cErrorLoadCommandAliasesMessage02, Expected: 'ERROR: contextName was not properly defined.'},
   {Name: 'cErrorListAllLoadedPluginsMessage02', Actual: msg.cErrorListAllLoadedPluginsMessage02, Expected: 'ERROR: Plugin list does not exist or is not an array.'},
   {Name: 'cErrorAttributeNameMessage01', Actual: msg.cErrorAttributeNameMessage01, Expected: 'ERROR: attributeName was not properly defined.'},
-  {Name: 'cErrorRegisterPluginMessage05', Actual: msg.cErrorRegisterPluginMessage05, Expected: 'ERROR: The plugin does not exist in the plugin path. Plugin name: '},
-  {Name: 'cErrorRegisterPluginMessage06', Actual: msg.cErrorRegisterPluginMessage06, Expected: 'ERROR: There are no plugins in the plugin path. Plugin path: '},
+  {Name: 'cWarningRegisterPluginMessage05', Actual: msg.cWarningRegisterPluginMessage05, Expected: 'WARNING: The plugin does not exist in the plugin path. Plugin name: '},
+  {Name: 'cWarningRegisterPluginMessage06', Actual: msg.cWarningRegisterPluginMessage06, Expected: 'WARNING: There is no path to plugins inside the plugin registry.'},
   {Name: 'cErrorUnRegisterPluginMessage02', Actual: msg.cErrorUnRegisterPluginMessage02, Expected: 'ERROR: Plugin Name does not exist. Plugin Name: '},
   {Name: 'cErrorUnRegisterPluginMessage03', Actual: msg.cErrorUnRegisterPluginMessage03, Expected: 'ERROR: Plugin Name is an invalid value: '},
   {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},

@@ -45,6 +45,7 @@ export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpac
 // Commonly used phrases
 export const cisAnInvalidValue = wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue; // is an invalid value
 export const cInvalidInputComaSpace = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace; // Invalid input, 
+export const cInvalidValueComaSpace = wrd.cInvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace; // Invalid value, 
 
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:
@@ -1395,10 +1396,10 @@ export const cErrorLoadCommandAliasesMessage02 = cERROR_Colon + wrd.ccontext + w
 export const cErrorListAllLoadedPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.clist + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.can + bas.cSpace + wrd.carray + bas.cDot;
 // ERROR: attributeName was not properly defined.
 export const cErrorAttributeNameMessage01 = cERROR_Colon + wrd.cattribute + wrd.cName + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cproperly + bas.cSpace + wrd.cdefined + bas.cDot;
-// ERROR: The plugin does not exist in the plugin path. Plugin name:
-export const cErrorRegisterPluginMessage05 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
-// ERROR: There are no plugins in the plugin path. Plugin path:
-export const cErrorRegisterPluginMessage06 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.care + bas.cSpace + wrd.cno + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace;
+// WARNING: The plugin does not exist in the plugin path. Plugin name:
+export const cWarningRegisterPluginMessage05 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cpath + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace;
+// WARNING: There is no path to plugins inside the plugin registry.
+export const cWarningRegisterPluginMessage06 = cWARNING_Colon + wrd.cThere + bas.cSpace + wrd.cis + bas.cSpace + wrd.cno + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cto + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cinside + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cregistry + bas.cDot;
 // ERROR: Plugin Name does not exist. Plugin Name:
 export const cErrorUnRegisterPluginMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cName + bas.cColon + bas.cSpace;
 // ERROR: Plugin Name is an invalid value: 
@@ -1544,9 +1545,9 @@ export const cErrorStorePluginRegistryInDataStructrureMessage01 = cERROR_Colon +
 // ERROR: Invalid input, attributeName is: 
 export const cErrorListPluginsAttributeInRegistryMessage01 = cERROR_Colon + cInvalidInputComaSpace + cattributeNameIs;
 // ERROR: Invalid value, pluginRegistryList is: 
-export const cErrorListPluginsAttributeInRegistryMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginRegistryListIs;
+export const cErrorListPluginsAttributeInRegistryMessage02 = cERROR_Colon + cInvalidValueComaSpace + cpluginRegistryListIs;
 // ERROR: Plugin registry is undefined.
-export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined;
+export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
 
 
 
