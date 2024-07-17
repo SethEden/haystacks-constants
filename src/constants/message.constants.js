@@ -1548,6 +1548,8 @@ export const cErrorListPluginsAttributeInRegistryMessage01 = cERROR_Colon + cInv
 export const cErrorListPluginsAttributeInRegistryMessage02 = cERROR_Colon + cInvalidValueComaSpace + cpluginRegistryListIs;
 // ERROR: Plugin registry is undefined.
 export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cregistry + bas.cSpace + wrd.cis + bas.cSpace + wrd.cundefined + bas.cDot;
+// ERROR: Invalid input, pluginPath is: 
+export const cErrorLoadPluginMetaDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginPathIs;
 
 
 

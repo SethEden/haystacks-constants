@@ -1246,7 +1246,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorListPluginsAttributeInRegistryMessage01', Actual: msg.cErrorListPluginsAttributeInRegistryMessage01, Expected: 'ERROR: Invalid input, attributeName is: '},
   {Name: 'cErrorListPluginsAttributeInRegistryMessage02', Actual: msg.cErrorListPluginsAttributeInRegistryMessage02, Expected: 'ERROR: Invalid value, pluginRegistryList is: '},
   {Name: 'cErrorListPluginsAttributeInRegistryMessage03', Actual: msg.cErrorListPluginsAttributeInRegistryMessage03, Expected: 'ERROR: Plugin registry is undefined.'},
-
+  {Name: 'cErrorLoadPluginMetaDataMessage02', Actual: msg.cErrorLoadPluginMetaDataMessage02, Expected: 'ERROR: Invalid input, pluginPath is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
