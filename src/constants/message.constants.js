@@ -1552,9 +1552,12 @@ export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.
 export const cErrorLoadPluginMetaDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginPathIs;
 // ERROR: Invalid input, pluginMetaData is: 
 export const cErrorExtractAndProcessPluginEntryPointURIMessage01 = cERROR_Colon + cInvalidInputComaSpace + cpluginMetaDataIs;
-
-
-
+// ERROR: Invalid value, pluginRules is: 
+export const cErrorAddPluginRulesMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginRulesIs;
+// ERROR: Invalid value, pluginName is: 
+export const cErrorAddPluginRulesMessage03 = cERROR_Colon + cInvalidInputComaSpace + cpluginNameIs;
+// ERROR: pluginWorkflows is an invalid value. pluginWorkflows is: 
+export const cErrorAddPluginWorkflowsMessage02 = cERROR_Colon + wrd.cplugin + wrd.cWorkflows + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace;
 
 
 // Coded System Messages
