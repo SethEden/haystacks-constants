@@ -1251,7 +1251,7 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage02, Expected: 'ERROR: Invalid value, pluginRules is: '},
   {Name: 'cErrorAddPluginRulesMessage01', Actual: msg.cErrorAddPluginRulesMessage03, Expected: 'ERROR: Invalid value, pluginName is: '},
   {Name: 'cErrorAddPluginWorkflowsMessage02', Actual: msg.cErrorAddPluginWorkflowsMessage02, Expected: 'ERROR: pluginWorkflows is an invalid value. pluginWorkflows is: '},
-
+  {Name: 'cErrorAddThemeDataMessage02', Actual: msg.cErrorAddThemeDataMessage02, Expected: 'ERROR: Invalid input, themeData is:  '},
 
 
 

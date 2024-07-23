@@ -1558,6 +1558,10 @@ export const cErrorAddPluginRulesMessage02 = cERROR_Colon + cInvalidInputComaSpa
 export const cErrorAddPluginRulesMessage03 = cERROR_Colon + cInvalidInputComaSpace + cpluginNameIs;
 // ERROR: pluginWorkflows is an invalid value. pluginWorkflows is: 
 export const cErrorAddPluginWorkflowsMessage02 = cERROR_Colon + wrd.cplugin + wrd.cWorkflows + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, themeData is:  
+export const cErrorAddThemeDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cthemeDataIs;
+
+
 
 
 // Coded System Messages
