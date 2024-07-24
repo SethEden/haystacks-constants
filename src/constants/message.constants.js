@@ -1567,8 +1567,14 @@ export const cErrorAddThemeDataMessage02 = cERROR_Colon + cInvalidInputComaSpace
 export const cErrorAddClientRulesMessage01 = cERROR_Colon + cInvalidInputComaSpace + cclientRulesAre;
 // ERROR: Invalid inputs for processRules, inputs are: 
 export const cErrorProcessRulesMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinputs + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprocess + wrd.cRules + bas.cComa + bas.cSpace + cinputsAre;
+// ERROR: Invalid input, themesRootPath is: 
+export const cErrorGenerateThemeDataFromPathMessage01 = cERROR_Colon + cInvalidInputComaSpace + cthemesRootPathIs;
 
 
+// Template for invalid input message
+// testMessageHereHERE
+// export const cError testNameHereHERE Message01 = cERROR_Colon + cInvalidInputComaSpace + cpluginRegistryDataIs;
+//   {Name: 'cError testNameHereHERE Message01', Actual: msg.cError testNameHereHERE Message01, Expected: 'testMessageHereHERE'},
 
 // Coded System Messages
 // EXAMPLE:

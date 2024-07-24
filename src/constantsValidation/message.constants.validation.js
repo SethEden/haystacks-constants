@@ -1257,6 +1257,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorAddThemeDataMessage02', Actual: msg.cErrorAddThemeDataMessage02, Expected: 'ERROR: Invalid input, themeData is: '},
   {Name: 'cErrorAddClientRulesMessage01', Actual: msg.cErrorAddClientRulesMessage01, Expected: 'ERROR: Invalid input, clientRules are: '},
   {Name: 'cErrorProcessRulesMessage01', Actual: msg.cErrorProcessRulesMessage01, Expected: 'ERROR: Invalid inputs for processRules, inputs are: '},
+  {Name: 'cErrorGenerateThemeDataFromPathMessage01', Actual: msg.cErrorGenerateThemeDataFromPathMessage01, Expected: 'ERROR: Invalid input, themesRootPath is: '},
+
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
