@@ -169,7 +169,7 @@ export const ccommandWordAliasesBeforeChangeIs = wrd.ccommand + wrd.cWord + wrd.
 export const ccommandWordAliasesAfterChangeIs = wrd.ccommand + wrd.cWord + wrd.cAliases + wrd.cArray + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cCHANGE + sys.cSpaceIsColonSpace; // commandWordAliasesArray AFTER CHANGE is:
 export const cmasterCommandWordAlisesArrayIs = wrd.cmaster + wrd.cCommand + wrd.cWord + wrd.cAliases + wrd.cArray + sys.cSpaceIsColonSpace; // masterCommandWordAliasesArray is:
 export const cmasterArrayIndexIs = wrd.cmaster + wrd.cArray + wrd.cIndex + sys.cSpaceIsColonSpace; // masterArrayIndex is:
-export const cCommandAliasesAre = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // Command Aliases are:
+export const cCommandAliasesAre = wrd.cCommand + bas.cSpace + wrd.cAliases + sys.cSpaceAreColonSpace; // Command Aliases are:
 export const cexpandedArrayIs = wrd.cexpanded + wrd.cArray + sys.cSpaceIsColonSpace; // expandedArray is:
 export const cexpandedLehmerCodeArrayIs = wrd.cexpanded + sys.cLehmerCodeArray + sys.cSpaceIsColonSpace; // expandedLehmerCodeArray is:
 export const cindexOfExpansionIs = wrd.cindex + bas.cOf + wrd.cExpansion + sys.cSpaceIsColonSpace; // indexOfExpansion is:
@@ -225,8 +225,8 @@ export const cmetaDataParametersIs = wrd.cmetaData + wrd.cParameters + sys.cSpac
 export const cmetaDataParametersLengthIs = wrd.cmetaData + wrd.cParameters + bas.cSpace + wrd.clength + sys.cSpaceIsColonSpace; // metaDataParameters length is:
 export const cmetaDataPathAndFilenameIs = wrd.cmetaData + wrd.cPath + wrd.cAnd + wrd.cFilename + sys.cSpaceIsColonSpace; // metaDataPathAndFilename is:
 export const cpathAndFilenameIs = wrd.cpath + wrd.cAnd + wrd.cFilename + sys.cSpaceIsColonSpace; // pathAndFilename is:
-export const ccontentsAre = wrd.ccontents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // contents are:
-export const ccontentsOfDare = wrd.ccontents + bas.cSpace + bas.cof + bas.cSpace + bas.cD + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // contents of D are:
+export const ccontentsAre = wrd.ccontents + sys.cSpaceAreColonSpace; // contents are:
+export const ccontentsOfDare = wrd.ccontents + bas.cSpace + bas.cof + bas.cSpace + bas.cD + sys.cSpaceAreColonSpace; // contents of D are:
 export const cBEGIN_theIthIterationOfInputDataArray = wrd.cBEGIN + bas.cSpace + wrd.cthe + bas.cSpace + bas.ci + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cSpace + bas.cof + bas.cSpace + wrd.cthe + bas.cSpace + cinputData + bas.cSpace + wrd.carray + bas.cDot + bas.cSpace + bas.ci + sys.cSpaceIsColonSpace; // Begin the i-th iteration of the inputData array. i is:
 export const ccurrentRuleIs = wrd.ccurrent + wrd.cRule + sys.cSpaceIsColonSpace; // currentRule is:
 export const crulesIs = wrd.crules + sys.cSpaceIsColonSpace; // rules is:
@@ -408,11 +408,11 @@ export const cdeltaTimeResultIs = wrd.cdelta + wrd.cTime + wrd.cResult + sys.cSp
 export const cclientConfigurationIs = wrd.cclient + wrd.cConfiguration + sys.cSpaceIsColonSpace; // clientConfiguration is:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 export const cloadedAndMergedDataAllFilesIs = wrd.cloaded + wrd.cAnd + wrd.cMerged + wrd.cData + wrd.cAll + wrd.cFiles + sys.cSpaceIsColonSpace; // loadedAndMergedDataAllFiles is:
-export const cloadedAndMergedDataAllFilesContentsAre = wrd.cloaded + wrd.cAnd + wrd.cMerged + wrd.cData + wrd.cAll + wrd.cFiles + bas.cSpace + wrd.ccontents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // loadedAndMergedDataAllFiles contents are:
+export const cloadedAndMergedDataAllFilesContentsAre = wrd.cloaded + wrd.cAnd + wrd.cMerged + wrd.cData + wrd.cAll + wrd.cFiles + bas.cSpace + wrd.ccontents + sys.cSpaceAreColonSpace; // loadedAndMergedDataAllFiles contents are:
 export const ccommandWorkflowFilePathConfigurationNameIs = wrd.ccommand + wrd.cWorkflow + wrd.cFile + wrd.cPath + wrd.cConfiguration + wrd.cName + sys.cSpaceIsColonSpace; // commandWorkflowFilePathConfigurationName is:
 export const ccontentsOfDataStructreIs = wrd.ccontents + bas.cSpace + bas.cof + bas.cSpace + bas.cD + bas.cDash + wrd.cdata + bas.cSpace + wrd.cstructure + sys.cSpaceIsColonSpace; // contents of D-data structure is:
-export const cclientBusinessRulesAre = wrd.cclient + wrd.cBusiness + wrd.cRules + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // clientBusinessRules are:
-export const cclientCommandsAre = wrd.cclient + wrd.cCommands + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // clientCommands are:
+export const cclientBusinessRulesAre = wrd.cclient + wrd.cBusiness + wrd.cRules + sys.cSpaceAreColonSpace; // clientBusinessRules are:
+export const cclientCommandsAre = wrd.cclient + wrd.cCommands + sys.cSpaceAreColonSpace; // clientCommands are:
 export const ccommandAliasesPathConfigNameIs = wrd.ccommand + wrd.cAliases + wrd.cPath + wrd.cConfig + wrd.cName + sys.cSpaceIsColonSpace; // commandAliasesPathConfigName is:
 export const cresolvedSystemCommandsAliasesPathIs = wrd.cresolved + wrd.cSystem + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedSystemCommandsAliasesPath is:
 export const cresolvedClientCommandsAliasesPathIs = wrd.cresolved + wrd.cClient + wrd.cCommands + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedClientCommandsAliasesPath is:
@@ -424,6 +424,8 @@ export const cresolvedClientWorkflowsPathIs = wrd.cresolved + wrd.cClient + wrd.
 export const cresolvedCustomWorkflowsPathIs = wrd.cresolved + wrd.cCustom + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedCustomWorkflowsPath is:
 export const cbusinessRulesIs = wrd.cbusiness + wrd.cRules + sys.cSpaceIsColonSpace; // businessRules is:
 export const crulesToExecuteIs = wrd.crules + wrd.cTo + wrd.cExecute + sys.cSpaceIsColonSpace; // rulesToExecute is:
+export const crulesToExecuteAre = wrd.crules + wrd.cTo + wrd.cExecute + sys.cSpaceAreColonSpace; // rulesToExecute are:
+export const cinputsAre = wrd.cinputs + sys.cSpaceAreColonSpace; // inputs are:
 export const cruleInputIs = wrd.crule + wrd.cInput + sys.cSpaceIsColonSpace; // ruleInput is:
 export const cruleMetaDataIs = wrd.crule + wrd.cMetaData + sys.cSpaceIsColonSpace; // ruleMetaData is:
 export const cconfigurationNamespaceIs = wrd.cconfiguration + wrd.cName + wrd.cspace + sys.cSpaceIsColonSpace; // configurationNamespace is:
@@ -442,8 +444,8 @@ export const cloadedFileDataIs = wrd.cloaded + bas.cSpace + wrd.cfile + bas.cSpa
 export const cBEGIN_PROCESSING_ADDITIONAL_DATA = wrd.cBEGIN + bas.cSpace + wrd.cPROCESSING + bas.cSpace + wrd.cADDITIONAL + bas.cSpace + wrd.cDATA; // BEGIN PROCESSING ADDITIONAL DATA
 export const cDONE_PROCESSING_ADDITIONAL_DATA = wrd.cDONE + bas.cSpace + wrd.cPROCESSING + bas.cSpace + wrd.cADDITIONAL + bas.cSpace + wrd.cDATA; // DONE PROCESSING ADDITIONAL DATA
 export const cMERGED_dataIs = wrd.cMERGED + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // MERGED data is:
-export const cfileContentsAre = wrd.cfile + wrd.cContents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // fileContents are:
-export const cparsedDataFileContentsAre = wrd.cparsed + wrd.cData + wrd.cFile + bas.cSpace + wrd.ccontents + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // parsedDataFile contents are:
+export const cfileContentsAre = wrd.cfile + wrd.cContents + sys.cSpaceAreColonSpace; // fileContents are:
+export const cparsedDataFileContentsAre = wrd.cparsed + wrd.cData + wrd.cFile + bas.cSpace + wrd.ccontents + sys.cSpaceAreColonSpace; // parsedDataFile contents are:
 export const cdataCategoryIs = wrd.cdata + wrd.cCategory + sys.cSpaceIsColonSpace; // dataCategory is:
 export const cfullyParsedDataIs = wrd.cfully + bas.cSpace + wrd.cparsed + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // fully parsed data is:
 export const cD_finalMergeIs = bas.cD + bas.cSpace + wrd.cfinal + bas.cSpace + wrd.cmerge + sys.cSpaceIsColonSpace; // D final merge is:
@@ -462,7 +464,7 @@ export const cCheckIfTheDataCategoryIsAnEmptyStringOrNot = wrd.cCheck + bas.cSpa
 export const cdataCategoryIsNotAnEmptyString = wrd.cdata + wrd.cCategory + bas.cSpace + bas.cis + bas.cSpace + gen.cnot + bas.cSpace + bas.can + bas.cSpace + wrd.cempty + bas.cSpace + wrd.cstring + bas.cExclamation; // dataCategory is not an empty string!
 export const cdataCategoryIsAnEmptyString = wrd.cdata + wrd.cCategory + bas.cSpace + bas.cIS + bas.cSpace + bas.can + bas.cSpace + wrd.cempty + bas.cSpace + wrd.cstring + bas.cExclamation; // dataCategory IS an empty string!
 export const ctargetDataContentIs = wrd.ctarget + wrd.cData + bas.cSpace + wrd.ccontent + sys.cSpaceIsColonSpace; // targetData content is:
-export const cafterAttemptToMergeResultsAre = wrd.cafter + bas.cSpace + wrd.cattempt + bas.cSpace + bas.cto + bas.cSpace + wrd.cmerge + bas.cComa + bas.cSpace + wrd.cresults + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // after attempt to merge, results are:
+export const cafterAttemptToMergeResultsAre = wrd.cafter + bas.cSpace + wrd.cattempt + bas.cSpace + bas.cto + bas.cSpace + wrd.cmerge + bas.cComa + bas.cSpace + wrd.cresults + sys.cSpaceAreColonSpace; // after attempt to merge, results are:
 export const cMergedDataIs = wrd.cMerged + bas.cSpace + wrd.cdata + sys.cSpaceIsColonSpace; // Merged data is:
 export const cpageNameIsAnEmptyString = wrd.cpage + wrd.cName + bas.cSpace + bas.cis + bas.cSpace + bas.can + bas.cSpace + wrd.cempty + bas.cSpace + wrd.cstring; // pageName is an empty string
 export const cCaughtTheSpecialCaseThatWeAreMergingFlatList = wrd.cCaught + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecial + bas.cSpace + wrd.ccase + bas.cSpace + wrd.cthat + bas.cSpace + bas.cwe + bas.cSpace + wrd.care + bas.cSpace + wrd.cmerging + bas.cSpace + bas.ca + bas.cSpace + wrd.cflat + bas.cSpace + wrd.clist + bas.cDot; // Caught the special case that we are merging a flat list.
@@ -480,7 +482,7 @@ export const cfileAndPathToWriteDataToIs = wrd.cfile + bas.cSpace + wrd.cand + b
 export const cdataToWriteIs = wrd.cdata + bas.cSpace + bas.cto + bas.cSpace + wrd.cwrite + sys.cSpaceIsColonSpace; // data to write is:
 export const cDataWasWrittenToTheFile = wrd.cData + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cwritten + bas.cSpace + bas.cto + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace; // Data was written to the file:
 export const cPathThatShouldBeScannedIs = wrd.cPath + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cshould + bas.cSpace + bas.cbe + bas.cSpace + wrd.cscanned + sys.cSpaceIsColonSpace; // Path that should be scanned is:
-export const cfilesFoundAre = wrd.cfiles + bas.cSpace + wrd.cfound + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // files found are:
+export const cfilesFoundAre = wrd.cfiles + bas.cSpace + wrd.cfound + sys.cSpaceAreColonSpace; // files found are:
 export const cdirectorIs = wrd.cdirectory + sys.cSpaceIsColonSpace; // directory is:
 export const cdirectoryPathIs = wrd.cdirectory + wrd.cPath + sys.cSpaceIsColonSpace; // directoryPath is:
 export const csourceFolderIs = wrd.csource + wrd.cFolder + sys.cSpaceIsColonSpace; // sourceFolder is:
@@ -521,7 +523,7 @@ export const cBracketsAreFound = wrd.cBrackets + bas.cSpace + wrd.cARE + bas.cSp
 export const cNoSecondaryCommandArgumentDelimiters = bas.cNO + bas.cSpace + wrd.csecondary + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cargument + bas.cSpace + wrd.cdelimiters + bas.cDot; // NO secondary command argument delimiters.
 export const cregularExpressionIs = wrd.cregular + bas.cSpace + wrd.cexpression + sys.cSpaceIsColonSpace; // regular expression is:
 export const cregExValueIs = gen.cregEx + wrd.cValue + sys.cSpaceIsColonSpace; // regExValue is:
-export const cregularExpressionFlagsAre = wrd.cregular + bas.cSpace + wrd.cexpression + bas.cSpace + wrd.cflags + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // regular expression flags are:
+export const cregularExpressionFlagsAre = wrd.cregular + bas.cSpace + wrd.cexpression + bas.cSpace + wrd.cflags + sys.cSpaceAreColonSpace; // regular expression flags are:
 export const cregExFlagsIs = gen.cregEx + wrd.cFlags + sys.cSpaceIsColonSpace; // regExFlags is:
 export const cargumentValueContainsTheDelimiterLetsSplitIt = wrd.cargument + wrd.cValue + bas.cSpace + wrd.ccontains + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cdelimiter + bas.cComa + bas.cSpace + wrd.clets + bas.cSpace + wrd.csplit + bas.cSpace + bas.cit + bas.cExclamation; // argumentValue contains the delimiter, lets split it!
 export const cargumentValueAfterAttemptingToRemoveOpenBracketFromAllArrayElementsIs = wrd.cargument + wrd.cValue + bas.cSpace + wrd.cafter + bas.cSpace + wrd.cattempting + bas.cSpace + bas.cto + bas.cSpace + wrd.cremove + bas.cSpace + bas.ca + bas.cSpace + wrd.copen + bas.cSpace + wrd.cbracket + bas.cSpace + wrd.cfrom + bas.cSpace + wrd.call + bas.cSpace + wrd.carray + bas.cSpace + wrd.celements + sys.cSpaceIsColonSpace; // argumentValue after attempting to remove a open bracket from all array elements is:
@@ -610,7 +612,7 @@ export const cnewValueIs = wrd.cnew + wrd.cValue + sys.cSpaceIsColonSpace; // ne
 export const cparentDataObjectBeforeMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cBEFORE + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject BEFORE mutation is:
 export const cparentDataObjectAfterMutationIs = wrd.cparent + wrd.cData + wrd.cObject + bas.cSpace + wrd.cAFTER + bas.cSpace + wrd.cmutation + sys.cSpaceIsColonSpace; // parentDataObject AFTER mutation is:
 export const callPluginsDataIs = wrd.call + wrd.cPlugins + wrd.cData + sys.cSpaceIsColonSpace; // allPluginsData is:
-export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // pluginPaths are:
+export const cpluginsPathsAre = wrd.cplugin + wrd.cPaths + sys.cSpaceAreColonSpace; // pluginPaths are:
 export const cpluginNameIs = wrd.cplugin + wrd.cName + sys.cSpaceIsColonSpace; // pluginName is:
 export const cpluginDataIs = wrd.cplugin + wrd.cData + sys.cSpaceIsColonSpace; // pluginData is:
 export const cpluginNamesIs = wrd.cplugin + wrd.cNames + sys.cSpaceIsColonSpace; // pluginNames is:
@@ -719,6 +721,7 @@ export const cOpeningColon = wrd.cOpening + bas.cColon + bas.cSpace; // Opening:
 export const cExitingChildProcess = wrd.cExiting + bas.cSpace + wrd.cchild + bas.cSpace + wrd.cprocess; // Exiting child process
 export const cErrorOnShell = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cshell + bas.cColon + bas.cSpace; // Error on shell:
 export const coptionsAre = wrd.coptions + sys.cSpaceAreColonSpace; // options are:
+export const cclientRulesAre = wrd.cclient + wrd.cRules + sys.cSpaceAreColonSpace; // clientRules are:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
 export const callWorkflowDataIs = wrd.call + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // allWorkflowData is:
@@ -923,7 +926,7 @@ export const cSearchForPatternsInStringArrayMessage7 = wrd.cWARNING + bas.cColon
 // WARNING: No data to load, please specify a valid path & filename!
 export const cLoadDataFileMessage1 = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + wrd.cdata + bas.cSpace + bas.cto + bas.cSpace + wrd.cload + bas.cComa + bas.cSpace; // WARNING: No data to load,
 export const cloadDataFileMessage2 = wrd.cplease + bas.cSpace + wrd.cspecify + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cpath + bas.cSpace + bas.cAndPersand + bas.cSpace + wrd.cfilename + bas.cExclamation; // please specify a valid path & filename!
-export const cloadDataFileMessage3 = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cInvalid + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cformat + bas.cComa + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cformats + bas.cSpace + wrd.csupported + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // WARNING: Invalid file format, file formats supported are:
+export const cloadDataFileMessage3 = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cInvalid + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cformat + bas.cComa + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cformats + bas.cSpace + wrd.csupported + sys.cSpaceAreColonSpace; // WARNING: Invalid file format, file formats supported are:
 // WARNING: No data to save, please specify a valid path & filename!
 export const csaveDataFileMessage1 = wrd.cWARNING + bas.cColon + bas.cSpace + bas.cNo + bas.cSpace + wrd.cdata + bas.cSpace + bas.cto + bas.cSpace + wrd.csave + bas.cComa + bas.cSpace; // WARNING: No data to save,
 export const ccommandSequencerMessage1 = wrd.cWARNING + bas.cColon + bas.cSpace + wrd.cadvanced + bas.cDot + wrd.ccommand + wrd.cSequencer + bas.cColon + bas.cSpace + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.cwas + bas.cSpace + gen.cnot + bas.cSpace + wrd.cfound + bas.cComa + bas.cSpace; // WARNING: advanced.commandSequencer: The specified command was not found,
@@ -1343,21 +1346,21 @@ export const cshiftData2 = wrd.cshift + bas.cSpace + wrd.cthe + bas.cSpace + wrd
 // WARNING: The specified validation type is not available, please enter a valid type and try again. Type not recognized: 
 export const cWarningUserEnteredConstantsValidationDataTypeMessage01 = cWARNING_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cavailable + bas.cComa + bas.cSpace + wrd.cplease + bas.cSpace + wrd.center + bas.cSpace + bas.ca + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ctype + bas.cSpace + wrd.cand + bas.cSpace + wrd.ctry + bas.cSpace + wrd.cagain + bas.cDot + bas.cSpace + wrd.cType + bas.cSpace + wrd.cnot + bas.cSpace + wrd.crecognized + bas.cColon + bas.cSpace;
 // Constants validation types are:
-export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredConstantsValidationDataTypeMessage02 = wrd.cConstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + sys.cSpaceAreColonSpace;
 // WARNING: No valid constants validation types were entered.
 export const cWarningUserEnteredConstantsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Command Aliases validation types are:
-export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage02 = wrd.cCommand + bas.cSpace + wrd.cAliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + sys.cSpaceAreColonSpace;
 // WARNING: No valid command aliases validation types were entered.
 export const cWarningUserEnteredCommandAliasesValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.ccommand + bas.cSpace + wrd.caliases + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Workflows validation types are:
-export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredWorkflowsValidationDataTypeMessage02 = wrd.cWorkflows + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + sys.cSpaceAreColonSpace;
 // WARNING: No valid workflow validation types were entered.
 export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cworkflow + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // ERROR: The specified path does not exist or cannot be found:
 export const cErrorGetDirectoryListMessage01 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cfound + bas.cColon + bas.cSpace;
 // Validation types are:
-export const cWarningUserEnteredValidationDateTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredValidationDateTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + sys.cSpaceAreColonSpace;
 // WARNING: No valid validation types were entered.
 export const cWarningUserEnteredValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Begin command aliases validation
@@ -1552,15 +1555,18 @@ export const cErrorListPluginsAttributeInRegistryMessage03 = cERROR_Colon + wrd.
 export const cErrorLoadPluginMetaDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginPathIs;
 // ERROR: Invalid input, pluginMetaData is: 
 export const cErrorExtractAndProcessPluginEntryPointURIMessage01 = cERROR_Colon + cInvalidInputComaSpace + cpluginMetaDataIs;
-// ERROR: Invalid value, pluginRules is: 
+// ERROR: Invalid input, pluginRules is: 
 export const cErrorAddPluginRulesMessage02 = cERROR_Colon + cInvalidInputComaSpace + cpluginRulesIs;
-// ERROR: Invalid value, pluginName is: 
+// ERROR: Invalid input, pluginName is: 
 export const cErrorAddPluginRulesMessage03 = cERROR_Colon + cInvalidInputComaSpace + cpluginNameIs;
 // ERROR: pluginWorkflows is an invalid value. pluginWorkflows is: 
 export const cErrorAddPluginWorkflowsMessage02 = cERROR_Colon + wrd.cplugin + wrd.cWorkflows + bas.cSpace + cisAnInvalidValue + bas.cDot + bas.cSpace + wrd.cplugin + wrd.cWorkflows + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, themeData is:  
 export const cErrorAddThemeDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + cthemeDataIs;
-
+// ERROR: Invalid input, clientRules are: 
+export const cErrorAddClientRulesMessage01 = cERROR_Colon + cInvalidInputComaSpace + cclientRulesAre;
+// ERROR: Invalid inputs for processRules, inputs are: 
+export const cErrorProcessRulesMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinputs + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprocess + wrd.cRules + bas.cComa + bas.cSpace + cinputsAre;
 
 
 
