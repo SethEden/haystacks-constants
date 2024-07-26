@@ -1569,6 +1569,9 @@ export const cErrorAddClientRulesMessage01 = cERROR_Colon + cInvalidInputComaSpa
 export const cErrorProcessRulesMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinputs + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cprocess + wrd.cRules + bas.cComa + bas.cSpace + cinputsAre;
 // ERROR: Invalid input, themesRootPath is: 
 export const cErrorGenerateThemeDataFromPathMessage01 = cERROR_Colon + cInvalidInputComaSpace + cthemesRootPathIs;
+// ERROR: Invalid input, themeName is: 
+export const cErrorGetNamedThemePathFromRotPathMessage01 = cERROR_Colon + cInvalidInputComaSpace + cthemeNameIs;
+
 
 
 // Template for invalid input message
