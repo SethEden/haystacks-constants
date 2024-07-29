@@ -1571,8 +1571,10 @@ export const cErrorProcessRulesMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSp
 export const cErrorGenerateThemeDataFromPathMessage01 = cERROR_Colon + cInvalidInputComaSpace + cthemesRootPathIs;
 // ERROR: Invalid input, themeName is: 
 export const cErrorGetNamedThemePathFromRotPathMessage01 = cERROR_Colon + cInvalidInputComaSpace + cthemeNameIs;
-
-
+// ERROR: workflowDataStructure is NaN or null.
+export const cErrorGetAllWorkflowsMessage01 = cERROR_Colon + wrd.cworkflow + wrd.cData + wrd.cStructure + bas.cSpace + wrd.cis + bas.cSpace + bas.cN + bas.caN + bas.cSpace + wrd.cor + bas.cSpace + bas.cnu + bas.cll + bas.cDot;
+// WARNING: Plugin that is not loaded. Plugin name is: 
+export const cWarningRemovePluginWorkflowsMessage01 = cWARNING_Colon + wrd.cPlugin + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cloaded + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cColon; 
 
 // Template for invalid input message
 // testMessageHereHERE

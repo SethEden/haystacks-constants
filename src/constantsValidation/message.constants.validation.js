@@ -1259,8 +1259,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorProcessRulesMessage01', Actual: msg.cErrorProcessRulesMessage01, Expected: 'ERROR: Invalid inputs for processRules, inputs are: '},
   {Name: 'cErrorGenerateThemeDataFromPathMessage01', Actual: msg.cErrorGenerateThemeDataFromPathMessage01, Expected: 'ERROR: Invalid input, themesRootPath is: '},
   {Name: 'cErrorGetNamedThemePathFromRotPathMessage01', Actual: msg.cErrorGetNamedThemePathFromRotPathMessage01, Expected: 'ERROR: Invalid input, themeName is: '},
-
-
+  {Name: 'cErrorGetAllWorkflowsMessage01', Actual: msg.cErrorGetAllWorkflowsMessage01, Expected: 'ERROR: workflowDataStructure is NaN or null.'},
+  {Name: 'cWarningRemovePluginWorkflowsMessage01', Actual: msg.cWarningRemovePluginWorkflowsMessage01, Expected: 'WARNING: Plugin that is not loaded. Plugin name is: '},
   
 
 // EXAMPLE:
