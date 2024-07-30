@@ -1261,7 +1261,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorGetNamedThemePathFromRotPathMessage01', Actual: msg.cErrorGetNamedThemePathFromRotPathMessage01, Expected: 'ERROR: Invalid input, themeName is: '},
   {Name: 'cErrorGetAllWorkflowsMessage01', Actual: msg.cErrorGetAllWorkflowsMessage01, Expected: 'ERROR: workflowDataStructure is NaN or null.'},
   {Name: 'cWarningRemovePluginWorkflowsMessage01', Actual: msg.cWarningRemovePluginWorkflowsMessage01, Expected: 'WARNING: Plugin that is not loaded. Plugin name is: '},
-  
+  {Name: 'cErrorGetNamedColorDataMessage01', Actual: msg.cErrorGetNamedColorDataMessage01, Expected: 'ERROR: Invalid input, defaultColorArray is: '},
+  {Name: 'cErrorGetNamedColorDataMessage02', Actual: msg.cErrorGetNamedColorDataMessage02, Expected: 'ERROR: Invalid input, colorName is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'

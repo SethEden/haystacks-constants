@@ -1575,6 +1575,13 @@ export const cErrorGetNamedThemePathFromRotPathMessage01 = cERROR_Colon + cInval
 export const cErrorGetAllWorkflowsMessage01 = cERROR_Colon + wrd.cworkflow + wrd.cData + wrd.cStructure + bas.cSpace + wrd.cis + bas.cSpace + bas.cN + bas.caN + bas.cSpace + wrd.cor + bas.cSpace + bas.cnu + bas.cll + bas.cDot;
 // WARNING: Plugin that is not loaded. Plugin name is: 
 export const cWarningRemovePluginWorkflowsMessage01 = cWARNING_Colon + wrd.cPlugin + bas.cSpace + wrd.cthat + bas.cSpace + wrd.cis + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cloaded + bas.cDot + bas.cSpace + wrd.cPlugin + bas.cSpace + wrd.cname + bas.cSpace + wrd.cis + bas.cColon; 
+// ERROR: Invalid input, defaultColorArray is: 
+export const cErrorGetNamedColorDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cdefault + wrd.cColor + wrd.cArray + sys.cSpaceIsColonSpace;
+// ERROR: Invalid input, colorName is: 
+export const cErrorGetNamedColorDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + wrd.ccolor + wrd.cName + sys.cSpaceIsColonSpace;
+
+
+
 
 // Template for invalid input message
 // testMessageHereHERE
