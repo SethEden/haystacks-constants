@@ -5175,6 +5175,12 @@ export const wordConstantsValidation = [
   {Name: 'cMighty', Actual: wrd.cMighty, Expected: 'Mighty'},
   {Name: 'cmightily', Actual: wrd.cmightily, Expected: 'mightily'},
   {Name: 'cMightily', Actual: wrd.cMightily, Expected: 'Mightily'},
+  {Name: 'ccurriculum', Actual: wrd.ccurriculum, Expected: 'curriculum'},
+  {Name: 'cCurriculum', Actual: wrd.cCurriculum, Expected: 'Curriculum'},
+  {Name: 'ccurricula', Actual: wrd.ccurricula, Expected: 'curricula'},
+  {Name: 'cCurricula', Actual: wrd.cCurricula, Expected: 'Curricula'},
+  {Name: 'ccurriculums', Actual: wrd.ccurriculums, Expected: 'curriculums'},
+  {Name: 'cCurriculums', Actual: wrd.cCurriculums, Expected: 'Curriculums'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

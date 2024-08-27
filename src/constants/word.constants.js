@@ -5178,6 +5178,12 @@ export const cmighty = cmight + bas.cy; // mighty
 export const cMighty = cMight + bas.cy; // Mighty
 export const cmightily = cmight + phn.cily; // mightily
 export const cMightily = cMight + phn.cily; // Mightily
+export const ccurriculum = phn.ccur + phn.cric + bas.cul + bas.cum; // curriculum
+export const cCurriculum = phn.cCur + phn.cric + bas.cul + bas.cum; // Curriculum
+export const ccurricula = phn.ccur + phn.cric + bas.cul + bas.ca; // curricula
+export const cCurricula = phn.cCur + phn.cric + bas.cul + bas.ca; // Curricula
+export const ccurriculums = ccurriculum + bas.cs; // curriculums
+export const cCurriculums = cCurriculum + bas.cs; // Curriculums
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
