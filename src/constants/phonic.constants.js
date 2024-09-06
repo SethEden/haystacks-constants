@@ -562,6 +562,9 @@ export const cFORE = bas.cFO + bas.cRE; // FORE
 export const cush = bas.cus + bas.ch; // ush
 export const cUSH = bas.cUS + bas.cH; // USH
 export const cvel = bas.cve + bas.cl; // vel
+export const cces = bas.cce + bas.cs; // ces
+export const cCes = bas.cCe + bas.cs; // Ces
+export const cCES = bas.cCE + bas.cS; // CES
 export const ccess = bas.cce + bas.css; // cess
 export const cCESS = bas.cCE + bas.cSS; // CESS
 export const cemp = bas.cem + bas.cp;// emp
@@ -1303,6 +1306,7 @@ export const cfid = bas.cfi + bas.cd; // fid
 export const cial = bas.cia + bas.cl; // ial
 export const cily = bas.cil + bas.cy; // ily
 export const cilly = cill + bas.cy; // illy
+export const cnue = bas.cnu + bas.ce; // nue
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
