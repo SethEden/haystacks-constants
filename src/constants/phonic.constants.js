@@ -1307,6 +1307,7 @@ export const cial = bas.cia + bas.cl; // ial
 export const cily = bas.cil + bas.cy; // ily
 export const cilly = cill + bas.cy; // illy
 export const cnue = bas.cnu + bas.ce; // nue
+export const cless = bas.cle + bas.css; // less
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
