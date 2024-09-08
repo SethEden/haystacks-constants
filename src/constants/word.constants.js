@@ -5274,6 +5274,12 @@ export const cstaging = bas.cst + bas.cag + phn.cing; // staging
 export const cStaging = bas.cSt + bas.cag + phn.cing; // Staging
 export const clast = bas.cl + phn.cast; // last
 export const cLast = bas.cL + phn.cast; // Last
+export const clasts = clast + bas.cs; // lasts
+export const cLasts = cLast + bas.cs; // Lasts
+export const clasted = clast + bas.ced; // lasted
+export const cLasted = cLast + bas.ced; // Lasted
+export const clasting = clast + phn.cing; // lasting
+export const cLasting = cLast + phn.cing; // Lasting
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
