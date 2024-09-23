@@ -1395,6 +1395,9 @@ export const cDecryptionSuccessful = wrd.cDecryption + wrd.csuccessful; // Decry
 export const cErrorEncryptionFailed = cERROR_Colon + wrd.cEncryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Encryption failed:
 export const cErrorDecryptionFailed = cERROR_Colon + wrd.cDecryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Decryption failed:
 export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstrings + bas.cDot; // ERROR: Invalid input strings.
+export const cObfuscationSuccessful = wrd.cObfuscation + wrd.csuccessful; // Obfuscation successful
+export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
+
 
 // Coded System Messages
 // EXAMPLE:

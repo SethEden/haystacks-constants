@@ -174,6 +174,7 @@ export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
 export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
 export const cencryptStringAes256 = wrd.cencrypt + wrd.cString + gen.cAes256; // encryptStringAes256
 export const cdecryptStringAes256 = wrd.cdecrypt + wrd.cString + gen.cAes256; // decryptStringAes256
+export const cobfuscateString = wrd.cobfuscate + wrd.cString; // obfuscateString
 
 // ***********************************************
 // FileStringParsing rules in order

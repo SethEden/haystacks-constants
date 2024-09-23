@@ -1308,6 +1308,8 @@ export const cily = bas.cil + bas.cy; // ily
 export const cilly = cill + bas.cy; // illy
 export const cnue = bas.cnu + bas.ce; // nue
 export const cless = bas.cle + bas.css; // less
+export const cfus = bas.cfu + bas.cs; // fus
+export const cFus = bas.cFu + bas.cs; // Fus
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

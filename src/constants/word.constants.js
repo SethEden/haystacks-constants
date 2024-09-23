@@ -5326,6 +5326,16 @@ export const cdecryption = cdecrypt + phn.cion; // decryption
 export const cDecryption = cDecrypt + phn.cion; // Decryption
 export const cdecryptions = cdecryption + bas.cs; // decryptions
 export const cDecryptions = cDecryption + bas.cs; // Decryptions
+export const cobfuscate = bas.cob + phn.cfus + phn.ccate; // obfuscate
+export const cObfuscate = bas.cOb + phn.cfus + phn.ccate; // Obfuscate
+export const cobfuscates = cobfuscate + bas.cs; // obfuscates
+export const cObfuscates = cObfuscate + bas.cs; // Obfuscates
+export const cobfuscated = cobfuscate + bas.cd; // obfuscates
+export const cObfuscated = cObfuscate + bas.cd; // Obfuscated
+export const cobfuscating = bas.cob + phn.cfus + phn.ccat + phn.cing; // obfuscating
+export const cObfuscating = bas.cOb + phn.cfus + phn.ccat + phn.cing; // Obfuscating
+export const cobfuscation = bas.cob + phn.cfus + phn.ccat + phn.cion; // obfuscation
+export const cObfuscation = bas.cOb + phn.cfus + phn.ccat + phn.cion; // Obfuscation
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

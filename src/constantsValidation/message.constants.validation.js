@@ -1168,6 +1168,8 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorEncryptionFailed', Actual: msg.cErrorEncryptionFailed, Expected: 'ERROR: Encryption failed: '},
   {Name: 'cErrorDecryptionFailed', Actual: msg.cErrorDecryptionFailed, Expected: 'ERROR: Decryption failed: '},
   {Name: 'cErrorInvalidInputStrings', Actual: msg.cErrorInvalidInputStrings, Expected: 'ERROR: Invalid input strings.'},
+  {Name: 'cObfuscationSuccessful', Actual: msg.cObfuscationSuccessful, Expected: 'Obfuscation successful'},
+  {Name: 'cErrorInvalidInputString', Actual: msg.cErrorInvalidInputString, Expected: 'ERROR: Invalid input string.'},
 
   // Coded System Messages
   // EXAMPLE:

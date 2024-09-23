@@ -5323,6 +5323,16 @@ export const wordConstantsValidation = [
   {Name: 'cDecryption', Actual: wrd.cDecryption, Expected: 'Decryption'},
   {Name: 'cdecryptions', Actual: wrd.cdecryptions, Expected: 'decryptions'},
   {Name: 'cDecryptions', Actual: wrd.cDecryptions, Expected: 'Decryptions'},
+  {Name: 'cobfuscate', Actual: wrd.cobfuscate, Expected: 'obfuscate'},
+  {Name: 'cObfuscate', Actual: wrd.cObfuscate, Expected: 'Obfuscate'},
+  {Name: 'cobfuscates', Actual: wrd.cobfuscates, Expected: 'obfuscates'},
+  {Name: 'cObfuscates', Actual: wrd.cObfuscates, Expected: 'Obfuscates'},
+  {Name: 'cobfuscated', Actual: wrd.cobfuscated, Expected: 'obfuscates'},
+  {Name: 'cObfuscated', Actual: wrd.cObfuscated, Expected: 'Obfuscated'},
+  {Name: 'cobfuscating', Actual: wrd.cobfuscating, Expected: 'obfuscating'},
+  {Name: 'cObfuscating', Actual: wrd.cObfuscating, Expected: 'Obfuscating'},
+  {Name: 'cobfuscation', Actual: wrd.cobfuscation, Expected: 'obfuscation'},
+  {Name: 'cObfuscation', Actual: wrd.cObfuscation, Expected: 'Obfuscation'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
