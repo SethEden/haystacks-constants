@@ -1390,6 +1390,11 @@ export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + w
 export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 // ERROR: Plugin List Array is an invalid value: 
 export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cEncryptionSuccessful = wrd.cEncryption + wrd.csuccessful; // Encryption successful
+export const cDecryptionSuccessful = wrd.cDecryption + wrd.csuccessful; // Decryption successful
+export const cErrorEncryptionFailed = cERROR_Colon + wrd.cEncryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Encryption failed:
+export const cErrorDecryptionFailed = cERROR_Colon + wrd.cDecryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Decryption failed:
+export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstrings + bas.cDot; // ERROR: Invalid input strings.
 
 // Coded System Messages
 // EXAMPLE:

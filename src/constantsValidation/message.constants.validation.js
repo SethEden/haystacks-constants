@@ -1163,6 +1163,11 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},
   {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
   {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
+  {Name: 'cEncryptionSuccessful', Actual: msg.cEncryptionSuccessful, Expected: 'Encryption successful'},
+  {Name: 'cDecryptionSuccessful', Actual: msg.cDecryptionSuccessful, Expected: 'Decryption successful'},
+  {Name: 'cErrorEncryptionFailed', Actual: msg.cErrorEncryptionFailed, Expected: 'ERROR: Encryption failed: '},
+  {Name: 'cErrorDecryptionFailed', Actual: msg.cErrorDecryptionFailed, Expected: 'ERROR: Decryption failed: '},
+  {Name: 'cErrorInvalidInputStrings', Actual: msg.cErrorInvalidInputStrings, Expected: 'ERROR: Invalid input strings.'},
 
   // Coded System Messages
   // EXAMPLE:

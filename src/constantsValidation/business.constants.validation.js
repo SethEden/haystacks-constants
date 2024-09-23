@@ -170,6 +170,8 @@ export const businessConstantsValidation = [
   {Name: 'cloadDataFile', Actual: biz.cloadDataFile, Expected: 'loadDataFile'},
   {Name: 'csaveDataFile', Actual: biz.csaveDataFile, Expected: 'saveDataFile'},
   {Name: 'cgetUserNameFromEmail', Actual: biz.cgetUserNameFromEmail, Expected: 'getUserNameFromEmail'},
+  {Name: 'cencryptStringAes256', Actual: biz.cencryptStringAes256, Expected: 'encryptStringAes256'},
+  {Name: 'cdecryptStringAes256', Actual: biz.cdecryptStringAes256, Expected: 'decryptStringAes256'},
 
   // ***********************************************
   // FileStringParsing rules in order

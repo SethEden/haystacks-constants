@@ -172,6 +172,8 @@ export const cgetKeywordNameFromDataContextName = wrd.cget + wrd.cKeyword + wrd.
 export const cloadDataFile = wrd.cload + wrd.cData + wrd.cFile; // loadDataFile
 export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
 export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
+export const cencryptStringAes256 = wrd.cencrypt + wrd.cString + gen.cAes256; // encryptStringAes256
+export const cdecryptStringAes256 = wrd.cdecrypt + wrd.cString + gen.cAes256; // decryptStringAes256
 
 // ***********************************************
 // FileStringParsing rules in order

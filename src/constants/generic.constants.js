@@ -264,6 +264,8 @@ export const cCMD = bas.cCM + bas.cD; // CMD
 export const ccfg = bas.ccf + bas.cg; // cfg
 export const ccon = bas.cco + bas.cn; // con
 export const cctr = phn.cctr; // ctr
+export const cCtr = bas.cCt + bas.cr; // Ctr
+export const cCTR = bas.cCT + bas.cR; // CTR
 export const celm = bas.cel + bas.cm; // elm
 export const cfnc = bas.cfn + bas.cc; // fnc
 export const cgen = phn.cgen; // gen
@@ -286,6 +288,180 @@ export const cEADDRINUSE = bas.cEA + bas.cDD + bas.cRI + bas.cNU + bas.cSE; // E
 export const cECONNRESET = bas.cEC + bas.cON + bas.cNR + bas.cES + bas.cET; // ECONNRESET
 export const cENOENT = bas.cEN + bas.cOE + bas.cNT; // ENOENT
 export const cEACCES = bas.cEA + bas.cCC + bas.cES; // EACCES
+
+// Encryption
+export const caes = bas.cae + bas.cs; // aes
+export const cAes = bas.cAe + bas.cs; // Aes
+export const cAES = bas.cAE + bas.cS; // AES
+export const cdes = bas.cde + bas.cs; // des
+export const cDes = bas.cDe + bas.cs; // Des
+export const cDES = bas.cDE + bas.cS; // DES
+export const crsa = bas.crs + bas.ca; // rsa
+export const cRsa = bas.cRs + bas.ca; // Rsa
+export const cRSA = bas.cRS + bas.cS; // RSA
+export const caes128 = caes + num.c128; // aes128
+export const cAes128 = cAes + num.c128; // Aes128
+export const cAES128 = cAES + num.c128; // AES128
+export const caes192 = caes + num.c192; // aes192
+export const cAes192 = cAes + num.c192; // Aes192
+export const cAES192 = cAES + num.c192; // AES192
+export const caes256 = caes + num.c256; // aes256
+export const cAes256 = cAes + num.c256; // Aes256
+export const cAES256 = cAES + num.c256; // AES256
+export const caes_128 = caes + bas.cDash + num.c128; // aes-128
+export const cAes_128 = cAes + bas.cDash + num.c128; // Aes-128
+export const cAES_128 = cAES + bas.cDash + num.c128; // AES-128
+export const caes_192 = caes + bas.cDash + num.c192; // aes-192
+export const cAes_192 = cAes + bas.cDash + num.c192; // Aes-192
+export const cAES_192 = cAES + bas.cDash + num.c192; // AES-192
+export const caes_256 = caes + bas.cDash + num.c256; // aes-256
+export const cAes_256 = cAes + bas.cDash + num.c256; // Aes-256
+export const cAES_256 = cAES + bas.cDash + num.c256; // AES-256
+export const ccbc = bas.ccb + bas.cc; // cbc
+export const cCbc = bas.cCb + bas.cc; // Cbc
+export const cCBC = bas.cCB + bas.cC; // CBC
+export const cgcm = bas.cgc + bas.cm; // gcm
+export const cGcm = bas.cGc + bas.cm; // Gcm
+export const cGCM = bas.cGC + bas.cM; // GCM
+export const cede = bas.ced + bas.ce; // ede
+export const cEde = bas.cEd + bas.ce; // Ede
+export const cEDE = bas.cED + bas.cE; // EDE
+export const cede3 = cede + num.c3; // ede3
+export const cEde3 = cEde + num.c3; // Ede3
+export const cEDE3 = cEDE + num.c3; // EDE3
+export const coaep = bas.coa + bas.cep; // oaep
+export const cOaep = bas.cOa + bas.cep; // Oaep
+export const cOAEP = bas.cOA + bas.cEP; // OAEP
+export const cpbk = bas.cpb + bas.ck; // pbk
+export const cPbk = bas.cPb + bas.ck; // Pbk
+export const cPBK = bas.cPB + bas.cK; // PBK
+export const csha = bas.csh + bas.ca; // sha
+export const cSha = bas.cSh + bas.ca; // Sha
+export const cSHA = bas.cSh + bas.ca; // SHA
+// DSA (Digital Signature Algorithm)
+export const cdsa = bas.cds + bas.ca; // dsa
+export const cDsa = bas.cDs + bas.ca; // Dsa
+export const cDSA = bas.cDS + bas.cA; // DSA
+
+// Encryption Algorithms
+export const caes_128_ctr = caes_128 + bas.cDash + cctr; // aes-128-ctr
+export const cAes_128_Ctr = cAes_128 + bas.cDash + cCtr; // Aes-128-Ctr
+export const cAES_128_CTR = cAES_128 + bas.cDash + cCTR; // AES-128-CTR
+export const caes_192_ctr = caes_192 + bas.cDash + cctr; // aes-192-ctr
+export const cAes_192_Ctr = cAes_192 + bas.cDash + cCtr; // Aes-192-Ctr
+export const cAES_192_CTR = cAES_192 + bas.cDash + cCTR; // AES-192-CTR
+export const caes_256_ctr = caes_256 + bas.cDash + cctr; // aes-256-ctr
+export const cAes_256_Ctr = cAes_256 + bas.cDash + cCtr; // Aes-256-Ctr
+export const cAES_256_CTR = cAES_256 + bas.cDash + cCTR; // AES-256-CTR
+export const caes_128_cbc = caes_128 + bas.cDash + ccbc; // aes-128-cbc
+export const cAes_128_Cbc = cAes_128 + bas.cDash + cCbc; // Aes-128-Cbc
+export const cAES_128_CBC = cAES_128 + bas.cDash + cCBC; // AES-128-CBC
+export const caes_192_cbc = caes_192 + bas.cDash + ccbc; // aes-192-cbc
+export const cAes_192_Cbc = cAes_192 + bas.cDash + cCbc; // Aes-192-Cbc
+export const cAES_192_CBC = cAES_192 + bas.cDash + cCBC; // AES-192-CBC
+export const caes_256_cbc = caes_256 + bas.cDash + ccbc; // aes-256-cbc
+export const cAes_256_Cbc = cAes_256 + bas.cDash + cCbc; // Aes-256-Cbc
+export const cAES_256_CBC = cAES_256 + bas.cDash + cCBC; // AES-256-CBC
+export const caes_128_gcm = caes_128 + bas.cDash + cgcm; // aes-128-gcm
+export const cAes_128_Gcm = cAes_128 + bas.cDash + cGcm; // Aes-128-Gcm
+export const cAES_128_GCM = cAES_128 + bas.cDash + cGCM; // AES-128-GCM
+export const caes_192_gcm = caes_192 + bas.cDash + cgcm; // aes-192-gcm
+export const cAes_192_Gcm = cAes_192 + bas.cDash + cGcm; // Aes-192-Gcm
+export const cAES_192_GCM = cAES_192 + bas.cDash + cGCM; // AES-192-GCM
+export const caes_256_gcm = caes_256 + bas.cDash + cgcm; // aes-256-gcm
+export const cAes_256_Gcm = cAes_256 + bas.cDash + cGcm; // Aes-256-Gcm
+export const cAES_256_GCM = cAES_256 + bas.cDash + cGCM; // AES-256-GCM
+
+// DES Algorithms
+export const cdes_cbc = cdes + bas.cDash + ccbc; // des-cbc
+export const cDes_Cbc = cDes + bas.cDash + cCbc; // Des-Cbc
+export const cDES_cbc = cDES + bas.cDash + cCBC; // DES-CBC
+export const cdes_ede3 = cdes + bas.cDash + cede3; // des-ede3
+export const cDes_Ede3 = cDes + bas.cDash + cEde3; // Des-Ede3
+export const cDES_EDE3 = cDES + bas.cDash + cEDE3; // DES-EDE3
+export const cdes_ede3_cbc = cdes + bas.cDash + cede3 + bas.cDash + ccbc; // des-ede3-cbc
+export const cDes_ede3_Cbc = cDes + bas.cDash + cEde3 + bas.cDash + cCbc; // Des-ede3-Cbc
+export const cDES_EDE3_CBC = cDES + bas.cDash + cEDE3 + bas.cDash + cCBC; // DES-EDE3-CBC
+
+// RC4 Algorithms
+export const crc4 = bas.crc + num.c4; // rc4
+export const cRc4 = bas.cRc + num.c4; // Rc4
+export const cRC4 = bas.cRC + num.c4; // RC4
+export const crc4_40 = crc4 + bas.cDash + num.c40; // rc4-40
+export const cRc4_40 = cRc4 + bas.cDash + num.c40; // Rc4-40
+export const cRC4_40 = cRC4 + bas.cDash + num.c40; // RC4-40
+
+// Blowfish Algorithms
+export const cbf = bas.cbf; // bf
+export const cBf = bas.cBf; // Bf
+export const cBF = bas.cBF; // BF
+export const cbf_cbc = cbf + bas.cDash + ccbc; // bf-cbc
+export const cBf_Cbc = cBf + bas.cDash + cCbc; // Bf-cbc
+export const cBF_CBC = cBF + bas.cDash + cCBC; // BF-CBC
+
+// RSA Algorithms
+export const crsa_oaep = crsa + bas.cDash + coaep; // rsa-oaep
+export const cRsa_oaep = cRsa + bas.cDash + cOaep; // Rsa-Oaep
+export const cRSA_OAEP = cRSA + bas.cDash + cOAEP; // RSA-OAEP
+
+// RSA with Key Sizes
+export const crsa_1024 = crsa + bas.cDash + num.c102 + num.c4; // rsa-1024
+export const cRsa_1024 = cRsa + bas.cDash + num.c102 + num.c4; // Rsa-1024
+export const cRSA_1024 = cRSA + bas.cDash + num.c102 + num.c4; // RSA-1024
+export const crsa_2048 = crsa + bas.cDash + num.c204 + num.c8; // rsa-2048
+export const cRsa_2048 = cRsa + bas.cDash + num.c204 + num.c8; // Rsa-2048
+export const cRSA_2048 = cRSA + bas.cDash + num.c204 + num.c8; // RSA-2048
+export const crsa_4096 = crsa + bas.cDash + num.c409 + num.c6; // rsa-4096
+export const cRsa_4096 = cRsa + bas.cDash + num.c409 + num.c6; // Rsa-4096
+export const cRSA_4096 = cRSA + bas.cDash + num.c409 + num.c6; // RSA-4096
+
+// RSAES-OAEP
+export const crsaes_oaep = crsa + bas.ces + bas.cDash + coaep; // rsaes-oaep
+export const cRsaes_oaep = cRsa + bas.cEs + bas.cDash + cOaep; // Rsaes-oaep
+export const cRSAES_OAEP = cRSA + bas.cES + bas.cDash + cOAEP; // RSAES-OAEP
+
+// ECDSA (Elliptic Curve Digital Signature Algorithm)
+export const cecdsa = bas.cec + cdsa; // ecdsa
+export const cEcdsa = bas.cEc + cDsa; // Ecdsa
+export const cECDSA = bas.cEC + cDSA; // ECDSA
+
+// DH (Diffie-Hellman)
+export const cdh = bas.cdh; // dh
+export const cDh = bas.cDh; // Dh
+export const cDH = bas.cDH; // DH
+
+// ECDH (Elliptic Curve Diffie-Hellman)
+export const cecdh = bas.cec + bas.cdh; // ecdh
+export const cEcdh = bas.cEc + bas.cDh; // Ecdh
+export const cECDH = bas.cEC + bas.cDH; // ECDH
+
+// MD5 (Message Digest 5)
+export const cmd5 = bas.cmd + num.c5; // md5
+export const cMd5 = bas.cMd + num.c5; // Md5
+export const cMD5 = bas.cMD + num.c5; // MD5
+
+// SHA-1 (Secure Hash Algorithm 1)
+export const csha_1 = csha + bas.cDash + num.c1; // sha-1
+export const cSha_1 = cSha + bas.cDash + num.c1; // Sha-1
+export const cSHA_1 = cSHA + bas.cDash + num.c1; // SHA-1
+export const csha256 = csha + num.c256; // Sha256
+export const cSha256 = cSha + num.c256; // Sha256
+export const cSHA256 = cSHA + num.c256; // Sha256
+
+// SHA3-256 (Secure Hash Algorithm 3, 256-bit)
+export const csha3_256 = csha + num.c3 + bas.cDash + num.c256; // sha3-256
+export const cSha3_256 = cSha + num.c3 + bas.cDash + num.c256; // Sha3-256
+export const cSHA3_256 = cSHA + num.c3 + bas.cDash + num.c256; // SHA3-256
+
+// SHA3-512 (Secure Hash Algorithm 3, 512-bit)
+export const csha3_512 = csha + num.c3 + bas.cDash + num.c512; // sha3-512
+export const cSha3_512 = cSha + num.c3 + bas.cDash + num.c512; // Sha3-512
+export const cSHA3_512 = cSHA + num.c3 + bas.cDash + num.c512; // SHA3-512
+
+// PBKDF2 (Password-Based Key Derivation Function 2)
+export const cpbkdf2 = cpbk + bas.cdf + num.c2; // pbkdf2
+export const cPbkdf2 = cPbk + bas.cdf + num.c2; // Pbkdf2
+export const cPBKDF2 = cPBK + bas.cDF + num.c2; // PBKDF2
 
 // Miscelanious
 export const cUTF8 = bas.cUT + bas.cF + num.c8; // UTF8
