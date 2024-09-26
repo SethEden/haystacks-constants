@@ -298,7 +298,7 @@ export const cDes = bas.cDe + bas.cs; // Des
 export const cDES = bas.cDE + bas.cS; // DES
 export const crsa = bas.crs + bas.ca; // rsa
 export const cRsa = bas.cRs + bas.ca; // Rsa
-export const cRSA = bas.cRS + bas.cS; // RSA
+export const cRSA = bas.cRS + bas.cA; // RSA
 export const caes128 = caes + num.c128; // aes128
 export const cAes128 = cAes + num.c128; // Aes128
 export const cAES128 = cAES + num.c128; // AES128
@@ -337,7 +337,7 @@ export const cPbk = bas.cPb + bas.ck; // Pbk
 export const cPBK = bas.cPB + bas.cK; // PBK
 export const csha = bas.csh + bas.ca; // sha
 export const cSha = bas.cSh + bas.ca; // Sha
-export const cSHA = bas.cSh + bas.ca; // SHA
+export const cSHA = bas.cSH + bas.cA; // SHA
 // DSA (Digital Signature Algorithm)
 export const cdsa = bas.cds + bas.ca; // dsa
 export const cDsa = bas.cDs + bas.ca; // Dsa
@@ -380,7 +380,7 @@ export const cdes_ede3 = cdes + bas.cDash + cede3; // des-ede3
 export const cDes_Ede3 = cDes + bas.cDash + cEde3; // Des-Ede3
 export const cDES_EDE3 = cDES + bas.cDash + cEDE3; // DES-EDE3
 export const cdes_ede3_cbc = cdes + bas.cDash + cede3 + bas.cDash + ccbc; // des-ede3-cbc
-export const cDes_ede3_Cbc = cDes + bas.cDash + cEde3 + bas.cDash + cCbc; // Des-ede3-Cbc
+export const cDes_Ede3_Cbc = cDes + bas.cDash + cEde3 + bas.cDash + cCbc; // Des-Ede3-Cbc
 export const cDES_EDE3_CBC = cDES + bas.cDash + cEDE3 + bas.cDash + cCBC; // DES-EDE3-CBC
 
 // RC4 Algorithms
@@ -396,7 +396,7 @@ export const cbf = bas.cbf; // bf
 export const cBf = bas.cBf; // Bf
 export const cBF = bas.cBF; // BF
 export const cbf_cbc = cbf + bas.cDash + ccbc; // bf-cbc
-export const cBf_Cbc = cBf + bas.cDash + cCbc; // Bf-cbc
+export const cBf_Cbc = cBf + bas.cDash + cCbc; // Bf-Cbc
 export const cBF_CBC = cBF + bas.cDash + cCBC; // BF-CBC
 
 // RSA Algorithms
@@ -417,12 +417,12 @@ export const cRSA_4096 = cRSA + bas.cDash + num.c409 + num.c6; // RSA-4096
 
 // RSAES-OAEP
 export const crsaes_oaep = crsa + bas.ces + bas.cDash + coaep; // rsaes-oaep
-export const cRsaes_oaep = cRsa + bas.cEs + bas.cDash + cOaep; // Rsaes-oaep
+export const cRsaes_Oaep = cRsa + bas.ces + bas.cDash + cOaep; // Rsaes-Oaep
 export const cRSAES_OAEP = cRSA + bas.cES + bas.cDash + cOAEP; // RSAES-OAEP
 
 // ECDSA (Elliptic Curve Digital Signature Algorithm)
 export const cecdsa = bas.cec + cdsa; // ecdsa
-export const cEcdsa = bas.cEc + cDsa; // Ecdsa
+export const cEcdsa = bas.cEc + cdsa; // Ecdsa
 export const cECDSA = bas.cEC + cDSA; // ECDSA
 
 // DH (Diffie-Hellman)
@@ -432,7 +432,7 @@ export const cDH = bas.cDH; // DH
 
 // ECDH (Elliptic Curve Diffie-Hellman)
 export const cecdh = bas.cec + bas.cdh; // ecdh
-export const cEcdh = bas.cEc + bas.cDh; // Ecdh
+export const cEcdh = bas.cEc + bas.cdh; // Ecdh
 export const cECDH = bas.cEC + bas.cDH; // ECDH
 
 // MD5 (Message Digest 5)

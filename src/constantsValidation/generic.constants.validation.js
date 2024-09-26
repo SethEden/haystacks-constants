@@ -380,7 +380,7 @@ export const genericConstantsValidation = [
   {Name: 'cDes_Ede3', Actual: gen.cDes_Ede3, Expected: 'Des-Ede3'},
   {Name: 'cDES_EDE3', Actual: gen.cDES_EDE3, Expected: 'DES-EDE3'},
   {Name: 'cdes_ede3_cbc', Actual: gen.cdes_ede3_cbc, Expected: 'des-ede3-cbc'},
-  {Name: 'cDes_ede3_Cbc', Actual: gen.cDes_ede3_Cbc, Expected: 'Des-ede3-Cbc'},
+  {Name: 'cDes_Ede3_Cbc', Actual: gen.cDes_Ede3_Cbc, Expected: 'Des-Ede3-Cbc'},
   {Name: 'cDES_EDE3_CBC', Actual: gen.cDES_EDE3_CBC, Expected: 'DES-EDE3-CBC'},
 
   // RC4 Algorithms
@@ -396,7 +396,7 @@ export const genericConstantsValidation = [
   {Name: 'cBf', Actual: gen.cBf, Expected: 'Bf'},
   {Name: 'cBF', Actual: gen.cBF, Expected: 'BF'},
   {Name: 'cbf_cbc', Actual: gen.cbf_cbc, Expected: 'bf-cbc'},
-  {Name: 'cBf_Cbc', Actual: gen.cBf_Cbc, Expected: 'Bf-cbc'},
+  {Name: 'cBf_Cbc', Actual: gen.cBf_Cbc, Expected: 'Bf-Cbc'},
   {Name: 'cBF_CBC', Actual: gen.cBF_CBC, Expected: 'BF-CBC'},
 
   // RSA Algorithms
@@ -417,7 +417,7 @@ export const genericConstantsValidation = [
 
   // RSAES-OAEP
   {Name: 'crsaes_oaep', Actual: gen.crsaes_oaep, Expected: 'rsaes-oaep'},
-  {Name: 'cRsaes_oaep', Actual: gen.cRsaes_oaep, Expected: 'Rsaes-oaep'},
+  {Name: 'cRsaes_Oaep', Actual: gen.cRsaes_Oaep, Expected: 'Rsaes-Oaep'},
   {Name: 'cRSAES_OAEP', Actual: gen.cRSAES_OAEP, Expected: 'RSAES-OAEP'},
 
   // ECDSA (Elliptic Curve Digital Signature Algorithm)
@@ -444,9 +444,9 @@ export const genericConstantsValidation = [
   {Name: 'csha_1', Actual: gen.csha_1, Expected: 'sha-1'},
   {Name: 'cSha_1', Actual: gen.cSha_1, Expected: 'Sha-1'},
   {Name: 'cSHA_1', Actual: gen.cSHA_1, Expected: 'SHA-1'},
-  {Name: 'csha256', Actual: gen.csha256, Expected: 'Sha256'},
+  {Name: 'csha256', Actual: gen.csha256, Expected: 'sha256'},
   {Name: 'cSha256', Actual: gen.cSha256, Expected: 'Sha256'},
-  {Name: 'cSHA256', Actual: gen.cSHA256, Expected: 'Sha256'},
+  {Name: 'cSHA256', Actual: gen.cSHA256, Expected: 'SHA256'},
 
   // SHA3-256 (Secure Hash Algorithm 3, 256-bit)
   {Name: 'csha3_256', Actual: gen.csha3_256, Expected: 'sha3-256'},

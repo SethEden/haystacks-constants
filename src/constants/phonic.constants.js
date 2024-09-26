@@ -1331,6 +1331,8 @@ export const cally = bas.ca + clly; // ally
 export const ccally = bas.cc + cally; // cally
 export const clog = bas.clo + bas.cg; // log
 export const cLog = bas.cLo + bas.cg; // Log
+export const cuce = bas.cuc + bas.ce; // uce
+export const coad = bas.coa + bas.cd; // oad
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
