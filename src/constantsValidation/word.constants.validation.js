@@ -2614,6 +2614,7 @@ export const wordConstantsValidation = [
   {Name: 'cFailing', Actual: wrd.cFailing, Expected: 'Failing'},
   {Name: 'ctraditional', Actual: wrd.ctraditional, Expected: 'traditional'},
   {Name: 'cTraditional', Actual: wrd.cTraditional, Expected: 'Traditional'},
+  {Name: 'cTRADITIONAL', Actual: wrd.cTRADITIONAL, Expected: 'TRADITIONAL'},
   {Name: 'cground', Actual: wrd.cground, Expected: 'ground'},
   {Name: 'cGround', Actual: wrd.cGround, Expected: 'Ground'},
   {Name: 'cgrounds', Actual: wrd.cgrounds, Expected: 'grounds'},
