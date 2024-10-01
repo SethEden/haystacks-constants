@@ -3257,7 +3257,7 @@ export const phonicConstantsValidation = [
   {Name: 'cLent', Actual: phn.cLent, Expected: 'Lent'},
   {Name: 'cLENT', Actual: phn.cLENT, Expected: 'LENT'},
   {Name: 'clenc', Actual: phn.clenc, Expected: 'lenc'},
-    {Name: 'cLenc', Actual: phn.cLenc, Expected: 'Lenc'},
+  {Name: 'cLenc', Actual: phn.cLenc, Expected: 'Lenc'},
   {Name: 'cLENC', Actual: phn.cLENC, Expected: 'LENC'},
   {Name: 'clence', Actual: phn.clence, Expected: 'lence'},
   {Name: 'cLence', Actual: phn.cLence, Expected: 'Lence'},
