@@ -5341,6 +5341,14 @@ export const clasted = clast + bas.ced; // lasted
 export const cLasted = cLast + bas.ced; // Lasted
 export const clasting = clast + phn.cing; // lasting
 export const cLasting = cLast + phn.cing; // Lasting
+export const cwonder = bas.cwo + bas.cnd + bas.cer; // wonder
+export const cWonder = bas.cWo + bas.cnd + bas.cer; // Wonder
+export const cwonders = cwonder + bas.cs; // wonders
+export const cWonders = cWonder + bas.cs; // Wonders
+export const cwondered = cwonder + bas.ced; // wondered
+export const cWondered = cWonder + bas.ced; // Wondered
+export const cwondering = cwonder + phn.cing; // wondering
+export const cWondering = cWonder + phn.cing; // Wondering
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
