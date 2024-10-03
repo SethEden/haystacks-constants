@@ -1,6 +1,6 @@
 /**
  * @file numeric.constants.js
- * @module numeric-constants
+ * @module numeric.constants
  * @description Contains numeric string values and numeric strings
  * @requires module:basic.constants
  * @requires module:phonic.constants

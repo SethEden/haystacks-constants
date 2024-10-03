@@ -1,6 +1,6 @@
 /**
  * @file generic.constants.js
- * @module generic-constants
+ * @module generic.constants
  * @description Contains many generic constants.
  * Also included are other generic constants like string numbers like "one", "two", "three".
  * Also included are spellings of Greek letters, military codes/standards, units of measurement, units of time, etc...
@@ -80,13 +80,6 @@ export const cLEFT = bas.cLE + bas.cFT; // LEFT
 export const cright = bas.cri + bas.cgh + bas.ct; // right
 export const cRight = bas.cRi + bas.cgh + bas.ct; // Right
 export const cRIGHT = bas.cRI + bas.cGH + bas.cT; // RIGHT
-
-// Alphabets
-export const cLowerCaseEnglishAlphabet = bas.cab + bas.ccd + bas.cef + bas.cgh + bas.cij + bas.ckl + bas.cmn + bas.cop + bas.cqr + bas.cst + bas.cuv + bas.cwx + bas.cyz; // abcdefghijklmnopqrstuvwxyz
-export const cUpperCaseEnglishAlphabet = bas.cAB + bas.cCD + bas.cEF + bas.cGH + bas.cIJ + bas.cKL + bas.cMN + bas.cOP + bas.cQR + bas.cST + bas.cUV + bas.cWX + bas.cYZ; // ABCDEFGHIJKLMNOPQRSTUVWXYZ
-export const cAllNumbers = num.c0 + num.c1 + num.c2 + num.c3 + num.c4 + num.c5 + num.c6 + num.c7 + num.c8 + num.c9; // 0123456789
-export const cMostSpecialCharacters = bas.cExclamation + bas.cAt + bas.cHash + bas.cDollar + bas.cPercent + bas.cCarrot + bas.cAndPersand + bas.cStar + bas.cOpenParenthesis + bas.cCloseParenthesis + bas.cUnderscore + bas.cPlus +
-bas.cOpenCurlyBrace + bas.cCloseCurlyBrace + bas.cPipe + bas.cColon + bas.cDoubleQuote + bas.cLessThan + bas.cGreaterThan + bas.cQuestion + bas.cDot + bas.cComa + bas.cTilde; // !@#$%^&*()_+{}|:"<>?.,~
 
 // File Extensions
 export const ctmp = bas.ctm + bas.cp; // tmp
@@ -401,6 +394,9 @@ export const cDecember = bas.cDe + bas.cc + phn.cemb + bas.cer; // December
 export const cDECEMBER = bas.cDE + bas.cC + phn.cEMB + bas.cER; // DECEMBER
 
 // Constants Abbreviations
+export const cabt = bas.cab + bas.ct; // abt
+export const cAbt = bas.cAb + bas.ct; // Abt
+export const cABT = bas.cAB + bas.cT; // ABT
 export const cbas = bas.cba + bas.cs; // bas
 export const cBas = bas.cBa + bas.cs; // Bas
 export const cBAS = bas.cBA + bas.cS; // BAS
@@ -452,6 +448,9 @@ export const cNUM = phn.cNUM; // NUM
 export const cphn = bas.cph + bas.cn; // phn
 export const cPhn = bas.cPh + bas.cn; // Phn
 export const cPHN = bas.cPH + bas.cN; // PHN
+export const cstt = bas.cst + bas.ct; // stt
+export const cStt = bas.cSt + bas.ct; // Stt
+export const cSTT = bas.cST + bas.cT; // STT
 export const cshp = phn.cshp; // shp
 export const cShp = phn.cShp; // Shp
 export const cSHP = phn.cSHP; // SHP

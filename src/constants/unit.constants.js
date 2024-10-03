@@ -1,6 +1,6 @@
 /**
  * @file unit.constants.js
- * @module unit-constants
+ * @module unit.constants
  * @description Contains many unit & unit conversion constants.
  * Also included are units of measurement, units of time, etc...
  * @requires module:basic.constants

@@ -83,12 +83,6 @@ export const genericConstantsValidation = [
   {Name: 'cRight', Actual: gen.cRight, Expected: 'Right'},
   {Name: 'cRIGHT', Actual: gen.cRIGHT, Expected: 'RIGHT'},
 
-  // Alphabets
-  {Name: 'cLowerCaseEnglishAlphabet', Actual: gen.cLowerCaseEnglishAlphabet, Expected: 'abcdefghijklmnopqrstuvwxyz'},
-  {Name: 'cUpperCaseEnglishAlphabet', Actual: gen.cUpperCaseEnglishAlphabet, Expected: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'},
-  {Name: 'cAllNumbers', Actual: gen.cAllNumbers, Expected: '0123456789'},
-  {Name: 'cMostSpecialCharacters', Actual: gen.cMostSpecialCharacters, Expected: '!@#$%^&*()_+{}|:"<>?.,~'},
-
   // File Extensions
   {Name: 'ctmp', Actual: gen.ctmp, Expected: 'tmp'},
   {Name: 'cTmp', Actual: gen.cTmp, Expected: 'Tmp'},
@@ -284,8 +278,6 @@ export const genericConstantsValidation = [
   {Name: 'cZulu', Actual: gen.cZulu, Expected: 'Zulu'},
   {Name: 'cZULU', Actual: gen.cZULU, Expected: 'ZULU'},
 
-
-
   {Name: 'calpha', Actual: gen.calpha, Expected: 'alpha'},
   {Name: 'cAlpha', Actual: gen.cAlpha, Expected: 'Alpha'},
   {Name: 'cALPHA', Actual: gen.cALPHA, Expected: 'ALPHA'},
@@ -403,6 +395,9 @@ export const genericConstantsValidation = [
 
 
   // Constants Abbreviations
+  {Name: 'cabt', Actual: gen.cabt, Expected: 'abt'},
+  {Name: 'cAbt', Actual: gen.cAbt, Expected: 'Abt'},
+  {Name: 'cABT', Actual: gen.cABT, Expected: 'ABT'},
   {Name: 'cbas', Actual: gen.cbas, Expected: 'bas'},
   {Name: 'cBas', Actual: gen.cBas, Expected: 'Bas'},
   {Name: 'cBAS', Actual: gen.cBAS, Expected: 'BAS'},
@@ -454,6 +449,9 @@ export const genericConstantsValidation = [
   {Name: 'cphn', Actual: gen.cphn, Expected: 'phn'},
   {Name: 'cPhn', Actual: gen.cPhn, Expected: 'Phn'},
   {Name: 'cPHN', Actual: gen.cPHN, Expected: 'PHN'},
+  {Name: 'cstt', Actual: gen.cstt, Expected: 'stt'},
+  {Name: 'cStt', Actual: gen.cStt, Expected: 'Stt'},
+  {Name: 'cSTT', Actual: gen.cSTT, Expected: 'STT'},
   {Name: 'cshp', Actual: gen.cshp, Expected: 'shp'},
   {Name: 'cShp', Actual: gen.cShp, Expected: 'Shp'},
   {Name: 'cSHP', Actual: gen.cSHP, Expected: 'SHP'},

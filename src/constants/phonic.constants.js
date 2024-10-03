@@ -1,6 +1,6 @@
 /**
  * @file phonic.constants.js
- * @module phonic-constants
+ * @module phonic.constants
  * @description Contains many re-usable phonetic constants and partial phrases and/or
  * partial words for re-usability, many of them derived from the basic-constants.
  * @requires module:basic.constants
