@@ -5349,6 +5349,14 @@ export const cwondered = cwonder + bas.ced; // wondered
 export const cWondered = cWonder + bas.ced; // Wondered
 export const cwondering = cwonder + phn.cing; // wondering
 export const cWondering = cWonder + phn.cing; // Wondering
+export const cwar = bas.cwa + bas.cr; // war
+export const cWar = bas.cWa + bas.cr; // War
+export const cwars = cwar; // wars
+export const cWars = cWar; // Wars
+export const cwarred = cwar; // warred
+export const cWarred = cWar; // Warred
+export const cwarring = cwar; // warring
+export const cWarring = cWar; // Warring
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
