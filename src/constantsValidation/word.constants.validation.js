@@ -3057,7 +3057,7 @@ export const wordConstantsValidation = [
   {Name: 'cTerm', Actual: wrd.cTerm, Expected: 'Term'},
   {Name: 'ccost', Actual: wrd.ccost, Expected: 'cost'},
   {Name: 'cCost', Actual: wrd.cCost, Expected: 'Cost'},
-  {Name: 'cCOST', Acutal: wrd.cCOST, Expected: 'COST'},
+  {Name: 'cCOST', Actual: wrd.cCOST, Expected: 'COST'},
   {Name: 'cperiod', Actual: wrd.cperiod, Expected: 'period'},
   {Name: 'cPeriod', Actual: wrd.cPeriod, Expected: 'Period'},
   {Name: 'ccannot', Actual: wrd.ccannot, Expected: 'cannot'},
