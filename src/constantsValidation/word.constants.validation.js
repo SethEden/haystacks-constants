@@ -1721,6 +1721,7 @@ export const wordConstantsValidation = [
   {Name: 'cHome', Actual: wrd.cHome, Expected: 'Home'},
   {Name: 'cpublic', Actual: wrd.cpublic, Expected: 'public'},
   {Name: 'cPublic', Actual: wrd.cPublic, Expected: 'Public'},
+  {Name: 'cPUBLIC', Actual: wrd.cPUBLIC, Expected: 'PUBLIC'},
   {Name: 'cspecial', Actual: wrd.cspecial, Expected: 'special'},
   {Name: 'cSpecial', Actual: wrd.cSpecial, Expected: 'Special'},
   {Name: 'ccharacter', Actual: wrd.ccharacter, Expected: 'character'},

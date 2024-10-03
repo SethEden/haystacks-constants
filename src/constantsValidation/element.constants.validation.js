@@ -184,7 +184,7 @@ export const elementConstantsValidation = [
   {Name: 'cPHOSPHORUS', Actual: elm.cPHOSPHORUS, Expected: 'PHOSPHORUS'},
   {Name: 'csulfur', Actual: elm.csulfur, Expected: 'sulfur'},
   {Name: 'cSulfur', Actual: elm.cSulfur, Expected: 'Sulfur'},
-  {Name: 'cSULFUR', Actual: elm.cSULFER, Expected: 'SULFUR'},
+  {Name: 'cSULFUR', Actual: elm.cSULFUR, Expected: 'SULFUR'},
   {Name: 'cclorine', Actual: elm.cclorine, Expected: 'clorine'},
   {Name: 'cClorine', Actual: elm.cClorine, Expected: 'Clorine'},
   {Name: 'cCLORINE', Actual: elm.cCLORINE, Expected: 'CLORINE'},
