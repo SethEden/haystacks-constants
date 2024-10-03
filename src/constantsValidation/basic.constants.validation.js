@@ -2404,7 +2404,7 @@ export const basicConstantsValidation = [
   {Name: 'cUK', Actual: bas.cUK, Expected: 'UK'},
   {Name: 'cUL', Actual: bas.cUL, Expected: 'UL'},
   {Name: 'cUM', Actual: bas.cUM, Expected: 'UM'},
-  {Name: 'cUN', Actual: bas.cUN, Expected: 'UN'},
+  {Name: 'cU_N', Actual: bas.cU_N, Expected: 'UN'},
   {Name: 'cUO', Actual: bas.cUO, Expected: 'UO'},
   {Name: 'cUP', Actual: bas.cUP, Expected: 'UP'},
   {Name: 'cUQ', Actual: bas.cUQ, Expected: 'UQ'},

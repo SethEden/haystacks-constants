@@ -1480,7 +1480,7 @@ export const cOla = bas.cOl + bas.ca; // Ola
 export const cOLA = bas.cOL + bas.cA; // OLA
 export const cgua = bas.cgu + bas.ca; // gua
 export const cGua = bas.cGu + bas.ca; // Gua
-export const cGUI = bas.cGU + bas.cA; // GUA
+export const cGUA = bas.cGU + bas.cA; // GUA
 export const cina = bas.cin + bas.ca; // ina
 export const cIna = bas.cIn + bas.ca; // Ina
 export const cINA = bas.cIN + bas.cA; // INA
@@ -3332,6 +3332,12 @@ export const cUCE = bas.cUC + bas.cE; // UCE
 export const coad = bas.coa + bas.cd; // oad
 export const cOad = bas.cOa + bas.cd; // Oad
 export const cOAD = bas.cOA + bas.cD; // OAD
+export const cphi = bas.cph + bas.ci; // phi
+export const cPhi = bas.cPh + bas.ci; // Phi
+export const cPHI = bas.cPH + bas.cI; // PHI
+export const csan = bas.csa + bas.cn; // san
+export const cSan = bas.cSa + bas.cn; // San
+export const cSAN = bas.cSA + bas.cN; // SAN
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

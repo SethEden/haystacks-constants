@@ -601,7 +601,7 @@ export const countryConstantsValidation = [
   {Name: 'cUZBEKISTAN', Actual: ctr.cUZBEKISTAN, Expected: 'UZBEKISTAN'},
   {Name: 'cvanuatu', Actual: ctr.cvanuatu, Expected: 'vanuatu'},
   {Name: 'cVanuatu', Actual: ctr.cVanuatu, Expected: 'Vanuatu'},
-  {Name: 'cVANAATU', Actual: ctr.cVANAATU, Expected: 'VANAATU'},
+  {Name: 'cVANUATU', Actual: ctr.cVANUATU, Expected: 'VANUATU'},
   {Name: 'cvenezuela', Actual: ctr.cvenezuela, Expected: 'venezuela'},
   {Name: 'cVenezuela', Actual: ctr.cVenezuela, Expected: 'Venezuela'},
   {Name: 'cVENEZUELA', Actual: ctr.cVENEZUELA, Expected: 'VENEZUELA'},

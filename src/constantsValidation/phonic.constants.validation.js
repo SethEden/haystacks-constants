@@ -1491,7 +1491,7 @@ export const phonicConstantsValidation = [
   {Name: 'cOLA', Actual: phn.cOLA, Expected: 'OLA'},
   {Name: 'cgua', Actual: phn.cgua, Expected: 'gua'},
   {Name: 'cGua', Actual: phn.cGua, Expected: 'Gua'},
-  {Name: 'cGUI', Actual: phn.cGUI, Expected: 'GUA'},
+  {Name: 'cGUA', Actual: phn.cGUA, Expected: 'GUA'},
   {Name: 'cina', Actual: phn.cina, Expected: 'ina'},
   {Name: 'cIna', Actual: phn.cIna, Expected: 'Ina'},
   {Name: 'cINA', Actual: phn.cINA, Expected: 'INA'},
@@ -3343,6 +3343,12 @@ export const phonicConstantsValidation = [
   {Name: 'coad', Actual: phn.coad, Expected: 'oad'},
   {Name: 'cOad', Actual: phn.cOad, Expected: 'Oad'},
   {Name: 'cOAD', Actual: phn.cOAD, Expected: 'OAD'},
+  {Name: 'cphi', Actual: phn.cphi, Expected: 'phi'},
+  {Name: 'cPhi', Actual: phn.cPhi, Expected: 'Phi'},
+  {Name: 'cPHI', Actual: phn.cPHI, Expected: 'PHI'},
+  {Name: 'csan', Actual: phn.csan, Expected: 'san'},
+  {Name: 'cSan', Actual: phn.cSan, Expected: 'San'},
+  {Name: 'cSAN', Actual: phn.cSAN, Expected: 'SAN'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

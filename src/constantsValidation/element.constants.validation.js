@@ -430,7 +430,7 @@ export const elementConstantsValidation = [
   {Name: 'cBERKELIUM', Actual: elm.cBERKELIUM, Expected: 'BERKELIUM'},
   {Name: 'ccalifornium', Actual: elm.ccalifornium, Expected: 'californium'},
   {Name: 'cCalifornium', Actual: elm.cCalifornium, Expected: 'Californium'},
-  {Name: 'cCALIFONRIUM', Actual: elm.cCALIFONRIUM, Expected: 'CALIFONRIUM'},
+  {Name: 'cCALIFORNIUM', Actual: elm.cCALIFONRIUM, Expected: 'CALIFORNIUM'},
   {Name: 'ceinsteinium', Actual: elm.ceinsteinium, Expected: 'einsteinium'},
   {Name: 'cEinsteinium', Actual: elm.cEinsteinium, Expected: 'Einsteinium'},
   {Name: 'cEINSTEINIUM', Actual: elm.cEINSTEINIUM, Expected: 'EINSTEINIUM'},
