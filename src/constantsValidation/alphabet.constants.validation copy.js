@@ -54,18 +54,23 @@ export const alphabetConstantsValidation = [
   '製鐘鍾腫種眾晝硃燭築莊樁妝裝壯狀準濁總鑽鄭執質專涇異'},
   {Name: 'cCzechLowerCase', Actual: abt.cCzechLowerCase, Expected: 'aábcčdďeéěfghchiíjklmnňoópqrřsštťuúůvwxyýzž'},
   {Name: 'cCzechUpperCase', Actual: abt.cCzechUpperCase, Expected: 'AÁBCČDĎEÉĚFGHChIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ'},
-  {Name: 'cFrench', Actual: abt.cFrench, Expected: 'Çéâêîôûàèùëïü'},
-  {Name: 'cGerman', Actual: abt.cGerman, Expected: 'ÄÖÜẞäöüß'},
-  {Name: 'cHungarian', Actual: abt.cHungarian, Expected: 'AÁBCCsDDzDzsEÉFGGyHIÍJKLLyMNNyOÓÖŐPQRSSzTTyUÚÜŰVWXYZZs'},
+  {Name: 'cUpperCaseFrench', Actual: abt.cUpperCaseFrench, Expected: 'ÀÂÆÇÉÈÊËÎÏÔŒÙÛÜŸ'},
+  {Name: 'cLowerCaseFrench', Actual: abt.cLowerCaseFrench, Expected: 'Çéâêîôûàèùëïü'},
+  {Name: 'cUpperCaseGerman', Actual: abt.cUpperCaseGerman, Expected: 'ÄÖÜẞ'},
+  {Name: 'cLowerCaseGerman', Actual: abt.cLowerCaseGerman, Expected: 'äöüß'},
+  {Name: 'cUpperCaseHungarian', Actual: abt.cUpperCaseHungarian, Expected: 'ÁÉÍÓÖŐÚÜŰ'},
+  {Name: 'cLowerCaseHungarian', Actual: abt.cLowerCaseHungarian, Expected: 'áéíóöőúüű'},
   {Name: 'cItalian', Actual: abt.cItalian, Expected: 'àèìòùÀÈÌÒÙ'},
-  {Name: 'cJapanese', Actual: abt.cJapanese, Expected: '぀ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞた' +
-  'だちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみ' +
-  'むめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ゗゘゙゚゛゜ゝゞゟ' +
-  '゠ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタ' +
-  'ダチヂッツヅテデトドナニヌネノハバパヒビピフ' +
-  'ブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵ' +
-  'ヶヷヸヹヺ・ーヽヾヿㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ㆐㆑㆒㆓㆔㆕㆖㆗㆘㆙㆚㆛㆜㆝㆞㆟' +
-  '｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ'},
+  {Name: 'cJapanese', Actual: abt.cJapanese, Expected: 'ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞた' +
+'だちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみ' +
+'むめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ゛゜ゝゞゟ' +
+'゠ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタ' +
+'ダチヂッツヅテデトドナニヌネノハバパヒビピフ' +
+'ブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵ' +
+'ヶヷヸヹヺ・ーヽヾヿㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ㆐㆑㆒㆓㆔㆕㆖㆗㆘㆙㆚㆛㆜㆝㆞㆟' +
+'｡｢｣､･ｦｧｨｩｪｫｬｭｮｯｰｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ'},
+  {Name: 'cUpperCaseKorean', Actual: abt.cUpperCaseKorean, Expected: 'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅃㅆㅉㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅒㅔㅖㅘㅙㅚㅝㅞㅟㅢ'},
+  {Name: 'cLowerCaseKorean', Actual: abt.cLowerCaseKorean, Expected: 'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅃㅆㅉㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅒㅔㅖㅘㅙㅚㅝㅞㅟㅢ'},
   {Name: 'cKorean', Actual: abt.cKorean, Expected: '가각갂갃간갅갆갇갈갉갊갋갌갍갎갏감갑값갓갔강갖갗갘같갚갛개객갞갟갠갡갢갣갤갥갦갧갨갩갪갫갬갭갮갯갰갱갲갳갴갵갶갷갸갹갺갻갼갽갾갿걀걁걂걃걄걅걆걇걈걉걊걋걌걍걎걏걐걑걒걓걔걕걖걗걘걙걚걛걜걝걞걟걠걡걢걣걤걥걦걧걨걩걪걫걬걭걮걯거걱걲걳건걵걶걷걸걹걺걻걼걽걾걿' +
   '검겁겂것겄겅겆겇겈겉겊겋게겍겎겏겐겑겒겓겔겕겖겗겘겙겚겛겜겝겞겟겠겡겢겣겤겥겦겧겨격겪겫견겭겮겯결겱겲겳겴겵겶겷겸겹겺겻겼경겾겿곀곂곃계곅곆곇곈곉곊곋곌곍곎곏곐곑곒곓곔곕곖곗곘곙곚곛곜곝곞곟고곡곢곣곤곥곦곧골곩곪곫곬곭곮곯곰곱곲곳곴공곶곷곸곹곺곻과곽곾곿관' +
   '괁괂괃괄괅괆괇괈괉괊괋괌괍괎괏괐광괒괓괔괕괖괗괘괙괚괛괜괝괞괟괠괡괢괣괤괥괦괧괨괩괪괫괬괭괮괯괰괱괲괳괴괵괶괷괸괹괺괻괼괽괾괿굀굁굂굃굄굅굆굇굈굉굊굋굌굍굎굏교굑굒굓굔굕굖굗굘굙굚굛굜굝굞굟굠굡굢굣굤굥굦굧굨굩굪굫구국굮굯군굱굲굳굴굵굶굷굸굹굺굻굼굽굾굿궀' +
@@ -170,8 +175,12 @@ export const alphabetConstantsValidation = [
   '䲀䲁䲂䲃䲄䲅䲆䲇䲈䲉䲊䲋䲌䲍䲎䲏䲐䲑䲒䲓䲔䲕䲖䲗䲘䲙䲚䲛䲜䲝䲞䲟䲠䲡䲢䲣䲤䲥䲦䲧䲨䲩䲪䲫䲬䲭䲮䲯䲰䲱䲲䲳䲴䲵䲶䲷䲸䲹䲺䲻䲼䲽䲾䲿䳀䳁䳂䳃䳄䳅䳆䳇䳈䳉䳊䳋䳌䳍䳎䳏䳐䳑䳒䳓䳔䳕䳖䳗䳘䳙䳚䳛䳜䳝䳞䳟䳠䳡䳢䳣䳤䳥䳦䳧䳨䳩䳪䳫䳬䳭䳮䳯䳰䳱䳲䳳䳴䳵䳶䳷䳸䳹䳺䳻䳼䳽䳾䳿' +
   '䴀䴁䴂䴃䴄䴅䴆䴇䴈䴉䴊䴋䴌䴍䴎䴏䴐䴑䴒䴓䴔䴕䴖䴗䴘䴙䴚䴛䴜䴝䴞䴟䴠䴡䴢䴣䴤䴥䴦䴧䴨䴩䴪䴫䴬䴭䴮䴯䴰䴱䴲䴳䴴䴵䴶䴷䴸䴹䴺䴻䴼䴽䴾䴿䵀䵁䵂䵃䵄䵅䵆䵇䵈䵉䵊䵋䵌䵍䵎䵏䵐䵑䵒䵓䵔䵕䵖䵗䵘䵙䵚䵛䵜䵝䵞䵟䵠䵡䵢䵣䵤䵥䵦䵧䵨䵩䵪䵫䵬䵭䵮䵯䵰䵱䵲䵳䵴䵵䵶䵷䵸䵹䵺䵻䵼䵽䵾䵿' +
   '䶀䶁䶂䶃䶄䶅䶆䶇䶈䶉䶊䶋䶌䶍䶎䶏䶐䶑䶒䶓䶔䶕䶖䶗䶘䶙䶚䶛䶜䶝䶞䶟䶠䶡䶢䶣䶤䶥䶦䶧䶨䶩䶪䶫䶬䶭䶮䶯䶰䶱䶲䶳䶴䶵'},
-  {Name: 'cPolish', Actual: abt.cPolish, Expected: 'ĄĆĘŁŃÓŚŹŻąćęłńóśźż'},
-  {Name: 'cPortuguese', Actual: abt.cPortuguese, Expected: 'ĂăÂâĐđÊêÔôƠơƯư'},
-  {Name: 'cRussian', Actual: abt.cRussian, Expected: 'КкБбГгДдЁёЖжПпФфИиЙйЛлЦцШшЩщЭэЮюЯяВвЗзНнРрСсУуЧчХхЫыЬЪ'},
-  {Name: 'cSpanish', Actual: abt.cSpanish, Expected: 'áéíóú¿¡üñ'}
+  {Name: 'cUpperCasePolish', Actual: abt.cUpperCasePolish, Expected: 'ĄĆĘŁŃÓŚŹŻ'},
+  {Name: 'cLowerCasePolish', Actual: abt.cLowerCasePolish, Expected: 'ąćęłńóśźż'},
+  {Name: 'cUpperCasePortuguese', Actual: abt.cUpperCasePortuguese, Expected: 'ĂÂĐÊÔƠƯ'},
+  {Name: 'cLowerCasePortuguese', Actual: abt.cLowerCasePortuguese, Expected: 'ăâđêôơư'},
+  {Name: 'cUpperCaseRussian', Actual: abt.cUpperCaseRussian, Expected: 'КБГДЁЖПФИЙЛЦШЩЭЮЯВЗНРСУЧХЫЬ'},
+  {Name: 'cLowerCaseRussian', Actual: abt.cLowerCaseRussian, Expected: 'кбгдёжпфийлцшщэюявзнрсучхыЪ'},
+  {Name: 'cUpperCaseSpanish', Actual: abt.cUpperCaseSpanish, Expected: 'ÁÉÍÓÚÜÑ'},
+  {Name: 'cLowerCaseSpanish', Actual: abt.cLowerCaseSpanish, Expected: 'áéíóú¿¡üñ'}
 ];
