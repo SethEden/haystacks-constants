@@ -249,6 +249,11 @@ export const businessConstantsValidation = [
   {Name: 'cappendMessageToFile', Actual: biz.cappendMessageToFile, Expected: 'appendMessageToFile'},
 
   // ***********************************************
+  // language Parsing rules in order
+  // ***********************************************
+  {Name: 'clanguageToAlphabet', Actual: biz.clanguageToAlphabet, Expected: 'languageToAlphabet'},
+
+  // ***********************************************
   // lexicalAnalyzer rules in order
   // ***********************************************
   {Name: 'cparseBusinessRuleArgument', Actual: biz.cparseBusinessRuleArgument, Expected: 'parseBusinessRuleArgument'},

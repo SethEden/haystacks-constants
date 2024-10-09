@@ -251,6 +251,11 @@ export const cdeleteFile = wrd.cdelete + wrd.cFile; // deleteFile
 export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.cFile; // appendMessageToFile
 
 // ***********************************************
+// language Parsing rules in order
+// ***********************************************
+export const clanguageToAlphabet = wrd.clanguage + wrd.cTo + wrd.cAlphabet; // languageToAlphabet
+
+// ***********************************************
 // lexicalAnalyzer rules in order
 // ***********************************************
 export const cparseBusinessRuleArgument = wrd.cparse + wrd.cBusiness + wrd.cRule + wrd.cArgument; // parseBusinessRuleArgument
