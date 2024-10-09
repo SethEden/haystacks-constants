@@ -58,6 +58,7 @@ export const cnumberOfCharactersToGenerateIs = sys.cnumberOfCharactersToGenerate
 export const cgenerateSpecialCharactersIs = sys.cgenerateSpecialCharacters + sys.cSpaceIsColonSpace; // generateSpecialCharacters is:
 export const callowableSpecialCharactersIs = sys.callowableSpecialCharacters + sys.cSpaceIsColonSpace; // allowableSpecialCharacters is:
 export const cspecifiedSuffixAndDomainIs = sys.cspecifiedSuffixAndDomain + sys.cSpaceIsColonSpace; // specifiedSuffixAndDomain is:
+export const clanguageIs = wrd.clanguage + sys.cSpaceIsColonSpace; // language is:
 export const cfailureModeIs = sys.cfailureMode + sys.cSpaceIsColonSpace; // failureMode is:
 export const cprefixIs = wrd.cprefix + sys.cSpaceIsColonSpace; // prefix is:
 export const csuffixIs = wrd.csuffix + sys.cSpaceIsColonSpace; // suffix is:

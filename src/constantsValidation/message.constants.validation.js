@@ -55,6 +55,7 @@ export const messageConstantsValidation = [
   {Name: 'cgenerateSpecialCharactersIs', Actual: msg.cgenerateSpecialCharactersIs, Expected: 'generateSpecialCharacters is: '},
   {Name: 'callowableSpecialCharactersIs', Actual: msg.callowableSpecialCharactersIs, Expected: 'allowableSpecialCharacters is: '},
   {Name: 'cspecifiedSuffixAndDomainIs', Actual: msg.cspecifiedSuffixAndDomainIs, Expected: 'specifiedSuffixAndDomain is: '},
+  {Name: 'clanguageIs', Actual: msg.clanguageIs, Expected: 'language is: '},
   {Name: 'cfailureModeIs', Actual: msg.cfailureModeIs, Expected: 'failureMode is: '},
   {Name: 'cprefixIs', Actual: msg.cprefixIs, Expected: 'prefix is: '},
   {Name: 'csuffixIs', Actual: msg.csuffixIs, Expected: 'suffix is: '},
