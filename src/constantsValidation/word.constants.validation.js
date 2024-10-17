@@ -19,7 +19,7 @@ import * as wrd from '../constants/word.constants.js';
  * @date 2022/03/21
  */
 export const wordConstantsValidation = [
-  // Miscelaneious Words
+  // Miscellaneous Words
   {Name: 'c1a1d', Actual: wrd.c1a1d, Expected: 'ad'},
   {Name: 'cAd', Actual: wrd.cAd, Expected: 'Ad'},
   {Name: 'cAD', Actual: wrd.cAD, Expected: 'AD'},
