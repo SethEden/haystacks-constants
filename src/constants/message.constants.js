@@ -1,6 +1,6 @@
 /**
  * @file message.constants.js
- * @module message-constants
+ * @module message.constants
  * @description Contains many re-usable message constants.
  * @requires module:basic.constants
  * @requires module:generic.constants
@@ -58,6 +58,7 @@ export const cnumberOfCharactersToGenerateIs = sys.cnumberOfCharactersToGenerate
 export const cgenerateSpecialCharactersIs = sys.cgenerateSpecialCharacters + sys.cSpaceIsColonSpace; // generateSpecialCharacters is:
 export const callowableSpecialCharactersIs = sys.callowableSpecialCharacters + sys.cSpaceIsColonSpace; // allowableSpecialCharacters is:
 export const cspecifiedSuffixAndDomainIs = sys.cspecifiedSuffixAndDomain + sys.cSpaceIsColonSpace; // specifiedSuffixAndDomain is:
+export const clanguageIs = wrd.clanguage + sys.cSpaceIsColonSpace; // language is:
 export const cfailureModeIs = sys.cfailureMode + sys.cSpaceIsColonSpace; // failureMode is:
 export const cprefixIs = wrd.cprefix + sys.cSpaceIsColonSpace; // prefix is:
 export const csuffixIs = wrd.csuffix + sys.cSpaceIsColonSpace; // suffix is:
@@ -267,6 +268,7 @@ export const cEndPhase1ConstantsValidation = wrd.cEND + bas.cSpace + wrd.cPhase 
 export const cBeginPhase2ConstantsValidation = wrd.cBEGIN + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cValidation; // BEGIN Phase 2 Constants Validation
 export const cEndPhase2ConstantsValidation = wrd.cEND + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cValidation; // END Phase 2 Constants Validation
 export const cconstantsPathIs = wrd.cconstants + wrd.cPath + sys.cSpaceIsColonSpace; // constantsPath is:
+export const cresolvedConstantsPath_AlphabetIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cAlphabet + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Alphabet is:
 export const cresolvedConstantsPath_BasicIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cBasic + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Basic is:
 export const cresolvedConstantsPath_BusinessIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cBusiness + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Business is:
 export const cresolvedConstantsPath_ColorIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cColor + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Color is:
@@ -282,10 +284,12 @@ export const cresolvedConstantsPath_LanguageIs = wrd.cresolved + wrd.cConstants 
 export const cresolvedConstantsPath_MessageIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cMessage + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Message is:
 export const cresolvedConstantsPath_NumericIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cNumeric + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Numeric is:
 export const cresolvedConstantsPath_PhonicIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cPhonic + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Phonic is:
+export const cresolvedConstantsPath_StateIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cState + sys.cSpaceIsColonSpace; // resolvedConstantsPath_State is:
 export const cresolvedConstantsPath_ShapeIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cShape + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Shape is:
 export const cresolvedConstantsPath_SystemIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cSystem + sys.cSpaceIsColonSpace; // resolvedConstantsPath_System is:
 export const cresolvedConstantsPath_UnitIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cUnit + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Unit is:
 export const cresolvedConstantsPath_WordIs = wrd.cresolved + wrd.cConstants + wrd.cPath + bas.cUnderscore + wrd.cWord + sys.cSpaceIsColonSpace; // resolvedConstantsPath_Word is:
+export const cAlphabetConstantsPhase1Validation = wrd.cAlphabet + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Alphabet Constants Phase 1 Validation
 export const cBasicConstantsPhase1Validation = wrd.cBasic + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Basic Constants Phase 1 Validation
 export const cBusinessConstantsPhase1Validation = wrd.cBusiness + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Business Constants Phase 1 Validation
 export const cColorConstantsPhase1Validation = wrd.cColor + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Color Constants Phase 1 Validation
@@ -301,10 +305,12 @@ export const cLanguageConstantsPhase1Validation = wrd.cLanguage + bas.cSpace + w
 export const cMessageConstantsPhase1Validation = wrd.cMessage + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Message Constants Phase 1 Validation
 export const cNumericConstantsPhase1Validation = wrd.cNumeric + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Numeric Constants Phase 1 Validation
 export const cPhonicConstantsPhase1Validation = wrd.cPhonic + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Phonic Constants Phase 1 Validation
+export const cStateConstantsPhase1Validation = wrd.cState + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // State Constants Phase 1 Validation
 export const cShapeConstantsPhase1Validation = wrd.cShape + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Shape Constants Phase 1 Validation
 export const cSystemConstantsPhase1Validation = wrd.cSystem + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // System Constants Phase 1 Validation
 export const cUnitConstantsPhase1Validation = wrd.cUnit + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Unit Constants Phase 1 Validation
 export const cWordConstantsPhase1Validation = wrd.cWord + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cValidation; // Word Constants Phase 1 Validation
+export const cAlphabetConstantsPhase2Validation = wrd.cAlphabet + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Alphabet Constants Phase 2 Validation
 export const cBasicConstantsPhase2Validation = wrd.cBasic + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Basic Constants Phase 2 Validation
 export const cBusinessConstantsPhase2Validation = wrd.cBusiness + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Business Constants Phase 2 Validation
 export const cColorConstantsPhase2Validation = wrd.cColor + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Color Constants Phase 2 Validation
@@ -320,6 +326,7 @@ export const cLanguageConstantsPhase2Validation = wrd.cLanguage + bas.cSpace + w
 export const cMessageConstantsPhase2Validation = wrd.cMessage + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Message Constants Phase 2 Validation
 export const cNumericConstantsPhase2Validation = wrd.cNumeric + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Numeric Constants Phase 2 Validation
 export const cPhonicConstantsPhase2Validation = wrd.cPhonic + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Phonic Constants Phase 2 Validation
+export const cStateConstantsPhase2Validation = wrd.cState + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // State Constants Phase 2 Validation
 export const cShapeConstantsPhase2Validation = wrd.cShape + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Shape Constants Phase 2 Validation
 export const cSystemConstantsPhase2Validation = wrd.cSystem + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // System Constants Phase 2 Validation
 export const cUnitConstantsPhase2Validation = wrd.cUnit + bas.cSpace + wrd.cConstants + bas.cSpace + wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cValidation; // Unit Constants Phase 2 Validation
@@ -1390,6 +1397,14 @@ export const cErrorDeleteFileMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + w
 export const cErrorDeleteFileMessage02 = cERROR_Colon + wrd.cThere + bas.cSpace + wrd.cwas + bas.cSpace + wrd.can + bas.cSpace + wrd.cerror + bas.cSpace + wrd.cattempting + bas.cSpace + wrd.cto + bas.cSpace + wrd.cdelete + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cfile + bas.cColon + bas.cSpace;
 // ERROR: Plugin List Array is an invalid value: 
 export const cErrorUnregisterPluginsMessage02 = cERROR_Colon + wrd.cPlugin + bas.cSpace + wrd.cList + bas.cSpace + wrd.cArray + bas.cSpace + wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue + bas.cColon + bas.cSpace;
+export const cEncryptionSuccessful = wrd.cEncryption + bas.cSpace + wrd.csuccessful; // Encryption successful
+export const cDecryptionSuccessful = wrd.cDecryption + bas.cSpace + wrd.csuccessful; // Decryption successful
+export const cErrorEncryptionFailed = cERROR_Colon + wrd.cEncryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Encryption failed:
+export const cErrorDecryptionFailed = cERROR_Colon + wrd.cDecryption + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // ERROR: Decryption failed:
+export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstrings + bas.cDot; // ERROR: Invalid input strings.
+export const cObfuscationSuccessful = wrd.cObfuscation + bas.cSpace + wrd.csuccessful; // Obfuscation successful
+export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
+
 
 // Coded System Messages
 // EXAMPLE:

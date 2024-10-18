@@ -2,6 +2,7 @@
  * @file main.js
  * @module main
  * @description Contains all public facing interfaces for the constants and constants validation.
+ * @requires module:alphabet.constants
  * @requires module:basic.constants
  * @requires module:business.constants
  * @requires module:configuration.constants
@@ -15,6 +16,7 @@
  * @requires module:system.constants
  * @requires module:unit.constants
  * @requires module:word.constants
+ * @requires module:alphabet.constants.validation
  * @requires module:basic.constants.validation
  * @requires module:business.constants.validation
  * @requires module:configuration.constants.validation
@@ -36,6 +38,7 @@
  */
 
 // Internal imports
+import * as abt from './constants/alphabet.constants.js';
 import * as bas from './constants/basic.constants.js';
 import * as biz from './constants/business.constants.js';
 import * as clr from './constants/color.constants.js';
@@ -51,9 +54,11 @@ import * as lng from './constants/language.constants.js';
 import * as msg from './constants/message.constants.js';
 import * as num from './constants/numeric.constants.js';
 import * as phn from './constants/phonic.constants.js';
+import * as stt from './constants/state.constants.js';
 import * as sys from './constants/system.constants.js';
 import * as unt from './constants/unit.constants.js';
 import * as wrd from './constants/word.constants.js';
+import * as abt_cv from './constantsValidation/alphabet.constants.validation copy.js';
 import * as bas_cv from './constantsValidation/basic.constants.validation.js';
 import * as biz_cv from './constantsValidation/business.constants.validation.js';
 import * as clr_cv from './constantsValidation/color.constants.validation.js';
@@ -69,6 +74,7 @@ import * as lng_cv from './constantsValidation/language.constants.validation.js'
 import * as msg_cv from './constantsValidation/message.constants.validation.js';
 import * as num_cv from './constantsValidation/numeric.constants.validation.js';
 import * as phn_cv from './constantsValidation/phonic.constants.validation.js';
+import * as stt_cv from './constantsValidation/state.constants.validation.js';
 import * as sys_cv from './constantsValidation/system.constants.validation.js';
 import * as unt_cv from './constantsValidation/unit.constants.validation.js';
 import * as wrd_cv from './constantsValidation/word.constants.validation.js';
@@ -81,6 +87,7 @@ const constantsPath = url.fileURLToPath(path.dirname(import.meta.url)) + bas.cFo
 
 export default {
   constantsPath,
+  abt,
   bas,
   biz,
   clr,
@@ -96,9 +103,11 @@ export default {
   msg,
   num,
   phn,
+  stt,
   sys,
   unt,
   wrd,
+  abt_cv,
   bas_cv,
   biz_cv,
   clr_cv,
@@ -114,6 +123,7 @@ export default {
   msg_cv,
   num_cv,
   phn_cv,
+  stt_cv,
   sys_cv,
   unt_cv,
   wrd_cv

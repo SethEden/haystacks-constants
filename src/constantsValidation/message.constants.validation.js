@@ -18,7 +18,7 @@ import * as msg from '../constants/message.constants.js';
  * @author Seth Hollingsead
  * @date 2022/03/20
  */
-export const messageConstantsVaidation = [
+export const messageConstantsValidation = [
   // Logging Constants
   {Name: 'cBEGIN_Space', Actual: msg.cBEGIN_Space, Expected: 'BEGIN '},
   {Name: 'cEND_Space', Actual: msg.cEND_Space, Expected: 'END '},
@@ -55,6 +55,7 @@ export const messageConstantsVaidation = [
   {Name: 'cgenerateSpecialCharactersIs', Actual: msg.cgenerateSpecialCharactersIs, Expected: 'generateSpecialCharacters is: '},
   {Name: 'callowableSpecialCharactersIs', Actual: msg.callowableSpecialCharactersIs, Expected: 'allowableSpecialCharacters is: '},
   {Name: 'cspecifiedSuffixAndDomainIs', Actual: msg.cspecifiedSuffixAndDomainIs, Expected: 'specifiedSuffixAndDomain is: '},
+  {Name: 'clanguageIs', Actual: msg.clanguageIs, Expected: 'language is: '},
   {Name: 'cfailureModeIs', Actual: msg.cfailureModeIs, Expected: 'failureMode is: '},
   {Name: 'cprefixIs', Actual: msg.cprefixIs, Expected: 'prefix is: '},
   {Name: 'csuffixIs', Actual: msg.csuffixIs, Expected: 'suffix is: '},
@@ -263,6 +264,7 @@ export const messageConstantsVaidation = [
   {Name: 'cBeginPhase2ConstantsValidation', Actual: msg.cBeginPhase2ConstantsValidation, Expected: 'BEGIN Phase 2 Constants Validation'},
   {Name: 'cEndPhase2ConstantsValidation', Actual: msg.cEndPhase2ConstantsValidation, Expected: 'END Phase 2 Constants Validation'},
   {Name: 'cconstantsPathIs', Actual: msg.cconstantsPathIs, Expected: 'constantsPath is: '},
+  {Name: 'cresolvedConstantsPath_AlphabetIs', Actual: msg.cresolvedConstantsPath_AlphabetIs, Expected: 'resolvedConstantsPath_Alphabet is: '},
   {Name: 'cresolvedConstantsPath_BasicIs', Actual: msg.cresolvedConstantsPath_BasicIs, Expected: 'resolvedConstantsPath_Basic is: '},
   {Name: 'cresolvedConstantsPath_BusinessIs', Actual: msg.cresolvedConstantsPath_BusinessIs, Expected: 'resolvedConstantsPath_Business is: '},
   {Name: 'cresolvedConstantsPath_ColorIs', Actual: msg.cresolvedConstantsPath_ColorIs, Expected: 'resolvedConstantsPath_Color is: '},
@@ -278,10 +280,12 @@ export const messageConstantsVaidation = [
   {Name: 'cresolvedConstantsPath_MessageIs', Actual: msg.cresolvedConstantsPath_MessageIs, Expected: 'resolvedConstantsPath_Message is: '},
   {Name: 'cresolvedConstantsPath_NumericIs', Actual: msg.cresolvedConstantsPath_NumericIs, Expected: 'resolvedConstantsPath_Numeric is: '},
   {Name: 'cresolvedConstantsPath_PhonicIs', Actual: msg.cresolvedConstantsPath_PhonicIs, Expected: 'resolvedConstantsPath_Phonic is: '},
+  {Name: 'cresolvedConstantsPath_StateIs', Actual: msg.cresolvedConstantsPath_StateIs, Expected: 'resolvedConstantsPath_State is: '},
   {Name: 'cresolvedConstantsPath_ShapeIs', Actual: msg.cresolvedConstantsPath_ShapeIs, Expected: 'resolvedConstantsPath_Shape is: '},
   {Name: 'cresolvedConstantsPath_SystemIs', Actual: msg.cresolvedConstantsPath_SystemIs, Expected: 'resolvedConstantsPath_System is: '},
   {Name: 'cresolvedConstantsPath_UnitIs', Actual: msg.cresolvedConstantsPath_UnitIs, Expected: 'resolvedConstantsPath_Unit is: '},
   {Name: 'cresolvedConstantsPath_WordIs', Actual: msg.cresolvedConstantsPath_WordIs, Expected: 'resolvedConstantsPath_Word is: '},
+  {Name: 'cAlphabetConstantsPhase1Validation', Actual: msg.cAlphabetConstantsPhase1Validation, Expected: 'Alphabet Constants Phase 1 Validation'},
   {Name: 'cBasicConstantsPhase1Validation', Actual: msg.cBasicConstantsPhase1Validation, Expected: 'Basic Constants Phase 1 Validation'},
   {Name: 'cBusinessConstantsPhase1Validation', Actual: msg.cBusinessConstantsPhase1Validation, Expected: 'Business Constants Phase 1 Validation'},
   {Name: 'cColorConstantsPhase1Validation', Actual: msg.cColorConstantsPhase1Validation, Expected: 'Color Constants Phase 1 Validation'},
@@ -297,10 +301,12 @@ export const messageConstantsVaidation = [
   {Name: 'cMessageConstantsPhase1Validation', Actual: msg.cMessageConstantsPhase1Validation, Expected: 'Message Constants Phase 1 Validation'},
   {Name: 'cNumericConstantsPhase1Validation', Actual: msg.cNumericConstantsPhase1Validation, Expected: 'Numeric Constants Phase 1 Validation'},
   {Name: 'cPhonicConstantsPhase1Validation', Actual: msg.cPhonicConstantsPhase1Validation, Expected: 'Phonic Constants Phase 1 Validation'},
+  {Name: 'cStateConstantsPhase1Validation', Actual: msg.cStateConstantsPhase1Validation, Expected: 'State Constants Phase 1 Validation'},
   {Name: 'cShapeConstantsPhase1Validation', Actual: msg.cShapeConstantsPhase1Validation, Expected: 'Shape Constants Phase 1 Validation'},
   {Name: 'cSystemConstantsPhase1Validation', Actual: msg.cSystemConstantsPhase1Validation, Expected: 'System Constants Phase 1 Validation'},
   {Name: 'cUnitConstantsPhase1Validation', Actual: msg.cUnitConstantsPhase1Validation, Expected: 'Unit Constants Phase 1 Validation'},
   {Name: 'cWordConstantsPhase1Validation', Actual: msg.cWordConstantsPhase1Validation, Expected: 'Word Constants Phase 1 Validation'},
+  {Name: 'cAlphabetConstantsPhase2Validation', Actual: msg.cAlphabetConstantsPhase2Validation, Expected: 'Alphabet Constants Phase 2 Validation'},
   {Name: 'cBasicConstantsPhase2Validation', Actual: msg.cBasicConstantsPhase2Validation, Expected: 'Basic Constants Phase 2 Validation'},
   {Name: 'cBusinessConstantsPhase2Validation', Actual: msg.cBusinessConstantsPhase2Validation, Expected: 'Business Constants Phase 2 Validation'},
   {Name: 'cColorConstantsPhase2Validation', Actual: msg.cColorConstantsPhase2Validation, Expected: 'Color Constants Phase 2 Validation'},
@@ -316,6 +322,7 @@ export const messageConstantsVaidation = [
   {Name: 'cMessageConstantsPhase2Validation', Actual: msg.cMessageConstantsPhase2Validation, Expected: 'Message Constants Phase 2 Validation'},
   {Name: 'cNumericConstantsPhase2Validation', Actual: msg.cNumericConstantsPhase2Validation, Expected: 'Numeric Constants Phase 2 Validation'},
   {Name: 'cPhonicConstantsPhase2Validation', Actual: msg.cPhonicConstantsPhase2Validation, Expected: 'Phonic Constants Phase 2 Validation'},
+  {Name: 'cStateConstantsPhase2Validation', Actual: msg.cStateConstantsPhase2Validation, Expected: 'State Constants Phase 2 Validation'},
   {Name: 'cShapeConstantsPhase2Validation', Actual: msg.cShapeConstantsPhase2Validation, Expected: 'Shape Constants Phase 2 Validation'},
   {Name: 'cSystemConstantsPhase2Validation', Actual: msg.cSystemConstantsPhase2Validation, Expected: 'System Constants Phase 2 Validation'},
   {Name: 'cUnitConstantsPhase2Validation', Actual: msg.cUnitConstantsPhase2Validation, Expected: 'Unit Constants Phase 2 Validation'},
@@ -1163,6 +1170,13 @@ export const messageConstantsVaidation = [
   {Name: 'cErrorDeleteFileMessage01', Actual: msg.cErrorDeleteFileMessage01, Expected: 'ERROR: No file specified, cannot delete nothing.'},
   {Name: 'cErrorDeleteFileMessage02', Actual: msg.cErrorDeleteFileMessage02, Expected: 'ERROR: There was an error attempting to delete the file: '},
   {Name: 'cErrorUnregisterPluginsMessage02', Actual: msg.cErrorUnregisterPluginsMessage02, Expected: 'ERROR: Plugin List Array is an invalid value: '},
+  {Name: 'cEncryptionSuccessful', Actual: msg.cEncryptionSuccessful, Expected: 'Encryption successful'},
+  {Name: 'cDecryptionSuccessful', Actual: msg.cDecryptionSuccessful, Expected: 'Decryption successful'},
+  {Name: 'cErrorEncryptionFailed', Actual: msg.cErrorEncryptionFailed, Expected: 'ERROR: Encryption failed: '},
+  {Name: 'cErrorDecryptionFailed', Actual: msg.cErrorDecryptionFailed, Expected: 'ERROR: Decryption failed: '},
+  {Name: 'cErrorInvalidInputStrings', Actual: msg.cErrorInvalidInputStrings, Expected: 'ERROR: Invalid input strings.'},
+  {Name: 'cObfuscationSuccessful', Actual: msg.cObfuscationSuccessful, Expected: 'Obfuscation successful'},
+  {Name: 'cErrorInvalidInputString', Actual: msg.cErrorInvalidInputString, Expected: 'ERROR: Invalid input string.'},
 
   // Coded System Messages
   // EXAMPLE:

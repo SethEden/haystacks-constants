@@ -1,6 +1,6 @@
 /**
  * @file basic.constants.js
- * @module basic-constants
+ * @module basic.constants
  * @description Contains constants for all of the most basic characters and basic 2-character combinations.
  * @author Seth Hollingsead
  * @date 2020/06/04
@@ -2392,7 +2392,7 @@ export const cUJ = cU + cJ; // UJ
 export const cUK = cU + cK; // UK
 export const cUL = cU + cL; // UL
 export const cUM = cU + cM; // UM
-export const cUN = cU + cN; // UN
+export const cU_N = cU + cN; // UN
 export const cUO = cU + cO; // UO
 export const cUP = cU + cP; // UP
 export const cUQ = cU + cQ; // UQ
