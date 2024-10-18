@@ -1,7 +1,7 @@
 /**
  * @file system.constants.validation.js
  * @module system.constants.validation
- * @description Contaisn validations for system defined acronyms, many of them derived from the basic.constants.
+ * @description Contains validations for system defined acronyms, many of them derived from the basic.constants.
  * Also included are validations for system defined words, codes user interface objects, etc...
  * @requires module:system.constants
  * @author Seth Hollingsead
@@ -400,6 +400,7 @@ export const systemConstantsValidation = [
   {Name: 'cConstantsFilePaths', Actual: sys.cConstantsFilePaths, Expected: 'ConstantsFilePaths'},
   {Name: 'cConstantsPhase1ValidationMessages', Actual: sys.cConstantsPhase1ValidationMessages, Expected: 'ConstantsPhase1ValidationMessages'},
   {Name: 'cConstantsPhase2ValidationMessages', Actual: sys.cConstantsPhase2ValidationMessages, Expected: 'ConstantsPhase2ValidationMessages'},
+  {Name: 'cAlphabetConstantsValidation', Actual: sys.cAlphabetConstantsValidation, Expected: 'AlphabetConstantsValidation'},
   {Name: 'cBasicConstantsValidation', Actual: sys.cBasicConstantsValidation, Expected: 'BasicConstantsValidation'},
   {Name: 'cBusinessConstantsValidation', Actual: sys.cBusinessConstantsValidation, Expected: 'BusinessConstantsValidation'},
   {Name: 'cColorConstantsValidation', Actual: sys.cColorConstantsValidation, Expected: 'ColorConstantsValidation'},
@@ -415,6 +416,7 @@ export const systemConstantsValidation = [
   {Name: 'cMessageConstantsValidation', Actual: sys.cMessageConstantsValidation, Expected: 'MessageConstantsValidation'},
   {Name: 'cNumericConstantsValidation', Actual: sys.cNumericConstantsValidation, Expected: 'NumericConstantsValidation'},
   {Name: 'cPhonicConstantsValidation', Actual: sys.cPhonicConstantsValidation, Expected: 'PhonicConstantsValidation'},
+  {Name: 'cStateConstantsValidation', Actual: sys.cStateConstantsValidation, Expected: 'StateConstantsValidation'},
   {Name: 'cShapeConstantsValidation', Actual: sys.cShapeConstantsValidation, Expected: 'ShapeConstantsValidation'},
   {Name: 'cSystemConstantsValidation', Actual: sys.cSystemConstantsValidation, Expected: 'SystemConstantsValidation'},
   {Name: 'cUnitConstantsValidation', Actual: sys.cUnitConstantsValidation, Expected: 'UnitConstantsValidation'},
@@ -436,6 +438,7 @@ export const systemConstantsValidation = [
   {Name: 'ccommandPrompt', Actual: sys.ccommandPrompt, Expected: 'commandPrompt'},
 
   // Constants Filenames
+  {Name: 'calphabet_constants_js', Actual: sys.calphabet_constants_js, Expected: 'alphabet.constants.js'},
   {Name: 'cbasic_constants_js', Actual: sys.cbasic_constants_js, Expected: 'basic.constants.js'},
   {Name: 'cbusiness_constants_js', Actual: sys.cbusiness_constants_js, Expected: 'business.constants.js'},
   {Name: 'ccolor_constants_js', Actual: sys.ccolor_constants_js, Expected: 'color.constants.js'},
@@ -452,6 +455,7 @@ export const systemConstantsValidation = [
   {Name: 'cmessage_constants_js', Actual: sys.cmessage_constants_js, Expected: 'message.constants.js'},
   {Name: 'cnumeric_constants_js', Actual: sys.cnumeric_constants_js, Expected: 'numeric.constants.js'},
   {Name: 'cphonic_constants_js', Actual: sys.cphonic_constants_js, Expected: 'phonic.constants.js'},
+  {Name: 'cstate_constants_js', Actual: sys.cstate_constants_js, Expected: 'state.constants.js'},
   {Name: 'cshape_constants_js', Actual: sys.cshape_constants_js, Expected: 'shape.constants.js'},
   {Name: 'csystem_constants_js', Actual: sys.csystem_constants_js, Expected: 'system.constants.js'},
   {Name: 'cunit_constants_js', Actual: sys.cunit_constants_js, Expected: 'unit.constants.js'},

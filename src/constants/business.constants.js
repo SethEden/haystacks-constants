@@ -172,6 +172,9 @@ export const cgetKeywordNameFromDataContextName = wrd.cget + wrd.cKeyword + wrd.
 export const cloadDataFile = wrd.cload + wrd.cData + wrd.cFile; // loadDataFile
 export const csaveDataFile = wrd.csave + wrd.cData + wrd.cFile; // saveDataFile
 export const cgetUserNameFromEmail = wrd.cget + wrd.cUser + wrd.cName + wrd.cFrom + wrd.cEmail; // getUserNameFromEmail
+export const cencryptStringAes256 = wrd.cencrypt + wrd.cString + gen.cAes256; // encryptStringAes256
+export const cdecryptStringAes256 = wrd.cdecrypt + wrd.cString + gen.cAes256; // decryptStringAes256
+export const cobfuscateString = wrd.cobfuscate + wrd.cString; // obfuscateString
 
 // ***********************************************
 // FileStringParsing rules in order
@@ -246,6 +249,11 @@ export const ccopyFileSync = wrd.ccopy + wrd.cFile + wrd.cSync; // copyFileSync
 export const ccopyFolderRecursiveSync = wrd.ccopy + wrd.cFolder + wrd.cRecursive + wrd.cSync; // copyFolderRecursiveSync
 export const cdeleteFile = wrd.cdelete + wrd.cFile; // deleteFile
 export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.cFile; // appendMessageToFile
+
+// ***********************************************
+// language Parsing rules in order
+// ***********************************************
+export const clanguageToAlphabet = wrd.clanguage + wrd.cTo + wrd.cAlphabet; // languageToAlphabet
 
 // ***********************************************
 // lexicalAnalyzer rules in order

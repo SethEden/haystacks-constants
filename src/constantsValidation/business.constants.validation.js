@@ -170,6 +170,9 @@ export const businessConstantsValidation = [
   {Name: 'cloadDataFile', Actual: biz.cloadDataFile, Expected: 'loadDataFile'},
   {Name: 'csaveDataFile', Actual: biz.csaveDataFile, Expected: 'saveDataFile'},
   {Name: 'cgetUserNameFromEmail', Actual: biz.cgetUserNameFromEmail, Expected: 'getUserNameFromEmail'},
+  {Name: 'cencryptStringAes256', Actual: biz.cencryptStringAes256, Expected: 'encryptStringAes256'},
+  {Name: 'cdecryptStringAes256', Actual: biz.cdecryptStringAes256, Expected: 'decryptStringAes256'},
+  {Name: 'cobfuscateString', Actual: biz.cobfuscateString, Expected: 'obfuscateString'},
 
   // ***********************************************
   // FileStringParsing rules in order
@@ -244,6 +247,11 @@ export const businessConstantsValidation = [
   {Name: 'ccopyFolderRecursiveSync', Actual: biz.ccopyFolderRecursiveSync, Expected: 'copyFolderRecursiveSync'},
   {Name: 'cdeleteFile', Actual: biz.cdeleteFile, Expected: 'deleteFile'},
   {Name: 'cappendMessageToFile', Actual: biz.cappendMessageToFile, Expected: 'appendMessageToFile'},
+
+  // ***********************************************
+  // language Parsing rules in order
+  // ***********************************************
+  {Name: 'clanguageToAlphabet', Actual: biz.clanguageToAlphabet, Expected: 'languageToAlphabet'},
 
   // ***********************************************
   // lexicalAnalyzer rules in order
