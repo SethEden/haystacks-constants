@@ -5854,6 +5854,22 @@ export const clinkage = clink + cage; // linkage
 export const cLinkage = cLink + cage; // Linkage
 export const clinkless = clink + phn.cless; // linkless
 export const cLinkless = cLink + phn.cless; // Linkless
+export const ccompatible = phn.ccomp + bas.cat + phn.cible; // compatible
+export const cCompatible = phn.cComp + bas.cat + phn.cible; // Compatible
+export const cincompatible = cin + ccompatible; // incompatible
+export const cIncompatible = cIn + ccompatible; // Incompatible
+export const ccompatibly = phn.ccomp + bas.cat + phn.cibly; // compatibly
+export const cCompatibly = phn.cComp + bas.cat + phn.cibly; // Compatibly
+export const cincompatibly = cin + ccompatibly; // incompatibly
+export const cIncompatibly = cIn + ccompatibly; // Incompatibly
+export const ccompatibility = phn.ccomp + bas.cat + phn.cibility; // compatibility
+export const cCompatibility = phn.cComp + bas.cat + phn.cibility; // Compatibility
+export const cincompatibility = cin + ccompatibility; // incompatibility
+export const cIncompatibility = cIn + ccompatibility; // Incompatibility
+export const ccompatibilities = phn.ccomp + bas.cat + phn.cibilities; // compatibilities
+export const cCompatibilities = phn.cComp + bas.cat + phn.cibilities; // Compatibilities
+export const cincompatibilities = cin + ccompatibilities; // incompatibilities
+export const cIncompatibilities = cIn + ccompatibilities; // Incompatibilities
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
