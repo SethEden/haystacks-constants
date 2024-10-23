@@ -384,6 +384,8 @@ export const messageConstantsValidation = [
   {Name: 'cframeworkFullMetaDataPathIs', Actual: msg.cframeworkFullMetaDataPathIs, Expected: 'frameworkFullMetaDataPath is: '},
   {Name: 'cframeworkConfigPathIs', Actual: msg.cframeworkConfigPathIs, Expected: 'frameworkConfigPath is: '},
   {Name: 'cframeworkThemesPathIs', Actual: msg.cframeworkThemesPathIs, Expected: 'frameworkThemesPath is: '},
+  {Name: 'cframeworkSchemasPathIs', Actual: msg.cframeworkSchemasPathIs, Expected: 'frameworkSchemasPath is: '},
+  {Name: 'cframeworkSchemasDataIs', Actual: msg.cframeworkSchemasDataIs, Expected: 'FrameworkSchemasData is: '},
   {Name: 'cframeworkCommandAliasesPathIs', Actual: msg.cframeworkCommandAliasesPathIs, Expected: 'frameworkCommandAliasesPath is: '},
   {Name: 'cframeworkWorkflowsPathIs', Actual: msg.cframeworkWorkflowsPathIs, Expected: 'frameworkWorkflowsPath is: '},
   {Name: 'ccommandAliasesPathIs', Actual: msg.ccommandAliasesPathIs, Expected: 'commandAliasesPath is: '},
@@ -854,6 +856,12 @@ export const messageConstantsValidation = [
   {Name: 'cpluginReleaseResourcesPathIs', Actual: msg.cpluginReleaseResourcesPathIs, Expected: 'pluginReleaseResourcesPath is: '},
   {Name: 'cfilesToLoadIsValid', Actual: msg.cfilesToLoadIsValid, Expected: 'filesToLoad is valid'},
   {Name: 'cpluginsFromPathArrayIs', Actual: msg.cpluginsFromPathArrayIs, Expected: 'pluginsFromPathArray is: '},
+  {Name: 'cschemaDataObjectIs', Actual: msg.cschemaDataObjectIs, Expected: 'schemaDataObject is: '},
+  {Name: 'cschemaDataObjectsIs', Actual: msg.cschemaDataObjectsIs, Expected: 'schemaDataObjects is: '},
+  {Name: 'cStoredSchemaUnderNamespace', Actual: msg.cStoredSchemaUnderNamespace, Expected: 'Stored schema under namespace: '},
+  {Name: 'clanguageSchemaIs', Actual: msg.clanguageSchemaIs, Expected: 'languageSchema is: '},
+  {Name: 'clanguageKeyIs', Actual: msg.clanguageKeyIs, Expected: 'languageKey is: '},
+  {Name: 'clanguageRuleIs', Actual: msg.clanguageRuleIs, Expected: 'languageRule is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -1177,6 +1185,7 @@ export const messageConstantsValidation = [
   {Name: 'cErrorInvalidInputStrings', Actual: msg.cErrorInvalidInputStrings, Expected: 'ERROR: Invalid input strings.'},
   {Name: 'cObfuscationSuccessful', Actual: msg.cObfuscationSuccessful, Expected: 'Obfuscation successful'},
   {Name: 'cErrorInvalidInputString', Actual: msg.cErrorInvalidInputString, Expected: 'ERROR: Invalid input string.'},
+  {Name: 'cErrorInvalidSchemaDataObjectMissingSchemasKey', Actual: msg.cErrorInvalidSchemaDataObjectMissingSchemasKey, Expected: 'ERROR: Invalid schemaDataObject: Missing schemas key'},
 
   // Coded System Messages
   // EXAMPLE:

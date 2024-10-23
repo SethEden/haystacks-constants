@@ -3338,6 +3338,9 @@ export const cPHI = bas.cPH + bas.cI; // PHI
 export const csan = bas.csa + bas.cn; // san
 export const cSan = bas.cSa + bas.cn; // San
 export const cSAN = bas.cSA + bas.cN; // SAN
+export const cema = bas.cem + bas.ca; // ema
+export const cEma = bas.cEm + bas.ca; // Ema
+export const cEMA = bas.cEM + bas.cA; // EMA
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

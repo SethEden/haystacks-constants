@@ -252,6 +252,21 @@ export const businessConstantsValidation = [
   // language Parsing rules in order
   // ***********************************************
   {Name: 'clanguageToAlphabet', Actual: biz.clanguageToAlphabet, Expected: 'languageToAlphabet'},
+  {Name: 'cgetEnglishAlphabet', Actual: biz.cgetEnglishAlphabet, Expected: 'getEnglishAlphabet'},
+  {Name: 'cgetChineseSimplifiedAlphabet', Actual: biz.cgetChineseSimplifiedAlphabet, Expected: 'getChineseSimplifiedAlphabet'},
+  {Name: 'cgetChineseTraditionalAlphabet', Actual: biz.cgetChineseTraditionalAlphabet, Expected: 'getChineseTraditionalAlphabet'},
+  {Name: 'cgetCzechAlphabet', Actual: biz.cgetCzechAlphabet, Expected: 'getCzechAlphabet'},
+  {Name: 'cgetFrenchAlphabet', Actual: biz.cgetFrenchAlphabet, Expected: 'getFrenchAlphabet'},
+  {Name: 'cgetGermanAlphabet', Actual: biz.cgetGermanAlphabet, Expected: 'getGermanAlphabet'},
+  {Name: 'cgetHungarianAlphabet', Actual: biz.cgetHungarianAlphabet, Expected: 'getHungarianAlphabet'},
+  {Name: 'cgetItalianAlphabet', Actual: biz.cgetItalianAlphabet, Expected: 'getItalianAlphabet'},
+  {Name: 'cgetJapaneseAlphabet', Actual: biz.cgetJapaneseAlphabet, Expected: 'getJapaneseAlphabet'},
+  {Name: 'cgetKoreanAlphabet', Actual: biz.cgetKoreanAlphabet, Expected: 'getKoreanAlphabet'},
+  {Name: 'cgetMiscellaneousAlphabet', Actual: biz.cgetMiscellaneousAlphabet, Expected: 'getMiscellaneousAlphabet'},
+  {Name: 'cgetPolishAlphabet', Actual: biz.cgetPolishAlphabet, Expected: 'getPolishAlphabet'},
+  {Name: 'cgetPortugueseAlphabet', Actual: biz.cgetPortugueseAlphabet, Expected: 'getPortugueseAlphabet'},
+  {Name: 'cgetRussianAlphabet', Actual: biz.cgetRussianAlphabet, Expected: 'getRussianAlphabet'},
+  {Name: 'cgetSpanishAlphabet', Actual: biz.cgetSpanishAlphabet, Expected: 'getSpanishAlphabet'},
 
   // ***********************************************
   // lexicalAnalyzer rules in order

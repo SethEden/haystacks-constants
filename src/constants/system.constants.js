@@ -476,5 +476,6 @@ export const cframeworkConstantsPath = wrd.cconstants + bas.cDoubleForwardSlash;
 export const cframeworkResourcesPath = wrd.cresources + bas.cDoubleForwardSlash; // resources//
 export const cframeworkResourcesConfigurationPath = cframeworkResourcesPath + wrd.cconfiguration + bas.cDoubleForwardSlash; // resources//configuration//
 export const cframeworkThemesPath = cframeworkResourcesPath + wrd.cthemes + bas.cDoubleForwardSlash; // resources//themes//
+export const cframeworkSchemasPath = cframeworkResourcesPath + wrd.cschemas + bas.cDoubleForwardSlash; // resources//schemas//
 export const cframeworkResourcesCommandAliasesPath = cframeworkResourcesPath + wrd.ccommands + bas.cDoubleForwardSlash; // resources//commands//
 export const cframeworkResourcesWorkflowsPath = cframeworkResourcesPath + wrd.cworkflows + bas.cDoubleForwardSlash; // resources//workflows//

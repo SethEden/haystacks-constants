@@ -388,6 +388,8 @@ export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.c
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
 export const cframeworkThemesPathIs = wrd.cframework + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkThemesPath is:
+export const cframeworkSchemasPathIs = wrd.cframework + wrd.cSchemas + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkSchemasPath is:
+export const cframeworkSchemasDataIs = wrd.cframework + wrd.cSchemas + wrd.cData + sys.cSpaceIsColonSpace; // FrameworkSchemasData is:
 export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkCommandAliasesPath is:
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
@@ -859,6 +861,12 @@ export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpac
 export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
 export const cfilesToLoadIsValid = wrd.cfiles + wrd.cTo + wrd.cLoad + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid; // filesToLoad is valid
 export const cpluginsFromPathArrayIs = wrd.cplugins + wrd.cFrom + wrd.cPath + wrd.cArray + sys.cSpaceIsColonSpace; // pluginsFromPathArray is:
+export const cschemaDataObjectIs = wrd.cschema + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // schemaDataObject is:
+export const cschemaDataObjectsIs = wrd.cschema + wrd.cData + wrd.cObjects + sys.cSpaceIsColonSpace; // schemaDataObjects is:
+export const cStoredSchemaUnderNamespace = wrd.cStored + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cunder + bas.cSpace + wrd.cnamespace + bas.cColon + bas.cSpace; // Stored schema under namespace:
+export const clanguageSchemaIs = wrd.clanguage + wrd.cSchema + sys.cSpaceIsColonSpace; // languageSchema is:
+export const clanguageKeyIs = wrd.clanguage + wrd.cKey + sys.cSpaceIsColonSpace; // languageKey is:
+export const clanguageRuleIs = wrd.clanguage + wrd.cRule + sys.cSpaceIsColonSpace; // languageRule is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1404,6 +1412,7 @@ export const cErrorDecryptionFailed = cERROR_Colon + wrd.cDecryption + bas.cSpac
 export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstrings + bas.cDot; // ERROR: Invalid input strings.
 export const cObfuscationSuccessful = wrd.cObfuscation + bas.cSpace + wrd.csuccessful; // Obfuscation successful
 export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
+export const cErrorInvalidSchemaDataObjectMissingSchemasKey = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + wrd.cData + wrd.cObject + bas.cColon + bas.cSpace + wrd.cMissing + bas.cSpace + wrd.cschemas + bas.cSpace + wrd.ckey; // ERROR: Invalid schemaDataObject: Missing schemas key
 
 
 // Coded System Messages

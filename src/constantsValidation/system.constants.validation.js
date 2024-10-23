@@ -476,6 +476,7 @@ export const systemConstantsValidation = [
   {Name: 'cframeworkResourcesPath', Actual: sys.cframeworkResourcesPath, Expected: 'resources//'},
   {Name: 'cframeworkResourcesConfigurationPath', Actual: sys.cframeworkResourcesConfigurationPath, Expected: 'resources//configuration//'},
   {Name: 'cframeworkThemesPath', Actual: sys.cframeworkThemesPath, Expected: 'resources//themes//'},
+  {Name: 'cframeworkSchemasPath', Actual: sys.cframeworkSchemasPath, Expected: 'resources//schemas//'},
   {Name: 'cframeworkResourcesCommandAliasesPath', Actual: sys.cframeworkResourcesCommandAliasesPath, Expected: 'resources//commands//'},
   {Name: 'cframeworkResourcesWorkflowsPath', Actual: sys.cframeworkResourcesWorkflowsPath, Expected: 'resources//workflows//'}
 ];

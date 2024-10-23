@@ -3742,6 +3742,8 @@ export const wordConstantsValidation = [
   {Name: 'cComputing', Actual: wrd.cComputing, Expected: 'Computing'},
   {Name: 'cschema', Actual: wrd.cschema, Expected: 'schema'},
   {Name: 'cSchema', Actual: wrd.cSchema, Expected: 'Schema'},
+  {Name: 'cschemas', Actual: wrd.cschemas, Expected: 'schemas'},
+  {Name: 'cSchemas', Actual: wrd.cSchemas, Expected: 'Schemas'},
   {Name: 'cdot', Actual: wrd.cdot, Expected: 'dot'},
   {Name: 'cDot', Actual: wrd.cDot, Expected: 'Dot'},
   {Name: 'cdots', Actual: wrd.cdots, Expected: 'dots'},

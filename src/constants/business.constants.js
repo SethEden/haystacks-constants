@@ -4,6 +4,7 @@
  * @description Contains many re-usable business rules constants.
  * @requires module:basic.constants
  * @requires module:generic.constants
+ * @requires module:language.constants
  * @requires module:numeric.constants
  * @requires module:phonic.constants
  * @requires module:system.constants
@@ -16,6 +17,7 @@
 // Internal imports
 import * as bas from './basic.constants.js';
 import * as gen from './generic.constants.js';
+import * as lng from './language.constants.js';
 import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
 import * as sys from './system.constants.js';
@@ -254,6 +256,21 @@ export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.c
 // language Parsing rules in order
 // ***********************************************
 export const clanguageToAlphabet = wrd.clanguage + wrd.cTo + wrd.cAlphabet; // languageToAlphabet
+export const cgetEnglishAlphabet = wrd.cget + lng.cEnglish + wrd.cAlphabet; // getEnglishAlphabet
+export const cgetChineseSimplifiedAlphabet = wrd.cget + lng.cChineseSimplified + wrd.cAlphabet; // getChineseSimplifiedAlphabet
+export const cgetChineseTraditionalAlphabet = wrd.cget + lng.cChineseTraditional + wrd.cAlphabet; // getChineseTraditionalAlphabet
+export const cgetCzechAlphabet = wrd.cget + lng.cCzech + wrd.cAlphabet; // getCzechAlphabet
+export const cgetFrenchAlphabet = wrd.cget + lng.cFrench + wrd.cAlphabet; // getFrenchAlphabet
+export const cgetGermanAlphabet = wrd.cget + lng.cGerman + wrd.cAlphabet; // getGermanAlphabet
+export const cgetHungarianAlphabet = wrd.cget + lng.cHungarian + wrd.cAlphabet; // getHungarianAlphabet
+export const cgetItalianAlphabet = wrd.cget + lng.cItalian + wrd.cAlphabet; // getItalianAlphabet
+export const cgetJapaneseAlphabet = wrd.cget + lng.cJapanese + wrd.cAlphabet; // getJapaneseAlphabet
+export const cgetKoreanAlphabet = wrd.cget + lng.cKorean + wrd.cAlphabet; // getKoreanAlphabet
+export const cgetMiscellaneousAlphabet = wrd.cget + lng.cMiscellaneous + wrd.cAlphabet; // getMiscellaneousAlphabet
+export const cgetPolishAlphabet = wrd.cget + lng.cPolish + wrd.cAlphabet; // getPolishAlphabet
+export const cgetPortugueseAlphabet = wrd.cget + lng.cPortuguese + wrd.cAlphabet; // getPortugueseAlphabet
+export const cgetRussianAlphabet = wrd.cget + lng.cRussian + wrd.cAlphabet; // getRussianAlphabet
+export const cgetSpanishAlphabet = wrd.cget + lng.cSpanish + wrd.cAlphabet; // getSpanishAlphabet
 
 // ***********************************************
 // lexicalAnalyzer rules in order
