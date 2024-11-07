@@ -436,6 +436,7 @@ export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 export const cUserEnteredCommandLog = wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cLog; // UserEnteredCommandLog
 export const cSystemCommandLog = wrd.cSystem + wrd.cCommand + wrd.cLog; // SystemCommandLog
 export const ccommandPrompt = wrd.ccommand + wrd.cPrompt; // commandPrompt
+export const clocalhost = wrd.clocal + wrd.chost; // localhost
 
 // Constants Filenames
 export const calphabet_constants_js = wrd.calphabet + bas.cDot + wrd.cconstants + gen.cDotjs; // alphabet.constants.js

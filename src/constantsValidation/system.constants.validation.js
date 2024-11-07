@@ -436,6 +436,7 @@ export const systemConstantsValidation = [
   {Name: 'cUserEnteredCommandLog', Actual: sys.cUserEnteredCommandLog, Expected: 'UserEnteredCommandLog'},
   {Name: 'cSystemCommandLog', Actual: sys.cSystemCommandLog, Expected: 'SystemCommandLog'},
   {Name: 'ccommandPrompt', Actual: sys.ccommandPrompt, Expected: 'commandPrompt'},
+  {Name: 'clocalhost', Actual: sys.clocalhost, Expected: 'localhost'},
 
   // Constants Filenames
   {Name: 'calphabet_constants_js', Actual: sys.calphabet_constants_js, Expected: 'alphabet.constants.js'},

@@ -371,6 +371,7 @@ export const cdataFileToMergeIs = wrd.cdata + wrd.cFile + bas.cSpace + bas.cto +
 export const cparsedDataFileIs = wrd.cparsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // parsedDataFile is:
 export const cexecuteBusinessRules = wrd.cexecute + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cColon + bas.cSpace; // execute business rules:
 export const cdataFileIs = wrd.cdata + wrd.cFile + sys.cSpaceIsColonSpace; // dataFile is:
+export const cdataFilesIs = wrd.cdata + wrd.cFiles + sys.cSpaceIsColonSpace; // dataFiles is:
 export const cmergedDataIs = wrd.cmerged + wrd.cData + sys.cSpaceIsColonSpace; // mergedData is:
 export const cdebugConfigurationSettingValueIs = wrd.cdebug + wrd.cConfiguration + wrd.cSetting + wrd.cValue + sys.cSpaceIsColonSpace; // debugConfigurationSettingValue is:
 export const cclientRootPathIs = wrd.cclient + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // clientRootPath is:
@@ -867,6 +868,9 @@ export const cStoredSchemaUnderNamespace = wrd.cStored + bas.cSpace + wrd.cschem
 export const clanguageSchemaIs = wrd.clanguage + wrd.cSchema + sys.cSpaceIsColonSpace; // languageSchema is:
 export const clanguageKeyIs = wrd.clanguage + wrd.cKey + sys.cSpaceIsColonSpace; // languageKey is:
 export const clanguageRuleIs = wrd.clanguage + wrd.cRule + sys.cSpaceIsColonSpace; // languageRule is:
+export const cfilesArrayIs = wrd.cfiles + wrd.cArray + sys.cSpaceIsColonSpace; // filesArray is:
+export const cclonedParsedDataFileIs = wrd.ccloned + wrd.cParsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // clonedParsedDataFile is:
+export const cmergedDataContentsIs = wrd.cmerged + wrd.cData + wrd.cContents + sys.cSpaceIsColonSpace; // mergedDataContents is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;

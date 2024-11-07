@@ -367,6 +367,7 @@ export const messageConstantsValidation = [
   {Name: 'cparsedDataFileIs', Actual: msg.cparsedDataFileIs, Expected: 'parsedDataFile is: '},
   {Name: 'cexecuteBusinessRules', Actual: msg.cexecuteBusinessRules, Expected: 'execute business rules: '},
   {Name: 'cdataFileIs', Actual: msg.cdataFileIs, Expected: 'dataFile is: '},
+  {Name: 'cdataFilesIs', Actual: msg.cdataFilesIs, Expected: 'dataFiles is: '},
   {Name: 'cmergedDataIs', Actual: msg.cmergedDataIs, Expected: 'mergedData is: '},
   {Name: 'cdebugConfigurationSettingValueIs', Actual: msg.cdebugConfigurationSettingValueIs, Expected: 'debugConfigurationSettingValue is: '},
   {Name: 'cclientRootPathIs', Actual: msg.cclientRootPathIs, Expected: 'clientRootPath is: '},
@@ -862,6 +863,9 @@ export const messageConstantsValidation = [
   {Name: 'clanguageSchemaIs', Actual: msg.clanguageSchemaIs, Expected: 'languageSchema is: '},
   {Name: 'clanguageKeyIs', Actual: msg.clanguageKeyIs, Expected: 'languageKey is: '},
   {Name: 'clanguageRuleIs', Actual: msg.clanguageRuleIs, Expected: 'languageRule is: '},
+  {Name: 'cfilesArrayIs', Actual: msg.cfilesArrayIs, Expected: 'filesArray is: '},
+  {Name: 'cclonedParsedDataFileIs', Actual: msg.cclonedParsedDataFileIs, Expected: 'clonedParsedDataFile is: '},
+  {Name: 'cmergedDataContentsIs', Actual: msg.cmergedDataContentsIs, Expected: 'mergedDataContents is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},

@@ -3341,6 +3341,12 @@ export const cSAN = bas.cSA + bas.cN; // SAN
 export const cema = bas.cem + bas.ca; // ema
 export const cEma = bas.cEm + bas.ca; // Ema
 export const cEMA = bas.cEM + bas.cA; // EMA
+export const cool = bas.coo + bas.cl; // ool
+export const cOol = bas.cOo + bas.cl; // Ool
+export const cOOL = bas.cOO + bas.cL; // OOL
+export const ceer = bas.cee + bas.cr; // eer
+export const cEer = bas.cEe + bas.cr; // Eer
+export const cEER = bas.cEE + bas.cR; // EER
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
