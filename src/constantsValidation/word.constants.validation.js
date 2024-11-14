@@ -1489,6 +1489,7 @@ export const wordConstantsValidation = [
   {Name: 'cLocating', Actual: wrd.cLocating, Expected: 'Locating'},
   {Name: 'clocator', Actual: wrd.clocator, Expected: 'locator'},
   {Name: 'cLocator', Actual: wrd.cLocator, Expected: 'Locator'},
+  {Name: 'cLOCATOR', Actual: wrd.cLOCATOR, Expected: 'LOCATOR'},
   {Name: 'clocators', Actual: wrd.clocators, Expected: 'locators'},
   {Name: 'cLocators', Actual: wrd.cLocators, Expected: 'Locators'},
   {Name: 'cLocatorLibrary', Actual: wrd.cLocatorLibrary, Expected: 'LocatorLibrary'},
