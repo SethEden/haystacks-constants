@@ -36,6 +36,7 @@ export const messageConstantsValidation = [
   {Name: 'cinputsIs', Actual: msg.cinputsIs, Expected: 'inputs is: '},
   {Name: 'cinputMetaDataIs', Actual: msg.cinputMetaDataIs, Expected: 'inputMetaData is: '},
   {Name: 'creturnDataIs', Actual: msg.creturnDataIs, Expected: 'returnData is: '},
+  {Name: 'creturnValueIs', Actual: msg.creturnValueIs, Expected: 'returnValue is: '},
   {Name: 'creturnDataTempIs', Actual: msg.creturnDataTempIs, Expected: 'returnDataTemp is: '},
 
   // System Messages

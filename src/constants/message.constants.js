@@ -39,6 +39,7 @@ export const cinputDataIs = cinputData + sys.cSpaceIsColonSpace; // inputData is
 export const cinputsIs = wrd.cinputs + sys.cSpaceIsColonSpace; // inputs is:
 export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSpace; // inputMetaData is:
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
+export const creturnValueIs = wrd.creturn + wrd.cValue + sys.cSpaceIsColonSpace; // returnValue is:
 export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpaceIsColonSpace; // returnDataTemp is:
 
 // System Messages
