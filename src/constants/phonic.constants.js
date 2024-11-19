@@ -3380,6 +3380,18 @@ export const cBLY = bas.cBL + bas.cY; // BLY
 export const cably = bas.ca + cbly; // ably
 export const cAbly = bas.ca + cbly; // Ably
 export const cABLY = bas.cA + cBLY; // ABLY
+export const cistic = bas.cis + ctic; // istic
+export const cIstic = bas.cIs + ctic; // Istic
+export const cISTIC = bas.cIS + cTIC; // ISTIC
+export const cbed = bas.cbe + bas.cd; // bed
+export const cBed = bas.cBe + bas.cd; // Bed
+export const cBED = bas.cBE + bas.cD; // BED
+export const cery = bas.cer + bas.cy; // ery
+export const cEry = bas.cEr + bas.cy; // Ery
+export const cERY = bas.cER + bas.cY; // ERY
+export const crob = bas.cro + bas.cb; // rob
+export const cRob = bas.cRo + bas.cb; // Rob
+export const cROB = bas.cRO + bas.cB; // ROB
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
