@@ -186,6 +186,7 @@ export const genericConstantsValidation = [
   {Name: 'cYYYYMMDD_HHmmss', Actual: gen.cYYYYMMDD_HHmmss, Expected: 'YYYYMMDD-HHmmss'},
   {Name: 'cYYYYMMDD_HHmmss_SSS', Actual: gen.cYYYYMMDD_HHmmss_SSS, Expected: 'YYYYMMDD-HHmmss-SSS'},
   {Name: 'cYYYY_MM_DD_HH_mm_ss_SSS', Actual: gen.cYYYY_MM_DD_HH_mm_ss_SSS, Expected: 'YYYY:MM:DD-HH:mm:ss:SSS'},
+  {Name: 'chhmmss', Actual: gen.chhmmss, Expected: 'hh:mm:ss'},
 
   // Operating Systems
   {Name: 'cwin32', Actual: gen.cwin32, Expected: 'win32'},

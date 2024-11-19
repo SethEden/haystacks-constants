@@ -184,6 +184,7 @@ export const cHHmmss_SSS = cHHmmss + bas.cDash + cSSS; // HHmmss-SSS
 export const cYYYYMMDD_HHmmss  = cYYYYMMDD + bas.cDash + cHHmmss; // YYYYMMDD-HHmmss
 export const cYYYYMMDD_HHmmss_SSS = cYYYYMMDD_HHmmss + bas.cDash + cSSS; // YYYYMMDD-HHmmss-SSS
 export const cYYYY_MM_DD_HH_mm_ss_SSS = cYYYY + bas.cColon + bas.cMM + bas.cColon + bas.cDD + bas.cDash + bas.cHH + bas.cColon + bas.cmm + bas.cColon + bas.css + bas.cColon + cSSS; // YYYY:MM:DD-HH:mm:ss:SSS
+export const chhmmss = bas.chh + bas.cColon + bas.cmm + bas.cColon + bas.css; // hh:mm:ss
 
 // Operating Systems
 export const cwin32 = phn.cwin + num.c32; // win32

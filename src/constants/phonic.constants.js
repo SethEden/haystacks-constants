@@ -3392,6 +3392,18 @@ export const cERY = bas.cER + bas.cY; // ERY
 export const crob = bas.cro + bas.cb; // rob
 export const cRob = bas.cRo + bas.cb; // Rob
 export const cROB = bas.cRO + bas.cB; // ROB
+export const ctate = bas.ct + cate; // tate
+export const cTate = bas.cT + cate; // Tate
+export const cTATE = bas.cT + cATE; // TATE
+export const ctator = bas.cta + ctor; // tator
+export const cTator = bas.cTa + ctor; // Tator
+export const cTATOR = bas.cTA + cTOR; // TATOR
+export const ctat = bas.cta + bas.ct; // tat
+export const cTat = bas.cTa + bas.ct; // Tat
+export const cTAT = bas.cTA + bas.cT; // TAT
+export const cative = bas.cat + cive; // ative
+export const cAtive = bas.cAt + cive; // Ative
+export const cATIVE = bas.cAT + cIVE; // ATIVE
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
