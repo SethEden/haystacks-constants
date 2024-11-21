@@ -3404,6 +3404,18 @@ export const cTAT = bas.cTA + bas.cT; // TAT
 export const cative = bas.cat + cive; // ative
 export const cAtive = bas.cAt + cive; // Ative
 export const cATIVE = bas.cAT + cIVE; // ATIVE
+export const cbre = bas.cbr + bas.ce; // bre
+export const cBre = bas.cBr + bas.ce; // Bre
+export const cBRE = bas.cBR + bas.ce; // BRE
+export const chod = bas.cho + bas.cd; // hod
+export const cHod = bas.cHo + bas.cd; // Hod
+export const cHOD = bas.cHO + bas.cD; // HOD
+export const cology = bas.col + cogy; // ology
+export const cOlogy = bas.cOl + cogy; // Ology
+export const cOLOGY = bas.cOL + cOGY; // OLOGY
+export const cogies = bas.cog + cies; // ogies
+export const cOgies = bas.cOg + cies; // Ogies
+export const cOGIES = bas.cOG + cIES; // OGIES
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

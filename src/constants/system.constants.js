@@ -223,6 +223,7 @@ export const ccurrentMasterStringArrayElement = wrd.ccurrent + wrd.cMaster + wrd
 export const cLehmerCodeArray = wrd.cLehmer + wrd.cCode + wrd.cArray; // LehmerCodeArray
 export const creturnData = wrd.creturn + wrd.cData; // returnData
 export const cCamelCase = wrd.cCamel + wrd.cCase; // CamelCase
+export const cruleBroker = wrd.crule + wrd.cBroker; // ruleBroker
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

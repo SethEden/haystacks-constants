@@ -223,6 +223,7 @@ export const systemConstantsValidation = [
   {Name: 'cLehmerCodeArray', Actual: sys.cLehmerCodeArray, Expected: 'LehmerCodeArray'},
   {Name: 'creturnData', Actual: sys.creturnData, Expected: 'returnData'},
   {Name: 'cCamelCase', Actual: sys.cCamelCase, Expected: 'CamelCase'},
+  {Name: 'cruleBroker', Actual: sys.cruleBroker, Expected: 'ruleBroker'},
 
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},
