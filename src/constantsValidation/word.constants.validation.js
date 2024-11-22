@@ -2451,6 +2451,8 @@ export const wordConstantsValidation = [
   {Name: 'cFunctioned', Actual: wrd.cFunctioned, Expected: 'Functioned'},
   {Name: 'cfunctioning', Actual: wrd.cfunctioning, Expected: 'functioning'},
   {Name: 'cFunctioning', Actual: wrd.cFunctioning, Expected: 'Functioning'},
+  {Name: 'cfunctional', Actual: wrd.cfunctional, Expected: 'functional'},
+  {Name: 'cFunctional', Actual: wrd.cFunctional, Expected: 'Functional'},
   {Name: 'cmultiple', Actual: wrd.cmultiple, Expected: 'multiple'},
   {Name: 'cMultiple', Actual: wrd.cMultiple, Expected: 'Multiple'},
   {Name: 'cmultiples', Actual: wrd.cmultiples, Expected: 'multiples'},

@@ -391,7 +391,9 @@ export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMe
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
 export const cframeworkThemesPathIs = wrd.cframework + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkThemesPath is:
 export const cframeworkSchemasPathIs = wrd.cframework + wrd.cSchemas + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkSchemasPath is:
+export const capplicationSchemasPathIs = wrd.capplication + wrd.cSchemas + wrd.cPath + sys.cSpaceIsColonSpace; // applicationSchemasPath is:
 export const cframeworkSchemasDataIs = wrd.cframework + wrd.cSchemas + wrd.cData + sys.cSpaceIsColonSpace; // FrameworkSchemasData is:
+export const capplicationSchemasDataIs = wrd.capplication + wrd.cSchemas + wrd.cData + sys.cSpaceIsColonSpace; // applicationSchemasDataIs
 export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkCommandAliasesPath is:
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
@@ -872,6 +874,7 @@ export const clanguageRuleIs = wrd.clanguage + wrd.cRule + sys.cSpaceIsColonSpac
 export const cfilesArrayIs = wrd.cfiles + wrd.cArray + sys.cSpaceIsColonSpace; // filesArray is:
 export const cclonedParsedDataFileIs = wrd.ccloned + wrd.cParsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // clonedParsedDataFile is:
 export const cmergedDataContentsIs = wrd.cmerged + wrd.cData + wrd.cContents + sys.cSpaceIsColonSpace; // mergedDataContents is:
+export const cschemaNameIs = wrd.cschema + wrd.cName + sys.cSpaceIsColonSpace; // schemaName is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1418,6 +1421,7 @@ export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpac
 export const cObfuscationSuccessful = wrd.cObfuscation + bas.cSpace + wrd.csuccessful; // Obfuscation successful
 export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
 export const cErrorInvalidSchemaDataObjectMissingSchemasKey = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + wrd.cData + wrd.cObject + bas.cColon + bas.cSpace + wrd.cMissing + bas.cSpace + wrd.cschemas + bas.cSpace + wrd.ckey; // ERROR: Invalid schemaDataObject: Missing schemas key
+export const cErrorGetSchemaMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cname + bas.cDot + bas.cSpace + wrd.cSchema + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // ERROR: Invalid schema name. Schema does not exist: 
 
 
 // Coded System Messages

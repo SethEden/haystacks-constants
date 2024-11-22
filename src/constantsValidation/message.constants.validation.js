@@ -387,7 +387,9 @@ export const messageConstantsValidation = [
   {Name: 'cframeworkConfigPathIs', Actual: msg.cframeworkConfigPathIs, Expected: 'frameworkConfigPath is: '},
   {Name: 'cframeworkThemesPathIs', Actual: msg.cframeworkThemesPathIs, Expected: 'frameworkThemesPath is: '},
   {Name: 'cframeworkSchemasPathIs', Actual: msg.cframeworkSchemasPathIs, Expected: 'frameworkSchemasPath is: '},
+  {Name: 'capplicationSchemasPathIs', Actual: msg.capplicationSchemasPathIs, Expected: 'applicationSchemasPath is: '},
   {Name: 'cframeworkSchemasDataIs', Actual: msg.cframeworkSchemasDataIs, Expected: 'FrameworkSchemasData is: '},
+  {Name: 'capplicationSchemasDataIs', Actual: msg.capplicationSchemasDataIs, Expected: 'applicationSchemasDataIs'},
   {Name: 'cframeworkCommandAliasesPathIs', Actual: msg.cframeworkCommandAliasesPathIs, Expected: 'frameworkCommandAliasesPath is: '},
   {Name: 'cframeworkWorkflowsPathIs', Actual: msg.cframeworkWorkflowsPathIs, Expected: 'frameworkWorkflowsPath is: '},
   {Name: 'ccommandAliasesPathIs', Actual: msg.ccommandAliasesPathIs, Expected: 'commandAliasesPath is: '},
@@ -867,6 +869,7 @@ export const messageConstantsValidation = [
   {Name: 'cfilesArrayIs', Actual: msg.cfilesArrayIs, Expected: 'filesArray is: '},
   {Name: 'cclonedParsedDataFileIs', Actual: msg.cclonedParsedDataFileIs, Expected: 'clonedParsedDataFile is: '},
   {Name: 'cmergedDataContentsIs', Actual: msg.cmergedDataContentsIs, Expected: 'mergedDataContents is: '},
+  {Name: 'cschemaNameIs', Actual: msg.cschemaNameIs, Expected: 'schemaName is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -1191,6 +1194,7 @@ export const messageConstantsValidation = [
   {Name: 'cObfuscationSuccessful', Actual: msg.cObfuscationSuccessful, Expected: 'Obfuscation successful'},
   {Name: 'cErrorInvalidInputString', Actual: msg.cErrorInvalidInputString, Expected: 'ERROR: Invalid input string.'},
   {Name: 'cErrorInvalidSchemaDataObjectMissingSchemasKey', Actual: msg.cErrorInvalidSchemaDataObjectMissingSchemasKey, Expected: 'ERROR: Invalid schemaDataObject: Missing schemas key'},
+  {Name: 'cErrorGetSchemaMessage01', Actual: msg.cErrorGetSchemaMessage01, Expected: 'ERROR: Invalid schema name. Schema does not exist: '},
 
   // Coded System Messages
   // EXAMPLE:

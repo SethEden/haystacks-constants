@@ -45,6 +45,7 @@ export const cpluginConfigPath = wrd.cplugin + wrd.cConfig + wrd.cPath; // plugi
 export const cframeworkConfigPath = wrd.cframework + wrd.cConfig + wrd.cPath; // frameworkConfigPath
 export const cframeworkThemesPath = wrd.cframework + wrd.cThemes + wrd.cPath; // frameworkThemesPath
 export const cframeworkSchemasPath = wrd.cframework + wrd.cSchemas + wrd.cPath; // frameworkSchemasPath
+export const capplicationSchemasPath = wrd.capplication + wrd.cSchemas + wrd.cPath; // applicationSchemasPath
 export const cclientThemesPath = wrd.cclient + wrd.cThemes + wrd.cPath; // clientThemesPath
 export const cappConfigFiles = gen.capp + wrd.cConfig + wrd.cFiles; // appConfigFiles
 export const cframeworkConfigFiles = wrd.cframework + wrd.cConfig + wrd.cFiles; // frameworkConfigFiles
