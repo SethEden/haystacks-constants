@@ -239,6 +239,32 @@ export const systemConstantsValidation = [
   {Name: 'cMessageFontBackgroundColor', Actual: sys.cMessageFontBackgroundColor, Expected: 'MessageFontBackgroundColor'},
   {Name: 'cDataFontBackgroundColor', Actual: sys.cDataFontBackgroundColor, Expected: 'DataFontBackgroundColor'},
 
+  // UI Element Types
+  {Name: 'cimage', Actual: sys.cimage, Expected: 'image'},
+  {Name: 'cImage', Actual: sys.cImage, Expected: 'Image'},
+  {Name: 'cIMAGE', Actual: sys.cIMAGE, Expected: 'IMAGE'},
+  {Name: 'cbutton', Actual: sys.cbutton, Expected: 'button'},
+  {Name: 'cButton', Actual: sys.cButton, Expected: 'Button'},
+  {Name: 'cBUTTON', Actual: sys.cBUTTON, Expected: 'BUTTON'},
+  {Name: 'clink', Actual: sys.clink, Expected: 'link'},
+  {Name: 'cLink', Actual: sys.cLink, Expected: 'Link'},
+  {Name: 'cLINK', Actual: sys.cLINK, Expected: 'LINK'},
+  {Name: 'clist', Actual: sys.clist, Expected: 'list'},
+  {Name: 'cList', Actual: sys.cList, Expected: 'List'},
+  {Name: 'cLIST', Actual: sys.cLIST, Expected: 'LIST'},
+  {Name: 'ccheckbox', Actual: sys.ccheckbox, Expected: 'checkbox'},
+  {Name: 'cCheckbox', Actual: sys.cCheckbox, Expected: 'Checkbox'},
+  {Name: 'cCheckBox', Actual: sys.cCheckBox, Expected: 'CheckBox'},
+  {Name: 'cCHECKBOX', Actual: sys.cCHECKBOX, Expected: 'CHECKBOX'},
+  {Name: 'cslider', Actual: sys.cslider, Expected: 'slider'},
+  {Name: 'cSlider', Actual: sys.cSlider, Expected: 'Slider'},
+  {Name: 'cSLIDER', Actual: sys.cSLIDER, Expected: 'SLIDER'},
+  {Name: 'cfield', Actual: sys.cfield, Expected: 'field'},
+  {Name: 'cField', Actual: sys.cField, Expected: 'Field'},
+  {Name: 'cFIELD', Actual: sys.cFIELD, Expected: 'FIELD'},
+  {Name: 'cdate', Actual: sys.cdate, Expected: 'date'},
+  {Name: 'cDate', Actual: sys.cDate, Expected: 'Date'},
+
   // File Types
   {Name: 'cCatia', Actual: sys.cCatia, Expected: 'Catia'},
   {Name: 'cDocument', Actual: sys.cDocument, Expected: 'Document'},
@@ -346,9 +372,6 @@ export const systemConstantsValidation = [
   {Name: 'cgitDashBash', Actual: sys.cgitDashBash, Expected: 'git-bash'},
   {Name: 'cpowershell', Actual: sys.cpowershell, Expected: 'powershell'},
   {Name: 'cpwsh', Actual: sys.cpwsh, Expected: 'pwsh'},
-
-  // UI Element Types
-  {Name: 'cButton', Actual: sys.cButton, Expected: 'Button'},
 
   // Environment Variables
   {Name: 'cQA', Actual: sys.cQA, Expected: 'QA'},

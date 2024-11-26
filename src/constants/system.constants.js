@@ -239,6 +239,33 @@ export const cFunctionFontBackgroundColor = wrd.cFunction + wrd.cFont + cBackgro
 export const cMessageFontBackgroundColor = wrd.cMessage + wrd.cFont + cBackground + wrd.cColor; // MessageFontBackgroundColor
 export const cDataFontBackgroundColor = wrd.cData + wrd.cFont + cBackground + wrd.cColor; // DataFontBackgroundColor
 
+// UI Element Types
+export const cimage = wrd.cimage; // image
+export const cImage = wrd.cImage; // Image
+export const cIMAGE = wrd.cIMAGE; // IMAGE
+export const cbutton = bas.cbu + bas.ctt + bas.con; // button
+export const cButton = bas.cBu + bas.ctt + bas.con; // Button
+export const cBUTTON = bas.cBU + bas.cTT + bas.cON; // BUTTON
+export const clink = wrd.clink; // link
+export const cLink = wrd.cLink; // Link
+export const cLINK = wrd.cLINK; // LINK
+export const clist = wrd.clist; // list
+export const cList = wrd.cList; // List
+export const cLIST = wrd.cLIST; // LIST
+export const ccheckbox = wrd.ccheck + wrd.cbox; // checkbox
+export const cCheckbox = wrd.cCheck + wrd.cbox; // Checkbox
+export const cCheckBox = wrd.cCheck + wrd.cBox; // CheckBox
+export const cCHECKBOX = wrd.cCHECK + wrd.cBox; // CHECKBOX
+export const cslider = wrd.cslider; // slider
+export const cSlider = wrd.cSlider; // Slider
+export const cSLIDER = wrd.cSLIDER; // SLIDER
+export const cfield = wrd.cfield; // field
+export const cField = wrd.cField; // Field
+export const cFIELD = wrd.cFIELD; // FIELD
+export const cdate = wrd.cdate; // date
+export const cDate = wrd.cDate; // Date
+export const cDATE = wrd.cDATE; // DATE
+
 // File Types
 export const cCatia = bas.cCa + bas.cti + bas.ca; // Catia
 export const cDocument = wrd.cDocument; // Document
@@ -247,7 +274,6 @@ export const cDraft = bas.cDr + phn.caft; // Draft
 export const cDWG = bas.cDW + bas.cG; // DWG
 export const cHoops = bas.cH + wrd.coops; // Hoops
 export const cHOOPS = bas.cH + wrd.cOOPS; // HOOPS
-export const cImage = bas.cIm + phn.cage; // Image
 export const cImages = cImage + bas.cs; // Images
 export const cInventor = phn.cInv + bas.cen + phn.ctor; // Inventor
 export const cNeutral = bas.cNe + bas.cut + phn.cral; // Neutral
@@ -346,9 +372,6 @@ export const cbash = bas.cba + bas.csh; // bash
 export const cgitDashBash = cgit + bas.cDash + cbash; // git-bash
 export const cpowershell = wrd.cpower + wrd.cshell; // powershell
 export const cpwsh = bas.cpw + bas.csh; // pwsh
-
-// UI Element Types
-export const cButton = bas.cBu + bas.ctt + bas.con; // Button
 
 // Environment Variables
 export const cQA = bas.cQA; // QA
