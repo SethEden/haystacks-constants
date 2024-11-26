@@ -1195,6 +1195,7 @@ export const messageConstantsValidation = [
   {Name: 'cErrorInvalidInputString', Actual: msg.cErrorInvalidInputString, Expected: 'ERROR: Invalid input string.'},
   {Name: 'cErrorInvalidSchemaDataObjectMissingSchemasKey', Actual: msg.cErrorInvalidSchemaDataObjectMissingSchemasKey, Expected: 'ERROR: Invalid schemaDataObject: Missing schemas key'},
   {Name: 'cErrorGetSchemaMessage01', Actual: msg.cErrorGetSchemaMessage01, Expected: 'ERROR: Invalid schema name. Schema does not exist: '},
+  {Name: 'creturnAllSchemas', Actual: msg.creturnAllSchemas, Expected: 'return all schemas.'},
 
   // Coded System Messages
   // EXAMPLE:

@@ -3416,6 +3416,9 @@ export const cOLOGY = bas.cOL + cOGY; // OLOGY
 export const cogies = bas.cog + cies; // ogies
 export const cOgies = bas.cOg + cies; // Ogies
 export const cOGIES = bas.cOG + cIES; // OGIES
+export const cnore = bas.cn + core; // nore
+export const cNore = bas.cN + core; // Nore
+export const cNORE = bas.cN + cORE; // NORE
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

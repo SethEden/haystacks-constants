@@ -1422,7 +1422,7 @@ export const cObfuscationSuccessful = wrd.cObfuscation + bas.cSpace + wrd.csucce
 export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
 export const cErrorInvalidSchemaDataObjectMissingSchemasKey = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + wrd.cData + wrd.cObject + bas.cColon + bas.cSpace + wrd.cMissing + bas.cSpace + wrd.cschemas + bas.cSpace + wrd.ckey; // ERROR: Invalid schemaDataObject: Missing schemas key
 export const cErrorGetSchemaMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cname + bas.cDot + bas.cSpace + wrd.cSchema + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // ERROR: Invalid schema name. Schema does not exist: 
-
+export const creturnAllSchemas = wrd.creturn + bas.cSpace + wrd.call + bas.cSpace + wrd.cschemas + bas.cDot; // return all schemas.
 
 // Coded System Messages
 // EXAMPLE:
