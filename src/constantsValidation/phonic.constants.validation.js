@@ -3430,6 +3430,12 @@ export const phonicConstantsValidation = [
   {Name: 'cnore', Actual: phn.cnore, Expected: 'nore'},
   {Name: 'cNore', Actual: phn.cNore, Expected: 'Nore'},
   {Name: 'cNORE', Actual: phn.cNORE, Expected: 'NORE'},
+  {Name: 'cvis', Actual: phn.cvis, Expected: 'vis'},
+  {Name: 'cVis', Actual: phn.cVis, Expected: 'Vis'},
+  {Name: 'cVIS', Actual: phn.cVIS, Expected: 'VIS'},
+  {Name: 'cilt', Actual: phn.cilt, Expected: 'ilt'},
+  {Name: 'cIlt', Actual: phn.cIlt, Expected: 'Ilt'},
+  {Name: 'cILT', Actual: phn.cILT, Expected: 'ILT'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

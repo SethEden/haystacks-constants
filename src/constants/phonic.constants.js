@@ -3419,6 +3419,12 @@ export const cOGIES = bas.cOG + cIES; // OGIES
 export const cnore = bas.cn + core; // nore
 export const cNore = bas.cN + core; // Nore
 export const cNORE = bas.cN + cORE; // NORE
+export const cvis = bas.cvi + bas.cs; // vis
+export const cVis = bas.cVi + bas.cs; // Vis
+export const cVIS = bas.cVI + bas.cS; // VIS
+export const cilt = bas.cil + bas.ct; // ilt
+export const cIlt = bas.cIl + bas.ct; // Ilt
+export const cILT = bas.cIL + bas.cT; // ILT
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
