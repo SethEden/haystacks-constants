@@ -3040,6 +3040,8 @@ export const wordConstantsValidation = [
   {Name: 'cPLAY', Actual: wrd.cPLAY, Expected: 'PLAY'},
   {Name: 'cdisplay', Actual: wrd.cdisplay, Expected: 'display'},
   {Name: 'cDisplay', Actual: wrd.cDisplay, Expected: 'Display'},
+  {Name: 'cdisplayed', Actual: wrd.cdisplayed, Expected: 'displayed'},
+  {Name: 'cDisplayed', Actual: wrd.cDisplayed, Expected: 'Displayed'},
   {Name: 'csum', Actual: wrd.csum, Expected: 'sum'},
   {Name: 'cSum', Actual: wrd.cSum, Expected: 'Sum'},
   {Name: 'csummary', Actual: wrd.csummary, Expected: 'summary'},
