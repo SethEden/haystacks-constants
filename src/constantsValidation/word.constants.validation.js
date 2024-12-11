@@ -193,6 +193,7 @@ export const wordConstantsValidation = [
   {Name: 'cLinux', Actual: wrd.cLinux, Expected: 'Linux'},
   {Name: 'cword', Actual: wrd.cword, Expected: 'word'},
   {Name: 'cWord', Actual: wrd.cWord, Expected: 'Word'},
+  {Name: 'cWORD', Actual: wrd.cWORD, Expected: 'WORD'},
   {Name: 'cwords', Actual: wrd.cwords, Expected: 'words'},
   {Name: 'cWords', Actual: wrd.cWords, Expected: 'Words'},
   {Name: 'cworded', Actual: wrd.cworded, Expected: 'worded'},
@@ -705,6 +706,7 @@ export const wordConstantsValidation = [
   {Name: 'cMessaging', Actual: wrd.cMessaging, Expected: 'Messaging'},
   {Name: 'cscript', Actual: wrd.cscript, Expected: 'script'},
   {Name: 'cScript', Actual: wrd.cScript, Expected: 'Script'},
+  {Name: 'cSCRIPT', Actual: wrd.cSCRIPT, Expected: 'SCRIPT'},
   {Name: 'cscripts', Actual: wrd.cscripts, Expected: 'scripts'},
   {Name: 'cScripts', Actual: wrd.cScripts, Expected: 'Scripts'},
   {Name: 'cscripter', Actual: wrd.cscripter, Expected: 'scripter'},
@@ -717,6 +719,7 @@ export const wordConstantsValidation = [
   {Name: 'cScripting', Actual: wrd.cScripting, Expected: 'Scripting'},
   {Name: 'ckeyword', Actual: wrd.ckeyword, Expected: 'keyword'},
   {Name: 'cKeyword', Actual: wrd.cKeyword, Expected: 'Keyword'},
+  {Name: 'cKEYWORD', Actual: wrd.cKEYWORD, Expected: 'KEYWORD'},
   {Name: 'ckeywords', Actual: wrd.ckeywords, Expected: 'keywords'},
   {Name: 'cKeywords', Actual: wrd.cKeywords, Expected: 'Keywords'},
   {Name: 'cdata', Actual: wrd.cdata, Expected: 'data'},
@@ -7077,6 +7080,9 @@ export const wordConstantsValidation = [
   {Name: 'cBlockers', Actual: wrd.cBlockers, Expected: 'Blockers'},
   {Name: 'cblocking', Actual: wrd.cblocking, Expected: 'blocking'},
   {Name: 'cBlocking', Actual: wrd.cBlocking, Expected: 'Blocking'},
+  {Name: 'cjava', Actual: wrd.cjava, Expected: 'java'},
+  {Name: 'cJava', Actual: wrd.cJava, Expected: 'Java'},
+  {Name: 'cJAVA', Actual: wrd.cJAVA, Expected: 'JAVA'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
