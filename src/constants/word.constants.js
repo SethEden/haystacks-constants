@@ -7083,6 +7083,18 @@ export const cBlocking = cBlock + phn.cing; // Blocking
 export const cjava = bas.cj + phn.cava; // java
 export const cJava = bas.cJ + phn.cava; // Java
 export const cJAVA = bas.cJ + phn.cAVA; // JAVA
+export const cdeal = bas.cd + phn.ceal; // deal
+export const cDeal = bas.cD + phn.ceal; // Deal
+export const cdeals = cdeal + bas.cs; // deals
+export const cDeals = cDeal + bas.cs; // Deals
+export const cdealer = cdeal + bas.cer; // dealer
+export const cDealer = cDeal + bas.cer; // Dealer
+export const cdealers = cdealer + bas.cs; // dealers
+export const cDealers = cDealer + bas.cs; // Dealers
+export const cdealed = cdeal + bas.ced; // dealed
+export const cDealed = cDeal + bas.ced; // Dealed
+export const cdealing = cdeal + phn.cing; // dealing
+export const cDealing = cDeal + phn.cing; // Dealing
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

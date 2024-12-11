@@ -7083,6 +7083,18 @@ export const wordConstantsValidation = [
   {Name: 'cjava', Actual: wrd.cjava, Expected: 'java'},
   {Name: 'cJava', Actual: wrd.cJava, Expected: 'Java'},
   {Name: 'cJAVA', Actual: wrd.cJAVA, Expected: 'JAVA'},
+  {Name: 'cdeal', Actual: wrd.cdeal, Expected: 'deal'},
+  {Name: 'cDeal', Actual: wrd.cDeal, Expected: 'Deal'},
+  {Name: 'cdeals', Actual: wrd.cdeals, Expected: 'deals'},
+  {Name: 'cDeals', Actual: wrd.cDeals, Expected: 'Deals'},
+  {Name: 'cdealer', Actual: wrd.cdealer, Expected: 'dealer'},
+  {Name: 'cDealer', Actual: wrd.cDealer, Expected: 'Dealer'},
+  {Name: 'cdealers', Actual: wrd.cdealers, Expected: 'dealers'},
+  {Name: 'cDealers', Actual: wrd.cDealers, Expected: 'Dealers'},
+  {Name: 'cdealed', Actual: wrd.cdealed, Expected: 'dealed'},
+  {Name: 'cDealed', Actual: wrd.cDealed, Expected: 'Dealed'},
+  {Name: 'cdealing', Actual: wrd.cdealing, Expected: 'dealing'},
+  {Name: 'cDealing', Actual: wrd.cDealing, Expected: 'Dealing'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
