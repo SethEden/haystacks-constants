@@ -3425,6 +3425,9 @@ export const cVIS = bas.cVI + bas.cS; // VIS
 export const cilt = bas.cil + bas.ct; // ilt
 export const cIlt = bas.cIl + bas.ct; // Ilt
 export const cILT = bas.cIL + bas.cT; // ILT
+export const ciate = bas.ci + cate; // iate
+export const cIate = bas.cI + cate; // Iate
+export const cIATE = bas.cI + cATE; // IATE
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
