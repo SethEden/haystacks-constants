@@ -3428,6 +3428,18 @@ export const cILT = bas.cIL + bas.cT; // ILT
 export const ciate = bas.ci + cate; // iate
 export const cIate = bas.cI + cate; // Iate
 export const cIATE = bas.cI + cATE; // IATE
+export const cono = bas.con + bas.co; // ono
+export const cOno = bas.cOn + bas.co; // Ono
+export const cONO = bas.cON + bas.cO; // ONO
+export const cgies = bas.cg + cies; // gies
+export const cGies = bas.cG + cies; // Gies
+export const cGIES = bas.cG + cIES; // GIES
+export const cpan = bas.cpa + bas.cn; // pan
+export const cPan = bas.cPa + bas.cn; // Pan
+export const cPAN = bas.cPA + bas.cN; // PAN
+export const ciable = bas.ci + cable; // iable
+export const cIable = bas.cI + cable; // Iable
+export const cIABLE = bas.cI + cABLE; // IABLE
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
