@@ -7077,6 +7077,7 @@ export const wordConstantsValidation = [
   {Name: 'cCertificates', Actual: wrd.cCertificates, Expected: 'Certificates'},
   {Name: 'cbox', Actual: wrd.cbox, Expected: 'box'},
   {Name: 'cBox', Actual: wrd.cBox, Expected: 'Box'},
+  {Name: 'cBOX', Actual: wrd.cBOX, Expected: 'BOX'},
   {Name: 'cboxes', Actual: wrd.cboxes, Expected: 'boxes'},
   {Name: 'cBoxes', Actual: wrd.cBoxes, Expected: 'Boxes'},
   {Name: 'cboxer', Actual: wrd.cboxer, Expected: 'boxer'},

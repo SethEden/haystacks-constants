@@ -7151,6 +7151,7 @@ export const ccertificates = ccertificate + bas.cs; // certificates
 export const cCertificates = cCertificate + bas.cs; // Certificates
 export const cbox = bas.cbo + bas.cx; // box
 export const cBox = bas.cBo + bas.cx; // Box
+export const cBOX = bas.cBO + bas.cX; // BOX
 export const cboxes = cbox + bas.ces; // boxes
 export const cBoxes = cBox + bas.ces; // Boxes
 export const cboxer = cbox + bas.cer; // boxer
