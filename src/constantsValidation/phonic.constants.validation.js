@@ -3451,6 +3451,12 @@ export const phonicConstantsValidation = [
   {Name: 'ciable', Actual: phn.ciable, Expected: 'iable'},
   {Name: 'cIable', Actual: phn.cIable, Expected: 'Iable'},
   {Name: 'cIABLE', Actual: phn.cIABLE, Expected: 'IABLE'},
+  {Name: 'cifier', Actual: phn.cifier, Expected: 'ifier'},
+  {Name: 'cIfier', Actual: phn.cIfier, Expected: 'Ifier'},
+  {Name: 'cIFIER', Actual: phn.cIFIER, Expected: 'IFIER'},
+  {Name: 'cpat', Actual: phn.cpat, Expected: 'pat'},
+  {Name: 'cPat', Actual: phn.cPat, Expected: 'Pat'},
+  {Name: 'cPAT', Actual: phn.cPAT, Expected: 'PAT'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

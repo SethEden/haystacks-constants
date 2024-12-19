@@ -3440,6 +3440,12 @@ export const cPAN = bas.cPA + bas.cN; // PAN
 export const ciable = bas.ci + cable; // iable
 export const cIable = bas.cI + cable; // Iable
 export const cIABLE = bas.cI + cABLE; // IABLE
+export const cifier = bas.cif + cier; // ifier
+export const cIfier = bas.cIf + cier; // Ifier
+export const cIFIER = bas.cIF + cIER; // IFIER
+export const cpat = bas.cpa + bas.ct; // pat
+export const cPat = bas.cPa + bas.ct; // Pat
+export const cPAT = bas.cPA + bas.cT; // PAT
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
