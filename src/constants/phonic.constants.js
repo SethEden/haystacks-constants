@@ -3446,6 +3446,9 @@ export const cIFIER = bas.cIF + cIER; // IFIER
 export const cpat = bas.cpa + bas.ct; // pat
 export const cPat = bas.cPa + bas.ct; // Pat
 export const cPAT = bas.cPA + bas.cT; // PAT
+export const cinate = bas.ci + cnate; // inate
+export const cInate = bas.cI + cnate; // Inate
+export const cINATE = bas.cI + cNATE; // INATE
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
