@@ -3460,6 +3460,15 @@ export const phonicConstantsValidation = [
   {Name: 'cinate', Actual: phn.cinate, Expected: 'inate'},
   {Name: 'cInate', Actual: phn.cInate, Expected: 'Inate'},
   {Name: 'cINATE', Actual: phn.cINATE, Expected: 'INATE'},
+  {Name: 'cwid', Actual: phn.cwid, Expected: 'wid'},
+  {Name: 'cWid', Actual: phn.cWid, Expected: 'Wid'},
+  {Name: 'cWID', Actual: phn.cWID, Expected: 'WID'},
+  {Name: 'cpix', Actual: phn.cpix, Expected: 'pix'},
+  {Name: 'cPix', Actual: phn.cPix, Expected: 'Pix'},
+  {Name: 'cPIX', Actual: phn.cPIX, Expected: 'PIX'},
+  {Name: 'cated', Actual: phn.cated, Expected: 'ated'},
+  {Name: 'cAted', Actual: phn.cAted, Expected: 'Ated'},
+  {Name: 'cATED', Actual: phn.cATED, Expected: 'ATED'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

@@ -3449,6 +3449,15 @@ export const cPAT = bas.cPA + bas.cT; // PAT
 export const cinate = bas.ci + cnate; // inate
 export const cInate = bas.cI + cnate; // Inate
 export const cINATE = bas.cI + cNATE; // INATE
+export const cwid = bas.cwi + bas.cd; // wid
+export const cWid = bas.cWi + bas.cd; // Wid
+export const cWID = bas.cWI + bas.cd; // WID
+export const cpix = bas.cpi + bas.cx; // pix
+export const cPix = bas.cPi + bas.cx; // Pix
+export const cPIX = bas.cPI + bas.cX; // PIX
+export const cated = bas.ca + cted; // ated
+export const cAted = bas.cA + cted; // Ated
+export const cATED = bas.cA + cTED; // ATED
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
