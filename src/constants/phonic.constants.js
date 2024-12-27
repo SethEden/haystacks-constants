@@ -3458,6 +3458,12 @@ export const cPIX = bas.cPI + bas.cX; // PIX
 export const cated = bas.ca + cted; // ated
 export const cAted = bas.cA + cted; // Ated
 export const cATED = bas.cA + cTED; // ATED
+export const cgin = bas.cgi + bas.cn; // gin
+export const cGin = bas.cGi + bas.cn; // Gin
+export const cGIN = bas.cGI + bas.cN; // GIN
+export const cating = bas.cat + cing; // ating
+export const cAting = bas.cAt + cing; // Ating
+export const cATING = bas.cAT + cING; // ATING
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

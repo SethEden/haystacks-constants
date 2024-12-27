@@ -3469,6 +3469,12 @@ export const phonicConstantsValidation = [
   {Name: 'cated', Actual: phn.cated, Expected: 'ated'},
   {Name: 'cAted', Actual: phn.cAted, Expected: 'Ated'},
   {Name: 'cATED', Actual: phn.cATED, Expected: 'ATED'},
+  {Name: 'cgin', Actual: phn.cgin, Expected: 'gin'},
+  {Name: 'cGin', Actual: phn.cGin, Expected: 'Gin'},
+  {Name: 'cGIN', Actual: phn.cGIN, Expected: 'GIN'},
+  {Name: 'cating', Actual: phn.cATING, Expected: 'ating'},
+  {Name: 'cAting', Actual: phn.cATING, Expected: 'Ating'},
+  {Name: 'cATING', Actual: phn.cATING, Expected: 'ATING'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},
