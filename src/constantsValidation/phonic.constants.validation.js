@@ -3472,8 +3472,8 @@ export const phonicConstantsValidation = [
   {Name: 'cgin', Actual: phn.cgin, Expected: 'gin'},
   {Name: 'cGin', Actual: phn.cGin, Expected: 'Gin'},
   {Name: 'cGIN', Actual: phn.cGIN, Expected: 'GIN'},
-  {Name: 'cating', Actual: phn.cATING, Expected: 'ating'},
-  {Name: 'cAting', Actual: phn.cATING, Expected: 'Ating'},
+  {Name: 'cating', Actual: phn.cating, Expected: 'ating'},
+  {Name: 'cAting', Actual: phn.cAting, Expected: 'Ating'},
   {Name: 'cATING', Actual: phn.cATING, Expected: 'ATING'},
   //////////////////////////////////////////////////////////////////
   // Knots

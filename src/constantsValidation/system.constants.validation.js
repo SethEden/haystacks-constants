@@ -275,6 +275,7 @@ export const systemConstantsValidation = [
   {Name: 'cFIELD', Actual: sys.cFIELD, Expected: 'FIELD'},
   {Name: 'cdate', Actual: sys.cdate, Expected: 'date'},
   {Name: 'cDate', Actual: sys.cDate, Expected: 'Date'},
+  {Name: 'cDATE', Actual: sys.cDATE, Expected: 'DATE'},
 
   // File Types
   {Name: 'cCatia', Actual: sys.cCatia, Expected: 'Catia'},
