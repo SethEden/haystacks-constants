@@ -115,6 +115,7 @@ export const configurationConstantsValidation = [
   {Name: 'cenableUserCommandsLogClearing', Actual: cfg.cenableUserCommandsLogClearing, Expected: 'enableUserCommandsLogClearing'},
   {Name: 'cenableAllCommandsLogClearing', Actual: cfg.cenableAllCommandsLogClearing, Expected: 'enableAllCommandsLogClearing'},
   {Name: 'csilentDeleteFailure', Actual: cfg.csilentDeleteFailure, Expected: 'silentDeleteFailure'},
+  {Name: 'cschemasLoaded', Actual: cfg.cschemasLoaded, Expected: 'schemasLoaded'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},

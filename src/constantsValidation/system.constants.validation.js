@@ -424,6 +424,10 @@ export const systemConstantsValidation = [
   {Name: 'cctrl_y', Actual: sys.cctrl_y, Expected: 'ctrl+y'},
   {Name: 'cctrl_z', Actual: sys.cctrl_z, Expected: 'ctrl+z'},
 
+  // Schemas
+  {Name: 'clanguageSchema', Actual: sys.clanguageSchema, Expected: 'languageSchema'},
+  {Name: 'cloggerSchema', Actual: sys.cloggerSchema, Expected: 'loggerSchema'},
+
   // System Terms
   {Name: 'csystemConfigFileName', Actual: sys.csystemConfigFileName, Expected: 'framework.system.json'},
   {Name: 'capplicationConfigFileName', Actual: sys.capplicationConfigFileName, Expected: 'application.system.json'},
@@ -499,6 +503,8 @@ export const systemConstantsValidation = [
   {Name: 'cSystemCommandLog', Actual: sys.cSystemCommandLog, Expected: 'SystemCommandLog'},
   {Name: 'ccommandPrompt', Actual: sys.ccommandPrompt, Expected: 'commandPrompt'},
   {Name: 'clocalhost', Actual: sys.clocalhost, Expected: 'localhost'},
+  {Name: 'ccontrolFlags', Actual: sys.ccontrolFlags, Expected: 'controlFlags'},
+  {Name: 'cflagNames', Actual: sys.cflagNames, Expected: 'flagNames'},
 
   // Constants Filenames
   {Name: 'calphabet_constants_js', Actual: sys.calphabet_constants_js, Expected: 'alphabet.constants.js'},

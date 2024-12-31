@@ -423,6 +423,10 @@ export const cctrl_x = phn.cctrl + bas.cPlus + bas.cx; // ctrl+x
 export const cctrl_y = phn.cctrl + bas.cPlus + bas.cy; // ctrl+y
 export const cctrl_z = phn.cctrl + bas.cPlus + bas.cz; // ctrl+z
 
+// Schemas
+export const clanguageSchema = wrd.clanguage + wrd.cSchema; // languageSchema
+export const cloggerSchema = wrd.clogger + wrd.cSchema; // loggerSchema
+
 // System Terms
 export const csystemConfigFileName = wrd.cframework + bas.cDot + wrd.csystem + gen.cDotjson; // framework.system.json
 export const capplicationConfigFileName = wrd.capplication + bas.cDot + wrd.csystem + gen.cDotjson; // application.system.json
@@ -498,6 +502,8 @@ export const cUserEnteredCommandLog = wrd.cUser + wrd.cEntered + wrd.cCommand + 
 export const cSystemCommandLog = wrd.cSystem + wrd.cCommand + wrd.cLog; // SystemCommandLog
 export const ccommandPrompt = wrd.ccommand + wrd.cPrompt; // commandPrompt
 export const clocalhost = wrd.clocal + wrd.chost; // localhost
+export const ccontrolFlags = wrd.ccontrol + wrd.cFlags; // controlFlags
+export const cflagNames = wrd.cflag + wrd.cNames; // flagNames
 
 // Constants Filenames
 export const calphabet_constants_js = wrd.calphabet + bas.cDot + wrd.cconstants + gen.cDotjs; // alphabet.constants.js
