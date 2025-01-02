@@ -3464,6 +3464,9 @@ export const cGIN = bas.cGI + bas.cN; // GIN
 export const cating = bas.cat + cing; // ating
 export const cAting = bas.cA + bas.ct + cing; // Ating
 export const cATING = bas.cAT + cING; // ATING
+export const ceny = bas.cen + bas.cy; // eny
+export const cEny = bas.cEn + bas.cy; // Eny
+export const cENY = bas.cEN + bas.cY; // ENY
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

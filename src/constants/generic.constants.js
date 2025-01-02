@@ -69,6 +69,9 @@ export const cWARNING = bas.cWA + bas.cRN + bas.cIN + bas.cG; // WARNING
 export const cfail = bas.cfa + bas.cil; // fail
 export const cFail = bas.cFa + bas.cil; // Fail
 export const cFAIL = bas.cFA + bas.cIL; // FAIL
+export const cerr = bas.cer + bas.cr; // err
+export const cErr = bas.cER + bas.cr; // Err
+export const cERR = bas.cER + bas.cR; // ERR
 
 // Directions
 export const cdown = bas.cdo + bas.cwn; // down
@@ -145,6 +148,9 @@ export const cPS1 = bas.cPS + num.c1; // PS1
 export const cbat = bas.cba + bas.ct; // bat
 export const cBat = bas.cBa + bas.ct; // Bat
 export const cBAT = bas.cBA + bas.cT; // BAT
+export const chtml = bas.cht + bas.cml; // html
+export const cHtml = bas.cHt + bas.cml; // Html
+export const cHTML = bas.cHT + bas.cML; // HTML
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe
@@ -179,15 +185,18 @@ export const cDotJSON = bas.cDot + cJSON; // .JSON
 export const cDotenv = bas.cDot + cenv; // .env
 export const cDotEnv = bas.cDot + cEnv; // .Env
 export const cDotENV = bas.cDot + cENV; // .ENV
-export const cDotsh = bas.cDot + csh; // sh
-export const cDotSh = bas.cDot + cSh; // Sh
-export const cDotSH = bas.cDot + cSH; // SH
-export const cDotps1 = bas.cDot + cps1; // ps1
-export const cDotPs1 = bas.cDot + cPs1; // Ps1
-export const cDotPS1 = bas.cDot + cPS1; // PS1
-export const cDotbat = bas.cDot + cbat; // bat
-export const cDotBat = bas.cDot + cBat; // Bat
-export const cDotBAT = bas.cDot + cBAT; // BAT
+export const cDotsh = bas.cDot + csh; // .sh
+export const cDotSh = bas.cDot + cSh; // .Sh
+export const cDotSH = bas.cDot + cSH; // .SH
+export const cDotps1 = bas.cDot + cps1; // .ps1
+export const cDotPs1 = bas.cDot + cPs1; // .Ps1
+export const cDotPS1 = bas.cDot + cPS1; // .PS1
+export const cDotbat = bas.cDot + cbat; // .bat
+export const cDotBat = bas.cDot + cBat; // .Bat
+export const cDotBAT = bas.cDot + cBAT; // .BAT
+export const cDothtml = bas.cDot + chtml; // .html
+export const cDotHtml = bas.cDot + cHtml; // .Html
+export const cDotHTML = bas.cDot + cHTML; // .HTML
 export const cascii = bas.cas + bas.cci + bas.ci; // ascii
 export const cAscii = bas.cAs + bas.cci + bas.ci; // Ascii
 export const cASCII = bas.cAS + bas.cCI + bas.cI; // ASCII
@@ -487,10 +496,12 @@ export const cAPC = bas.cAP + bas.cC; // APC
 export const callSysCV = bas.cal + bas.cl + cSys + bas.cCV; // allSysCV
 
 // Networking
+export const cECONNREFUSED = bas.cE + cCON + bas.cNR + bas.cEF + bas.cUS + bas.cED; // ECONNREFUSED
 export const cEADDRINUSE = bas.cEA + bas.cDD + bas.cRI + bas.cNU + bas.cSE; // EADDRINUSE
 export const cECONNRESET = bas.cEC + bas.cON + bas.cNR + bas.cES + bas.cET; // ECONNRESET
 export const cENOENT = bas.cEN + bas.cOE + bas.cNT; // ENOENT
 export const cEACCES = bas.cEA + bas.cCC + bas.cES; // EACCES
+export const ERR_STREAM_DESTROYED = cERR + bas.cUnderscore + bas.cST + bas.cRE + bas.cAM + bas.cUnderscore + bas.cDE + bas.cST + bas.cRO + bas.cYE + bas.cD; // ERR_STREAM_DESTROYED
 
 // Encryption
 export const caes = bas.cae + bas.cs; // aes

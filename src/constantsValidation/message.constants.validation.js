@@ -718,6 +718,7 @@ export const messageConstantsValidation = [
   {Name: 'cOpeningColon', Actual: msg.cOpeningColon, Expected: 'Opening: '},
   {Name: 'cExitingChildProcess', Actual: msg.cExitingChildProcess, Expected: 'Exiting child process'},
   {Name: 'cErrorOnShell', Actual: msg.cErrorOnShell, Expected: 'Error on shell: '},
+  {Name: 'cErrorOnClient', Actual: msg.cErrorOnClient, Expected: 'Error on client: '},
   {Name: 'coptionsAre', Actual: msg.coptionsAre, Expected: 'options are: '},
   // New Workflow defined messages.
   {Name: 'cnamespaceWorkflowDataIs', Actual: msg.cnamespaceWorkflowDataIs, Expected: 'namespaceWorkflowData is: '},
@@ -872,6 +873,9 @@ export const messageConstantsValidation = [
   {Name: 'cclonedParsedDataFileIs', Actual: msg.cclonedParsedDataFileIs, Expected: 'clonedParsedDataFile is: '},
   {Name: 'cmergedDataContentsIs', Actual: msg.cmergedDataContentsIs, Expected: 'mergedDataContents is: '},
   {Name: 'cschemaNameIs', Actual: msg.cschemaNameIs, Expected: 'schemaName is: '},
+  {Name: 'cTestingForMatch', Actual: msg.cTestingForMatch, Expected: 'Testing for match: '},
+  {Name: 'cSocketServerOffline', Actual: msg.cSocketServerOffline, Expected: 'Socket server offline!'},
+  {Name: 'cSocketClientFailed', Actual: msg.cSocketClientFailed, Expected: 'Socket client failed: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -1198,6 +1202,10 @@ export const messageConstantsValidation = [
   {Name: 'cErrorInvalidSchemaDataObjectMissingSchemasKey', Actual: msg.cErrorInvalidSchemaDataObjectMissingSchemasKey, Expected: 'ERROR: Invalid schemaDataObject: Missing schemas key'},
   {Name: 'cErrorGetSchemaMessage01', Actual: msg.cErrorGetSchemaMessage01, Expected: 'ERROR: Invalid schema name. Schema does not exist: '},
   {Name: 'creturnAllSchemas', Actual: msg.creturnAllSchemas, Expected: 'return all schemas.'},
+  {Name: 'csocketsClientServerOffline', Actual: msg.csocketsClientServerOffline, Expected: 'Server is offline! Connection is already in use or has been denied.'},
+  {Name: 'cConnectionClosed', Actual: msg.cConnectionClosed, Expected: 'Connection closed!'},
+  {Name: 'cClientConnectionEstablished', Actual: msg.cClientConnectionEstablished, Expected: 'Client connection established!'},
+  {Name: 'cConnectionClosedFailedSendingChunk', Actual: msg.cConnectionClosedFailedSendingChunk, Expected: 'Connection is closed. Failed sending chunk: '},
 
   // Coded System Messages
   // EXAMPLE:

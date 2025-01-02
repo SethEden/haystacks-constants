@@ -723,6 +723,7 @@ export const cscriptContentIs = wrd.cScript + bas.cSpace + wrd.ccontent + sys.cS
 export const cOpeningColon = wrd.cOpening + bas.cColon + bas.cSpace; // Opening:
 export const cExitingChildProcess = wrd.cExiting + bas.cSpace + wrd.cchild + bas.cSpace + wrd.cprocess; // Exiting child process
 export const cErrorOnShell = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cshell + bas.cColon + bas.cSpace; // Error on shell:
+export const cErrorOnClient = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cclient + bas.cColon + bas.cSpace; // Error on client:
 export const coptionsAre = wrd.coptions + sys.cSpaceAreColonSpace; // options are:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
@@ -877,6 +878,9 @@ export const cfilesArrayIs = wrd.cfiles + wrd.cArray + sys.cSpaceIsColonSpace; /
 export const cclonedParsedDataFileIs = wrd.ccloned + wrd.cParsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // clonedParsedDataFile is:
 export const cmergedDataContentsIs = wrd.cmerged + wrd.cData + wrd.cContents + sys.cSpaceIsColonSpace; // mergedDataContents is:
 export const cschemaNameIs = wrd.cschema + wrd.cName + sys.cSpaceIsColonSpace; // schemaName is:
+export const cTestingForMatch = wrd.cTesting + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cmatch + bas.cColon + bas.cSpace; // Testing for match:
+export const cSocketServerOffline = wrd.cSocket + bas.cspace + wrd.cserver + bas.cSpace + wrd.coffline + bas.cExclamation; // Socket server offline!
+export const cSocketClientFailed = wrd.cSocket + bas.cSpace + wrd.cclient + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // Socket client failed:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1425,6 +1429,10 @@ export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace
 export const cErrorInvalidSchemaDataObjectMissingSchemasKey = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + wrd.cData + wrd.cObject + bas.cColon + bas.cSpace + wrd.cMissing + bas.cSpace + wrd.cschemas + bas.cSpace + wrd.ckey; // ERROR: Invalid schemaDataObject: Missing schemas key
 export const cErrorGetSchemaMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cname + bas.cDot + bas.cSpace + wrd.cSchema + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // ERROR: Invalid schema name. Schema does not exist: 
 export const creturnAllSchemas = wrd.creturn + bas.cSpace + wrd.call + bas.cSpace + wrd.cschemas + bas.cDot; // return all schemas.
+export const csocketsClientServerOffline = wrd.cServer + bas.cSpace + wrd.cis + bas.cSpace + wrd.coffline + bas.cExclamation + bas.cSpace + wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.calready + bas.cSpace + wrd.cin + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cor + bas.cSpace + wrd.chas + bas.cSpace + wrd.cbeen + bas.cSpace + wrd.cdenied + bas.cDot; // Server is offline! Connection is already in use or has been denied.
+export const cConnectionClosed = wrd.cConnection + bas.cSpace + wrd.cclosed + bas.cExclamation; // Connection closed!
+export const cClientConnectionEstablished = wrd.cClient + bas.cSpace + wrd.cconnection + bas.cSpace + wrd.cestablished + bas.cExclamation; // Client connection established!
+export const cConnectionClosedFailedSendingChunk = wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.cclosed + bas.cDot + bas.cSpace + wrd.cFailed + bas.cSpace + wrd.csending + bas.cSpace + wrd.cchunk + bas.cColon + bas.cSpace; // Connection is closed. Failed sending chunk:
 
 // Coded System Messages
 // EXAMPLE:

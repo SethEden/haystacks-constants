@@ -505,6 +505,7 @@ export const systemConstantsValidation = [
   {Name: 'clocalhost', Actual: sys.clocalhost, Expected: 'localhost'},
   {Name: 'ccontrolFlags', Actual: sys.ccontrolFlags, Expected: 'controlFlags'},
   {Name: 'cflagNames', Actual: sys.cflagNames, Expected: 'flagNames'},
+  {Name: 'cNODE_ENV', Actual: sys.cNODE_ENV, Expected: 'NODE_ENV'},
 
   // Constants Filenames
   {Name: 'calphabet_constants_js', Actual: sys.calphabet_constants_js, Expected: 'alphabet.constants.js'},

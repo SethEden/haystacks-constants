@@ -504,6 +504,7 @@ export const ccommandPrompt = wrd.ccommand + wrd.cPrompt; // commandPrompt
 export const clocalhost = wrd.clocal + wrd.chost; // localhost
 export const ccontrolFlags = wrd.ccontrol + wrd.cFlags; // controlFlags
 export const cflagNames = wrd.cflag + wrd.cNames; // flagNames
+export const cNODE_ENV = wrd.cNODE + bas.cUnderscore + gen.cENV; // NODE_ENV
 
 // Constants Filenames
 export const calphabet_constants_js = wrd.calphabet + bas.cDot + wrd.cconstants + gen.cDotjs; // alphabet.constants.js

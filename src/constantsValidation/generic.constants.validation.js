@@ -71,6 +71,9 @@ export const genericConstantsValidation = [
   {Name: 'cfail', Actual: gen.cfail, Expected: 'fail'},
   {Name: 'cFail', Actual: gen.cFail, Expected: 'Fail'},
   {Name: 'cFAIL', Actual: gen.cFAIL, Expected: 'FAIL'},
+  {Name: 'cerr', Actual: gen.cerr, Expected: 'err'},
+  {Name: 'cErr', Actual: gen.cErr, Expected: 'Err'},
+  {Name: 'cERR', Actual: gen.cERR, Expected: 'ERR'},
 
   // Directions
   {Name: 'cdown', Actual: gen.cdown, Expected: 'down'},
@@ -147,6 +150,9 @@ export const genericConstantsValidation = [
   {Name: 'cbat', Actual: gen.cbat, Expected: 'bat'},
   {Name: 'cBat', Actual: gen.cBat, Expected: 'Bat'},
   {Name: 'cBAT', Actual: gen.cBAT, Expected: 'BAT'},
+  {Name: 'chtml', Actual: gen.chtml, Expected: 'html'},
+  {Name: 'cHtml', Actual: gen.cHtml, Expected: 'Html'},
+  {Name: 'cHTML', Actual: gen.cHTML, Expected: 'HTML'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},
@@ -190,6 +196,9 @@ export const genericConstantsValidation = [
   {Name: 'cDotbat', Actual: gen.cDotbat, Expected: '.bat'},
   {Name: 'cDotBat', Actual: gen.cDotBat, Expected: '.Bat'},
   {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: '.BAT'},
+  {Name: 'cDothtml', Actual: gen.cDothtml, Expected: '.html'},
+  {Name: 'cDotHtml', Actual: gen.cDotHtml, Expected: '.Html'},
+  {Name: 'cDotHTML', Actual: gen.cDotHTML, Expected: '.HTML'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
   {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
   {Name: 'cASCII', Actual: gen.cASCII, Expected: 'ASCII'},
@@ -375,7 +384,6 @@ export const genericConstantsValidation = [
   {Name: 'cOmega', Actual: gen.cOmega, Expected: 'Omega'},
   {Name: 'cOMEGA', Actual: gen.cOMEGA, Expected: 'OMEGA'},
 
-
   // Months Of The Year
     {Name: 'cjanuary', Actual: gen.cjanuary, Expected: 'january'},
   {Name: 'cJanuary', Actual: gen.cJanuary, Expected: 'January'},
@@ -410,7 +418,6 @@ export const genericConstantsValidation = [
   {Name: 'cdecember', Actual: gen.cdecember, Expected: 'december'},
   {Name: 'cDecember', Actual: gen.cDecember, Expected: 'December'},
   {Name: 'cDECEMBER', Actual: gen.cDECEMBER, Expected: 'DECEMBER'},
-
 
   // Constants Abbreviations
   {Name: 'cabt', Actual: gen.cabt, Expected: 'abt'},
@@ -489,10 +496,12 @@ export const genericConstantsValidation = [
   {Name: 'callSysCV', Actual: gen.callSysCV, Expected: 'allSysCV'},
 
   // Networking
+  {Name: 'cECONNREFUSED', Actual: gen.cECONNREFUSED, Expected: 'ECONNREFUSED'},
   {Name: 'cEADDRINUSE', Actual: gen.cEADDRINUSE, Expected: 'EADDRINUSE'},
   {Name: 'cECONNRESET', Actual: gen.cECONNRESET, Expected: 'ECONNRESET'},
   {Name: 'cENOENT', Actual: gen.cENOENT, Expected: 'ENOENT'},
   {Name: 'cEACCES', Actual: gen.cEACCES, Expected: 'EACCES'},
+  {Name: 'ERR_STREAM_DESTROYED', Actual: gen.ERR_STREAM_DESTROYED, Expected: 'ERR_STREAM_DESTROYED'},
 
   // Encryption
   {Name: 'caes', Actual: gen.caes, Expected: 'aes'},
