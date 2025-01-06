@@ -876,6 +876,7 @@ export const messageConstantsValidation = [
   {Name: 'cTestingForMatch', Actual: msg.cTestingForMatch, Expected: 'Testing for match: '},
   {Name: 'cSocketServerOffline', Actual: msg.cSocketServerOffline, Expected: 'Socket server offline!'},
   {Name: 'cSocketClientFailed', Actual: msg.cSocketClientFailed, Expected: 'Socket client failed: '},
+  {Name: 'cpathDelimiterIs', Actual: msg.cpathDelimiterIs, Expected: 'pathDelimiter is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
