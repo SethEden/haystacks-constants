@@ -234,6 +234,7 @@ export const businessConstantsValidation = [
   {Name: 'cgetCsvData', Actual: biz.cgetCsvData, Expected: 'getCsvData'},
   {Name: 'cgetJsonData', Actual: biz.cgetJsonData, Expected: 'getJsonData'},
   {Name: 'cwriteJsonData', Actual: biz.cwriteJsonData, Expected: 'writeJsonData'},
+  {Name: 'cwriteAsciiData', Actual: biz.cwriteAsciiData, Expected: 'writeAsciiData'},
   {Name: 'cloadAsciiFileFromPath', Actual: biz.cloadAsciiFileFromPath, Expected: 'loadAsciiFileFromPath'},
   {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
   {Name: 'cscanDirectoryContents', Actual: biz.cscanDirectoryContents, Expected: 'scanDirectoryContents'},
