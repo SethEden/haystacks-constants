@@ -878,6 +878,9 @@ export const messageConstantsValidation = [
   {Name: 'cSocketClientFailed', Actual: msg.cSocketClientFailed, Expected: 'Socket client failed: '},
   {Name: 'cpathDelimiterIs', Actual: msg.cpathDelimiterIs, Expected: 'pathDelimiter is: '},
   {Name: 'cpathIs', Actual: msg.cpathIs, Expected: 'path is: '},
+  {Name: 'cjsonDataIs', Actual: msg.cjsonDataIs, Expected: 'jsonData is: '},
+  {Name: 'cfilePathIs', Actual: msg.cfilePathIs, Expected: 'filePath is: '},
+  {Name: 'carrayOfFilesIs', Actual: msg.carrayOfFilesIs, Expected: 'arrayOfFiles is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
@@ -1208,6 +1211,7 @@ export const messageConstantsValidation = [
   {Name: 'cConnectionClosed', Actual: msg.cConnectionClosed, Expected: 'Connection closed!'},
   {Name: 'cClientConnectionEstablished', Actual: msg.cClientConnectionEstablished, Expected: 'Client connection established!'},
   {Name: 'cConnectionClosedFailedSendingChunk', Actual: msg.cConnectionClosedFailedSendingChunk, Expected: 'Connection is closed. Failed sending chunk: '},
+  {Name: 'cErrorFailureParsingFilename', Actual: msg.cErrorFailureParsingFilename, Expected: 'ERROR: Failure parsing file name: '},
 
   // Coded System Messages
   // EXAMPLE:

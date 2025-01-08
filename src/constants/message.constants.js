@@ -883,6 +883,9 @@ export const cSocketServerOffline = wrd.cSocket + bas.cSpace + wrd.cserver + bas
 export const cSocketClientFailed = wrd.cSocket + bas.cSpace + wrd.cclient + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // Socket client failed:
 export const cpathDelimiterIs = wrd.cpath + wrd.cDelimiter + sys.cSpaceIsColonSpace; // pathDelimiter is:
 export const cpathIs = wrd.cpath + sys.cSpaceIsColonSpace; // path is:
+export const cjsonDataIs = gen.cjson + wrd.cData + sys.cSpaceIsColonSpace; // jsonData is:
+export const cfilePathIs = wrd.cfile + wrd.cPath + sys.cSpaceIsColonSpace; // filePath is:
+export const carrayOfFilesIs = wrd.carray + wrd.cOf + wrd.cFiles + sys.cSpaceIsColonSpace; // arrayOfFiles is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1435,6 +1438,7 @@ export const csocketsClientServerOffline = wrd.cServer + bas.cSpace + wrd.cis + 
 export const cConnectionClosed = wrd.cConnection + bas.cSpace + wrd.cclosed + bas.cExclamation; // Connection closed!
 export const cClientConnectionEstablished = wrd.cClient + bas.cSpace + wrd.cconnection + bas.cSpace + wrd.cestablished + bas.cExclamation; // Client connection established!
 export const cConnectionClosedFailedSendingChunk = wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.cclosed + bas.cDot + bas.cSpace + wrd.cFailed + bas.cSpace + wrd.csending + bas.cSpace + wrd.cchunk + bas.cColon + bas.cSpace; // Connection is closed. Failed sending chunk:
+export const cErrorFailureParsingFilename = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cparsing + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace; // ERROR: Failure parsing file name:
 
 // Coded System Messages
 // EXAMPLE:

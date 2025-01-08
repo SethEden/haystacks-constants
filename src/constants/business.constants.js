@@ -182,6 +182,7 @@ export const cobfuscateString = wrd.cobfuscate + wrd.cString; // obfuscateString
 // FileStringParsing rules in order
 // ***********************************************
 export const cgetFileNameFromPath = wrd.cget + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // getFileNameFromPath
+export const cremoveFileNameFromPath = wrd.cremove + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // removeFileNameFromPath
 export const cgetFileExtension = wrd.cget + wrd.cFile + wrd.cExtension; // getFileExtension
 export const cremoveDotFromFileExtension = wrd.cremove + wrd.cDot + wrd.cFrom + wrd.cFile + wrd.cExtension; // removeDotFromFileExtension
 export const cremoveFileExtensionFromFileName = wrd.cremove + wrd.cFile + wrd.cExtension + wrd.cFrom + wrd.cFileName; // removeFileExtensionFromFileName

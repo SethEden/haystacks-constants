@@ -178,6 +178,7 @@ export const businessConstantsValidation = [
   // FileStringParsing rules in order
   // ***********************************************
   {Name: 'cgetFileNameFromPath', Actual: biz.cgetFileNameFromPath, Expected: 'getFileNameFromPath'},
+  {Name: 'cremoveFileNameFromPath', Actual: biz.cremoveFileNameFromPath, Expected: 'removeFileNameFromPath'},
   {Name: 'cgetFileExtension', Actual: biz.cgetFileExtension, Expected: 'getFileExtension'},
   {Name: 'cremoveDotFromFileExtension', Actual: biz.cremoveDotFromFileExtension, Expected: 'removeDotFromFileExtension'},
   {Name: 'cremoveFileExtensionFromFileName', Actual: biz.cremoveFileExtensionFromFileName, Expected: 'removeFileExtensionFromFileName'},
