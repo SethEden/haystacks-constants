@@ -70,7 +70,7 @@ export const cfail = bas.cfa + bas.cil; // fail
 export const cFail = bas.cFa + bas.cil; // Fail
 export const cFAIL = bas.cFA + bas.cIL; // FAIL
 export const cerr = bas.cer + bas.cr; // err
-export const cErr = bas.cER + bas.cr; // Err
+export const cErr = bas.cEr + bas.cr; // Err
 export const cERR = bas.cER + bas.cR; // ERR
 
 // Directions
