@@ -44,6 +44,8 @@ export const cappConfigPath = gen.capp + wrd.cConfig + wrd.cPath; // appConfigPa
 export const cpluginConfigPath = wrd.cplugin + wrd.cConfig + wrd.cPath; // pluginConfigPath
 export const cframeworkConfigPath = wrd.cframework + wrd.cConfig + wrd.cPath; // frameworkConfigPath
 export const cframeworkThemesPath = wrd.cframework + wrd.cThemes + wrd.cPath; // frameworkThemesPath
+export const cframeworkSchemasPath = wrd.cframework + wrd.cSchemas + wrd.cPath; // frameworkSchemasPath
+export const capplicationSchemasPath = wrd.capplication + wrd.cSchemas + wrd.cPath; // applicationSchemasPath
 export const cclientThemesPath = wrd.cclient + wrd.cThemes + wrd.cPath; // clientThemesPath
 export const cappConfigFiles = gen.capp + wrd.cConfig + wrd.cFiles; // appConfigFiles
 export const cframeworkConfigFiles = wrd.cframework + wrd.cConfig + wrd.cFiles; // frameworkConfigFiles
@@ -112,6 +114,7 @@ export const clogAllCommands = wrd.clog + wrd.cAll + wrd.cCommands; // logAllCom
 export const cenableUserCommandsLogClearing = wrd.cenable + wrd.cUser + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableUserCommandsLogClearing
 export const cenableAllCommandsLogClearing = wrd.cenable + wrd.cAll + wrd.cCommands + wrd.cLog + wrd.cClearing; // enableAllCommandsLogClearing
 export const csilentDeleteFailure = wrd.csilent + wrd.cDelete + wrd.cFailure; // silentDeleteFailure
+export const cschemasLoaded = wrd.cschemas + wrd.cLoaded; // schemasLoaded
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp

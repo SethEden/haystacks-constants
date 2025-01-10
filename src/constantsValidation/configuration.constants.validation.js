@@ -45,6 +45,8 @@ export const configurationConstantsValidation = [
   {Name: 'cpluginConfigPath', Actual: cfg.cpluginConfigPath, Expected: 'pluginConfigPath'},
   {Name: 'cframeworkConfigPath', Actual: cfg.cframeworkConfigPath, Expected: 'frameworkConfigPath'},
   {Name: 'cframeworkThemesPath', Actual: cfg.cframeworkThemesPath, Expected: 'frameworkThemesPath'},
+  {Name: 'cframeworkSchemasPath', Actual: cfg.cframeworkSchemasPath, Expected: 'frameworkSchemasPath'},
+  {Name: 'capplicationSchemasPath', Actual: cfg.capplicationSchemasPath, Expected: 'applicationSchemasPath'},
   {Name: 'cclientThemesPath', Actual: cfg.cclientThemesPath, Expected: 'clientThemesPath'},
   {Name: 'cappConfigFiles', Actual: cfg.cappConfigFiles, Expected: 'appConfigFiles'},
   {Name: 'cframeworkConfigFiles', Actual: cfg.cframeworkConfigFiles, Expected: 'frameworkConfigFiles'},
@@ -113,6 +115,7 @@ export const configurationConstantsValidation = [
   {Name: 'cenableUserCommandsLogClearing', Actual: cfg.cenableUserCommandsLogClearing, Expected: 'enableUserCommandsLogClearing'},
   {Name: 'cenableAllCommandsLogClearing', Actual: cfg.cenableAllCommandsLogClearing, Expected: 'enableAllCommandsLogClearing'},
   {Name: 'csilentDeleteFailure', Actual: cfg.csilentDeleteFailure, Expected: 'silentDeleteFailure'},
+  {Name: 'cschemasLoaded', Actual: cfg.cschemasLoaded, Expected: 'schemasLoaded'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},

@@ -223,6 +223,7 @@ export const ccurrentMasterStringArrayElement = wrd.ccurrent + wrd.cMaster + wrd
 export const cLehmerCodeArray = wrd.cLehmer + wrd.cCode + wrd.cArray; // LehmerCodeArray
 export const creturnData = wrd.creturn + wrd.cData; // returnData
 export const cCamelCase = wrd.cCamel + wrd.cCase; // CamelCase
+export const cruleBroker = wrd.crule + wrd.cBroker; // ruleBroker
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle
@@ -238,6 +239,44 @@ export const cFunctionFontBackgroundColor = wrd.cFunction + wrd.cFont + cBackgro
 export const cMessageFontBackgroundColor = wrd.cMessage + wrd.cFont + cBackground + wrd.cColor; // MessageFontBackgroundColor
 export const cDataFontBackgroundColor = wrd.cData + wrd.cFont + cBackground + wrd.cColor; // DataFontBackgroundColor
 
+// UI Element Types
+export const cimage = wrd.cimage; // image
+export const cImage = wrd.cImage; // Image
+export const cIMAGE = wrd.cIMAGE; // IMAGE
+export const cbutton = bas.cbu + bas.ctt + bas.con; // button
+export const cButton = bas.cBu + bas.ctt + bas.con; // Button
+export const cBUTTON = bas.cBU + bas.cTT + bas.cON; // BUTTON
+export const clink = wrd.clink; // link
+export const cLink = wrd.cLink; // Link
+export const cLINK = wrd.cLINK; // LINK
+export const clist = wrd.clist; // list
+export const cList = wrd.cList; // List
+export const cLIST = wrd.cLIST; // LIST
+export const ccheckbox = wrd.ccheck + wrd.cbox; // checkbox
+export const cCheckbox = wrd.cCheck + wrd.cbox; // Checkbox
+export const cCheckBox = wrd.cCheck + wrd.cBox; // CheckBox
+export const cCHECKBOX = wrd.cCHECK + wrd.cBOX; // CHECKBOX
+export const clistbox = wrd.clist + wrd.cbox; // listbox
+export const cListbox = wrd.cList + wrd.cbox; // Listbox
+export const cListBox = wrd.cList + wrd.cBox; // ListBox
+export const cLISTBOX = wrd.cLIST + wrd.cBOX; // LISTBOX
+export const ccombo = phn.ccom + bas.cbo; // combo
+export const cCombo = phn.cCom + bas.cbo; // Combo
+export const cCOMBO = phn.cCOM + bas.cBO; // COMBO
+export const ccombobox = ccombo + wrd.cbox; // combobox
+export const cCombobox = cCombo + wrd.cbox; // Combobox
+export const cComboBox = cCombo + wrd.cBox; // ComboBox
+export const cCOMBOBOX = cCOMBO + wrd.cBOX; // COMBOBOX
+export const cslider = wrd.cslider; // slider
+export const cSlider = wrd.cSlider; // Slider
+export const cSLIDER = wrd.cSLIDER; // SLIDER
+export const cfield = wrd.cfield; // field
+export const cField = wrd.cField; // Field
+export const cFIELD = wrd.cFIELD; // FIELD
+export const cdate = wrd.cdate; // date
+export const cDate = wrd.cDate; // Date
+export const cDATE = wrd.cDATE; // DATE
+
 // File Types
 export const cCatia = bas.cCa + bas.cti + bas.ca; // Catia
 export const cDocument = wrd.cDocument; // Document
@@ -246,7 +285,6 @@ export const cDraft = bas.cDr + phn.caft; // Draft
 export const cDWG = bas.cDW + bas.cG; // DWG
 export const cHoops = bas.cH + wrd.coops; // Hoops
 export const cHOOPS = bas.cH + wrd.cOOPS; // HOOPS
-export const cImage = bas.cIm + phn.cage; // Image
 export const cImages = cImage + bas.cs; // Images
 export const cInventor = phn.cInv + bas.cen + phn.ctor; // Inventor
 export const cNeutral = bas.cNe + bas.cut + phn.cral; // Neutral
@@ -263,47 +301,73 @@ export const cVRML = bas.cVR + bas.cML; // VRML
 // Browsers
 export const cchrome = wrd.cchrome; // chrome
 export const cChrome = wrd.cChrome; // Chrome
+export const cCHROME = wrd.cCHROME; // CHROME
 export const cedge = wrd.cedge; // edge
 export const cEdge = wrd.cEdge; // Edge
+export const cEDGE = wrd.cEDGE; // EDGE
 export const cfirefox = wrd.cfire + wrd.cfox; // firefox
 export const cFirefox = wrd.cFire + wrd.cfox; // Firefox
+export const cFIREFOX = wrd.cFIRE + wrd.cFOX; // FIREFOX
 export const copera = wrd.copera; // opera
 export const cOpera = wrd.cOpera; // Opera
+export const cOPERA = wrd.cOPERA; // OPERA
 export const csafari = wrd.csafari; // safari
 export const cSafari = wrd.cSafari; // Safari
+export const cSAFARI = wrd.cSAFARI; // SAFARI
 export const cvivaldi = wrd.cvivaldi; // vivaldi
 export const cVivaldi = wrd.cVivaldi; // Vivaldi
+export const cVIVALDI = wrd.cVIVALDI; // VIVALDI
 export const cbrave = wrd.cbrave; // brave
 export const cBrave = wrd.cBrave; // Brave
+export const cBRAVE = wrd.cBRAVE; // BRAVE
 export const cinternetExplorer = wrd.cinternet + bas.cSpace + wrd.cExplorer; // internet Explorer
 export const cInternetExplorer = wrd.cInternet + bas.cSpace + wrd.cExplorer; // Internet Explorer
+export const cINTERNETEXPLORER = wrd.cINTERNET + bas.cSpace + wrd.cEXPLORER; // INTERNET EXPLORER
 export const cchromium = wrd.cchromium; // chromium
 export const cChromium = wrd.cChromium; // Chromium
+export const cCHROMIUM = wrd.cCHROMIUM; // CHROMIUM
 export const ctorBrowser = wrd.ctor + wrd.cBrowser; // torBrowser
 export const cTorBrowser = wrd.cTor + wrd.cBrowser; // TorBrowser
+export const cTORBROWSER = wrd.cTOR + wrd.cBROWSER; // TORBROWSER
 export const cmaxthon = wrd.cmax + phn.cthon; // maxthon
 export const cMaxthon = wrd.cMax + phn.cthon; // Maxthon
+export const cMAXTHON = wrd.cMAX + phn.cTHON; // MAXTHON
 export const cwaterfox = wrd.cwater + wrd.cfox; // waterfox
 export const cWaterfox = wrd.cWater + wrd.cfox; // Waterfox
+export const cWATERFOX = wrd.cWATER + wrd.cFOX; // WATERFOX
 export const cseaMonkey = wrd.csea + wrd.cMonkey; // seaMonkey
 export const cSeaMonkey = wrd.cSea + wrd.cMonkey; // SeaMonkey
+export const cSEAMONKEY = wrd.cSEA + wrd.cMONKEY; // SEAMONKEY
 export const cepic = wrd.cepic; // epic
 export const cEpic = wrd.cEpic; // Epic
+export const cEPIC = wrd.cEPIC; // EPIC
 export const cmidori = phn.cmid + phn.cori; // midori
 export const cMidori = phn.cMid + phn.cori; // Midori
+export const cMIDORI = phn.cMID + phn.cORI; // MIDORI
 export const cUCBrowser = bas.cUC + wrd.cBrowser; // UCBrowser
+export const cUCBROWSER = bas.cUC + wrd.cBROWSER; // UCBROWSER
 export const coperaGX = copera + bas.cGX; // operaGX
 export const cOperaGX = cOpera + bas.cGX; // OperaGX
+export const cOPERAGX = cOPERA + bas.cGX; // OPERAGX
 export const cyandexBrowser = phn.cyan + phn.cdex + wrd.cBrowser; // yandexBrowser
 export const cYandexBrowser = phn.cYan + phn.cdex + wrd.cBrowser; // YandexBrowser
+export const cYANDEXBROWSER = phn.cYAN + phn.cDEX + wrd.cBROWSER; // YANDEXBROWSER
 export const ccomodoDragon = wrd.ccomodo + wrd.cDragon; // comodoDragon
 export const cComodoDragon = wrd.cComodo + wrd.cDragon; // ComodoDragon
+export const cCOMODODRAGON = wrd.cCOMODO + wrd.cDRAGON; // COMODODRAGON
 export const ccomodoIceDragon = wrd.ccomodo + wrd.cIce + wrd.cDragon; // comodoIceDragon
 export const cComodoIceDragon = wrd.cComodo + wrd.cIce + wrd.cDragon; // ComodoIceDragon
+export const cCOMODOICEDRAGON = wrd.cCOMODO + wrd.cICE + wrd.cDRAGON; // COMODOICEDRAGON
 export const cfirefoxFocus = cfirefox + wrd.cFocus; // firefoxFocus
 export const cFirefoxFocus = cFirefox + wrd.cFocus; // FirefoxFocus
+export const cFIREFOXFOCUS = cFIREFOX + wrd.cFOCUS; // FIREFOXFOCUS
 export const calohaBrowser = wrd.caloha + wrd.cBrowser; // alohaBrowser
 export const cAlohaBrowser = wrd.cAloha + wrd.cBrowser; // AlohaBrowser
+export const cALOHABROWSER = wrd.cALOHA + wrd.cBROWSER; // ALOHABROWSER
+export const cwebkit = wrd.cweb + wrd.ckit; // webkit
+export const cWebkit = wrd.cWeb + wrd.ckit; // Webkit
+export const cWebKit = wrd.cWeb + wrd.cKit; // WebKit
+export const cWEBKIT = wrd.cWEB + wrd.cKIT; // WEBKIT
 
 // Command Systems
 export const cgit = bas.cgi + bas.ct; // git
@@ -319,9 +383,6 @@ export const cbash = bas.cba + bas.csh; // bash
 export const cgitDashBash = cgit + bas.cDash + cbash; // git-bash
 export const cpowershell = wrd.cpower + wrd.cshell; // powershell
 export const cpwsh = bas.cpw + bas.csh; // pwsh
-
-// UI Element Types
-export const cButton = bas.cBu + bas.ctt + bas.con; // Button
 
 // Environment Variables
 export const cQA = bas.cQA; // QA
@@ -361,6 +422,10 @@ export const cctrl_w = phn.cctrl + bas.cPlus + bas.cw; // ctrl+w
 export const cctrl_x = phn.cctrl + bas.cPlus + bas.cx; // ctrl+x
 export const cctrl_y = phn.cctrl + bas.cPlus + bas.cy; // ctrl+y
 export const cctrl_z = phn.cctrl + bas.cPlus + bas.cz; // ctrl+z
+
+// Schemas
+export const clanguageSchema = wrd.clanguage + wrd.cSchema; // languageSchema
+export const cloggerSchema = wrd.clogger + wrd.cSchema; // loggerSchema
 
 // System Terms
 export const csystemConfigFileName = wrd.cframework + bas.cDot + wrd.csystem + gen.cDotjson; // framework.system.json
@@ -436,6 +501,10 @@ export const cpluginsLoaded = wrd.cplugins + wrd.cLoaded; // pluginsLoaded
 export const cUserEnteredCommandLog = wrd.cUser + wrd.cEntered + wrd.cCommand + wrd.cLog; // UserEnteredCommandLog
 export const cSystemCommandLog = wrd.cSystem + wrd.cCommand + wrd.cLog; // SystemCommandLog
 export const ccommandPrompt = wrd.ccommand + wrd.cPrompt; // commandPrompt
+export const clocalhost = wrd.clocal + wrd.chost; // localhost
+export const ccontrolFlags = wrd.ccontrol + wrd.cFlags; // controlFlags
+export const cflagNames = wrd.cflag + wrd.cNames; // flagNames
+export const cNODE_ENV = wrd.cNODE + bas.cUnderscore + gen.cENV; // NODE_ENV
 
 // Constants Filenames
 export const calphabet_constants_js = wrd.calphabet + bas.cDot + wrd.cconstants + gen.cDotjs; // alphabet.constants.js
@@ -476,5 +545,6 @@ export const cframeworkConstantsPath = wrd.cconstants + bas.cDoubleForwardSlash;
 export const cframeworkResourcesPath = wrd.cresources + bas.cDoubleForwardSlash; // resources//
 export const cframeworkResourcesConfigurationPath = cframeworkResourcesPath + wrd.cconfiguration + bas.cDoubleForwardSlash; // resources//configuration//
 export const cframeworkThemesPath = cframeworkResourcesPath + wrd.cthemes + bas.cDoubleForwardSlash; // resources//themes//
+export const cframeworkSchemasPath = cframeworkResourcesPath + wrd.cschemas + bas.cDoubleForwardSlash; // resources//schemas//
 export const cframeworkResourcesCommandAliasesPath = cframeworkResourcesPath + wrd.ccommands + bas.cDoubleForwardSlash; // resources//commands//
 export const cframeworkResourcesWorkflowsPath = cframeworkResourcesPath + wrd.cworkflows + bas.cDoubleForwardSlash; // resources//workflows//

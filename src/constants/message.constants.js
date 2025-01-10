@@ -39,6 +39,7 @@ export const cinputDataIs = cinputData + sys.cSpaceIsColonSpace; // inputData is
 export const cinputsIs = wrd.cinputs + sys.cSpaceIsColonSpace; // inputs is:
 export const cinputMetaDataIs = wrd.cinput + wrd.cMetaData + sys.cSpaceIsColonSpace; // inputMetaData is:
 export const creturnDataIs = wrd.creturn + wrd.cData + sys.cSpaceIsColonSpace; // returnData is:
+export const creturnValueIs = wrd.creturn + wrd.cValue + sys.cSpaceIsColonSpace; // returnValue is:
 export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpaceIsColonSpace; // returnDataTemp is:
 
 // System Messages
@@ -62,6 +63,7 @@ export const clanguageIs = wrd.clanguage + sys.cSpaceIsColonSpace; // language i
 export const cfailureModeIs = sys.cfailureMode + sys.cSpaceIsColonSpace; // failureMode is:
 export const cprefixIs = wrd.cprefix + sys.cSpaceIsColonSpace; // prefix is:
 export const csuffixIs = wrd.csuffix + sys.cSpaceIsColonSpace; // suffix is:
+export const ctypeIs = wrd.ctype + sys.cSpaceIsColonSpace; // type is:
 export const cWithoutTheAtSymbol = sys.cWithoutThe + bas.cSpace + bas.cAt + bas.cSpace + wrd.csymbol + bas.cDot; // Without the @ symbol.
 export const cWithoutThePrefix = sys.cWithoutThe + bas.cSpace + wrd.cprefix + bas.cDot; // Without the prefix.
 export const cWithoutTheSuffix = sys.cWithoutThe + bas.cSpace + wrd.csuffix + bas.cDot; // Without the suffix.
@@ -224,6 +226,7 @@ export const ccontentsAre = wrd.ccontents + bas.cSpace + wrd.care + bas.cColon +
 export const ccontentsOfDare = wrd.ccontents + bas.cSpace + bas.cof + bas.cSpace + bas.cD + bas.cSpace + wrd.care + bas.cColon + bas.cSpace; // contents of D are:
 export const cBEGIN_theIthIterationOfInputDataArray = wrd.cBEGIN + bas.cSpace + wrd.cthe + bas.cSpace + bas.ci + bas.cDash + bas.cth + bas.cSpace + wrd.citeration + bas.cSpace + bas.cof + bas.cSpace + wrd.cthe + bas.cSpace + cinputData + bas.cSpace + wrd.carray + bas.cDot + bas.cSpace + bas.ci + sys.cSpaceIsColonSpace; // Begin the i-th iteration of the inputData array. i is:
 export const ccurrentRuleIs = wrd.ccurrent + wrd.cRule + sys.cSpaceIsColonSpace; // currentRule is:
+export const cruleIs = wrd.crule + sys.cSpaceIsColonSpace; // rule is:
 export const crulesIs = wrd.crules + sys.cSpaceIsColonSpace; // rules is:
 export const cruleInputDataIs = wrd.crule + cInputData + sys.cSpaceIsColonSpace; // ruleInputData is:
 export const cruleInputMetaData = wrd.crule + wrd.cInput + wrd.cMetaData + sys.cSpaceIsColonSpace; // ruleInputMetaData is:
@@ -371,6 +374,7 @@ export const cdataFileToMergeIs = wrd.cdata + wrd.cFile + bas.cSpace + bas.cto +
 export const cparsedDataFileIs = wrd.cparsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // parsedDataFile is:
 export const cexecuteBusinessRules = wrd.cexecute + bas.cSpace + wrd.cbusiness + bas.cSpace + wrd.crules + bas.cColon + bas.cSpace; // execute business rules:
 export const cdataFileIs = wrd.cdata + wrd.cFile + sys.cSpaceIsColonSpace; // dataFile is:
+export const cdataFilesIs = wrd.cdata + wrd.cFiles + sys.cSpaceIsColonSpace; // dataFiles is:
 export const cmergedDataIs = wrd.cmerged + wrd.cData + sys.cSpaceIsColonSpace; // mergedData is:
 export const cdebugConfigurationSettingValueIs = wrd.cdebug + wrd.cConfiguration + wrd.cSetting + wrd.cValue + sys.cSpaceIsColonSpace; // debugConfigurationSettingValue is:
 export const cclientRootPathIs = wrd.cclient + wrd.cRoot + wrd.cPath + sys.cSpaceIsColonSpace; // clientRootPath is:
@@ -388,6 +392,10 @@ export const cframeworkResourcesPathIs = wrd.cframework + wrd.cResources + wrd.c
 export const cframeworkFullMetaDataPathIs = wrd.cframework + wrd.cFull + wrd.cMetaData + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkFullMetaDataPath is:
 export const cframeworkConfigPathIs = wrd.cframework + wrd.cConfig + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkConfigPath is:
 export const cframeworkThemesPathIs = wrd.cframework + wrd.cThemes + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkThemesPath is:
+export const cframeworkSchemasPathIs = wrd.cframework + wrd.cSchemas + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkSchemasPath is:
+export const capplicationSchemasPathIs = wrd.capplication + wrd.cSchemas + wrd.cPath + sys.cSpaceIsColonSpace; // applicationSchemasPath is:
+export const cframeworkSchemasDataIs = wrd.cframework + wrd.cSchemas + wrd.cData + sys.cSpaceIsColonSpace; // frameworkSchemasData is:
+export const capplicationSchemasDataIs = wrd.capplication + wrd.cSchemas + wrd.cData + sys.cSpaceIsColonSpace; // applicationSchemasDataIs
 export const cframeworkCommandAliasesPathIs = wrd.cframework + wrd.cCommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkCommandAliasesPath is:
 export const cframeworkWorkflowsPathIs = wrd.cframework + wrd.cWorkflows + wrd.cPath + sys.cSpaceIsColonSpace; // frameworkWorkflowsPath is:
 export const ccommandAliasesPathIs = wrd.ccommand + wrd.cAliases + wrd.cPath + sys.cSpaceIsColonSpace; // commandAliasesPath is:
@@ -715,6 +723,7 @@ export const cscriptContentIs = wrd.cScript + bas.cSpace + wrd.ccontent + sys.cS
 export const cOpeningColon = wrd.cOpening + bas.cColon + bas.cSpace; // Opening:
 export const cExitingChildProcess = wrd.cExiting + bas.cSpace + wrd.cchild + bas.cSpace + wrd.cprocess; // Exiting child process
 export const cErrorOnShell = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cshell + bas.cColon + bas.cSpace; // Error on shell:
+export const cErrorOnClient = wrd.cError + bas.cSpace + wrd.con + bas.cSpace + wrd.cclient + bas.cColon + bas.cSpace; // Error on client:
 export const coptionsAre = wrd.coptions + sys.cSpaceAreColonSpace; // options are:
 // New Workflow defined messages.
 export const cnamespaceWorkflowDataIs = wrd.cnamespace + wrd.cWorkflow + wrd.cData + sys.cSpaceIsColonSpace; // namespaceWorkflowData is:
@@ -859,6 +868,24 @@ export const cpluginRootPathIs = wrd.cplugin + wrd.cRoot + wrd.cPath + sys.cSpac
 export const cpluginReleaseResourcesPathIs = wrd.cplugin + wrd.cRelease + wrd.cResources + wrd.cPath + sys.cSpaceIsColonSpace; // pluginReleaseResourcesPath is:
 export const cfilesToLoadIsValid = wrd.cfiles + wrd.cTo + wrd.cLoad + bas.cSpace + wrd.cis + bas.cSpace + wrd.cvalid; // filesToLoad is valid
 export const cpluginsFromPathArrayIs = wrd.cplugins + wrd.cFrom + wrd.cPath + wrd.cArray + sys.cSpaceIsColonSpace; // pluginsFromPathArray is:
+export const cschemaDataObjectIs = wrd.cschema + wrd.cData + wrd.cObject + sys.cSpaceIsColonSpace; // schemaDataObject is:
+export const cschemaDataObjectsIs = wrd.cschema + wrd.cData + wrd.cObjects + sys.cSpaceIsColonSpace; // schemaDataObjects is:
+export const cStoredSchemaUnderNamespace = wrd.cStored + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cunder + bas.cSpace + wrd.cnamespace + bas.cColon + bas.cSpace; // Stored schema under namespace:
+export const clanguageSchemaIs = wrd.clanguage + wrd.cSchema + sys.cSpaceIsColonSpace; // languageSchema is:
+export const clanguageKeyIs = wrd.clanguage + wrd.cKey + sys.cSpaceIsColonSpace; // languageKey is:
+export const clanguageRuleIs = wrd.clanguage + wrd.cRule + sys.cSpaceIsColonSpace; // languageRule is:
+export const cfilesArrayIs = wrd.cfiles + wrd.cArray + sys.cSpaceIsColonSpace; // filesArray is:
+export const cclonedParsedDataFileIs = wrd.ccloned + wrd.cParsed + wrd.cData + wrd.cFile + sys.cSpaceIsColonSpace; // clonedParsedDataFile is:
+export const cmergedDataContentsIs = wrd.cmerged + wrd.cData + wrd.cContents + sys.cSpaceIsColonSpace; // mergedDataContents is:
+export const cschemaNameIs = wrd.cschema + wrd.cName + sys.cSpaceIsColonSpace; // schemaName is:
+export const cTestingForMatch = wrd.cTesting + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cmatch + bas.cColon + bas.cSpace; // Testing for match:
+export const cSocketServerOffline = wrd.cSocket + bas.cSpace + wrd.cserver + bas.cSpace + wrd.coffline + bas.cExclamation; // Socket server offline!
+export const cSocketClientFailed = wrd.cSocket + bas.cSpace + wrd.cclient + bas.cSpace + wrd.cfailed + bas.cColon + bas.cSpace; // Socket client failed:
+export const cpathDelimiterIs = wrd.cpath + wrd.cDelimiter + sys.cSpaceIsColonSpace; // pathDelimiter is:
+export const cpathIs = wrd.cpath + sys.cSpaceIsColonSpace; // path is:
+export const cjsonDataIs = gen.cjson + wrd.cData + sys.cSpaceIsColonSpace; // jsonData is:
+export const cfilePathIs = wrd.cfile + wrd.cPath + sys.cSpaceIsColonSpace; // filePath is:
+export const carrayOfFilesIs = wrd.carray + wrd.cOf + wrd.cFiles + sys.cSpaceIsColonSpace; // arrayOfFiles is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1404,7 +1431,14 @@ export const cErrorDecryptionFailed = cERROR_Colon + wrd.cDecryption + bas.cSpac
 export const cErrorInvalidInputStrings = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstrings + bas.cDot; // ERROR: Invalid input strings.
 export const cObfuscationSuccessful = wrd.cObfuscation + bas.cSpace + wrd.csuccessful; // Obfuscation successful
 export const cErrorInvalidInputString = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cSpace + wrd.cstring + bas.cDot; // ERROR: Invalid input string.
-
+export const cErrorInvalidSchemaDataObjectMissingSchemasKey = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + wrd.cData + wrd.cObject + bas.cColon + bas.cSpace + wrd.cMissing + bas.cSpace + wrd.cschemas + bas.cSpace + wrd.ckey; // ERROR: Invalid schemaDataObject: Missing schemas key
+export const cErrorGetSchemaMessage01 = cERROR_Colon + wrd.cInvalid + bas.cSpace + wrd.cschema + bas.cSpace + wrd.cname + bas.cDot + bas.cSpace + wrd.cSchema + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cColon + bas.cSpace; // ERROR: Invalid schema name. Schema does not exist: 
+export const creturnAllSchemas = wrd.creturn + bas.cSpace + wrd.call + bas.cSpace + wrd.cschemas + bas.cDot; // return all schemas.
+export const csocketsClientServerOffline = wrd.cServer + bas.cSpace + wrd.cis + bas.cSpace + wrd.coffline + bas.cExclamation + bas.cSpace + wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.calready + bas.cSpace + wrd.cin + bas.cSpace + wrd.cuse + bas.cSpace + wrd.cor + bas.cSpace + wrd.chas + bas.cSpace + wrd.cbeen + bas.cSpace + wrd.cdenied + bas.cDot; // Server is offline! Connection is already in use or has been denied.
+export const cConnectionClosed = wrd.cConnection + bas.cSpace + wrd.cclosed + bas.cExclamation; // Connection closed!
+export const cClientConnectionEstablished = wrd.cClient + bas.cSpace + wrd.cconnection + bas.cSpace + wrd.cestablished + bas.cExclamation; // Client connection established!
+export const cConnectionClosedFailedSendingChunk = wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.cclosed + bas.cDot + bas.cSpace + wrd.cFailed + bas.cSpace + wrd.csending + bas.cSpace + wrd.cchunk + bas.cColon + bas.cSpace; // Connection is closed. Failed sending chunk:
+export const cErrorFailureParsingFilename = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cparsing + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace; // ERROR: Failure parsing file name:
 
 // Coded System Messages
 // EXAMPLE:
