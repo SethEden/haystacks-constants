@@ -178,6 +178,7 @@ export const businessConstantsValidation = [
   // FileStringParsing rules in order
   // ***********************************************
   {Name: 'cgetFileNameFromPath', Actual: biz.cgetFileNameFromPath, Expected: 'getFileNameFromPath'},
+  {Name: 'cremoveFileNameFromPath', Actual: biz.cremoveFileNameFromPath, Expected: 'removeFileNameFromPath'},
   {Name: 'cgetFileExtension', Actual: biz.cgetFileExtension, Expected: 'getFileExtension'},
   {Name: 'cremoveDotFromFileExtension', Actual: biz.cremoveDotFromFileExtension, Expected: 'removeDotFromFileExtension'},
   {Name: 'cremoveFileExtensionFromFileName', Actual: biz.cremoveFileExtensionFromFileName, Expected: 'removeFileExtensionFromFileName'},
@@ -234,6 +235,7 @@ export const businessConstantsValidation = [
   {Name: 'cgetCsvData', Actual: biz.cgetCsvData, Expected: 'getCsvData'},
   {Name: 'cgetJsonData', Actual: biz.cgetJsonData, Expected: 'getJsonData'},
   {Name: 'cwriteJsonData', Actual: biz.cwriteJsonData, Expected: 'writeJsonData'},
+  {Name: 'cwriteAsciiData', Actual: biz.cwriteAsciiData, Expected: 'writeAsciiData'},
   {Name: 'cloadAsciiFileFromPath', Actual: biz.cloadAsciiFileFromPath, Expected: 'loadAsciiFileFromPath'},
   {Name: 'creadDirectoryContents', Actual: biz.creadDirectoryContents, Expected: 'readDirectoryContents'},
   {Name: 'cscanDirectoryContents', Actual: biz.cscanDirectoryContents, Expected: 'scanDirectoryContents'},
@@ -252,6 +254,21 @@ export const businessConstantsValidation = [
   // language Parsing rules in order
   // ***********************************************
   {Name: 'clanguageToAlphabet', Actual: biz.clanguageToAlphabet, Expected: 'languageToAlphabet'},
+  {Name: 'cgetEnglishAlphabet', Actual: biz.cgetEnglishAlphabet, Expected: 'getEnglishAlphabet'},
+  {Name: 'cgetChineseSimplifiedAlphabet', Actual: biz.cgetChineseSimplifiedAlphabet, Expected: 'getChineseSimplifiedAlphabet'},
+  {Name: 'cgetChineseTraditionalAlphabet', Actual: biz.cgetChineseTraditionalAlphabet, Expected: 'getChineseTraditionalAlphabet'},
+  {Name: 'cgetCzechAlphabet', Actual: biz.cgetCzechAlphabet, Expected: 'getCzechAlphabet'},
+  {Name: 'cgetFrenchAlphabet', Actual: biz.cgetFrenchAlphabet, Expected: 'getFrenchAlphabet'},
+  {Name: 'cgetGermanAlphabet', Actual: biz.cgetGermanAlphabet, Expected: 'getGermanAlphabet'},
+  {Name: 'cgetHungarianAlphabet', Actual: biz.cgetHungarianAlphabet, Expected: 'getHungarianAlphabet'},
+  {Name: 'cgetItalianAlphabet', Actual: biz.cgetItalianAlphabet, Expected: 'getItalianAlphabet'},
+  {Name: 'cgetJapaneseAlphabet', Actual: biz.cgetJapaneseAlphabet, Expected: 'getJapaneseAlphabet'},
+  {Name: 'cgetKoreanAlphabet', Actual: biz.cgetKoreanAlphabet, Expected: 'getKoreanAlphabet'},
+  {Name: 'cgetMiscellaneousAlphabet', Actual: biz.cgetMiscellaneousAlphabet, Expected: 'getMiscellaneousAlphabet'},
+  {Name: 'cgetPolishAlphabet', Actual: biz.cgetPolishAlphabet, Expected: 'getPolishAlphabet'},
+  {Name: 'cgetPortugueseAlphabet', Actual: biz.cgetPortugueseAlphabet, Expected: 'getPortugueseAlphabet'},
+  {Name: 'cgetRussianAlphabet', Actual: biz.cgetRussianAlphabet, Expected: 'getRussianAlphabet'},
+  {Name: 'cgetSpanishAlphabet', Actual: biz.cgetSpanishAlphabet, Expected: 'getSpanishAlphabet'},
 
   // ***********************************************
   // lexicalAnalyzer rules in order

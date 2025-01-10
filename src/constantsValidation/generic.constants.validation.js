@@ -71,6 +71,9 @@ export const genericConstantsValidation = [
   {Name: 'cfail', Actual: gen.cfail, Expected: 'fail'},
   {Name: 'cFail', Actual: gen.cFail, Expected: 'Fail'},
   {Name: 'cFAIL', Actual: gen.cFAIL, Expected: 'FAIL'},
+  {Name: 'cerr', Actual: gen.cerr, Expected: 'err'},
+  {Name: 'cErr', Actual: gen.cErr, Expected: 'Err'},
+  {Name: 'cERR', Actual: gen.cERR, Expected: 'ERR'},
 
   // Directions
   {Name: 'cdown', Actual: gen.cdown, Expected: 'down'},
@@ -105,6 +108,9 @@ export const genericConstantsValidation = [
   {Name: 'ccsv', Actual: gen.ccsv, Expected: 'csv'},
   {Name: 'cCsv', Actual: gen.cCsv, Expected: 'Csv'},
   {Name: 'cCSV', Actual: gen.cCSV, Expected: 'CSV'},
+  {Name: 'ccss', Actual: gen.ccss, Expected: 'css'},
+  {Name: 'cCss', Actual: gen.cCss, Expected: 'Css'},
+  {Name: 'cCSS', Actual: gen.cCSS, Expected: 'CSS'},
   {Name: 'cxml', Actual: gen.cxml, Expected: 'xml'},
   {Name: 'cXml', Actual: gen.cXml, Expected: 'Xml'},
   {Name: 'cXML', Actual: gen.cXML, Expected: 'XML'},
@@ -126,6 +132,15 @@ export const genericConstantsValidation = [
   {Name: 'curi', Actual: gen.curi, Expected: 'uri'},
   {Name: 'cUri', Actual: gen.cUri, Expected: 'Uri'},
   {Name: 'cURI', Actual: gen.cURI, Expected: 'URI'},
+  {Name: 'cuid', Actual: gen.cuid, Expected: 'uid'},
+  {Name: 'cUid', Actual: gen.cUid, Expected: 'Uid'},
+  {Name: 'cUID', Actual: gen.cUID, Expected: 'UID'},
+  {Name: 'cuuid', Actual: gen.cuuid, Expected: 'uuid'},
+  {Name: 'cUuid', Actual: gen.cUuid, Expected: 'Uuid'},
+  {Name: 'cUUID', Actual: gen.cUUID, Expected: 'UUID'},
+  {Name: 'cguid', Actual: gen.cguid, Expected: 'guid'},
+  {Name: 'cGuid', Actual: gen.cGuid, Expected: 'Guid'},
+  {Name: 'cGUID', Actual: gen.cGUID, Expected: 'GUID'},
   {Name: 'csh', Actual: gen.csh, Expected: 'sh'},
   {Name: 'cSh', Actual: gen.cSh, Expected: 'Sh'},
   {Name: 'cSH', Actual: gen.cSH, Expected: 'SH'},
@@ -135,6 +150,9 @@ export const genericConstantsValidation = [
   {Name: 'cbat', Actual: gen.cbat, Expected: 'bat'},
   {Name: 'cBat', Actual: gen.cBat, Expected: 'Bat'},
   {Name: 'cBAT', Actual: gen.cBAT, Expected: 'BAT'},
+  {Name: 'chtml', Actual: gen.chtml, Expected: 'html'},
+  {Name: 'cHtml', Actual: gen.cHtml, Expected: 'Html'},
+  {Name: 'cHTML', Actual: gen.cHTML, Expected: 'HTML'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},
@@ -142,7 +160,12 @@ export const genericConstantsValidation = [
   {Name: 'cDotcsv', Actual: gen.cDotcsv, Expected: '.csv'},
   {Name: 'cDotCsv', Actual: gen.cDotCsv, Expected: '.Csv'},
   {Name: 'cDotCSV', Actual: gen.cDotCSV, Expected: '.CSV'},
+  {Name: 'cDotcss', Actual: gen.cDotcss, Expected: '.css'},
+  {Name: 'cDotCss', Actual: gen.cDotCss, Expected: '.Css'},
+  {Name: 'cDotCSS', Actual: gen.cDotCSS, Expected: '.CSS'},
+  {Name: 'cDotcom', Actual: gen.cDotcom, Expected: '.com'},
   {Name: 'cDotCom', Actual: gen.cDotCom, Expected: '.Com'},
+  {Name: 'cDotCOM', Actual: gen.cDotCOM, Expected: '.COM'},
   {Name: 'cDotzip', Actual: gen.cDotzip, Expected: '.zip'},
   {Name: 'cDotZip', Actual: gen.cDotZip, Expected: '.Zip'},
   {Name: 'cDotZIP', Actual: gen.cDotZIP, Expected: '.ZIP'},
@@ -173,6 +196,9 @@ export const genericConstantsValidation = [
   {Name: 'cDotbat', Actual: gen.cDotbat, Expected: '.bat'},
   {Name: 'cDotBat', Actual: gen.cDotBat, Expected: '.Bat'},
   {Name: 'cDotBAT', Actual: gen.cDotBAT, Expected: '.BAT'},
+  {Name: 'cDothtml', Actual: gen.cDothtml, Expected: '.html'},
+  {Name: 'cDotHtml', Actual: gen.cDotHtml, Expected: '.Html'},
+  {Name: 'cDotHTML', Actual: gen.cDotHTML, Expected: '.HTML'},
   {Name: 'cascii', Actual: gen.cascii, Expected: 'ascii'},
   {Name: 'cAscii', Actual: gen.cAscii, Expected: 'Ascii'},
   {Name: 'cASCII', Actual: gen.cASCII, Expected: 'ASCII'},
@@ -186,6 +212,7 @@ export const genericConstantsValidation = [
   {Name: 'cYYYYMMDD_HHmmss', Actual: gen.cYYYYMMDD_HHmmss, Expected: 'YYYYMMDD-HHmmss'},
   {Name: 'cYYYYMMDD_HHmmss_SSS', Actual: gen.cYYYYMMDD_HHmmss_SSS, Expected: 'YYYYMMDD-HHmmss-SSS'},
   {Name: 'cYYYY_MM_DD_HH_mm_ss_SSS', Actual: gen.cYYYY_MM_DD_HH_mm_ss_SSS, Expected: 'YYYY:MM:DD-HH:mm:ss:SSS'},
+  {Name: 'chhmmss', Actual: gen.chhmmss, Expected: 'hh:mm:ss'},
 
   // Operating Systems
   {Name: 'cwin32', Actual: gen.cwin32, Expected: 'win32'},
@@ -357,7 +384,6 @@ export const genericConstantsValidation = [
   {Name: 'cOmega', Actual: gen.cOmega, Expected: 'Omega'},
   {Name: 'cOMEGA', Actual: gen.cOMEGA, Expected: 'OMEGA'},
 
-
   // Months Of The Year
     {Name: 'cjanuary', Actual: gen.cjanuary, Expected: 'january'},
   {Name: 'cJanuary', Actual: gen.cJanuary, Expected: 'January'},
@@ -392,7 +418,6 @@ export const genericConstantsValidation = [
   {Name: 'cdecember', Actual: gen.cdecember, Expected: 'december'},
   {Name: 'cDecember', Actual: gen.cDecember, Expected: 'December'},
   {Name: 'cDECEMBER', Actual: gen.cDECEMBER, Expected: 'DECEMBER'},
-
 
   // Constants Abbreviations
   {Name: 'cabt', Actual: gen.cabt, Expected: 'abt'},
@@ -471,10 +496,12 @@ export const genericConstantsValidation = [
   {Name: 'callSysCV', Actual: gen.callSysCV, Expected: 'allSysCV'},
 
   // Networking
+  {Name: 'cECONNREFUSED', Actual: gen.cECONNREFUSED, Expected: 'ECONNREFUSED'},
   {Name: 'cEADDRINUSE', Actual: gen.cEADDRINUSE, Expected: 'EADDRINUSE'},
   {Name: 'cECONNRESET', Actual: gen.cECONNRESET, Expected: 'ECONNRESET'},
   {Name: 'cENOENT', Actual: gen.cENOENT, Expected: 'ENOENT'},
   {Name: 'cEACCES', Actual: gen.cEACCES, Expected: 'EACCES'},
+  {Name: 'ERR_STREAM_DESTROYED', Actual: gen.ERR_STREAM_DESTROYED, Expected: 'ERR_STREAM_DESTROYED'},
 
   // Encryption
   {Name: 'caes', Actual: gen.caes, Expected: 'aes'},
@@ -669,6 +696,9 @@ export const genericConstantsValidation = [
   {Name: 'capp', Actual: gen.capp, Expected: 'app'},
   {Name: 'cApp', Actual: gen.cApp, Expected: 'App'},
   {Name: 'cAPP', Actual: gen.cAPP, Expected: 'APP'},
+  {Name: 'cfmk', Actual: gen.cfmk, Expected: 'fmk'},
+  {Name: 'cFmk', Actual: gen.cFmk, Expected: 'Fmk'},
+  {Name: 'cFMK', Actual: gen.cFMK, Expected: 'FMK'},
   {Name: 'cplg', Actual: gen.cplg, Expected: 'plg'},
   {Name: 'cPlg', Actual: gen.cPlg, Expected: 'Plg'},
   {Name: 'cPLG', Actual: gen.cPLG, Expected: 'PLG'},
@@ -698,6 +728,9 @@ export const genericConstantsValidation = [
   {Name: 'cwpm', Actual: gen.cwpm, Expected: 'wpm'},
   {Name: 'cWpm', Actual: gen.cWpm, Expected: 'Wpm'},
   {Name: 'cWPM', Actual: gen.cWPM, Expected: 'WPM'},
+  {Name: 'cgui', Actual: gen.cgui, Expected: 'gui'},
+  {Name: 'cGui', Actual: gen.cGui, Expected: 'Gui'},
+  {Name: 'cGUI', Actual: gen.cGUI, Expected: 'GUI'},
   {Name: 'capi', Actual: gen.capi, Expected: 'api'},
   {Name: 'cApi', Actual: gen.cApi, Expected: 'Api'},
   {Name: 'cAPI', Actual: gen.cAPI, Expected: 'API'},
@@ -743,5 +776,17 @@ export const genericConstantsValidation = [
   {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'},
   {Name: 'cobj', Actual: gen.cobj, Expected: 'obj'},
   {Name: 'cObj', Actual: gen.cObj, Expected: 'Obj'},
-  {Name: 'cOBJ', Actual: gen.cOBJ, Expected: 'OBJ'}
+  {Name: 'cOBJ', Actual: gen.cOBJ, Expected: 'OBJ'},
+  {Name: 'cgpu', Actual: gen.cgpu, Expected: 'gpu'},
+  {Name: 'cGpu', Actual: gen.cGpu, Expected: 'Gpu'},
+  {Name: 'cGPU', Actual: gen.cGPU, Expected: 'GPU'},
+  {Name: 'capu', Actual: gen.capu, Expected: 'apu'},
+  {Name: 'cApu', Actual: gen.cApu, Expected: 'Apu'},
+  {Name: 'cAPU', Actual: gen.cAPU, Expected: 'APU'},
+  {Name: 'cfpu', Actual: gen.cfpu, Expected: 'fpu'},
+  {Name: 'cFpu', Actual: gen.cFpu, Expected: 'Fpu'},
+  {Name: 'cFPU', Actual: gen.cFPU, Expected: 'FPU'},
+  {Name: 'ccpu', Actual: gen.ccpu, Expected: 'cpu'},
+  {Name: 'cCpu', Actual: gen.cCpu, Expected: 'Cpu'},
+  {Name: 'cCPU', Actual: gen.cCPU, Expected: 'CPU'}
 ];

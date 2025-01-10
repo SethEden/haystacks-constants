@@ -4,6 +4,7 @@
  * @description Contains many re-usable business rules constants.
  * @requires module:basic.constants
  * @requires module:generic.constants
+ * @requires module:language.constants
  * @requires module:numeric.constants
  * @requires module:phonic.constants
  * @requires module:system.constants
@@ -16,6 +17,7 @@
 // Internal imports
 import * as bas from './basic.constants.js';
 import * as gen from './generic.constants.js';
+import * as lng from './language.constants.js';
 import * as num from './numeric.constants.js';
 import * as phn from './phonic.constants.js';
 import * as sys from './system.constants.js';
@@ -180,6 +182,7 @@ export const cobfuscateString = wrd.cobfuscate + wrd.cString; // obfuscateString
 // FileStringParsing rules in order
 // ***********************************************
 export const cgetFileNameFromPath = wrd.cget + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // getFileNameFromPath
+export const cremoveFileNameFromPath = wrd.cremove + wrd.cFile + wrd.cName + wrd.cFrom + wrd.cPath; // removeFileNameFromPath
 export const cgetFileExtension = wrd.cget + wrd.cFile + wrd.cExtension; // getFileExtension
 export const cremoveDotFromFileExtension = wrd.cremove + wrd.cDot + wrd.cFrom + wrd.cFile + wrd.cExtension; // removeDotFromFileExtension
 export const cremoveFileExtensionFromFileName = wrd.cremove + wrd.cFile + wrd.cExtension + wrd.cFrom + wrd.cFileName; // removeFileExtensionFromFileName
@@ -236,6 +239,7 @@ export const cgetXmlData = wrd.cget + gen.cXml + wrd.cData; // getXmlData
 export const cgetCsvData = wrd.cget + gen.cCsv + wrd.cData; // getCsvData
 export const cgetJsonData = wrd.cget + gen.cJson + wrd.cData; // getJsonData
 export const cwriteJsonData = wrd.cwrite + gen.cJson + wrd.cData; // writeJsonData
+export const cwriteAsciiData = wrd.cwrite + gen.cAscii + wrd.cData; // writeAsciiData
 export const cloadAsciiFileFromPath = wrd.cload + gen.cAscii + wrd.cFile + wrd.cFrom + wrd.cPath; // loadAsciiFileFromPath
 export const creadDirectoryContents = wrd.cread + wrd.cDirectory + wrd.cContents; // readDirectoryContents
 export const cscanDirectoryContents = wrd.cscan + wrd.cDirectory + wrd.cContents; // scanDirectoryContents
@@ -254,6 +258,21 @@ export const cappendMessageToFile = wrd.cappend + wrd.cMessage + wrd.cTo + wrd.c
 // language Parsing rules in order
 // ***********************************************
 export const clanguageToAlphabet = wrd.clanguage + wrd.cTo + wrd.cAlphabet; // languageToAlphabet
+export const cgetEnglishAlphabet = wrd.cget + lng.cEnglish + wrd.cAlphabet; // getEnglishAlphabet
+export const cgetChineseSimplifiedAlphabet = wrd.cget + lng.cChineseSimplified + wrd.cAlphabet; // getChineseSimplifiedAlphabet
+export const cgetChineseTraditionalAlphabet = wrd.cget + lng.cChineseTraditional + wrd.cAlphabet; // getChineseTraditionalAlphabet
+export const cgetCzechAlphabet = wrd.cget + lng.cCzech + wrd.cAlphabet; // getCzechAlphabet
+export const cgetFrenchAlphabet = wrd.cget + lng.cFrench + wrd.cAlphabet; // getFrenchAlphabet
+export const cgetGermanAlphabet = wrd.cget + lng.cGerman + wrd.cAlphabet; // getGermanAlphabet
+export const cgetHungarianAlphabet = wrd.cget + lng.cHungarian + wrd.cAlphabet; // getHungarianAlphabet
+export const cgetItalianAlphabet = wrd.cget + lng.cItalian + wrd.cAlphabet; // getItalianAlphabet
+export const cgetJapaneseAlphabet = wrd.cget + lng.cJapanese + wrd.cAlphabet; // getJapaneseAlphabet
+export const cgetKoreanAlphabet = wrd.cget + lng.cKorean + wrd.cAlphabet; // getKoreanAlphabet
+export const cgetMiscellaneousAlphabet = wrd.cget + lng.cMiscellaneous + wrd.cAlphabet; // getMiscellaneousAlphabet
+export const cgetPolishAlphabet = wrd.cget + lng.cPolish + wrd.cAlphabet; // getPolishAlphabet
+export const cgetPortugueseAlphabet = wrd.cget + lng.cPortuguese + wrd.cAlphabet; // getPortugueseAlphabet
+export const cgetRussianAlphabet = wrd.cget + lng.cRussian + wrd.cAlphabet; // getRussianAlphabet
+export const cgetSpanishAlphabet = wrd.cget + lng.cSpanish + wrd.cAlphabet; // getSpanishAlphabet
 
 // ***********************************************
 // lexicalAnalyzer rules in order
