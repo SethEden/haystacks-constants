@@ -58,7 +58,7 @@ import * as stt from './constants/state.constants.js';
 import * as sys from './constants/system.constants.js';
 import * as unt from './constants/unit.constants.js';
 import * as wrd from './constants/word.constants.js';
-import * as abt_cv from './constantsValidation/alphabet.constants.validation copy.js';
+import * as abt_cv from './constantsValidation/alphabet.constants.validation.js';
 import * as bas_cv from './constantsValidation/basic.constants.validation.js';
 import * as biz_cv from './constantsValidation/business.constants.validation.js';
 import * as clr_cv from './constantsValidation/color.constants.validation.js';

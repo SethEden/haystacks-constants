@@ -153,6 +153,9 @@ export const genericConstantsValidation = [
   {Name: 'chtml', Actual: gen.chtml, Expected: 'html'},
   {Name: 'cHtml', Actual: gen.cHtml, Expected: 'Html'},
   {Name: 'cHTML', Actual: gen.cHTML, Expected: 'HTML'},
+  {Name: 'chttp', Actual: gen.chttp, Expected: 'http'},
+  {Name: 'cHttp', Actual: gen.cHttp, Expected: 'Http'},
+  {Name: 'cHTTP', Actual: gen.cHTTP, Expected: 'HTTP'},
 
   {Name: 'cDotexe', Actual: gen.cDotexe, Expected: '.exe'},
   {Name: 'cDotExe', Actual: gen.cDotExe, Expected: '.Exe'},

@@ -151,6 +151,9 @@ export const cBAT = bas.cBA + bas.cT; // BAT
 export const chtml = bas.cht + bas.cml; // html
 export const cHtml = bas.cHt + bas.cml; // Html
 export const cHTML = bas.cHT + bas.cML; // HTML
+export const chttp = bas.cht + bas.ctp; // http
+export const cHttp = bas.cHt + bas.ctp; // Http
+export const cHTTP = bas.cHT + bas.cTP; // HTTP
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe
