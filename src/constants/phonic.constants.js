@@ -3467,6 +3467,18 @@ export const cATING = bas.cAT + cING; // ATING
 export const ceny = bas.cen + bas.cy; // eny
 export const cEny = bas.cEn + bas.cy; // Eny
 export const cENY = bas.cEN + bas.cY; // ENY
+export const cmob = bas.cmo + bas.cb; // mob
+export const cMob = bas.cMo + bas.cb; // Mob
+export const cMOB = bas.cMO + bas.cB; // MOB
+export const clize = bas.cl + cize; // lize
+export const cLize = bas.cL + cize; // Lize
+export const cLIZE = bas.cL + cIZE; // LIZE
+export const cilize = bas.ci + clize; // ilize
+export const cIlize = bas.cI + clize; // Ilize
+export const cILIZE = bas.cI + cLIZE; // ILIZE
+export const ciliz = bas.cil + cliz; // iliz
+export const cIliz = bas.cIl + cliz; // Iliz
+export const cILIZ = bas.cIL + cLIZ; // ILIZ
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

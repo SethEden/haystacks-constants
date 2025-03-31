@@ -3478,6 +3478,18 @@ export const phonicConstantsValidation = [
   {Name: 'ceny', Actual: phn.ceny, Expected: 'eny'},
   {Name: 'cEny', Actual: phn.cEny, Expected: 'Eny'},
   {Name: 'cENY', Actual: phn.cENY, Expected: 'ENY'},
+  {Name: 'cmob', Actual: phn.cmob, Expected: 'mob'},
+  {Name: 'cMob', Actual: phn.cMob, Expected: 'Mob'},
+  {Name: 'cMOB', Actual: phn.cMOB, Expected: 'MOB'},
+  {Name: 'clize', Actual: phn.clize, Expected: 'lize'},
+  {Name: 'cLize', Actual: phn.cLize, Expected: 'Lize'},
+  {Name: 'cLIZE', Actual: phn.cLIZE, Expected: 'LIZE'},
+  {Name: 'cilize', Actual: phn.cilize, Expected: 'ilize'},
+  {Name: 'cIlize', Actual: phn.cIlize, Expected: 'Ilize'},
+  {Name: 'cILIZE', Actual: phn.cILIZE, Expected: 'ILIZE'},
+  {Name: 'ciliz', Actual: phn.ciliz, Expected: 'iliz'},
+  {Name: 'cIliz', Actual: phn.cIliz, Expected: 'Iliz'},
+  {Name: 'cILIZ', Actual: phn.cILIZ, Expected: 'ILIZ'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},
