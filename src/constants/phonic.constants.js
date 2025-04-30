@@ -3479,6 +3479,21 @@ export const cILIZE = bas.cI + cLIZE; // ILIZE
 export const ciliz = bas.cil + cliz; // iliz
 export const cIliz = bas.cIl + cliz; // Iliz
 export const cILIZ = bas.cIL + cLIZ; // ILIZ
+export const cprim = bas.cpr + bas.cim; // prim
+export const cPrim = bas.cPr + bas.cim; // Prim
+export const cPRIM = bas.cPR + bas.cIM; // PRIM
+export const citive = bas.cit + cive; // itive
+export const cItive = bas.cIt + cive; // Itive
+export const cITIVE = bas.cIT + cIVE; // ITIVE
+export const csen = bas.cse + bas.cn; // sen
+export const cSen = bas.cSe + bas.cn; // Sen
+export const cSEN = bas.cSE + bas.cN; // SEN
+export const civity = bas.civ + city; // ivity
+export const cIvity = bas.cIv + city; // Ivity
+export const cIVITY = bas.cIV + cITY; // IVITY
+export const cken = bas.cke + bas.cn; // ken
+export const cKen = bas.cKe + bas.cn; // Ken
+export const cKEN = bas.cKE + bas.cN; // KEN
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
