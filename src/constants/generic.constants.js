@@ -154,6 +154,9 @@ export const cHTML = bas.cHT + bas.cML; // HTML
 export const chttp = bas.cht + bas.ctp; // http
 export const cHttp = bas.cHt + bas.ctp; // Http
 export const cHTTP = bas.cHT + bas.cTP; // HTTP
+export const chttps = chttp + bas.cs; // https
+export const cHttps = cHttp + bas.cs; // Https
+export const cHTTPS = cHTTP + bas.cS; // HTTPS
 
 export const cDotexe = bas.cDot + cexe; // .exe
 export const cDotExe = bas.cDot + cExe; // .Exe
