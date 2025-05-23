@@ -1140,6 +1140,7 @@ export const clevel = bas.cle + phn.cvel; // level
 export const cLevel = bas.cLe + phn.cvel; // Level
 export const cget = bas.cge + bas.ct; // get
 export const cGet = bas.cGe + bas.ct; // Get
+export const cGET = bas.cGE + bas.cT; // GET
 export const cgets = cget + bas.cs; // gets
 export const cGets = cGet + bas.cs; // Gets
 export const cgetter = cget + phn.cter; // getter
@@ -8106,6 +8107,18 @@ export const cfetched = cfetch + bas.ced; // fetched
 export const cFetched = cFetch + bas.ced; // Fetched
 export const cfetching = cfetch + phn.cing; // fetching
 export const cFetching = cFetch + phn.cing; // Fetching
+export const cplain = bas.cpl + phn.cain; // plain
+export const cPlain = bas.cPl + phn.cain; // Plain
+export const cplains = cplain + bas.cs; // plains
+export const cPlains = cPlain + bas.cs; // Plains
+export const cplainer = cplain + bas.cer; // plainer
+export const cPlainer = cPlain + bas.cer; // Plainer
+export const cplainers = cplainer + bas.cs; // plainers
+export const cPlainers = cPlainer + bas.cs; // Plainers
+export const cplained = cplain + bas.ced; // plained
+export const cPlained = cPlain + bas.ced; // Plained
+export const cplaining = cplain + phn.cing; // plaining
+export const cPlaining = cPlain + phn.cing; // Plaining
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute
