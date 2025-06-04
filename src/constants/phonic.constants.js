@@ -3494,6 +3494,18 @@ export const cIVITY = bas.cIV + cITY; // IVITY
 export const cken = bas.cke + bas.cn; // ken
 export const cKen = bas.cKe + bas.cn; // Ken
 export const cKEN = bas.cKE + bas.cN; // KEN
+export const corch = bas.cor + bas.cch; // orch
+export const cOrch = bas.cOr + bas.cch; // Orch
+export const cORCH = bas.cOR + bas.cCH; // ORCH
+export const ccro = bas.ccr + bas.co; // cro
+export const cCro = bas.cCr + bas.co; // Cro
+export const cCRO = bas.cCR + bas.cO; // CRO
+export const cmicro = bas.camai + ccro; // micro
+export const cMicro = bas.cMi + ccro; // Micro
+export const cMICRO = bas.cMI + cCRO; // MICRO
+export const cmacro = bas.cma + ccro; // macro
+export const cMacro = bas.cMa + ccro; // Macro
+export const cMACRO = bas.cMA + cCRO; // MACRO
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

@@ -795,3 +795,7 @@ export const cFPU = bas.cFP + bas.cU; // FPU
 export const ccpu = bas.ccp + bas.cu; // cpu
 export const cCpu = bas.cCp + bas.cu; // Cpu
 export const cCPU = bas.cCP + bas.cU; // CPU
+// ~!@#$^&*()+=|{}[]:<>,.?
+export const callowableSqlSafeSpecialCharacters = bas.cTilde + bas.cExclamation + bas.cAt + bas.cHash + bas.cDollar + bas.cCarrot +
+bas.cOpenParenthesis + bas.cCloseParenthesis + bas.cPlus + bas.cEqual + bas.cPipe + bas.cOpenCurlyBrace + bas.cCloseCurlyBrace + 
+bas.cOpenBracket + bas.cCloseBracket + bas.cColon + bas.cLessThan + bas.cGreaterThan + bas.cComa + bas.cDot + bas.cQuestion; 
