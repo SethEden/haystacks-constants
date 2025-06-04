@@ -45,7 +45,8 @@ export const creturnDataTempIs = wrd.creturn + wrd.cData + wrd.cTemp + sys.cSpac
 // Commonly used phrases
 export const cisAnInvalidValue = wrd.cis + bas.cSpace + wrd.can + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cvalue; // is an invalid value
 export const cInvalidInputComaSpace = wrd.cInvalid + bas.cSpace + wrd.cinput + bas.cComa + bas.cSpace; // Invalid input, 
-export const cInvalidValueComaSpace = wrd.cInvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace; // Invalid value, 
+export const cInvalidValueComaSpace = wrd.cInvalid + bas.cSpace + wrd.cvalue + bas.cComa + bas.cSpace; // Invalid value,
+export const cSpaceDashDashDashSpaceAtSpace = bas.cSpace + bas.cDash.repeat(3) + bas.cSpace + wrd.cat + bas.cSpace; //  --- at
 
 // System Messages
 export const cERROR_Colon = wrd.cERROR + bas.cColon + bas.cSpace; // ERROR:

@@ -42,6 +42,7 @@ export const messageConstantsVaidation = [
   {Name: 'cisAnInvalidValue', Actual: msg.cisAnInvalidValue, Expected: 'is an invalid value'},
   {Name: 'cInvalidInputComaSpace', Actual: msg.cInvalidInputComaSpace, Expected: 'Invalid input, '},
   {Name: 'cInvalidValueComaSpace', Actual: msg.cInvalidValueComaSpace, Expected: 'Invalid value, '},
+  {Name: 'cSpaceDashDashDashSpaceAtSpace', Actual: msg.cSpaceDashDashDashSpaceAtSpace, Expected: ' --- at '},
 
   // System Messages
   {Name: 'cERROR_Colon', Actual: msg.cERROR_Colon, Expected: 'ERROR: '},
