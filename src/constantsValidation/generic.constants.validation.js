@@ -795,5 +795,5 @@ export const genericConstantsValidation = [
   {Name: 'ccpu', Actual: gen.ccpu, Expected: 'cpu'},
   {Name: 'cCpu', Actual: gen.cCpu, Expected: 'Cpu'},
   {Name: 'cCPU', Actual: gen.cCPU, Expected: 'CPU'},
-  {Name: 'callowableSqlSafeSpecialCharacters', Actual: gen.callowableSqlSafeSpecialCharacters, Expected: '~!@#$^&*()+=|{}[]:<>,.?'}
+  {Name: 'callowableSqlSafeSpecialCharacters', Actual: gen.callowableSqlSafeSpecialCharacters, Expected: '~!@#$^()+=|{}[]:<>,.?'}
 ];
