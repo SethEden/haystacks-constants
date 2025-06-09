@@ -355,6 +355,7 @@ export const wordConstantsValidation = [
   {Name: 'cEditing', Actual: wrd.cEditing, Expected: 'Editing'},
   {Name: 'cdelete', Actual: wrd.cdelete, Expected: 'delete'},
   {Name: 'cDelete', Actual: wrd.cDelete, Expected: 'Delete'},
+  {Name: 'cDELETE', Actual: wrd.cDELETE, Expected: 'DELETE'},
   {Name: 'cdeletes', Actual: wrd.cdeletes, Expected: 'deletes'},
   {Name: 'cDeletes', Actual: wrd.cDeletes, Expected: 'Deletes'},
   {Name: 'cdeleted', Actual: wrd.cdeleted, Expected: 'deleted'},

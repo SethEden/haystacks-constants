@@ -355,6 +355,7 @@ export const cediting = cedit + phn.cing; // editing
 export const cEditing = cEdit + phn.cing; // Editing
 export const cdelete = bas.cd + phn.celete; // delete
 export const cDelete = bas.cD + phn.celete; // Delete
+export const cDELETE = bas.cD + phn.cELETE; // DELETE
 export const cdeletes = cdelete + bas.cs; // deletes
 export const cDeletes = cDelete + bas.cs; // Deletes
 export const cdeleted = cdelete + bas.cd; // deleted
