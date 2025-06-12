@@ -881,6 +881,8 @@ export const messageConstantsValidation = [
   {Name: 'cjsonDataIs', Actual: msg.cjsonDataIs, Expected: 'jsonData is: '},
   {Name: 'cfilePathIs', Actual: msg.cfilePathIs, Expected: 'filePath is: '},
   {Name: 'carrayOfFilesIs', Actual: msg.carrayOfFilesIs, Expected: 'arrayOfFiles is: '},
+  {Name: 'cresultIs', Actual: msg.cresultIs, Expected: 'result is: '},
+  {Name: 'cruleNameIs', Actual: msg.cruleNameIs, Expected: 'ruleName is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
