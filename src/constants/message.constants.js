@@ -1580,8 +1580,12 @@ export const cWarningRemovePluginWorkflowsMessage01 = cWARNING_Colon + wrd.cPlug
 export const cErrorGetNamedColorDataMessage01 = cERROR_Colon + cInvalidInputComaSpace + wrd.cdefault + wrd.cColor + wrd.cArray + sys.cSpaceIsColonSpace;
 // ERROR: Invalid input, colorName is: 
 export const cErrorGetNamedColorDataMessage02 = cERROR_Colon + cInvalidInputComaSpace + wrd.ccolor + wrd.cName + sys.cSpaceIsColonSpace;
-
-
+// WARNING: No '--' found in inputData, returning inputData as is.
+export const cWarningNoDashDashFoundInInputDataReturningInputDataAsIs = cWARNING_Colon + wrd.cNo + bas.cSpace + bas.cSingleQuote + bas.cDash + bas.cDash + bas.cSingleQuote + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cinput + wrd.cData + bas.cComa + bas.cSpace + wrd.creturning + bas.cSpace + wrd.cinput + wrd.cData + bas.cSpace + wrd.cas + bas.cSpace + wrd.cis + bas.cDot;
+// ERROR: No constants namespace found for inputMetaData.
+export const cErrorNoConstantsNamespaceFoundForInputMetaData = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cnamespace + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cinput + wrd.cMeta + wrd.cData + bas.cDot;
+// ERROR: inputData was not found in the constants validation data, inputData is:
+export const cErrorInputDataNotFoundInConstantsValidationData = cERROR_Colon + wrd.cinput + wrd.cData + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cfound + bas.cSpace + wrd.cin + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cconstants + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.cdata + bas.cComa + bas.cSpace + cinputDataIs;
 
 
 // Template for invalid input message

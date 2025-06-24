@@ -1264,6 +1264,9 @@ export const messageConstantsVaidation = [
   {Name: 'cWarningRemovePluginWorkflowsMessage01', Actual: msg.cWarningRemovePluginWorkflowsMessage01, Expected: 'WARNING: Plugin that is not loaded. Plugin name is: '},
   {Name: 'cErrorGetNamedColorDataMessage01', Actual: msg.cErrorGetNamedColorDataMessage01, Expected: 'ERROR: Invalid input, defaultColorArray is: '},
   {Name: 'cErrorGetNamedColorDataMessage02', Actual: msg.cErrorGetNamedColorDataMessage02, Expected: 'ERROR: Invalid input, colorName is: '},
+  {Name: 'cWarningNoDashDashFoundInInputDataReturningInputDataAsIs', Actual: msg.cWarningNoDashDashFoundInInputDataReturningInputDataAsIs, Expected: 'WARNING: No \'--\' found in input data, returning input data as is.'},
+  {Name: 'cErrorNoConstantsNamespaceFoundForInputMetaData', Actual: msg.cErrorNoConstantsNamespaceFoundForInputMetaData, Expected: 'ERROR: No constants namespace found for inputMetaData.'},
+  {Name: 'cErrorInputDataNotFoundInConstantsValidationData', Actual: msg.cErrorInputDataNotFoundInConstantsValidationData, Expected: 'ERROR: inputData was not found in the constants validation data, inputData is: '},
 
 // EXAMPLE:
   // '!mergedData[wrd.csystem] && !D[wrd.csystem] === true'
