@@ -3506,6 +3506,15 @@ export const cMICRO = bas.cMI + cCRO; // MICRO
 export const cmacro = bas.cma + ccro; // macro
 export const cMacro = bas.cMa + ccro; // Macro
 export const cMACRO = bas.cMA + cCRO; // MACRO
+export const cmem = bas.cme + bas.cm; // mem
+export const cMem = bas.cMe + bas.cm; // Mem
+export const cMEM = bas.cME + bas.cM; // MEM
+export const conic = bas.co + cnic; // onic
+export const cOnic = bas.cO + cnic; // Onic
+export const cONIC = bas.cO + cNIC; // ONIC
+export const cento = bas.ce + cnto; // ento
+export const cEnto = bas.cE + cnto; // Ento
+export const cENTO = bas.cE + cNTO; // ENTO
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

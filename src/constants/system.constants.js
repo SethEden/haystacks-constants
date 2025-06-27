@@ -224,6 +224,12 @@ export const cLehmerCodeArray = wrd.cLehmer + wrd.cCode + wrd.cArray; // LehmerC
 export const creturnData = wrd.creturn + wrd.cData; // returnData
 export const cCamelCase = wrd.cCamel + wrd.cCase; // CamelCase
 export const cruleBroker = wrd.crule + wrd.cBroker; // ruleBroker
+export const cframeworkWindowsSchema = wrd.cframework + wrd.cWindows + wrd.cSchema; // frameworkWindowsSchema
+export const capplicationWindowsSchema = wrd.capplication + wrd.cWindows + wrd.cSchema; // applicationWindowsSchema
+export const chtmlPath = gen.chtml + wrd.cPath; // htmlPath
+export const cdevTools = phn.cdev + wrd.cTools; // devTools
+export const cwindowsOps = wrd.cwindows + phn.cOps; // windowsOps
+export const cwindowsDot = wrd.cwindows + bas.cDot; // windows.
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

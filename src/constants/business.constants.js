@@ -354,3 +354,17 @@ export const cgetNowMoment = wrd.cget + wrd.cNow + wrd.cMoment; // getNowMoment
 export const ccomputeDeltaTime = wrd.ccompute + wrd.cDelta + wrd.cTime; // computeDeltaTime
 export const creformatDeltaTime = wrd.creformat + wrd.cDelta + wrd.cTime; // reformatDeltaTime
 export const csleep = wrd.csleep; // sleep
+
+// ***********************************************
+// windowOperations rules in order
+// ***********************************************
+export const cparseWindowsConfigurationPath = wrd.cparse + wrd.cWindows + wrd.cConfiguration + wrd.cPath; // parseWindowsConfigurationPath
+export const cparseLoadedWindowConfiguration = wrd.cparse + wrd.cLoaded + wrd.cWindow + wrd.cConfiguration; // parseLoadedWindowConfiguration
+export const cinitWindowsOperations = gen.cinit + wrd.cWindows + wrd.cOperations; // initWindowsOperations
+export const caddWindowToWindowsOps = wrd.c_add + wrd.cWindow + wrd.cTo + wrd.cWindows + phn.cOps; // addWindowToWindowsOps
+export const cremoveWindowFromWindowsOps = wrd.cremove + wrd.cWindow + wrd.cFrom + wrd.cWindows + phn.cOps; // removeWindowFromWindowsOps
+export const cgetAllWindowConfigurations = wrd.cget + wrd.cAll + wrd.cWindow + wrd.cConfigurations; // getAllWindowConfigurations
+export const ccreateWindowRule = wrd.ccreate + wrd.cWindow + wrd.cRule; // createWindowRule
+export const cattachWindowEventListeners = wrd.cattach + wrd.cWindow + wrd.cEvent + wrd.cListeners; // attachWindowEventListeners
+export const cresolveWindowSchemaHtmlPath = wrd.cresolve + wrd.cWindows + wrd.cSchema + gen.cHtml + wrd.cPath; // resolveWindowSchemaHtmlPath
+export const csaveWindowsConfigurationToDisk = wrd.csave + wrd.cWindows + wrd.cConfiguration + wrd.cTo + wrd.cDisk; // saveWindowsConfigurationToDisk

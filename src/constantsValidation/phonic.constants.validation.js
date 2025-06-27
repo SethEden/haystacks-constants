@@ -3517,6 +3517,15 @@ export const phonicConstantsValidation = [
   {Name: 'cmacro', Actual: phn.cmacro, Expected: 'macro'},
   {Name: 'cMacro', Actual: phn.cMacro, Expected: 'Macro'},
   {Name: 'cMACRO', Actual: phn.cMACRO, Expected: 'MACRO'},
+  {Name: 'cmem', Actual: phn.cmem, Expected: 'mem'},
+  {Name: 'cMem', Actual: phn.cMem, Expected: 'Mem'},
+  {Name: 'cMEM', Actual: phn.cMEM, Expected: 'MEM'},
+  {Name: 'conic', Actual: phn.conic, Expected: 'onic'},
+  {Name: 'cOnic', Actual: phn.cOnic, Expected: 'Onic'},
+  {Name: 'cONIC', Actual: phn.cONIC, Expected: 'ONIC'},
+  {Name: 'cento', Actual: phn.cento, Expected: 'ento'},
+  {Name: 'cEnto', Actual: phn.cEnto, Expected: 'Ento'},
+  {Name: 'cENTO', Actual: phn.cENTO, Expected: 'ENTO'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

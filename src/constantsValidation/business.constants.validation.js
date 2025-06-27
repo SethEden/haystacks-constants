@@ -349,5 +349,19 @@ export const businessConstantsValidation = [
   {Name: 'cgetNowMoment', Actual: biz.cgetNowMoment, Expected: 'getNowMoment'},
   {Name: 'ccomputeDeltaTime', Actual: biz.ccomputeDeltaTime, Expected: 'computeDeltaTime'},
   {Name: 'creformatDeltaTime', Actual: biz.creformatDeltaTime, Expected: 'reformatDeltaTime'},
-  {Name: 'csleep', Actual: biz.csleep, Expected: 'sleep'}
+  {Name: 'csleep', Actual: biz.csleep, Expected: 'sleep'},
+
+  // ***********************************************
+  // windowOperations rules in order
+  // ***********************************************
+  {Name: 'cparseWindowsConfigurationPath', Actual: biz.cparseWindowsConfigurationPath, Expected: 'parseWindowsConfigurationPath'},
+  {Name: 'cparseLoadedWindowConfiguration', Actual: biz.cparseLoadedWindowConfiguration, Expected: 'parseLoadedWindowConfiguration'},
+  {Name: 'cinitWindowsOperations', Actual: biz.cinitWindowsOperations, Expected: 'initWindowsOperations'},
+  {Name: 'caddWindowToWindowsOps', Actual: biz.caddWindowToWindowsOps, Expected: 'addWindowToWindowsOps'},
+  {Name: 'cremoveWindowFromWindowsOps', Actual: biz.cremoveWindowFromWindowsOps, Expected: 'removeWindowFromWindowsOps'},
+  {Name: 'cgetAllWindowConfigurations', Actual: biz.cgetAllWindowConfigurations, Expected: 'getAllWindowConfigurations'},
+  {Name: 'ccreateWindowRule', Actual: biz.ccreateWindowRule, Expected: 'createWindowRule'},
+  {Name: 'cattachWindowEventListeners', Actual: biz.cattachWindowEventListeners, Expected: 'attachWindowEventListeners'},
+  {Name: 'cresolveWindowSchemaHtmlPath', Actual: biz.cresolveWindowSchemaHtmlPath, Expected: 'resolveWindowSchemaHtmlPath'},
+  {Name: 'csaveWindowsConfigurationToDisk', Actual: biz.csaveWindowsConfigurationToDisk, Expected: 'saveWindowsConfigurationToDisk'}
 ];

@@ -224,7 +224,13 @@ export const systemConstantsValidation = [
   {Name: 'creturnData', Actual: sys.creturnData, Expected: 'returnData'},
   {Name: 'cCamelCase', Actual: sys.cCamelCase, Expected: 'CamelCase'},
   {Name: 'cruleBroker', Actual: sys.cruleBroker, Expected: 'ruleBroker'},
-
+  {Name: 'cframeworkWindowsSchema', Actual: sys.cframeworkWindowsSchema, Expected: 'frameworkWindowsSchema'},
+  {Name: 'capplicationWindowsSchema', Actual: sys.capplicationWindowsSchema, Expected: 'applicationWindowsSchema'},
+  {Name: 'chtmlPath', Actual: sys.chtmlPath, Expected: 'htmlPath'},
+  {Name: 'cdevTools', Actual: sys.cdevTools, Expected: 'devTools'},
+  {Name: 'cwindowsOps', Actual: sys.cwindowsOps, Expected: 'windowsOps'},
+  {Name: 'cwindowsDot', Actual: sys.cwindowsDot, Expected: 'windows.'},
+  
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},
   {Name: 'cFunctionFontStyle', Actual: sys.cFunctionFontStyle, Expected: 'FunctionFontStyle'},

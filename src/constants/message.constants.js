@@ -888,6 +888,29 @@ export const cfilePathIs = wrd.cfile + wrd.cPath + sys.cSpaceIsColonSpace; // fi
 export const carrayOfFilesIs = wrd.carray + wrd.cOf + wrd.cFiles + sys.cSpaceIsColonSpace; // arrayOfFiles is:
 export const cresultIs = wrd.cresult + sys.cSpaceIsColonSpace; // result is:
 export const cruleNameIs = wrd.crule + wrd.cName + sys.cSpaceIsColonSpace; // ruleName is:
+export const cframeworkWindowsSchemaIs = wrd.cframework + wrd.cWindows + wrd.cSchema + sys.cSpaceIsColonSpace; // frameworkWindowsSchema is:
+export const capplicationWindowsSchemaIs = wrd.capplication + wrd.cWindows + wrd.cSchema + sys.cSpaceIsColonSpace; // applicationWindowsSchema is:
+export const chtmlFilePathIs = gen.chtml + wrd.cFile + wrd.cPath + sys.cSpaceIsColonSpace; // htmlFilePath is:
+export const cresolvedHtmlPathIs = wrd.cresolved + gen.cHtml + wrd.cPath + sys.cSpaceIsColonSpace; // resolvedHtmlPath is:
+export const cwindowsConfigIs = wrd.cwindows + wrd.cConfig + sys.cSpaceIsColonSpace; // windowsConfig is:
+export const cwindowKeyIs = wrd.cwindow + wrd.cKey + sys.cSpaceIsColonSpace; // windowKey is:
+export const cwindowCfgIs = wrd.cwindow + gen.cCfg + sys.cSpaceIsColonSpace; // windowCfg is:
+export const cwindowObjectIs = wrd.cwindow + wrd.cObject + sys.cSpaceIsColonSpace; // windowObject is:
+export const cwindowConfigNamespaceIs = wrd.cWindow + wrd.cConfig + wrd.cNamespace + sys.cSpaceIsColonSpace; // windowConfigNamespace is:
+export const cWindowMoved = wrd.cWindow + bas.cSpace + wrd.cMoved + bas.cColon + bas.cSpace; // Window Moved:
+export const cWindowResized = wrd.cWindow + bas.cSpace + wrd.cResized + bas.cColon + bas.cSpace; // Window Resized:
+export const cWindowMinimized = wrd.cWindow + bas.cSpace + wrd.cMinimized + bas.cColon + bas.cSpace; // Window Minimized:
+export const cWindowMaximized = wrd.cWindow + bas.cSpace + wrd.cMaximized + bas.cColon + bas.cSpace; // Window Maximized:
+export const cWindowNormalized = wrd.cWindow + bas.cSpace + wrd.cNormalized + bas.cColon + bas.cSpace; // Window Normalized:
+export const cWindowRestored = wrd.cWindow + bas.cSpace + wrd.cRestored + bas.cColon + bas.cSpace; // Window Restored:
+export const cWindowClosed = wrd.cWindow + bas.cSpace + wrd.cClosed + bas.cColon + bas.cSpace; // Window Closed:
+export const cafterCountIs = wrd.cafter + wrd.cCount + sys.cSpaceIsColonSpace; // afterCount is:
+export const cremovedCountIs = wrd.cremoved + wrd.cCount + sys.cSpaceIsColonSpace; // removedCount is:
+export const cwinObjIs = phn.cwin + gen.cObj + sys.cSpaceIsColonSpace; // winObj is:
+export const cinMemoryWindowsConfigIs = wrd.cin + wrd.cMemory + wrd.cWindows + wrd.cConfig + sys.cSpaceIsColonSpace; // inMemoryWindowsConfig is:
+export const cwindowNameIs = wrd.cwindow + wrd.cName + sys.cSpaceIsColonSpace; // windowName is:
+export const coutputWindowsConfigIs = wrd.coutput + wrd.cWindows + wrd.cConfig + sys.cSpaceIsColonSpace; // outputWindowsConfig is:
+export const cjsonWindowsConfigToWriteIs = gen.cjson + wrd.cWindows + wrd.cConfig + wrd.cTo + wrd.cWrite + sys.cSpaceIsColonSpace; // jsonWindowsConfigToWrite is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;
@@ -1441,6 +1464,10 @@ export const cConnectionClosed = wrd.cConnection + bas.cSpace + wrd.cclosed + ba
 export const cClientConnectionEstablished = wrd.cClient + bas.cSpace + wrd.cconnection + bas.cSpace + wrd.cestablished + bas.cExclamation; // Client connection established!
 export const cConnectionClosedFailedSendingChunk = wrd.cConnection + bas.cSpace + wrd.cis + bas.cSpace + wrd.cclosed + bas.cDot + bas.cSpace + wrd.cFailed + bas.cSpace + wrd.csending + bas.cSpace + wrd.cchunk + bas.cColon + bas.cSpace; // Connection is closed. Failed sending chunk:
 export const cErrorFailureParsingFilename = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cparsing + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace; // ERROR: Failure parsing file name:
+export const cErrorFailureToLoadWindowWithoutMetaData = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cwindow + bas.cSpace + wrd.cwithout + bas.cSpace + wrd.cmetaData + bas.cColon + bas.cSpace; // ERROR: Failure to load window without metaData: 
+export const cErrorFailureCreatingApplicationWindow = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.ccreating + bas.cSpace + wrd.cthe + bas.cSpace + wrd.capplication + bas.cSpace + wrd.cwindow + bas.cColon + bas.cSpace; // ERROR: Failure creating the application window:
+export const cErrorCannotStoreWindowObjectOperations = cERROR_Colon + wrd.cCannot + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cwindow + bas.cSpace + wrd.cobject + bas.cSpace + wrd.cfor + bas.cSpace + wrd.coperations + bas.cColon + bas.cSpace; // ERROR: Cannot store the window object for operations:
+export const cErrorUnableToStoreWindowObjectWindowsOps = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cwindow + bas.cSpace + wrd.cobject + bas.cSpace + wrd.cto + bas.cSpace + sys.cwindowsOps + bas.cColon + bas.cSpace; // ERROR: Unable to store window object to windowsOps:
 
 // Coded System Messages
 // EXAMPLE:
