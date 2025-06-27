@@ -230,6 +230,8 @@ export const systemConstantsValidation = [
   {Name: 'cdevTools', Actual: sys.cdevTools, Expected: 'devTools'},
   {Name: 'cwindowsOps', Actual: sys.cwindowsOps, Expected: 'windowsOps'},
   {Name: 'cwindowsDot', Actual: sys.cwindowsDot, Expected: 'windows.'},
+  {Name: 'cwindowsConfigurationFileName', Actual: sys.cwindowsConfigurationFileName, Expected: 'windowsConfigurationFileName'},
+  {Name: 'cwindowsConfigurationFileNameAndPath', Actual: sys.cwindowsConfigurationFileNameAndPath, Expected: 'windowsConfigurationFileNameAndPath'},
   
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},

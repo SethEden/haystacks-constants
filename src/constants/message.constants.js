@@ -911,6 +911,7 @@ export const cinMemoryWindowsConfigIs = wrd.cin + wrd.cMemory + wrd.cWindows + w
 export const cwindowNameIs = wrd.cwindow + wrd.cName + sys.cSpaceIsColonSpace; // windowName is:
 export const coutputWindowsConfigIs = wrd.coutput + wrd.cWindows + wrd.cConfig + sys.cSpaceIsColonSpace; // outputWindowsConfig is:
 export const cjsonWindowsConfigToWriteIs = gen.cjson + wrd.cWindows + wrd.cConfig + wrd.cTo + wrd.cWrite + sys.cSpaceIsColonSpace; // jsonWindowsConfigToWrite is:
+export const coutputPathIs = wrd.coutput + wrd.cPath + sys.cSpaceIsColonSpace; // outputPath is:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;

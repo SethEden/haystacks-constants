@@ -230,6 +230,8 @@ export const chtmlPath = gen.chtml + wrd.cPath; // htmlPath
 export const cdevTools = phn.cdev + wrd.cTools; // devTools
 export const cwindowsOps = wrd.cwindows + phn.cOps; // windowsOps
 export const cwindowsDot = wrd.cwindows + bas.cDot; // windows.
+export const cwindowsConfigurationFileName = wrd.cwindows + wrd.cConfiguration + wrd.cFileName; // windowsConfigurationFileName
+export const cwindowsConfigurationFileNameAndPath = cwindowsConfigurationFileName + wrd.cAnd + wrd.cPath; // windowsConfigurationFileNameAndPath
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle
