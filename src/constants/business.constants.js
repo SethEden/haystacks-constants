@@ -296,6 +296,7 @@ export const cisEven = wrd.cis + wrd.cEven; // isEven
 // ***********************************************
 export const cprompt = phn.cpro + phn.cmpt; // prompt
 export const cpromptRaw = cprompt + wrd.cRaw; // promptRaw
+export const cpromptNonBlocking = cprompt + phn.cNon + wrd.cBlocking; // promptNonBlocking
 
 // ***********************************************
 // ruleParsing rules in order

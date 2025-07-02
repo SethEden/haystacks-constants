@@ -292,6 +292,7 @@ export const businessConstantsValidation = [
   // ***********************************************
   {Name: 'cprompt', Actual: biz.cprompt, Expected: 'prompt'},
   {Name: 'cpromptRaw', Actual: biz.cpromptRaw, Expected: 'promptRaw'},
+  {Name: 'cpromptNonBlocking', Actual: biz.cpromptNonBlocking, Expected: 'promptNonBlocking'},
 
   // ***********************************************
   // ruleParsing rules in order
