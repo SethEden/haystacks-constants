@@ -1243,6 +1243,7 @@ export const messageConstantsValidation = [
   {Name: 'cErrorCannotStoreWindowObjectOperations', Actual: msg.cErrorCannotStoreWindowObjectOperations, Expected: 'ERROR: Cannot store the window object for operations: '},
   {Name: 'cErrorUnableToStoreWindowObjectWindowsOps', Actual: msg.cErrorUnableToStoreWindowObjectWindowsOps, Expected: 'ERROR: Unable to store window object to windowsOps: '},
   {Name: 'cErrorPromptNonBlockingMessage01', Actual: msg.cErrorPromptNonBlockingMessage01, Expected: 'ERROR: No prompt or input callback provided.'},
+  {Name: 'cErrorTransmittingLog', Actual: msg.cErrorTransmittingLog, Expected: 'ERROR: transmitting log: '},
 
   // Coded System Messages
   // EXAMPLE:

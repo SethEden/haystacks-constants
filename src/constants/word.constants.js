@@ -28,8 +28,9 @@ export const c3D = num.c3 + bas.cD; // 3D
 export const cout = bas.co + bas.cut; // out
 export const cOut = bas.cO + bas.cut; // Out
 export const cOUT = bas.cO + bas.cUT; // OUT
-export const cLog = bas.cL + bas.cog; // Log
 export const clog = bas.cl + bas.cog; // log
+export const cLog = bas.cL + bas.cog; // Log
+export const cLOG = bas.cL + bas.cOG; // LOG
 export const cLogs = cLog + bas.cs; // Logs
 export const clogs = clog + bas.cs; // logs
 export const clogged = clog + phn.cged; // logged
@@ -8776,6 +8777,10 @@ export const cnonpayloadless = phn.cnon + cpayloadless; // nonpayloadless
 export const cNonpayloadless = phn.cNon + cpayloadless; // Nonpayloadless
 export const cnonpayloadlessness = phn.cnon + cpayloadlessness; // nonpayloadlessness
 export const cNonpayloadlessness = phn.cNon + cpayloadlessness; // Nonpayloadlessness
+export const cnative = bas.cna + phn.ctive; // native
+export const cNative = bas.cNa + phn.ctive; // Native
+export const cnatives = cnative + bas.cs; // natives
+export const cNatives = cNative + bas.cs; // Natives
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

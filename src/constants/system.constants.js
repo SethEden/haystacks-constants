@@ -232,6 +232,8 @@ export const cwindowsOps = wrd.cwindows + phn.cOps; // windowsOps
 export const cwindowsDot = wrd.cwindows + bas.cDot; // windows.
 export const cwindowsConfigurationFileName = wrd.cwindows + wrd.cConfiguration + wrd.cFileName; // windowsConfigurationFileName
 export const cwindowsConfigurationFileNameAndPath = cwindowsConfigurationFileName + wrd.cAnd + wrd.cPath; // windowsConfigurationFileNameAndPath
+export const clogToSocketTransmissionEnabled = wrd.clog + wrd.cTo + wrd.cSocket + wrd.cTransmission + wrd.cEnabled; // logToSocketTransmissionEnabled
+export const ctableLog = wrd.ctable + wrd.cLog; // tableLog
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

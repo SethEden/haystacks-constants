@@ -28,8 +28,9 @@ export const wordConstantsValidation = [
   {Name: 'cout', Actual: wrd.cout, Expected: 'out'},
   {Name: 'cOut', Actual: wrd.cOut, Expected: 'Out'},
   {Name: 'cOUT', Actual: wrd.cOUT, Expected: 'OUT'},
-  {Name: 'cLog', Actual: wrd.cLog, Expected: 'Log'},
   {Name: 'clog', Actual: wrd.clog, Expected: 'log'},
+  {Name: 'cLog', Actual: wrd.cLog, Expected: 'Log'},
+  {Name: 'cLOG', Actual: wrd.cLOG, Expected: 'LOG'},
   {Name: 'cLogs', Actual: wrd.cLogs, Expected: 'Logs'},
   {Name: 'clogs', Actual: wrd.clogs, Expected: 'logs'},
   {Name: 'clogged', Actual: wrd.clogged, Expected: 'logged'},
@@ -8702,6 +8703,10 @@ export const wordConstantsValidation = [
   {Name: 'cNonpayloadless', Actual: wrd.cNonpayloadless, Expected: 'Nonpayloadless'},
   {Name: 'cnonpayloadlessness', Actual: wrd.cnonpayloadlessness, Expected: 'nonpayloadlessness'},
   {Name: 'cNonpayloadlessness', Actual: wrd.cNonpayloadlessness, Expected: 'Nonpayloadlessness'},
+  {Name: 'cnative', Actual: wrd.cnative, Expected: 'native'},
+  {Name: 'cNative', Actual: wrd.cNative, Expected: 'Native'},
+  {Name: 'cnatives', Actual: wrd.cnatives, Expected: 'natives'},
+  {Name: 'cNatives', Actual: wrd.cNatives, Expected: 'Natives'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},

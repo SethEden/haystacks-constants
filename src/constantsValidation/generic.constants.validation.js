@@ -777,6 +777,9 @@ export const genericConstantsValidation = [
   {Name: 'cipc', Actual: gen.cipc, Expected: 'ipc'}, // - Inter-Process Communication
   {Name: 'cIpc', Actual: gen.cIpc, Expected: 'Ipc'}, // - Inter-Process Communication
   {Name: 'cIPC', Actual: gen.cIPC, Expected: 'IPC'}, // - Inter-Process Communication
+  {Name: 'ccli', Actual: gen.ccli, Expected: 'cli'}, // - Command Line Interface
+  {Name: 'cCli', Actual: gen.cCli, Expected: 'Cli'}, // - Command Line Interface
+  {Name: 'cCLI', Actual: gen.cCLI, Expected: 'CLI'}, // - Command Line Interface
   {Name: 'cusr', Actual: gen.cusr, Expected: 'usr'},
   {Name: 'cUsr', Actual: gen.cUsr, Expected: 'Usr'},
   {Name: 'cUSR', Actual: gen.cUSR, Expected: 'USR'},

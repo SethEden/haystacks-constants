@@ -1470,6 +1470,7 @@ export const cErrorFailureCreatingApplicationWindow = cERROR_Colon + wrd.cFailur
 export const cErrorCannotStoreWindowObjectOperations = cERROR_Colon + wrd.cCannot + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cwindow + bas.cSpace + wrd.cobject + bas.cSpace + wrd.cfor + bas.cSpace + wrd.coperations + bas.cColon + bas.cSpace; // ERROR: Cannot store the window object for operations:
 export const cErrorUnableToStoreWindowObjectWindowsOps = cERROR_Colon + wrd.cUnable + bas.cSpace + wrd.cto + bas.cSpace + wrd.cstore + bas.cSpace + wrd.cwindow + bas.cSpace + wrd.cobject + bas.cSpace + wrd.cto + bas.cSpace + sys.cwindowsOps + bas.cColon + bas.cSpace; // ERROR: Unable to store window object to windowsOps:
 export const cErrorPromptNonBlockingMessage01 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cprompt + bas.cSpace + wrd.cor + bas.cSpace + wrd.cinput + bas.cSpace + wrd.ccall + wrd.cback + bas.cSpace + wrd.cprovided + bas.cDot; // ERROR: No prompt or input callback provided.
+export const cErrorTransmittingLog = cERROR_Colon + wrd.ctransmitting + bas.cSpace + wrd.clog + bas.cColon + bas.cSpace; // ERROR: transmitting log:
 
 // Coded System Messages
 // EXAMPLE:
