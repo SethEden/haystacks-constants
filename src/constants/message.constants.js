@@ -896,7 +896,7 @@ export const cwindowsConfigIs = wrd.cwindows + wrd.cConfig + sys.cSpaceIsColonSp
 export const cwindowKeyIs = wrd.cwindow + wrd.cKey + sys.cSpaceIsColonSpace; // windowKey is:
 export const cwindowCfgIs = wrd.cwindow + gen.cCfg + sys.cSpaceIsColonSpace; // windowCfg is:
 export const cwindowObjectIs = wrd.cwindow + wrd.cObject + sys.cSpaceIsColonSpace; // windowObject is:
-export const cwindowConfigNamespaceIs = wrd.cWindow + wrd.cConfig + wrd.cNamespace + sys.cSpaceIsColonSpace; // windowConfigNamespace is:
+export const cwindowConfigNamespaceIs = wrd.cwindow + wrd.cConfig + wrd.cNamespace + sys.cSpaceIsColonSpace; // windowConfigNamespace is:
 export const cWindowMoved = wrd.cWindow + bas.cSpace + wrd.cMoved + bas.cColon + bas.cSpace; // Window Moved:
 export const cWindowResized = wrd.cWindow + bas.cSpace + wrd.cResized + bas.cColon + bas.cSpace; // Window Resized:
 export const cWindowMinimized = wrd.cWindow + bas.cSpace + wrd.cMinimized + bas.cColon + bas.cSpace; // Window Minimized:
@@ -1162,6 +1162,7 @@ export const cloadAllPluginsMessage01 = bas.cSpace + wrd.cFailed + bas.cSpace + 
 export const cloadAllPluginsMessage02 = wrd.cplugin + bas.cSpace + wrd.centry + bas.cSpace + wrd.cpoint + bas.cSpace + wrd.cpath + bas.cColon + bas.cSpace; // plugin entry point path:
 export const cloadAllPluginsMessage03 = cERROR_Colon + wrd.cNo + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cexecution + bas.cSpace + wrd.cpaths + bas.cSpace + wrd.cor + bas.cSpace + wrd.cplugins + bas.cSpace + wrd.cmetaData  + bas.cSpace + wrd.cwas + bas.cSpace + wrd.cspecified + bas.cColon + bas.cSpace; // ERROR: No plugin execution paths or plugins metaData was specified:
 export const cErrorRegisterPluginCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cregister + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cinput + bas.cColon + bas.cSpace; // ERROR: Failure to register the specified plugin, invalid input:
+export const cErrorRegisterPluginCommandMessage02 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cfind + bas.cSpace + bas.ca + bas.cSpace + wrd.cmatching + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cfor + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cSpace + wrd.cname + bas.cColon + bas.cSpace; // ERROR: Failure to find a matching plugin for the specified plugin name:
 export const cErrorUnregisterPluginCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cunregister + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cinput + bas.cColon + bas.cSpace; // ERROR: Failure to unregister the specified plugin, invalid input:
 export const cErrorLoadPluginCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugin + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cinput + bas.cColon + bas.cSpace; // ERROR: Failure to load the specified plugin, invalid input:
 export const cErrorLoadPluginsCommandMessage01 = cERROR_Colon + wrd.cFailure + bas.cSpace + wrd.cto + bas.cSpace + wrd.cload + bas.cSpace + wrd.cthe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cplugins + bas.cComa + bas.cSpace + wrd.cinvalid + bas.cSpace + wrd.cinput + bas.cColon + bas.cSpace; // ERROR: Failure to load the specified plugins, invalid input:
@@ -1407,7 +1408,7 @@ export const cWarningUserEnteredWorkflowsValidationDataTypeMessage03 = cWARNING_
 // ERROR: The specified path does not exist or cannot be found:
 export const cErrorGetDirectoryListMessage01 = cERROR_Colon + wrd.cThe + bas.cSpace + wrd.cspecified + bas.cSpace + wrd.cpath + bas.cSpace + wrd.cdoes + bas.cSpace + wrd.cnot + bas.cSpace + wrd.cexist + bas.cSpace + wrd.cor + bas.cSpace + wrd.ccannot + bas.cSpace + wrd.cbe + bas.cSpace + wrd.cfound + bas.cColon + bas.cSpace;
 // Validation types are:
-export const cWarningUserEnteredValidationDateTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
+export const cWarningUserEnteredValidationDataTypeMessage02 = wrd.cValidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.care + bas.cColon + bas.cSpace;
 // WARNING: No valid validation types were entered.
 export const cWarningUserEnteredValidationDataTypeMessage03 = cWARNING_Colon + wrd.cNo + bas.cSpace + wrd.cvalid + bas.cSpace + wrd.cvalidation + bas.cSpace + wrd.ctypes + bas.cSpace + wrd.cwere + bas.cSpace + wrd.centered + bas.cDot;
 // Begin command aliases validation

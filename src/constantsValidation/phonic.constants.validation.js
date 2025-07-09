@@ -2149,6 +2149,9 @@ export const phonicConstantsValidation = [
   {Name: 'crayola', Actual: phn.crayola, Expected: 'rayola'},
   {Name: 'cRayola', Actual: phn.cRayola, Expected: 'Rayola'},
   {Name: 'cRAYOLA', Actual: phn.cRAYOLA, Expected: 'RAYOLA'},
+  {Name: 'csel', Actual: phn.csel, Expected: 'sel'},
+  {Name: 'cSel', Actual: phn.cSel, Expected: 'Sel'},
+  {Name: 'cSEL', Actual: phn.cSEL, Expected: 'SEL'},
   {Name: 'csell', Actual: phn.csell, Expected: 'sell'},
   {Name: 'cSell', Actual: phn.cSell, Expected: 'Sell'},
   {Name: 'cSELL', Actual: phn.cSELL, Expected: 'SELL'},
@@ -3529,6 +3532,9 @@ export const phonicConstantsValidation = [
   {Name: 'cento', Actual: phn.cento, Expected: 'ento'},
   {Name: 'cEnto', Actual: phn.cEnto, Expected: 'Ento'},
   {Name: 'cENTO', Actual: phn.cENTO, Expected: 'ENTO'},
+  {Name: 'cves', Actual: phn.cves, Expected: 'ves'},
+  {Name: 'cVes', Actual: phn.cVes, Expected: 'Ves'},
+  {Name: 'cVES', Actual: phn.cVES, Expected: 'VES'},
   //////////////////////////////////////////////////////////////////
   // Knots
   {Name: 'clice', Actual: phn.clice, Expected: 'lice'},

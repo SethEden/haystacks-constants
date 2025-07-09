@@ -234,6 +234,8 @@ export const cwindowsConfigurationFileName = wrd.cwindows + wrd.cConfiguration +
 export const cwindowsConfigurationFileNameAndPath = cwindowsConfigurationFileName + wrd.cAnd + wrd.cPath; // windowsConfigurationFileNameAndPath
 export const clogToSocketTransmissionEnabled = wrd.clog + wrd.cTo + wrd.cSocket + wrd.cTransmission + wrd.cEnabled; // logToSocketTransmissionEnabled
 export const ctableLog = wrd.ctable + wrd.cLog; // tableLog
+export const cnegativeControlFlags = wrd.cnegative + wrd.cControl + wrd.cFlags; // negativeControlFlags
+export const csuppressDefaultConsoleOutput = wrd.csuppress + wrd.cDefault + wrd.cConsole + wrd.cOutput; // suppressDefaultConsoleOutput
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

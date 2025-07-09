@@ -367,5 +367,5 @@ export const cremoveWindowFromWindowsOps = wrd.cremove + wrd.cWindow + wrd.cFrom
 export const cgetAllWindowConfigurations = wrd.cget + wrd.cAll + wrd.cWindow + wrd.cConfigurations; // getAllWindowConfigurations
 export const ccreateWindowRule = wrd.ccreate + wrd.cWindow + wrd.cRule; // createWindowRule
 export const cattachWindowEventListeners = wrd.cattach + wrd.cWindow + wrd.cEvent + wrd.cListeners; // attachWindowEventListeners
-export const cresolveWindowSchemaHtmlPath = wrd.cresolve + wrd.cWindows + wrd.cSchema + gen.cHtml + wrd.cPath; // resolveWindowSchemaHtmlPath
+export const cresolveWindowSchemaHtmlPath = wrd.cresolve + wrd.cWindow + wrd.cSchema + gen.cHtml + wrd.cPath; // resolveWindowSchemaHtmlPath
 export const csaveWindowsConfigurationToDisk = wrd.csave + wrd.cWindows + wrd.cConfiguration + wrd.cTo + wrd.cDisk; // saveWindowsConfigurationToDisk

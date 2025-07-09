@@ -2138,6 +2138,9 @@ export const cAYOLA = bas.cA + cYOLA; // AYOLA
 export const crayola = bas.cr + cayola; // rayola
 export const cRayola = bas.cR + cayola; // Rayola
 export const cRAYOLA = bas.cR + cAYOLA; // RAYOLA
+export const csel = bas.cse + bas.cl; // sel
+export const cSel = bas.cSe + bas.cl; // Sel
+export const cSEL = bas.cSE + bas.cL; // SEL
 export const csell = bas.cse + bas.cll; // sell
 export const cSell = bas.cSe + bas.cll; // Sell
 export const cSELL = bas.cSE + bas.cLL; // SELL
@@ -3518,6 +3521,9 @@ export const cONIC = bas.cO + cNIC; // ONIC
 export const cento = bas.ce + cnto; // ento
 export const cEnto = bas.cE + cnto; // Ento
 export const cENTO = bas.cE + cNTO; // ENTO
+export const cves = bas.cve + bas.cs; // ves
+export const cVes = bas.cVe + bas.cs; // Ves
+export const cVES = bas.cVE + bas.cS; // VES
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice

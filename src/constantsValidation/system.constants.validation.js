@@ -234,6 +234,8 @@ export const systemConstantsValidation = [
   {Name: 'cwindowsConfigurationFileNameAndPath', Actual: sys.cwindowsConfigurationFileNameAndPath, Expected: 'windowsConfigurationFileNameAndPath'},
   {Name: 'clogToSocketTransmissionEnabled', Actual: sys.clogToSocketTransmissionEnabled, Expected: 'logToSocketTransmissionEnabled'},
   {Name: 'ctableLog', Actual: sys.ctableLog, Expected: 'tableLog'},
+  {Name: 'cnegativeControlFlags', Actual: sys.cnegativeControlFlags, Expected: 'negativeControlFlags'},
+  {Name: 'csuppressDefaultConsoleOutput', Actual: sys.csuppressDefaultConsoleOutput, Expected: 'suppressDefaultConsoleOutput'},
   
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},
