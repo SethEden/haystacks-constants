@@ -3524,6 +3524,12 @@ export const cENTO = bas.cE + cNTO; // ENTO
 export const cves = bas.cve + bas.cs; // ves
 export const cVes = bas.cVe + bas.cs; // Ves
 export const cVES = bas.cVE + bas.cS; // VES
+export const cogue = bas.cog + bas.cue; // ogue
+export const cOgue = bas.cOg + bas.cue; // Ogue
+export const cOGUE = bas.cOG + bas.cUE; // OGUE
+export const cdea = bas.cde + bas.ca; // dea
+export const cDea = bas.cDe + bas.ca; // Dea
+export const cDEA = bas.cDE + bas.cA; // DEA
 //////////////////////////////////////////////////////////////////
 // Knots
 export const clice = bas.cli + bas.cce; // lice
