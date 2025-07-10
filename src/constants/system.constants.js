@@ -236,6 +236,7 @@ export const clogToSocketTransmissionEnabled = wrd.clog + wrd.cTo + wrd.cSocket 
 export const ctableLog = wrd.ctable + wrd.cLog; // tableLog
 export const cnegativeControlFlags = wrd.cnegative + wrd.cControl + wrd.cFlags; // negativeControlFlags
 export const csuppressDefaultConsoleOutput = wrd.csuppress + wrd.cDefault + wrd.cConsole + wrd.cOutput; // suppressDefaultConsoleOutput
+export const cshutdown = wrd.cshutdown; // shutdown
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

@@ -236,6 +236,7 @@ export const systemConstantsValidation = [
   {Name: 'ctableLog', Actual: sys.ctableLog, Expected: 'tableLog'},
   {Name: 'cnegativeControlFlags', Actual: sys.cnegativeControlFlags, Expected: 'negativeControlFlags'},
   {Name: 'csuppressDefaultConsoleOutput', Actual: sys.csuppressDefaultConsoleOutput, Expected: 'suppressDefaultConsoleOutput'},
+  {Name: 'cshutdown', Actual: sys.cshutdown, Expected: 'shutdown'},
   
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},
