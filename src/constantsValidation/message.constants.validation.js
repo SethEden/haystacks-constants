@@ -907,6 +907,7 @@ export const messageConstantsValidation = [
   {Name: 'coutputWindowsConfigIs', Actual: msg.coutputWindowsConfigIs, Expected: 'outputWindowsConfig is: '},
   {Name: 'cjsonWindowsConfigToWriteIs', Actual: msg.cjsonWindowsConfigToWriteIs, Expected: 'jsonWindowsConfigToWrite is: '},
   {Name: 'coutputPathIs', Actual: msg.coutputPathIs, Expected: 'outputPath is: '},
+  {Name: 'cappConfigIs', Actual: msg.cappConfigIs, Expected: 'appConfig is: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},
