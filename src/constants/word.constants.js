@@ -9546,6 +9546,14 @@ export const cnonkillable = phn.cnon + ckillable; // nonkillable
 export const cNonkillable = phn.cNon + ckillable; // Nonkillable
 export const cnonkilling = phn.cnon + ckilling; // nonkilling
 export const cNonkilling = phn.cNon + ckilling; // Nonkilling
+export const cpool = bas.cp + phn.cool; // pool
+export const cPool = bas.cP + phn.cool; // Pool
+export const cpools = cpool + bas.cs; // pools
+export const cPools = cPool + bas.cs; // Pools
+export const cpooled = cpool + bas.ced; // pooled
+export const cPooled = cPool + bas.ced; // Pooled
+export const cpooling = cpool + phn.cing; // pooling
+export const cPooling = cPool + phn.cing; // Pooling
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

@@ -9472,6 +9472,14 @@ export const wordConstantsValidation = [
   {Name: 'cNonkillable', Actual: wrd.cNonkillable, Expected: 'Nonkillable'},
   {Name: 'cnonkilling', Actual: wrd.cnonkilling, Expected: 'nonkilling'},
   {Name: 'cNonkilling', Actual: wrd.cNonkilling, Expected: 'Nonkilling'},
+  {Name: 'cpool', Actual: wrd.cpool, Expected: 'pool'},
+  {Name: 'cPool', Actual: wrd.cPool, Expected: 'Pool'},
+  {Name: 'cpools', Actual: wrd.cpools, Expected: 'pools'},
+  {Name: 'cPools', Actual: wrd.cPools, Expected: 'Pools'},
+  {Name: 'cpooled', Actual: wrd.cpooled, Expected: 'pooled'},
+  {Name: 'cPooled', Actual: wrd.cPooled, Expected: 'Pooled'},
+  {Name: 'cpooling', Actual: wrd.cpooling, Expected: 'pooling'},
+  {Name: 'cPooling', Actual: wrd.cPooling, Expected: 'Pooling'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
