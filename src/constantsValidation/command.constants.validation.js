@@ -105,6 +105,11 @@ export const commandConstantsValidation = [
   {Name: 'cclearUserCommandsLog', Actual: cmd.cclearUserCommandsLog, Expected: 'clearUserCommandsLog'},
   {Name: 'cclearAllCommandsLog', Actual: cmd.cclearAllCommandsLog, Expected: 'clearAllCommandsLog'},
 
+  // ***********************************************
+  // Thread commands in order
+  // ***********************************************
+  {Name: 'cthreadTest', Actual: cmd.cthreadTest, Expected: 'threadTest'},
+
   // ********************************
   // System defined workflows
   // ********************************

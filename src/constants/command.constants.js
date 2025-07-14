@@ -102,6 +102,11 @@ export const cprintAllCommandsLog = wrd.cprint + wrd.cAll + wrd.cCommands + wrd.
 export const cclearUserCommandsLog = wrd.cclear + wrd.cUser + wrd.cCommands + wrd.cLog; // clearUserCommandsLog
 export const cclearAllCommandsLog = wrd.cclear + wrd.cAll + wrd.cCommands + wrd.cLog; // clearAllCommandsLog
 
+// ***********************************************
+// Thread commands in order
+// ***********************************************
+export const cthreadTest = wrd.cthread + wrd.cTest; // threadTest
+
 // ********************************
 // System defined workflows
 // ********************************
