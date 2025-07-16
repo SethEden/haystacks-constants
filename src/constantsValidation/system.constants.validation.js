@@ -190,6 +190,7 @@ export const systemConstantsValidation = [
   {Name: 'cBusinessRule', Actual: sys.cBusinessRule, Expected: 'BusinessRule'},
   {Name: 'cbusinessRules', Actual: sys.cbusinessRules, Expected: 'businessRules'},
   {Name: 'cBusinessRules', Actual: sys.cBusinessRules, Expected: 'BusinessRules'},
+  {Name: 'cbusinessRulesMetaData', Actual: sys.cbusinessRulesMetaData, Expected: 'businessRulesMetaData'},
   {Name: 'ccommandsBlob', Actual: sys.ccommandsBlob, Expected: 'commandsBlob'},
   {Name: 'cCommandsBlob', Actual: sys.cCommandsBlob, Expected: 'CommandsBlob'},
   {Name: 'crulesLibrary', Actual: sys.crulesLibrary, Expected: 'rulesLibrary'},
@@ -237,6 +238,10 @@ export const systemConstantsValidation = [
   {Name: 'cnegativeControlFlags', Actual: sys.cnegativeControlFlags, Expected: 'negativeControlFlags'},
   {Name: 'csuppressDefaultConsoleOutput', Actual: sys.csuppressDefaultConsoleOutput, Expected: 'suppressDefaultConsoleOutput'},
   {Name: 'cshutdown', Actual: sys.cshutdown, Expected: 'shutdown'},
+  {Name: 'cfileColonDoubleForwardSlash', Actual: sys.cfileColonDoubleForwardSlash, Expected: 'file://'},
+  {Name: 'cFilePath', Actual: sys.cFilePath, Expected: 'FilePath'},
+  {Name: 'cbusinessRulesDependencies', Actual: sys.cbusinessRulesDependencies, Expected: 'businessRulesDependencies'},
+  {Name: 'ccommandsDependencies', Actual: sys.ccommandsDependencies, Expected: 'commandsDependencies'},
   
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},

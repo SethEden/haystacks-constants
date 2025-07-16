@@ -190,6 +190,7 @@ export const cbusinessRule = wrd.cbusiness + wrd.cRule; // businessRule
 export const cBusinessRule = wrd.cBusiness + wrd.cRule; // BusinessRule
 export const cbusinessRules = wrd.cbusiness + wrd.cRules; // businessRules
 export const cBusinessRules = wrd.cBusiness + wrd.cRules; // BusinessRules
+export const cbusinessRulesMetaData = cbusinessRules + wrd.cMetaData; // businessRulesMetaData
 export const ccommandsBlob = wrd.ccommands + wrd.cBlob; // commandsBlob
 export const cCommandsBlob = wrd.cCommands + wrd.cBlob; // CommandsBlob
 export const crulesLibrary = wrd.crules + wrd.cLibrary; // rulesLibrary
@@ -237,6 +238,10 @@ export const ctableLog = wrd.ctable + wrd.cLog; // tableLog
 export const cnegativeControlFlags = wrd.cnegative + wrd.cControl + wrd.cFlags; // negativeControlFlags
 export const csuppressDefaultConsoleOutput = wrd.csuppress + wrd.cDefault + wrd.cConsole + wrd.cOutput; // suppressDefaultConsoleOutput
 export const cshutdown = wrd.cshutdown; // shutdown
+export const cfileColonDoubleForwardSlash = wrd.cfile + bas.cColon + bas.cForwardSlash.repeat(2); // file://
+export const cFilePath = wrd.cFile + wrd.cPath; // FilePath
+export const cbusinessRulesDependencies = wrd.cbusiness + wrd.cRules + wrd.cDependencies; // businessRulesDependencies
+export const ccommandsDependencies = wrd.ccommands + wrd.cDependencies; // commandsDependencies
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

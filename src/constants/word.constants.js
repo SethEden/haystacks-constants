@@ -9566,6 +9566,8 @@ export const cthreaders = cthreader + bas.cs; // threaders
 export const cThreaders = cThreader + bas.cs; // Threaders
 export const cthreading = cthread + phn.cing; // threading
 export const cThreading = cThread + phn.cing; // Threading
+export const cthreadable = cthread + phn.cable; // threadable
+export const cThreadable = cThread + phn.cable; // Threadable
 export const crethread = bas.cre + cthread; // rethread
 export const cRethread = bas.cRe + cthread; // Rethread
 export const crethreads = bas.cre + cthreads; // rethreads
@@ -9578,6 +9580,8 @@ export const crethreaders = bas.cre + cthreaders; // rethreaders
 export const cRethreaders = bas.cRe + cthreaders; // Rethreaders
 export const crethreading = bas.cre + cthreading; // rethreading
 export const cRethreading = bas.cRe + cthreading; // Rethreading
+export const crethreadable = bas.cre + cthreadable; // rethreadable
+export const cRethreadable = bas.cRe + cthreadable; // Rethreadable
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 export const cAbsolute = bas.cAb + phn.csol + phn.cute; // Absolute

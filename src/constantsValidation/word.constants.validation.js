@@ -9492,6 +9492,8 @@ export const wordConstantsValidation = [
   {Name: 'cThreaders', Actual: wrd.cThreaders, Expected: 'Threaders'},
   {Name: 'cthreading', Actual: wrd.cthreading, Expected: 'threading'},
   {Name: 'cThreading', Actual: wrd.cThreading, Expected: 'Threading'},
+  {Name: 'cthreadable', Actual: wrd.cthreadable, Expected: 'threadable'},
+  {Name: 'cThreadable', Actual: wrd.cThreadable, Expected: 'Threadable'},
   {Name: 'crethread', Actual: wrd.crethread, Expected: 'rethread'},
   {Name: 'cRethread', Actual: wrd.cRethread, Expected: 'Rethread'},
   {Name: 'crethreads', Actual: wrd.crethreads, Expected: 'rethreads'},
@@ -9504,6 +9506,8 @@ export const wordConstantsValidation = [
   {Name: 'cRethreaders', Actual: wrd.cRethreaders, Expected: 'Rethreaders'},
   {Name: 'crethreading', Actual: wrd.crethreading, Expected: 'rethreading'},
   {Name: 'cRethreading', Actual: wrd.cRethreading, Expected: 'Rethreading'},
+  {Name: 'crethreadable', Actual: wrd.crethreadable, Expected: 'rethreadable'},
+  {Name: 'cRethreadable', Actual: wrd.cRethreadable, Expected: 'Rethreadable'},
   //////////////////////////////////////////////////////////////////
   //////////////////////////////////////////////////////////////////
   {Name: 'cAbsolute', Actual: wrd.cAbsolute, Expected: 'Absolute'},
