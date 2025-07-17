@@ -364,5 +364,9 @@ export const businessConstantsValidation = [
   {Name: 'ccreateWindowRule', Actual: biz.ccreateWindowRule, Expected: 'createWindowRule'},
   {Name: 'cattachWindowEventListeners', Actual: biz.cattachWindowEventListeners, Expected: 'attachWindowEventListeners'},
   {Name: 'cresolveWindowSchemaHtmlPath', Actual: biz.cresolveWindowSchemaHtmlPath, Expected: 'resolveWindowSchemaHtmlPath'},
-  {Name: 'csaveWindowsConfigurationToDisk', Actual: biz.csaveWindowsConfigurationToDisk, Expected: 'saveWindowsConfigurationToDisk'}
+  {Name: 'csaveWindowsConfigurationToDisk', Actual: biz.csaveWindowsConfigurationToDisk, Expected: 'saveWindowsConfigurationToDisk'},
+
+  // Meta-Rule
+  {Name: 'cruleAllRules', Actual: biz.cruleAllRules, Expected: 'rule:AllRules'},
+  {Name: 'cruleAllCommands', Actual: biz.cruleAllCommands, Expected: 'rule:AllCommands'}
 ];

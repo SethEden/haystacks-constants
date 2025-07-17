@@ -369,3 +369,7 @@ export const ccreateWindowRule = wrd.ccreate + wrd.cWindow + wrd.cRule; // creat
 export const cattachWindowEventListeners = wrd.cattach + wrd.cWindow + wrd.cEvent + wrd.cListeners; // attachWindowEventListeners
 export const cresolveWindowSchemaHtmlPath = wrd.cresolve + wrd.cWindow + wrd.cSchema + gen.cHtml + wrd.cPath; // resolveWindowSchemaHtmlPath
 export const csaveWindowsConfigurationToDisk = wrd.csave + wrd.cWindows + wrd.cConfiguration + wrd.cTo + wrd.cDisk; // saveWindowsConfigurationToDisk
+
+// Meta-Rule
+export const cruleAllRules = wrd.crule + bas.cColon + wrd.cAll + wrd.cRules; // rule:AllRules
+export const cruleAllCommands = wrd.crule + bas.cColon + wrd.cAll + wrd.cCommands; // rule:AllCommands

@@ -475,6 +475,7 @@ export const systemConstantsValidation = [
   {Name: 'cpluginCommands', Actual: sys.cpluginCommands, Expected: 'pluginCommands'},
   {Name: 'cclientRulesLibrary', Actual: sys.cclientRulesLibrary, Expected: 'clientRulesLibrary'},
   {Name: 'cCommandQueue', Actual: sys.cCommandQueue, Expected: 'CommandQueue'},
+  {Name: 'ccommandsMetaData', Actual: sys.ccommandsMetaData, Expected: 'commandsMetaData'},
   {Name: 'cConstantsValidation', Actual: sys.cConstantsValidation, Expected: 'ConstantsValidation'},
   {Name: 'cConstantsValidationData', Actual: sys.cConstantsValidationData, Expected: 'ConstantsValidationData'},
   {Name: 'cpluginConstantsValidationData', Actual: sys.cpluginConstantsValidationData, Expected: 'pluginConstantsValidationData'},

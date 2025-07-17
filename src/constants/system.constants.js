@@ -474,6 +474,7 @@ export const cpluginBusinessRules = wrd.cplugin + wrd.cBusiness + wrd.cRules; //
 export const cpluginCommands = wrd.cplugin + wrd.cCommands; // pluginCommands
 export const cclientRulesLibrary = wrd.cclient + wrd.cRules + wrd.cLibrary; // clientRulesLibrary
 export const cCommandQueue = wrd.cCommand + wrd.cQueue; // CommandQueue
+export const ccommandsMetaData = wrd.ccommands + wrd.cMetaData; // commandsMetaData
 export const cConstantsValidation = wrd.cConstants + wrd.cValidation; // ConstantsValidation
 export const cConstantsValidationData = cConstantsValidation + wrd.cData; // ConstantsValidationData
 export const cpluginConstantsValidationData = wrd.cplugin + cConstantsValidation + wrd.cData; // pluginConstantsValidationData
