@@ -242,6 +242,10 @@ export const cfileColonDoubleForwardSlash = wrd.cfile + bas.cColon + bas.cForwar
 export const cFilePath = wrd.cFile + wrd.cPath; // FilePath
 export const cbusinessRulesDependencies = wrd.cbusiness + wrd.cRules + wrd.cDependencies; // businessRulesDependencies
 export const ccommandsDependencies = wrd.ccommands + wrd.cDependencies; // commandsDependencies
+export const cconsoleLog = wrd.cconsole + wrd.cLog; // consoleLog
+export const cconsoleTableLog = wrd.cconsole + wrd.cTable + wrd.cLog; // consoleTableLog
+export const cconstantsValidationSummaryLog = wrd.cconstants + wrd.cValidation + wrd.cSummary + wrd.cLog; // constantsValidationSummaryLog
+export const cthreadLog = wrd.cthread + wrd.cLog; // threadLog
 
 // Logging Styles Constants
 export const cModuleFontStyle = wrd.cModule + wrd.cFont + wrd.cStyle; // ModuleFontStyle

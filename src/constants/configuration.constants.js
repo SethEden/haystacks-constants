@@ -116,6 +116,7 @@ export const cenableAllCommandsLogClearing = wrd.cenable + wrd.cAll + wrd.cComma
 export const csilentDeleteFailure = wrd.csilent + wrd.cDelete + wrd.cFailure; // silentDeleteFailure
 export const cschemasLoaded = wrd.cschemas + wrd.cLoaded; // schemasLoaded
 export const cdebugTestExhaustive = wrd.cdebug + wrd.cTest + wrd.cExhaustive; // debugTestExhaustive
+export const csendConsoleLogsToParent = wrd.csend + wrd.cConsole + wrd.cLogs + wrd.cTo + wrd.cParent; // sendConsoleLogsToParent
 
 // Test Time Tracking
 export const cBeginDateTimeStamp = wrd.cBegin + sys.cDateTimeStamp; // BeginDateTimeStamp

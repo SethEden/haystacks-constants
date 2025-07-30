@@ -117,6 +117,7 @@ export const configurationConstantsValidation = [
   {Name: 'csilentDeleteFailure', Actual: cfg.csilentDeleteFailure, Expected: 'silentDeleteFailure'},
   {Name: 'cschemasLoaded', Actual: cfg.cschemasLoaded, Expected: 'schemasLoaded'},
   {Name: 'cdebugTestExhaustive', Actual: cfg.cdebugTestExhaustive, Expected: 'debugTestExhaustive'},
+  {Name: 'csendConsoleLogsToParent', Actual: cfg.csendConsoleLogsToParent, Expected: 'sendConsoleLogsToParent'},
 
   // Test Time Tracking
   {Name: 'cBeginDateTimeStamp', Actual: cfg.cBeginDateTimeStamp, Expected: 'BeginDateTimeStamp'},

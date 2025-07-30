@@ -242,6 +242,10 @@ export const systemConstantsValidation = [
   {Name: 'cFilePath', Actual: sys.cFilePath, Expected: 'FilePath'},
   {Name: 'cbusinessRulesDependencies', Actual: sys.cbusinessRulesDependencies, Expected: 'businessRulesDependencies'},
   {Name: 'ccommandsDependencies', Actual: sys.ccommandsDependencies, Expected: 'commandsDependencies'},
+  {Name: 'cconsoleLog', Actual: sys.cconsoleLog, Expected: 'consoleLog'},
+  {Name: 'cconsoleTableLog', Actual: sys.cconsoleTableLog, Expected: 'consoleTableLog'},
+  {Name: 'cconstantsValidationSummaryLog', Actual: sys.cconstantsValidationSummaryLog, Expected: 'constantsValidationSummaryLog'},
+  {Name: 'cthreadLog', Actual: sys.cthreadLog, Expected: 'threadLog'},
   
   // Logging Styles Constants
   {Name: 'cModuleFontStyle', Actual: sys.cModuleFontStyle, Expected: 'ModuleFontStyle'},
