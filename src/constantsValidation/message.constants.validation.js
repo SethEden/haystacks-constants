@@ -911,6 +911,10 @@ export const messageConstantsValidation = [
   {Name: 'cconfigurationIs', Actual: msg.cconfigurationIs, Expected: 'configuration is: '},
   {Name: 'cpoolSizeIs', Actual: msg.cpoolSizeIs, Expected: 'poolSize is: '},
   {Name: 'cjobDataIs', Actual: msg.cjobDataIs, Expected: 'jobData is: '},
+  {Name: 'cphase1Finished', Actual: msg.cphase1Finished, Expected: 'Phase 1 finished: '},
+  {Name: 'cphase2Finished', Actual: msg.cphase2Finished, Expected: 'Phase 2 finished: '},
+  {Name: 'cphase1Failed', Actual: msg.cphase1Failed, Expected: 'Phase 1 FAILED: '},
+  {Name: 'cphase2Failed', Actual: msg.cphase2Failed, Expected: 'Phase 2 FAILED: '},
 
   {Name: 'cCaptureSessionDateTimeStampLogFileName', Actual: msg.cCaptureSessionDateTimeStampLogFileName, Expected: 'Capture the session date-time-stamp so we can determine a log file name.'},
   {Name: 'cProcessRulesWarningSomeRulesDoNotExist', Actual: msg.cProcessRulesWarningSomeRulesDoNotExist, Expected: 'WARNING: Some rules do not exist: '},

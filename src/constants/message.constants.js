@@ -916,6 +916,10 @@ export const cappConfigIs = gen.capp + wrd.cConfig + sys.cSpaceIsColonSpace; // 
 export const cconfigurationIs = wrd.cconfiguration + sys.cSpaceIsColonSpace; // configuration is:
 export const cpoolSizeIs = wrd.cpool + wrd.cSize + sys.cSpaceIsColonSpace; // poolSize is:
 export const cjobDataIs = wrd.cjob + wrd.cData + sys.cSpaceIsColonSpace; // jobData is:
+export const cphase1Finished = wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cfinished + bas.cColon + bas.cSpace; // Phase 1 finished:
+export const cphase2Finished = wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cfinished + bas.cColon + bas.cSpace; // Phase 2 finished:
+export const cphase1Failed = wrd.cPhase + bas.cSpace + num.c1 + bas.cSpace + wrd.cFAILED + bas.cColon + bas.cSpace; // Phase 1 FAILED:
+export const cphase2Failed = wrd.cPhase + bas.cSpace + num.c2 + bas.cSpace + wrd.cFAILED + bas.cColon + bas.cSpace; // Phase 2 FAILED:
 
 // Capture the session date-time-stamp so we can determine a log file name.
 export const cCaptureSessionDateTimeStampLogFileName = wrd.cCapture + bas.cSpace + wrd.cthe + bas.cSpace + wrd.csession + bas.cSpace + wrd.cdate + bas.cDash + wrd.ctime + bas.cDash + wrd.cstamp + bas.cSpace + bas.cso + bas.cSpace + wrd.cwe + bas.cSpace + wrd.ccan + bas.cSpace + wrd.cdetermine + bas.cSpace + bas.ca + bas.cSpace + wrd.clog + bas.cSpace + wrd.cfile + bas.cSpace + wrd.cname + bas.cDot;

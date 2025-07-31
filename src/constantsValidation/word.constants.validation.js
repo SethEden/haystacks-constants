@@ -3428,6 +3428,8 @@ export const wordConstantsValidation = [
   {Name: 'cUndefining', Actual: wrd.cUndefining, Expected: 'Undefining'},
   {Name: 'cfill', Actual: wrd.cfill, Expected: 'fill'},
   {Name: 'cFill', Actual: wrd.cFill, Expected: 'Fill'},
+  {Name: 'cfulfilled', Actual: wrd.cfulfilled, Expected: 'fulfilled'},
+  {Name: 'cFulfilled', Actual: wrd.cFulfilled, Expected: 'Fulfilled'},
   {Name: 'cfulfillment', Actual: wrd.cfulfillment, Expected: 'fulfillment'},
   {Name: 'cFulfillment', Actual: wrd.cFulfillment, Expected: 'Fulfillment'},
   {Name: 'coptimized', Actual: wrd.coptimized, Expected: 'optimized'},
